@@ -32,6 +32,7 @@ markdown_extensions:
 plugins:
   - search
   - mkdocstrings
+  - awesome-pages
 
 extra_css:
   - css/mkdocstrings.css
