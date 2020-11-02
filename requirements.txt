@@ -1,0 +1,16 @@
+pipreqs
+ipykernel
+mkdocs
+mkdocs-material
+mkdocstrings
+python-dotenv
+loguru
+click
+pytest
+pytest-html
+pydantic
+hydra-core
+boto3
+streamlit
+pylint
+mypy

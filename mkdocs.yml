@@ -1,0 +1,37 @@
+site_name: Data Scientist Hub
+site_url: http://localhost/
+# repo_url: https://eu-central-1.console.aws.amazon.com/codesuite/codecommit/repositories/advanapedia/browse?region=eu-central-1
+# repo_name: advana-cloud/advanapedia
+
+theme:
+  # favicon: assets/favicon.png
+  # logo: assets/iren_logo_cr.png
+  icon:
+    repo: fontawesome/brands/aws
+  name: "material"
+  palette:
+    scheme: slate
+    primary: amber
+    accent: orange
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - pymdownx.arithmatex
+  - admonition
+  - footnotes
+  - toc:
+      permalink: True
+
+plugins:
+  - search
+  - mkdocstrings
+
+extra_css:
+  - css/mkdocstrings.css
