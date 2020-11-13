@@ -1,0 +1,15 @@
+# Git / versioning
+
+- [](https://github.com/)
+- [](https://towardsdatascience.com/a-quick-primer-to-version-control-using-git-3fbdbb123262)
+- [](https://towardsdatascience.com/introduction-to-github-for-data-scientists-2cf8b9b25fba)
+- [](https://pre-commit.com/)
+- [](https://towardsdatascience.com/automatically-update-data-sources-in-python-e424dbea68d0)
+- [](https://gitahead.github.io/gitahead.com/)
+- [](https://towardsdatascience.com/version-control-with-git-get-started-in-less-than-15-minutes-696b4ce7ce92)
+- [](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- [](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c)
+- [](https://towardsdatascience.com/plugins-used-by-many-data-scientists-d1c80c03fec4)
+- [](https://towardsdatascience.com/all-the-things-you-can-do-with-github-api-and-python-f01790fca131)
+- [](https://towardsdatascience.com/the-4-steps-to-branching-in-git-that-data-scientists-should-know-3473c70aaa7a)
+- [](https://star-history.t9t.io/)

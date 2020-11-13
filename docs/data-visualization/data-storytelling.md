@@ -1,0 +1,17 @@
+# Data Storytelling
+
+- [](https://towardsdatascience.com/5-data-storytelling-tips-for-creating-more-persuasive-charts-and-graphs-3823af33a3c2)
+- [](https://towardsdatascience.com/make-your-data-talk-13072f84eeac)
+- [](https://towardsdatascience.com/how-to-prevent-misinformation-in-data-visualization-1521a96e6431)
+- [](https://towardsdatascience.com/the-power-of-visualization-in-data-science-1995d56e4208)
+- [](https://towardsdatascience.com/19-innovative-ways-to-use-information-visualization-across-a-variety-of-fields-edba0613136d)
+- [](https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e)
+- [](https://towardsdatascience.com/hard-statistics-and-data-science-concepts-visually-explained-de7325c2e9ef)
+- [](https://towardsdatascience.com/its-official-time-doesn-t-exist-8c786530eca1)
+- [](https://towardsdatascience.com/color-in-data-visualization-less-how-more-why-348514a3c4d8)
+- [](https://towardsdatascience.com/creating-stakeholder-friendly-dot-plots-e9e9daae9124)
+- [](https://towardsdatascience.com/the-limits-of-knowledge-b59be67fd50a)
+- [](https://ft-interactive.github.io/visual-vocabulary/)
+- [](https://towardsdatascience.com/why-is-this-chart-bad-5f16da298afa)
+- [](https://towardsdatascience.com/learn-machine-learning-concepts-interactively-6c3f64518da2)
+- [](https://guykawasaki.com/the_102030_rule/)
