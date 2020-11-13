@@ -1,3 +1,3 @@
 # Simulated Annealing
 
-- [](https://towardsdatascience.com/optimization-techniques-simulated-annealing-d6a4785a1de7)
+- [Simulated annealing for optimization](https://towardsdatascience.com/optimization-techniques-simulated-annealing-d6a4785a1de7)

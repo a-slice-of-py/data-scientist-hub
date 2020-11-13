@@ -1,3 +1,3 @@
 # Books
 
-- [](https://serialmentor.com/dataviz/)
+- [Serialmentor data-viz](https://serialmentor.com/dataviz/)

@@ -1,6 +1,6 @@
 # Methodology
 
-- [](https://miro.medium.com/max/700/1*o7DTEHgBknK2iBE9c-2Ing.jpeg)
+- [Data science landscape](https://miro.medium.com/max/700/1*o7DTEHgBknK2iBE9c-2Ing.jpeg)
 - [](https://towardsdatascience.com/strategies-for-learning-data-science-47053b58c19f)
 - [](https://medium.freecodecamp.org/a-path-for-you-to-learn-analytics-and-data-skills-bd48ccde7325)
 - [](https://towardsdatascience.com/from-business-question-to-data-science-task-55a49f471a0c)
