@@ -1,3 +1,3 @@
 # Automate boring stuff
 
-- [](https://automatetheboringstuff.com/)
+- [Automate boring stuff](https://automatetheboringstuff.com/)

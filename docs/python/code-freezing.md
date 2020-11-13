@@ -1,4 +1,4 @@
 # Code freezing
 
-- [](http://docs.python-guide.org/en/latest/shipping/freezing/)
-- [](https://github.com/jiahaog/nativefier)
+- [Code freezing with Python](http://docs.python-guide.org/en/latest/shipping/freezing/)
+- [Nativefier](https://github.com/jiahaog/nativefier)
