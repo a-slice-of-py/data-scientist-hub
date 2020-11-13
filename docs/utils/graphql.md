@@ -1,3 +1,3 @@
 # GraphQL
 
-- [](https://graphql.org/)
+- [GraphQL](https://graphql.org/)

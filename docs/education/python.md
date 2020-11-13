@@ -1,6 +1,6 @@
 # Python
 
-- [](https://github.com/MTrajK/coding-problems)
-- [](https://adventofcode.com/)
-- [](https://github.com/trekhleb/learn-python)
-- [](https://www.programiz.com/python-programming/online-compiler/)
+- [Coding problems](https://github.com/MTrajK/coding-problems)
+- [Advent of Code](https://adventofcode.com/)
+- [Learn python](https://github.com/trekhleb/learn-python)
+- [Online compiler](https://www.programiz.com/python-programming/online-compiler/)

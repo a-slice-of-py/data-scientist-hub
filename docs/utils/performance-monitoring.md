@@ -1,3 +1,3 @@
 # Performance monitoring
 
-- [](https://github.com/netdata/netdata)
+- [Netdata](https://github.com/netdata/netdata)
