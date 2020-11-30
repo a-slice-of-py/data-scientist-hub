@@ -1,15 +1,22 @@
 include config.mk
 
-## __LAUNCH_FROM_BASE_ENV__ create-env: initialize python virtual enviroment
+## __LAUNCH_FROM_BASE_ENV__ create-env: initialize python virtual environment
 .PHONY: create-env
 create-env:
-	virtualenv $(ENV_NAME)
+	@echo $(CLIP_MESSAGE)
+	@echo "conda create --prefix $(ENV_NAME) python=$(PY_VERSION)" | clip
 
-## activate-env: activate python virtual enviroment
+## activate-env: activate python virtual environment
 .PHONY: activate-env
 activate-env:
-	@echo "Command stored! You can past and run it in the CLI."
-	@echo "$(ENV_NAME)\Scripts\activate.bat" | clip
+	@echo $(CLIP_MESSAGE)
+	@echo "conda-activate $(ENV_NAME)/" | clip
+
+## init-env: initialize miniconda environment installing pip
+.PHONY: init-env
+init-env:
+	@echo $(CLIP_MESSAGE)
+	@echo "conda install pip" | clip
 
 ## init: initialize package basic dependencies
 .PHONY: init

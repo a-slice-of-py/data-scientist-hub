@@ -23,3 +23,4 @@
 - [Python type annotations](https://towardsdatascience.com/python-type-annotations-and-why-you-should-use-them-6f647c6b4e9c)
 - [`pydantic` type checking](https://pydantic-docs.helpmanual.io/)
 - [Joblib to speed up Python pipelines](https://towardsdatascience.com/using-joblib-to-speed-up-your-python-pipelines-dd97440c653d)
+- [Avoid recursion in favour of closure](https://towardsdatascience.com/dont-use-recursion-in-python-any-more-918aad95094c)

@@ -24,3 +24,4 @@
 - [Statistical tests and ARIMA](https://towardsdatascience.com/7-statistical-tests-to-validate-and-help-to-fit-arima-model-33c5853e2e93)
 - [Dynamic time warping](https://towardsdatascience.com/an-illustrative-introduction-to-dynamic-time-warping-36aa98513b98)
 - [Whale identification TS processing](https://towardsdatascience.com/whale-identification-by-processing-tails-as-time-series-6d8c928d4343)
+- [Pattern mining with `stumpy`](https://towardsdatascience.com/part-8-ab-joins-with-stumpy-af985e12e391)

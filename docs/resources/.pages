@@ -1,5 +1,5 @@
 nav:
-  - What's here: index
+  - What's here: index.md
   - ⚗️ Data Science: data-science
   - 🐍 Python: python
   - 📈 Data Visualization: data-visualization

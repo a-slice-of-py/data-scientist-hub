@@ -37,3 +37,4 @@
 - [Data science methodology](https://medium.com/towards-artificial-intelligence/the-data-science-methodology-50d60175a06a)
 - [Key requirements for an MLOps foundation](https://cloud.google.com/blog/products/ai-machine-learning/key-requirements-for-an-mlops-foundation)
 - [Building ML models is like cooking](https://towardsdatascience.com/why-building-a-machine-learning-model-is-like-cooking-4bed1f6115d1)
+- [From Senior to Chief data scientist](https://towardsdatascience.com/what-does-it-take-to-transition-from-senior-to-chief-data-scientist-1070494de73f)

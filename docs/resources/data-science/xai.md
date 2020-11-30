@@ -6,3 +6,4 @@
 - [Making sense of Shapley values](https://towardsdatascience.com/making-sense-of-shapley-values-dc67a8e4c5e8)
 - [SHAP values and kernelexplainer](https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a)
 - [Additive feature importances](https://towardsdatascience.com/the-4-types-of-additive-feature-importances-5a89f8111996)
+- [SHAP overview](https://medium.com/towards-artificial-intelligence/how-to-explain-your-machine-learning-predictions-with-shap-values-a8332c3e5a11)

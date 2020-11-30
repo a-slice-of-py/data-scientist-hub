@@ -6,3 +6,4 @@
 - [Find optimal k in KNN](https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb)
 - [K-Means](https://towardsdatascience.com/k-means-clustering-how-it-works-finding-the-optimum-number-of-clusters-in-the-data-13d18739255c)
 - [Anatomy of K-Means](https://towardsdatascience.com/the-anatomy-of-k-means-c22340543397)
+- [Clustering algorithms comparison](https://towardsdatascience.com/k-means-dbscan-gmm-agglomerative-clustering-mastering-the-popular-models-in-a-segmentation-c891a3818e29)

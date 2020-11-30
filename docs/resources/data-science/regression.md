@@ -7,3 +7,5 @@
 - [What happens when you break the assumptions of linear regression](https://towardsdatascience.com/what-happens-when-you-break-the-assumptions-of-linear-regression-f78f2fe90f3a)
 - [Statistics supporting linear models](https://towardsdatascience.com/statistics-supporting-linear-models-bfc24fb9781f)
 - [Geodesic regression](https://towardsdatascience.com/geodesic-regression-d0334de2d9d8)
+- [Symbolic regression](https://gplearn.readthedocs.io/en/stable/examples.html#symbolic-regressor)
+- [Ridge regression from scratch](https://towardsdatascience.com/how-to-code-ridge-regression-from-scratch-4b3176e5837c)

@@ -16,3 +16,4 @@
 - [Bayesian optimization](https://towardsdatascience.com/the-beauty-of-bayesian-optimization-explained-in-simple-terms-81f3ee13b10f)
 - [Bayesian inference](https://vioshyvo.github.io/Bayesian_inference/)
 - [Gelman book Columbia university](http://www.stat.columbia.edu/~gelman/book/)
+- [Bayesian state space model with `pymc3`](https://towardsdatascience.com/first-bayesian-state-space-model-with-pymc3-51cbb06ef8bd)

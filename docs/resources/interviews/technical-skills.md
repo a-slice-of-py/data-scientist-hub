@@ -10,3 +10,4 @@
 - [Python interview questions and answers](https://towardsdatascience.com/53-python-interview-questions-and-answers-91fa311eec3f)
 - [DS interview questions](https://towardsdatascience.com/i-worked-through-500-data-science-interview-questions-51e2e4dead9d)
 - [DS interview questions and answers 2](https://towardsdatascience.com/120-data-scientist-interview-questions-and-answers-you-should-know-in-2021-b2faf7de8f3e)
+- [Amazon questions for 2021](https://towardsdatascience.com/new-amazon-data-scientist-interview-practice-problems-for-2021-e46b1a2921)
