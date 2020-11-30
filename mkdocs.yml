@@ -5,7 +5,7 @@ site_url: http://localhost/
 
 theme:
   # favicon: assets/favicon.png
-  # logo: assets/iren_logo_cr.png
+  logo: assets/dsh.png
   icon:
     repo: fontawesome/brands/aws
   name: "material"
