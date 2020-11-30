@@ -1,0 +1,17 @@
+# Tools
+
+- [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler)
+- [Streamlit deploy on EC2](https://towardsdatascience.com/how-to-deploy-a-streamlit-app-using-an-amazon-free-ec2-instance-416a41f69dc3)
+- [AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_s3/LifecycleRule.html)
+- [MOTO for local test of aws resources](https://github.com/spulec/moto)
+- [KNN on SageMaker](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/k_nearest_neighbors_covtype/k_nearest_neighbors_covtype.ipynb)
+- [EC2 ssh with `argparse`](https://towardsdatascience.com/improve-your-ec2-ssh-workflow-using-argparse-ae831d1de754)
+- [Athena window functions (prestodb)](https://prestodb.io/docs/0.172/functions/window.html)
+- [AWS shell](https://github.com/awslabs/aws-shell)
+- [SLAM](https://github.com/miguelgrinberg/slam)
+- [ML pipeline on Fargate](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507)
+- [SageMaker ScriptProcessor](https://sagemaker.readthedocs.io/en/stable/api/training/processing.html#sagemaker.processing.ScriptProcessor)
+- [Streamlit deploy with Fargate](https://github.com/nicolasmetallo/legendary-streamlit-demo#3-deploy-your-streamlit-app-to-aws-fargate-using-aws-cdk)
+- [AWS Lambda power tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning)
+- [AWS Lambda tests](https://towardsdatascience.com/how-i-write-meaningful-tests-for-aws-lambda-functions-f009f0a9c587)
+- [Automatic canary releases for ML models](https://towardsdatascience.com/automatic-canary-releases-for-machine-learning-models-38874a756f87)

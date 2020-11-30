@@ -1,0 +1,12 @@
+# Cons
+
+- [Why so many data scientists are leaving their jobs](https://towardsdatascience.com/why-so-many-data-scientists-are-leaving-their-jobs-a1f0329d7ea4)
+- [AI hierarchy of needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
+- [How not to hire your first data scientist](https://hackernoon.com/how-not-to-hire-your-first-data-scientist-34f0f56f81ae)
+- [If your company isn't good at analytics, it's not ready for AI](https://hbr.org/2017/06/if-your-company-isnt-good-at-analytics-its-not-ready-for-ai)
+- [Why you're not a job-ready data scientist](https://towardsdatascience.com/why-youre-not-a-job-ready-data-scientist-yet-1a0d73f15012)
+- [Reasons not to hire a data scientist](https://learningwithdata.com/posts/tylerfolkman/7-reasons-not-to-hire-a-data-scientist/)
+- [If you think your company needs a data scientist, you're probably wrong](https://www.entrepreneur.com/article/310505)
+- [The sexiest job of 22nd century](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155)
+- [The sexiest job of 21st century](https://towardsdatascience.com/data-scientist-is-it-the-sexiest-job-of-the-21st-century-35a5bf409363)
+- [Data graveyard and the valley of death and despair](https://towardsdatascience.com/data-analyst-graveyard-the-valley-of-death-and-despair-8eaaf520f574)

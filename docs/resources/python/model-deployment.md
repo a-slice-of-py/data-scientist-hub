@@ -1,0 +1,16 @@
+# Model deployment
+
+- [Deploying ML model as a REST API](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
+- [Denzel](https://denzel.readthedocs.io/en/latest/tutorial.html)
+- [Dash development and deployment](https://towardsdatascience.com/a-gentle-introduction-to-dash-development-and-deployment-f8b91990d3bd)
+- [Deploy ML model with Flask and Heroku](https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Website to host Python web app](https://towardsdatascience.com/creating-a-website-to-host-your-python-web-application-f06f694a87e8)
+- [Deploy Dash app to Heroku](https://medium.com/@austinlasseter/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73)
+- [Build and deploy a ML web app](https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99)
+- [Deploy `streamlit` on Heroku](https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088)
+- [Anvil](https://anvil.works/)
+- [Pythonanywhere](https://www.pythonanywhere.com/pricing/)
+- [Deploy Dash app for free](https://towardsdatascience.com/the-easiest-way-to-deploy-your-dash-app-for-free-f92c575bb69e)
+- [`streamlit` deployment on Heroku](https://github.com/ash2shukla/streamlit-heroku)
+- [Deploying `streamlit` on AWS Lightsail with nginx and docker](https://medium.com/@dasirra/using-streamlit-nginx-docker-to-build-and-put-in-production-dashboards-in-aws-lightsail-781dab8f2836)

@@ -20,7 +20,8 @@
 .AppleDouble
 .LSOverride
 
-# Icon must end with two 
+# Icon must end with two 
+
 Icon
 
 # Thumbnails
@@ -179,7 +180,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb*
+#*.ipynb*
 
 # pyenv
 .python-version
@@ -320,5 +321,6 @@ $RECYCLE.BIN/
 
 # data
 /data/
+/trello-json/
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode

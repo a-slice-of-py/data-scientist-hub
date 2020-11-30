@@ -1,0 +1,12 @@
+# Pandas
+
+- [Drop all rows after first occurrence of column value](https://stackoverflow.com/questions/34163431/python-pandas-drop-all-rows-after-first-occurrence-of-column-value?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+- [Drop all rows after first occurrence of column value 2](https://stackoverflow.com/questions/46073683/pandas-drop-rows-after-first-occurrence-of-value-in-one-column-for-each-id)
+- [Vectorize data aggregation](https://www.datascience.com/blog/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/)
+- [Selecting rows based on value counts of a column](https://stackoverflow.com/questions/36166090/pandas-selecting-rows-based-on-value-counts-of-a-particular-column?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+- [Filter rows of dataframe with operator chaining](https://stackoverflow.com/questions/11869910/pandas-filter-rows-of-dataframe-with-operator-chaining?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+- [Python dictionaries get nested value](https://medium.com/@mike.reider/python-dictionaries-get-nested-value-the-sane-way-4052ab99356b)
+- [Styling `pandas`](https://pbpython.com/styling-pandas.html)
+- [`bamboolib`](https://github.com/tkrabel/bamboolib)
+- [`sidetable`](https://pbpython.com/sidetable.html)
+- [HTML table in PBP](https://pbpython.com/pandas-html-table.html)

@@ -1,0 +1,12 @@
+# Jupyter
+
+- [Jupyter tools to increase productivity](https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be09)
+- [Nbconvert](https://github.com/jupyter/nbconvert)
+- [Jupyter notebooks for data science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
+- [Jupyter themes](https://github.com/dunovank/jupyter-themes)
+- [Jupyter lab](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
+- [Interactive dashboards in Jupyter](https://blog.dominodatalab.com/interactive-dashboards-in-jupyter/)
+- [Tips for writing in Jupyter notebooks](https://towardsdatascience.com/7-essential-tips-for-writing-with-jupyter-notebook-60972a1a8901)
+- [Magic Python commands to boost productivity](https://towardsdatascience.com/top-10-magic-commands-in-python-to-boost-your-productivity-1acac061c7a9)
+- [Jupyter notebook from cmd raises `module not found` error](https://stackoverflow.com/questions/54346965/running-jupyter-notebook-from-cmd-raises-modulenotfounderror-no-module-named-py)
+- [Jupyter notebook installation issue using `pip`](https://stackoverflow.com/questions/48350692/jupyter-notebook-installation-issue-using-pip)
