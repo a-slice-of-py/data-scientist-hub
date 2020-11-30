@@ -20,7 +20,7 @@
 .AppleDouble
 .LSOverride
 
-# Icon must end with two 
+# Icon must end with two
 
 Icon
 
@@ -293,7 +293,7 @@ $RECYCLE.BIN/
 *.webp
 
 # Portable Network Graphics
-*.png
+# *.png
 
 # Animated Portable Network Graphics
 *.apng
