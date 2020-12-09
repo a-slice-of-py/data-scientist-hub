@@ -1,13 +1,13 @@
 site_name: Data Scientist Hub
-site_url: http://localhost/
-# repo_url: https://eu-central-1.console.aws.amazon.com/codesuite/codecommit/repositories/advanapedia/browse?region=eu-central-1
-# repo_name: advana-cloud/advanapedia
+site_url: https://a-slice-of-py.github.io/data-scientist-hub
+repo_url: https://github.com/a-slice-of-py/data-scientist-hub
+repo_name: a-slice-of-py/dsh
 
 theme:
-  # favicon: assets/favicon.png
-  logo: assets/dsh.png
+  favicon: assets/dsh_minimal.png
+  logo: assets/dsh_minimal.png
   icon:
-    repo: fontawesome/brands/aws
+    repo: fontawesome/brands/github
   name: "material"
   palette:
     scheme: slate
