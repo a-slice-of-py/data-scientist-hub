@@ -17,6 +17,8 @@ theme:
     - navigation.tabs
 
 markdown_extensions:
+  - attr_list
+  - pymdownx.progressbar
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.snippets
@@ -35,4 +37,4 @@ plugins:
   - awesome-pages
 
 extra_css:
-  - css/mkdocstrings.css
+  - css/extra.css
