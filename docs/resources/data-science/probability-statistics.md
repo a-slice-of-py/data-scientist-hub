@@ -18,3 +18,4 @@
 - [Optimal sample size](https://towardsdatascience.com/optimal-sample-size-determination-43c5dca1f720)
 - [Experiment design](https://towardsdatascience.com/design-of-experiment-basics-if-you-build-them-they-will-come-cc6a227a0543)
 - [Rule of three: calculating probability of events not yet occurred](https://towardsdatascience.com/the-rule-of-three-calculating-the-probability-of-events-that-have-not-yet-occurred-106144dc2c39)
+- [Hypotheses testing with `scipy`](https://medium.com/towards-artificial-intelligence/hypotheses-testing-with-scipy-b5ba86430d74)
