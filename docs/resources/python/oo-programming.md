@@ -7,5 +7,4 @@
 - [Python function tools](https://towardsdatascience.com/python-function-tools-tricks-127a0eea87ed)
 - [Managing instance attributes in Python](https://towardsdatascience.com/managing-instance-attributes-in-python-b272fe23fd50)
 - [Methods in Python for DS](https://towardsdatascience.com/methods-in-python-fundamentals-for-data-scientists-6a9393b2c2e7)
-- [Python decorators](https://towardsdatascience.com/all-you-need-to-know-about-decorators-48c37f46889d)
 - [Function overloading](https://github.com/mrocklin/multipledispatch/​​​​​​​)
