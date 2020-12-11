@@ -8,3 +8,4 @@
 - [`pycaret`](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46)
 - [Hybrid rule based ML](https://towardsdatascience.com/hybrid-rule-based-machine-learning-with-scikit-learn-9cb9841bebf2)
 - [`pycaret-2.0`](https://towardsdatascience.com/announcing-pycaret-2-0-39c11014540e)
+- [QLattice](https://medium.com/abzuai/the-qlattice-a-new-machine-learning-model-you-didnt-know-you-needed-c2e037878cd)
