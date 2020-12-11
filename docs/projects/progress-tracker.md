@@ -1,5 +1,9 @@
 ## 2020
 
+### 12 / December
+
+#### ![10%](https://progress-bar.dev/10) 📈 `folium`
+
 ### 09 / September
 
 #### ![10%](https://progress-bar.dev/10) 🐍 `python-dotenv`
