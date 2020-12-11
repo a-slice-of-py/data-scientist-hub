@@ -7,4 +7,5 @@
 - [Animating with `manim`](https://talkingphysics.wordpress.com/2019/01/08/getting-started-animating-with-manim-and-python-3-7/)
 - [Coronavirus pandemic with choropleth maps](https://towardsdatascience.com/visualizing-the-coronavirus-pandemic-with-choropleth-maps-7f30fccaecf5)
 - [Population models in Python](https://towardsdatascience.com/building-population-models-in-python-57f9e174d27d)
-- [Gif and math videos in Python](https://towardsdatascience.com/the-simplest-way-of-making-gifs-and-math-videos-with-python-aec41da74c6e)
+- [GIF and math videos in Python](https://towardsdatascience.com/the-simplest-way-of-making-gifs-and-math-videos-with-python-aec41da74c6e)
+- [GIF in Python](https://towardsdatascience.com/creating-beautiful-gif-with-python-for-your-data-analysis-ac50c618b559)
