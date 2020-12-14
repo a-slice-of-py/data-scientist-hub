@@ -4,6 +4,9 @@
 
 #### ![10%](https://progress-bar.dev/10) 📈 `folium`
 
+- [Intro](https://towardsdatascience.com/how-to-make-stunning-interactive-maps-with-python-and-folium-in-minutes-e3aff3b0ed43)
+- [Official docs](https://python-visualization.github.io/folium/)
+
 ### 09 / September
 
 #### ![10%](https://progress-bar.dev/10) 🐍 `python-dotenv`
