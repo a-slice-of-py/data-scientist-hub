@@ -10,3 +10,4 @@
 - [Golang features](https://towardsdatascience.com/7-golang-features-newbies-and-not-so-newbies-may-find-weird-e0542d079097)
 - [Golang goroutines](https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages/)
 - [Elm](https://elm-lang.org/docs)
+- [Pluto notebook for Julia](https://towardsdatascience.com/reactive-data-analysis-with-julia-in-pluto-notebooks-b4652defd03e)
