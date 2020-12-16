@@ -8,3 +8,4 @@
 - [Managing instance attributes in Python](https://towardsdatascience.com/managing-instance-attributes-in-python-b272fe23fd50)
 - [Methods in Python for DS](https://towardsdatascience.com/methods-in-python-fundamentals-for-data-scientists-6a9393b2c2e7)
 - [Function overloading](https://github.com/mrocklin/multipledispatch/​​​​​​​)
+- [Easy tutorial with Cat vs Dog](https://towardsdatascience.com/a-very-easy-tutorial-to-learn-python-objected-oriented-programming-through-ms-game-cat-vs-dog-967e229bd81e)
