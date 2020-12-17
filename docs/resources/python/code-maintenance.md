@@ -25,3 +25,4 @@
 - [Joblib to speed up Python pipelines](https://towardsdatascience.com/using-joblib-to-speed-up-your-python-pipelines-dd97440c653d)
 - [Avoid recursion in favour of closure](https://towardsdatascience.com/dont-use-recursion-in-python-any-more-918aad95094c)
 - [Custom context managers](https://towardsdatascience.com/how-to-build-custom-context-managers-in-python-31727ffe96e1)
+- [Complexity theory and Big O notation](https://towardsdatascience.com/complexity-theory-101-introduction-to-big-o-bab99152ad44)
