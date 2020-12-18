@@ -178,13 +178,14 @@
 - [Docker arg env variable](https://vsupalov.com/docker-arg-env-variable-guide/)
 - [Remove images and containers](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#:~:text=Remove%20all%20images,docker%20images%20%2Da)
 
-#### ![100%](https://progress-bar.dev/100) 🐍 Python virtual environment overview
+#### ![80%](https://progress-bar.dev/80) 🐍 Python virtual environment overview
 
 - [`virtualenv` and Jupyter](https://towardsdatascience.com/create-virtual-environment-using-virtualenv-and-add-it-to-jupyter-notebook-6e1bf4e03415)
 - [Python environment 101](https://towardsdatascience.com/python-environment-101-1d68bda3094d)
 - [Guide to virtual envs](https://docs.python-guide.org/dev/virtualenvs/)
 - [Jupyter and virtual envs](https://janakiev.com/blog/jupyter-virtual-envs/)
 - [Devops for data science project](https://towardsdatascience.com/devops-for-data-science-making-your-python-project-reproducible-f55646e110fa)
+- [Update requirements with `pur`](https://github.com/alanhamlett/pip-update-requirements)
 
 #### ![100%](https://progress-bar.dev/100) ☁️ AWS SAM vs Chalice
 

@@ -26,3 +26,4 @@
 - [Avoid recursion in favour of closure](https://towardsdatascience.com/dont-use-recursion-in-python-any-more-918aad95094c)
 - [Custom context managers](https://towardsdatascience.com/how-to-build-custom-context-managers-in-python-31727ffe96e1)
 - [Complexity theory and Big O notation](https://towardsdatascience.com/complexity-theory-101-introduction-to-big-o-bab99152ad44)
+- [Parallelization with Python](https://towardsdatascience.com/parallelism-with-python-part-1-196f0458ca14)

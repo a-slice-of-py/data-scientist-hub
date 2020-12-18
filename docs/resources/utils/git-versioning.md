@@ -11,3 +11,4 @@
 - [Github API for Python](https://towardsdatascience.com/all-the-things-you-can-do-with-github-api-and-python-f01790fca131)
 - [Branching in Git](https://towardsdatascience.com/the-4-steps-to-branching-in-git-that-data-scientists-should-know-3473c70aaa7a)
 - [Github star history](https://star-history.t9t.io/)
+- [Intro to Git for DS](https://towardsdatascience.com/introduction-to-git-for-data-science-ca5ffd1cebbe)

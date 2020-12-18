@@ -25,3 +25,4 @@
 - [Donne Martin portfolio](https://donnemartin.com/#portfolio)
 - [Auto update guthub profile](https://towardsdatascience.com/auto-updating-your-github-profile-with-python-cde87b638168)
 - [Other tools for DS portfolio](https://towardsdatascience.com/build-an-awesome-data-science-or-any-portfolio-in-no-time-with-these-tools-75ac95febf31)
+- [DS projects inspiration](https://towardsdatascience.com/12-data-science-projects-for-12-days-of-christmas-aff693f5ed2b)

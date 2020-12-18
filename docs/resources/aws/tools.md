@@ -15,3 +15,4 @@
 - [AWS Lambda power tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning)
 - [AWS Lambda tests](https://towardsdatascience.com/how-i-write-meaningful-tests-for-aws-lambda-functions-f009f0a9c587)
 - [Automatic canary releases for ML models](https://towardsdatascience.com/automatic-canary-releases-for-machine-learning-models-38874a756f87)
+- [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
