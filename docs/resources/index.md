@@ -22,7 +22,7 @@ How to nail down job interviews!
 
 Backpack of utilities.
 
-## 📚 Courses
+## 📚 Training
 
 Books, MOOC, certifications and everything else about training.
 
