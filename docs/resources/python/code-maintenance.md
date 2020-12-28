@@ -27,3 +27,4 @@
 - [Custom context managers](https://towardsdatascience.com/how-to-build-custom-context-managers-in-python-31727ffe96e1)
 - [Complexity theory and Big O notation](https://towardsdatascience.com/complexity-theory-101-introduction-to-big-o-bab99152ad44)
 - [Parallelization with Python](https://towardsdatascience.com/parallelism-with-python-part-1-196f0458ca14)
+- [Python functions to interact with JSON](https://towardsdatascience.com/4-cute-python-functions-for-working-with-dirty-data-2cf7974280b5)
