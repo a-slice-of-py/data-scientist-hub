@@ -1,0 +1,4 @@
+- [aws-lambda-layer](https://github.com/a-slice-of-py/aws-lambda-layer) ▶️ a work-in-progress utility to speed up AWS Lambda layers creation
+- [dsh](https://github.com/a-slice-of-py/data-scientist-hub) ▶️ this site source repo
+- [mastermind](https://github.com/a-slice-of-py/mastermind) ▶️ source code of a Streamlit app to enjoy a classic code-breaking game
+- _[TO BE REMOVED]_ [gists](https://gist.github.com/a-slice-of-py) ▶️ random gists to be moved into Snippets section

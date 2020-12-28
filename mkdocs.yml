@@ -35,6 +35,8 @@ plugins:
   - search
   - mkdocstrings
   - awesome-pages
+  - blog:
+      format: "[%Y/%m/%d]"
 
 extra_css:
   - css/extra.css
