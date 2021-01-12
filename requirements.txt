@@ -6,3 +6,4 @@ mkdocs-git-authors-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-awesome-pages-plugin
 git+https://github.com/srymh/MkdocsTagPlugin.git#egg=mdoctag
+mkdocs-blog-plugin
