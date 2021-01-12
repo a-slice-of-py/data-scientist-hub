@@ -25,3 +25,4 @@
 - [Dynamic time warping](https://towardsdatascience.com/an-illustrative-introduction-to-dynamic-time-warping-36aa98513b98)
 - [Whale identification TS processing](https://towardsdatascience.com/whale-identification-by-processing-tails-as-time-series-6d8c928d4343)
 - [Pattern mining with `stumpy`](https://towardsdatascience.com/part-8-ab-joins-with-stumpy-af985e12e391)
+- [Statistical tests for trend](https://towardsdatascience.com/test-for-existence-of-a-trend-in-a-time-series-3a44f242c329)

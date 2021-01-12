@@ -8,3 +8,4 @@
 - [`hiplot` for parallel coordinate plots](https://facebookresearch.github.io/hiplot/index.html)
 - [Pandas EDA libraries](https://towardsdatascience.com/pandas-eda-libraries-you-need-in-2020-part-1-ba7efcd8ffc5)
 - [Lux for Python pandas](https://github.com/lux-org/lux)
+- [SweetViz for EDA](https://medium.com/towards-artificial-intelligence/sweetviz-for-quicker-in-depth-exploratory-data-analysis-aaf8791e7f9c)

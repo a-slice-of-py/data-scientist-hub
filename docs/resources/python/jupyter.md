@@ -10,3 +10,5 @@
 - [Magic Python commands to boost productivity](https://towardsdatascience.com/top-10-magic-commands-in-python-to-boost-your-productivity-1acac061c7a9)
 - [Jupyter notebook from cmd raises `module not found` error](https://stackoverflow.com/questions/54346965/running-jupyter-notebook-from-cmd-raises-modulenotfounderror-no-module-named-py)
 - [Jupyter notebook installation issue using `pip`](https://stackoverflow.com/questions/48350692/jupyter-notebook-installation-issue-using-pip)
+- [Jupyter notebooks in Excel](https://towardsdatascience.com/python-jupyter-notebooks-in-excel-5ab34fc6439)
+- [JupyterLab cells execution time](https://github.com/deshaw/jupyterlab-execute-time)
