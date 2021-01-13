@@ -28,3 +28,4 @@
 - [DS projects inspiration](https://towardsdatascience.com/12-data-science-projects-for-12-days-of-christmas-aff693f5ed2b)
 - [GitHub Actions for automated portfolio generation](https://towardsdatascience.com/github-action-that-automates-portfolio-generation-bc15835862dc)
 - [Portfolio maker repo](https://github.com/kaustubhgupta/PortfolioFy)
+- [Impressive GitHub profile](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)

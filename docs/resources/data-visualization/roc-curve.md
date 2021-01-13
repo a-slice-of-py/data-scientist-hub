@@ -6,3 +6,4 @@
 - [ROC and precision-recall curves](https://towardsdatascience.com/on-roc-and-precision-recall-curves-c23e9b63820c)
 - [Classification models and ROC curve](https://towardsdatascience.com/machine-learning-classification-making-sense-of-the-roc-curve-30a510bba81d)
 - [Mechanics of the ROC curve](https://towardsdatascience.com/mechanics-of-the-roc-curve-83b10ce3887f)
+- [ROC and AUC explained](https://towardsdatascience.com/an-understandable-guide-to-roc-curves-and-auc-and-why-and-when-to-use-them-92020bc4c5c1)
