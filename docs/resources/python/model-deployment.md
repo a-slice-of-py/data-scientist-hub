@@ -14,3 +14,4 @@
 - [Deploy Dash app for free](https://towardsdatascience.com/the-easiest-way-to-deploy-your-dash-app-for-free-f92c575bb69e)
 - [`streamlit` deployment on Heroku](https://github.com/ash2shukla/streamlit-heroku)
 - [Deploying `streamlit` on AWS Lightsail with nginx and docker](https://medium.com/@dasirra/using-streamlit-nginx-docker-to-build-and-put-in-production-dashboards-in-aws-lightsail-781dab8f2836)
+- [`gradio` as a lightweight alternative to Streamlit](https://github.com/gradio-app/gradio)

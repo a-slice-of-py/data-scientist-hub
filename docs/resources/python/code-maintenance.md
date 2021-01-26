@@ -32,3 +32,5 @@
 - [`debugpy` for code debug](https://github.com/microsoft/debugpy)
 - [Python features from 3.7 to 3.9](https://towardsdatascience.com/amazing-features-added-to-python-from-3-7-to-now-4f35f0bb1ea6)
 - [How to avoid nested if-else statements](https://towardsdatascience.com/elegant-and-efficient-usage-of-if-else-clauses-d41d3e88fe07)
+- [Codetags for code comments](https://www.python.org/dev/peps/pep-0350/)
+- [`kedro` for code modularization and pipeline visualization](https://github.com/quantumblacklabs/kedro)
