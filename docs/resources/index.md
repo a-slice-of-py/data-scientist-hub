@@ -33,3 +33,7 @@ Amazon Web Service related stuff.
 ## ⚙️ Data Engineering
 
 DevOps, CI/CD and others data engineering best practices.
+
+## 🥗 Misc
+
+A salad of math, physics and the rest of hard sciences.

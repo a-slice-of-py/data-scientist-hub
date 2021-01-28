@@ -6,3 +6,4 @@
 - [NLTK](https://github.com/nltk/nltk)
 - [Chatbot using `rasa`](https://towardsdatascience.com/create-chatbot-using-rasa-part-1-67f68e89ddad)
 - [`rasa`: open source ML framework to automate text-and voice-based conversations](https://github.com/RasaHQ/rasa)
+- [WordNet for a lexical taxonomy of English words](https://towardsdatascience.com/%EF%B8%8Fwordnet-a-lexical-taxonomy-of-english-words-4373b541cfff)

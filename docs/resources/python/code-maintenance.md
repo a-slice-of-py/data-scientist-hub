@@ -34,3 +34,4 @@
 - [How to avoid nested if-else statements](https://towardsdatascience.com/elegant-and-efficient-usage-of-if-else-clauses-d41d3e88fe07)
 - [Codetags for code comments](https://www.python.org/dev/peps/pep-0350/)
 - [`kedro` for code modularization and pipeline visualization](https://github.com/quantumblacklabs/kedro)
+- [`retry` decorator](https://github.com/invl/retry)
