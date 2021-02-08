@@ -18,3 +18,4 @@
 - [Multiple imputation with Random Forest](https://towardsdatascience.com/multiple-imputation-with-random-forests-in-python-dec83c0ac55b)
 - [Ensemble learning](https://towardsdatascience.com/the-magic-behind-ensemble-learning-569be80fbab4)
 - [Decision tree and overfitting](https://towardsdatascience.com/construct-a-decision-tree-and-how-to-deal-with-overfitting-f907efc1492d)
+- [From boosting to gradient boosting](https://towardsdatascience.com/from-boosting-to-gradientboost-ed271cdf2e9e)

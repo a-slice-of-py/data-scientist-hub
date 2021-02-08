@@ -10,3 +10,4 @@
 - [`bamboolib`](https://github.com/tkrabel/bamboolib)
 - [`sidetable`](https://pbpython.com/sidetable.html)
 - [HTML table in PBP](https://pbpython.com/pandas-html-table.html)
+- [`cut` to transform numerical data into cateorical](https://towardsdatascience.com/all-pandas-cut-you-should-know-for-transforming-numerical-data-into-categorical-data-1370cf7f4c4f)

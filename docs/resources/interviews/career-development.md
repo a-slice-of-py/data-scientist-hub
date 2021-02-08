@@ -9,3 +9,4 @@
 - [Leading a software development team](https://towardsdatascience.com/leading-a-software-development-team-be13b3f6b0f)
 - [From Senior to Chief data scientist](https://towardsdatascience.com/what-does-it-take-to-transition-from-senior-to-chief-data-scientist-1070494de73f)
 - [How to not lose tech skills being a Manager](https://towardsdatascience.com/technical-tasks-of-data-science-managers-b2e80b797602)
+- [Career ladders and self-evaluation grid](https://github.com/anitameh/data-science-career-ladders)

@@ -12,3 +12,4 @@
 - [Jupyter notebook installation issue using `pip`](https://stackoverflow.com/questions/48350692/jupyter-notebook-installation-issue-using-pip)
 - [Jupyter notebooks in Excel](https://towardsdatascience.com/python-jupyter-notebooks-in-excel-5ab34fc6439)
 - [JupyterLab cells execution time](https://github.com/deshaw/jupyterlab-execute-time)
+- [Deploy Jupyter notebook with Binder](https://towardsdatascience.com/deploy-your-jupyter-notebooks-the-easy-way-python-edition-f831400c1905)
