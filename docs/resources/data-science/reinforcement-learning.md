@@ -10,3 +10,4 @@
 - [RL fundamentals](https://towardsdatascience.com/the-fundamentals-of-reinforcement-learning-177dd8626042)
 - [Markov decision process](https://towardsdatascience.com/understanding-the-markov-decision-process-mdp-8f838510f150)
 - [Bellman equation and dynamic programming](https://towardsdatascience.com/a-crash-course-in-markov-decision-processes-the-bellman-equation-and-dynamic-programming-e80182207e85)
+- [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)

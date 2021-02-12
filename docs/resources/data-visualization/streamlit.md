@@ -8,3 +8,4 @@
 - [`streamlit` inside JupyterHub](https://medium.com/swlh/running-streamlit-inside-jupyterhub-17cbe8c8aaaf)
 - [`streamlit` multi page hack](https://gist.github.com/Ghasel/0aba4869ba6fdc8d49132e6974e2e662)
 - [`streamlit` app to make apps](https://discuss.streamlit.io/t/a-streamlit-app-to-make-streamlit-apps/4221)
+- [Session state for multipage apps](https://towardsdatascience.com/pagination-in-streamlit-82b62de9f62b)

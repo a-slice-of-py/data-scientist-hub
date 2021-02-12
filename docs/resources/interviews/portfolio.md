@@ -30,3 +30,5 @@
 - [Portfolio maker repo](https://github.com/kaustubhgupta/PortfolioFy)
 - [Impressive GitHub profile](https://towardsdatascience.com/build-an-impressive-github-profile-in-3-steps-f1938957d480)
 - [gitbook](https://github.com/GitbookIO/gitbook)
+- [21 tips for Data Scientists self-development](https://towardsdatascience.com/21-tips-for-every-data-scientist-for-2021-3d4c28471a6c)
+- [Career docs](https://udaraw.com/career-docs/)

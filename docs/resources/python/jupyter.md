@@ -13,3 +13,4 @@
 - [Jupyter notebooks in Excel](https://towardsdatascience.com/python-jupyter-notebooks-in-excel-5ab34fc6439)
 - [JupyterLab cells execution time](https://github.com/deshaw/jupyterlab-execute-time)
 - [Deploy Jupyter notebook with Binder](https://towardsdatascience.com/deploy-your-jupyter-notebooks-the-easy-way-python-edition-f831400c1905)
+- [Jupyter magic commands](https://towardsdatascience.com/9-magic-command-to-enhance-your-jupyter-notebook-experience-101fb5f3a84)

@@ -12,3 +12,4 @@
 - [Branching in Git](https://towardsdatascience.com/the-4-steps-to-branching-in-git-that-data-scientists-should-know-3473c70aaa7a)
 - [Github star history](https://star-history.t9t.io/)
 - [Intro to Git for DS](https://towardsdatascience.com/introduction-to-git-for-data-science-ca5ffd1cebbe)
+- [Automating workflows with pre-commit hooks](https://towardsdatascience.com/automating-python-workflows-with-pre-commit-hooks-e5ef8e8d50bb)
