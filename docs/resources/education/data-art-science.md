@@ -8,3 +8,4 @@
 - [Visualize emotional arcs of movie scripts with rule-based sentiment analysis](https://towardsdatascience.com/visualizing-the-emotional-arcs-of-movie-scripts-using-rule-based-sentiment-analysis-1016b4b1af5a)
 - [Processing](https://py.processing.org/tutorials/)
 - [Turn music into data](https://towardsdatascience.com/how-music-can-be-turned-into-dataset-e40d59718d4a)
+- [Human brain and backpropagation](https://www.quantamagazine.org/artificial-neural-nets-finally-yield-clues-to-how-brains-learn-20210218/)

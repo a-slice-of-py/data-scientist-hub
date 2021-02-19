@@ -10,3 +10,4 @@
 - [From Senior to Chief data scientist](https://towardsdatascience.com/what-does-it-take-to-transition-from-senior-to-chief-data-scientist-1070494de73f)
 - [How to not lose tech skills being a Manager](https://towardsdatascience.com/technical-tasks-of-data-science-managers-b2e80b797602)
 - [Career ladders and self-evaluation grid](https://github.com/anitameh/data-science-career-ladders)
+- [How to build and lead a Data Science team](https://towardsdatascience.com/the-hitchhikers-guide-to-building-a-data-science-team-9b9c5630537b)

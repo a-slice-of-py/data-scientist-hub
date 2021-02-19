@@ -6,3 +6,4 @@
 - [Markov chains](http://setosa.io/blog/2014/07/26/markov-chains/index.html)
 - [Hidden Markov models](https://towardsdatascience.com/probability-learning-vi-hidden-markov-models-fab5c1f0a31d)
 - [Markov chain process and HMM](https://medium.com/towards-artificial-intelligence/introduction-to-the-markov-chain-process-and-hidden-markov-model-7b6abad37035)
+- [Markov chain as text generation model](https://towardsdatascience.com/generating-drug-names-with-a-markov-chain-49704dad8740)
