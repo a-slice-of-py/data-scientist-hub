@@ -1,3 +1,12 @@
+## 2021
+
+### 03 / March
+
+#### ![50%](https://progress-bar.dev/50) ⚙️ `TLJH`
+
+- [The Littlest JupyterHub installation](https://tljh.jupyter.org/en/latest/install/custom-server.html)
+- [Server spawn failed due to timeout](https://github.com/jupyterhub/the-littlest-jupyterhub/issues/351)
+
 ## 2020
 
 ### 12 / December

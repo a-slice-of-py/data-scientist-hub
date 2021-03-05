@@ -9,3 +9,4 @@
 - [Geodesic regression](https://towardsdatascience.com/geodesic-regression-d0334de2d9d8)
 - [Symbolic regression](https://gplearn.readthedocs.io/en/stable/examples.html#symbolic-regressor)
 - [Ridge regression from scratch](https://towardsdatascience.com/how-to-code-ridge-regression-from-scratch-4b3176e5837c)
+- [Regularization in regression](https://towardsdatascience.com/preventing-overfitting-with-lasso-ridge-and-elastic-net-regularization-in-machine-learning-d1799b05d382)

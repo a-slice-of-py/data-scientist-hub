@@ -32,3 +32,5 @@
 - [gitbook](https://github.com/GitbookIO/gitbook)
 - [21 tips for Data Scientists self-development](https://towardsdatascience.com/21-tips-for-every-data-scientist-for-2021-3d4c28471a6c)
 - [Career docs](https://udaraw.com/career-docs/)
+- [Github profile toolset](https://towardsdatascience.com/a-free-tool-to-take-your-github-profile-to-the-next-level-dd877a304d74)
+- [GitHub readme generator via Streamlit](https://towardsdatascience.com/a-free-tool-to-take-your-github-profile-to-the-next-level-dd877a304d74)

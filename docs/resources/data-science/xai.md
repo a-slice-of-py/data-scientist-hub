@@ -8,3 +8,4 @@
 - [Additive feature importances](https://towardsdatascience.com/the-4-types-of-additive-feature-importances-5a89f8111996)
 - [SHAP overview](https://medium.com/towards-artificial-intelligence/how-to-explain-your-machine-learning-predictions-with-shap-values-a8332c3e5a11)
 - [Explainer dashboard](https://towardsdatascience.com/build-dashboards-in-less-than-10-lines-of-code-835e9abeae4b)
+- [Shapash model explaining webapp](https://github.com/MAIF/shapash)

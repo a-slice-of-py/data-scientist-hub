@@ -10,3 +10,4 @@
 - [Lux for Python pandas](https://github.com/lux-org/lux)
 - [SweetViz for EDA](https://medium.com/towards-artificial-intelligence/sweetviz-for-quicker-in-depth-exploratory-data-analysis-aaf8791e7f9c)
 - [`datapane` to automate HTML report](https://github.com/datapane/datapane)
+- [RAWGraphs to explore spreadsheets data](https://github.com/densitydesign/raw)
