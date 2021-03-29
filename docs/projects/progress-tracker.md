@@ -2,14 +2,20 @@
 
 ### 03 / March
 
+#### ![60%](https://progress-bar.dev/60) 🎒 `reveal.js`
+
+- [reveal.js](https://revealjs.com/)
+- [Hosting on GitHub pages](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d)
+
 #### ![75%](https://progress-bar.dev/75) 🐍 `pydocstyle`
 
 - [`pydocstyle`](https://github.com/PyCQA/pydocstyle)
 
-#### ![50%](https://progress-bar.dev/50) ⚙️ `TLJH`
+#### ![80%](https://progress-bar.dev/80) ⚙️ `TLJH`
 
 - [The Littlest JupyterHub installation](https://tljh.jupyter.org/en/latest/install/custom-server.html)
 - [Server spawn failed due to timeout](https://github.com/jupyterhub/the-littlest-jupyterhub/issues/351)
+- [Distribute material with nbgitpuller](https://tljh.jupyter.org/en/latest/howto/content/nbgitpuller.html)
 
 ## 2020
 
