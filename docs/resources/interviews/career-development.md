@@ -11,3 +11,5 @@
 - [How to not lose tech skills being a Manager](https://towardsdatascience.com/technical-tasks-of-data-science-managers-b2e80b797602)
 - [Career ladders and self-evaluation grid](https://github.com/anitameh/data-science-career-ladders)
 - [How to build and lead a Data Science team](https://towardsdatascience.com/the-hitchhikers-guide-to-building-a-data-science-team-9b9c5630537b)
+- [Diversity leads to better solutions](https://towardsdatascience.com/diversity-leads-to-better-solutions-heres-why-adc9f0a30b32)
+- [15 habits for highly effective data scientists](https://towardsdatascience.com/15-habits-i-stole-from-highly-effective-data-scientists-441b1d46c572)

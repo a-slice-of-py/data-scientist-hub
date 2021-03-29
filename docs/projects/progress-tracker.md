@@ -2,6 +2,10 @@
 
 ### 03 / March
 
+#### ![75%](https://progress-bar.dev/75) 🐍 `pydocstyle`
+
+- [`pydocstyle`](https://github.com/PyCQA/pydocstyle)
+
 #### ![50%](https://progress-bar.dev/50) ⚙️ `TLJH`
 
 - [The Littlest JupyterHub installation](https://tljh.jupyter.org/en/latest/install/custom-server.html)

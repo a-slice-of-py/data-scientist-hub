@@ -33,3 +33,4 @@
 - [Key requirements for an MLOps foundation](https://cloud.google.com/blog/products/ai-machine-learning/key-requirements-for-an-mlops-foundation)
 - [Building ML models is like cooking](https://towardsdatascience.com/why-building-a-machine-learning-model-is-like-cooking-4bed1f6115d1)
 - [Data Science curriculum for professionals](https://towardsdatascience.com/data-science-curriculum-for-professionals-46d131675602)
+- [Data documentation with 5W1H framework](https://towardsdatascience.com/data-documentation-woes-heres-a-framework-6aba8f20626c)

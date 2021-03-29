@@ -20,4 +20,5 @@
 - [Rule of three: calculating probability of events not yet occurred](https://towardsdatascience.com/the-rule-of-three-calculating-the-probability-of-events-that-have-not-yet-occurred-106144dc2c39)
 - [Hypotheses testing with `scipy`](https://medium.com/towards-artificial-intelligence/hypotheses-testing-with-scipy-b5ba86430d74)
 - [Adaptive p-value](https://towardsdatascience.com/stop-using-p-0-05-9743e5cddc21)
-- [Probability distributions Q&A](https://towardsdatascience.com/getting-to-know-probability-distributions-cc1dd1e2f22b)
+- [Probability distributions Q&A - part 1](https://towardsdatascience.com/getting-to-know-probability-distributions-cc1dd1e2f22b)
+- [Probability distributions Q&A - part 2](https://towardsdatascience.com/a-field-guide-to-the-most-popular-parameters-d734596c3f26)

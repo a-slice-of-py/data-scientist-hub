@@ -19,3 +19,5 @@
 - [Ensemble learning](https://towardsdatascience.com/the-magic-behind-ensemble-learning-569be80fbab4)
 - [Decision tree and overfitting](https://towardsdatascience.com/construct-a-decision-tree-and-how-to-deal-with-overfitting-f907efc1492d)
 - [From boosting to gradient boosting](https://towardsdatascience.com/from-boosting-to-gradientboost-ed271cdf2e9e)
+- [Decision trees and lookahead strategy](https://towardsdatascience.com/lookahead-decision-tree-algorithms-1a531897d15c)
+- [AdaBoost mathematical approach](https://towardsdatascience.com/a-comprehensive-mathematical-approach-to-understand-adaboost-f185104edced)
