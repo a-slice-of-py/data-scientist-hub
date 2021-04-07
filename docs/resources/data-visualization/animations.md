@@ -9,3 +9,4 @@
 - [Population models in Python](https://towardsdatascience.com/building-population-models-in-python-57f9e174d27d)
 - [GIF and math videos in Python](https://towardsdatascience.com/the-simplest-way-of-making-gifs-and-math-videos-with-python-aec41da74c6e)
 - [GIF in Python](https://towardsdatascience.com/creating-beautiful-gif-with-python-for-your-data-analysis-ac50c618b559)
+- [`manim` 101](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
