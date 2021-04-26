@@ -17,3 +17,4 @@
 - [Automatic canary releases for ML models](https://towardsdatascience.com/automatic-canary-releases-for-machine-learning-models-38874a756f87)
 - [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - [AWS Pipeline for continuous deployment via Lambda](https://towardsdatascience.com/overcoming-aws-codepipelines-design-flaws-to-automate-serverless-ml-architecture-deployment-2c250ae5006a)
+- [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)

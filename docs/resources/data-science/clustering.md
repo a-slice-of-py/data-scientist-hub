@@ -9,3 +9,4 @@
 - [Clustering algorithms comparison](https://towardsdatascience.com/k-means-dbscan-gmm-agglomerative-clustering-mastering-the-popular-models-in-a-segmentation-c891a3818e29)
 - [Intro to hierarchical clustering](https://towardsdatascience.com/introduction-to-hierarchical-clustering-part-1-theory-linkage-and-affinity-e3b6a4817702)
 - [How to determine optimal clusters number](https://towardsdatascience.com/how-to-determine-the-right-number-of-clusters-with-code-d58de36368b1)
+- [Clustering algorithms comparison](https://towardsdatascience.com/17-clustering-algorithms-used-in-data-science-mining-49dbfa5bf69a)

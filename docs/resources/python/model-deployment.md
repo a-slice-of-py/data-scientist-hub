@@ -16,3 +16,4 @@
 - [Deploying `streamlit` on AWS Lightsail with nginx and docker](https://medium.com/@dasirra/using-streamlit-nginx-docker-to-build-and-put-in-production-dashboards-in-aws-lightsail-781dab8f2836)
 - [`gradio` as a lightweight alternative to Streamlit](https://github.com/gradio-app/gradio)
 - [ML model deployment on iPhone](https://medium.com/towards-artificial-intelligence/deploy-a-python-machine-learning-model-on-your-iphone-d006b1e04bc4)
+- [Deploy PyCaret model via FastAPI](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786)
