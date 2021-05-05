@@ -18,3 +18,4 @@
 - [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - [AWS Pipeline for continuous deployment via Lambda](https://towardsdatascience.com/overcoming-aws-codepipelines-design-flaws-to-automate-serverless-ml-architecture-deployment-2c250ae5006a)
 - [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)
+- [Streamlit dashboard deployment via ECS](https://aws.amazon.com/it/blogs/opensource/using-streamlit-to-build-an-interactive-dashboard-for-data-analysis-on-aws/)

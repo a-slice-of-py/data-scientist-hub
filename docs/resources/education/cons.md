@@ -10,3 +10,4 @@
 - [The sexiest job of 22nd century](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155)
 - [The sexiest job of 21st century](https://towardsdatascience.com/data-scientist-is-it-the-sexiest-job-of-the-21st-century-35a5bf409363)
 - [Data graveyard and the valley of death and despair](https://towardsdatascience.com/data-analyst-graveyard-the-valley-of-death-and-despair-8eaaf520f574)
+- [Pros and cons: truth about working as a Data Scientist](https://towardsdatascience.com/the-truth-about-working-as-a-data-scientist-99ed40a600d2)

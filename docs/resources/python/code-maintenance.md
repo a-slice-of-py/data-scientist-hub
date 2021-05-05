@@ -35,3 +35,4 @@
 - [Codetags for code comments](https://www.python.org/dev/peps/pep-0350/)
 - [`kedro` for code modularization and pipeline visualization](https://github.com/quantumblacklabs/kedro)
 - [`retry` decorator](https://github.com/invl/retry)
+- [Monitoring Python code execution](https://towardsdatascience.com/3-tools-to-track-and-visualize-the-execution-of-your-python-code-666a153e435e)
