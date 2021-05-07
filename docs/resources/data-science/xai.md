@@ -9,3 +9,4 @@
 - [SHAP overview](https://medium.com/towards-artificial-intelligence/how-to-explain-your-machine-learning-predictions-with-shap-values-a8332c3e5a11)
 - [Explainer dashboard](https://towardsdatascience.com/build-dashboards-in-less-than-10-lines-of-code-835e9abeae4b)
 - [Shapash model explaining webapp](https://github.com/MAIF/shapash)
+- [Black box vs glass box models](https://towardsdatascience.com/think-outside-the-black-box-7e6c95bd2234)

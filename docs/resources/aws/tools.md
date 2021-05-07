@@ -19,3 +19,4 @@
 - [AWS Pipeline for continuous deployment via Lambda](https://towardsdatascience.com/overcoming-aws-codepipelines-design-flaws-to-automate-serverless-ml-architecture-deployment-2c250ae5006a)
 - [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)
 - [Streamlit dashboard deployment via ECS](https://aws.amazon.com/it/blogs/opensource/using-streamlit-to-build-an-interactive-dashboard-for-data-analysis-on-aws/)
+- [Cross-validation via SageMaker and Step functions](https://towardsdatascience.com/cross-validate-your-machine-learning-model-with-sagemaker-and-step-functions-6610e9c6ab32?source=social.tw)
