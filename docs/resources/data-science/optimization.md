@@ -1,6 +1,6 @@
 # Optimization
 
-- [Lagrande multipliers](https://towardsdatascience.com/lagrange-multipliers-with-pictures-and-code-ace8018dac5e)
+- [Lagrange multipliers](https://towardsdatascience.com/lagrange-multipliers-with-pictures-and-code-ace8018dac5e)
 - [Openopt](http://openopt.org/)
 - [OR-Tools](https://developers.google.com/optimization/introduction/python)
 - [Solving Sudoku via AI](https://towardsdatascience.com/solving-sudoku-with-ai-d6008993c7de)
@@ -9,3 +9,4 @@
 - [Python constraint](https://github.com/python-constraint/python-constraint)
 - [Surrogate optimization](https://towardsdatascience.com/an-introduction-to-surrogate-optimization-intuition-illustration-case-study-and-the-code-5d9364aed51b)
 - [Particle Swarm Optimization (PSO)](https://towardsdatascience.com/particle-swarm-optimization-visually-explained-46289eeb2e14)
+- [Traveling Salesman Problem (TSP) heuristic](https://pub.towardsai.net/how-to-shortest-loop-any-euclidean-travelling-salesman-problem-c13c08841f94)

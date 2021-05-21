@@ -10,3 +10,5 @@
 - [Explainer dashboard](https://towardsdatascience.com/build-dashboards-in-less-than-10-lines-of-code-835e9abeae4b)
 - [Shapash model explaining webapp](https://github.com/MAIF/shapash)
 - [Black box vs glass box models](https://towardsdatascience.com/think-outside-the-black-box-7e6c95bd2234)
+- [Interpretable Machine Learning book](https://christophm.github.io/interpretable-ml-book/)
+- [InterpretML](https://github.com/interpretml/interpret)

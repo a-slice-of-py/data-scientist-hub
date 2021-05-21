@@ -96,6 +96,7 @@
 - [It's time to install Windows Terminal](https://www.hanselman.com/blog/ItsTimeForYouToInstallWindowsTerminal.aspx)
 - [Adding reaction GIFs](https://www.hanselman.com/blog/AddingReactionGifsForYourBuildSystemAndTheWindowsTerminal.aspx)
 - [Terminus issue](https://github.com/Eugeny/terminus/issues/2131)
+- [How to shorten `cmder` current path](https://stackoverflow.com/questions/44476521/display-current-directory-not-full-path)
 
 #### ![90%](https://progress-bar.dev/90) ⚙️ WSL2 101
 
@@ -205,6 +206,7 @@
 - [Jupyter and virtual envs](https://janakiev.com/blog/jupyter-virtual-envs/)
 - [Devops for data science project](https://towardsdatascience.com/devops-for-data-science-making-your-python-project-reproducible-f55646e110fa)
 - [Update requirements with `pur`](https://github.com/alanhamlett/pip-update-requirements)
+- [Wrong jupyter kernels reference](https://github.com/jupyter/notebook/issues/2359#issuecomment-318061445)
 
 #### ![100%](https://progress-bar.dev/100) ☁️ AWS SAM vs Chalice
 

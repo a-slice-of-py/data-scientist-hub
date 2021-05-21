@@ -34,3 +34,4 @@
 - [Career docs](https://udaraw.com/career-docs/)
 - [Github profile toolset](https://towardsdatascience.com/a-free-tool-to-take-your-github-profile-to-the-next-level-dd877a304d74)
 - [GitHub readme generator via Streamlit](https://towardsdatascience.com/a-free-tool-to-take-your-github-profile-to-the-next-level-dd877a304d74)
+- [How to write a data science blog](https://towardsdatascience.com/my-secrets-to-writing-a-successful-data-science-blog-b2597b2553c6)
