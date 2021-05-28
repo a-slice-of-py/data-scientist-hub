@@ -4,3 +4,4 @@
 - [EDA empirical cumulative distribution](https://www.r-bloggers.com/exploratory-data-analysis-conceptual-foundations-of-empirical-cumulative-distribution-functions/)
 - [Customer churn management](https://towardsdatascience.com/ai-101-understanding-customer-churn-management-514416c17643)
 - [Predicting customer churn for telcom](https://towardsdatascience.com/cutting-the-cord-predicting-customer-churn-for-a-telecom-company-268e65f177a5)
+- [Churn analysis via PyCaret](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac)

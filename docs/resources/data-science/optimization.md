@@ -10,3 +10,4 @@
 - [Surrogate optimization](https://towardsdatascience.com/an-introduction-to-surrogate-optimization-intuition-illustration-case-study-and-the-code-5d9364aed51b)
 - [Particle Swarm Optimization (PSO)](https://towardsdatascience.com/particle-swarm-optimization-visually-explained-46289eeb2e14)
 - [Traveling Salesman Problem (TSP) heuristic](https://pub.towardsai.net/how-to-shortest-loop-any-euclidean-travelling-salesman-problem-c13c08841f94)
+- [Guide to dynamic programming](https://towardsdatascience.com/quick-guide-to-dynamic-programming-c1618698d341)

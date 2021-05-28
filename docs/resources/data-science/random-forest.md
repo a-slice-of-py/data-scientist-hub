@@ -22,3 +22,4 @@
 - [Decision trees and lookahead strategy](https://towardsdatascience.com/lookahead-decision-tree-algorithms-1a531897d15c)
 - [AdaBoost mathematical approach](https://towardsdatascience.com/a-comprehensive-mathematical-approach-to-understand-adaboost-f185104edced)
 - [How to visualize Decision trees](https://towardsdatascience.com/4-ways-to-visualize-individual-decision-trees-in-a-random-forest-7a9beda1d1b7)
+- [Random Forest vs Gradient Boosting](https://towardsdatascience.com/3-key-differences-between-random-forests-and-gbdt-cfc48093200b)

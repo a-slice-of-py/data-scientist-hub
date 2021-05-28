@@ -12,3 +12,4 @@
 - [HTML table in PBP](https://pbpython.com/pandas-html-table.html)
 - [`cut` to transform numerical data into cateorical](https://towardsdatascience.com/all-pandas-cut-you-should-know-for-transforming-numerical-data-into-categorical-data-1370cf7f4c4f)
 - [`swifter` for parallel apply](https://github.com/jmcarpenter2/swifter)
+- [`ConnectorX` to fast SQL data load into DataFrame](https://towardsdatascience.com/connectorx-the-fastest-way-to-load-data-from-databases-a65d4d4062d5)
