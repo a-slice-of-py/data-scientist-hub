@@ -5,3 +5,4 @@
 - [Python interface for GMT (Generic Mapping Tools)](https://github.com/GenericMappingTools/pygmt)
 - [Ridge geomap](https://github.com/ColCarroll/ridge_map)
 - [Shuttle Radar Topography Mission parser](https://github.com/tkrajina/srtm.py)
+- [Geemap for Google Earth maps interaction](https://github.com/giswqs/geemap)

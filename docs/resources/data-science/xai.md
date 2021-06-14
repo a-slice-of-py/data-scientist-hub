@@ -12,3 +12,4 @@
 - [Black box vs glass box models](https://towardsdatascience.com/think-outside-the-black-box-7e6c95bd2234)
 - [Interpretable Machine Learning book](https://christophm.github.io/interpretable-ml-book/)
 - [InterpretML](https://github.com/interpretml/interpret)
+- [Permutation feature importance](https://towardsdatascience.com/from-scratch-permutation-feature-importance-for-ml-interpretability-b60f7d5d1fe9)

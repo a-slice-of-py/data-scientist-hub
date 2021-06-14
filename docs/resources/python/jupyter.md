@@ -15,3 +15,4 @@
 - [Deploy Jupyter notebook with Binder](https://towardsdatascience.com/deploy-your-jupyter-notebooks-the-easy-way-python-edition-f831400c1905)
 - [Jupyter magic commands](https://towardsdatascience.com/9-magic-command-to-enhance-your-jupyter-notebook-experience-101fb5f3a84)
 - [Tools for notebook reproducibility](https://towardsdatascience.com/4-tools-for-reproducible-jupyter-notebooks-d7423721bd04)
+- [JupyterLite: Jupyter in web browser](https://github.com/jtpio/jupyterlite)
