@@ -17,3 +17,4 @@
 - [`gradio` as a lightweight alternative to Streamlit](https://github.com/gradio-app/gradio)
 - [ML model deployment on iPhone](https://medium.com/towards-artificial-intelligence/deploy-a-python-machine-learning-model-on-your-iphone-d006b1e04bc4)
 - [Deploy PyCaret model via FastAPI](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786)
+- [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)

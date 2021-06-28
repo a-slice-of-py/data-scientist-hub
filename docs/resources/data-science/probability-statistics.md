@@ -22,3 +22,4 @@
 - [Adaptive p-value](https://towardsdatascience.com/stop-using-p-0-05-9743e5cddc21)
 - [Probability distributions Q&A - part 1](https://towardsdatascience.com/getting-to-know-probability-distributions-cc1dd1e2f22b)
 - [Probability distributions Q&A - part 2](https://towardsdatascience.com/a-field-guide-to-the-most-popular-parameters-d734596c3f26)
+- [Correlation visually explained](https://towardsdatascience.com/correlation-explained-visually-4875448e8e56)

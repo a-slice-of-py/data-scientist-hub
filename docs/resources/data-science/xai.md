@@ -13,3 +13,4 @@
 - [Interpretable Machine Learning book](https://christophm.github.io/interpretable-ml-book/)
 - [InterpretML](https://github.com/interpretml/interpret)
 - [Permutation feature importance](https://towardsdatascience.com/from-scratch-permutation-feature-importance-for-ml-interpretability-b60f7d5d1fe9)
+- [Interpretation of Isolation Forest with `shap`](https://pub.towardsai.net/interpretation-of-isolation-forest-with-shap-d1b6af93ae71)
