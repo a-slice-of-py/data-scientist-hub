@@ -27,3 +27,4 @@
 - [Pattern mining with `stumpy`](https://towardsdatascience.com/part-8-ab-joins-with-stumpy-af985e12e391)
 - [Statistical tests for trend](https://towardsdatascience.com/test-for-existence-of-a-trend-in-a-time-series-3a44f242c329)
 - [How to synchronize time series](https://towardsdatascience.com/how-to-synchronize-time-series-datasets-in-python-f3a1826c21c0)
+- [Time series libraries](https://towardsdatascience.com/7-libraries-that-help-in-time-series-problems-d59473e48ddd)

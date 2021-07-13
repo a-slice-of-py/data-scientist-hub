@@ -1,4 +1,4 @@
-# NLP
+# Natural Language Processing (NLP)
 
 - [EDA and visualization of text data](https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a)
 - [`text2emotion` to detect emotions from textual data](https://towardsdatascience.com/text2emotion-python-package-to-detect-emotions-from-textual-data-b2e7b7ce1153)
@@ -7,3 +7,6 @@
 - [Chatbot using `rasa`](https://towardsdatascience.com/create-chatbot-using-rasa-part-1-67f68e89ddad)
 - [`rasa`: open source ML framework to automate text-and voice-based conversations](https://github.com/RasaHQ/rasa)
 - [WordNet for a lexical taxonomy of English words](https://towardsdatascience.com/%EF%B8%8Fwordnet-a-lexical-taxonomy-of-english-words-4373b541cfff)
+- [Clean text](https://github.com/jfilter/clean-text)
+- [Gramformer for text correction](https://github.com/PrithivirajDamodaran/Gramformer)
+- [Styleformer for text styling](https://github.com/PrithivirajDamodaran/Styleformer)

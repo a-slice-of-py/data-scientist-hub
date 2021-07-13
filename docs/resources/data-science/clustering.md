@@ -11,3 +11,4 @@
 - [How to determine optimal clusters number](https://towardsdatascience.com/how-to-determine-the-right-number-of-clusters-with-code-d58de36368b1)
 - [Clustering algorithms comparison](https://towardsdatascience.com/17-clustering-algorithms-used-in-data-science-mining-49dbfa5bf69a)
 - [Hierarchical Agglomerative Clustering](https://towardsdatascience.com/hac-hierarchical-agglomerative-clustering-is-it-better-than-k-means-4ff6f459e390)
+- [Hierarchical clustering 101](https://pub.towardsai.net/everything-on-hierarchical-clustering-60bf613377a2)
