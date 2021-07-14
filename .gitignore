@@ -264,6 +264,7 @@ $RECYCLE.BIN/
 
 # JPEG
 *.jpg
+!docs/assets/*.jpg
 *.jpeg
 !docs/assets/*.jpeg
 *.jpe
