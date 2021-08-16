@@ -11,3 +11,4 @@
 - [Ridge regression from scratch](https://towardsdatascience.com/how-to-code-ridge-regression-from-scratch-4b3176e5837c)
 - [Regularization in regression](https://towardsdatascience.com/preventing-overfitting-with-lasso-ridge-and-elastic-net-regularization-in-machine-learning-d1799b05d382)
 - [Deming regression](https://towardsdatascience.com/error-in-variables-models-deming-regression-11ca93b6e138)
+- [Interpreting linear regression sum-up from statsmodels](https://www.adrian.idv.hk/2021-07-16-statsmodels/)

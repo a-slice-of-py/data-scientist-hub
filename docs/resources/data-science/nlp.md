@@ -10,3 +10,7 @@
 - [Clean text](https://github.com/jfilter/clean-text)
 - [Gramformer for text correction](https://github.com/PrithivirajDamodaran/Gramformer)
 - [Styleformer for text styling](https://github.com/PrithivirajDamodaran/Styleformer)
+- [Data jobs description analyzed with scattertext](https://pub.towardsai.net/i-analyzed-2k-data-scientist-and-data-engineer-jobs-and-this-is-what-i-found-1ed37f98a704)
+- [Scattertext](https://github.com/JasonKessler/scattertext)
+- [`texthero`](https://texthero.org/)
+- [`yarl` for URL processing](https://github.com/aio-libs/yarl)

@@ -11,3 +11,4 @@
 - [Particle Swarm Optimization (PSO)](https://towardsdatascience.com/particle-swarm-optimization-visually-explained-46289eeb2e14)
 - [Traveling Salesman Problem (TSP) heuristic](https://pub.towardsai.net/how-to-shortest-loop-any-euclidean-travelling-salesman-problem-c13c08841f94)
 - [Guide to dynamic programming](https://towardsdatascience.com/quick-guide-to-dynamic-programming-c1618698d341)
+- [Goal programming](http://du.ac.in/du/uploads/departments/Operational%20Research/25042020_Goal%20Programming.pdf)

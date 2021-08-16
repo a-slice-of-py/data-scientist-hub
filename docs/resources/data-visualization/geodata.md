@@ -6,3 +6,4 @@
 - [Ridge geomap](https://github.com/ColCarroll/ridge_map)
 - [Shuttle Radar Topography Mission parser](https://github.com/tkrajina/srtm.py)
 - [Geemap for Google Earth maps interaction](https://github.com/giswqs/geemap)
+- [KeplerGL](https://github.com/keplergl/kepler.gl/tree/master/bindings/kepler.gl-jupyter)

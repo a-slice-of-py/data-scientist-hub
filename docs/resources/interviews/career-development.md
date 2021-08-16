@@ -14,3 +14,5 @@
 - [Diversity leads to better solutions](https://towardsdatascience.com/diversity-leads-to-better-solutions-heres-why-adc9f0a30b32)
 - [15 habits for highly effective data scientists](https://towardsdatascience.com/15-habits-i-stole-from-highly-effective-data-scientists-441b1d46c572)
 - [7 traits for incredibly efficient data scientists](https://towardsdatascience.com/7-traits-of-incredibly-efficient-data-scientists-f49d0b8801de)
+- [How to scale a data team](https://towardsdatascience.com/what-to-look-for-when-scaling-your-data-team-986e00024d6a)
+- [How writing can advance your career](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
