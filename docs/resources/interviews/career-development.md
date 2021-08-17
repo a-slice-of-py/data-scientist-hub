@@ -16,3 +16,4 @@
 - [7 traits for incredibly efficient data scientists](https://towardsdatascience.com/7-traits-of-incredibly-efficient-data-scientists-f49d0b8801de)
 - [How to scale a data team](https://towardsdatascience.com/what-to-look-for-when-scaling-your-data-team-986e00024d6a)
 - [How writing can advance your career](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
+- [Stretch work assignments for personal growth](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/)

@@ -14,3 +14,5 @@
 - [Intro to Git for DS](https://towardsdatascience.com/introduction-to-git-for-data-science-ca5ffd1cebbe)
 - [Automating workflows with pre-commit hooks](https://towardsdatascience.com/automating-python-workflows-with-pre-commit-hooks-e5ef8e8d50bb)
 - [Daily git scenarios for DS](https://towardsdatascience.com/git-commands-data-scientists-use-on-a-day-to-day-basis-40d588cd63f7)
+- [Git web editor and repo diagram](https://towardsdatascience.com/a-tour-of-10-useful-github-features-d92dde0bf412)
+- [Gource a git history visualizer](https://gource.io/)
