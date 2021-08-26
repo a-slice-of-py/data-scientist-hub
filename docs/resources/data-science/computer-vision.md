@@ -4,3 +4,4 @@
 - [Modern computer vision with `caer`](https://github.com/jasmcaus/caer/)
 - [`scikit-image` for image processing](https://scikit-image.org/)
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
+- [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)

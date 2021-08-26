@@ -7,3 +7,6 @@
 - [Shuttle Radar Topography Mission parser](https://github.com/tkrajina/srtm.py)
 - [Geemap for Google Earth maps interaction](https://github.com/giswqs/geemap)
 - [KeplerGL](https://github.com/keplergl/kepler.gl/tree/master/bindings/kepler.gl-jupyter)
+- [How to add Google Maps layer to Folium map](https://bikeshbade.com.np/tutorials/Detail/?title=Beginner+guide+to+python+Folium+module+to+integrate+google+earth+engine&code=8)
+- [Leafmap](https://github.com/giswqs/leafmap)
+- [eefolium: Folium meets Google Earth Engine](https://github.com/giswqs/eefolium)
