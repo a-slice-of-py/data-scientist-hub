@@ -28,3 +28,7 @@
 - [Statistical tests for trend](https://towardsdatascience.com/test-for-existence-of-a-trend-in-a-time-series-3a44f242c329)
 - [How to synchronize time series](https://towardsdatascience.com/how-to-synchronize-time-series-datasets-in-python-f3a1826c21c0)
 - [Time series libraries](https://towardsdatascience.com/7-libraries-that-help-in-time-series-problems-d59473e48ddd)
+- [Kats by Facebook](https://github.com/facebookresearch/Kats)
+- [Greykite by Linkedin](https://github.com/linkedin/greykite)
+- [Merlion by Salesforce](https://github.com/salesforce/Merlion)
+- [Darts](https://towardsdatascience.com/darts-swiss-knife-for-time-series-forecasting-in-python-f37bb74c126)

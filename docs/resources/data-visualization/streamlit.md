@@ -10,3 +10,5 @@
 - [`streamlit` app to make apps](https://discuss.streamlit.io/t/a-streamlit-app-to-make-streamlit-apps/4221)
 - [Session state for multipage apps](https://towardsdatascience.com/pagination-in-streamlit-82b62de9f62b)
 - [Streamlit extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
+- [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
+- [`streamlit-heroku` deployment utils](https://github.com/danielschutz/streamlit-heroku)

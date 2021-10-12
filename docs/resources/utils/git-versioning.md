@@ -16,3 +16,4 @@
 - [Daily git scenarios for DS](https://towardsdatascience.com/git-commands-data-scientists-use-on-a-day-to-day-basis-40d588cd63f7)
 - [Git web editor and repo diagram](https://towardsdatascience.com/a-tour-of-10-useful-github-features-d92dde0bf412)
 - [Gource a git history visualizer](https://gource.io/)
+- [Branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)

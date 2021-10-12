@@ -10,3 +10,4 @@
 - [Function overloading](https://github.com/mrocklin/multipledispatch/​​​​​​​)
 - [Easy tutorial with Cat vs Dog](https://towardsdatascience.com/a-very-easy-tutorial-to-learn-python-objected-oriented-programming-through-ms-game-cat-vs-dog-967e229bd81e)
 - [Practical intro to object oriented programming](https://towardsdatascience.com/object-oriented-programming-a-practical-introduction-part-2-f376bc25f839)
+- [Tricks for Python classes](https://python.plainenglish.io/five-unknown-tricks-for-python-classes-ba5edd29a108)

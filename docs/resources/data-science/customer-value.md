@@ -7,3 +7,4 @@
 - [Business DS](https://towardsdatascience.com/business-data-science-a6fe0b27466c)
 - [Quantiles from ML model](https://towardsdatascience.com/why-how-to-create-quantiles-from-a-machine-learning-prediction-python-code-da9071622db2)
 - [DS guide to subscription businesses](https://towardsdatascience.com/the-data-scientists-guide-to-subscription-businesses-70b1fc4b4493)
+- [Clustering for customer segmentation](https://towardsdatascience.com/clustering-algorithm-for-customer-segmentation-e2d79e28cbc3)
