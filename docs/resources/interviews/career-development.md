@@ -17,3 +17,4 @@
 - [How to scale a data team](https://towardsdatascience.com/what-to-look-for-when-scaling-your-data-team-986e00024d6a)
 - [How writing can advance your career](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
 - [Stretch work assignments for personal growth](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/)
+- [Code quality as a competitive advantage](https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/)

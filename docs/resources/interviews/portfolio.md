@@ -36,3 +36,4 @@
 - [GitHub readme generator via Streamlit](https://towardsdatascience.com/a-free-tool-to-take-your-github-profile-to-the-next-level-dd877a304d74)
 - [How to write a data science blog](https://towardsdatascience.com/my-secrets-to-writing-a-successful-data-science-blog-b2597b2553c6)
 - [Tailor CV for job description](https://towardsdatascience.com/6-steps-to-optimize-and-tailor-your-resume-for-a-specific-job-description-77dd535f321f)
+- [Jupyter Book](https://jupyterbook.org/intro.html)
