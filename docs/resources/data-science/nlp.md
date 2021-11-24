@@ -14,3 +14,5 @@
 - [Scattertext](https://github.com/JasonKessler/scattertext)
 - [`texthero`](https://texthero.org/)
 - [`yarl` for URL processing](https://github.com/aio-libs/yarl)
+- [`Ecco` for pattern visualization in text data](https://towardsdatascience.com/finding-pattern-in-data-using-nmf-7b119555cb41)
+- [Concept modeling to link text and images](https://github.com/MaartenGr/concept)

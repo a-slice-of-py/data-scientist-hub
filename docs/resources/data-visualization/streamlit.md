@@ -12,3 +12,4 @@
 - [Streamlit extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [`streamlit-heroku` deployment utils](https://github.com/danielschutz/streamlit-heroku)
+- [Streamlit text rating component](https://discuss.streamlit.io/t/new-component-streamlit-text-rating/19146/4)

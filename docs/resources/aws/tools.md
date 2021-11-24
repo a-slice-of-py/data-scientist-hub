@@ -22,3 +22,4 @@
 - [Cross-validation via SageMaker and Step functions](https://towardsdatascience.com/cross-validate-your-machine-learning-model-with-sagemaker-and-step-functions-6610e9c6ab32?source=social.tw)
 - [Accessing API Gateway from VPC](https://stackoverflow.com/questions/58175596/access-api-gateway-api-operation-from-vpc)
 - [`LucidDynamodb` python wrapper](https://github.com/dineshsonachalam/lucid-dynamodb)
+- [Docker layer caching for CodeBuild](https://github.com/aws/aws-codebuild-docker-images/issues/26)

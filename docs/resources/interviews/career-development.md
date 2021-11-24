@@ -18,3 +18,4 @@
 - [How writing can advance your career](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
 - [Stretch work assignments for personal growth](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/)
 - [Code quality as a competitive advantage](https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/)
+- [The Information Architect](https://medium.com/nightingale/the-most-important-role-youre-not-hiring-for-your-data-team-the-information-architect-7521887d4d50)
