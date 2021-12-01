@@ -35,3 +35,4 @@
 - [Avoid data leakage in time series](https://towardsdatascience.com/avoiding-data-leakage-in-timeseries-101-25ea13fcb15f)
 - [Orbit by Uber for Bayesian time series forecasting](https://github.com/uber/orbit)
 - [Time series terminology](https://towardsdatascience.com/5-must-know-terms-in-time-series-analysis-bf2455b2a87)
+- [Time-series forecasting cheatsheet](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)

@@ -15,3 +15,4 @@
 - [Permutation feature importance](https://towardsdatascience.com/from-scratch-permutation-feature-importance-for-ml-interpretability-b60f7d5d1fe9)
 - [Interpretation of Isolation Forest with `shap`](https://pub.towardsai.net/interpretation-of-isolation-forest-with-shap-d1b6af93ae71)
 - [Eli5](https://github.com/eli5-org/eli5)
+- [SHAP vs ACV](https://towardsdatascience.com/the-right-way-to-compute-your-shapley-values-cfea30509254)
