@@ -18,9 +18,9 @@ Collection of resources for an effective data education.
 
 How to nail down job interviews!
 
-## 🎒 Utils
+## 🎒 Tools
 
-Backpack of utilities.
+Backpack full of tools.
 
 ## 📚 Training
 
