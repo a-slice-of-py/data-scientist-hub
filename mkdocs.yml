@@ -1,5 +1,6 @@
 site_name: Data Scientist Hub
 site_url: https://a-slice-of-py.github.io/data-scientist-hub
+site_description: "A data scientist knowledge center."
 repo_url: https://github.com/a-slice-of-py/data-scientist-hub
 repo_name: a-slice-of-py/dsh
 
@@ -9,12 +10,26 @@ theme:
   icon:
     repo: fontawesome/brands/github
   name: "material"
+  font:
+    text: Readex Pro
   palette:
-    scheme: slate
-    primary: amber
-    accent: orange
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode 
   features:
-    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.share
 
 markdown_extensions:
   - attr_list
@@ -39,4 +54,15 @@ plugins:
       format: "[%Y/%m/%d]"
 
 extra_css:
-  - css/extra.css
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/a-slice-of-py
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://it.linkedin.com/in/silviolugaro
+      name: Linkedin
+
+copyright: Copyright &copy; 2022 Silvio Lugaro

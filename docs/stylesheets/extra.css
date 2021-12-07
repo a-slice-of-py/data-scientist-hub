@@ -19,7 +19,7 @@
            --md-progress-0: #ff1744;
            --md-typeset-kbd-color: #ebebeb;
            --md-typeset-kbd-border-color: #b8b8b8;
-           --md-typeset-kbd-accent-color: hsla(0, 100%, 100%, 1);
+           --md-typeset-kbd-accent-color: hsla(0, 100%, 100%, 1);           
            --md-default-bg-color--dark: #2b2e3b;
            --md-default-bg-color--darker: #252732;
            --md-default-bg-color--darkest: #1e2029;
@@ -27,6 +27,8 @@
        }
        
         :root>[data-md-color-scheme=slate] {
+           --md-default-bg-color: rgb(30, 32, 30);
+           --md-typeset-a-color: #ff9100;
            --md-code-link-bg-color: hsla(232, 15%, 15%, 1);
            --md-code-link-accent-bg-color: var(--md-code-link-bg-color);
            --md-code-special-bg-color: #2b2d3b;
