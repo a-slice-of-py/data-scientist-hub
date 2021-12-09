@@ -1,1 +1,467 @@
 # Data Science
+## A/B Testing
+
+- [Art of A/B testing](https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4)
+- [When and when not to A/B test](https://towardsdatascience.com/when-and-when-not-to-a-b-test-c901f3ad96d9)
+- [Fundamentals of A/B testing](https://towardsdatascience.com/data-science-fundamentals-a-b-testing-cb371ceecc27)
+
+## Anomaly detection
+
+- [Time series anomaly detection](https://towardsdatascience.com/anomaly-detection-time-series-4c661f6f165f)
+- [Isolation forest](https://towardsdatascience.com/isolation-forest-from-scratch-e7e5978e6f4c)
+- [Anomaly detection with `pycaret`](https://towardsdatascience.com/a-simplified-approach-using-pycaret-for-anomaly-detection-7d33aca3f066)
+- [Equipment effectiveness with python](https://towardsdatascience.com/overall-equipment-effectiveness-with-python-fb34ccc6127b)
+- [Real-time time series anomaly detection](https://towardsdatascience.com/real-time-time-series-anomaly-detection-981cf1e1ca13)
+- [Anomaly detection with copulas](https://towardsdatascience.com/fast-accurate-anomaly-detection-based-on-copulas-copod-3133ce9041fa)
+- [Python outlier detection library](https://github.com/yzhao062/pyod)
+
+## AutoML
+
+- [AutoML python libraries](https://towardsdatascience.com/4-python-automl-libraries-every-data-scientist-should-know-680ff5d6ad08)
+- [TPOT pipelines optimization with genetic algorithms](https://towardsdatascience.com/tpot-pipelines-optimization-with-genetic-algorithms-56ec44ef6ede)
+- [MLBox](https://github.com/AxeldeRomblay/MLBox)
+
+## Bayesian methods
+
+- [Bayesian revenue estimation](https://www.smartly.io/blog/tutorial-how-we-productized-bayesian-revenue-estimation-with-stan)
+- [Estimating probabilities with bayesian modeling](https://towardsdatascience.com/estimating-probabilities-with-bayesian-modeling-in-python-7144be007815)
+- [Probabilistic programming and Bayesian methods for hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+- [Bayesian neural network with `pyro` and `pytorch`](https://towardsdatascience.com/making-your-neural-network-say-i-dont-know-bayesian-nns-using-pyro-and-pytorch-b1c24e6ab8cd)
+- [Bayesian modeling with `pymc3`](https://towardsdatascience.com/bayesian-modeling-for-ford-gobike-ridership-with-pymc3-part-i-b905104af0df)
+- [Richard Gott Princeton](http://desispeaks.com/richard-gott-princeton/)
+- [How to be less wrong](https://towardsdatascience.com/how-to-be-less-wrong-5d6632a08f)
+- [Bayesian logistic regression with `pymc3`](https://towardsdatascience.com/building-a-bayesian-logistic-regression-with-python-and-pymc3-4dd463bbb16)
+- [Naive Bayes](https://towardsdatascience.com/naive-bayes-explained-108c095241eb)
+- [Math behind Bayes methods](https://towardsdatascience.com/probability-learning-iv-the-math-behind-bayes-bfb94ea03dd8)
+- [Mathematical explanation of Naive Bayes](https://towardsdatascience.com/a-mathematical-explanation-of-naive-bayes-in-5-minutes-44adebcdb5f8)
+- [Bayesian inference with `pymc3`](https://towardsdatascience.com/the-power-of-bayesian-inference-estimated-using-pymc3-6357e3af7f1f)
+- [Bayesian Time Series linear regression](https://towardsdatascience.com/the-first-step-in-bayesian-time-series-linear-regression-89a64b826a7e)
+- [Bayesian optimization](https://towardsdatascience.com/the-beauty-of-bayesian-optimization-explained-in-simple-terms-81f3ee13b10f)
+- [Bayesian inference](https://vioshyvo.github.io/Bayesian_inference/)
+- [Gelman book Columbia university](http://www.stat.columbia.edu/~gelman/book/)
+- [Bayesian state space model with `pymc3`](https://towardsdatascience.com/first-bayesian-state-space-model-with-pymc3-51cbb06ef8bd)
+- [Bayesian inference and MCMC variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
+
+## Bin Packing 
+
+- [BPP scipbook](https://scipbook.readthedocs.io/en/latest/bpp.html)
+- [PuLP](https://pythonhosted.org/PuLP/)
+- [GitHub PuLP](https://github.com/coin-or/pulp/tree/master/examples)
+- [PuLP examples](https://hal.archives-ouvertes.fr/hal-00780434/document)
+- [Wedding PuLP example](https://github.com/coin-or/pulp/blob/master/examples/wedding.py)
+- [PuLP paper](https://arxiv.org/pdf/1509.06712.pdf)
+- [Binpacking library](https://github.com/benmaier/binpacking)
+- [Binpacking PuLP](https://www.linkedin.com/pulse/bin-packing-python-pulp-michael-basilyan)
+
+## Binsize
+
+- [Histogram](http://toyoizumilab.brain.riken.jp/hideaki/res/histogram.html)
+- [Model risk](http://www.vosesoftware.com/ModelRiskHelp/index.html)
+- [Optimal number of bins Freedman Diaconis rule](http://stats.stackexchange.com/questions/143438/optimal-number-of-bins-in-histogram-by-the-freedman-diaconis-rule-difference-be)
+- [Understanding Freedman Diaconis rule](https://www.quora.com/Can-anyone-help-me-understanding-What-is-Freedman%E2%80%93Diaconis-rule)
+- [Freedman Diaconis rule paper](http://bayes.wustl.edu/Manual/FreedmanDiaconis1_1981.pdf)
+
+## Churn analysis
+
+- [Modeling customer churn when churns are not observed](https://towardsdatascience.com/modelling-customer-churn-when-churns-are-not-explicitly-observed-with-r-a768a1c919d5)
+- [EDA empirical cumulative distribution](https://www.r-bloggers.com/exploratory-data-analysis-conceptual-foundations-of-empirical-cumulative-distribution-functions/)
+- [Customer churn management](https://towardsdatascience.com/ai-101-understanding-customer-churn-management-514416c17643)
+- [Predicting customer churn for telcom](https://towardsdatascience.com/cutting-the-cord-predicting-customer-churn-for-a-telecom-company-268e65f177a5)
+- [Churn analysis via PyCaret](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac)
+
+## Classification
+
+- [Reliability diagrams for probability calibration](https://towardsdatascience.com/introduction-to-reliability-diagrams-for-probability-calibration-ed785b3f5d44)
+- [Composite classification metrics](https://towardsdatascience.com/the-3-most-important-composite-classification-metrics-b1f2d886dc7b)
+- [SMOTE for synthetic data augmentation and unbalanced datasets](https://towardsdatascience.com/smote-synthetic-data-augmentation-for-tabular-data-1ce28090debc)
+- [Calculating business value of binary classification](https://towardsdatascience.com/calculating-the-business-value-of-a-data-science-project-3b282de9be3c)
+- [`predict_proba` probabilities calibration](https://towardsdatascience.com/pythons-predict-proba-doesn-t-actually-predict-probabilities-and-how-to-fix-it-f582c21d63fc)
+- [Why class balancing can be avoided](https://towardsdatascience.com/why-balancing-classes-is-over-hyped-e382a8a410f7)
+## Clustering
+
+- [Tomato clustering](https://towardsdatascience.com/tda-to-rule-them-all-tomato-clustering-878e03394a1)
+- [Alternatives to k-means](https://www.datascience.com/blog/k-means-alternatives)
+- [Clustering metrics](https://towardsdatascience.com/clustering-metrics-better-than-the-elbow-method-6926e1f723a6)
+- [Find optimal k in KNN](https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb)
+- [K-Means](https://towardsdatascience.com/k-means-clustering-how-it-works-finding-the-optimum-number-of-clusters-in-the-data-13d18739255c)
+- [Anatomy of K-Means](https://towardsdatascience.com/the-anatomy-of-k-means-c22340543397)
+- [Clustering algorithms comparison](https://towardsdatascience.com/k-means-dbscan-gmm-agglomerative-clustering-mastering-the-popular-models-in-a-segmentation-c891a3818e29)
+- [Intro to hierarchical clustering](https://towardsdatascience.com/introduction-to-hierarchical-clustering-part-1-theory-linkage-and-affinity-e3b6a4817702)
+- [How to determine optimal clusters number](https://towardsdatascience.com/how-to-determine-the-right-number-of-clusters-with-code-d58de36368b1)
+- [Clustering algorithms comparison](https://towardsdatascience.com/17-clustering-algorithms-used-in-data-science-mining-49dbfa5bf69a)
+- [Hierarchical Agglomerative Clustering](https://towardsdatascience.com/hac-hierarchical-agglomerative-clustering-is-it-better-than-k-means-4ff6f459e390)
+- [Hierarchical clustering 101](https://pub.towardsai.net/everything-on-hierarchical-clustering-60bf613377a2)
+- [Regional Online Learnable Fields (ROLF)](https://towardsdatascience.com/regional-and-online-learnable-fields-cbb18b74e01e)
+- [Interpretable KMeans via Classification feature importance](https://towardsdatascience.com/interpretable-k-means-clusters-feature-importances-7e516eeb8d3c)
+- [How to select optimal k for K-Means](https://towardsdatascience.com/selecting-optimal-k-for-k-means-clustering-c7579fd2e926)
+## Code differentiation
+
+- [Differentiation from scratch](https://towardsdatascience.com/build-your-own-automatic-differentiation-program-6ecd585eec2a)
+- [Differentiable programming](https://towardsdatascience.com/understand-differentiable-programming-54f11bfb574)
+## Computer Vision
+
+- [Lane detection](https://towardsdatascience.com/how-i-learned-lane-detection-using-asphalt-8-airborne-bae4d0982134)
+- [Modern computer vision with `caer`](https://github.com/jasmcaus/caer/)
+- [`scikit-image` for image processing](https://scikit-image.org/)
+- [FiftyOne app](https://github.com/voxel51/fiftyone)
+- [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
+## Curse Of Dimensionality
+
+- [Curse of dimensionality explained](https://towardsdatascience.com/the-curse-of-dimensionality-minus-the-curse-of-jargon-520da109fc87)
+
+## Customer value
+
+- [Customer segmentation](https://medium.com/@kristenkehrer/how-to-use-customer-segmentation-to-learn-f49e82b9a959)
+- [Seasonal customers via time series analysis](https://towardsdatascience.com/a-different-use-of-time-series-to-identify-seasonal-customers-8806f2a626b)
+- [Identify seasonal customers with Python](https://towardsdatascience.com/python-code-for-identifying-seasonal-customers-4bd36dc7fcda)
+- [Customer lifetime value prediction](https://towardsdatascience.com/predicting-customer-lifetime-value-with-buy-til-you-die-probabilistic-models-in-python-f5cac78758d9)
+- [Business DS](https://towardsdatascience.com/business-data-science-a6fe0b27466c)
+- [Quantiles from ML model](https://towardsdatascience.com/why-how-to-create-quantiles-from-a-machine-learning-prediction-python-code-da9071622db2)
+- [DS guide to subscription businesses](https://towardsdatascience.com/the-data-scientists-guide-to-subscription-businesses-70b1fc4b4493)
+- [Clustering for customer segmentation](https://towardsdatascience.com/clustering-algorithm-for-customer-segmentation-e2d79e28cbc3)
+## Deep Learning
+
+- [D2L](http://d2l.ai/)
+- [Implementing DL from scratch in Python](https://towardsdatascience.com/on-implementing-deep-learning-library-from-scratch-in-python-c93c942710a8)
+
+## Dimensionality Reduction
+
+- [Locally linear embedding (LLE)](https://towardsdatascience.com/lle-locally-linear-embedding-a-nifty-way-to-reduce-dimensionality-in-python-ab5c38336107)
+## Dynamic pricing
+
+- [Dynamic pricing for theatre](https://towardsdatascience.com/statistics-for-dynamic-pricing-of-theatre-87df073a0848)
+
+## Features engineering and selection
+
+- [Boruta](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)
+- [Guide to feature extraction](https://towardsdatascience.com/the-hitchhikers-guide-to-feature-extraction-b4c157e96631)
+- [Feature selection don'ts](https://towardsdatascience.com/feature-selection-you-are-probably-doing-it-wrong-985679b41456)
+- [Features normally distributed](https://towardsdatascience.com/what-if-the-exam-marks-are-not-normally-distributed-67e2d2d56286)
+- [How and Why](https://towardsdatascience.com/feature-importance-hows-and-why-s-3678ede1e58f)
+
+## Football analytics
+
+- [Paper](https://arxiv.org/abs/1802.04987)
+- [Predict Euro 2020 winner](https://towardsdatascience.com/predict-euro-cup-matches-with-simple-statistics-2fc913678117)
+- [Poisson regression for football match results prediction](https://towardsdatascience.com/predicting-matches-for-the-uefa-euro-2020-championship-7dcfa449c8ee)
+## Game Theory
+
+- [Game Theory intro with Python](https://towardsdatascience.com/an-introduction-to-game-theory-using-python-358c63e36e02)
+
+## Gaussian Mixture Models
+
+- [EM algorithm for GMM](https://towardsdatascience.com/expectation-maximization-for-gmms-explained-5636161577ca)
+- [GMM explained](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)
+
+## Gaussian Processes
+
+- [Intuitive guide to Gaussian processes](https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
+- [Gaussian process regression](https://towardsdatascience.com/quick-start-to-gaussian-process-regression-36d838810319)
+- [Other uses of Gaussian processes](https://towardsdatascience.com/gaussian-processes-make-your-own-objectives-in-life-6d78d3c0b49e)
+
+## Genetic algorithm
+
+- [Intro to GA for optimization](https://towardsdatascience.com/introduction-to-genetic-algorithm-and-python-implementation-for-function-optimization-fd36bad58277)
+
+## GIS
+
+- [Transportation DS](https://towardsdatascience.com/five-essential-skills-for-transportation-data-science-8c4bed72c03e)
+- [Spatial autocorrelation](https://towardsdatascience.com/spatial-autocorrelation-bd000faf3991)
+- [Geospatial data declustering](https://towardsdatascience.com/why-data-scientists-should-decluster-their-geospatial-datasets-8425b0b2453f)
+- [EDA of spatial data and spatial autocorrelation](https://towardsdatascience.com/exploratory-spatial-data-analysis-esda-spatial-autocorrelation-7592edcbef9a)
+- [GPS trajectory clustering](https://towardsdatascience.com/gps-trajectory-clustering-with-python-9b0d35660156)
+## Gradient methods
+
+- [ML and particle motion in liquid](https://towardsdatascience.com/machine-learning-and-particle-motion-in-liquids-an-elegant-link-4e7c1611c945)
+- [Gradient descent deep dive](https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21)
+
+## Hyperparameters Tuning
+
+- [`optuna` library for hyperparameter tuning in logistic regression](https://towardsdatascience.com/exploring-optuna-a-hyper-parameter-framework-using-logistic-regression-84bd622cd3a5)
+- [Gaussian processes for ML models tuning](https://towardsdatascience.com/gaussian-processes-smarter-tuning-for-your-ml-models-c72c7d4f5833)
+- [Optuna and sklearn integration](https://towardsdatascience.com/optuna-a-flexible-efficient-and-scalable-hyperparameter-optimization-framework-d26bc7a23fff)
+- [Hyperparameters tuning with Optuna and human-in-the-loop](https://towardsdatascience.com/selecting-hyperparameter-values-with-sequential-human-in-the-loop-search-space-modification-766d272ed061)
+- [Evolutionary and genetic algorithms for parameters tuning](https://towardsdatascience.com/tune-your-scikit-learn-model-using-evolutionary-algorithms-30538248ac16)
+
+## Kernel Methods
+
+- [Kernel trick](https://towardsdatascience.com/the-kernel-trick-c98cdbcaeb3f)
+- [Kernel regression](https://towardsdatascience.com/kernel-regression-from-scratch-in-python-ea0615b23918)
+
+## Machine Learning
+
+- [GUI for ML workflow and pipeline discovery](https://towardsdatascience.com/gui-fying-the-machine-learning-workflow-towards-rapid-discovery-of-viable-pipelines-cab2552c909f)
+- [ML prototypes](https://towardsdatascience.com/learn-to-build-machine-learning-services-prototype-real-applications-and-deploy-your-work-to-aa97b2b09e0c)
+- [Designing intelligence](https://towardsdatascience.com/designing-intelligence-c78f9959b3b8)
+- [AI, ML and DL](https://towardsdatascience.com/notes-on-artificial-intelligence-ai-machine-learning-ml-and-deep-learning-dl-for-56e51a2071c2)
+- [Game theory for ML interpretation](https://towardsdatascience.com/the-ultimate-guide-using-game-theory-to-interpret-machine-learning-c384cbb6929)
+- [`pycaret`](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46)
+- [Hybrid rule based ML](https://towardsdatascience.com/hybrid-rule-based-machine-learning-with-scikit-learn-9cb9841bebf2)
+- [`pycaret-2.0`](https://towardsdatascience.com/announcing-pycaret-2-0-39c11014540e)
+- [QLattice](https://medium.com/abzuai/the-qlattice-a-new-machine-learning-model-you-didnt-know-you-needed-c2e037878cd)
+- [`human-learn` library to labeling data by drawing](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
+- [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
+
+## Marketing Analytics
+
+- [Beginner guide to Marketing Analytics](https://towardsdatascience.com/data-science-in-marketing-a-beginners-guide-f23423d2ee68)
+## Markov Chains
+
+- [Attribution model](https://analyzecore.com/2016/08/03/attribution-model-r-part-1)
+- [Progressions](https://towardsdatascience.com/progressions-eb79a573f7f1)
+- [Market simulator with Mark chains](https://towardsdatascience.com/how-to-build-a-market-simulator-using-markov-chains-and-python-7923256f8d29)
+- [Markov chains](http://setosa.io/blog/2014/07/26/markov-chains/index.html)
+- [Hidden Markov models](https://towardsdatascience.com/probability-learning-vi-hidden-markov-models-fab5c1f0a31d)
+- [Markov chain process and HMM](https://medium.com/towards-artificial-intelligence/introduction-to-the-markov-chain-process-and-hidden-markov-model-7b6abad37035)
+- [Markov chain as text generation model](https://towardsdatascience.com/generating-drug-names-with-a-markov-chain-49704dad8740)
+- [Beatles lyrics generation via Markov Chains](https://towardsdatascience.com/generate-unedited-beatles-lyrics-using-markov-chain-b7968c49584f)
+
+## MCMC
+
+- [Animations with MCMC](https://towardsdatascience.com/creating-animations-with-mcmc-4458ab2b6cc3)
+- [Monte Carlo tree search](https://towardsdatascience.com/monte-carlo-tree-search-158a917a8baa)
+- [Monte Carlo in PBP](https://pbpython.com/monte-carlo.html)
+- [MCMC for cryptography and optimization](https://towardsdatascience.com/applications-of-mcmc-for-cryptography-and-optimization-1f99222b7132)
+- [`pyro`](http://pyro.ai/examples/index.html)
+- [Metropolis-Hastings from scratch in Python](https://towardsdatascience.com/bayesian-statistics-metropolis-hastings-from-scratch-in-python-c3b10cc4382d)
+- [Monte Carlo methods](https://towardsdatascience.com/monte-carlo-methods-made-simple-91758ba58dde)
+- [Random sampling via Python decorator](https://towardsdatascience.com/python-decorators-with-data-science-random-sampling-177962cae80c)
+
+## Model evaluation
+
+- [Plot learning curve](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html)
+- [Validation sets](http://www.fast.ai/2017/11/13/validation-sets)
+- [ML Tool](https://github.com/DataBeast03/DataBeast/blob/master/ML_Tool/ML_Tool.ipynb)
+- [Validate and ML model](https://towardsdatascience.com/validating-your-machine-learning-model-25b4c8643fb7)
+- [Overfitting and underfitting](https://towardsdatascience.com/overfitting-and-underfitting-visually-explained-like-youre-five-8a389b511751)
+- [Cross validation](https://towardsdatascience.com/cross-validation-c4fae714f1c5)
+- [Validation curve](https://towardsdatascience.com/validation-curve-explained-plot-the-influence-of-a-single-hyperparameter-1ac4864deaf8)
+
+## Neural Networks
+
+- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
+- [Make NN paint to understand how they work](https://towardsdatascience.com/making-deep-neural-networks-paint-to-understand-how-they-work-4be0901582ee)
+- [Intro to neural networks](https://towardsdatascience.com/simple-introduction-to-neural-networks-ac1d7c3d7a2c)
+- [NN manifolds topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
+- [Visualizing optimization trajectory in neural networks](https://towardsdatascience.com/from-animation-to-intuition-visualizing-optimization-trajectory-in-neural-nets-726e43a08d85)
+- [Deep dream convolutional networks full code](https://towardsdatascience.com/van-gogh-painting-with-deep-dream-convolutional-networks-13d614ec7eee)
+
+## Natural Language Processing (NLP)
+
+- [EDA and visualization of text data](https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a)
+- [`text2emotion` to detect emotions from textual data](https://towardsdatascience.com/text2emotion-python-package-to-detect-emotions-from-textual-data-b2e7b7ce1153)
+- [Quantify information in statements with entropy from Information Theory](https://towardsdatascience.com/an-information-theoretic-approach-to-quantify-the-information-in-statements-b7b191adaf6e)
+- [NLTK](https://github.com/nltk/nltk)
+- [Chatbot using `rasa`](https://towardsdatascience.com/create-chatbot-using-rasa-part-1-67f68e89ddad)
+- [`rasa`: open source ML framework to automate text-and voice-based conversations](https://github.com/RasaHQ/rasa)
+- [WordNet for a lexical taxonomy of English words](https://towardsdatascience.com/%EF%B8%8Fwordnet-a-lexical-taxonomy-of-english-words-4373b541cfff)
+- [Clean text](https://github.com/jfilter/clean-text)
+- [Gramformer for text correction](https://github.com/PrithivirajDamodaran/Gramformer)
+- [Styleformer for text styling](https://github.com/PrithivirajDamodaran/Styleformer)
+- [Data jobs description analyzed with scattertext](https://pub.towardsai.net/i-analyzed-2k-data-scientist-and-data-engineer-jobs-and-this-is-what-i-found-1ed37f98a704)
+- [Scattertext](https://github.com/JasonKessler/scattertext)
+- [`texthero`](https://texthero.org/)
+- [`yarl` for URL processing](https://github.com/aio-libs/yarl)
+- [`Ecco` for pattern visualization in text data](https://towardsdatascience.com/finding-pattern-in-data-using-nmf-7b119555cb41)
+- [Concept modeling to link text and images](https://github.com/MaartenGr/concept)
+- [Data QA to label data](https://towardsdatascience.com/a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae)
+## Objects tracking
+
+- [`py-motmetrics`](https://github.com/cheind/py-motmetrics)
+- [Intro to multiple objects tracking metrics](https://pub.towardsai.net/multi-object-tracking-metrics-1e602f364c0c)
+## OCR
+
+- [Open source OCR tools](https://towardsdatascience.com/5-open-source-tools-you-can-use-to-train-and-deploy-an-ocr-project-8f204dec862b)
+## Optimization
+
+- [Lagrange multipliers](https://towardsdatascience.com/lagrange-multipliers-with-pictures-and-code-ace8018dac5e)
+- [Openopt](http://openopt.org/)
+- [OR-Tools](https://developers.google.com/optimization/introduction/python)
+- [Solving Sudoku via AI](https://towardsdatascience.com/solving-sudoku-with-ai-d6008993c7de)
+- [Arbitrage strategy with linear programming](https://towardsdatascience.com/designing-an-energy-arbitrage-strategy-with-linear-programming-f60734fe9888)
+- [Lagrange multiplier demystified](https://towardsdatascience.com/lagrange-multiplier-demystified-1e5fd55cee5a)
+- [Python constraint](https://github.com/python-constraint/python-constraint)
+- [Surrogate optimization](https://towardsdatascience.com/an-introduction-to-surrogate-optimization-intuition-illustration-case-study-and-the-code-5d9364aed51b)
+- [Particle Swarm Optimization (PSO)](https://towardsdatascience.com/particle-swarm-optimization-visually-explained-46289eeb2e14)
+- [Traveling Salesman Problem (TSP) heuristic](https://pub.towardsai.net/how-to-shortest-loop-any-euclidean-travelling-salesman-problem-c13c08841f94)
+- [Guide to dynamic programming](https://towardsdatascience.com/quick-guide-to-dynamic-programming-c1618698d341)
+- [Goal programming](http://du.ac.in/du/uploads/departments/Operational%20Research/25042020_Goal%20Programming.pdf)
+## Pattern mining
+
+- [Data mining techniques](https://towardsdatascience.com/5-data-mining-techniques-every-data-scientist-should-know-be06426a4ed9)
+
+## Physics
+
+- [From physics to optimization](https://towardsdatascience.com/how-to-turn-physics-into-an-optimization-problem-11b3fbf83062)
+## Price optimization
+
+- [Regression for price optimization](https://towardsdatascience.com/optimizing-product-price-using-regression-2c17688e65ea)
+
+## Probability & Statistics
+
+- [Chi-square test](http://stattrek.com/chi-square-test/independence.aspx?Tutorial=AP)
+- [Probability and statistics for DS](https://towardsdatascience.com/probability-statistics-for-data-science-series-83b94353ca48)
+- [Statistical significance](https://medium.com/datadriveninvestor/you-say-you-want-statistical-significance-aefc35aa377f)
+- [Hypothesis test](https://towardsdatascience.com/setting-your-hypothesis-test-up-for-success-5d31bec2d7ed)
+- [How to determine significance for hypothesis testing](https://towardsdatascience.com/hypothesis-testing-how-to-determine-significance-ce3991c5db53)
+- [Visualize hypothesis testing](https://towardsdatascience.com/hypothesis-testing-visualized-6f30b18fc78f)
+- [Causal vs statistical inference](https://towardsdatascience.com/causal-vs-statistical-inference-3f2c3e617220)
+- [Phi_k correlation coefficient](https://phik.readthedocs.io/en/latest/#)
+- [PP score](https://github.com/8080labs/ppscore)
+- [Generate random variables](https://towardsdatascience.com/how-to-generate-random-variables-from-scratch-no-library-used-4b71eb3c8dc7)
+- [`pingouin` better than `statsmodels`](https://towardsdatascience.com/new-python-library-for-statistical-tests-simpler-than-statsmodels-richer-than-scipy-stats-ff380d4673c0)
+- [`pingouin` library for statistical tests](https://towardsdatascience.com/the-new-kid-on-the-statistics-in-python-block-pingouin-6b353a1db57c)
+- [Guide to confidence intervals](https://towardsdatascience.com/an-intuitive-guide-to-confidence-intervals-522908b9a158)
+- [Stop using p = 0.05](https://towardsdatascience.com/stop-using-p-0-05-4a059e622c75)
+- [What p-value stands for](https://towardsdatascience.com/what-is-p-value-short-for-no-seriously-c548200660a)
+- [Optimal sample size](https://towardsdatascience.com/optimal-sample-size-determination-43c5dca1f720)
+- [Experiment design](https://towardsdatascience.com/design-of-experiment-basics-if-you-build-them-they-will-come-cc6a227a0543)
+- [Rule of three: calculating probability of events not yet occurred](https://towardsdatascience.com/the-rule-of-three-calculating-the-probability-of-events-that-have-not-yet-occurred-106144dc2c39)
+- [Hypotheses testing with `scipy`](https://medium.com/towards-artificial-intelligence/hypotheses-testing-with-scipy-b5ba86430d74)
+- [Adaptive p-value](https://towardsdatascience.com/stop-using-p-0-05-9743e5cddc21)
+- [Probability distributions Q&A - part 1](https://towardsdatascience.com/getting-to-know-probability-distributions-cc1dd1e2f22b)
+- [Probability distributions Q&A - part 2](https://towardsdatascience.com/a-field-guide-to-the-most-popular-parameters-d734596c3f26)
+- [Correlation visually explained](https://towardsdatascience.com/correlation-explained-visually-4875448e8e56)
+## Random Forest
+
+- [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
+- [Intuition behind Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
+- [Explaining feature importance](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
+- [`catboost` for gradient boosting decision trees](https://towardsdatascience.com/introduction-to-gradient-boosting-on-decision-trees-with-catboost-d511a9ccbd14)
+- [`catboost` docs](https://tech.yandex.com/catboost/doc/dg/concepts/about-docpage/)
+- [Understanding decision trees](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579)
+- [Random Forest interpretability](https://towardsdatascience.com/interpretability-and-random-forests-4fe13a79ae34)
+- [`catboost` for model interpretation](https://towardsdatascience.com/deep-dive-into-catboost-functionalities-for-model-interpretation-7cdef669aeed)
+- [Visualize bagging effect on bias and variance](https://towardsdatascience.com/understanding-the-effect-of-bagging-on-variance-and-bias-visually-6131e6ff1385)
+- [How to draw decision trees](https://towardsdatascience.com/decision-trees-how-to-draw-them-on-paper-e2597af497f0)
+- [Decision trees code](https://towardsdatascience.com/almost-everything-you-need-to-know-about-decision-trees-with-code-dc026172a284)
+- [Why you should learn `catboost`](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
+- [Intuition behind `xgboost`](https://towardsdatascience.com/the-intuition-behind-gradient-boosting-xgboost-6d5eac844920)
+- [Tree boosted mixed models](https://towardsdatascience.com/tree-boosted-mixed-effects-models-4df610b624cb)
+- [Random Forest in ML](https://medium.com/towards-artificial-intelligence/use-of-decision-trees-and-random-forest-in-machine-learning-1e35e737b638)
+- [Multiple imputation with Random Forest](https://towardsdatascience.com/multiple-imputation-with-random-forests-in-python-dec83c0ac55b)
+- [Ensemble learning](https://towardsdatascience.com/the-magic-behind-ensemble-learning-569be80fbab4)
+- [Decision tree and overfitting](https://towardsdatascience.com/construct-a-decision-tree-and-how-to-deal-with-overfitting-f907efc1492d)
+- [From boosting to gradient boosting](https://towardsdatascience.com/from-boosting-to-gradientboost-ed271cdf2e9e)
+- [Decision trees and lookahead strategy](https://towardsdatascience.com/lookahead-decision-tree-algorithms-1a531897d15c)
+- [AdaBoost mathematical approach](https://towardsdatascience.com/a-comprehensive-mathematical-approach-to-understand-adaboost-f185104edced)
+- [How to visualize Decision trees](https://towardsdatascience.com/4-ways-to-visualize-individual-decision-trees-in-a-random-forest-7a9beda1d1b7)
+- [Random Forest vs Gradient Boosting](https://towardsdatascience.com/3-key-differences-between-random-forests-and-gbdt-cfc48093200b)
+- [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
+- [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
+
+## Regression
+
+- [Generalized linear models](https://towardsdatascience.com/generalized-linear-models-9cbf848bb8ab)
+- [Generalized linear regression with `scikit-learn`](https://towardsdatascience.com/glr-with-python-and-scikit-learn-library-67b5b0d418ea)
+- [Ordinary least squared regression](https://towardsdatascience.com/ols-linear-regression-gauss-markov-blue-and-understanding-the-math-453d7cc630a5)
+- [Adaptive LASSO](https://towardsdatascience.com/an-adaptive-lasso-63afca54b80d)
+- [What happens when you break the assumptions of linear regression](https://towardsdatascience.com/what-happens-when-you-break-the-assumptions-of-linear-regression-f78f2fe90f3a)
+- [Statistics supporting linear models](https://towardsdatascience.com/statistics-supporting-linear-models-bfc24fb9781f)
+- [Geodesic regression](https://towardsdatascience.com/geodesic-regression-d0334de2d9d8)
+- [Symbolic regression](https://gplearn.readthedocs.io/en/stable/examples.html#symbolic-regressor)
+- [Ridge regression from scratch](https://towardsdatascience.com/how-to-code-ridge-regression-from-scratch-4b3176e5837c)
+- [Regularization in regression](https://towardsdatascience.com/preventing-overfitting-with-lasso-ridge-and-elastic-net-regularization-in-machine-learning-d1799b05d382)
+- [Deming regression](https://towardsdatascience.com/error-in-variables-models-deming-regression-11ca93b6e138)
+- [Interpreting linear regression sum-up from statsmodels](https://www.adrian.idv.hk/2021-07-16-statsmodels/)
+- [Logistic regression 101](https://towardsdatascience.com/logistic-regression-from-first-principles-in-python-82f238effef1)
+- [Complete guide to regression analysis](https://towardsdatascience.com/complete-guide-to-regressional-analysis-using-python-bbe76b3e451f)
+
+## Reinforcement Learning
+
+- [Playing Blackjack with RL](https://towardsdatascience.com/playing-blackjack-using-model-free-reinforcement-learning-in-google-colab-aa2041a2c13d)
+- [Math behind reinforcement learning](https://towardsdatascience.com/math-behind-reinforcement-learning-the-easy-way-1b7ed0c030f4)
+- [How RL works](https://towardsdatascience.com/this-is-how-reinforcement-learning-works-5080b3a335d6)
+- [Create a custom RL enviroment](https://towardsdatascience.com/create-your-own-reinforcement-learning-environment-beb12f4151ef)
+- [Start learning RL](https://towardsdatascience.com/where-to-start-learning-rl-e294b6879ad1)
+- [Dive into RL](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html#key-concepts)
+- [Policy gradient algorithms](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html)
+- [RL fundamentals](https://towardsdatascience.com/the-fundamentals-of-reinforcement-learning-177dd8626042)
+- [Markov decision process](https://towardsdatascience.com/understanding-the-markov-decision-process-mdp-8f838510f150)
+- [Bellman equation and dynamic programming](https://towardsdatascience.com/a-crash-course-in-markov-decision-processes-the-bellman-equation-and-dynamic-programming-e80182207e85)
+- [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)
+- [Multi-agent particle swarm](https://towardsdatascience.com/simulating-multi-agent-swarming-events-in-python-ee133143944d)
+## Resampling
+
+- [Weighted resampling in Matlab](http://stackoverflow.com/questions/27092478/matlab-weighted-resampling)
+
+## Revenue science
+
+- [Money tree for revenue prioritization](https://towardsdatascience.com/why-every-data-team-needs-a-money-tree-491a602ea68)
+
+## Similarity measures
+
+- [Similarity measures for data science](https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681)
+## Simulated Annealing
+
+- [Simulated annealing for optimization](https://towardsdatascience.com/optimization-techniques-simulated-annealing-d6a4785a1de7)
+
+## Streaming/Online Learning
+
+- [`river`](https://riverml.xyz/latest/)
+- [Intro to River](https://towardsdatascience.com/river-the-best-python-library-for-online-machine-learning-56bf6f71a403)
+## Structural Equation Modeling (SEM)
+
+- [Structural equation modeling with `semopy`](https://towardsdatascience.com/structural-equation-modeling-dca298798f4d)
+## SVM
+
+- [Support vector machines](https://towardsdatascience.com/so-why-the-heck-are-they-called-support-vector-machines-52fc72c990a1)
+- [SVM theory and practice](https://towardsdatascience.com/support-vector-machine-theory-and-practice-13c2cbef1980)
+
+## Time Series
+
+- [Nested cross validation](https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9)
+- [TS and feature selection](https://www.nodalpoint.com/not-perform-feature-selection/)
+- [LSTM and Prophet](https://towardsdatascience.com/time-series-forecasting-with-lstms-and-prophet-predict-your-email-workload-48bf9cdb1580)
+- [Prophet forecasting](https://towardsdatascience.com/forecasting-with-prophet-d50bbfe95f91)
+- [Out-of-time validation](https://towardsdatascience.com/why-isnt-out-of-time-validation-more-ubiquitous-7397098c4ab6)
+- [scikit-learn prediction intervals](https://towardsdatascience.com/how-to-generate-prediction-intervals-with-scikit-learn-and-python-ab3899f992ed)
+- [Forecast visualization](https://towardsdatascience.com/time-series-analysis-visualization-forecasting-with-lstm-77a905180eba)
+- [TS transfer learning](https://towardsdatascience.com/transfer-learning-for-time-series-prediction-4697f061f000)
+- [Detecting stationarity](https://towardsdatascience.com/detecting-stationarity-in-time-series-data-d29e0a21e638)
+- [End to end project](https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b)
+- [Analysis and forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
+- [Seasonal ARIMA](https://towardsdatascience.com/econometric-approach-to-time-series-analysis-seasonal-arima-in-python-28f5782ee23)
+- [Forecasting models overview](https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb)
+- [Causality inference](https://towardsdatascience.com/inferring-causality-in-time-series-data-b8b75fe52c46)
+- [Giotto time](https://towardsdatascience.com/getting-started-with-giotto-time-d9b2088d60ca)
+- [Time Series Analysis](https://towardsdatascience.com/how-to-painlessly-analyze-your-time-series-f52dab7ea80d)
+- [Time series in Python](https://towardsdatascience.com/how-to-model-time-series-in-python-9983ebbf82cf)
+- [Matrix profile](https://towardsdatascience.com/the-matrix-profile-e4a679269692)
+- [Brownian motion in Python](https://github.com/tirthajyoti/Stats-Maths-with-Python/blob/master/Brownian-motion-with-Python.ipynb)
+- [Forecast energy consumption with neural networks and xgboost](https://towardsdatascience.com/forecasting-energy-consumption-using-neural-networks-xgboost-2032b6e6f7e2)
+- [TS forecasting](https://towardsdatascience.com/lets-forecast-your-time-series-using-classical-approaches-f84eb982212c)
+- [Statistical tests and ARIMA](https://towardsdatascience.com/7-statistical-tests-to-validate-and-help-to-fit-arima-model-33c5853e2e93)
+- [Dynamic time warping](https://towardsdatascience.com/an-illustrative-introduction-to-dynamic-time-warping-36aa98513b98)
+- [Whale identification TS processing](https://towardsdatascience.com/whale-identification-by-processing-tails-as-time-series-6d8c928d4343)
+- [Pattern mining with `stumpy`](https://towardsdatascience.com/part-8-ab-joins-with-stumpy-af985e12e391)
+- [Statistical tests for trend](https://towardsdatascience.com/test-for-existence-of-a-trend-in-a-time-series-3a44f242c329)
+- [How to synchronize time series](https://towardsdatascience.com/how-to-synchronize-time-series-datasets-in-python-f3a1826c21c0)
+- [Time series libraries](https://towardsdatascience.com/7-libraries-that-help-in-time-series-problems-d59473e48ddd)
+- [Kats by Facebook](https://github.com/facebookresearch/Kats)
+- [Greykite by Linkedin](https://github.com/linkedin/greykite)
+- [Merlion by Salesforce](https://github.com/salesforce/Merlion)
+- [Darts](https://towardsdatascience.com/darts-swiss-knife-for-time-series-forecasting-in-python-f37bb74c126)
+- [Avoid data leakage in time series](https://towardsdatascience.com/avoiding-data-leakage-in-timeseries-101-25ea13fcb15f)
+- [Orbit by Uber for Bayesian time series forecasting](https://github.com/uber/orbit)
+- [Time series terminology](https://towardsdatascience.com/5-must-know-terms-in-time-series-analysis-bf2455b2a87)
+- [Time-series forecasting cheatsheet](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+
+## XAI
+
+- [Interpretable ML](https://towardsdatascience.com/interpretable-machine-learning-1dec0f2f3e6b)
+- [Interpretable ML with Python](https://towardsdatascience.com/python-libraries-for-interpretable-machine-learning-c476a08ed2c7)
+- [SHAP decision plot](https://towardsdatascience.com/introducing-shap-decision-plots-52ed3b4a1cba)
+- [Making sense of Shapley values](https://towardsdatascience.com/making-sense-of-shapley-values-dc67a8e4c5e8)
+- [SHAP values and kernelexplainer](https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a)
+- [Additive feature importances](https://towardsdatascience.com/the-4-types-of-additive-feature-importances-5a89f8111996)
+- [SHAP overview](https://medium.com/towards-artificial-intelligence/how-to-explain-your-machine-learning-predictions-with-shap-values-a8332c3e5a11)
+- [Explainer dashboard](https://towardsdatascience.com/build-dashboards-in-less-than-10-lines-of-code-835e9abeae4b)
+- [Shapash model explaining webapp](https://github.com/MAIF/shapash)
+- [Black box vs glass box models](https://towardsdatascience.com/think-outside-the-black-box-7e6c95bd2234)
+- [Interpretable Machine Learning book](https://christophm.github.io/interpretable-ml-book/)
+- [InterpretML](https://github.com/interpretml/interpret)
+- [Permutation feature importance](https://towardsdatascience.com/from-scratch-permutation-feature-importance-for-ml-interpretability-b60f7d5d1fe9)
+- [Interpretation of Isolation Forest with `shap`](https://pub.towardsai.net/interpretation-of-isolation-forest-with-shap-d1b6af93ae71)
+- [Eli5](https://github.com/eli5-org/eli5)
+- [SHAP vs ACV](https://towardsdatascience.com/the-right-way-to-compute-your-shapley-values-cfea30509254)

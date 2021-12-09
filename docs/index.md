@@ -12,7 +12,7 @@ Sitemap and main table of contents.
 
 Personal projects and progress tracker.
 
-## 🧩 [Snippets](snippets/)
+## 🛕 [Snippets](snippets/)
 
 The Temple of _DRY_.
 
