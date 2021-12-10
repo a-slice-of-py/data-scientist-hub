@@ -1,6 +1,8 @@
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/a-slice-of-py/mastermind/app.py)
+# Products
 
-# Streamlit Mastermind
+## Streamlit Mastermind
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/a-slice-of-py/mastermind/app.py)
 
 [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) is a code-breaking game for two players, here implemented via Python with a Streamlit interface.
 

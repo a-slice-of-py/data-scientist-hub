@@ -1,4 +1,16 @@
+# Progress tracker
+
 ## 2021
+
+### 10 / October
+
+#### ![60%](https://progress-bar.dev/60) ⚗️ `Vehicle Routing Problem`
+
+### 04 / April
+
+#### ![60%](https://progress-bar.dev/60) 🐍 `ortools`
+
+- [ortools](https://developers.google.com/optimization/reference/python/index_python)
 
 ### 03 / March
 
@@ -17,22 +29,26 @@
 - [Server spawn failed due to timeout](https://github.com/jupyterhub/the-littlest-jupyterhub/issues/351)
 - [Distribute material with nbgitpuller](https://tljh.jupyter.org/en/latest/howto/content/nbgitpuller.html)
 
+### 01 / January
+
+#### ![80%](https://progress-bar.dev/80) 🐍 `OSMnx`
+
 ## 2020
 
 ### 12 / December
 
-#### ![10%](https://progress-bar.dev/10) 📈 `folium`
+#### ![80%](https://progress-bar.dev/80) 📈 `folium`
 
 - [Intro](https://towardsdatascience.com/how-to-make-stunning-interactive-maps-with-python-and-folium-in-minutes-e3aff3b0ed43)
 - [Official docs](https://python-visualization.github.io/folium/)
 
 ### 09 / September
 
-#### ![10%](https://progress-bar.dev/10) 🐍 `python-dotenv`
+#### ![50%](https://progress-bar.dev/50) 🐍 `python-dotenv`
 
 - [Intro](https://github.com/theskumar/python-dotenv)
 
-#### ![10%](https://progress-bar.dev/10) 🐍 Logging
+#### ![50%](https://progress-bar.dev/50) 🐍 Logging
 
 - [Intro to Python logging](https://realpython.com/python-logging/)
 - [Stop print and start use `loguru`](https://handyman.dulare.com/stop-using-print-start-using-loguru-in-python/)
@@ -42,7 +58,7 @@
 
 - [Official docs](https://click.palletsprojects.com/en/7.x/)
 
-#### ![50%](https://progress-bar.dev/50) 🐍 `pydantic`
+#### ![60%](https://progress-bar.dev/60) 🐍 `pydantic`
 
 - [Help manual](https://pydantic-docs.helpmanual.io/)
 - [How to use pydantic](https://towardsdatascience.com/pydantic-688e897cfd3a)
@@ -134,7 +150,7 @@
 - [YAML of mkdocs itself](https://github.com/pawamoy/mkdocstrings/blob/master/mkdocs.yml)
 - [Linking documents](https://mkdocs.readthedocs.io/en/0.11.1/user-guide/writing-your-docs/#linking-documents)
 
-#### ![30%](https://progress-bar.dev/30) ☁️ AWS CDK 101
+#### ![60%](https://progress-bar.dev/60) ☁️ AWS CDK 101
 
 - [Intro to AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html)
 - [AWS CDK EC2 key-pair](https://pypi.org/project/cdk-ec2-key-pair/)

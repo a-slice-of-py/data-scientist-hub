@@ -2,32 +2,32 @@
 
 **Data Scientist Hub (DSH)** is my personal knowledge center. DSH contents is organized with the following structure.
 
-[=75% "current website progress 75%"]{: .candystripe .candystripe-animate}
+<!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
 
-## 🔰 [Home](index.md)
+## 🏡 Home
 
 Sitemap and main table of contents.
 
-## 👨‍💻 [Projects](projects/products/)
+## 👨‍💻 Projects
 
-Personal projects and progress tracker.
+Personal development projects and progress tracker.
 
-## 🛕 [Snippets](snippets/)
+## 🛕 Snippets
 
-The Temple of _DRY_.
+The Temple of _DRY_: collection of snippets of reusable code.
 
-## 🐾 [PAWS](paws/)
+## 🐾 PAWS
 
-Practical Amazon Web Services. Practical AWS. Just _PAWS_.
+Practical Amazon Web Services. Practical AWS. Just _PAWS_: original tutorials and reports written while exploring the AWS ecosystem.
 
-## ⛵ [Captain's Log](blog/2020/12/28/blog_release/)
+## ⛵ Captain's Log
 
 Logbook with notes on DSH development and misc stuff.
 
-## 🗃️ [Resources](resources/)
+## 🗃️ Resources
 
-Collection of links to useful resources.
+Collection of links to useful online resources.
 
-## 🌌 [Doomsday](doomsday/)
+## ☄️ Doomsday
 
-I just _don't_ want to start all over again.
+I just _don't_ want to start all over again: recipes to survive to a forced reset of development local environment.
