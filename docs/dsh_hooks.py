@@ -8,9 +8,11 @@ def _index_resources(*args, **kwargs) -> None:
     """Create index for eache resources section."""
     blacklist = ('.pages', 'index.md')
     resources = 'docs/resources'
+    newline = '\n'
+
     for section in os.listdir(resources):
         if section not in blacklist:
-            index = [f"# {section.replace('-', ' ').title()}", '\n']
+            index = [f"# {section.replace('-', ' ').title()}", newline, newline]
             path = f'{resources}/{section}'
             for file in os.listdir(path):
                 if file not in blacklist:
@@ -18,7 +20,10 @@ def _index_resources(*args, **kwargs) -> None:
                         contents = f.readlines()
                         contents[0] = f'#{contents[0]}'
                         index.extend(contents)
-                    index.append('\n')
+                    if index[-1] == newline or index[-1].endswith(newline):
+                        index.append(newline)
+                    else:
+                        index.extend([newline, newline])
 
             with open(f'{path}/index.md', 'w') as f:
                 f.writelines(index)

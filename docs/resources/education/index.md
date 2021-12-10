@@ -1,4 +1,5 @@
 # Education
+
 ## Competition
 
 - [DS competition design](https://towardsdatascience.com/designing-a-data-science-competition-is-an-excellent-way-to-learn-69e6fd582702)
@@ -100,9 +101,11 @@
 ## Quantum Computing
 
 - [Quantum computing per ottimizzazione delle reti mobili](https://www.gruppotim.it/content/tiportal/it/notiziariotecnico/edizioni-2020/n-1-2020/Quantum-Computing-ottimizzazione-delle-reti-mobili.html)
+
 ## Teaching
 
 - [`handcalcs` for hand calculations](https://towardsdatascience.com/handcalcs-library-for-data-scientist-5a534a3b35cd)
+
 ## Technical skills
 
 - [ML projects example](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb)

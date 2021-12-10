@@ -1,4 +1,5 @@
 # Python
+
 ## API
 
 - [List of API wrappers](https://github.com/realpython/list-of-python-api-wrappers)
@@ -8,6 +9,7 @@
 ## Asynchronous Programming
 
 - [Intro to asynchronous programming in Python](https://towardsdatascience.com/introduction-to-asynchronous-programming-in-python-3cd190748cd5)
+
 ## Audio recognition
 
 - [Kaldi and speech recognition](https://towardsdatascience.com/how-to-start-with-kaldi-and-speech-recognition-a9b7670ffff6)
@@ -29,6 +31,7 @@
 ## Carbon footprint
 
 - [Track carbon footprint with co2 emissions tracker](https://github.com/mlco2/codecarbon)
+
 ## Cheatsheets
 
 - [Python data structures](https://cdn-images-1.medium.com/max/1000/1*EB8wVXdkvp7vlnd0iTWNZg.jpeg)
@@ -90,16 +93,20 @@
 - [`birdseye` for visual code debugging](https://github.com/alexmojaki/birdseye)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/)
 - [Maintain and visualize Python dependencies](https://github.com/thebjorn/pydeps)
+
 ## Data Augmentation
 
 - [AugLy](https://github.com/facebookresearch/AugLy)
+
 ## Data Processing
 
 - [`flowpy`](https://towardsdatascience.com/introducing-flowpy-an-intuitive-front-end-for-processing-data-with-python-a619ebe6bb9e)
+
 ## Data Structures
 
 - [Container data types](https://towardsdatascience.com/6-python-container-data-types-you-should-know-81dad6c4f61d)
 - [Python dictionaries on steroids with `munch`](https://github.com/Infinidat/munch)
+
 ## Data validation
 
 - [`schema` library for data validation](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a)
@@ -109,6 +116,7 @@
 - [Datasette](https://github.com/simonw/datasette)
 - [Hand drawn data in Jupyter with `drawdata`](https://github.com/koaning/drawdata)
 - [World Bank data API](https://towardsdatascience.com/access-a-world-of-data-with-wbgapi-61849354f769)
+
 ## Datatable
 
 - [`datatable`](https://towardsdatascience.com/an-overview-of-pythons-datatable-package-5d3a97394ee9)
@@ -117,6 +125,7 @@
 ## Dates and times
 
 - [Pendulum as a drop-in replacement for datetime](https://towardsdatascience.com/pendulum-one-of-the-most-useful-python-libraries-you-have-ever-seen-e2ecc365c8c0)
+
 ## Digital clock
 
 - [Digital clock with Python](https://towardsdatascience.com/building-a-digital-clock-using-python-349b691c5cd7)
@@ -134,17 +143,21 @@
 ## File system
 
 - [IO streams and ZIP archives](https://medium.com/dev-bits/ultimate-guide-for-working-with-i-o-streams-and-zip-archives-in-python-3-6f3cf96dca50)
+
 ## Functional programming
 
 - [Functions attributes](https://towardsdatascience.com/hidden-gems-of-python-76020b14e42f)
 - [Python operators module](https://towardsdatascience.com/the-unknown-features-of-pythons-operator-module-1ad9075d9536)
+
 ## Game development
 
 - [Pygame](https://www.pygame.org/news)
 - [Traffic intersection simulation](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a)
+
 ## Hypothesis testing
 
 - [ht-python package](https://towardsdatascience.com/hypothesis-testing-made-easy-through-the-easy-ht-python-package-2ee395b95fe2)
+
 ## Jupyter
 
 - [Jupyter tools to increase productivity](https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be09)
@@ -165,6 +178,7 @@
 - [JupyterLite: Jupyter in web browser](https://github.com/jupyterlite/jupyterlite)
 - [Jupyter Desktop App](https://github.com/jupyterlab/jupyterlab_app#download)
 - [Enable notification for jupyter cells execution](https://towardsdatascience.com/enabling-notifications-in-your-jupyter-notebooks-for-cell-completion-68d82b02bbc6)
+
 ## Missing values
 
 - [Custom imputer for missing data in scikit-learn](https://towardsdatascience.com/coding-a-custom-imputer-in-scikit-learn-31bd68e541de)
@@ -198,6 +212,7 @@
 - [Weights and Biases](https://wandb.ai/site)
 - [Sacred](https://github.com/IDSIA/sacred)
 - [Omniboard as a Sacred frontend](https://github.com/vivekratnavel/omniboard)
+
 ## Numpy
 
 - [Reshaping numpy arrays](https://towardsdatascience.com/reshaping-numpy-arrays-in-python-a-step-by-step-pictorial-tutorial-aed5f471cf0b)
@@ -222,6 +237,7 @@
 
 - [Peewee](https://github.com/coleifer/peewee)
 - [Tortoise](https://github.com/tortoise/tortoise-orm/)
+
 ## Pandas
 
 - [Drop all rows after first occurrence of column value](https://stackoverflow.com/questions/34163431/python-pandas-drop-all-rows-after-first-occurrence-of-column-value?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
@@ -243,6 +259,7 @@
 
 - [Secure password handling](https://towardsdatascience.com/secure-password-handling-in-python-6b9f5747eca5)
 - [Secrets management](https://pub.towardsai.net/secrets-python-module-for-strong-random-number-and-token-generation-39af0392352b)
+
 ## `os` and Pathlib
 
 - [`pathlib`](https://docs.python.org/3/library/pathlib.html)
@@ -261,6 +278,7 @@
 - [Poetry](https://towardsdatascience.com/a-guide-to-python-environment-dependency-and-package-management-conda-poetry-f5a6c48d795)
 - [Publish to PiP via Poetry](https://towardsdatascience.com/how-to-publish-your-python-package-with-just-2-commands-39ea6a400285)
 - [Publish to PiP via Poetry v2](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
+
 ## Regex
 
 - [Regex made simple](https://towardsdatascience.com/regular-expressions-regex-dont-fear-them-it-is-simpler-than-you-think-3a4d6de77058)
@@ -286,6 +304,7 @@
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [`streamlit-heroku` deployment utils](https://github.com/danielschutz/streamlit-heroku)
 - [Streamlit text rating component](https://discuss.streamlit.io/t/new-component-streamlit-text-rating/19146/4)
+
 ## Strings
 
 - [Fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
@@ -307,12 +326,15 @@
 ## Misc utils
 
 - [Barcodes, captcha and num2words](https://levelup.gitconnected.com/10-fantastic-python-packages-af2a16a1183a)
+
 ## Python versions
 
 - [New features in Python 3.10](https://towardsdatascience.com/6-new-awesome-features-in-python-3-10-a0598e87689f)
+
 ## Video editing
 
 - [Moviepy](https://github.com/Zulko/moviepy)
+
 ## Vocal reader
 
 - [How to build an audiobook](https://towardsdatascience.com/build-your-own-audiobook-in-7-lines-of-python-code-bfd805fca4b1)
@@ -321,9 +343,11 @@
 ## Web Framework
 
 - [10 Python web frameworks](https://towardsdatascience.com/my-favorite-python-web-frameworks-for-2021-a255fde2cd68)
+
 ## Web scraping
 
 - [Comparison between `BeatifulSoup`, `selenium` and `scrapy`](https://towardsdatascience.com/web-scraping-with-beautiful-soup-selenium-or-scrapy-62c6f3545de7)
+
 ## Whatsapp
 
 - [Whatsapp via Python](https://www.geeksforgeeks.org/whatsapp-using-python/)

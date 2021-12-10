@@ -1,4 +1,5 @@
 # Data Science
+
 ## A/B Testing
 
 - [Art of A/B testing](https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4)
@@ -77,6 +78,7 @@
 - [Calculating business value of binary classification](https://towardsdatascience.com/calculating-the-business-value-of-a-data-science-project-3b282de9be3c)
 - [`predict_proba` probabilities calibration](https://towardsdatascience.com/pythons-predict-proba-doesn-t-actually-predict-probabilities-and-how-to-fix-it-f582c21d63fc)
 - [Why class balancing can be avoided](https://towardsdatascience.com/why-balancing-classes-is-over-hyped-e382a8a410f7)
+
 ## Clustering
 
 - [Tomato clustering](https://towardsdatascience.com/tda-to-rule-them-all-tomato-clustering-878e03394a1)
@@ -94,10 +96,12 @@
 - [Regional Online Learnable Fields (ROLF)](https://towardsdatascience.com/regional-and-online-learnable-fields-cbb18b74e01e)
 - [Interpretable KMeans via Classification feature importance](https://towardsdatascience.com/interpretable-k-means-clusters-feature-importances-7e516eeb8d3c)
 - [How to select optimal k for K-Means](https://towardsdatascience.com/selecting-optimal-k-for-k-means-clustering-c7579fd2e926)
+
 ## Code differentiation
 
 - [Differentiation from scratch](https://towardsdatascience.com/build-your-own-automatic-differentiation-program-6ecd585eec2a)
 - [Differentiable programming](https://towardsdatascience.com/understand-differentiable-programming-54f11bfb574)
+
 ## Computer Vision
 
 - [Lane detection](https://towardsdatascience.com/how-i-learned-lane-detection-using-asphalt-8-airborne-bae4d0982134)
@@ -105,6 +109,7 @@
 - [`scikit-image` for image processing](https://scikit-image.org/)
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
+
 ## Curse Of Dimensionality
 
 - [Curse of dimensionality explained](https://towardsdatascience.com/the-curse-of-dimensionality-minus-the-curse-of-jargon-520da109fc87)
@@ -119,6 +124,7 @@
 - [Quantiles from ML model](https://towardsdatascience.com/why-how-to-create-quantiles-from-a-machine-learning-prediction-python-code-da9071622db2)
 - [DS guide to subscription businesses](https://towardsdatascience.com/the-data-scientists-guide-to-subscription-businesses-70b1fc4b4493)
 - [Clustering for customer segmentation](https://towardsdatascience.com/clustering-algorithm-for-customer-segmentation-e2d79e28cbc3)
+
 ## Deep Learning
 
 - [D2L](http://d2l.ai/)
@@ -127,6 +133,7 @@
 ## Dimensionality Reduction
 
 - [Locally linear embedding (LLE)](https://towardsdatascience.com/lle-locally-linear-embedding-a-nifty-way-to-reduce-dimensionality-in-python-ab5c38336107)
+
 ## Dynamic pricing
 
 - [Dynamic pricing for theatre](https://towardsdatascience.com/statistics-for-dynamic-pricing-of-theatre-87df073a0848)
@@ -144,6 +151,7 @@
 - [Paper](https://arxiv.org/abs/1802.04987)
 - [Predict Euro 2020 winner](https://towardsdatascience.com/predict-euro-cup-matches-with-simple-statistics-2fc913678117)
 - [Poisson regression for football match results prediction](https://towardsdatascience.com/predicting-matches-for-the-uefa-euro-2020-championship-7dcfa449c8ee)
+
 ## Game Theory
 
 - [Game Theory intro with Python](https://towardsdatascience.com/an-introduction-to-game-theory-using-python-358c63e36e02)
@@ -170,6 +178,7 @@
 - [Geospatial data declustering](https://towardsdatascience.com/why-data-scientists-should-decluster-their-geospatial-datasets-8425b0b2453f)
 - [EDA of spatial data and spatial autocorrelation](https://towardsdatascience.com/exploratory-spatial-data-analysis-esda-spatial-autocorrelation-7592edcbef9a)
 - [GPS trajectory clustering](https://towardsdatascience.com/gps-trajectory-clustering-with-python-9b0d35660156)
+
 ## Gradient methods
 
 - [ML and particle motion in liquid](https://towardsdatascience.com/machine-learning-and-particle-motion-in-liquids-an-elegant-link-4e7c1611c945)
@@ -205,6 +214,7 @@
 ## Marketing Analytics
 
 - [Beginner guide to Marketing Analytics](https://towardsdatascience.com/data-science-in-marketing-a-beginners-guide-f23423d2ee68)
+
 ## Markov Chains
 
 - [Attribution model](https://analyzecore.com/2016/08/03/attribution-model-r-part-1)
@@ -265,13 +275,16 @@
 - [`Ecco` for pattern visualization in text data](https://towardsdatascience.com/finding-pattern-in-data-using-nmf-7b119555cb41)
 - [Concept modeling to link text and images](https://github.com/MaartenGr/concept)
 - [Data QA to label data](https://towardsdatascience.com/a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae)
+
 ## Objects tracking
 
 - [`py-motmetrics`](https://github.com/cheind/py-motmetrics)
 - [Intro to multiple objects tracking metrics](https://pub.towardsai.net/multi-object-tracking-metrics-1e602f364c0c)
+
 ## OCR
 
 - [Open source OCR tools](https://towardsdatascience.com/5-open-source-tools-you-can-use-to-train-and-deploy-an-ocr-project-8f204dec862b)
+
 ## Optimization
 
 - [Lagrange multipliers](https://towardsdatascience.com/lagrange-multipliers-with-pictures-and-code-ace8018dac5e)
@@ -286,6 +299,7 @@
 - [Traveling Salesman Problem (TSP) heuristic](https://pub.towardsai.net/how-to-shortest-loop-any-euclidean-travelling-salesman-problem-c13c08841f94)
 - [Guide to dynamic programming](https://towardsdatascience.com/quick-guide-to-dynamic-programming-c1618698d341)
 - [Goal programming](http://du.ac.in/du/uploads/departments/Operational%20Research/25042020_Goal%20Programming.pdf)
+
 ## Pattern mining
 
 - [Data mining techniques](https://towardsdatascience.com/5-data-mining-techniques-every-data-scientist-should-know-be06426a4ed9)
@@ -293,6 +307,7 @@
 ## Physics
 
 - [From physics to optimization](https://towardsdatascience.com/how-to-turn-physics-into-an-optimization-problem-11b3fbf83062)
+
 ## Price optimization
 
 - [Regression for price optimization](https://towardsdatascience.com/optimizing-product-price-using-regression-2c17688e65ea)
@@ -322,6 +337,7 @@
 - [Probability distributions Q&A - part 1](https://towardsdatascience.com/getting-to-know-probability-distributions-cc1dd1e2f22b)
 - [Probability distributions Q&A - part 2](https://towardsdatascience.com/a-field-guide-to-the-most-popular-parameters-d734596c3f26)
 - [Correlation visually explained](https://towardsdatascience.com/correlation-explained-visually-4875448e8e56)
+
 ## Random Forest
 
 - [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
@@ -381,6 +397,7 @@
 - [Bellman equation and dynamic programming](https://towardsdatascience.com/a-crash-course-in-markov-decision-processes-the-bellman-equation-and-dynamic-programming-e80182207e85)
 - [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)
 - [Multi-agent particle swarm](https://towardsdatascience.com/simulating-multi-agent-swarming-events-in-python-ee133143944d)
+
 ## Resampling
 
 - [Weighted resampling in Matlab](http://stackoverflow.com/questions/27092478/matlab-weighted-resampling)
@@ -392,6 +409,7 @@
 ## Similarity measures
 
 - [Similarity measures for data science](https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681)
+
 ## Simulated Annealing
 
 - [Simulated annealing for optimization](https://towardsdatascience.com/optimization-techniques-simulated-annealing-d6a4785a1de7)
@@ -400,9 +418,11 @@
 
 - [`river`](https://riverml.xyz/latest/)
 - [Intro to River](https://towardsdatascience.com/river-the-best-python-library-for-online-machine-learning-56bf6f71a403)
+
 ## Structural Equation Modeling (SEM)
 
 - [Structural equation modeling with `semopy`](https://towardsdatascience.com/structural-equation-modeling-dca298798f4d)
+
 ## SVM
 
 - [Support vector machines](https://towardsdatascience.com/so-why-the-heck-are-they-called-support-vector-machines-52fc72c990a1)
@@ -465,3 +485,4 @@
 - [Interpretation of Isolation Forest with `shap`](https://pub.towardsai.net/interpretation-of-isolation-forest-with-shap-d1b6af93ae71)
 - [Eli5](https://github.com/eli5-org/eli5)
 - [SHAP vs ACV](https://towardsdatascience.com/the-right-way-to-compute-your-shapley-values-cfea30509254)
+

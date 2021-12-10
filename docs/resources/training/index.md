@@ -1,4 +1,5 @@
 # Training
+
 ## Books
 
 - [Free and paid data science books](https://medium.com/towards-artificial-intelligence/best-data-science-books-free-and-paid-data-science-book-recommendations-b519046dcca5)
@@ -14,10 +15,12 @@
 ## Competitions
 
 - [Data Science and AI competitions for 2021](https://towardsdatascience.com/12-data-science-ai-competitions-to-advance-your-skills-in-2021-32e3fcb95d8c)
+
 ## Courses
 
 - [Making friends with Machine Learning by Cassie Kozyrkov](https://www.youtube.com/watch?v=9PBqqx38WeI&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=5)
 - [Data Science Tools cheatsheets from MIT 15.003](https://github.com/shervinea/mit-15-003-data-science-tools)
+
 ## Learning Path
 
 - [How to start ML](https://towardsdatascience.com/how-id-start-learning-machine-learning-again-3-years-in-55c52aaee52a)

@@ -1,4 +1,5 @@
 # Tools
+
 ## cmder
 
 ```
@@ -14,6 +15,7 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 
 - [FAQs](https://code.visualstudio.com/docs/editor/integrated-terminal#_can-i-use-cmders-shell-with-the-terminal-on-windows)
 - [cmder wiki](https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration)
+
 ## Code freezing
 
 - [Nativefier](https://github.com/jiahaog/nativefier)
@@ -30,10 +32,12 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 - [Mimesis](https://github.com/lk-geimfari/mimesis)
 - [SDV](https://github.com/sdv-dev/SDV)
 - [Diffbot](https://www.diffbot.com/)
+
 ## Docker
 
 - [Git submodules to install custom Python package in Docker image](https://towardsdatascience.com/use-git-submodules-to-install-a-private-custom-python-package-in-a-docker-image-dd6b89b1ee7a)
 - [Why use Docker containers for ML development](https://aws.amazon.com/it/blogs/opensource/why-use-docker-containers-for-machine-learning-development/)
+
 ## Draw.io
 
 - [Draw.io](https://app.diagrams.net/)
@@ -58,12 +62,15 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 - [Gource a git history visualizer](https://gource.io/)
 - [Branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
 - [Pre-commit hook for code formatting](https://towardsdatascience.com/python-code-formatting-made-simple-with-git-pre-commit-hooks-9233268cdf64)
+
 ## Github
 
 - [20 repositories for developers](https://towardsdatascience.com/20-amazing-github-repositories-every-developer-should-follow-d8ce4c728351)
+
 ## Graphics
 
 - [Open source vector graphics editor](https://inkscape.org/)
+
 ## GraphQL
 
 - [GraphQL](https://graphql.org/)
@@ -77,6 +84,7 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 ## Miscellaneous
 
 - [Data Science toolset starter kit](https://towardsdatascience.com/data-scientists-starter-pack-32ef08f7829c)
+
 ## Performance monitoring
 
 - [Netdata](https://github.com/netdata/netdata)
@@ -89,6 +97,7 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 ## reveal.js
 
 - [reveal.js and Slides](https://revealjs.com)
+
 ## Slack
 
 - [Python and Slack](https://towardsdatascience.com/python-and-slack-a-natural-match-60b136883d4d)
@@ -96,6 +105,7 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 ## Software Development
 
 - [SOLID principle](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+
 ## SQL
 
 - [PugSQL](https://pugsql.org/)

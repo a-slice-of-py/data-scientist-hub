@@ -1,7 +1,9 @@
 # Data Visualization
+
 ## Altair
 
 - [Multiple plots bindings with `altair`](https://towardsdatascience.com/how-to-create-bindings-and-conditions-between-multiple-plots-using-altair-4e4fe907de37)
+
 ## Animations
 
 - [Creating animated graphs](https://towardsdatascience.com/simple-method-of-creating-animated-graphs-127c11f58cc5)
@@ -21,6 +23,7 @@
 - [10 tools for data visualization](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
 - [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
 - [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
+
 ## Books
 
 - [Serialmentor data-viz](https://serialmentor.com/dataviz/)
@@ -58,6 +61,7 @@
 ## Data Journalism
 
 - [Data Journalism spatial projection for story decomposition](https://towardsdatascience.com/data-journalism-3d-spatial-projection-a54c96137c6a)
+
 ## Data Storytelling
 
 - [Tips for creating persuasive charts](https://towardsdatascience.com/5-data-storytelling-tips-for-creating-more-persuasive-charts-and-graphs-3823af33a3c2)
@@ -98,6 +102,7 @@
 - [SweetViz for EDA](https://medium.com/towards-artificial-intelligence/sweetviz-for-quicker-in-depth-exploratory-data-analysis-aaf8791e7f9c)
 - [`datapane` to automate HTML report](https://github.com/datapane/datapane)
 - [RAWGraphs to explore spreadsheets data](https://github.com/densitydesign/raw)
+
 ## Geodata
 
 - [How to build a non geographical map](https://towardsdatascience.com/how-to-build-a-non-geographical-map-1-8d3373e83d6c)
@@ -111,6 +116,7 @@
 - [Leafmap](https://github.com/giswqs/leafmap)
 - [eefolium: Folium meets Google Earth Engine](https://github.com/giswqs/eefolium)
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/index.html)
+
 ## GUI
 
 - [Jupyter `pivottable_js`](http://nicolas.kruchten.com/content/2015/09/jupyter_pivottablejs/)
@@ -119,6 +125,7 @@
 ## High-dimensional data
 
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
+
 ## Interactive js
 
 - [Javascript charts](http://markibrahim.me/musings/notebooks/beautiful_javascript_charts.html)
@@ -164,6 +171,7 @@
 ## Strip charts for time-series
 
 - [Visualize many time-series at once](https://towardsdatascience.com/using-strip-charts-to-visualize-dozens-of-time-series-at-once-a983baabb54f)
+
 ## Theory
 
 - [Rules for using colors](https://nbisweden.github.io/Rcourse/files/rules_for_using_color.pdf)
@@ -172,12 +180,15 @@
 - [The importance of scale and scaling data](https://towardsdatascience.com/foundations-in-analytics-the-importance-of-scale-84ae731ab3db)
 - [Applied theory to improve line charts](https://towardsdatascience.com/how-to-create-beautiful-and-insightful-charts-e14a41c2cae0)
 - [Psychology behind data visualization](https://towardsdatascience.com/the-psychology-behind-data-visualization-techniques-68ef12865720)
+
 ## Time Series visualization
 
 - [Time series plot with GitHub contributions style](https://towardsdatascience.com/create-githubs-style-contributions-plot-for-your-time-series-data-79df84ec93da)
+
 ## Upset plot
 
 - [Visualizing intersections and overlaps with Venn diagrams and Upset plots](https://towardsdatascience.com/visualizing-intersections-and-overlaps-with-python-a6af49c597d9)
+
 ## Widgets
 
 - [`ipywidgets`](ttps://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html)

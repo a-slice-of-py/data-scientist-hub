@@ -1,4 +1,5 @@
 # Interviews
+
 ## Career development
 
 - [Roles in a Data Science team](https://towardsdatascience.com/roles-in-a-data-team-d97a87fdabaa)
@@ -20,6 +21,7 @@
 - [Stretch work assignments for personal growth](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/)
 - [Code quality as a competitive advantage](https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/)
 - [The Information Architect](https://medium.com/nightingale/the-most-important-role-youre-not-hiring-for-your-data-team-the-information-architect-7521887d4d50)
+
 ## Negotiation
 
 - [Ten rules for negotiating](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
@@ -66,6 +68,7 @@
 - [How to write a data science blog](https://towardsdatascience.com/my-secrets-to-writing-a-successful-data-science-blog-b2597b2553c6)
 - [Tailor CV for job description](https://towardsdatascience.com/6-steps-to-optimize-and-tailor-your-resume-for-a-specific-job-description-77dd535f321f)
 - [Jupyter Book](https://jupyterbook.org/intro.html)
+
 ## Preparation
 
 - [How to survive a layoff during challenging times](https://towardsdatascience.com/how-to-survive-a-layoff-during-challenging-times-and-thrive-3b9ee2f9af24)
