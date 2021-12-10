@@ -10,11 +10,11 @@ def _index_resources(*args, **kwargs) -> None:
     resources = 'docs/resources'
     newline = '\n'
 
-    for section in os.listdir(resources):
+    for section in sorted(os.listdir(resources)):
         if section not in blacklist:
             index = [f"# {section.replace('-', ' ').title()}", newline, newline]
             path = f'{resources}/{section}'
-            for file in os.listdir(path):
+            for file in sorted(os.listdir(path)):
                 if file not in blacklist:
                     with open(f"{path}/{file}", 'r') as f:
                         contents = f.readlines()
