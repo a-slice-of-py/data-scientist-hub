@@ -11,7 +11,7 @@ cdk-env = cd BU-Ambiente/uc11-justiren & make activate-env ENV_NAME=cdk
 aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aws-iren-temp-credential-docker/aws_cli_temporary_credentials/Docker/container-mode-advana && make docker-run ACCOUNT=$1 -n && popd
 ```
 
-## Integration in VS Code
+### Integration in VS Code
 
 - [FAQs](https://code.visualstudio.com/docs/editor/integrated-terminal#_can-i-use-cmders-shell-with-the-terminal-on-windows)
 - [cmder wiki](https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration)
@@ -32,6 +32,9 @@ aws-login = pushd . && cd C:/Users/a00018578/Documents/projects/advana/advana-aw
 - [Mimesis](https://github.com/lk-geimfari/mimesis)
 - [SDV](https://github.com/sdv-dev/SDV)
 - [Diffbot](https://www.diffbot.com/)
+- [Datasette](https://github.com/simonw/datasette)
+- [Hand drawn data in Jupyter with `drawdata`](https://github.com/koaning/drawdata)
+- [World Bank data API](https://towardsdatascience.com/access-a-world-of-data-with-wbgapi-61849354f769)
 
 ## Docker
 

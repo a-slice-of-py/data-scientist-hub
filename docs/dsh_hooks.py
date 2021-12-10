@@ -17,9 +17,11 @@ def _index_resources(*args, **kwargs) -> None:
             for file in sorted(os.listdir(path)):
                 if file not in blacklist:
                     with open(f"{path}/{file}", 'r') as f:
-                        contents = f.readlines()
-                        contents[0] = f'#{contents[0]}'
-                        index.extend(contents)
+                        lines = f.readlines()
+                        for i, line in enumerate(lines):
+                            if line.startswith('#'):
+                                lines[i] = f'#{line}'
+                        index.extend(lines)
                     if index[-1] == newline or index[-1].endswith(newline):
                         index.append(newline)
                     else:

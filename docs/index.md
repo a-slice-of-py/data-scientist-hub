@@ -4,30 +4,32 @@
 
 <!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
 
-## 🏡 Home
+## Sitemap
+
+### 🏡 Home
 
 Sitemap and main table of contents.
 
-## 👨‍💻 Projects
+### 👨‍💻 Projects
 
 Personal development projects and progress tracker.
 
-## 🛕 Snippets
+### 🛕 Snippets
 
 The Temple of _DRY_: collection of snippets of reusable code.
 
-## 🐾 PAWS
+### 🐾 PAWS
 
 Practical Amazon Web Services. Practical AWS. Just _PAWS_: original tutorials and reports written while exploring the AWS ecosystem.
 
-## ⛵ Captain's Log
+### ⛵ Captain's Log
 
 Logbook with notes on DSH development and misc stuff.
 
-## 🗃️ Resources
+### 🗃️ Resources
 
 Collection of links to useful online resources.
 
-## ☄️ Doomsday
+### ☄️ Doomsday
 
 I just _don't_ want to start all over again: recipes to survive to a forced reset of development local environment.

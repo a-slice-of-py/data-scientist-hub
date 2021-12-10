@@ -111,12 +111,6 @@
 
 - [`schema` library for data validation](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a)
 
-## Datasets
-
-- [Datasette](https://github.com/simonw/datasette)
-- [Hand drawn data in Jupyter with `drawdata`](https://github.com/koaning/drawdata)
-- [World Bank data API](https://towardsdatascience.com/access-a-world-of-data-with-wbgapi-61849354f769)
-
 ## Datatable
 
 - [`datatable`](https://towardsdatascience.com/an-overview-of-pythons-datatable-package-5d3a97394ee9)
