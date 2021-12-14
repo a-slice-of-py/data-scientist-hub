@@ -16,7 +16,7 @@ Personal development projects and progress tracker.
 
 ### 🛕 Snippets
 
-The Temple of _DRY_: collection of snippets of reusable code.
+The Temple of DRY: collection of snippets of reusable code.
 
 ### 🐾 PAWS
 
