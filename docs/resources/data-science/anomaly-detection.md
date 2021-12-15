@@ -7,3 +7,4 @@
 - [Real-time time series anomaly detection](https://towardsdatascience.com/real-time-time-series-anomaly-detection-981cf1e1ca13)
 - [Anomaly detection with copulas](https://towardsdatascience.com/fast-accurate-anomaly-detection-based-on-copulas-copod-3133ce9041fa)
 - [Python outlier detection library](https://github.com/yzhao062/pyod)
+- [5 anomaly detection algorithms with sklearn implementation](https://towardsdatascience.com/5-anomaly-detection-algorithms-every-data-scientist-should-know-b36c3605ea16)
