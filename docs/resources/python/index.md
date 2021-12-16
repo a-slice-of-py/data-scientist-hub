@@ -45,6 +45,7 @@
 - [Colorama](https://github.com/tartley/colorama)
 - [Python Fire](https://github.com/google/python-fire#why-is-it-called-fire)
 - [Typer](https://typer.tiangolo.com/)
+- [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
 
 ## Code freezing
 
@@ -93,6 +94,17 @@
 - [`birdseye` for visual code debugging](https://github.com/alexmojaki/birdseye)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/)
 - [Maintain and visualize Python dependencies](https://github.com/thebjorn/pydeps)
+
+## Dash
+
+- [`dash` regression](https://github.com/plotly/dash-regression)
+- [Capturing mouse events position](https://community.plot.ly/t/capturing-mouse-events-position/4616/2)
+- [`dash` SVM](https://github.com/plotly/dash-svm)
+- [Reactive dashboard with `dash`](https://alysivji.github.io/reactive-dashboards-with-dash.html)
+- [Introducing `dash`](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503)
+- [`dash` in PBP](http://pbpython.com/plotly-dash-intro.html)
+- [`awesome-dash`](https://github.com/Acrotrend/awesome-dash)
+- [Metrics in `dash`](http://jmdaignan.com/2018/02/26/metricsdash/)
 
 ## Data Augmentation
 
@@ -232,6 +244,10 @@
 - [Peewee](https://github.com/coleifer/peewee)
 - [Tortoise](https://github.com/tortoise/tortoise-orm/)
 
+## OR-Tools
+
+- [Google OR-Tools recipes](https://www.xiang.dev/cp-sat/)
+
 ## Pandas
 
 - [Drop all rows after first occurrence of column value](https://stackoverflow.com/questions/34163431/python-pandas-drop-all-rows-after-first-occurrence-of-column-value?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
@@ -260,6 +276,10 @@
 - [Examples with Python's pathlib](https://towardsdatascience.com/10-examples-to-master-python-pathlib-1249cc77de0b)
 - [File system operations](https://towardsdatascience.com/8-must-know-file-system-operations-in-python-7dc185daeccd)
 - [Pathlib vs os comparison](https://towardsdatascience.com/dont-use-python-os-library-any-more-when-pathlib-can-do-141fefb6bdb5)
+
+## Polymorphism
+
+- [`multipledispatch` for polymorphism](https://towardsdatascience.com/flawless-parametric-polymorphism-in-python-with-multipledispatch-f26b75d69c5f)
 
 ## Process simulation
 
@@ -298,6 +318,7 @@
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [`streamlit-heroku` deployment utils](https://github.com/danielschutz/streamlit-heroku)
 - [Streamlit text rating component](https://discuss.streamlit.io/t/new-component-streamlit-text-rating/19146/4)
+- [Display live 2D data in Streamlit](https://discuss.streamlit.io/t/best-fastest-practice-to-display-live-2d-data/19895)
 
 ## Strings
 

@@ -22,6 +22,10 @@
 - [Code quality as a competitive advantage](https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/)
 - [The Information Architect](https://medium.com/nightingale/the-most-important-role-youre-not-hiring-for-your-data-team-the-information-architect-7521887d4d50)
 
+## Conferences
+
+- [PyCon Italia](https://pycon.it/it/call-for-proposals)
+
 ## Negotiation
 
 - [Ten rules for negotiating](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)

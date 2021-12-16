@@ -47,17 +47,6 @@
 - [Confusion matrix visualized](https://towardsdatascience.com/the-confusion-matrix-visualized-e778584c8834)
 - [Visual guide to the confusion matrix](https://towardsdatascience.com/visual-guide-to-the-confusion-matrix-bb63730c8eba)
 
-## Dash
-
-- [`dash` regression](https://github.com/plotly/dash-regression)
-- [Capturing mouse events position](https://community.plot.ly/t/capturing-mouse-events-position/4616/2)
-- [`dash` SVM](https://github.com/plotly/dash-svm)
-- [Reactive dashboard with `dash`](https://alysivji.github.io/reactive-dashboards-with-dash.html)
-- [Introducing `dash`](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503)
-- [`dash` in PBP](http://pbpython.com/plotly-dash-intro.html)
-- [`awesome-dash`](https://github.com/Acrotrend/awesome-dash)
-- [Metrics in `dash`](http://jmdaignan.com/2018/02/26/metricsdash/)
-
 ## Data Journalism
 
 - [Data Journalism spatial projection for story decomposition](https://towardsdatascience.com/data-journalism-3d-spatial-projection-a54c96137c6a)
@@ -84,6 +73,10 @@
 ## Datashader
 
 - [Networks](https://datashader.org/user_guide/Networks.html)
+
+## Decision Trees
+
+- [`pybaobabdt` BaobabView](https://towardsdatascience.com/visualizing-decision-trees-with-pybaobabdt-f8eb5b3d0d17)
 
 ## Dumbbell charts
 
@@ -180,6 +173,7 @@
 - [The importance of scale and scaling data](https://towardsdatascience.com/foundations-in-analytics-the-importance-of-scale-84ae731ab3db)
 - [Applied theory to improve line charts](https://towardsdatascience.com/how-to-create-beautiful-and-insightful-charts-e14a41c2cae0)
 - [Psychology behind data visualization](https://towardsdatascience.com/the-psychology-behind-data-visualization-techniques-68ef12865720)
+- [Does data visualization have rules?](https://nightingaledvs.com/does-data-visualization-have-rules-or-is-it-all-just-it-depends/)
 
 ## Time Series visualization
 

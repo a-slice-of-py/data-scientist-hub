@@ -15,6 +15,7 @@
 - [Real-time time series anomaly detection](https://towardsdatascience.com/real-time-time-series-anomaly-detection-981cf1e1ca13)
 - [Anomaly detection with copulas](https://towardsdatascience.com/fast-accurate-anomaly-detection-based-on-copulas-copod-3133ce9041fa)
 - [Python outlier detection library](https://github.com/yzhao062/pyod)
+- [5 anomaly detection algorithms with sklearn implementation](https://towardsdatascience.com/5-anomaly-detection-algorithms-every-data-scientist-should-know-b36c3605ea16)
 
 ## AutoML
 
@@ -61,6 +62,34 @@
 - [Optimal number of bins Freedman Diaconis rule](http://stats.stackexchange.com/questions/143438/optimal-number-of-bins-in-histogram-by-the-freedman-diaconis-rule-difference-be)
 - [Understanding Freedman Diaconis rule](https://www.quora.com/Can-anyone-help-me-understanding-What-is-Freedman%E2%80%93Diaconis-rule)
 - [Freedman Diaconis rule paper](http://bayes.wustl.edu/Manual/FreedmanDiaconis1_1981.pdf)
+
+## Random Forest
+
+- [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
+- [Intuition behind Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
+- [Explaining feature importance](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
+- [`catboost` for gradient boosting decision trees](https://towardsdatascience.com/introduction-to-gradient-boosting-on-decision-trees-with-catboost-d511a9ccbd14)
+- [`catboost` docs](https://tech.yandex.com/catboost/doc/dg/concepts/about-docpage/)
+- [Understanding decision trees](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579)
+- [Random Forest interpretability](https://towardsdatascience.com/interpretability-and-random-forests-4fe13a79ae34)
+- [`catboost` for model interpretation](https://towardsdatascience.com/deep-dive-into-catboost-functionalities-for-model-interpretation-7cdef669aeed)
+- [Visualize bagging effect on bias and variance](https://towardsdatascience.com/understanding-the-effect-of-bagging-on-variance-and-bias-visually-6131e6ff1385)
+- [How to draw decision trees](https://towardsdatascience.com/decision-trees-how-to-draw-them-on-paper-e2597af497f0)
+- [Decision trees code](https://towardsdatascience.com/almost-everything-you-need-to-know-about-decision-trees-with-code-dc026172a284)
+- [Why you should learn `catboost`](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
+- [Intuition behind `xgboost`](https://towardsdatascience.com/the-intuition-behind-gradient-boosting-xgboost-6d5eac844920)
+- [Tree boosted mixed models](https://towardsdatascience.com/tree-boosted-mixed-effects-models-4df610b624cb)
+- [Random Forest in ML](https://medium.com/towards-artificial-intelligence/use-of-decision-trees-and-random-forest-in-machine-learning-1e35e737b638)
+- [Multiple imputation with Random Forest](https://towardsdatascience.com/multiple-imputation-with-random-forests-in-python-dec83c0ac55b)
+- [Ensemble learning](https://towardsdatascience.com/the-magic-behind-ensemble-learning-569be80fbab4)
+- [Decision tree and overfitting](https://towardsdatascience.com/construct-a-decision-tree-and-how-to-deal-with-overfitting-f907efc1492d)
+- [From boosting to gradient boosting](https://towardsdatascience.com/from-boosting-to-gradientboost-ed271cdf2e9e)
+- [Decision trees and lookahead strategy](https://towardsdatascience.com/lookahead-decision-tree-algorithms-1a531897d15c)
+- [AdaBoost mathematical approach](https://towardsdatascience.com/a-comprehensive-mathematical-approach-to-understand-adaboost-f185104edced)
+- [How to visualize Decision trees](https://towardsdatascience.com/4-ways-to-visualize-individual-decision-trees-in-a-random-forest-7a9beda1d1b7)
+- [Random Forest vs Gradient Boosting](https://towardsdatascience.com/3-key-differences-between-random-forests-and-gbdt-cfc48093200b)
+- [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
+- [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
 
 ## Churn analysis
 
@@ -337,34 +366,6 @@
 - [Probability distributions Q&A - part 1](https://towardsdatascience.com/getting-to-know-probability-distributions-cc1dd1e2f22b)
 - [Probability distributions Q&A - part 2](https://towardsdatascience.com/a-field-guide-to-the-most-popular-parameters-d734596c3f26)
 - [Correlation visually explained](https://towardsdatascience.com/correlation-explained-visually-4875448e8e56)
-
-## Random Forest
-
-- [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
-- [Intuition behind Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
-- [Explaining feature importance](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
-- [`catboost` for gradient boosting decision trees](https://towardsdatascience.com/introduction-to-gradient-boosting-on-decision-trees-with-catboost-d511a9ccbd14)
-- [`catboost` docs](https://tech.yandex.com/catboost/doc/dg/concepts/about-docpage/)
-- [Understanding decision trees](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579)
-- [Random Forest interpretability](https://towardsdatascience.com/interpretability-and-random-forests-4fe13a79ae34)
-- [`catboost` for model interpretation](https://towardsdatascience.com/deep-dive-into-catboost-functionalities-for-model-interpretation-7cdef669aeed)
-- [Visualize bagging effect on bias and variance](https://towardsdatascience.com/understanding-the-effect-of-bagging-on-variance-and-bias-visually-6131e6ff1385)
-- [How to draw decision trees](https://towardsdatascience.com/decision-trees-how-to-draw-them-on-paper-e2597af497f0)
-- [Decision trees code](https://towardsdatascience.com/almost-everything-you-need-to-know-about-decision-trees-with-code-dc026172a284)
-- [Why you should learn `catboost`](https://towardsdatascience.com/why-you-should-learn-catboost-now-390fb3895f76)
-- [Intuition behind `xgboost`](https://towardsdatascience.com/the-intuition-behind-gradient-boosting-xgboost-6d5eac844920)
-- [Tree boosted mixed models](https://towardsdatascience.com/tree-boosted-mixed-effects-models-4df610b624cb)
-- [Random Forest in ML](https://medium.com/towards-artificial-intelligence/use-of-decision-trees-and-random-forest-in-machine-learning-1e35e737b638)
-- [Multiple imputation with Random Forest](https://towardsdatascience.com/multiple-imputation-with-random-forests-in-python-dec83c0ac55b)
-- [Ensemble learning](https://towardsdatascience.com/the-magic-behind-ensemble-learning-569be80fbab4)
-- [Decision tree and overfitting](https://towardsdatascience.com/construct-a-decision-tree-and-how-to-deal-with-overfitting-f907efc1492d)
-- [From boosting to gradient boosting](https://towardsdatascience.com/from-boosting-to-gradientboost-ed271cdf2e9e)
-- [Decision trees and lookahead strategy](https://towardsdatascience.com/lookahead-decision-tree-algorithms-1a531897d15c)
-- [AdaBoost mathematical approach](https://towardsdatascience.com/a-comprehensive-mathematical-approach-to-understand-adaboost-f185104edced)
-- [How to visualize Decision trees](https://towardsdatascience.com/4-ways-to-visualize-individual-decision-trees-in-a-random-forest-7a9beda1d1b7)
-- [Random Forest vs Gradient Boosting](https://towardsdatascience.com/3-key-differences-between-random-forests-and-gbdt-cfc48093200b)
-- [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
-- [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
 
 ## Regression
 

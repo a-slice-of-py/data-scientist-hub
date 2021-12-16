@@ -4,3 +4,4 @@
 - [Colorama](https://github.com/tartley/colorama)
 - [Python Fire](https://github.com/google/python-fire#why-is-it-called-fire)
 - [Typer](https://typer.tiangolo.com/)
+- [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
