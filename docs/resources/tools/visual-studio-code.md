@@ -6,3 +6,4 @@
 - [Code cognitive complexity](https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html)
 - [Python rules for cognitive complexity](https://rules.sonarsource.com/python)
 - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [Advanced VSC for Python developers](https://realpython.com/advanced-visual-studio-code-python/)
