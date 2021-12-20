@@ -1,8 +1,13 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+run_hooks = os.environ.get('RUN_HOOKS', 'true') == 'true'
 
 def on_pre_build(*args, **kwargs) -> None:
     """Wrap actions to be executed on docs pre-build."""
-    _index_resources(*args, **kwargs)
+    if run_hooks:
+        _index_resources(*args, **kwargs)
 
 def _index_resources(*args, **kwargs) -> None:
     """Create index for eache resources section."""

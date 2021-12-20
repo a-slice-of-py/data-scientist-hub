@@ -326,3 +326,4 @@ $RECYCLE.BIN/
 /trello-json/
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
+.env
