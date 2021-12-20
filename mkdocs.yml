@@ -45,7 +45,9 @@ markdown_extensions:
   - admonition
   - footnotes
   - toc:
+      title: What's here
       permalink: True
+      toc_depth: 3 # remove for default 6
 
 plugins:
   - search
@@ -58,6 +60,10 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascript/config.js
+  - javascript/MathJax.min.js
 
 extra:
   social:
