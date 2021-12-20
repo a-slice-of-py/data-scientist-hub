@@ -162,7 +162,7 @@
 
 ### 06 / June
 
-### ![100%](https://progress-bar.dev/100) ☁️ AWS EC2 101
+#### ![100%](https://progress-bar.dev/100) ☁️ AWS EC2 101
 
 - [AWS and Docker basics](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
 - [Streamlit fails for external IP not detected](https://discuss.streamlit.io/t/streamlit-fails-to-start-because-external-ip-not-detected/2378)

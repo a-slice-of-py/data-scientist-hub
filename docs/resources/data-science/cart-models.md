@@ -1,4 +1,4 @@
-# Random Forest
+# CART models
 
 - [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
 - [Intuition behind Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
