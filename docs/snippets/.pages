@@ -1,0 +1,8 @@
+nav:
+  - index.md
+  - boto3: boto3.md
+  - folium: folium.md
+  - ortools: ortools.md
+  - sklearn: sklearn.md
+  - stdlib: stdlib.md
+  - streamlit: streamlit.md
