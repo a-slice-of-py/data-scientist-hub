@@ -5,6 +5,5 @@
 - [dsh](https://github.com/a-slice-of-py/data-scientist-hub) ➜ this site source repo
 - [scopone-scientifico](https://github.com/a-slice-of-py/scopone-scientifico) ➜ a work-in-progress Reinforcement Learning project on a classic Italian card game
 - [mastermind](https://github.com/a-slice-of-py/mastermind) ➜ source code of a Streamlit app to enjoy a classic code-breaking game
-- _[TO BE REMOVED]_ [gists](https://gist.github.com/a-slice-of-py) ➜ random gists to be moved into Snippets section
-- _[TO BE REMOVED]_ [tree-generation](https://github.com/a-slice-of-py/tree-generation) ➜ tree structure Python implementation
+- [tree-generation](https://github.com/a-slice-of-py/tree-generation) ➜ tree structure Python implementation
 - [advent-of-code](https://github.com/a-slice-of-py/advent-of-code) ➜ AoC submissions repo

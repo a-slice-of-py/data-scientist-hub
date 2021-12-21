@@ -1,5 +1,4 @@
-nav:   
-   - index.md
+nav:
    - 🖥️ Products: products.md
    - 📂 Repositories: repositories.md
    - 🛤️ Progress tracker: progress-tracker.md

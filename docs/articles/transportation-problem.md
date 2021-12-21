@@ -254,8 +254,11 @@ the following form
 
 \(\sum\limits_{i=1}^m x_{ik}=\sum\limits_{j=1}^n x_{kj}\;,\;\;\forall k=1,\dots,p\)
 
-assuming no storage is allowed within transshipment nodes. \#\#\#
-Sortation centers The intermediaries of the middle layer can be
+assuming no storage is allowed within transshipment nodes. 
+
+### Sortation centers
+
+The intermediaries of the middle layer can be
 interpreted also as sortation centers. In this case, a mixture between
 transportation problem and *assignment problem* better fits our needs:
 the classic transportation problem can be applied to the transportation
