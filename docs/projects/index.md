@@ -1,3 +1,3 @@
-# 👨‍💻 Projects
+# Projects
 
 Personal development projects and progress tracker.

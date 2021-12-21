@@ -1,6 +1,6 @@
-# 🛕 Snippets
+# Snippets
 
-The Temple of [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself): collection of snippets of reusable code.
+The temple of [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself): collection of snippets of reusable code.
 
 <figure>
     <img src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png"
@@ -14,7 +14,13 @@ The Temple of [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself): coll
 ## Python
 
 ??? tip "Try here!"
-    <iframe src="https://www.online-python.com/" title="Online Python terminal" width="100%" height="1000" scrolling="no"></iframe>
+    <iframe
+    src="https://www.programiz.com/python-programming/online-compiler/"
+    title="Programiz Python terminal"
+    width="100%"
+    height="500"
+    scrolling="no">
+    </iframe>
 
 ### boto3
 

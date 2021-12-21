@@ -14,13 +14,13 @@ Sitemap and main table of contents.
 
 Personal development projects and progress tracker.
 
-### 📰 Articles
+### ✏️ Articles
 
 Original articles about data science and more.
 
-### 🛕 Snippets
+### 💾 Snippets
 
-The Temple of DRY: collection of snippets of reusable code.
+The temple of DRY: collection of snippets of reusable code.
 
 ### 🐾 PAWS
 
