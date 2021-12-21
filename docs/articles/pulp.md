@@ -281,3 +281,64 @@ In a similar way, you can bypass some PuLP limitations in the implementation. Fo
 - [paper about Nurse Scheduling Problem](https://www.sciencedirect.com/science/article/pii/S111001681730282X)
 - [post about conferences scheduling with PuLP](https://vknight.org/unpeudemath/mathematics/2017/03/01/Scheduling-class-presentations-using-pulp.html)
 - [post about Bus Driver Scheduling Problem](https://blog.remix.com/an-intro-to-integer-programming-for-engineers-simplified-bus-scheduling-bd3d64895e92)
+
+## CBC optimal status
+
+I discover that CBC solver used via PuLP sometimes exits with `OPTIMAL` status even if the actual cause is the given time limit: this lead to an incoherent solver status with a globally non-optimum solution.
+
+Below some possible explanations.
+
+Following [this issue](https://github.com/coin-or/pulp/issues/164), one of PuLP authors (at least [from v2.1 on](https://github.com/coin-or/pulp/releases)) states:
+
+> In the case of GUROBI and CPLEX solvers (at least in the CMD interface), pulp returns 1 ('optimal') when an integer solution has been found in the time limit.
+>
+> This is not the behavior I get from the CBC solver, which returns 0 ['not solved', ndr].
+>
+> Since having found an integer solution when the time stops is neither "optimal" nor "not solved", both are at the same time misleading and inconsistent.
+>
+> One possibility is to at least make all solvers return the same status when finishing in the same status. This would make CBC return 1 instead of 0 when at least one integer > solution was found. This is easy to change.
+>
+> The second, more ambitious possibility, would be to create a new "Integer solution" status in pulp that differentiates from "optimal" and "no solution". This would then be used in the solver interfaces as an additional status to return.
+
+A double check on [PuLP constants](https://github.com/coin-or/pulp/blob/master/pulp/constants.py) confirms that:
+
+- exists a dictionary of PuLP problem statuses with values in `[Not Solved, Optimal, Infeasible, Unbounded, Undefined]`
+- exists a dictionary of PuLP solution statuses with values in `[No Solution Found, Optimal Solution Found, Solution Found, No Solution Exists, Solution is Unbounded]`
+- `LpSolutionIntegerFeasible = 2` has been mapped to solution status `Solution Found` but it's not the map value for any problem status in `LpStatusToSolution`
+
+Looking into the source code of [PuLP interface to CBC](https://github.com/coin-or/pulp/blob/master/pulp/apis/coin_api.py#L300), we can check the `get_status` function definition:
+  
+```python
+def get_status(self, filename):
+    cbcStatus = {
+        "Optimal": constants.LpStatusOptimal,
+        "Infeasible": constants.LpStatusInfeasible,
+        "Integer": constants.LpStatusInfeasible,
+        "Unbounded": constants.LpStatusUnbounded,
+        "Stopped": constants.LpStatusNotSolved,
+    }
+
+    cbcSolStatus = {
+        "Optimal": constants.LpSolutionOptimal,
+        "Infeasible": constants.LpSolutionInfeasible,
+        "Unbounded": constants.LpSolutionUnbounded,
+        "Stopped": constants.LpSolutionNoSolutionFound,
+    }
+
+    with open(filename) as f:
+        statusstrs = f.readline().split()
+
+    status = cbcStatus.get(statusstrs[0], constants.LpStatusUndefined)
+    sol_status = cbcSolStatus.get(
+        statusstrs[0], constants.LpSolutionNoSolutionFound
+    )
+    # here we could use some regex expression.
+    # Not sure what's more desirable
+    if status == constants.LpStatusNotSolved and len(statusstrs) >= 5:
+        if statusstrs[4] == "objective":
+            status = constants.LpStatusOptimal
+            sol_status = constants.LpSolutionIntegerFeasible
+    return status, sol_status
+```
+
+In one of the last lines we can clearly see that if the problem status is `LpStatusNotSolved`, the same is reassigned to `LpSolutionOptimal` but solution status is not (it is override with `LpSolutionIntegerFeasible`).
