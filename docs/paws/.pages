@@ -1,7 +1,8 @@
 nav:
   - index.md
-  - AWS CDK: cdk.md
-  - AWS Chalice: chalice.md
-  - AWS DynamoDB: dynamo.md
-  - AWS S3: s3.md
-  - AWS SAM: sam.md
+  - CDK: cdk.md
+  - Chalice: chalice.md
+  - CodeBuild: codebuild.md
+  - DynamoDB: dynamo.md
+  - S3: s3.md
+  - SAM: sam.md
