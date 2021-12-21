@@ -1,4 +1,5 @@
 nav:
   - index.md
+  - AWS CDK: cdk.md
   - AWS Chalice: chalice.md
   - AWS SAM: sam.md
