@@ -2,4 +2,5 @@ nav:
   - index.md
   - AWS CDK: cdk.md
   - AWS Chalice: chalice.md
+  - AWS S3: s3.md
   - AWS SAM: sam.md
