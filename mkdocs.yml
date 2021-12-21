@@ -27,6 +27,7 @@ theme:
         name: Switch to dark mode 
   features:
     - navigation.indexes
+    - navigation.tabs
     - navigation.top
     - navigation.tracking
     - search.suggest
