@@ -12,3 +12,4 @@
 - [Bellman equation and dynamic programming](https://towardsdatascience.com/a-crash-course-in-markov-decision-processes-the-bellman-equation-and-dynamic-programming-e80182207e85)
 - [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)
 - [Multi-agent particle swarm](https://towardsdatascience.com/simulating-multi-agent-swarming-events-in-python-ee133143944d)
+- [The K-armed bandit problem](https://blog.dominodatalab.com/k-armed-bandit-problem)
