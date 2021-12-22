@@ -1,5 +1,53 @@
 # ortools
 
+## `get_solver`
+
+```python
+"""Utils for ortools-based classes."""
+
+from ortools.linear_solver import pywraplp
+
+_solvers = dict(
+    SCIP=pywraplp.Solver.SCIP_MIXED_INTEGER_PROGRAMMING,
+    CBC=pywraplp.Solver.CBC_MIXED_INTEGER_PROGRAMMING,
+    SAT=pywraplp.Solver.SAT_INTEGER_PROGRAMMING
+    )
+
+
+def get_solver(solver: str) -> int:
+    """Initialize OR-Tools problem.
+
+    SEE: For reference on solvers performance see [here](https://github.com/google/or-tools/issues/1522)
+
+    Available solvers:
+
+    - 'SCIP' (`SCIP_MIXED_INTEGER_PROGRAMMING`), 
+        recommended solver in [source code](https://github.com/google/or-tools/blob/v8.0/ortools/linear_solver/linear_solver.h#L194) 
+        at line 194, but free only for academic purpose (see https://www.scipopt.org/index.php#license)
+    - 'CBC' (`CBC_MIXED_INTEGER_PROGRAMMING`), solves MIP problem - beware that timeout _can be_ ignored, see for reference:
+        - https://stackoverflow.com/questions/63130482/how-to-combine-time-and-gap-limits-with-google-or-tools-in-python
+        - https://groups.google.com/g/or-tools-discuss/c/iWz16p6q680
+        - https://github.com/google/or-tools/issues/1006
+        - https://developers.google.com/optimization/reference/python/linear_solver/pywraplp
+        - https://github.com/google/or-tools/issues/644
+        - https://github.com/google/or-tools/issues/603
+    - 'SAT' (`SAT_INTEGER_PROGRAMMING`), autoscales coefficients to integers and applies Boolean satisfiability test to solve IP problem
+        seems best on already integers objective functions (e.g. bin packing). 
+        Implements [CDCL algorithm](https://en.wikipedia.org/wiki/Conflict-driven_clause_learning).    
+
+    Other evaluated solvers:
+
+    - 'BOP' (`BOP_INTEGER_PROGRAMMING`), requires only integer variables and works best with only Boolean variables.
+        In case of not integer variables, returns problem status ABNORMAL. Does not seem to respect time limit.
+    - `CP_SAT`, requires refactoring of API and only integer coefficients (which must be explicitly scaled beforehand)
+    - `GLPK_MIXED_INTEGER_PROGRAMMING`, not tested because not installed 
+        (caused jupyter kernel death on Windows, see https://developers.google.com/optimization/install/cpp/source_linux#optional_third_party)
+    - `CLP_LINEAR_PROGRAMMING`, linear solver which ignores boolean variables declaration
+    - `GLOP_LINEAR_PROGRAMMING`, linear solver which ignores boolean variables declaration
+    """    
+    return _solvers[solver]
+```
+
 ## `BaseProblem`
 
 ```python
@@ -198,54 +246,6 @@ class BaseProblem(pywraplp.Solver, ABC):
         logger.info(f"Problem status: {self.status_names[self.status]}")
 ```
 
-## `get_solver`
-
-```python
-"""Utils for ortools-based classes."""
-
-from ortools.linear_solver import pywraplp
-
-_solvers = dict(
-    SCIP=pywraplp.Solver.SCIP_MIXED_INTEGER_PROGRAMMING,
-    CBC=pywraplp.Solver.CBC_MIXED_INTEGER_PROGRAMMING,
-    SAT=pywraplp.Solver.SAT_INTEGER_PROGRAMMING
-    )
-
-
-def get_solver(solver: str) -> int:
-    """Initialize OR-Tools problem.
-
-    SEE: For reference on solvers performance see [here](https://github.com/google/or-tools/issues/1522)
-
-    Available solvers:
-
-    - 'SCIP' (`SCIP_MIXED_INTEGER_PROGRAMMING`), 
-        recommended solver in [source code](https://github.com/google/or-tools/blob/v8.0/ortools/linear_solver/linear_solver.h#L194) 
-        at line 194, but free only for academic purpose (see https://www.scipopt.org/index.php#license)
-    - 'CBC' (`CBC_MIXED_INTEGER_PROGRAMMING`), solves MIP problem - beware that timeout _can be_ ignored, see for reference:
-        - https://stackoverflow.com/questions/63130482/how-to-combine-time-and-gap-limits-with-google-or-tools-in-python
-        - https://groups.google.com/g/or-tools-discuss/c/iWz16p6q680
-        - https://github.com/google/or-tools/issues/1006
-        - https://developers.google.com/optimization/reference/python/linear_solver/pywraplp
-        - https://github.com/google/or-tools/issues/644
-        - https://github.com/google/or-tools/issues/603
-    - 'SAT' (`SAT_INTEGER_PROGRAMMING`), autoscales coefficients to integers and applies Boolean satisfiability test to solve IP problem
-        seems best on already integers objective functions (e.g. bin packing). 
-        Implements [CDCL algorithm](https://en.wikipedia.org/wiki/Conflict-driven_clause_learning).    
-
-    Other evaluated solvers:
-
-    - 'BOP' (`BOP_INTEGER_PROGRAMMING`), requires only integer variables and works best with only Boolean variables.
-        In case of not integer variables, returns problem status ABNORMAL. Does not seem to respect time limit.
-    - `CP_SAT`, requires refactoring of API and only integer coefficients (which must be explicitly scaled beforehand)
-    - `GLPK_MIXED_INTEGER_PROGRAMMING`, not tested because not installed 
-        (caused jupyter kernel death on Windows, see https://developers.google.com/optimization/install/cpp/source_linux#optional_third_party)
-    - `CLP_LINEAR_PROGRAMMING`, linear solver which ignores boolean variables declaration
-    - `GLOP_LINEAR_PROGRAMMING`, linear solver which ignores boolean variables declaration
-    """    
-    return _solvers[solver]
-```
-
 ## `Problem`
 
 ```python
@@ -332,8 +332,12 @@ class Problem(BaseProblem):
             export_model (bool, optional): Controls whether or not problem in LP format must be exported. Defaults to False.
             artifacts_path (str, optional): Path in which resolution logs must be stored. Defaults to './ortools_artifacts'.
         """
+        # Build and solve
         self._build()
-        self._solve(export_model=export_model, artifacts_path=artifacts_path)        
+        self._solve(export_model=export_model, artifacts_path=artifacts_path)
+        
+        # Postprocess solution
+        ...
 
         # Add activated slack to logs as warnings
         if self.relaxable:
@@ -343,4 +347,401 @@ class Problem(BaseProblem):
 
         if self.status in self.status_whitelist:
             return ...
+```
+
+### `Location-Allocation`
+
+```python
+from ortools.linear_solver.linear_solver_natural_api import ProductCst
+from ... import Problem
+self = Problem(...)
+
+
+def set_assignment_constraints(self) -> None:
+    """Add assignment constraints which ensure location-allocation coherency."""
+    for i in self.customers:
+        self.Add(
+            self.Sum(
+                [self.X[i, j] for j in self.y]) == 1,
+                f"Customer {i} must be allocated to exactly one facility."
+                )
+
+    for i, j in self.X.keys():
+        self.Add(
+            self.X[i, j] <= self.y[j],
+            f"If facility {j} is not open, customer {i} cannot be allocated to it."
+            )
+
+    for j in self.facility_candidates:
+        self.Add(
+            self.Sum([self.X[i, j] for i in self.customers]) >= self.y[j],
+            f"If facility {j} is open, at least one customer must be allocated to it."
+        )
+
+def set_n_facilities_constraint(self) -> None:
+    """Add constraint on number of facilities to locate."""
+    if getattr(self, 'n_facilities', None):
+        self.Add(
+            self.Sum([self.y[j] for j in self.facility_candidates]) == self.n_facilities,
+            f"Total opened facilities must be exactly {self.n_facilities}.")
+
+def set_max_facilities_constraint(self):
+    """Add constraint to limit max number of facilities."""
+    if getattr(self, 'max_n_facilities', None):
+        self.Add(
+            self.Sum([self.y[j] for j in self.facility_candidates]) <= self.max_n_facilities,
+            f"Total opened facilities must be at most {self.max_n_facilities}.")
+
+def set_required_facilities_constraint(self):
+    """Add constraint to set required facilities."""
+    for j in self.required_facilities:
+        self.Add(
+            self.y[j] == 1,
+            f"Facility {j} must be used."
+        )
+
+def _build_minisum(self, i: str, j: str) -> ProductCst:
+    return (
+        self.distance_matrix.loc[i, j] *
+        self.X[i, j] *
+        self.customers.loc[i, self.weight]
+    )
+
+def _build_minisum_penalty(self) -> float:
+    return (
+        self.distance_matrix.max().max() *
+        len(self.X) *
+        self.customers.loc[:, self.weight].max()
+    )
+
+def locate_facilities(self) -> None:
+    """Locate facilities after problem resolution."""
+    if self.status in self.status_whitelist:
+        self.located_facilities = list(
+            j for j in self.y
+            if self.y[j].solution_value() == 1
+            )
+
+def allocate_customers(self) -> None:
+    """Retrieve allocations after problem resolution."""
+    if self.status in self.status_whitelist:
+        self.allocations = dict(
+            (i, j) for i, j in self.X
+            if self.X[i, j].solution_value() == 1
+            )
+
+def build_objective_terms(self) -> list:
+    """Build problem objective function terms.
+
+    Following [ortools docs](https://developers.google.com/optimization/assignment/assignment_example#create_the_objective_function),
+    objective function is created as a sum of terms.
+
+    Returns:
+        Obective function terms.
+    """
+    objective_terms = []
+    for i, j in self.X.keys():
+        objective_terms.append(self._build_minisum(i, j))
+    return objective_terms
+
+@timed
+def set_constraints(self) -> None:
+    """Add constraints to OR-Tools problem."""
+    self.set_assignment_constraints()
+    self.set_n_facilities_constraint()
+    self.set_max_facilities_constraint()
+    self.set_required_facilities_constraint()
+    ...
+```
+
+### Capacitated Vehicle Routing
+
+```python
+from typing import Optional
+
+import networkx as nx
+import pandas as pd
+from ... import BaseProblem
+
+
+class CVRP(BaseProblem):
+    """Extend BaseProblem class to implement custom CVRP problem."""
+
+    def __init__(
+        self,
+        solver: str,
+        sense: str,
+        relaxable: bool,
+        time_limit: Optional[int],
+        **kwargs
+        ) -> None:
+        """Initialize class and feed params to BaseProblem.
+
+        Args:
+            solver (str): solver name.
+            sense (str): problem optimization sense.
+            relaxable (bool): indicate whether or not the problem can be relaxed.
+            time_limit (Optional[int]): possible timeout for solution computation.
+        """
+        super().__init__(
+            solver=solver,
+            sense=sense,
+            relaxable=relaxable,
+            time_limit=time_limit
+            )
+        self.set_params(**kwargs)
+
+    def set_params(self, **params) -> None:
+        """Set the parameters of this model."""
+        for key, value in params.items():
+            setattr(self, key, value)
+
+    def fit(self, data: ...) -> None:
+        """Fit problem with data."""
+        n_vehicles = self.compute_n_vehicles(self.data)
+        self.vehicles = pd.DataFrame(...)
+        self.locations = pd.DataFrame(...)
+        self.distance_matrix = pd.DataFrame(...)
+        self.vehicle_shift_duration = ...
+        self.vehicle_speed = ...
+
+    def compute_n_vehicles(self, data: ...) -> int:
+        """Compute minimum number of vehicles via bin packing.
+
+        Args:
+            data (...): CVRP data.
+
+        Returns:
+            Minimum number of vehicles.
+        """
+        options = dict(
+            solver='SAT',
+            sense='min',
+            relaxable=False,
+            time_limit=30.0
+            )
+        bp = BinPacking(**options)
+        logger.info("Solving BinPacking problem to optimize available vehicles...")
+        return bp.fit_and_solve(data)        
+
+    def set_variables(self) -> None:
+        """Set problem variables."""
+        # Transit variables
+        self.X = {
+            (k, i, j): self.BoolVar(f"{k}_transit_from_{i}_to_{j}")
+            for k in self.vehicles.index
+            for i in self.locations.index
+            for j in self.locations.index
+            if i != j
+            }
+        # Allocation variables
+        self.y = {
+            (i, k): self.BoolVar(f"{i}_collected_by_{k}")
+            for k in self.vehicles.index
+            for i in self.locations.index
+        }
+        # Load variables (auxiliary)
+        self.u = {
+            (i, k): self.Var(
+                    name=f"load_of_{k}_after_visit_{i}",
+                    lb=float(self.locations.loc[i, 'weight']),
+                    ub=float(self.vehicles.loc[k, 'capacity']),
+                    integer=True
+                    )
+            for k in self.vehicles.index
+            for i in self.locations.index.drop('depot')
+        }
+
+    def set_slack_variables(self) -> None:
+        ...        
+
+    @timed
+    def set_objective(self) -> None:
+        """Set problem objective."""
+        self.objective = self.Sum(self.build_objective_terms())
+
+    def set_assignment_constraints(self) -> None:
+        """Set assignment constraints to ensure route coherence."""
+        for i in self.locations.index.drop(['depot', 'dump']):
+            self.Add(
+                self.Sum([self.y[(i, k)] for k in self.vehicles.index]) == 1,
+                f"Location {i} must be visited by exactly one vehicle."
+                )
+
+        self.Add(
+            self.Sum([self.y[('depot', k)] for k in self.vehicles.index]) <= len(self.vehicles),
+            f"All vehicles must visit depot. Up to {len(self.vehicles)} can be used."
+        )
+
+    def set_flow_conservation_constraints(self) -> None:
+        """Set flow conservation constraints.
+        
+        Each vehicle must enter to and exit from each node exactly once.
+        """
+        for i in self.locations.index:
+            for k in self.vehicles.index:
+                self.Add(
+                    self.Sum([self.X[(k, i, j)] for j in self.locations.index if j != i]) == self.y[(i, k)],
+                    f"If {k} visits location {i}, then exactly one edge starting from {i} must be traversed from {k}."
+                    )
+
+        for i in self.locations.index:
+            for k in self.vehicles.index:
+                self.Add(
+                    self.Sum([self.X[(k, j, i)] for j in self.locations.index if j != i]) == self.y[(i, k)],
+                    f"If {k} visits location {i}, then exactly one edge ending in {i} must be traversed from {k}."
+                    )
+
+    def set_subtour_elimination_contraints(self) -> None:
+        """Set subtour elimination constraints.
+        
+        SEE:         
+        - [subtours example](https://docs.python-mip.com/en/latest/examples.html#the-traveling-salesman-problem)
+        - [MTZ conditions for 3-indices model](https://i.stack.imgur.com/ewjuD.png)
+        
+        """
+        for k in self.vehicles.index:
+            for i in self.locations.index.drop('depot'):
+                for j in self.locations.index.drop('depot'):
+                    if (i != j) and (self.locations.loc[i, 'weight'] + self.locations.loc[j, 'weight'] <= self.vehicles.loc[k, 'capacity']):
+                        self.Add(
+                            self.u[(i, k)] - self.u[(j, k)] + self.vehicles.loc[k, 'capacity'] * self.X[(k, i, j)] <= self.vehicles.loc[k, 'capacity'] - self.locations.loc[j, 'weight'],
+                            f"Subtour elimination (A) for {k}, {i} and {j}"
+                        )
+                        self.Add(
+                            self.u[(j, k)] - self.u[(i, k)] + self.vehicles.loc[k, 'capacity'] * self.X[(k, i, j)] <= self.vehicles.loc[k, 'capacity'] + self.locations.loc[j, 'weight'],
+                            f"Subtour elimination (B) for {k}, {i} and {j}"
+                        )
+
+                self.Add(
+                    self.u[(i, k)] - self.locations.loc[i, 'weight'] <= self.vehicles.loc[k, 'capacity'] * (1 - self.X[(k, 'depot', i)]),
+                    f"If X({k}, depot, {i}) = 1, then u({i},{k}) = d({i}), Linearization 1"
+                )
+
+                self.Add(
+                    self.locations.loc[i, 'weight'] - self.u[(i, k)] <= self.vehicles.loc[k, 'capacity'] * (1 - self.X[(k, 'depot', i)]),
+                    f"If X({k}, depot, {i}) = 1, then u({i},{k}) = d({i}), Linearization 2"
+                )
+
+    def set_capacity_constraints(self) -> None:
+        """Set capacity constraints."""
+        for k in self.vehicles.index:
+            self.Add(
+                self.Sum([self.locations.loc[i, 'weight'] * self.y[(i, k)] for i in self.locations.index]) <= self.vehicles.loc[k, 'capacity'],
+                f"Capacity constraint for {k}"
+            )
+
+    def set_time_constraints(self) -> None:
+        """Set time constraints."""
+        for k in self.vehicles.index:
+            self.Add(
+                self.Sum([self.distance_matrix.loc[i, j] * self.X[(k, i, j)] / self.vehicle_speed for i in self.locations.index for j in self.locations.index if i != j]) \
+                + self.Sum([self.y[(i, k)] * self.locations.loc[i, 'stop_time'] for i in self.locations.index.drop(['depot', 'dump'])]) <= self.vehicle_shift_duration.seconds,
+                f"Route of {k} cannot last more than {self.vehicle_shift_duration}"
+            )
+
+    def set_unload_constraints(self) -> None:
+        """Set unload constraints."""
+        for k in self.vehicles.index:
+            self.Add(
+                self.X[(k, 'dump', 'depot')] == 1,
+                f"{k} must visit dump before depot."
+            )            
+
+    @timed
+    def set_constraints(self) -> None:
+        """Set problem constraints."""
+        self.set_assignment_constraints()
+        self.set_flow_conservation_constraints()
+        self.set_capacity_constraints()
+        self.set_subtour_elimination_contraints()
+        self.set_time_constraints()
+        self.set_unload_constraints()
+
+    def set_slack_penalty(self) -> None:
+        ...
+
+    def build_objective_terms(self) -> list:
+        """Build objective terms.
+
+        Current problem minimize total travel distance (minisum approach).
+
+        Returns:
+            Objective terms.
+        """
+        objective_terms = []
+        for k in self.vehicles.index:
+            for i in self.locations.index:
+                for j in self.locations.index:
+                    if j != i:
+                        objective_terms.append(
+                            self.distance_matrix.loc[i, j] * self.X[(k, i, j)]
+                        )
+        return objective_terms
+
+    def _extract_edges(self) -> dict:
+        """Extract all route edges from X variables.
+
+        Returns:
+            Mapping of vehicles to route as list of edges.
+        """
+        edges = {}
+        if self.status in self.status_whitelist:
+            for k in self.vehicles.index:
+                edges[k] = list(
+                    (i, j)
+                    for i in self.locations.index
+                    for j in self.locations.index
+                    if (i != j) and (self.X[(k, i, j)].solution_value() == 1)
+                )
+        edges = {vehicle: edgelist for vehicle, edgelist in edges.items() if edgelist and set(edgelist) != set([('depot', 'dump'), ('dump', 'depot')])}
+        logger.info(f"Used vehicles: {len(edges)}")
+        return edges
+    
+    def extract_routes(self) -> dict:
+        """Reshape routes to list of nodes.
+
+        Returns:
+            Mapping of vehicles to route as list of nodes.
+        """        
+        edges = self._extract_edges()
+
+        routes = {}
+        for vehicle, edgelist in edges.items():
+            last_location = list(map(lambda x: x[0], filter(lambda x: x[-1] == 'depot', edgelist)))[0]                   
+            G = nx.from_edgelist(edgelist, create_using=nx.DiGraph)
+            route = nx.shortest_path(G, 'depot', last_location)
+            route.append('depot')
+            assert len(route) == len(edgelist) + 1, f"Unused edge from edgelist {edgelist} in route {route}."
+            routes[vehicle] = route
+
+        return routes
+
+    def solve(
+        self,
+        verbose: bool = False,
+        artifacts_path: str = "./.ortools_artifacts"
+        ) -> Optional[dict]:
+        """Solve problem and retrieve solution.
+
+        Args:
+            verbose (bool, optional): Controls whether or not resolution logs must be saved. Defaults to False.
+            artifacts_path (str, optional): Path in which resolution logs must be stored. Defaults to './ortools_artifacts'.
+        """
+        self._build()
+        self._solve(verbose=verbose, artifacts_path=artifacts_path)
+        if self.status in self.status_whitelist:
+            return self.extract_routes()
+
+    def fit_and_solve(self, data: dict) -> Optional[dict]:
+        """Implement a wrapper to sequentially recall fit() and solve() methods.
+
+        Args:
+            data (dict): CVRP data.
+
+        Returns:
+            Computed solution (if any).
+        """
+        self.fit(data)
+        return self.solve()
 ```
