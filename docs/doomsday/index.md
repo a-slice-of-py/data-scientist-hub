@@ -222,15 +222,6 @@ help: Makefile
             "keys": "ctrl+c"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "profile": "Anaconder",
-                "split": "auto"
-            },
-            "keys": "ctrl+alt+p"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
         },
