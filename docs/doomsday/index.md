@@ -206,6 +206,143 @@ help: Makefile
     @sed -n 's/^## //p' $<
 ```
 
+## Visual Studio Code
+
+### `settings.json`
+
+```json
+{
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "Dracula",
+    "python.pythonPath": "C:\\Users\\USERNAME\\Miniconda3\\envs\\ENV\\python.exe",
+    "workbench.colorCustomizations": {
+
+
+    },
+      "editor.semanticTokenColorCustomizations": {
+          "[Dracula Soft]": { // Apply to this theme only
+              "enabled": false,
+              "rules": {
+                  "magicFunction:python": "#ee0000",
+                  "function.declaration:python": "#87E570",
+                  "class.declaration:python": "#87E570",
+                  "function.call.python": "#66D9EF",
+                  "*.decorator:python": "#0000dd",
+                  "*.typeHint:python": "#6ED5D3",
+                  "*.typeHintComment:python": "#aaaaaa"
+              }
+          }
+      },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+              "foreground": "#66D9EF"
+            }
+          },
+          {
+            "scope": ["string.quoted.docstring.multi.python", "punctuation.definition.string.begin.python", "punctuation.definition.string.end.python"],
+            "settings":{
+              "foreground": "#E7EE98"
+            }
+          }
+        ]
+      },
+      "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+      },
+      "python.languageServer": "Pylance",
+      "codetags.custom": [
+      {"name": "see", "body": "For reference see [here]()"}
+      ],
+      "todohighlight.keywords": [{
+        "text": "SEE",
+        "backgroundColor": "#282A36",
+        "overviewRulerColor": "grey"
+    },
+  ],
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.enabled": false,
+  "files.eol": "\n",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "aws.profile": "profile:AWS_PROFILE",
+  "aws.sam.enableCodeLenses": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "json.schemas": [],
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+      "cmder": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": ["/k", "C:/Users/USERNAME/Documents/projects/cmder_mini/vendor/init.bat"],
+        "overrideName": true,
+        "icon": "pulse",
+        "color": "terminal.ansiGreen"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "cmder",
+    "mypy.dmypyExecutable": "C:\\Users\\USERNAME\\.mypyls\\Scripts\\dmypy.exe"
+}
+```
+
+### Extensions
+
+- [AWS Toolkit](https://github.com/aws/aws-toolkit-vscode)
+- [Better Jinja](https://github.com/samuelcolvin/jinjahtml-vscode)
+- [Better TOML](https://github.com/bungcip/better-toml)
+- [codetags](https://github.com/cg-cnu/vscode-codetags)
+- [Docker](https://github.com/microsoft/vscode-docker)
+- [Dracula Official](https://github.com/dracula/visual-studio-code)
+- [Excel Viewer](https://github.com/jjuback/gc-excelviewer)
+- [Git Graph](https://github.com/mhutchie/vscode-git-graph)
+- [GitLens](https://github.com/gitkraken/vscode-gitlens)
+- [Jupyter](https://github.com/Microsoft/vscode-jupyter)
+- [Jupyter Keymap](https://github.com/Microsoft/vscode-jupyter-keymap)
+- [Jupyter Notebook Renderers](https://github.com/Microsoft/vscode-notebook-renderers)
+- [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)
+- [markdownlint](https://github.com/DavidAnson/vscode-markdownlint)
+- [Notepad++ keymap](https://github.com/Microsoft/vscode-notepadplusplus-keybindings)
+- [Pylance](https://github.com/microsoft/pylance-release)
+- [Python](https://github.com/Microsoft/vscode-python)
+- [Python Docstring Generator](https://github.com/NilsJPWerner/autoDocstring)
+- [Remote - Containers](https://github.com/Microsoft/vscode-remote-release)
+- [Remote - WSL](https://github.com/Microsoft/vscode-remote-release)
+- [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode)
+- [TODO Highlight](https://github.com/wayou/vscode-todo-highlight)
+- [Todo Tree](https://github.com/Gruntfuggly/todo-tree)
+
 ## Windows Terminal
 
 ```json
