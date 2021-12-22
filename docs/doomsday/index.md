@@ -13,10 +13,9 @@ I just _don't_ want to start all over again: recipes to survive to a forced rese
 
 ```bash
 conda-activate = C:/Users/USERNAME/Miniconda3/Scripts/activate.bat $*
-uc11 = cd IAM/uc11-justiren
 act-env = make activate-env
+uc11 = cd IAM/uc11-justiren
 uc11-env = cd IAM/uc11-justiren & make activate-env
-cdk-env = cd IAM/uc11-justiren & make activate-env ENV_NAME=cdk
 aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws-iren-temp-credential-docker/aws_cli_temporary_credentials/Docker/container-mode-advana && make docker-run ACCOUNT=$1 -n && popd
 ```
 
@@ -205,6 +204,15 @@ gource-build:
 help: Makefile
     @sed -n 's/^## //p' $<
 ```
+
+## JupyterLab Extensions
+
+- [jupyterlab-execute-time](https://github.com/deshaw/jupyterlab-execute-time)
+- [@aquirdturtle/collapsible_headings](https://github.com/aquirdTurtle/Collapsible_Headings)
+- [jupyterlab-chart-editor](https://github.com/plotly/jupyterlab-chart-editor)
+- [jupyterlab-plotly](https://plotly.com/python/getting-started/#jupyterlab-support)
+- [jupyterlab-tailwind-theme](https://github.com/simicd/jupyterlab-tailwind-theme)
+- [simpledark](https://github.com/ericmiguel/jupyterlab-simpledark)
 
 ## Visual Studio Code
 
