@@ -26,9 +26,9 @@ The temple of DRY: collection of snippets of reusable code.
 
 Practical Amazon Web Services. Practical AWS. Just _PAWS_: original tutorials and reports written while exploring the AWS ecosystem.
 
-### ⛵ Captain's Log
+<!-- ### ⛵ Captain's Log
 
-Logbook with notes on DSH development and misc stuff.
+Logbook with notes on DSH development and misc stuff. -->
 
 ### 🗃️ Resources
 
