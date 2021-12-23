@@ -462,6 +462,7 @@ from typing import Optional
 import networkx as nx
 import pandas as pd
 from ... import BaseProblem
+from ... import BinPacking
 
 
 class CVRP(BaseProblem):

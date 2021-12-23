@@ -358,14 +358,14 @@ help: Makefile
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
+        // {
+        //     "command": 
+        //     {
+        //         "action": "copy",
+        //         "singleLine": false
+        //     },
+        //     "keys": "ctrl+c"
+        // },
         {
             "command": "paste",
             "keys": "ctrl+v"
