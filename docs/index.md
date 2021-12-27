@@ -10,7 +10,7 @@
 
 Sitemap and main table of contents.
 
-### 👨‍💻 Projects
+### 📂 Projects
 
 Personal development projects and progress tracker.
 
@@ -37,3 +37,7 @@ Collection of links to useful online resources.
 ### ☄️ Doomsday
 
 I just _don't_ want to start all over again: recipes to survive to a forced reset of development local environment.
+
+### 🏷️ About
+
+Me, myself and I.
