@@ -327,6 +327,7 @@ help: Makefile
 
 ### Extensions
 
+- [Ace Palenight theme](https://github.com/acestojanoski/ace-palenight)
 - [AWS Toolkit](https://github.com/aws/aws-toolkit-vscode)
 - [Better Jinja](https://github.com/samuelcolvin/jinjahtml-vscode)
 - [Better TOML](https://github.com/bungcip/better-toml)
@@ -347,7 +348,6 @@ help: Makefile
 - [Python Docstring Generator](https://github.com/NilsJPWerner/autoDocstring)
 - [Remote - Containers](https://github.com/Microsoft/vscode-remote-release)
 - [Remote - WSL](https://github.com/Microsoft/vscode-remote-release)
-- [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode)
 - [TODO Highlight](https://github.com/wayou/vscode-todo-highlight)
 - [Todo Tree](https://github.com/Gruntfuggly/todo-tree)
 
@@ -650,6 +650,7 @@ help: Makefile
 - [Trello](https://trello.com)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Windows Terminal](https://github.com/microsoft/terminal#via-chocolatey-unofficial)
+- [WSL2](https://docs.microsoft.com/it-it/windows/wsl/install)
 
 ## Bookmarks
 
