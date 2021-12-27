@@ -1,6 +1,6 @@
 # 🏷️ About
 
-🎓 Mathematician 🎸 Guitarist 🥾 Hiker
+🎓 Mathematician 🎸 Guitarist 🏕️ Hiker
 
 Currently employed as Data Scientist.
 
