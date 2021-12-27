@@ -14,9 +14,9 @@ Sitemap and main table of contents.
 
 Personal development projects and progress tracker.
 
-### ✏️ Articles
+### ✏️ Notes
 
-Original articles about data science and more.
+Development notes about data science and more.
 
 ### 💾 Snippets
 

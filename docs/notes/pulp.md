@@ -1,5 +1,7 @@
 # PuLP
 
+<small>12/08/2019</small>
+
 ## Taxonomy and general approach
 
 PuLP is a Python library for linear programming written in a _pythonic_ way.
