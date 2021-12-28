@@ -684,3 +684,7 @@ help: Makefile
 - [JSON formatter](https://jsonformatter.org/)
 - [Unicode table](https://unicode-table.com/en/sets/)
 - [Fontawesome icons](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=solid&m=free)
+
+## Troubleshooting
+
+- If Plotly charts are not rendered into JupyterLab, execute `jupyter labextension install jupyterlab-plotly` in the _server_ environment for JupyterLab
