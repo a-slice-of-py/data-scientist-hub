@@ -8,6 +8,36 @@ Currently employed as Data Scientist.
 
 My master thesis about inverse imaging of solar flares by means of Sequential Monte Carlo samplers applied in a Bayesian framework can be found here [[ITA]](https://www.dima.unige.it/~sorrentino/Students/Tesi_Lugaro_Silvio.pdf).
 
+<div>
+<div><small>Real image &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Reconstruction</small></div>
+<img src="../assets/real_sources.png"
+     width="330"/>
+<video width="370"
+       height="205"
+       autoplay loop>
+    <source src="../assets/reconstruction.mp4"
+            type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+<div style="margin-bottom:-20px"><small>SMC particles &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Probability distribution of sources locations</small></div>
+<video width="350"
+       height="240"
+       autoplay loop>
+    <source src="../assets/particles.mp4"
+            type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<video width="350"
+       height="240"
+       autoplay loop>
+    <source src="../assets/accumulator.mp4"
+            type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 [Here](https://prezi.com/dx8zq6x2p-dq/bayesian-monte-carlo/) you can find some Prezi slides used in master thesis presentation.
 
 <iframe src="https://prezi.com/embed/dx8zq6x2p-dq/"
