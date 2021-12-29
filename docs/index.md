@@ -1,6 +1,6 @@
 # Data Scientist Hub
 
-**Data Scientist Hub (DSH)** is my personal knowledge center. DSH contents is organized with the following structure.
+**Data Scientist Hub (DSH)** is my personal knowledge center.
 
 <!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
 
@@ -36,7 +36,7 @@ Collection of links to useful online resources.
 
 ### ☄️ Doomsday
 
-I just _don't_ want to start all over again: recipes to survive to a forced reset of development local environment.
+Recipes to survive to a forced reset of development local environment.
 
 ### 🏷️ About
 

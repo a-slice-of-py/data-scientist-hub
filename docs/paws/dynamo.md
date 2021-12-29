@@ -50,8 +50,7 @@ Autoscaling is based on CloudWatch metrics linked to read and write operations: 
 
 If an operation is requested but not performed on a provisioned table (e.g. no autoscaling, incoming rate greater than target, ...) will result as _throttled request_.
 
-!!! example
-	Failed to set write capacity units to 5. Reason: Failed updating table: Subscriber limit exceeded: Provisioned throughput decreases are limited within a given UTC day. After the first 4 decreases, each subsequent decrease in the same UTC day can be performed at most once every 3600 seconds. Number of decreases today: 4
+> Failed to set write capacity units to 5. Reason: Failed updating table: Subscriber limit exceeded: Provisioned throughput decreases are limited within a given UTC day. After the first 4 decreases, each subsequent decrease in the same UTC day can be performed at most once every 3600 seconds. Number of decreases today: 4
 
 If operations traffic towards the table stops suddenly, autoscaling does its best to reduce provisioned capacity from current to the specified minimum (5 in the above example): after first 4 decreases, it is limited to 1 decrease per hour. This behaviour is somehow a "hidden cost" of provisioned mode: in such situations, you will be billed for an entire hour for the residual peak capacity, even if it is not needed anymore.
 
