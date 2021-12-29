@@ -686,4 +686,8 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 
 ## Troubleshooting
 
+### Jupyter Lab
+
 - If Plotly charts are not rendered into JupyterLab, execute `jupyter labextension install jupyterlab-plotly` in the _server_ environment for JupyterLab.
+- To disable new undo/redo behaviour, see [this thread](https://stackoverflow.com/questions/68763795/how-to-undo-redo-changes-inside-the-selected-cell-in-jupyter-notebook).
+- To enable auto closing brackets, see [this issue](https://github.com/jupyterlab/jupyterlab/issues/9897#issuecomment-926131944).
