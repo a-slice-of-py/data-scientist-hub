@@ -14,3 +14,4 @@
 - [`streamlit-heroku` deployment utils](https://github.com/danielschutz/streamlit-heroku)
 - [Streamlit text rating component](https://discuss.streamlit.io/t/new-component-streamlit-text-rating/19146/4)
 - [Display live 2D data in Streamlit](https://discuss.streamlit.io/t/best-fastest-practice-to-display-live-2d-data/19895)
+- [Component for chat UI](https://github.com/AI-Yash/st-chat)
