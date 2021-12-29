@@ -1,6 +1,6 @@
 # PuLP
 
-<small>12/08/2019</small>
+<small><p style="text-align:right;margin-top:-76px">12/08/2019</p></small>
 
 ## Taxonomy and general approach
 

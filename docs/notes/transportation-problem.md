@@ -1,5 +1,7 @@
 # Transportation Problem
 
+<small><p style="text-align:right;margin-top:-76px">12/05/2020</p></small>
+
 ## Classic formulation
 
 Let \(\mathcal{G}\) be a *complete bipartite directed graph*, with

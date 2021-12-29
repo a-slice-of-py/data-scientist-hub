@@ -1,5 +1,7 @@
 # GNU Make
 
+<small><p style="text-align:right;margin-top:-76px">11/06/2020</p></small>
+
 `make` is a build tool which tracks the dependencies between the
 resources it manages, updating the successors whenever a change in one
 or more predecessors is detected.
