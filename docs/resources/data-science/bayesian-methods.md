@@ -18,3 +18,4 @@
 - [Gelman book Columbia university](http://www.stat.columbia.edu/~gelman/book/)
 - [Bayesian state space model with `pymc3`](https://towardsdatascience.com/first-bayesian-state-space-model-with-pymc3-51cbb06ef8bd)
 - [Bayesian inference and MCMC variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
+- [`bambi` for Bayesian Model Building Interface](https://github.com/bambinos/bambi)
