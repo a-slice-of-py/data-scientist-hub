@@ -43,6 +43,7 @@
 - [Gelman book Columbia university](http://www.stat.columbia.edu/~gelman/book/)
 - [Bayesian state space model with `pymc3`](https://towardsdatascience.com/first-bayesian-state-space-model-with-pymc3-51cbb06ef8bd)
 - [Bayesian inference and MCMC variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
+- [`bambi` for Bayesian Model Building Interface](https://github.com/bambinos/bambi)
 
 ## Bin Packing 
 
@@ -63,7 +64,7 @@
 - [Understanding Freedman Diaconis rule](https://www.quora.com/Can-anyone-help-me-understanding-What-is-Freedman%E2%80%93Diaconis-rule)
 - [Freedman Diaconis rule paper](http://bayes.wustl.edu/Manual/FreedmanDiaconis1_1981.pdf)
 
-## Random Forest
+## CART models
 
 - [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
 - [Intuition behind Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
@@ -138,6 +139,10 @@
 - [`scikit-image` for image processing](https://scikit-image.org/)
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
+
+## Correlation
+
+- [Non-linear correlation matrix](https://towardsdatascience.com/non-linear-correlation-matrix-the-much-needed-technique-which-nobody-talks-about-132bc02ce632)
 
 ## Curse Of Dimensionality
 
@@ -383,6 +388,7 @@
 - [Interpreting linear regression sum-up from statsmodels](https://www.adrian.idv.hk/2021-07-16-statsmodels/)
 - [Logistic regression 101](https://towardsdatascience.com/logistic-regression-from-first-principles-in-python-82f238effef1)
 - [Complete guide to regression analysis](https://towardsdatascience.com/complete-guide-to-regressional-analysis-using-python-bbe76b3e451f)
+- [Constrained logistic regression](https://towardsdatascience.com/constrained-logistic-regression-with-python-c694fcd7a029)
 
 ## Reinforcement Learning
 
@@ -398,6 +404,7 @@
 - [Bellman equation and dynamic programming](https://towardsdatascience.com/a-crash-course-in-markov-decision-processes-the-bellman-equation-and-dynamic-programming-e80182207e85)
 - [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)
 - [Multi-agent particle swarm](https://towardsdatascience.com/simulating-multi-agent-swarming-events-in-python-ee133143944d)
+- [The K-armed bandit problem](https://blog.dominodatalab.com/k-armed-bandit-problem)
 
 ## Resampling
 
@@ -465,8 +472,11 @@
 - [Darts](https://towardsdatascience.com/darts-swiss-knife-for-time-series-forecasting-in-python-f37bb74c126)
 - [Avoid data leakage in time series](https://towardsdatascience.com/avoiding-data-leakage-in-timeseries-101-25ea13fcb15f)
 - [Orbit by Uber for Bayesian time series forecasting](https://github.com/uber/orbit)
-- [Time series terminology](https://towardsdatascience.com/5-must-know-terms-in-time-series-analysis-bf2455b2a87)
-- [Time-series forecasting cheatsheet](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+- [Time Series terminology](https://towardsdatascience.com/5-must-know-terms-in-time-series-analysis-bf2455b2a87)
+- [Time Series forecasting cheatsheet](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+- [Poisson Hidden Markov Model for Time Series regression](https://towardsdatascience.com/the-poisson-hidden-markov-model-for-time-series-regression-236c269914dd)
+- [PyCaret AutoML for Time Series](https://towardsdatascience.com/announcing-pycarets-new-time-series-module-b6e724d4636c)
+- [Seasonal adjustment of daily time series](https://towardsdatascience.com/seasonal-adjustment-of-daily-time-series-1bd2aa9b096d)
 
 ## XAI
 

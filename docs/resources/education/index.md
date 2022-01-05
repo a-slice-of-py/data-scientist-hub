@@ -74,6 +74,7 @@
 - [Data Science curriculum for professionals](https://towardsdatascience.com/data-science-curriculum-for-professionals-46d131675602)
 - [Data documentation with 5W1H framework](https://towardsdatascience.com/data-documentation-woes-heres-a-framework-6aba8f20626c)
 - [First rule of ML: start without ML](https://eugeneyan.com/writing/first-rule-of-ml/)
+- [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 
 ## Programming Languages
 

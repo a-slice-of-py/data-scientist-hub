@@ -2,8 +2,6 @@
 
 ## cmder
 
-### Integration in VS Code
-
 - [FAQs](https://code.visualstudio.com/docs/editor/integrated-terminal#_can-i-use-cmders-shell-with-the-terminal-on-windows)
 - [cmder wiki](https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration)
 
@@ -32,6 +30,7 @@
 - [Git submodules to install custom Python package in Docker image](https://towardsdatascience.com/use-git-submodules-to-install-a-private-custom-python-package-in-a-docker-image-dd6b89b1ee7a)
 - [Why use Docker containers for ML development](https://aws.amazon.com/it/blogs/opensource/why-use-docker-containers-for-machine-learning-development/)
 - [Fast Docker builds with caching](https://towardsdatascience.com/fast-docker-builds-with-caching-for-python-533ddc3b0057)
+- [Docker best practices for Python developers](https://testdriven.io/blog/docker-best-practices/)
 
 ## Draw.io
 
@@ -107,6 +106,7 @@
 - [Window functions in SparkSQL](https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html)
 - [Advanced SQL queries in pandas](https://towardsdatascience.com/writing-advanced-sql-queries-in-pandas-1dc494a17afe)
 - [SQL window functions](https://towardsdatascience.com/mastering-sql-window-functions-6cd17004dfe0)
+- [5 SQL common queries](https://towardsdatascience.com/5-common-sql-problems-for-you-to-crush-10a796258643)
 
 ## Terminal
 
@@ -123,6 +123,7 @@
 - [Code cognitive complexity](https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html)
 - [Python rules for cognitive complexity](https://rules.sonarsource.com/python)
 - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [Advanced VSC for Python developers](https://realpython.com/advanced-visual-studio-code-python/)
 
 ## WSL
 

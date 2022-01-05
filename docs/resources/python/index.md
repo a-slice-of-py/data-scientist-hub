@@ -159,6 +159,7 @@
 
 - [Pygame](https://www.pygame.org/news)
 - [Traffic intersection simulation](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a)
+- [A primer on game programming](https://realpython.com/pygame-a-primer/)
 
 ## Hypothesis testing
 
@@ -238,6 +239,7 @@
 - [Practical intro to object oriented programming](https://towardsdatascience.com/object-oriented-programming-a-practical-introduction-part-2-f376bc25f839)
 - [Tricks for Python classes](https://python.plainenglish.io/five-unknown-tricks-for-python-classes-ba5edd29a108)
 - [Design patterns](https://stackoverflow.blog/2021/10/13/why-solve-a-problem-twice-design-patterns-let-you-apply-existing-solutions-to-your-code/)
+- [RealPython best practices collection](https://realpython.com/tutorials/best-practices/)
 
 ## Object Relational Mapper (ORM)
 
@@ -264,6 +266,7 @@
 - [`swifter` for parallel apply](https://github.com/jmcarpenter2/swifter)
 - [`ConnectorX` to fast SQL data load into DataFrame](https://towardsdatascience.com/connectorx-the-fastest-way-to-load-data-from-databases-a65d4d4062d5)
 - [Movingpandas for trajectory data](https://anitagraser.github.io/movingpandas/)
+- [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 
 ## Password Management
 
@@ -303,6 +306,10 @@
 - [Pipelines with `sklearn`](https://towardsdatascience.com/introduction-to-scikit-learn-pipelines-454a7a1ad3f4)
 - [Pipeline visualization](https://towardsdatascience.com/data-science-plumbing-peeking-into-scikit-learn-pipelines-f9233ad638e)
 
+## Standard library
+
+- [Math module overview](https://realpython.com/python-math-module/)
+
 ## Streamlit
 
 - [Coding ML tools like you code ML models](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace)
@@ -319,6 +326,7 @@
 - [`streamlit-heroku` deployment utils](https://github.com/danielschutz/streamlit-heroku)
 - [Streamlit text rating component](https://discuss.streamlit.io/t/new-component-streamlit-text-rating/19146/4)
 - [Display live 2D data in Streamlit](https://discuss.streamlit.io/t/best-fastest-practice-to-display-live-2d-data/19895)
+- [Component for chat UI](https://github.com/AI-Yash/st-chat)
 
 ## Strings
 
