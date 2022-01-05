@@ -7,8 +7,9 @@
 ![](https://img.shields.io/github/last-commit/a-slice-of-py/data-scientist-hub)
 ![](https://img.shields.io/github/commits-since/a-slice-of-py/data-scientist-hub/latest)
 
+**Data Scientist Hub (DSH)** is my personal knowledge center.
 
-**Data Scientist Hub (DSH)** is my personal knowledge center. 
+<!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
 
 DSH is definitely a living creature, always under development and I expect - and somehow _wish_ - frequent changes in both contents and shape.
 
@@ -53,7 +54,6 @@ Trello board named _"Resources"_, with topics as cards and links as checklist it
 _Release date: Jun 21, 2018_
 
 Unorganized collection of links stored in random mails to myself.
-
 
 ---
 
