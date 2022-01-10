@@ -5,3 +5,4 @@
 - [Advanced SQL queries in pandas](https://towardsdatascience.com/writing-advanced-sql-queries-in-pandas-1dc494a17afe)
 - [SQL window functions](https://towardsdatascience.com/mastering-sql-window-functions-6cd17004dfe0)
 - [5 SQL common queries](https://towardsdatascience.com/5-common-sql-problems-for-you-to-crush-10a796258643)
+- [SQL window functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
