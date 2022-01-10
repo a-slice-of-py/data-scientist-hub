@@ -2,8 +2,6 @@
 
 # Data Scientist Hub
 
-![](https://img.shields.io/github/languages/code-size/a-slice-of-py/data-scientist-hub)
-![](https://img.shields.io/tokei/lines/github/a-slice-of-py/data-scientist-hub)
 ![](https://img.shields.io/github/last-commit/a-slice-of-py/data-scientist-hub)
 ![](https://img.shields.io/github/commits-since/a-slice-of-py/data-scientist-hub/latest)
 
