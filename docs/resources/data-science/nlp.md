@@ -17,3 +17,4 @@
 - [`Ecco` for pattern visualization in text data](https://towardsdatascience.com/finding-pattern-in-data-using-nmf-7b119555cb41)
 - [Concept modeling to link text and images](https://github.com/MaartenGr/concept)
 - [Data QA to label data](https://towardsdatascience.com/a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae)
+- [Topic coherence measures](https://towardsdatascience.com/understanding-topic-coherence-measures-4aa41339634c)

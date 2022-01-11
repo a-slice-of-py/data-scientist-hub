@@ -37,6 +37,8 @@ import pandas as pd
 def flatten(x: list) -> list:
     """Flatten nested input list.
 
+    Credits to [Samuele Fiorini](https://github.com/samuelefiorini).
+
     Args:
         x (list): nested list
 

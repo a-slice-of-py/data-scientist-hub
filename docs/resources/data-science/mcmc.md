@@ -8,3 +8,4 @@
 - [Metropolis-Hastings from scratch in Python](https://towardsdatascience.com/bayesian-statistics-metropolis-hastings-from-scratch-in-python-c3b10cc4382d)
 - [Monte Carlo methods](https://towardsdatascience.com/monte-carlo-methods-made-simple-91758ba58dde)
 - [Random sampling via Python decorator](https://towardsdatascience.com/python-decorators-with-data-science-random-sampling-177962cae80c)
+- [Intro to Monte Carlo methods](https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-methods-98451674018d)
