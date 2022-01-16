@@ -658,6 +658,8 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [AWS CDK](https://docs.aws.amazon.com/cdk/api/v2/python/index.html)
 - [OR-Tools](https://google.github.io/or-tools/python/ortools/linear_solver/pywraplp)
 - [pyjanitor](https://pyjanitor-devs.github.io/pyjanitor/api/functions/#janitor.functions)
+- [Apache Echarts](https://echarts.apache.org/examples/en/index.html#chart-type-line)
+- [discuss.streamlit](https://discuss.streamlit.io/)
 
 ### Press review
 
@@ -683,6 +685,7 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [JSON formatter](https://jsonformatter.org/)
 - [Unicode table](https://unicode-table.com/en/sets/)
 - [Fontawesome icons](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=solid&m=free)
+- [Markdown guide](https://www.markdownguide.org/getting-started/)
 
 ## Troubleshooting
 
