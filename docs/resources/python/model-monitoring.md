@@ -7,3 +7,4 @@
 - [Sacred](https://github.com/IDSIA/sacred)
 - [Omniboard as a Sacred frontend](https://github.com/vivekratnavel/omniboard)
 - [MLflow 101](https://towardsdatascience.com/machine-learning-adventures-with-mlflow-64127713b0a1)
+- [deepchecks](https://github.com/deepchecks/deepchecks)

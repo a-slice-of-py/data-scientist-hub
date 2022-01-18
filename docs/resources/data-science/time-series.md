@@ -40,3 +40,4 @@
 - [PyCaret AutoML for Time Series](https://towardsdatascience.com/announcing-pycarets-new-time-series-module-b6e724d4636c)
 - [Seasonal adjustment of daily time series](https://towardsdatascience.com/seasonal-adjustment-of-daily-time-series-1bd2aa9b096d)
 - [TSA basics](https://towardsdatascience.com/time-series-forecasting-with-machine-learning-b3072a5b44ba)
+- [Univariate time series forecasting with Neural Networks](https://pub.towardsai.net/univariate-time-series-with-stacked-lstm-bilstm-and-neuralprophet-c8d6a11a9665)

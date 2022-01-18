@@ -11,3 +11,4 @@
 - [Leafmap](https://github.com/giswqs/leafmap)
 - [eefolium: Folium meets Google Earth Engine](https://github.com/giswqs/eefolium)
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/index.html)
+- [Embed Plotly chart into Folium popups](https://towardsdatascience.com/how-to-embed-interactive-plotly-visualizations-in-folium-map-pop-ups-c69c818a8cd9)
