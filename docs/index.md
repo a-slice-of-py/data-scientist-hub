@@ -57,9 +57,8 @@ Unorganized collection of links stored in random mails to myself.
 
 - _Home_: README and sitemap.
 - _Projects_: personal development projects and progress tracker.
-- _Notes_: development notes about data science and more.
+- _Notes_: development notes about cloud development, data science and more.
 - _Snippets_: the temple of DRY, collection of snippets of reusable code.
-- _PAWS_: original tutorials and reports written while exploring the AWS ecosystem.
 - _Resources_: collection of links to useful online resources.
 - _Doomsday_: recipes to survive to a forced reset of development local environment.
 - _About_: me, myself and I.

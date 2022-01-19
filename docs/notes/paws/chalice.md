@@ -56,7 +56,7 @@ The following table provides a mapping between AWS SAM and AWS Chalice commands:
 </tbody>
 </table>
 
-The following sample is the Chalice implementation equivalent of SAM project discussed [here](/data-scientist-hub/paws/sam/#w-custom-local-module).
+The following sample is the Chalice implementation equivalent of SAM project discussed [here](/data-scientist-hub/notes/paws/sam/#w-custom-local-module).
 
 ``` python
 chalice-app/

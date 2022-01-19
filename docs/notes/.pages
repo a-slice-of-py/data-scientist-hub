@@ -1,6 +1,7 @@
 nav:
   - TNMFML: tnmfml.md
-  - AWS CloudWatch logs in Streamlit: aws-logs-in-streamlit.md
   - GNU Make: make.md
-  - Transportation problem: transportation-problem.md
+  - PAWS: paws
   - PuLP: pulp.md
+  - Streamlit app to inspect AWS CloudWatch logs: aws-logs-in-streamlit.md
+  - Transportation problem: transportation-problem.md
