@@ -29,7 +29,7 @@ From v2.1 on, commit messages _should_ follow a convention (as suggested by [Con
 
 ### Changelog
 
-### v2.2
+#### v2.2
 
 _Release date: Jan 19, 2022_
 
