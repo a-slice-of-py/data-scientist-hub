@@ -1,4 +1,4 @@
-# CART models
+# Tree-based methods
 
 - [Entropy in decision trees](https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8)
 - [Intuition behind Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)
@@ -25,3 +25,4 @@
 - [Random Forest vs Gradient Boosting](https://towardsdatascience.com/3-key-differences-between-random-forests-and-gbdt-cfc48093200b)
 - [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
 - [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
+- [Maths and viz of Gradient Boosting](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)

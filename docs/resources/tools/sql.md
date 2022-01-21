@@ -7,3 +7,4 @@
 - [5 SQL common queries](https://towardsdatascience.com/5-common-sql-problems-for-you-to-crush-10a796258643)
 - [SQL window functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
 - [Intermediate SQL queries](https://towardsdatascience.com/intermediate-sql-for-everyone-fe35c541147a)
+- [6 lesser known queries](https://towardsdatascience.com/6-lesser-known-sql-techniques-to-save-you-100-hours-a-month-10ceed47d3fe)
