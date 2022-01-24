@@ -1,41 +1,12 @@
 # Resources
 
-## ⚗️ Data Science
-
-Data science, in the widest meaning of the term.
-
-## 🐍 Python
-
-Python, my actual programming language.
-
-## 📈 Data Visualization
-
-Data-viz, both methodology and implementation.
-
-## 👨‍🏫 Education
-
-Collection of resources for an effective data education.
-
-## 👔 Interviews
-
-How to nail down job interviews!
-
-## 🎒 Tools
-
-Backpack full of tools.
-
-## 📚 Training
-
-Books, MOOC, certifications and everything else about training.
-
-## ☁️ AWS
-
-Amazon Web Service related stuff.
-
-## ⚙️ Data Engineering
-
-DevOps, CI/CD and others data engineering best practices.
-
-## 🥗 Misc
-
-A salad of math, physics and the rest of hard sciences.
+- _Data Science_: data science, in the widest meaning of the term.
+- _Python_: Python, my actual programming language.
+- _Data Visualization_: data-viz, both methodology and implementation.
+- _Education_: collection of resources for an effective data education.
+- _Interviews_: hHow to nail down job interviews!
+- _Tools_: toolbox full of utilities.
+- _Training_: books, MOOC, certifications and everything else about training.
+- _AWS_: Amazon Web Service related stuff.
+- _Data Engineering_: DevOps, CI/CD and others data engineering best practices.
+- _Misc_: a salad of math, physics and the rest of hard sciences.
