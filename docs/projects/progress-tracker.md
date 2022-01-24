@@ -14,7 +14,7 @@
 
 ### 03 / March
 
-#### ![60%](https://progress-bar.dev/60) 🎒 `reveal.js`
+#### ![60%](https://progress-bar.dev/60) 🧰 `reveal.js`
 
 - [reveal.js](https://revealjs.com/)
 - [Hosting on GitHub pages](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d)
@@ -37,7 +37,7 @@
 
 ### 12 / December
 
-#### ![80%](https://progress-bar.dev/80) 📈 `folium`
+#### ![80%](https://progress-bar.dev/80) 📊 `folium`
 
 - [Intro](https://towardsdatascience.com/how-to-make-stunning-interactive-maps-with-python-and-folium-in-minutes-e3aff3b0ed43)
 - [Official docs](https://python-visualization.github.io/folium/)
@@ -104,7 +104,7 @@
 - [Hydra issue](https://github.com/facebookresearch/hydra/issues/440)
 - [Global hydra](https://github.com/facebookresearch/hydra/blob/master/hydra/core/global_hydra.py)
 
-#### ![100%](https://progress-bar.dev/100) 🎒 Windows Terminal
+#### ![100%](https://progress-bar.dev/100) 🧰 Windows Terminal
 
 - [Cmder issue](https://github.com/cmderdev/cmder/issues/2121)
 - [Generate guids for profiles](https://traviscolbert.net/blog/windows-terminal-generating-guids-for-your-profiles/)
@@ -168,7 +168,7 @@
 - [Streamlit fails for external IP not detected](https://discuss.streamlit.io/t/streamlit-fails-to-start-because-external-ip-not-detected/2378)
 - [Override CMD when running a Docker image](https://serverfault.com/questions/594281/how-can-i-override-cmd-when-running-a-docker-image)
 
-#### ![100%](https://progress-bar.dev/100) 🎒 GNU Make
+#### ![100%](https://progress-bar.dev/100) 🧰 GNU Make
 
 - [What and how about Makefile](https://opensource.com/article/18/8/what-how-makefile)
 - [Make novice tutorial](https://swcarpentry.github.io/make-novice/02-makefiles/index.html)
@@ -195,7 +195,7 @@
 - [Transportation problem intro](https://www.geeksforgeeks.org/transportation-problem-set-1-introduction/)
 - [Optimization for programmers](https://medium.com/@geekrodion/course-optimization-for-programmers-5316572ed69b)
 
-#### ![100%](https://progress-bar.dev/100) 🎒 tmux 101 and cmder
+#### ![100%](https://progress-bar.dev/100) 🧰 tmux 101 and cmder
 
 - [Tmux cheatsheet](https://tmuxcheatsheet.com/)
 - [Cmder](https://cmder.net/)
@@ -270,7 +270,7 @@
 
 #### ![100%](https://progress-bar.dev/100) 🐍 `pipreqs` for automate _requirements.txt_
 
-#### ![100%](https://progress-bar.dev/100) 🎒 Git 101 with gitkraken
+#### ![100%](https://progress-bar.dev/100) 🧰 Git 101 with gitkraken
 
 - [Getting started with Git](https://towardsdatascience.com/version-control-101-getting-started-with-git-3b2c78d91184)
 
@@ -280,7 +280,7 @@
 
 ### 12 / December
 
-#### ![100%](https://progress-bar.dev/100) 📈 First `streamlit` app
+#### ![100%](https://progress-bar.dev/100) 📊 First `streamlit` app
 #### ![100%](https://progress-bar.dev/100) 🐍 Visual Studio Code and JupyterLab
 
 ### 11 / November
