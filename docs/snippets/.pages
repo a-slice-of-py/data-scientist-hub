@@ -2,6 +2,7 @@ nav:
   - index.md
   - boto3: boto3.md
   - folium: folium.md
+  - jupyter: jupyter.md
   - ortools: ortools.md
   - sklearn: sklearn.md
   - stdlib: stdlib.md
