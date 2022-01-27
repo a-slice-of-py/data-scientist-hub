@@ -1,5 +1,20 @@
 # Progress tracker
 
+## 2022
+
+### 01 / January
+
+#### ![50%](https://progress-bar.dev/50) 🧰 Git pre-commit hooks
+
+- [resources](/data-scientist-hub/resources/tools/git-versioning)
+
+#### ![50%](https://progress-bar.dev/50) 🐍 Python packaging best practices
+
+- [Switch to minimal `setup.py`](https://www.scivision.dev/minimal-setup-py-with-prerequisites/)
+- [What the heck is `pyproject.toml`?](https://snarky.ca/what-the-heck-is-pyproject-toml/)
+- [Transition to `pyproject.toml`](http://ivory.idyll.org/blog/2021-transition-to-pyproject.toml-example.html)
+- [Setuptools quickstart](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)
+
 ## 2021
 
 ### 10 / October

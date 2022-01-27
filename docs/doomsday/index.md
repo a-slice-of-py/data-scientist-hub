@@ -349,6 +349,10 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [TODO Highlight](https://github.com/wayou/vscode-todo-highlight)
 - [Todo Tree](https://github.com/Gruntfuggly/todo-tree)
 
+### Key bindings
+
+- To switch focus between editor and terminal, please refer to [this thread](https://superuser.com/questions/1270103/how-to-switch-the-cursor-between-terminal-and-code-in-vscode)
+
 ## Windows Terminal
 
 ??? example "`settings.json`"

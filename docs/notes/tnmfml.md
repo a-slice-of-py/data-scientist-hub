@@ -7,6 +7,9 @@ a.k.a. _Taking Notes on [Making Friends with Machine Learning](https://www.youtu
 !!! info "Disclaimer"
     I really enjoyed watching the entire playlist MFML by [Cassie Kozyrkov](https://twitter.com/quaesita), so I decided to watch it a second time while taking notes. Therefore, below you can find those notes, meaning essentially that: all credits for crystal clear explanations, brilliant examples and fun ideas go to Cassie, while biases and misunderstandings are all on me.
 
+!!! warning "Warning"
+    This section is a work in progress.
+
 ## Introduction
 
 Machine Learning (ML) can be defined as

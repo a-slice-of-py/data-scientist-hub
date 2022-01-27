@@ -47,7 +47,7 @@ def flatten(x: list) -> list:
     """
     return (
         [xi for l in x for xi in flatten(l)] if isinstance(x, (list, np.ndarray)) 
-        else flatten(list(x)) if isinstance(x, pd.Series) 
+        else flatten(list(x)) if isinstance(x, (pd.Series, map))
         else [x]
     )
 
