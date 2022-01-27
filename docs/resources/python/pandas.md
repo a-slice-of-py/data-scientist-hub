@@ -15,3 +15,4 @@
 - [`ConnectorX` to fast SQL data load into DataFrame](https://towardsdatascience.com/connectorx-the-fastest-way-to-load-data-from-databases-a65d4d4062d5)
 - [Movingpandas for trajectory data](https://anitagraser.github.io/movingpandas/)
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
+- [Polars](https://github.com/pola-rs/polars)
