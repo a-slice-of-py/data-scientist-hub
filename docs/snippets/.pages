@@ -4,6 +4,7 @@ nav:
   - folium: folium.md
   - jupyter: jupyter.md
   - ortools: ortools.md
+  - pre-commit: pre-commit.md
   - sklearn: sklearn.md
   - stdlib: stdlib.md
   - streamlit: streamlit.md
