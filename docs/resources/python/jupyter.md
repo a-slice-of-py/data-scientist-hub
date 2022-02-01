@@ -18,3 +18,4 @@
 - [JupyterLite: Jupyter in web browser](https://github.com/jupyterlite/jupyterlite)
 - [Jupyter Desktop App](https://github.com/jupyterlab/jupyterlab_app#download)
 - [Enable notification for jupyter cells execution](https://towardsdatascience.com/enabling-notifications-in-your-jupyter-notebooks-for-cell-completion-68d82b02bbc6)
+- [`atoti` for BI dashboard in jupyter](https://github.com/atoti/atoti)
