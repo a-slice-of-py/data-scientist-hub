@@ -3,6 +3,7 @@ nav:
   - CDK: cdk.md
   - Chalice: chalice.md
   - CodeBuild: codebuild.md
+  - Databases: databases.md
   - DynamoDB: dynamo.md
   - EC2: ec2.md
   - S3: s3.md
