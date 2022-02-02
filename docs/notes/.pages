@@ -1,5 +1,6 @@
 nav:
   - TNMFML: tnmfml.md
+  - Databases: databases.md
   - GNU Make: make.md
   - PAWS: paws
   - PuLP: pulp.md

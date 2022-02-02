@@ -39,6 +39,8 @@ It allows to manage and run six database engines:
 - Oracle
 - Microsoft SQL Server
 
+For a comparison between open source alternatives you can see [this page](/data-scientist-hub/notes/databases).
+
 ## Amazon Athena
 
 Amazon Athena it's not a database engine itself but it's defined as an _interactive query service_ based on Apache Presto that makes easy to analyze data stored into S3 via SQL. This means that compute and storage are separate and managed independently.
