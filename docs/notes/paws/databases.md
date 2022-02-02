@@ -4,13 +4,15 @@ Main databases types:
 
 - **Relational**: data are stored in tabular form (rows and columns), where each row represents a unique _record_. Tables can be put in relation with each other through joins and queried via SQL;
 - **Key-value**: non-relational database where each record stored as a unique _key_ with its associated value, resembling a dictionary-like structure;
+- **Document**: semi-structured and hierarchical databases for catalogs and content management systems, often stored as JSON;
 - **Graph**: the way the data are stored is graph-based, with nodes and edges connecting each data source with the others;
 - **Time-series**: database optimized for records which indices are timestamps.
 
-|   Service  |                      Type                     |                  Language              |                               Use cases                                   |
+|   Service  |                      Type                     |            Query language              |                               Use cases                                   |
 | -----------| --------------------------------------------- |----------------------------------------|---------------------------------------------------------------------------|
 | Athena     | Structured, semi-structured and unstructured  | SQL based on HiveQL DDL and Presto DML | Log analysis, OLAP, BI                                                    |
 | Aurora[^1] | Relational                                    | MySQL, PostgreSQL                      | eCommerce, CRM                                                            |
+| DocumentDB | Document                                      | compatible with MongoDB query language | product catalogs, images and videos, application data platform            |
 | DynamoDB   | Key-value                                     | NoSQL                                  | Mobile and web apps, gaming, IoT                                          |
 | Neptune    | Graph                                         | GQL (Apache TinkerPop Gremlin, SPARQL) | Fraud detection, social netowkrs, knowledge graph, recommendation engines |
 | Timestream | Time-series                                   | ANSI SQL                               | IoT, DevOps, telemetry, forecasting, analytics                            |

@@ -15,3 +15,4 @@
 - [Logistic regression 101](https://towardsdatascience.com/logistic-regression-from-first-principles-in-python-82f238effef1)
 - [Complete guide to regression analysis](https://towardsdatascience.com/complete-guide-to-regressional-analysis-using-python-bbe76b3e451f)
 - [Constrained logistic regression](https://towardsdatascience.com/constrained-logistic-regression-with-python-c694fcd7a029)
+- [Robust regression](https://towardsdatascience.com/robust-regression-23b633e5d6a5)

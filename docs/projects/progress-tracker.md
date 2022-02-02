@@ -166,7 +166,7 @@
 
 - [Documenting a Python package](https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b)
 - [Official docs](https://www.mkdocs.org/)
-- [`mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+- [`mkdocs-material`](https://squidfunk.github.io/mkdocs-material/)
 - [`mkdocstrings`](https://pawamoy.github.io/mkdocstrings/)
 - [YAML of mkdocs itself](https://github.com/pawamoy/mkdocstrings/blob/master/mkdocs.yml)
 - [Linking documents](https://mkdocs.readthedocs.io/en/0.11.1/user-guide/writing-your-docs/#linking-documents)
