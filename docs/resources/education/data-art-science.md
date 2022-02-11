@@ -10,3 +10,4 @@
 - [Turn music into data](https://towardsdatascience.com/how-music-can-be-turned-into-dataset-e40d59718d4a)
 - [Human brain and backpropagation](https://www.quantamagazine.org/artificial-neural-nets-finally-yield-clues-to-how-brains-learn-20210218/)
 - [175 years of words in Scientific American](https://www.scientificamerican.com/article/how-to-turn-175-years-of-words-in-scientific-american-into-an-image/)
+- [Discovering the shape of fractions](https://towardsdatascience.com/discovering-the-shape-of-fractions-e9034ab0085c)

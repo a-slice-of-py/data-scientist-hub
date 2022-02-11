@@ -280,3 +280,4 @@ sorting* on the DAG built over a given Makefile.
 - [Make novice course](https://swcarpentry.github.io/make-novice/) ➜ ~3 hours introductive lesson to automation with `make` (highly recommended as a good place to start)
 - [GNU Make manual](https://www.gnu.org/software/make/manual/make.pdf) ➜ official GNU `make` manual (~200 pages...)
 - [Usage in Python projects](http://lifesum.github.io/posts/2016/01/14/make-experiments/) ➜ brief showcase of usage in a Python project
+- [Override directive](https://www.gnu.org/software/make/manual/html_node/Override-Directive.html#Override-Directive)

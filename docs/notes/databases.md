@@ -25,5 +25,5 @@ A brief comparison between open source relational databases is available below (
 - [MariaDB vs PostgreSQL](https://hevodata.com/learn/mariadb-vs-postgresql/)
 - [Open source databases comparison](https://opensource.com/article/19/1/open-source-databases)
 
-[^1]: created on-top of MySQL experience after its acquisition by Oracle.
+[^1]: based on MySQL and created after its acquisition by Oracle.
 [^2]: PostgreSQL is generally considered to be the fastest one in terms of read/write speed.

@@ -43,3 +43,4 @@
 - [Univariate time series forecasting with Neural Networks](https://pub.towardsai.net/univariate-time-series-with-stacked-lstm-bilstm-and-neuralprophet-c8d6a11a9665)
 - [`sktime` as sklearn TSA interface](https://github.com/alan-turing-institute/sktime)
 - [Changepoints detection with e-divisive](https://github.com/mongodb/signal-processing-algorithms/tree/9026670ad529ace42331973be9c1f5a5d6781d0f)
+- [Time series data visualization](https://machinelearningmastery.com/time-series-data-visualization-with-python/)
