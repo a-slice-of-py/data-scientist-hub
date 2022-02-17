@@ -654,6 +654,8 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Windows Terminal](https://github.com/microsoft/terminal#via-chocolatey-unofficial)
 - [WSL2](https://docs.microsoft.com/it-it/windows/wsl/install)
+- [Lightshot](https://app.prntscr.com/en/index.html)
+- [Just Color Picker](https://annystudio.com/software/colorpicker/)
 
 ## Bookmarks
 
@@ -663,11 +665,11 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [OR-Tools](https://google.github.io/or-tools/python/ortools/linear_solver/pywraplp)
 - [pyjanitor](https://pyjanitor-devs.github.io/pyjanitor/api/functions/#janitor.functions)
 - [Apache Echarts](https://echarts.apache.org/examples/en/index.html#chart-type-line)
-- [discuss.streamlit](https://discuss.streamlit.io/)
+- [Streamlit changelog](https://docs.streamlit.io/library/changelog)
 
 ### Press review
 
-- [Streamlit changelog](https://docs.streamlit.io/library/changelog)
+- [discuss.streamlit](https://discuss.streamlit.io/)
 - [Practical Business Python](https://pbpython.com/)
 - [StackOverflow Blog](https://stackoverflow.blog/)
 - [Quanta Magazine](https://www.quantamagazine.org/)
@@ -675,6 +677,7 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [Domino Data Science blog](https://blog.dominodatalab.com/)
 - [Netflix Technology Blog](https://netflixtechblog.medium.com/)
 - [Linkedin Engineering](https://engineering.linkedin.com/blog)
+- [O'Reilly Radar](https://www.oreilly.com/radar/)
 - [Towards AI](https://pub.towardsai.net/)
 - [TowardsDataScience](https://towardsdatascience.com/data-science/home)
 
@@ -690,6 +693,7 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [Unicode table](https://unicode-table.com/en/sets/)
 - [Fontawesome icons](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=solid&m=free)
 - [Markdown guide](https://www.markdownguide.org/getting-started/)
+- [Bootstrap icons](https://icons.getbootstrap.com/)
 
 ## Troubleshooting
 
