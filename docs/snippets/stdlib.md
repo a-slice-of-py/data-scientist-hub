@@ -231,7 +231,7 @@ def timed(_func: Optional[Callable] = None, *, return_time: bool = False) -> Cal
             start = time.time()
             result = func(*args, **kwargs)
             end = time.time()
-            logger.info(
+            logger.success(
                 f"{func.__module__}.{func.__name__} took {str(timedelta(seconds=end - start)).split('.')[0]}.")
             if return_time:
                 return end - start, result

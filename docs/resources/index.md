@@ -4,7 +4,7 @@
 - _Python_: Python, my actual programming language.
 - _Data Visualization_: data-viz, both methodology and implementation.
 - _Education_: collection of resources for an effective data education.
-- _Interviews_: hHow to nail down job interviews!
+- _Interviews_: how to nail down job interviews!
 - _Tools_: toolbox full of utilities.
 - _Training_: books, MOOC, certifications and everything else about training.
 - _AWS_: Amazon Web Service related stuff.

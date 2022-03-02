@@ -16,3 +16,4 @@
 - [Display live 2D data in Streamlit](https://discuss.streamlit.io/t/best-fastest-practice-to-display-live-2d-data/19895)
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
 - [streamlit-option-menu](https://github.com/victoryhb/streamlit-option-menu)
+- [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)

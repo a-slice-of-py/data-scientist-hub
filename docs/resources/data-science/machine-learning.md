@@ -11,3 +11,4 @@
 - [QLattice](https://medium.com/abzuai/the-qlattice-a-new-machine-learning-model-you-didnt-know-you-needed-c2e037878cd)
 - [`human-learn` library to labeling data by drawing](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
 - [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
+- [Google ML glossary](https://developers.google.com/machine-learning/glossary)

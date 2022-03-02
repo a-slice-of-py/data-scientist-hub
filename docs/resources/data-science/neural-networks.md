@@ -7,3 +7,4 @@
 - [Visualizing optimization trajectory in neural networks](https://towardsdatascience.com/from-animation-to-intuition-visualizing-optimization-trajectory-in-neural-nets-726e43a08d85)
 - [Deep dream convolutional networks full code](https://towardsdatascience.com/van-gogh-painting-with-deep-dream-convolutional-networks-13d614ec7eee)
 - [Neural networks as ensembles of simpler models](https://towardsdatascience.com/a-neural-network-as-an-ensemble-of-simple-models-1f2b01a0616b)
+- [Neural networks as functions composition](https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f)

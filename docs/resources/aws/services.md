@@ -37,6 +37,10 @@
 
 - [ML pipeline on Fargate](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507)
 
+## AWS IAM
+
+- [All AWS managed policies](https://gist.github.com/bernadinm/6f68bfdd015b3f3e0a17b2f00c9ea3f8)
+
 ## AWS Lambda
 
 - [AWS Lambda power tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning)

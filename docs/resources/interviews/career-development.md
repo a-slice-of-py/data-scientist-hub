@@ -19,3 +19,4 @@
 - [Stretch work assignments for personal growth](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/)
 - [Code quality as a competitive advantage](https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/)
 - [The Information Architect](https://medium.com/nightingale/the-most-important-role-youre-not-hiring-for-your-data-team-the-information-architect-7521887d4d50)
+- [What you give up when moving into management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)

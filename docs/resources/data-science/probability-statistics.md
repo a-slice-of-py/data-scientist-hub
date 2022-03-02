@@ -24,3 +24,4 @@
 - [Probability distributions Q&A - part 2](https://towardsdatascience.com/a-field-guide-to-the-most-popular-parameters-d734596c3f26)
 - [Correlation visually explained](https://towardsdatascience.com/correlation-explained-visually-4875448e8e56)
 - [3 t-tests for data scientists](https://towardsdatascience.com/the-3-t-tests-for-data-scientists-e24e4ef61)
+- [Stats gist list: guide to jargon by Cassie Kozyrkov](https://towardsdatascience.com/stats-gist-list-an-irreverent-statisticians-guide-to-jargon-be8173df090d#5e31-a268c84a0df1-reply)
