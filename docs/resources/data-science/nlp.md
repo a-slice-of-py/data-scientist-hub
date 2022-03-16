@@ -18,3 +18,5 @@
 - [Concept modeling to link text and images](https://github.com/MaartenGr/concept)
 - [Data QA to label data](https://towardsdatascience.com/a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae)
 - [Topic coherence measures](https://towardsdatascience.com/understanding-topic-coherence-measures-4aa41339634c)
+- [Text summarization](https://towardsdatascience.com/text-summarization-with-nlp-textrank-vs-seq2seq-vs-bart-474943efeb09)
+- [Text similarity with Levenshtein distance](https://towardsdatascience.com/text-similarity-w-levenshtein-distance-in-python-2f7478986e75)

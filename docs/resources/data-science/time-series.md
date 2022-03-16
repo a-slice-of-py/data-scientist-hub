@@ -44,3 +44,5 @@
 - [`sktime` as sklearn TSA interface](https://github.com/alan-turing-institute/sktime)
 - [Changepoints detection with e-divisive](https://github.com/mongodb/signal-processing-algorithms/tree/9026670ad529ace42331973be9c1f5a5d6781d0f)
 - [Time series data visualization](https://machinelearningmastery.com/time-series-data-visualization-with-python/)
+- [`statsforecast` for lightning fast forecasting](https://github.com/Nixtla/statsforecast)
+- [Time features encoding: cyclic vs dummy vs numeric](https://towardsdatascience.com/time-seasonality-features-in-time-series-7e8236f7b04a)

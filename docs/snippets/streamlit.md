@@ -229,6 +229,33 @@ def folium_dual_map(dualmap: plugins.DualMap, height: int = 800) -> None:
     )
 ```
 
+## Injecting `javascript`
+
+```python
+import streamlit.components.v1 as components
+
+# SEE: 
+# - https://github.com/streamlit/streamlit/issues/1291#issuecomment-1022408379
+# - https://discuss.streamlit.io/t/injecting-js/22651
+# - https://www.w3schools.com/jsref/event_onclick.asp
+components.html('''
+    <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+
+    <script>
+    function myFunction() {
+        let color = document.getElementById("demo").style.color;
+        if (color != "red") {
+            document.getElementById("demo").style.color = "red";
+            }
+        else {
+            document.getElementById("demo").style.color = "black";
+            }
+    }
+    </script>
+    '''
+) 
+```
+
 ## `loguru_to_streamlit`
 
 ```python

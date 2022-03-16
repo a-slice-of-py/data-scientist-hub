@@ -17,3 +17,7 @@
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
 - [streamlit-option-menu](https://github.com/victoryhb/streamlit-option-menu)
 - [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)
+- [Real time dashboard update with asyncio](https://discuss.streamlit.io/t/issue-with-asyncio-run-in-streamlit/7745)
+- [Streamlit raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
+- [Drag scatter point with Bokeh events](https://discuss.streamlit.io/t/component-for-bi-directional-communication-with-bokeh/4338/42)
+- [Streamlit bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
