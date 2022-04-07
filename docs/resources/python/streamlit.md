@@ -21,3 +21,4 @@
 - [Streamlit raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
 - [Drag scatter point with Bokeh events](https://discuss.streamlit.io/t/component-for-bi-directional-communication-with-bokeh/4338/42)
 - [Streamlit bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
+- [Streamlit SHAP](https://github.com/snehankekre/streamlit-shap)

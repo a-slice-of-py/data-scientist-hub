@@ -7,3 +7,4 @@
 - [Applied theory to improve line charts](https://towardsdatascience.com/how-to-create-beautiful-and-insightful-charts-e14a41c2cae0)
 - [Psychology behind data visualization](https://towardsdatascience.com/the-psychology-behind-data-visualization-techniques-68ef12865720)
 - [Does data visualization have rules?](https://nightingaledvs.com/does-data-visualization-have-rules-or-is-it-all-just-it-depends/)
+- [Introduction to data visualization theory](https://towardsdatascience.com/data-visualization-theory-an-introduction-a077c0d80498)

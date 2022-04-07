@@ -1,5 +1,9 @@
 # Mathematics
 
+## Fourier transform
+
+- [Teach and learn Fourier transform geometrically](https://towardsdatascience.com/teach-and-learn-the-fourier-transform-geometrically-ce320f4200c9)
+
 ## Topology
 
 - [Topology 101](https://www.quantamagazine.org/topology-101-how-mathematicians-study-holes-20210126/)

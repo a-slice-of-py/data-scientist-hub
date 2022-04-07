@@ -9,3 +9,4 @@
 - [Intermediate SQL queries](https://towardsdatascience.com/intermediate-sql-for-everyone-fe35c541147a)
 - [6 lesser known queries](https://towardsdatascience.com/6-lesser-known-sql-techniques-to-save-you-100-hours-a-month-10ceed47d3fe)
 - [10 SQL tips](https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0)
+- [Settings for NLS in SQL Developer](https://stackoverflow.com/questions/12628385/sql-developer-is-returning-only-the-date-not-the-time-how-do-i-fix-this)
