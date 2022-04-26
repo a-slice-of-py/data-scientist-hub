@@ -12,6 +12,7 @@
 
 - [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)
 - [AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_s3/LifecycleRule.html)
+- [AWS CloudWatch custom metrics dashboard via CDK](https://dev.to/leeoc/custom-cloudwatch-metrics-using-the-cdk-337f)
 
 ## AWS CodeBuild
 

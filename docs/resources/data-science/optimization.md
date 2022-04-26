@@ -13,3 +13,9 @@
 - [Guide to dynamic programming](https://towardsdatascience.com/quick-guide-to-dynamic-programming-c1618698d341)
 - [Goal programming](http://du.ac.in/du/uploads/departments/Operational%20Research/25042020_Goal%20Programming.pdf)
 - [Artificial Bee Colony algorithm](https://towardsdatascience.com/implementing-artificial-bee-colony-algorithm-to-solve-business-problems-cb754f3b9255)
+
+## Scholarpedia
+
+- [Artificial Bee Colony](http://www.scholarpedia.org/article/Artificial_bee_colony_algorithm)
+- [Particle Swarm Optimization](http://www.scholarpedia.org/article/Particle_swarm_optimization)
+- [Ant Colony Optimization](http://www.scholarpedia.org/article/Ant_colony_optimization)

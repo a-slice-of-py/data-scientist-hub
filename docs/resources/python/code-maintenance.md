@@ -41,3 +41,4 @@
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/)
 - [Maintain and visualize Python dependencies](https://github.com/thebjorn/pydeps)
 - [`pretty errors`](https://github.com/onelivesleft/PrettyErrors)
+- [`memray` code memory profiler](https://github.com/bloomberg/memray)
