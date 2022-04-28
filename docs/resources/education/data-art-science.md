@@ -13,3 +13,4 @@
 - [Discovering the shape of fractions](https://towardsdatascience.com/discovering-the-shape-of-fractions-e9034ab0085c)
 - [Google PaLM (Pathways Language Model)](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html)
 - [DALL-E 2: from text to images](https://openai.com/dall-e-2/)
+- [WebGL Fluid Simulation](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)

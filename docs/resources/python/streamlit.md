@@ -22,3 +22,7 @@
 - [Drag scatter point with Bokeh events](https://discuss.streamlit.io/t/component-for-bi-directional-communication-with-bokeh/4338/42)
 - [Streamlit bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
 - [Streamlit SHAP](https://github.com/snehankekre/streamlit-shap)
+- [Streamlit elements for Material UI tools integration](https://github.com/okld/streamlit-elements)
+- [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
+- [Streamlit sortables](https://github.com/ohtaman/streamlit-sortables)
+- [How to build a real time live dashboard](https://blog-streamlit-io.cdn.ampproject.org/c/s/blog.streamlit.io/how-to-build-a-real-time-live-dashboard-with-streamlit/amp/)
