@@ -8,3 +8,5 @@
 - [Why class balancing can be avoided](https://towardsdatascience.com/why-balancing-classes-is-over-hyped-e382a8a410f7)
 - [Matthews Correlation Coefficient (MCC) and Brier score](https://towardsdatascience.com/evaluation-metrics-leave-your-comfort-zone-and-try-mcc-and-brier-score-86307fb1236a)
 - [Precision and Recall visually explained](https://mlu-explain.github.io/precision-recall/)
+- [The Effect of Class Imbalance on Precision-Recall Curves](https://arxiv.org/abs/2007.01905)
+- [Classification metrics calibration](https://link.springer.com/chapter/10.1007/978-3-030-44584-3_36)
