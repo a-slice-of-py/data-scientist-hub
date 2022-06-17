@@ -20,3 +20,4 @@
 - [Enable notification for jupyter cells execution](https://towardsdatascience.com/enabling-notifications-in-your-jupyter-notebooks-for-cell-completion-68d82b02bbc6)
 - [`atoti` for BI dashboard in jupyter](https://github.com/atoti/atoti)
 - [StickyLand for sticky notes in Jupyter](https://towardsdatascience.com/sticky-notes-in-jupyter-notebook-3a2ca55fab99)
+- [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
