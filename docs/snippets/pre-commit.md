@@ -20,4 +20,10 @@ repos:
       - id: isort
         name: Sort imports
         types: [python]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: check-ast
+        name: Check Python AST
+        types: [python]
 ```
