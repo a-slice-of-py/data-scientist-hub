@@ -4,3 +4,4 @@
 - [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
 - [Intro to Causal Inference course](https://www.bradyneal.com/causal-inference-course)
 - [What is Causal Inference?](https://www.oreilly.com/radar/what-is-causal-inference/)
+- [PyWhy: ML based causal inference by Microsoft DoWhy](https://github.com/py-why/dowhy)

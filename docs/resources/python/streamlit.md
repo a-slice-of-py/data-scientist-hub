@@ -26,3 +26,5 @@
 - [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
 - [Streamlit sortables](https://github.com/ohtaman/streamlit-sortables)
 - [How to build a real time live dashboard](https://blog-streamlit-io.cdn.ampproject.org/c/s/blog.streamlit.io/how-to-build-a-real-time-live-dashboard-with-streamlit/amp/)
+- [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
+- [Sync session state and app url via query params](https://blog.streamlit.io/how-streamlit-uses-streamlit-sharing-contextual-apps/)

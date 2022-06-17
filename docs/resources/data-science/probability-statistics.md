@@ -1,5 +1,14 @@
 # Probability & Statistics
 
+<figure>
+    <img src="https://imgs.xkcd.com/comics/selection_bias.png"
+         title="Selection bias"
+         alt="Selection bias">
+    <figcaption><small>
+    credits to: <a href="https://xkcd.com/2618/">XKCD</a>
+    </small></figcaption>
+</figure>
+
 - [Chi-square test](http://stattrek.com/chi-square-test/independence.aspx?Tutorial=AP)
 - [Probability and statistics for DS](https://towardsdatascience.com/probability-statistics-for-data-science-series-83b94353ca48)
 - [Statistical significance](https://medium.com/datadriveninvestor/you-say-you-want-statistical-significance-aefc35aa377f)

@@ -11,3 +11,4 @@
 - [GIF in Python](https://towardsdatascience.com/creating-beautiful-gif-with-python-for-your-data-analysis-ac50c618b559)
 - [`manim` 101](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
 - [`ipyvizzu`](https://github.com/vizzuhq/ipyvizzu)
+- [Manim step by step intro](https://towardsdatascience.com/how-to-create-slick-math-animations-like-3blue1brown-in-python-457f74701f68)

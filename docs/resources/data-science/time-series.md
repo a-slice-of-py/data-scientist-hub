@@ -29,7 +29,6 @@
 - [How to synchronize time series](https://towardsdatascience.com/how-to-synchronize-time-series-datasets-in-python-f3a1826c21c0)
 - [Time series libraries](https://towardsdatascience.com/7-libraries-that-help-in-time-series-problems-d59473e48ddd)
 - [Kats by Facebook](https://github.com/facebookresearch/Kats)
-- [Greykite by Linkedin](https://github.com/linkedin/greykite)
 - [Merlion by Salesforce](https://github.com/salesforce/Merlion)
 - [Darts](https://towardsdatascience.com/darts-swiss-knife-for-time-series-forecasting-in-python-f37bb74c126)
 - [Avoid data leakage in time series](https://towardsdatascience.com/avoiding-data-leakage-in-timeseries-101-25ea13fcb15f)
@@ -46,3 +45,12 @@
 - [Time series data visualization](https://machinelearningmastery.com/time-series-data-visualization-with-python/)
 - [`statsforecast` for lightning fast forecasting](https://github.com/Nixtla/statsforecast)
 - [Time features encoding: cyclic vs dummy vs numeric](https://towardsdatascience.com/time-seasonality-features-in-time-series-7e8236f7b04a)
+- [Scalecast](https://github.com/mikekeith52/scalecast)
+- [Hierarchical forecast reconciliation](https://towardsdatascience.com/forecast-reconciliation-in-python-8203c16254b2)
+
+## Greykite
+
+- [Greykite by Linkedin](https://github.com/linkedin/greykite)
+- [Intro to Greykite](https://towardsdatascience.com/linkedins-response-to-prophet-silverkite-and-greykite-4fd0131f64cb)
+- [Tuning a model in Greykite](https://levelup.gitconnected.com/tuning-a-forecasting-model-part-2-f7b4c5a54335)
+
