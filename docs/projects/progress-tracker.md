@@ -2,6 +2,16 @@
 
 ## 2022
 
+### 05 / May
+
+#### ![50%](https://progress-bar.dev/50) ⚗️ Time series analysis and forecasting
+
+- [resources](/data-scientist-hub/resources/data-science/time-series)
+
+#### ![50%](https://progress-bar.dev/50) 🐍 Greykite
+
+- [resources](/data-scientist-hub/resources/data-science/time-series#greykite)
+
 ### 01 / January
 
 #### ![50%](https://progress-bar.dev/50) 🛠️ Git pre-commit hooks
@@ -15,7 +25,7 @@
 - [Transition to `pyproject.toml`](http://ivory.idyll.org/blog/2021-transition-to-pyproject.toml-example.html)
 - [Setuptools quickstart](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)
 
-#### ![20%](https://progress-bar.dev/20) 📊 Apache Echarts
+#### ![60%](https://progress-bar.dev/60) 📊 Apache Echarts
 
 - [API Reference](https://echarts.apache.org/en/option.html#title)
 - [Examples](https://echarts.apache.org/examples/en/index.html)

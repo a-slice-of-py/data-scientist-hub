@@ -7,3 +7,4 @@
 - [mastermind](https://github.com/a-slice-of-py/mastermind) ➜ source code of a Streamlit app to enjoy a classic code-breaking game
 - [tree-generation](https://github.com/a-slice-of-py/tree-generation) ➜ tree structure Python implementation
 - [advent-of-code](https://github.com/a-slice-of-py/advent-of-code) ➜ AoC submissions repo
+- [streamlit-toc](https://github.com/a-slice-of-py/streamlit-toc) ➜ gracefully manage multi-page Streamlit apps using streamlit-option-menu

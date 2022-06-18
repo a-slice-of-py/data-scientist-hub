@@ -303,6 +303,8 @@ $RECYCLE.BIN/
 # Multiple-image Network Graphics
 *.mng
 
+.mp4
+
 # Tagged Image File Format
 *.tiff
 *.tif
