@@ -10,6 +10,16 @@
 <!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
 
 DSH is definitely a living creature, always under development and I expect - and somehow _wish_ - frequent changes in both contents and shape.
+Here you can see me developing DSH 🤓 (animation built via the wonderful [Gource](https://gource.io/)).
+<div>
+<video width="640"
+       height="480"
+       autoplay loop muted>
+    <source src="assets/gource.mp4"
+            type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
 
 It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material theme](https://squidfunk.github.io/mkdocs-material/) and deployed on [GitHub Pages](https://pages.github.com/).
 
@@ -28,6 +38,18 @@ From v2.1 on, commit messages _should_ follow a convention (as suggested by [Con
 - `misc` ➜ none of the above
 
 ### Changelog
+
+### v2.3
+
+_Release date: Jun 18, 2022_
+
+Several additions and improvements:
+
+- move from setup.py to setup.cfg
+- add Docker and Makefile support
+- add tags plugin
+- add Gource animation
+- update Projects section
 
 #### v2.2
 

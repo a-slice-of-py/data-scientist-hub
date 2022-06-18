@@ -57,14 +57,14 @@ gource-build:
 	-pix_fmt yuv420p \
 	-crf 17 \
 	-threads 0 \
-	-bf 0 development-history.mp4 \
+	-bf 0 gource.mp4 \
 	&& rm gource.ppm
 ## 
 ## mp42gif
 ##     convert mp4 video to gif
 .PHONY: mp42gif
 mp42gif:
-	ffmpeg -i development-history.mp4 -vf "fps=15,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop -1 development-history.gif
+	ffmpeg -i gource.mp4 -vf "fps=15,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop -1 gource.gif
 ##  
 ## help
 ##     show this help

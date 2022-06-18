@@ -29,6 +29,18 @@ From v2.1 on, commit messages _should_ follow a convention (as suggested by [Con
 
 ## Changelog
 
+### v2.3
+
+_Release date: Jun 18, 2022_
+
+Several additions and improvements:
+
+- move from setup.py to setup.cfg
+- add Docker and Makefile support
+- add tags plugin
+- add Gource animation
+- update Projects section
+
 ### v2.2
 
 _Release date: Jan 19, 2022_
