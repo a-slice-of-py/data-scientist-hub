@@ -31,6 +31,10 @@
 - [Turn music into data](https://towardsdatascience.com/how-music-can-be-turned-into-dataset-e40d59718d4a)
 - [Human brain and backpropagation](https://www.quantamagazine.org/artificial-neural-nets-finally-yield-clues-to-how-brains-learn-20210218/)
 - [175 years of words in Scientific American](https://www.scientificamerican.com/article/how-to-turn-175-years-of-words-in-scientific-american-into-an-image/)
+- [Discovering the shape of fractions](https://towardsdatascience.com/discovering-the-shape-of-fractions-e9034ab0085c)
+- [Google PaLM (Pathways Language Model)](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html)
+- [DALL-E 2: from text to images](https://openai.com/dall-e-2/)
+- [WebGL Fluid Simulation](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
 
 ## Gamification
 
@@ -75,6 +79,7 @@
 - [Data documentation with 5W1H framework](https://towardsdatascience.com/data-documentation-woes-heres-a-framework-6aba8f20626c)
 - [First rule of ML: start without ML](https://eugeneyan.com/writing/first-rule-of-ml/)
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
+- [Hidden aspects about being a Data Scientist](https://pub.towardsai.net/hidden-aspect-about-being-a-data-scientist-aa4da669fbf6)
 
 ## Programming Languages
 
@@ -99,6 +104,7 @@
 - [Online compiler](https://www.programiz.com/python-programming/online-compiler/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
 - [Python for Data Science](https://nbviewer.org/github/gumption/Python_for_Data_Science/blob/master/Python_for_Data_Science_all.ipynb)
+- [Python learning paths](https://realpython.com/learning-paths/)
 
 ## Quantum Computing
 
@@ -118,6 +124,7 @@
 - [ISLR python](https://github.com/JWarmenhoven/ISLR-python)
 - [Assessment and guide for statistics education](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)
 - [UCLA Technology Innovations in Statistics Education](https://cloudfront.escholarship.org/dist/prd/content/qt0rx1231m/qt0rx1231m.pdf?t=pfkq54)
+- [Machine Learning University (MLU) by Amazon](https://mlu-explain.github.io/precision-recall/)
 
 ## Tools
 

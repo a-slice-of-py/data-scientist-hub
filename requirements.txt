@@ -1,5 +1,4 @@
 mkdocs
 mkdocs-material
-mkdocs-simple-hooks
 mkdocs-awesome-pages-plugin
 mkdocs-blog-plugin

@@ -1,13 +1,5 @@
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
-run_hooks = os.environ.get('RUN_HOOKS', 'true') == 'true'
-
-def on_pre_build(*args, **kwargs) -> None:
-    """Wrap actions to be executed on docs pre-build."""
-    if run_hooks:
-        _index_resources(*args, **kwargs)
 
 def _index_resources(*args, **kwargs) -> None:
     """Create index for eache resources section."""
@@ -17,7 +9,8 @@ def _index_resources(*args, **kwargs) -> None:
 
     for section in sorted(os.listdir(resources)):
         if section not in blacklist:
-            index = [f"# {section.replace('-', ' ').title()}", newline, newline]
+            index = [
+                f"# {section.replace('-', ' ').title()}", newline, newline]
             path = f'{resources}/{section}'
             for file in sorted(os.listdir(path)):
                 if file not in blacklist:
@@ -34,3 +27,7 @@ def _index_resources(*args, **kwargs) -> None:
 
             with open(f'{path}/index.md', 'w') as f:
                 f.writelines(index)
+
+
+if __name__ == '__main__':
+    _index_resources()

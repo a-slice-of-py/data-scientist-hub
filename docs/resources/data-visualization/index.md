@@ -16,6 +16,8 @@
 - [GIF and math videos in Python](https://towardsdatascience.com/the-simplest-way-of-making-gifs-and-math-videos-with-python-aec41da74c6e)
 - [GIF in Python](https://towardsdatascience.com/creating-beautiful-gif-with-python-for-your-data-analysis-ac50c618b559)
 - [`manim` 101](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
+- [`ipyvizzu`](https://github.com/vizzuhq/ipyvizzu)
+- [Manim step by step intro](https://towardsdatascience.com/how-to-create-slick-math-animations-like-3blue1brown-in-python-457f74701f68)
 
 ## BI tools
 
@@ -32,6 +34,10 @@
 
 - [Interactive chord diagram](https://towardsdatascience.com/create-beautiful-and-interactive-chord-diagrams-using-python-cb5ecb092a7c)
 
+## Clustering
+
+- [Clustergram 101](https://martinfleischmann.net/clustergam-visualisation-of-cluster-analysis/)
+
 ## Colors
 
 - [Colorbrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
@@ -41,6 +47,7 @@
 - [The power of color palette](https://blog.adobe.com/en/2017/02/27/the-power-of-the-palette-why-color-is-key-in-data-visualization-and-how-to-use-it.html#gs.dzbxhu)
 - [What to consider when choosing colors](https://www.dataquest.io/blog/what-to-consider-when-choosing-colors-for-data-visualization/)
 - [Palette transfer via KMeans](https://towardsdatascience.com/the-perils-of-palette-transfer-f2739b5e4d2c)
+- [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
 
 ## Confusion matrix
 
@@ -50,6 +57,10 @@
 ## Data Journalism
 
 - [Data Journalism spatial projection for story decomposition](https://towardsdatascience.com/data-journalism-3d-spatial-projection-a54c96137c6a)
+
+## Data Mapping
+
+- [from Data to Viz](https://www.data-to-viz.com/)
 
 ## Data Storytelling
 
@@ -110,6 +121,8 @@
 - [Leafmap](https://github.com/giswqs/leafmap)
 - [eefolium: Folium meets Google Earth Engine](https://github.com/giswqs/eefolium)
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/index.html)
+- [Embed Plotly chart into Folium popups](https://towardsdatascience.com/how-to-embed-interactive-plotly-visualizations-in-folium-map-pop-ups-c69c818a8cd9)
+- [Greppo for geospatial dashboarding](https://github.com/greppo-io/greppo)
 
 ## GUI
 
@@ -144,6 +157,10 @@
 
 - [Creating pdf reports with `pdfkit` and `jinja2` templates](https://towardsdatascience.com/creating-pdf-reports-with-python-pdfkit-and-jinja2-templates-64a89158fa2d)
 
+## Ridgeline plots
+
+- [`joypy` for drawing ridgeline plots](https://github.com/leotac/joypy)
+
 ## ROC Curve
 
 - [Classification model evaluation](https://www.ritchieng.com/machine-learning-evaluate-classification-model/)
@@ -153,6 +170,15 @@
 - [Classification models and ROC curve](https://towardsdatascience.com/machine-learning-classification-making-sense-of-the-roc-curve-30a510bba81d)
 - [Mechanics of the ROC curve](https://towardsdatascience.com/mechanics-of-the-roc-curve-83b10ce3887f)
 - [ROC and AUC explained](https://towardsdatascience.com/an-understandable-guide-to-roc-curves-and-auc-and-why-and-when-to-use-them-92020bc4c5c1)
+
+## Scatterplot
+
+### Binned
+
+- [Binsreg](https://github.com/nppackages/binsreg)
+- [Binned scatterplot blog post](https://towardsdatascience.com/goodbye-scatterplot-welcome-binned-scatterplot-a928f67413e4)
+
+<script src="https://gist.github.com/matteocourthoud/88e6d04978bc234c79c182c8e946e4c2.js"></script>
 
 ## Seaborn
 
@@ -175,10 +201,14 @@
 - [Applied theory to improve line charts](https://towardsdatascience.com/how-to-create-beautiful-and-insightful-charts-e14a41c2cae0)
 - [Psychology behind data visualization](https://towardsdatascience.com/the-psychology-behind-data-visualization-techniques-68ef12865720)
 - [Does data visualization have rules?](https://nightingaledvs.com/does-data-visualization-have-rules-or-is-it-all-just-it-depends/)
+- [Introduction to data visualization theory](https://towardsdatascience.com/data-visualization-theory-an-introduction-a077c0d80498)
 
 ## Time Series visualization
 
 - [Time series plot with GitHub contributions style](https://towardsdatascience.com/create-githubs-style-contributions-plot-for-your-time-series-data-79df84ec93da)
+- [July for calendar plot](https://github.com/e-hulten/july)
+- [Stop aggregating: context and rearrangement for time series visualization with Observable plot](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/)
+- [Radial visualization of time series](https://towardsdatascience.com/visualising-time-series-data-with-spirals-efe0cd9f4c5)
 
 ## Upset plot
 

@@ -23,6 +23,7 @@
 - [Numerizer](https://towardsdatascience.com/handy-dandy-python-modules-for-data-processing-3a85d6806d39)
 - [Calendar](https://towardsdatascience.com/if-python-datetime-cant-help-try-calendar-module-907b6f773347)
 - [Mail with HTML template and charts](https://towardsdatascience.com/how-to-distribute-your-data-reports-via-mail-with-a-few-lines-of-code-8df395c72e55)
+- [Robotic Process Automation (RPA) with Python](https://github.com/tebelorg/RPA-Python)
 
 ## Caching
 
@@ -94,6 +95,8 @@
 - [`birdseye` for visual code debugging](https://github.com/alexmojaki/birdseye)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/)
 - [Maintain and visualize Python dependencies](https://github.com/thebjorn/pydeps)
+- [`pretty errors`](https://github.com/onelivesleft/PrettyErrors)
+- [`memray` code memory profiler](https://github.com/bloomberg/memray)
 
 ## Dash
 
@@ -105,10 +108,12 @@
 - [`dash` in PBP](http://pbpython.com/plotly-dash-intro.html)
 - [`awesome-dash`](https://github.com/Acrotrend/awesome-dash)
 - [Metrics in `dash`](http://jmdaignan.com/2018/02/26/metricsdash/)
+- [Long callbacks in Dash](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937)
 
 ## Data Augmentation
 
 - [AugLy](https://github.com/facebookresearch/AugLy)
+- [`snorkel` for training data labeling](https://github.com/snorkel-team/snorkel)
 
 ## Data Processing
 
@@ -131,6 +136,10 @@
 ## Dates and times
 
 - [Pendulum as a drop-in replacement for datetime](https://towardsdatascience.com/pendulum-one-of-the-most-useful-python-libraries-you-have-ever-seen-e2ecc365c8c0)
+
+## Dependencies management
+
+- [Dependencies management](https://kolodziejj.info/articles/dependencies/)
 
 ## Digital clock
 
@@ -161,6 +170,11 @@
 - [Traffic intersection simulation](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a)
 - [A primer on game programming](https://realpython.com/pygame-a-primer/)
 
+## Holidays
+
+- [holidays](https://github.com/dr-prodigy/python-holidays)
+- [workalendar](https://github.com/workalendar/workalendar)
+
 ## Hypothesis testing
 
 - [ht-python package](https://towardsdatascience.com/hypothesis-testing-made-easy-through-the-easy-ht-python-package-2ee395b95fe2)
@@ -185,6 +199,13 @@
 - [JupyterLite: Jupyter in web browser](https://github.com/jupyterlite/jupyterlite)
 - [Jupyter Desktop App](https://github.com/jupyterlab/jupyterlab_app#download)
 - [Enable notification for jupyter cells execution](https://towardsdatascience.com/enabling-notifications-in-your-jupyter-notebooks-for-cell-completion-68d82b02bbc6)
+- [`atoti` for BI dashboard in jupyter](https://github.com/atoti/atoti)
+- [StickyLand for sticky notes in Jupyter](https://towardsdatascience.com/sticky-notes-in-jupyter-notebook-3a2ca55fab99)
+- [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
+
+## Logging
+
+- [Structured logging](https://github.com/hynek/structlog)
 
 ## Missing values
 
@@ -210,6 +231,7 @@
 - [ML model deployment on iPhone](https://medium.com/towards-artificial-intelligence/deploy-a-python-machine-learning-model-on-your-iphone-d006b1e04bc4)
 - [Deploy PyCaret model via FastAPI](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786)
 - [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)
+- [FastDash](https://github.com/dkedar7/fast_dash)
 
 ## Model monitoring
 
@@ -219,6 +241,9 @@
 - [Weights and Biases](https://wandb.ai/site)
 - [Sacred](https://github.com/IDSIA/sacred)
 - [Omniboard as a Sacred frontend](https://github.com/vivekratnavel/omniboard)
+- [MLflow 101](https://towardsdatascience.com/machine-learning-adventures-with-mlflow-64127713b0a1)
+- [deepchecks](https://github.com/deepchecks/deepchecks)
+- [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
 
 ## Numpy
 
@@ -267,6 +292,7 @@
 - [`ConnectorX` to fast SQL data load into DataFrame](https://towardsdatascience.com/connectorx-the-fastest-way-to-load-data-from-databases-a65d4d4062d5)
 - [Movingpandas for trajectory data](https://anitagraser.github.io/movingpandas/)
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
+- [Polars](https://github.com/pola-rs/polars)
 
 ## Password Management
 
@@ -309,6 +335,7 @@
 ## Standard library
 
 - [Math module overview](https://realpython.com/python-math-module/)
+- [Boltons](https://github.com/mahmoud/boltons)
 
 ## Streamlit
 
@@ -327,6 +354,19 @@
 - [Streamlit text rating component](https://discuss.streamlit.io/t/new-component-streamlit-text-rating/19146/4)
 - [Display live 2D data in Streamlit](https://discuss.streamlit.io/t/best-fastest-practice-to-display-live-2d-data/19895)
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
+- [streamlit-option-menu](https://github.com/victoryhb/streamlit-option-menu)
+- [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)
+- [Real time dashboard update with asyncio](https://discuss.streamlit.io/t/issue-with-asyncio-run-in-streamlit/7745)
+- [Streamlit raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
+- [Drag scatter point with Bokeh events](https://discuss.streamlit.io/t/component-for-bi-directional-communication-with-bokeh/4338/42)
+- [Streamlit bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
+- [Streamlit SHAP](https://github.com/snehankekre/streamlit-shap)
+- [Streamlit elements for Material UI tools integration](https://github.com/okld/streamlit-elements)
+- [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
+- [Streamlit sortables](https://github.com/ohtaman/streamlit-sortables)
+- [How to build a real time live dashboard](https://blog-streamlit-io.cdn.ampproject.org/c/s/blog.streamlit.io/how-to-build-a-real-time-live-dashboard-with-streamlit/amp/)
+- [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
+- [Sync session state and app url via query params](https://blog.streamlit.io/how-streamlit-uses-streamlit-sharing-contextual-apps/)
 
 ## Strings
 
@@ -349,6 +389,7 @@
 ## Misc utils
 
 - [Barcodes, captcha and num2words](https://levelup.gitconnected.com/10-fantastic-python-packages-af2a16a1183a)
+- [Barcode generation with Python](https://towardsdatascience.com/generate-barcode-using-python-2da187f46954)
 
 ## Python versions
 

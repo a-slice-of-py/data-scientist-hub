@@ -21,6 +21,8 @@
 - [Stretch work assignments for personal growth](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/)
 - [Code quality as a competitive advantage](https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/)
 - [The Information Architect](https://medium.com/nightingale/the-most-important-role-youre-not-hiring-for-your-data-team-the-information-architect-7521887d4d50)
+- [What you give up when moving into management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
+- [How to build a data team](https://towardsdatascience.com/things-i-wish-i-knew-when-i-was-building-a-data-team-efcb43591204?source=social.tw)
 
 ## Conferences
 
@@ -74,6 +76,8 @@
 - [How to write a data science blog](https://towardsdatascience.com/my-secrets-to-writing-a-successful-data-science-blog-b2597b2553c6)
 - [Tailor CV for job description](https://towardsdatascience.com/6-steps-to-optimize-and-tailor-your-resume-for-a-specific-job-description-77dd535f321f)
 - [Jupyter Book](https://jupyterbook.org/intro.html)
+- [Private documentation](https://github.com/readme/guides/private-documentation)
+- [Example personal website](https://federicodecillia.github.io/)
 
 ## Preparation
 

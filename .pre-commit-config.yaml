@@ -27,8 +27,8 @@ repos:
         types: [python]
   - repo: local
     hooks:
-      - id: prova
-        name: proviamolo un po
-        entry: hooks/prova.py
+      - id: dsh
+        name: Update all DSH index.md
+        entry: python hooks.py
         language: python
         types: [python]

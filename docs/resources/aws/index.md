@@ -14,6 +14,7 @@
 
 - [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)
 - [AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_s3/LifecycleRule.html)
+- [AWS CloudWatch custom metrics dashboard via CDK](https://dev.to/leeoc/custom-cloudwatch-metrics-using-the-cdk-337f)
 
 ### AWS CodeBuild
 
@@ -39,11 +40,16 @@
 
 - [ML pipeline on Fargate](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507)
 
+### AWS IAM
+
+- [All AWS managed policies](https://gist.github.com/bernadinm/6f68bfdd015b3f3e0a17b2f00c9ea3f8)
+
 ### AWS Lambda
 
 - [AWS Lambda power tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning)
 - [AWS Lambda tests](https://towardsdatascience.com/how-i-write-meaningful-tests-for-aws-lambda-functions-f009f0a9c587)
 - [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
+- [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
 
 ### AWS SageMaker
 

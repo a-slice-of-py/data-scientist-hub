@@ -13,6 +13,10 @@
 
 - [Functional programming in DS projects](https://towardsdatascience.com/functional-programing-in-data-science-projects-c909c11138bb)
 
+## Crontab
+
+- [Crontab Guru](https://crontab.guru/examples.html)
+
 ## Dataset
 
 - [Dataset search](https://toolbox.google.com/datasetsearch)
@@ -24,6 +28,7 @@
 - [Datasette](https://github.com/simonw/datasette)
 - [Hand drawn data in Jupyter with `drawdata`](https://github.com/koaning/drawdata)
 - [World Bank data API](https://towardsdatascience.com/access-a-world-of-data-with-wbgapi-61849354f769)
+- [Footprint Network](https://data.footprintnetwork.org/#/countryTrends?cn=5001&type=BCtot,EFCtot)
 
 ## Docker
 
@@ -31,6 +36,7 @@
 - [Why use Docker containers for ML development](https://aws.amazon.com/it/blogs/opensource/why-use-docker-containers-for-machine-learning-development/)
 - [Fast Docker builds with caching](https://towardsdatascience.com/fast-docker-builds-with-caching-for-python-533ddc3b0057)
 - [Docker best practices for Python developers](https://testdriven.io/blog/docker-best-practices/)
+- [Multi-stage Docker builds to reduce image size](https://medium.com/geekculture/using-multi-stage-builds-to-make-your-docker-image-almost-10x-smaller-239068cb6fb0)
 
 ## Draw.io
 
@@ -56,10 +62,15 @@
 - [Gource a git history visualizer](https://gource.io/)
 - [Branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
 - [Pre-commit hook for code formatting](https://towardsdatascience.com/python-code-formatting-made-simple-with-git-pre-commit-hooks-9233268cdf64)
+- [Use Git tactically](https://stackoverflow.blog/2022/04/06/use-git-tactically/)
 
 ## Github
 
 - [20 repositories for developers](https://towardsdatascience.com/20-amazing-github-repositories-every-developer-should-follow-d8ce4c728351)
+
+## Google
+
+- [Advanced Google search](https://towardsdatascience.com/top-tips-to-google-search-like-a-data-science-pro-897599f4d9ae)
 
 ## Graphics
 
@@ -68,6 +79,14 @@
 ## GraphQL
 
 - [GraphQL](https://graphql.org/)
+
+## HTML
+
+- [PyScript](https://towardsdatascience.com/pyscript-unleash-the-power-of-python-in-your-browser-6e0123c6dc3f)
+
+## JSON
+
+- [JSON Visio editor](https://jsonvisio.com/editor)
 
 ## Markdown
 
@@ -99,6 +118,7 @@
 ## Software Development
 
 - [SOLID principle](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+- [Software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes/)
 
 ## SQL
 
@@ -107,6 +127,11 @@
 - [Advanced SQL queries in pandas](https://towardsdatascience.com/writing-advanced-sql-queries-in-pandas-1dc494a17afe)
 - [SQL window functions](https://towardsdatascience.com/mastering-sql-window-functions-6cd17004dfe0)
 - [5 SQL common queries](https://towardsdatascience.com/5-common-sql-problems-for-you-to-crush-10a796258643)
+- [SQL window functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
+- [Intermediate SQL queries](https://towardsdatascience.com/intermediate-sql-for-everyone-fe35c541147a)
+- [6 lesser known queries](https://towardsdatascience.com/6-lesser-known-sql-techniques-to-save-you-100-hours-a-month-10ceed47d3fe)
+- [10 SQL tips](https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0)
+- [Settings for NLS in SQL Developer](https://stackoverflow.com/questions/12628385/sql-developer-is-returning-only-the-date-not-the-time-how-do-i-fix-this)
 
 ## Terminal
 

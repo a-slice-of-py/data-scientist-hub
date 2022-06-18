@@ -57,9 +57,6 @@ plugins:
   - awesome-pages
   - blog:
       format: "[%Y/%m/%d]"
-  - mkdocs-simple-hooks:
-      hooks:
-        on_pre_build: "docs.dsh_hooks:on_pre_build"
 
 extra_css:
   - stylesheets/extra.css

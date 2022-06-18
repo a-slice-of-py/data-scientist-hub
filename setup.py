@@ -1,11 +1,12 @@
 """A setuptools based setup module.
+
 See:
 https://packaging.python.org/guides/distributing-packages-using-setuptools/
 https://github.com/pypa/sampleproject
 """
 
 # Always prefer setuptools over distutils
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
@@ -67,7 +68,8 @@ setup(
     #
     #   py_modules=["my_module"],
     #
-    packages=find_packages(exclude=['data', 'docs', '.venv-data-scientist-hub', 'notebooks']),  # Required
+    packages=find_packages(
+        exclude=['data', 'docs', '.venv-data-scientist-hub', 'notebooks']),  # Required
 
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
