@@ -14,6 +14,7 @@
 - [Goal programming](http://du.ac.in/du/uploads/departments/Operational%20Research/25042020_Goal%20Programming.pdf)
 - [Artificial Bee Colony algorithm](https://towardsdatascience.com/implementing-artificial-bee-colony-algorithm-to-solve-business-problems-cb754f3b9255)
 - [Animate particle swarm optimization](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
+- [ErlangC queue optimization with `pyworkforce`](https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a)
 
 ## Scholarpedia
 

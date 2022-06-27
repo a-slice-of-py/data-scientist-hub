@@ -11,9 +11,10 @@ My master thesis about inverse imaging of solar flares by means of Sequential Mo
 <div>
 <div><small>Real image &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Reconstruction</small></div>
 <img src="../assets/real_sources.png"
-     width="330"/>
-<video width="370"
-       height="205"
+     width="45%"
+       height="auto"/>
+<video width="50%"
+       height="auto"
        autoplay loop muted>
     <source src="../assets/reconstruction.mp4"
             type="video/mp4">
@@ -21,17 +22,17 @@ My master thesis about inverse imaging of solar flares by means of Sequential Mo
 </video>
 </div>
 
-<div style="margin-bottom:-20px"><small>SMC particles &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Probability distribution of sources locations</small></div>
-<video width="350"
-       height="240"
+<div style="margin-bottom:-20px"><small>SMC particles &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Probability distribution of sources locations<br><br></small></div>
+<video width="48%"
+       height="auto"
        autoplay loop muted>
     <source src="../assets/particles.mp4"
             type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-<video width="350"
-       height="240"
+<video width="48%"
+       height="auto"
        autoplay loop muted>
     <source src="../assets/accumulator.mp4"
             type="video/mp4">

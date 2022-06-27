@@ -15,18 +15,6 @@ It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material
 
 You can visit the current version [here](http://a-slice-of-py.github.io/data-scientist-hub/).
 
-## Commit types
-
-From v2.1 on, commit messages _should_ follow a convention (as suggested by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)) with below types:
-
-- `feat` ➜ new project features
-- `fix` ➜ bug fixing
-- `data` ➜ contents update
-- `refactor` ➜ light code refactoring
-- `style` ➜ code style update
-- `wip` ➜ backup commits
-- `misc` ➜ none of the above
-
 ## Changelog
 
 ### v2.3
@@ -70,6 +58,18 @@ Trello board named _"Resources"_, with topics as cards and links as checklist it
 _Release date: Jun 21, 2018_
 
 Unorganized collection of links stored in random mails to myself.
+
+## Commit types
+
+From v2.1 on, commit messages _should_ follow a convention (as suggested by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)) with below types:
+
+- `feat` ➜ new project features
+- `fix` ➜ bug fixing
+- `data` ➜ contents update
+- `refactor` ➜ light code refactoring
+- `style` ➜ code style update
+- `wip` ➜ backup commits
+- `misc` ➜ none of the above
 
 ---
 

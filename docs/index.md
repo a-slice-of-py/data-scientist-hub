@@ -12,8 +12,8 @@
 DSH is definitely a living creature, always under development and I expect - and somehow _wish_ - frequent changes in both contents and shape.
 Here you can see me developing DSH 🤓 (animation built via the wonderful [Gource](https://gource.io/)).
 <div>
-<video width="640"
-       height="480"
+<video width="100%"
+       height="auto"
        autoplay loop muted>
     <source src="assets/gource.mp4"
             type="video/mp4">
@@ -23,19 +23,18 @@ Here you can see me developing DSH 🤓 (animation built via the wonderful [Gour
 
 It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material theme](https://squidfunk.github.io/mkdocs-material/) and deployed on [GitHub Pages](https://pages.github.com/).
 
+## Sitemap
+
+- _Home_: README and sitemap.
+- _Projects_: personal development projects and progress tracker.
+- _Notes_: development notes about cloud development, data science and more.
+- _Snippets_: the temple of DRY, collection of snippets of reusable code.
+- _Resources_: collection of links to useful online resources.
+- _Doomsday_: recipes to survive to a forced reset of development local environment.
+- _About_: me, myself and I.
+<!-- - Captain's Log: logbook with notes on DSH development and misc stuff. -->
+
 ## README
-
-### Commit types
-
-From v2.1 on, commit messages _should_ follow a convention (as suggested by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)) with below types:
-
-- `feat` ➜ new project features
-- `fix` ➜ bug fixing
-- `data` ➜ contents update
-- `refactor` ➜ light code refactoring
-- `style` ➜ code style update
-- `wip` ➜ backup commits
-- `misc` ➜ none of the above
 
 ### Changelog
 
@@ -81,13 +80,14 @@ _Release date: Jun 21, 2018_
 
 Unorganized collection of links stored in random mails to myself.
 
-## Sitemap
+### Commit types
 
-- _Home_: README and sitemap.
-- _Projects_: personal development projects and progress tracker.
-- _Notes_: development notes about cloud development, data science and more.
-- _Snippets_: the temple of DRY, collection of snippets of reusable code.
-- _Resources_: collection of links to useful online resources.
-- _Doomsday_: recipes to survive to a forced reset of development local environment.
-- _About_: me, myself and I.
-<!-- - Captain's Log: logbook with notes on DSH development and misc stuff. -->
+From v2.1 on, commit messages _should_ follow a convention (as suggested by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)) with below types:
+
+- `feat` ➜ new project features
+- `fix` ➜ bug fixing
+- `data` ➜ contents update
+- `refactor` ➜ light code refactoring
+- `style` ➜ code style update
+- `wip` ➜ backup commits
+- `misc` ➜ none of the above
