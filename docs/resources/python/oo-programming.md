@@ -13,3 +13,4 @@
 - [Tricks for Python classes](https://python.plainenglish.io/five-unknown-tricks-for-python-classes-ba5edd29a108)
 - [Design patterns](https://stackoverflow.blog/2021/10/13/why-solve-a-problem-twice-design-patterns-let-you-apply-existing-solutions-to-your-code/)
 - [RealPython best practices collection](https://realpython.com/tutorials/best-practices/)
+- [Python class `__slots__`](https://towardsdatascience.com/understand-slots-in-python-e3081ef5196d)

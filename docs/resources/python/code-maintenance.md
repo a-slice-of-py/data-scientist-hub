@@ -42,3 +42,4 @@
 - [Maintain and visualize Python dependencies](https://github.com/thebjorn/pydeps)
 - [`pretty errors`](https://github.com/onelivesleft/PrettyErrors)
 - [`memray` code memory profiler](https://github.com/bloomberg/memray)
+- [Custom classes supporting `with` statement and context management](https://towardsdatascience.com/what-is-behind-the-python-with-statement-89c74be3a6bd)

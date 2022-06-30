@@ -47,10 +47,10 @@
 - [Time features encoding: cyclic vs dummy vs numeric](https://towardsdatascience.com/time-seasonality-features-in-time-series-7e8236f7b04a)
 - [Scalecast](https://github.com/mikekeith52/scalecast)
 - [Hierarchical forecast reconciliation](https://towardsdatascience.com/forecast-reconciliation-in-python-8203c16254b2)
+- [Deep Learning for time series forecasting](https://towardsdatascience.com/the-reasonable-effectiveness-of-deep-learning-for-time-series-forecasting-60e2c8affb9)
 
 ## Greykite
 
 - [Greykite by Linkedin](https://github.com/linkedin/greykite)
 - [Intro to Greykite](https://towardsdatascience.com/linkedins-response-to-prophet-silverkite-and-greykite-4fd0131f64cb)
 - [Tuning a model in Greykite](https://levelup.gitconnected.com/tuning-a-forecasting-model-part-2-f7b4c5a54335)
-

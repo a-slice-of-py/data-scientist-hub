@@ -37,3 +37,4 @@
 - [First rule of ML: start without ML](https://eugeneyan.com/writing/first-rule-of-ml/)
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [Hidden aspects about being a Data Scientist](https://pub.towardsai.net/hidden-aspect-about-being-a-data-scientist-aa4da669fbf6)
+- [4 rules for better data science](https://towardsdatascience.com/4-powerful-rules-for-better-data-science-128bb51f6fd3)
