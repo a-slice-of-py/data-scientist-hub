@@ -25,7 +25,7 @@ It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material
 
 ## Sitemap
 
-- _Home_: README and sitemap.
+- _Home_: README, sitemap and tags.
 - _Projects_: personal development projects and progress tracker.
 - _Notes_: development notes about cloud development, data science and more.
 - _Snippets_: the temple of DRY, collection of snippets of reusable code.
@@ -38,7 +38,7 @@ It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material
 
 ### Changelog
 
-### v2.3
+#### v2.3
 
 _Release date: Jun 18, 2022_
 
