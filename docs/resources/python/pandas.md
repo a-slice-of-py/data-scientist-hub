@@ -16,3 +16,4 @@
 - [Movingpandas for trajectory data](https://anitagraser.github.io/movingpandas/)
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 - [Polars](https://github.com/pola-rs/polars)
+- [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)

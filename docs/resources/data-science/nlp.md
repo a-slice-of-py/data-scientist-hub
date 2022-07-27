@@ -21,3 +21,5 @@
 - [Text summarization](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65)
 - [Text similarity with Levenshtein distance](https://towardsdatascience.com/text-similarity-w-levenshtein-distance-in-python-2f7478986e75)
 - [Intro to topic modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/topic-modeling-with-latent-dirichlet-allocation-ea3ebb2be9f4)
+- [Autocorrect for multilanguage spelling correction](https://github.com/filyp/autocorrect)
+- [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
