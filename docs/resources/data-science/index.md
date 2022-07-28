@@ -134,6 +134,7 @@
 ## Correlation
 
 - [Non-linear correlation matrix](https://towardsdatascience.com/non-linear-correlation-matrix-the-much-needed-technique-which-nobody-talks-about-132bc02ce632)
+- [Predictive power score (PPS)](https://github.com/8080labs/ppscore)
 
 ## Curse Of Dimensionality
 
@@ -287,6 +288,7 @@
 ## Model monitoring
 
 - [Static threshold vs anomalies and changepoints detection](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe)
+- [Different retrain strategies for ML models](https://towardsdatascience.com/retrain-or-not-retrain-online-machine-learning-with-gradient-boosting-9ccb464415e7)
 
 ## Neural Networks
 
@@ -322,6 +324,8 @@
 - [Text summarization](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65)
 - [Text similarity with Levenshtein distance](https://towardsdatascience.com/text-similarity-w-levenshtein-distance-in-python-2f7478986e75)
 - [Intro to topic modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/topic-modeling-with-latent-dirichlet-allocation-ea3ebb2be9f4)
+- [Autocorrect for multilanguage spelling correction](https://github.com/filyp/autocorrect)
+- [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
 
 ## Objects tracking
 
@@ -349,6 +353,7 @@
 - [Goal programming](http://du.ac.in/du/uploads/departments/Operational%20Research/25042020_Goal%20Programming.pdf)
 - [Artificial Bee Colony algorithm](https://towardsdatascience.com/implementing-artificial-bee-colony-algorithm-to-solve-business-problems-cb754f3b9255)
 - [Animate particle swarm optimization](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
+- [ErlangC queue optimization with `pyworkforce`](https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a)
 
 ### Scholarpedia
 
@@ -404,6 +409,7 @@
 - [Correlation visually explained](https://towardsdatascience.com/correlation-explained-visually-4875448e8e56)
 - [3 t-tests for data scientists](https://towardsdatascience.com/the-3-t-tests-for-data-scientists-e24e4ef61)
 - [Stats gist list: guide to jargon by Cassie Kozyrkov](https://towardsdatascience.com/stats-gist-list-an-irreverent-statisticians-guide-to-jargon-be8173df090d#5e31-a268c84a0df1-reply)
+- [Algorithmic approach to statistical testing](https://towardsdatascience.com/data-scientists-need-to-know-just-one-statistical-test-3115b2ff26fd)
 
 ## Regression
 
@@ -519,13 +525,13 @@
 - [Time features encoding: cyclic vs dummy vs numeric](https://towardsdatascience.com/time-seasonality-features-in-time-series-7e8236f7b04a)
 - [Scalecast](https://github.com/mikekeith52/scalecast)
 - [Hierarchical forecast reconciliation](https://towardsdatascience.com/forecast-reconciliation-in-python-8203c16254b2)
+- [Deep Learning for time series forecasting](https://towardsdatascience.com/the-reasonable-effectiveness-of-deep-learning-for-time-series-forecasting-60e2c8affb9)
 
 ### Greykite
 
 - [Greykite by Linkedin](https://github.com/linkedin/greykite)
 - [Intro to Greykite](https://towardsdatascience.com/linkedins-response-to-prophet-silverkite-and-greykite-4fd0131f64cb)
 - [Tuning a model in Greykite](https://levelup.gitconnected.com/tuning-a-forecasting-model-part-2-f7b4c5a54335)
-
 
 ## Tree-based methods
 

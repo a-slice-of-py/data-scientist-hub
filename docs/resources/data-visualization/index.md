@@ -129,6 +129,10 @@
 - [Jupyter `pivottable_js`](http://nicolas.kruchten.com/content/2015/09/jupyter_pivottablejs/)
 - [Build real world applications](https://towardsdatascience.com/master-python-through-building-real-world-applications-part-7-6b4b00fa5f27)
 
+## Hierarchical
+
+- [Technology tree visualization with `skillmap`](https://github.com/niyue/skillmap)
+
 ## High-dimensional data
 
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)

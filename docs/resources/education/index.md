@@ -18,6 +18,7 @@
 - [Data graveyard and the valley of death and despair](https://towardsdatascience.com/data-analyst-graveyard-the-valley-of-death-and-despair-8eaaf520f574)
 - [Pros and cons: truth about working as a Data Scientist](https://towardsdatascience.com/the-truth-about-working-as-a-data-scientist-99ed40a600d2)
 - [Data Scientists will be extinct before 2030](https://towardsdatascience.com/data-scientists-will-be-extinct-in-10-years-a6e5dd77162b)
+- [Things you are not told about data science](https://towardsdatascience.com/10-things-you-are-not-told-about-data-science-3460636feeb1)
 
 ## Data, Art & Science
 
@@ -80,6 +81,7 @@
 - [First rule of ML: start without ML](https://eugeneyan.com/writing/first-rule-of-ml/)
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [Hidden aspects about being a Data Scientist](https://pub.towardsai.net/hidden-aspect-about-being-a-data-scientist-aa4da669fbf6)
+- [4 rules for better data science](https://towardsdatascience.com/4-powerful-rules-for-better-data-science-128bb51f6fd3)
 
 ## Programming Languages
 
@@ -112,7 +114,7 @@
 
 ## Teaching
 
-- [`handcalcs` for hand calculations](https://towardsdatascience.com/handcalcs-library-for-data-scientist-5a534a3b35cd)
+- [`handcalcs` for hand calculations](https://github.com/connorferster/handcalcs)
 
 ## Technical skills
 

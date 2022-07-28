@@ -24,6 +24,8 @@
 - [Calendar](https://towardsdatascience.com/if-python-datetime-cant-help-try-calendar-module-907b6f773347)
 - [Mail with HTML template and charts](https://towardsdatascience.com/how-to-distribute-your-data-reports-via-mail-with-a-few-lines-of-code-8df395c72e55)
 - [Robotic Process Automation (RPA) with Python](https://github.com/tebelorg/RPA-Python)
+- [`schedule` as Python scheduling library](https://github.com/dbader/schedule)
+- [PyAutoGUI](https://github.com/asweigart/pyautogui)
 
 ## Caching
 
@@ -97,6 +99,7 @@
 - [Maintain and visualize Python dependencies](https://github.com/thebjorn/pydeps)
 - [`pretty errors`](https://github.com/onelivesleft/PrettyErrors)
 - [`memray` code memory profiler](https://github.com/bloomberg/memray)
+- [Custom classes supporting `with` statement and context management](https://towardsdatascience.com/what-is-behind-the-python-with-statement-89c74be3a6bd)
 
 ## Dash
 
@@ -123,6 +126,7 @@
 
 - [Container data types](https://towardsdatascience.com/6-python-container-data-types-you-should-know-81dad6c4f61d)
 - [Python dictionaries on steroids with `munch`](https://github.com/Infinidat/munch)
+- [Format comparison for large datasets](https://towardsdatascience.com/how-to-handle-large-datasets-in-python-1f077a7e7ecf)
 
 ## Data validation
 
@@ -163,6 +167,7 @@
 
 - [Functions attributes](https://towardsdatascience.com/hidden-gems-of-python-76020b14e42f)
 - [Python operators module](https://towardsdatascience.com/the-unknown-features-of-pythons-operator-module-1ad9075d9536)
+- [`funcy`](https://github.com/Suor/funcy/tree/61fc6a9494199c539390a0776c43d22e127cc5a8)
 
 ## Game development
 
@@ -206,6 +211,7 @@
 ## Logging
 
 - [Structured logging](https://github.com/hynek/structlog)
+- [Whylogs for data logging](https://github.com/whylabs/whylogs)
 
 ## Missing values
 
@@ -244,6 +250,7 @@
 - [MLflow 101](https://towardsdatascience.com/machine-learning-adventures-with-mlflow-64127713b0a1)
 - [deepchecks](https://github.com/deepchecks/deepchecks)
 - [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
+- [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
 
 ## Numpy
 
@@ -265,6 +272,7 @@
 - [Tricks for Python classes](https://python.plainenglish.io/five-unknown-tricks-for-python-classes-ba5edd29a108)
 - [Design patterns](https://stackoverflow.blog/2021/10/13/why-solve-a-problem-twice-design-patterns-let-you-apply-existing-solutions-to-your-code/)
 - [RealPython best practices collection](https://realpython.com/tutorials/best-practices/)
+- [Python class `__slots__`](https://towardsdatascience.com/understand-slots-in-python-e3081ef5196d)
 
 ## Object Relational Mapper (ORM)
 
@@ -293,6 +301,7 @@
 - [Movingpandas for trajectory data](https://anitagraser.github.io/movingpandas/)
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 - [Polars](https://github.com/pola-rs/polars)
+- [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
 
 ## Password Management
 
@@ -331,6 +340,11 @@
 
 - [Pipelines with `sklearn`](https://towardsdatascience.com/introduction-to-scikit-learn-pipelines-454a7a1ad3f4)
 - [Pipeline visualization](https://towardsdatascience.com/data-science-plumbing-peeking-into-scikit-learn-pipelines-f9233ad638e)
+
+### Extensions
+
+- [`combo` for ML models combination](https://github.com/yzhao062/combo)
+- [`scikit-multilearn` for multi-label learning](https://github.com/scikit-multilearn/scikit-multilearn)
 
 ## Standard library
 
@@ -372,6 +386,7 @@
 
 - [Fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
 - [Python strings](https://towardsdatascience.com/python-strings-38c3d74c236a)
+- [Thefuzz](https://github.com/seatgeek/thefuzz)
 
 ## Tensorflow
 
