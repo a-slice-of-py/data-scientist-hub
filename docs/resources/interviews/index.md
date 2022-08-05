@@ -23,6 +23,7 @@
 - [The Information Architect](https://medium.com/nightingale/the-most-important-role-youre-not-hiring-for-your-data-team-the-information-architect-7521887d4d50)
 - [What you give up when moving into management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
 - [How to build a data team](https://towardsdatascience.com/things-i-wish-i-knew-when-i-was-building-a-data-team-efcb43591204?source=social.tw)
+- [Online revenue streams for Data Scientists](https://towardsdatascience.com/how-to-develop-online-revenue-streams-as-a-data-scientist-af290fad64ef)
 
 ## Conferences
 

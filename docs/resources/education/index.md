@@ -29,13 +29,19 @@
 - [Color palette extraction](https://towardsdatascience.com/r-color-palette-extraction-3850b3f56152)
 - [Visualize emotional arcs of movie scripts with rule-based sentiment analysis](https://towardsdatascience.com/visualizing-the-emotional-arcs-of-movie-scripts-using-rule-based-sentiment-analysis-1016b4b1af5a)
 - [Processing](https://py.processing.org/tutorials/)
-- [Turn music into data](https://towardsdatascience.com/how-music-can-be-turned-into-dataset-e40d59718d4a)
 - [Human brain and backpropagation](https://www.quantamagazine.org/artificial-neural-nets-finally-yield-clues-to-how-brains-learn-20210218/)
 - [175 years of words in Scientific American](https://www.scientificamerican.com/article/how-to-turn-175-years-of-words-in-scientific-american-into-an-image/)
 - [Discovering the shape of fractions](https://towardsdatascience.com/discovering-the-shape-of-fractions-e9034ab0085c)
 - [Google PaLM (Pathways Language Model)](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html)
 - [DALL-E 2: from text to images](https://openai.com/dall-e-2/)
 - [WebGL Fluid Simulation](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
+
+### Data sonification
+
+- [Turn music into data](https://towardsdatascience.com/how-music-can-be-turned-into-dataset-e40d59718d4a)
+- [Playing cryptocurrency time series](https://towardsdatascience.com/i-created-music-from-data-using-python-adfc349f55f1)
+- [Turn time series to music with `miditime`](https://github.com/cirlabs/miditime)
+- [Data sonification tutorials](https://github.com/SYSTEMSounds/sonification-tutorials)
 
 ## Gamification
 
@@ -82,6 +88,7 @@
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [Hidden aspects about being a Data Scientist](https://pub.towardsai.net/hidden-aspect-about-being-a-data-scientist-aa4da669fbf6)
 - [4 rules for better data science](https://towardsdatascience.com/4-powerful-rules-for-better-data-science-128bb51f6fd3)
+- [Critical insights about Data Scientist profession](https://towardsdatascience.com/the-5-most-critical-insights-youll-gain-in-your-first-5-years-as-a-data-scientist-341cc2d73232)
 
 ## Programming Languages
 
