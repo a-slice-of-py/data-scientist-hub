@@ -38,3 +38,4 @@
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [Hidden aspects about being a Data Scientist](https://pub.towardsai.net/hidden-aspect-about-being-a-data-scientist-aa4da669fbf6)
 - [4 rules for better data science](https://towardsdatascience.com/4-powerful-rules-for-better-data-science-128bb51f6fd3)
+- [Critical insights about Data Scientist profession](https://towardsdatascience.com/the-5-most-critical-insights-youll-gain-in-your-first-5-years-as-a-data-scientist-341cc2d73232)
