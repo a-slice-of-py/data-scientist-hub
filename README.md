@@ -13,7 +13,7 @@ DSH is definitely a living creature, always under development and I expect - and
 
 It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material theme](https://squidfunk.github.io/mkdocs-material/) and deployed on [GitHub Pages](https://pages.github.com/).
 
-You can visit the current version [here](http://a-slice-of-py.github.io/data-scientist-hub/).
+You can visit the current deployed version [here](http://a-slice-of-py.github.io/data-scientist-hub/).
 
 ## Changelog
 
