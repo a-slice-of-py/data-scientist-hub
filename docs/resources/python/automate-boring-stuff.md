@@ -8,3 +8,4 @@
 - [Robotic Process Automation (RPA) with Python](https://github.com/tebelorg/RPA-Python)
 - [`schedule` as Python scheduling library](https://github.com/dbader/schedule)
 - [PyAutoGUI](https://github.com/asweigart/pyautogui)
+- [Convert docx to HTML with `mammoth`](https://github.com/mwilliamson/python-mammoth)
