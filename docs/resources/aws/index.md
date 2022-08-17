@@ -68,6 +68,7 @@
 
 - [SLAM](https://github.com/miguelgrinberg/slam)
 - [MOTO for local test of aws resources](https://github.com/spulec/moto)
+- [Steampipe: query the cloud with plain SQL](https://github.com/turbot/steampipe)
 
 ### Streamlit deployment
 
