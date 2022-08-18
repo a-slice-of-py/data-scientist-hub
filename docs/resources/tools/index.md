@@ -65,6 +65,7 @@
 - [Pre-commit hook for code formatting](https://towardsdatascience.com/python-code-formatting-made-simple-with-git-pre-commit-hooks-9233268cdf64)
 - [Use Git tactically](https://stackoverflow.blog/2022/04/06/use-git-tactically/)
 - [Git cheatsheet by GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Gitpod: spin up automated dev environments](https://www.gitpod.io/)
 
 ## Github
 
