@@ -31,4 +31,3 @@ repos:
         name: Update all DSH index.md
         entry: python hooks.py
         language: python
-        types: [python]
