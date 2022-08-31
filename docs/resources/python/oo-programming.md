@@ -15,3 +15,4 @@
 - [RealPython best practices collection](https://realpython.com/tutorials/best-practices/)
 - [Python class `__slots__`](https://towardsdatascience.com/understand-slots-in-python-e3081ef5196d)
 - [Strict constants in Python](https://realpython.com/python-constants/#defining-strict-constants-in-python)
+- [Python decorator patterns](https://bytepawn.com/python-decorator-patterns.html)

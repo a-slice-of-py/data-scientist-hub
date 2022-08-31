@@ -23,3 +23,4 @@
 - [Intro to topic modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/topic-modeling-with-latent-dirichlet-allocation-ea3ebb2be9f4)
 - [Autocorrect for multilanguage spelling correction](https://github.com/filyp/autocorrect)
 - [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
+- [Texthero tutorial](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6)

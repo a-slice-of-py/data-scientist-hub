@@ -124,6 +124,8 @@
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/index.html)
 - [Embed Plotly chart into Folium popups](https://towardsdatascience.com/how-to-embed-interactive-plotly-visualizations-in-folium-map-pop-ups-c69c818a8cd9)
 - [Greppo for geospatial dashboarding](https://github.com/greppo-io/greppo)
+- [Electricity Maps](https://app.electricitymaps.com/zone/IT-NO)
+- [Planning the perfect hike with OSMnx](https://towardsdatascience.com/planning-the-perfect-hike-with-networkx-and-openstreetmap-2fbeaded3cc6)
 
 ## GUI
 

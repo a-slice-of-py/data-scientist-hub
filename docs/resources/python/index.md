@@ -155,6 +155,7 @@
 - [Autodocs with Python](https://towardsdatascience.com/auto-docs-for-python-b545ce372e2d)
 - [How to write an awesome readme](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
 - [`diagrams` as code](https://diagrams.mingrammer.com/)
+- [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
 
 ## DTale
 
@@ -175,6 +176,7 @@
 - [Pygame](https://www.pygame.org/news)
 - [Traffic intersection simulation](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a)
 - [A primer on game programming](https://realpython.com/pygame-a-primer/)
+- [Build Tic-Tac-Toe with Python](https://realpython.com/tic-tac-toe-python/)
 
 ## Holidays
 
@@ -208,6 +210,7 @@
 - [`atoti` for BI dashboard in jupyter](https://github.com/atoti/atoti)
 - [StickyLand for sticky notes in Jupyter](https://towardsdatascience.com/sticky-notes-in-jupyter-notebook-3a2ca55fab99)
 - [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
+- [Notebook cells output strip out with `nbstripout`](https://github.com/kynan/nbstripout)
 
 ## Logging
 
@@ -276,6 +279,7 @@
 - [RealPython best practices collection](https://realpython.com/tutorials/best-practices/)
 - [Python class `__slots__`](https://towardsdatascience.com/understand-slots-in-python-e3081ef5196d)
 - [Strict constants in Python](https://realpython.com/python-constants/#defining-strict-constants-in-python)
+- [Python decorator patterns](https://bytepawn.com/python-decorator-patterns.html)
 
 ## Object Relational Mapper (ORM)
 
@@ -338,6 +342,7 @@
 
 - [Regex made simple](https://towardsdatascience.com/regular-expressions-regex-dont-fear-them-it-is-simpler-than-you-think-3a4d6de77058)
 - [How to remember regex](https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd)
+- [AutoRegex: from plain text to regex](https://www.autoregex.xyz/)
 
 ## Scikit-learn
 

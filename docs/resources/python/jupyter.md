@@ -21,3 +21,4 @@
 - [`atoti` for BI dashboard in jupyter](https://github.com/atoti/atoti)
 - [StickyLand for sticky notes in Jupyter](https://towardsdatascience.com/sticky-notes-in-jupyter-notebook-3a2ca55fab99)
 - [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
+- [Notebook cells output strip out with `nbstripout`](https://github.com/kynan/nbstripout)
