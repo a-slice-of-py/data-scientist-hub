@@ -397,6 +397,10 @@
 - [Python strings](https://towardsdatascience.com/python-strings-38c3d74c236a)
 - [Thefuzz](https://github.com/seatgeek/thefuzz)
 
+## Structural Pattern Matching
+
+- [PEP 636](https://peps.python.org/pep-0636/)
+
 ## Tensorflow
 
 - [Tensorflow playground](http://playground.tensorflow.org)
