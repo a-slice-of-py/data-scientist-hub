@@ -5,6 +5,7 @@
 - [Free and paid data science books](https://medium.com/towards-artificial-intelligence/best-data-science-books-free-and-paid-data-science-book-recommendations-b519046dcca5)
 - [7 free books to read in 2020](https://towardsdatascience.com/7-free-ebooks-every-data-scientist-should-read-in-2020-32508ad704b7)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+- [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
 
 ## Certifications
 
@@ -22,6 +23,8 @@
 - [Making friends with Machine Learning by Cassie Kozyrkov](https://www.youtube.com/watch?v=9PBqqx38WeI&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=5)
 - [Data Science Tools cheatsheets from MIT 15.003](https://github.com/shervinea/mit-15-003-data-science-tools)
 - [Information Visualization](https://www.coursera.org/specializations/information-visualization)
+- [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2022)
+- [Google ML](https://developers.google.com/machine-learning)
 
 ## Learning Path
 

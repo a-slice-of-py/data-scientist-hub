@@ -118,6 +118,7 @@
 
 - [Differentiation from scratch](https://towardsdatascience.com/build-your-own-automatic-differentiation-program-6ecd585eec2a)
 - [Differentiable programming](https://towardsdatascience.com/understand-differentiable-programming-54f11bfb574)
+- [Taichi](https://github.com/taichi-dev/taichi)
 
 ## Community detection
 
@@ -531,6 +532,7 @@
 - [Hierarchical forecast reconciliation](https://towardsdatascience.com/forecast-reconciliation-in-python-8203c16254b2)
 - [Deep Learning for time series forecasting](https://towardsdatascience.com/the-reasonable-effectiveness-of-deep-learning-for-time-series-forecasting-60e2c8affb9)
 - [Interpreting ACF and PACF plots for time series](https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c)
+- [Python Automatic Forecasting](https://github.com/antoinecarme/pyaf)
 
 ### Greykite
 

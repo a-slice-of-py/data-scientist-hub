@@ -11,3 +11,5 @@
 - [10 SQL tips](https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0)
 - [Settings for NLS in SQL Developer](https://stackoverflow.com/questions/12628385/sql-developer-is-returning-only-the-date-not-the-time-how-do-i-fix-this)
 - [Advanced SQL concepts](https://towardsdatascience.com/5-advanced-sql-concepts-you-should-know-in-2022-b50efe6c99)
+- [SQL advanced functions: qualify, arrays and more](https://towardsdatascience.com/powerful-sql-queries-that-you-might-not-know-c9953ea4bf20)
+- [SQL CASE](https://towardsdatascience.com/5-advanced-sql-case-examples-that-will-make-you-use-case-when-easily-1040c1eb8857)

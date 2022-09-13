@@ -29,3 +29,4 @@
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 - [Sync session state and app url via query params](https://blog.streamlit.io/how-streamlit-uses-streamlit-sharing-contextual-apps/)
 - [Table of contents in Streamlit](https://github.com/arnaudmiribel/stoc)
+- [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)

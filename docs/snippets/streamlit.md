@@ -229,6 +229,37 @@ def folium_dual_map(dualmap: plugins.DualMap, height: int = 800) -> None:
     )
 ```
 
+## Grid layout
+
+```python
+from typing import Callable, ContextManager
+import streamlit as st
+
+def make_grid(n_rows: int, n_cols: int) -> Callable:
+    """Build a grid context manager.
+
+    Inspired from https://towardsdatascience.com/how-to-create-a-grid-layout-in-streamlit-7aff16b94508.
+
+    Args:
+        n_rows (int): number of rows.
+        n_cols (int): number of cols.
+
+    Returns:
+        Callable context manager.
+    """
+    grid = [st.columns(n_rows) for _ in range(n_cols)]
+    def _grid(i: int, j: int) -> ContextManager:
+        return grid[i][j]
+    return _grid
+
+grid = make_grid(2, 2)
+
+for i in range(2):
+    for j in range(2):
+        with grid(i, j):
+            st.markdown(f'# Hello from ({i}, {j})')
+```
+
 ## Injecting `javascript`
 
 ```python
