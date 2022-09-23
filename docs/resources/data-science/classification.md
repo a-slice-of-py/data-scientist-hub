@@ -10,3 +10,4 @@
 - [Precision and Recall visually explained](https://mlu-explain.github.io/precision-recall/)
 - [The Effect of Class Imbalance on Precision-Recall Curves](https://arxiv.org/abs/2007.01905)
 - [Classification metrics calibration](https://link.springer.com/chapter/10.1007/978-3-030-44584-3_36)
+- [`binclass-tools` for binary classification inspection](https://github.com/lucazav/binclass-tools)

@@ -141,9 +141,12 @@
 
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
 
-## Interactive js
+## Javascript libraries
 
 - [Javascript charts](http://markibrahim.me/musings/notebooks/beautiful_javascript_charts.html)
+- [`d3blocks`: Python porting of D3js](https://github.com/d3blocks/d3blocks)[^1]
+
+[^1]: [A day in the life of Americans](/data-scientist-hub/resources/data-visualization/#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
 ## Model accuracy
 
@@ -191,6 +194,7 @@
 ## Seaborn
 
 - [Advanced data visualization with `seaborn`](https://towardsdatascience.com/a-step-by-step-guide-for-creating-advanced-python-data-visualizations-with-seaborn-matplotlib-1579d6a1a7d0)
+- [How to merge seaborn plots](https://towardsdatascience.com/19-examples-of-merging-plots-to-maximize-your-clustering-scatter-plot-87e8f1bb5fd2)
 
 ## Social science
 

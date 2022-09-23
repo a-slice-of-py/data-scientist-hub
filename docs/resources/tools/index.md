@@ -88,6 +88,10 @@
 
 - [PyScript](https://towardsdatascience.com/pyscript-unleash-the-power-of-python-in-your-browser-6e0123c6dc3f)
 
+## impress.js
+
+- [impress.js and Slides, Prezi-inspired](https://github.com/impress/impress.js)
+
 ## JSON
 
 - [JSON Visio editor](https://jsonvisio.com/editor)
@@ -110,6 +114,10 @@
 
 - [Optimize a to-do list with Monte Carlo simulations](https://towardsdatascience.com/optimise-your-todo-list-with-monte-carlo-simulations-in-python-1682a8a5eb84)
 - [Estimating tasks with statistics and simulations](https://towardsdatascience.com/estimating-tasks-with-statistics-and-simulations-using-python-ddd1df3c7ce1)
+
+## Quarto
+
+- [Quarto docs](https://quarto.org/)
 
 ## reveal.js
 
@@ -139,6 +147,7 @@
 - [Advanced SQL concepts](https://towardsdatascience.com/5-advanced-sql-concepts-you-should-know-in-2022-b50efe6c99)
 - [SQL advanced functions: qualify, arrays and more](https://towardsdatascience.com/powerful-sql-queries-that-you-might-not-know-c9953ea4bf20)
 - [SQL CASE](https://towardsdatascience.com/5-advanced-sql-case-examples-that-will-make-you-use-case-when-easily-1040c1eb8857)
+- [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
 
 ## Terminal
 

@@ -19,6 +19,7 @@
 - [Pros and cons: truth about working as a Data Scientist](https://towardsdatascience.com/the-truth-about-working-as-a-data-scientist-99ed40a600d2)
 - [Data Scientists will be extinct before 2030](https://towardsdatascience.com/data-scientists-will-be-extinct-in-10-years-a6e5dd77162b)
 - [Things you are not told about data science](https://towardsdatascience.com/10-things-you-are-not-told-about-data-science-3460636feeb1)
+- [Reasons to quit being a data scientist](https://towardsdatascience.com/today-i-quit-data-sciences-here-are-7-reasons-why-15c29e51d032)
 
 ## Data, Art & Science
 
@@ -120,6 +121,7 @@
 ## Quantum Computing
 
 - [Quantum computing per ottimizzazione delle reti mobili](https://www.gruppotim.it/content/tiportal/it/notiziariotecnico/edizioni-2020/n-1-2020/Quantum-Computing-ottimizzazione-delle-reti-mobili.html)
+- [Quantum computing as a field is obvious bullshit](https://scottlocklin.wordpress.com/2019/01/15/quantum-computing-as-a-field-is-obvious-bullshit/)
 
 ## Teaching
 

@@ -24,3 +24,4 @@
 - [Autocorrect for multilanguage spelling correction](https://github.com/filyp/autocorrect)
 - [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
 - [Texthero tutorial](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6)
+- [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)

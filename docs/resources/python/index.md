@@ -133,6 +133,8 @@
 ## Data validation
 
 - [`schema` library for data validation](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a)
+- [`pandera`](https://github.com/unionai-oss/pandera)
+- [Joint usage of `hypothesis` and `pandera` to automatically create validation test examples](https://towardsdatascience.com/hypothesis-and-pandera-generate-synthesis-pandas-dataframe-for-testing-e5673c7bec2e)
 
 ## Datatable
 
@@ -378,20 +380,27 @@
 - [Display live 2D data in Streamlit](https://discuss.streamlit.io/t/best-fastest-practice-to-display-live-2d-data/19895)
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
 - [streamlit-option-menu](https://github.com/victoryhb/streamlit-option-menu)
-- [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)
 - [Real time dashboard update with asyncio](https://discuss.streamlit.io/t/issue-with-asyncio-run-in-streamlit/7745)
 - [Streamlit raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
 - [Drag scatter point with Bokeh events](https://discuss.streamlit.io/t/component-for-bi-directional-communication-with-bokeh/4338/42)
 - [Streamlit bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
 - [Streamlit SHAP](https://github.com/snehankekre/streamlit-shap)
 - [Streamlit elements for Material UI tools integration](https://github.com/okld/streamlit-elements)
-- [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
 - [Streamlit sortables](https://github.com/ohtaman/streamlit-sortables)
 - [How to build a real time live dashboard](https://blog-streamlit-io.cdn.ampproject.org/c/s/blog.streamlit.io/how-to-build-a-real-time-live-dashboard-with-streamlit/amp/)
-- [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 - [Sync session state and app url via query params](https://blog.streamlit.io/how-streamlit-uses-streamlit-sharing-contextual-apps/)
 - [Table of contents in Streamlit](https://github.com/arnaudmiribel/stoc)
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
+- [Image selection component](https://github.com/jrieke/streamlit-image-select)
+- [Tree-shaped nested selectbox](https://github.com/Schluca/streamlit_tree_select)
+- [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
+
+### Build components
+
+- [End to end streamlit components tutorial](https://blog.streamlit.io/how-to-build-your-own-streamlit-component/)
+- [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)
+- [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
+- [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 
 ## Strings
 

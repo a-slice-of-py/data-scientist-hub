@@ -94,6 +94,7 @@
 - [Precision and Recall visually explained](https://mlu-explain.github.io/precision-recall/)
 - [The Effect of Class Imbalance on Precision-Recall Curves](https://arxiv.org/abs/2007.01905)
 - [Classification metrics calibration](https://link.springer.com/chapter/10.1007/978-3-030-44584-3_36)
+- [`binclass-tools` for binary classification inspection](https://github.com/lucazav/binclass-tools)
 
 ## Clustering
 
@@ -331,6 +332,7 @@
 - [Autocorrect for multilanguage spelling correction](https://github.com/filyp/autocorrect)
 - [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
 - [Texthero tutorial](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6)
+- [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
 
 ## Objects tracking
 
@@ -459,6 +461,10 @@
 
 - [Money tree for revenue prioritization](https://towardsdatascience.com/why-every-data-team-needs-a-money-tree-491a602ea68)
 
+## Scada data analysis
+
+- [Wind energy analytics toolbox](https://towardsdatascience.com/wind-energy-analytics-toolbox-iterative-power-curve-filter-fec258fdb997)
+
 ## Similarity measures
 
 - [Similarity measures for data science](https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681)
@@ -485,8 +491,6 @@
 
 - [Nested cross validation](https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9)
 - [TS and feature selection](https://www.nodalpoint.com/not-perform-feature-selection/)
-- [LSTM and Prophet](https://towardsdatascience.com/time-series-forecasting-with-lstms-and-prophet-predict-your-email-workload-48bf9cdb1580)
-- [Prophet forecasting](https://towardsdatascience.com/forecasting-with-prophet-d50bbfe95f91)
 - [Out-of-time validation](https://towardsdatascience.com/why-isnt-out-of-time-validation-more-ubiquitous-7397098c4ab6)
 - [scikit-learn prediction intervals](https://towardsdatascience.com/how-to-generate-prediction-intervals-with-scikit-learn-and-python-ab3899f992ed)
 - [Forecast visualization](https://towardsdatascience.com/time-series-analysis-visualization-forecasting-with-lstm-77a905180eba)
@@ -533,6 +537,13 @@
 - [Deep Learning for time series forecasting](https://towardsdatascience.com/the-reasonable-effectiveness-of-deep-learning-for-time-series-forecasting-60e2c8affb9)
 - [Interpreting ACF and PACF plots for time series](https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c)
 - [Python Automatic Forecasting](https://github.com/antoinecarme/pyaf)
+- [Forecasting with tree-based algorithms](https://towardsdatascience.com/forecasting-with-decision-trees-and-random-forests-ac081ff451ec)
+
+### Prophet
+
+- [Is Facebook's "Prophet" the Time-Series Messiah, or Just a Very Naughty Boy?](https://www.microprediction.com/blog/prophet)
+- [LSTM and Prophet](https://towardsdatascience.com/time-series-forecasting-with-lstms-and-prophet-predict-your-email-workload-48bf9cdb1580)
+- [Prophet forecasting](https://towardsdatascience.com/forecasting-with-prophet-d50bbfe95f91)
 
 ### Greykite
 
