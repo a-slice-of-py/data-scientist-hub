@@ -4,3 +4,4 @@
 - [July for calendar plot](https://github.com/e-hulten/july)
 - [Stop aggregating: context and rearrangement for time series visualization with Observable plot](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/)
 - [Radial visualization of time series](https://towardsdatascience.com/visualising-time-series-data-with-spirals-efe0cd9f4c5)
+- [Visualization tips for long time series](https://towardsdatascience.com/6-visualization-tricks-to-handle-ultra-long-time-series-data-57dad97e0fc2)

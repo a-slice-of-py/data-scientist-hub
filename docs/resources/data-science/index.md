@@ -18,6 +18,7 @@
 - [Anomaly detection with copulas](https://towardsdatascience.com/fast-accurate-anomaly-detection-based-on-copulas-copod-3133ce9041fa)
 - [Python outlier detection library](https://github.com/yzhao062/pyod)
 - [5 anomaly detection algorithms with sklearn implementation](https://towardsdatascience.com/5-anomaly-detection-algorithms-every-data-scientist-should-know-b36c3605ea16)
+- [Auto anomaly detection with isolation forest](https://towardsdatascience.com/isolation-forest-auto-anomaly-detection-with-python-e7a8559d4562)
 
 ## AutoML
 
@@ -203,13 +204,15 @@
 
 - [Intro to GA for optimization](https://towardsdatascience.com/introduction-to-genetic-algorithm-and-python-implementation-for-function-optimization-fd36bad58277)
 
-## GIS
+## Geo science
 
 - [Transportation DS](https://towardsdatascience.com/five-essential-skills-for-transportation-data-science-8c4bed72c03e)
 - [Spatial autocorrelation](https://towardsdatascience.com/spatial-autocorrelation-bd000faf3991)
 - [Geospatial data declustering](https://towardsdatascience.com/why-data-scientists-should-decluster-their-geospatial-datasets-8425b0b2453f)
 - [EDA of spatial data and spatial autocorrelation](https://towardsdatascience.com/exploratory-spatial-data-analysis-esda-spatial-autocorrelation-7592edcbef9a)
 - [GPS trajectory clustering](https://towardsdatascience.com/gps-trajectory-clustering-with-python-9b0d35660156)
+- [Geospatial indexing with quadkeys](https://towardsdatascience.com/geospatial-indexing-with-quadkeys-d933dff01496)
+- [Travel time estimatione using quadkeys](https://towardsdatascience.com/travel-time-estimation-using-quadkeys-ecf6d54823b4)
 
 ## Gradient methods
 
@@ -333,6 +336,8 @@
 - [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
 - [Texthero tutorial](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6)
 - [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
+- [Microsoft `presidio` for NER (Named Entity Recognition) and data anonymization](https://microsoft.github.io/presidio/)
+- [SEER model for information extraction based on user-specified examples](https://dl.acm.org/doi/10.1145/3025453.3025540)
 
 ## Objects tracking
 

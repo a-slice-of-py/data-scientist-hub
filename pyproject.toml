@@ -6,3 +6,8 @@ build-backend = "setuptools.build_meta"
 # SEE: https://setuptools-git-versioning.readthedocs.io/en/stable/install.html
 [tool.setuptools-git-versioning]
 enabled = true
+
+# SEE: https://hadialqattan.github.io/pycln/#/?id=-config-path-option
+[tool.pycln]
+all = true
+skip_imports = "janitor"

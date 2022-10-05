@@ -18,6 +18,7 @@
 - [Table of contents in Streamlit](https://github.com/arnaudmiribel/stoc)
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
 - [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
+- [Streamlit book](https://github.com/sebastiandres/streamlit_book/)
 
 ## Components
 
@@ -33,6 +34,7 @@
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [Tree-shaped nested selectbox component](https://github.com/Schluca/streamlit_tree_select)
+- [Streamlit drawable canvas](https://github.com/andfanilo/streamlit-drawable-canvas)
 
 ## Build components
 
@@ -40,3 +42,4 @@
 - [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)
 - [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
+- [Streamlit components video tutorial](https://youtu.be/TqOGBOHHxrU)

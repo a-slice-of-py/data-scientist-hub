@@ -303,7 +303,7 @@
 - [Python dictionaries get nested value](https://medium.com/@mike.reider/python-dictionaries-get-nested-value-the-sane-way-4052ab99356b)
 - [Styling `pandas`](https://pbpython.com/styling-pandas.html)
 - [`bamboolib`](https://github.com/tkrabel/bamboolib)
-- [`sidetable`](https://pbpython.com/sidetable.html)
+- [`sidetable`](https://github.com/chris1610/sidetable) with an [introductive blog post](https://pbpython.com/sidetable.html)
 - [HTML table in PBP](https://pbpython.com/pandas-html-table.html)
 - [`cut` to transform numerical data into cateorical](https://towardsdatascience.com/all-pandas-cut-you-should-know-for-transforming-numerical-data-into-categorical-data-1370cf7f4c4f)
 - [`swifter` for parallel apply](https://github.com/jmcarpenter2/swifter)
@@ -382,6 +382,7 @@
 - [Table of contents in Streamlit](https://github.com/arnaudmiribel/stoc)
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
 - [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
+- [Streamlit book](https://github.com/sebastiandres/streamlit_book/)
 
 ### Components
 
@@ -397,6 +398,7 @@
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [Tree-shaped nested selectbox component](https://github.com/Schluca/streamlit_tree_select)
+- [Streamlit drawable canvas](https://github.com/andfanilo/streamlit-drawable-canvas)
 
 ### Build components
 
@@ -404,6 +406,7 @@
 - [How to create custom Streamlit components](https://towardsdatascience.com/how-to-create-custom-streamlit-components-de6a00a7d5ab)
 - [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
+- [Streamlit components video tutorial](https://youtu.be/TqOGBOHHxrU)
 
 ## Strings
 

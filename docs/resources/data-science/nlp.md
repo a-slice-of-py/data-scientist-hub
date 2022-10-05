@@ -25,3 +25,5 @@
 - [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
 - [Texthero tutorial](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6)
 - [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
+- [Microsoft `presidio` for NER (Named Entity Recognition) and data anonymization](https://microsoft.github.io/presidio/)
+- [SEER model for information extraction based on user-specified examples](https://dl.acm.org/doi/10.1145/3025453.3025540)

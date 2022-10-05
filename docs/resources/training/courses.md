@@ -5,3 +5,4 @@
 - [Information Visualization](https://www.coursera.org/specializations/information-visualization)
 - [Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2022)
 - [Google ML](https://developers.google.com/machine-learning)
+- [Applied Machine Learning (Cornell Tech University)](https://www.youtube.com/playlist?list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83) and its [repo](https://github.com/kuleshov/cornell-cs5785-2020-applied-ml)

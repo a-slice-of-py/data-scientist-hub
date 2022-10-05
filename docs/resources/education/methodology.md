@@ -40,3 +40,4 @@
 - [4 rules for better data science](https://towardsdatascience.com/4-powerful-rules-for-better-data-science-128bb51f6fd3)
 - [Critical insights about Data Scientist profession](https://towardsdatascience.com/the-5-most-critical-insights-youll-gain-in-your-first-5-years-as-a-data-scientist-341cc2d73232)
 - [How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)
+- [Coding learning path](https://towardsdatascience.com/how-i-would-learn-to-code-if-i-had-to-start-over-607428f14266)

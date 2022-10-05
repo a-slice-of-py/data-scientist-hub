@@ -31,3 +31,8 @@ repos:
         name: Update all DSH index.md
         entry: python hooks.py
         language: python
+  - repo: https://github.com/hadialqattan/pycln
+    rev: v2.1.1
+    hooks:
+      - id: pycln
+        args: [--config=pyproject.toml]

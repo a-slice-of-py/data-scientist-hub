@@ -1,5 +1,9 @@
 # Education
 
+## Collaborative coding
+
+- [Replit](https://replit.com/)
+
 ## Competition
 
 - [DS competition design](https://towardsdatascience.com/designing-a-data-science-competition-is-an-excellent-way-to-learn-69e6fd582702)
@@ -92,6 +96,7 @@
 - [4 rules for better data science](https://towardsdatascience.com/4-powerful-rules-for-better-data-science-128bb51f6fd3)
 - [Critical insights about Data Scientist profession](https://towardsdatascience.com/the-5-most-critical-insights-youll-gain-in-your-first-5-years-as-a-data-scientist-341cc2d73232)
 - [How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)
+- [Coding learning path](https://towardsdatascience.com/how-i-would-learn-to-code-if-i-had-to-start-over-607428f14266)
 
 ## Programming Languages
 
@@ -126,6 +131,7 @@
 ## Teaching
 
 - [`handcalcs` for hand calculations](https://github.com/connorferster/handcalcs)
+- [Google LaTeXify](https://github.com/google/latexify_py)
 
 ## Technical skills
 

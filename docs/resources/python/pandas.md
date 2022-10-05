@@ -8,7 +8,7 @@
 - [Python dictionaries get nested value](https://medium.com/@mike.reider/python-dictionaries-get-nested-value-the-sane-way-4052ab99356b)
 - [Styling `pandas`](https://pbpython.com/styling-pandas.html)
 - [`bamboolib`](https://github.com/tkrabel/bamboolib)
-- [`sidetable`](https://pbpython.com/sidetable.html)
+- [`sidetable`](https://github.com/chris1610/sidetable) with an [introductive blog post](https://pbpython.com/sidetable.html)
 - [HTML table in PBP](https://pbpython.com/pandas-html-table.html)
 - [`cut` to transform numerical data into cateorical](https://towardsdatascience.com/all-pandas-cut-you-should-know-for-transforming-numerical-data-into-categorical-data-1370cf7f4c4f)
 - [`swifter` for parallel apply](https://github.com/jmcarpenter2/swifter)

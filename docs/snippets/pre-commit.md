@@ -26,4 +26,9 @@ repos:
       - id: check-ast
         name: Check Python AST
         types: [python]
+  - repo: https://github.com/hadialqattan/pycln
+    rev: v2.1.1
+    hooks:
+      - id: pycln
+        args: [--config=pyproject.toml]
 ```
