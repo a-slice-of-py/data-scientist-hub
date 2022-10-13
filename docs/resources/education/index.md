@@ -48,6 +48,7 @@
 - [Playing cryptocurrency time series](https://towardsdatascience.com/i-created-music-from-data-using-python-adfc349f55f1)
 - [Turn time series to music with `miditime`](https://github.com/cirlabs/miditime)
 - [Data sonification tutorials](https://github.com/SYSTEMSounds/sonification-tutorials)
+- [Sonic Pi: turn live coding into a musical instrument](https://github.com/sonic-pi-net/sonic-pi)
 
 ## Gamification
 
@@ -97,6 +98,7 @@
 - [Critical insights about Data Scientist profession](https://towardsdatascience.com/the-5-most-critical-insights-youll-gain-in-your-first-5-years-as-a-data-scientist-341cc2d73232)
 - [How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)
 - [Coding learning path](https://towardsdatascience.com/how-i-would-learn-to-code-if-i-had-to-start-over-607428f14266)
+- [Developers second brain](https://stackoverflow.blog/2022/10/03/two-heads-are-better-than-one-what-second-brains-say-about-how-developers-work/)
 
 ## Programming Languages
 
@@ -112,6 +114,7 @@
 - [Elm](https://elm-lang.org/docs)
 - [Pluto notebook for Julia](https://towardsdatascience.com/reactive-data-analysis-with-julia-in-pluto-notebooks-b4652defd03e)
 - [Mint language](https://stackoverflow.blog/2021/03/29/mint-a-new-language-designed-for-building-single-page-applications/)
+- [Calmcode](https://calmcode.io/)
 
 ## Python
 

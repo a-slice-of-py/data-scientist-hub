@@ -15,6 +15,7 @@
 - [Kaldi and speech recognition](https://towardsdatascience.com/how-to-start-with-kaldi-and-speech-recognition-a9b7670ffff6)
 - [FastAI for audio classification and frequency transforms](https://towardsdatascience.com/audio-classification-using-fastai-and-on-the-fly-frequency-transforms-4dbe1b540f89)
 - [Sound data analysis with `librosa`](https://towardsdatascience.com/what-is-sound-691988d780bb)
+- [Whisper: OpenAI model for audio transcriptions](https://github.com/openai/whisper)
 
 ## Automate boring stuff
 
@@ -399,6 +400,7 @@
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [Tree-shaped nested selectbox component](https://github.com/Schluca/streamlit_tree_select)
 - [Streamlit drawable canvas](https://github.com/andfanilo/streamlit-drawable-canvas)
+- [Streamlit timeline](https://github.com/giswqs/streamlit-timeline-demo)
 
 ### Build components
 
@@ -431,6 +433,7 @@
 - [`pytest` and travis for github CI](https://medium.com/@mishaberrien/docstrings-pytest-and-travis-ci-or-how-i-got-my-first-github-readme-bling-3db5d37558cb)
 - [`nox`](https://nox.thea.codes/en/stable/tutorial.html)
 - [`locust` as a test framework in pure Python](https://github.com/locustio/locust)
+- [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
 
 ## Misc utils
 

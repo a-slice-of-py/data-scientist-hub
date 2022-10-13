@@ -29,3 +29,7 @@
 
 - [Latex sympy calculator VSC extension](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator)
 
+### Algorithms
+
+- [Discovering novel algorithms with AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
+

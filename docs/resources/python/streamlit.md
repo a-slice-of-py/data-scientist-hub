@@ -35,6 +35,7 @@
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [Tree-shaped nested selectbox component](https://github.com/Schluca/streamlit_tree_select)
 - [Streamlit drawable canvas](https://github.com/andfanilo/streamlit-drawable-canvas)
+- [Streamlit timeline](https://github.com/giswqs/streamlit-timeline-demo)
 
 ## Build components
 

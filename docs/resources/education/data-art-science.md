@@ -21,3 +21,4 @@
 - [Playing cryptocurrency time series](https://towardsdatascience.com/i-created-music-from-data-using-python-adfc349f55f1)
 - [Turn time series to music with `miditime`](https://github.com/cirlabs/miditime)
 - [Data sonification tutorials](https://github.com/SYSTEMSounds/sonification-tutorials)
+- [Sonic Pi: turn live coding into a musical instrument](https://github.com/sonic-pi-net/sonic-pi)
