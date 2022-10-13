@@ -33,7 +33,7 @@ Nel seguito un paio di utils comode per validare i parametri di configurazione e
     def _check_type(property: str,
                     value: object,
                     expected_types: Tuple[Any],
-                    skip_if_missing: bool = True
+                    skip_if_missing: bool
                     ) -> None:
         if skip_if_missing and value is None:
             return
@@ -60,7 +60,7 @@ Nel seguito un paio di utils comode per validare i parametri di configurazione e
             setattr(obj, attr, getattr(props, attr))
     ```
 
-!!! warning
+??? warning
 
     Una scelta apparentemente naturale per organizzare i costrutti nella codebase potrebbe essere di inserirli in un folder `/constructs`, come nella seguente alberatura:
 
