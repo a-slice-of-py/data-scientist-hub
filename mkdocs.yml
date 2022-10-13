@@ -26,25 +26,37 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode 
   features:
+    - content.code.annotate
     - navigation.indexes
     - navigation.tabs
     - navigation.top
     - navigation.tracking
     - search.suggest
     - search.share
+    - search.highlight
 
 markdown_extensions:
+  - meta
   - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.progressbar
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.details
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji
   - pymdownx.arithmatex
   # - pymdownx.arithmatex:
   #     generic: True
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - admonition
   - footnotes
   - toc:
@@ -59,6 +71,7 @@ plugins:
       format: "[%Y/%m/%d]"
   - tags:
       tags_file: tags.md
+  - glightbox
 
 extra_css:
   - stylesheets/extra.css
