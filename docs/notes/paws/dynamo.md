@@ -87,6 +87,22 @@ To customize this behaviour you can specify `DynamoEventSource` parameters as su
 2. using the above method to write on Dynamo a Pandas Dataframe coming from `pd.read_json` requires you to cast `np.array` to `list` as well as `float` to [`Decimal`](https://docs.python.org/3/library/decimal.html)
 3. each read operation performed via [query](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.query) can be monitored in terms of consumed RCU by parsing the related response looking for `ConsumedCapacity` field
 
+### AWS CDK
+
+To give write (resp. read) permission to a Lambda on a Dynamo table, both the [CDK docs](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_dynamodb/Table.html#aws_cdk.aws_dynamodb.Table.grant_write_data) and [some snippets](https://github.com/aws-samples/aws-cdk-examples/blob/master/python/dynamodb-lambda/dynamodb_lambda/dynamodb_lambda_stack.py) refer to `grant_write_data` method of the table.
+
+This method should ensure:
+
+1. Lambda permission to perform operations on the table
+2. Lambda access to the (possible) KMS key for encrypt/decrypt operations
+
+For the latter there is [this issue](https://github.com/aws/aws-cdk/issues/10010) though, which demonstrates the additional need for:
+
+```python
+if table.encryption_key:
+    table.encryption_key.grant_decrypt(lambda)
+```
+
 ## Resources
 
 - [DynamoDB and auto-scaling docs](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AutoScaling.html)
