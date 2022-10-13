@@ -3,7 +3,7 @@ tags:
   - ITA
 ---
 
-# CDK Patterns
+# Custom L3 Constructs (Patterns)
 
 ## Esigenza
 
@@ -24,15 +24,7 @@ Per cercare di aderire il più possibile alla _CDK-way_ nella gestione dei costr
 
 Nel seguito un paio di utils comode per validare i parametri di configurazione e bindarli ad un costrutto.
 
-=== `register`
-
-    ```python
-    def _register(props: object, obj: object) -> None:
-        for attr in props._values:
-            setattr(obj, attr, getattr(props, attr))
-    ```
-
-=== `check_types`
+=== "Validate"
 
     ```python
     from typing import Any, Tuple
@@ -58,6 +50,14 @@ Nel seguito un paio di utils comode per validare i parametri di configurazione e
                 if not isinstance(value, expected_types):
                     raise TypeError(
                         f"Property '{property}' must be in {expected_types}, received a {type(value)}.")
+    ```
+
+=== "Register"
+
+    ```python
+    def _register(props: object, obj: object) -> None:
+        for attr in props._values:
+            setattr(obj, attr, getattr(props, attr))
     ```
 
 !!! warning
