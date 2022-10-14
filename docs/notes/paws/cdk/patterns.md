@@ -60,7 +60,7 @@ Per cercare di aderire il più possibile alla _CDK-way_ nella gestione dei costr
         def kwarg_1_name(self) -> ...:
             result = self._values.get('kwarg_1_name')
             check_type(
-                property='kwarg_1_name',
+                attr='kwarg_1_name',
                 value=result,
                 expected_types=...,                
             )
