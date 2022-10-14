@@ -16,3 +16,4 @@
 - [Complete guide to regression analysis](https://towardsdatascience.com/complete-guide-to-regressional-analysis-using-python-bbe76b3e451f)
 - [Constrained logistic regression](https://towardsdatascience.com/constrained-logistic-regression-with-python-c694fcd7a029)
 - [Robust regression](https://towardsdatascience.com/robust-regression-23b633e5d6a5)
+- [Polynomial regression with scikit-learn](https://towardsdatascience.com/polynomial-regression-in-python-dd655a7d9f2b)

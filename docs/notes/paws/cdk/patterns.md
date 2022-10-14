@@ -22,42 +22,92 @@ Per cercare di aderire il più possibile alla _CDK-way_ nella gestione dei costr
 4. la classe che gestisce la configurazione si occupa di validare gli input ricevuti e settarli come [managed attributes](https://realpython.com/python-property/) via `@property`
 5. dopo aver wrappato le configurazioni nella classe deputata, esse vengono bindate alla classe che definisce il costrutto, che viene anche "triggerata" (a deploy-time) tramite un metodo `create`
 
-Nel seguito un paio di utils comode per validare i parametri di configurazione e bindarli ad un costrutto.
+=== "Pattern"
 
-=== "Validate"
+    ```python
+    from constructs import Construct
+
+
+    class Pattern(Construct):
+
+        def __init__(self,
+                     scope: Construct,
+                     id: str,
+                     *,
+                     ... # kwargs only!
+                     ):
+            super().__init__(scope, id)
+
+            # Register properties
+            PatternProps(...).register(self)
+    ```
+
+=== "PatternProps"
+
+    ```python
+    class PatternProps(BaseProps):
+
+        def __init__(self,
+                    *,
+                    ... # <- kwarg_1_name=kwarg_1_value, ...
+                    ) -> None:
+
+            self._values = dict()
+            self._values['kwarg_1_name'] = kwarg_1_value
+            ...
+        
+        @property
+        def kwarg_1_name(self) -> ...:
+            result = self._values.get('kwarg_1_name')
+            check_type(
+                property='kwarg_1_name',
+                value=result,
+                expected_types=...,                
+            )
+            return result
+    ```
+
+=== "BaseProps"
+
+    ```python
+    class BaseProps:
+
+        def __init__(self) -> None:
+            pass
+
+        def register(self, other: object) -> None:
+            for attr in self._values:
+                setattr(other, attr, getattr(self, attr))
+    ```
+
+=== "check_type"
 
     ```python
     from typing import Any, Tuple
 
+    JSII_TYPE_ATTR = '__jsii_type__'
 
-    def _check_type(property: str,
-                    value: object,
-                    expected_types: Tuple[Any],
-                    skip_if_missing: bool
-                    ) -> None:
+
+    def check_type(attr: str,
+                   value: object,
+                   expected_types: Tuple[Any],
+                   skip_if_missing: bool
+                   ) -> None:
         if skip_if_missing and value is None:
             return
         else:
-            if hasattr(expected_types[0], '__jsii_type__'):
+            if hasattr(expected_types[0], JSII_TYPE_ATTR):
                 _expected_types = list(
-                    map(lambda x: getattr(x, '__jsii_type__'), expected_types))
-                if (not hasattr(value, '__jsii_type__')) or (getattr(value, '__jsii_type__') not in _expected_types):
-                    _type = getattr(value, '__jsii_type__') if hasattr(
-                        value, '__jsii_type__') else type(value)
+                    map(lambda x: getattr(x, JSII_TYPE_ATTR), expected_types))
+                if (not hasattr(value, JSII_TYPE_ATTR)) or (getattr(value, JSII_TYPE_ATTR) not in _expected_types):
+                    _type = getattr(value, JSII_TYPE_ATTR) if hasattr(
+                        value, JSII_TYPE_ATTR) else type(value)
                     raise TypeError(
-                        f"Property '{property}' must be in {_expected_types}, received a {_type}.")
+                        f"Property '{attr}' type must be in {_expected_types}, received a {_type}.")
             else:
                 if not isinstance(value, expected_types):
                     raise TypeError(
-                        f"Property '{property}' must be in {expected_types}, received a {type(value)}.")
-    ```
-
-=== "Register"
-
-    ```python
-    def _register(props: object, obj: object) -> None:
-        for attr in props._values:
-            setattr(obj, attr, getattr(props, attr))
+                        f"Property '{attr}' type must be in {expected_types}, received a {type(value)}.")
     ```
 
 ??? warning
