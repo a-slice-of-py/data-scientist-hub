@@ -16,9 +16,9 @@ Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementaz
 
 Per cercare di aderire il più possibile alla _CDK-way_ nella gestione dei costrutti, è utile ispirarsi al sorgente di patterns built-in, come ad esempio [LambdaRestApi](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_apigateway/LambdaRestApi.html). Prendere ispirazione non sempre è un'attività lineare, visto che a forza di scavare under the hood prima o poi ci si scontra con la traduzione operata da [jsii](https://github.com/aws/jsii), ma le best practices che è possibile estrapolare si possono ridurre a:
 
-1. il costrutto L3 che si vuole implementare deve estendere la classe `Construct`, es. `class MyConstruct(Construct)`
+1. il costrutto L3 che si vuole implementare deve estendere la classe `Construct`, es. `class Pattern(Construct)`
 2. la configurazione del costrutto avviene tramite `kwargs`, passati esplicitamente nell'`__init__` della classe
-3. le logiche di gestione e validazione della configurazione di un costrutto vanno separate dalla classe che implementa il costrutto stesso, in una  classe ad hoc che ne eredita il nome con il suffix _Props_, es. `class MyConstructProps`
+3. le logiche di gestione e validazione della configurazione di un costrutto vanno separate dalla classe che implementa il costrutto stesso, in una  classe ad hoc che ne eredita il nome con il suffix _Props_, es. `class PatternProps`
 4. la classe che gestisce la configurazione si occupa di validare gli input ricevuti e settarli come [managed attributes](https://realpython.com/python-property/) via `@property`
 5. dopo aver wrappato le configurazioni nella classe deputata, esse vengono bindate alla classe che definisce il costrutto, che viene anche "triggerata" (a deploy-time) tramite un metodo `create`
 
