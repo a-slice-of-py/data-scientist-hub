@@ -134,6 +134,25 @@ Per cercare di aderire il più possibile alla _CDK-way_ nella gestione dei costr
 
 Una volta creato il costrutto, si può utilizzare esattamente come gli altri costrutti L1, L2 e L3 nativi, ovvero istanziandolo in uno stack fornendogli quindi uno scope (il `self` dello stack stesso), un id e gli eventuali parametri di configurazione.
 
+```python
+from aws_cdk import Stack as BaseStack
+from infra.patterns import Pattern
+
+class Stack(BaseStack):
+
+    def __init__(self,
+                 scope: Construct,
+                 construct_id: str,
+                 **kwargs) -> None:        
+        super().__init__(scope, construct_id, **kwargs)
+
+        Pattern(
+            self,
+            id=...,
+            ...
+        )
+```
+
 ## Takeaway
 
 L'esperienza di refactoring di parti di codice CDK utilizzate spesso in costrutti L3 è decisamente consigliabile: è senz'altro time-consuming (per lo meno la prima volta) e rischia di sembrare fine a se stessa, ma oltre che educativa consegna al termine un codice di più facile manutenzione e, soprattutto, riutilizzabile![^1].
