@@ -267,7 +267,7 @@ This solution depends on `python-dotenv`, `loguru` and `icecream`: with the foll
     After, with the new `print` obtained by importing anything from the library with the above `__init__.py`:
 
     ```
-    >>> print(prova([1, 2]))
+    >>> print(test([1, 2]))
     2022-10-19 10:20:28.588 | DEBUG | my_library:<lambda>:50 - my_script.py:1 - test([1, 2]): '1, 2'
     ```
 
