@@ -207,6 +207,71 @@ x = 123.4
 print(mround(x, m=10)) # 120
 ```
 
+## `print`
+
+This solution depends on `python-dotenv`, `loguru` and `icecream`: with the following setup in the root `__init__.py` of a given (managed) library, the standard `print` is overridden with a combo between a [Loguru](https://github.com/Delgan/loguru) sink with DEBUG level and useful [IceCream](https://github.com/gruns/icecream) features.
+
+=== "__init__.py"
+
+    ```python
+    import os
+    import sys
+
+    from dotenv import load_dotenv
+    from loguru import logger
+
+    __ = load_dotenv()
+    logger.remove()
+    logger.add(
+        sys.stdout,
+        level=os.environ.get('LOGURU_LEVEL', 'DEBUG')
+    )
+
+    FROM_LOCAL = os.environ.get('FROM_LOCAL', 'false') == 'true'
+
+    if FROM_LOCAL:
+        from icecream import install, ic
+        ic.configureOutput(
+            prefix='',
+            outputFunction=lambda x: logger.debug(x),
+            includeContext=True
+            )
+        # SEE: this will add ic as 'print' between builtins,
+        # making it available everywhere - and purposely overriding 
+        # standard print()!
+        install('print')
+    ```
+
+=== ".env"
+
+    ```
+    FROM_LOCAL=true
+    ```
+
+??? Example
+    
+    Let's define a test function:
+
+    ```python
+    def test(x: list) -> str:
+        return ', '.join(map(str, x))
+    ```
+    
+    Before, with the standard `print`:
+
+    ```
+    >>> print(test([1, 2]))
+    1, 2
+    ```
+
+    After, with the new `print` obtained by importing anything from the library with the above `__init__.py`:
+
+    ```
+    >>> print(prova([1, 2]))
+    2022-10-19 10:20:28.588 | DEBUG | my_library:<lambda>:50 - my_script.py:1 - test([1, 2]): '1, 2'
+    ```
+
+
 ## `timed`
 
 ```python

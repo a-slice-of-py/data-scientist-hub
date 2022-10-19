@@ -87,7 +87,7 @@
 - [Complexity theory and Big O notation](https://towardsdatascience.com/complexity-theory-101-introduction-to-big-o-bab99152ad44)
 - [Parallelization with Python](https://towardsdatascience.com/parallelism-with-python-part-1-196f0458ca14)
 - [Python functions to interact with JSON](https://towardsdatascience.com/4-cute-python-functions-for-working-with-dirty-data-2cf7974280b5)
-- [IceCream for code debugging](https://github.com/gruns/icecream)
+- [`icecream` for code debugging](https://github.com/gruns/icecream)
 - [`debugpy` for code debug](https://github.com/microsoft/debugpy)
 - [Python features from 3.7 to 3.9](https://towardsdatascience.com/amazing-features-added-to-python-from-3-7-to-now-4f35f0bb1ea6)
 - [How to avoid nested if-else statements](https://towardsdatascience.com/elegant-and-efficient-usage-of-if-else-clauses-d41d3e88fe07)
