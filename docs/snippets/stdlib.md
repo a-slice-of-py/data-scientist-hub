@@ -211,7 +211,7 @@ print(mround(x, m=10)) # 120
 
 This solution depends on `python-dotenv`, `loguru` and `icecream`: with the following setup in the root `__init__.py` of a given (managed) library, the standard `print` is overridden with a combo between a [Loguru](https://github.com/Delgan/loguru) sink with DEBUG level and useful [IceCream](https://github.com/gruns/icecream) features.
 
-=== "__init__.py"
+=== " __init__.py "
 
     ```python
     import os
