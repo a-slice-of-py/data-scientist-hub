@@ -703,3 +703,5 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - To disable new undo/redo behaviour, see [this thread](https://stackoverflow.com/questions/68763795/how-to-undo-redo-changes-inside-the-selected-cell-in-jupyter-notebook).
 - To enable auto closing brackets, see [this issue](https://github.com/jupyterlab/jupyterlab/issues/9897#issuecomment-926131944).
 - If ipywidgets aren't display properly (e.g. tqdm), see [this issue](https://stackoverflow.com/a/66711390/13790005)
+- To activate conda in a PowerShell shell run `.\shell\condabin\conda-hook.ps1`, which can be found in Miniconda3 installation directory (see [this thread](https://stackoverflow.com/a/71665464))
+- On Windows, to fix the error `ImportError: DLL load failed while importing _ssl: The specified module could not be found.` refer to [this thread](https://stackoverflow.com/a/60405693) and copy the DLLs to the path of _each Python venv which result broken_

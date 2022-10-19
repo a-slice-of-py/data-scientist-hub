@@ -37,6 +37,8 @@
 - [Streamlit drawable canvas](https://github.com/andfanilo/streamlit-drawable-canvas)
 - [Streamlit timeline](https://github.com/giswqs/streamlit-timeline-demo)
 - [Streamlit marquee banner](https://github.com/inspurer/streamlit-marquee)
+- [Streamlit Vizzu](https://github.com/avrabyt/Streamlit-ipyvizzu)
+- [Streamlit extras](https://github.com/arnaudmiribel/streamlit-extras)
 
 ## Build components
 

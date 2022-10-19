@@ -163,3 +163,11 @@ Trasformare in costrutti gli snippets che vengono continuamente riciclati da un 
 
 [^1]: Essenzialmente perchè "sganciato" da logiche puntuali di un dato stack.
 [^2]: Come indicato [qui](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html#constructs_composition) e [qui](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html#constructs_author).
+
+## Resources
+
+- https://blog.phillipninan.com/a-no-nonsense-guide-to-aws-cloud-development-kit-cdk
+- https://blog.phillipninan.com/when-to-use-aws-cdk-constructs-vs-stacks
+- https://blog.phillipninan.com/insider-secrets-of-aws-cdk-the-base-stack
+- https://aws-blog.com/2020/09/deployment-issues-with-cross-stack-dependencies-and-the-cdk.html
+- https://bobbyhadz.com/blog/cdk-constructs-tutorial

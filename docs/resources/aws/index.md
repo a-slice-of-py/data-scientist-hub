@@ -15,6 +15,16 @@
 - [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)
 - [AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_s3/LifecycleRule.html)
 - [AWS CloudWatch custom metrics dashboard via CDK](https://dev.to/leeoc/custom-cloudwatch-metrics-using-the-cdk-337f)
+- [A no-nonsense guide to AWS CDK](https://blog.phillipninan.com/a-no-nonsense-guide-to-aws-cloud-development-kit-cdk)
+- [Constructs vs stacks](https://blog.phillipninan.com/when-to-use-aws-cdk-constructs-vs-stacks)
+
+#### Dependencies between stacks
+
+- [The base stack](https://blog.phillipninan.com/insider-secrets-of-aws-cdk-the-base-stack)
+- [Deployment issue with cross-stack dependencies](https://aws-blog.com/2020/09/deployment-issues-with-cross-stack-dependencies-and-the-cdk.html)
+- [Nested stacks](https://bobbyhadz.com/blog/aws-cdk-nested-stack)
+- [Share resources between stacks](https://bobbyhadz.com/blog/aws-cdk-share-resources-between-stacks)
+- [CDK dependsOn relation](https://bobbyhadz.com/blog/aws-cdk-dependson-relation)
 
 ### AWS CodeBuild
 

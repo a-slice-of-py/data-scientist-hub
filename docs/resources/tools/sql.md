@@ -14,3 +14,4 @@
 - [SQL advanced functions: qualify, arrays and more](https://towardsdatascience.com/powerful-sql-queries-that-you-might-not-know-c9953ea4bf20)
 - [SQL CASE](https://towardsdatascience.com/5-advanced-sql-case-examples-that-will-make-you-use-case-when-easily-1040c1eb8857)
 - [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
+- [Advanced SQL for Data Scientists: cube, array, window and math functions](https://allaboutdata.substack.com/p/sql-avanzato-per-data-scientists)

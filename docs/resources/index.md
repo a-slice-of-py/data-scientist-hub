@@ -10,3 +10,15 @@
 - _AWS_: Amazon Web Service related stuff.
 - _Data Engineering_: DevOps, CI/CD and others data engineering best practices.
 - _Misc_: a salad of math, physics and the rest of hard sciences.
+
+## LF AI & Data Landscape
+
+Here the wonderful [AI & Data Landscape by Linux Foundation](https://landscape.lfai.foundation/).
+
+<iframe
+    src="https://landscape.lfai.foundation/"
+    title="LF AI & Data Landscape"
+    width="100%"
+    height="500"
+    scrolling="no">
+    </iframe>
