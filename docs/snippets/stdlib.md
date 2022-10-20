@@ -209,7 +209,11 @@ print(mround(x, m=10)) # 120
 
 ## `print`
 
-This solution depends on `python-dotenv`, `loguru` and `icecream`: with the following setup in the root `__init__.py` of a given (managed) library, the standard `print` is overridden with a combo between a [Loguru](https://github.com/Delgan/loguru) sink with DEBUG level and useful [IceCream](https://github.com/gruns/icecream) features.
+This solution depends on `python-dotenv`, `loguru` and `icecream`: with the following setup in the root `__init__.py` of a given (managed) library, the standard `print` is overridden with a combo between a [Loguru](https://github.com/Delgan/loguru) sink with DEBUG level and the useful features provided by [IceCream](https://github.com/gruns/icecream).
+
+!!! warning
+
+    This comes at a price: overriding the standard `print` actually breaks Jupyter debugging features in VSC, as stated in [this issue](https://github.com/microsoft/vscode-jupyter/issues/11546).
 
 === " __init__.py "
 
@@ -247,6 +251,8 @@ This solution depends on `python-dotenv`, `loguru` and `icecream`: with the foll
     ```
     FROM_LOCAL=true
     ```
+
+The above setup also prevents from dangling `ic()` calls accidentally left into production code, without the need of [verbose try-except](https://github.com/gruns/icecream#import-tricks).
 
 ??? Example
     

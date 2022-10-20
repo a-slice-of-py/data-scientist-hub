@@ -39,6 +39,7 @@
 - [Streamlit marquee banner](https://github.com/inspurer/streamlit-marquee)
 - [Streamlit Vizzu](https://github.com/avrabyt/Streamlit-ipyvizzu)
 - [Streamlit extras](https://github.com/arnaudmiribel/streamlit-extras)
+- [Streamlit vertical slider](https://github.com/sqlinsights/streamlit-vertical-slider)
 
 ## Build components
 
