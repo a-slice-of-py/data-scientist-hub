@@ -1,3 +1,9 @@
 # High-dimensional data
 
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
+- [Cosmos: large networks visualization](https://github.com/cosmograph-org/cosmos)
+
+## Andrews curves
+
+- [Andrews plot Wikipedia page](https://en.wikipedia.org/wiki/Andrews_plot)
+- [`pandas.plotting.andrews_curves`](https://pandas.pydata.org/docs/reference/api/pandas.plotting.andrews_curves.html)

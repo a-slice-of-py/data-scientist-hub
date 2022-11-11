@@ -5,6 +5,8 @@
 - [List of API wrappers](https://github.com/realpython/list-of-python-api-wrappers)
 - [Layman guide to create APIs for DS](https://towardsdatascience.com/a-layman-guide-for-data-scientists-to-create-apis-in-minutes-31e6f451cd2f)
 - [How to build an API in Python](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
+- [Datamodel code generator: create pydantic model from an openapi file and others](https://github.com/koxudaxi/datamodel-code-generator)
+- [FastAPI code generator: create a FastAPI app from an openapi file](https://github.com/koxudaxi/fastapi-code-generator)
 
 ## Asynchronous Programming
 
@@ -215,6 +217,7 @@
 - [StickyLand for sticky notes in Jupyter](https://towardsdatascience.com/sticky-notes-in-jupyter-notebook-3a2ca55fab99)
 - [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
 - [Notebook cells output strip out with `nbstripout`](https://github.com/kynan/nbstripout)
+- [In and Out variables and %store magic command](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
 
 ## Logging
 
@@ -246,6 +249,7 @@
 - [Deploy PyCaret model via FastAPI](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786)
 - [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)
 - [FastDash](https://github.com/dkedar7/fast_dash)
+- [H2O Wave](https://wave.h2o.ai/) and [its table component](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
 
 ## Model monitoring
 
@@ -357,6 +361,7 @@
 
 - [`combo` for ML models combination](https://github.com/yzhao062/combo)
 - [`scikit-multilearn` for multi-label learning](https://github.com/scikit-multilearn/scikit-multilearn)
+- [`scikit-lego`](https://github.com/koaning/scikit-lego)
 
 ## Standard library
 
@@ -384,6 +389,10 @@
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
 - [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
 - [Streamlit book](https://github.com/sebastiandres/streamlit_book/)
+- [Streamlit-Pydantic: auto-generate Streamlit UI elements from Pydantic models](https://github.com/LukasMasuch/streamlit-pydantic)
+- [Package Streamlit into an Electron desktop app](https://discuss.streamlit.io/t/streamlit-wasm-electron-desktop-app/31655)
+- [Prototyping Streamlit app via Figma](https://discuss.streamlit.io/t/prototype-your-app-in-figma/32560) and [figma-to-streamlit plugin](https://blog.streamlit.io/announcing-the-figma-to-streamlit-plugin/)
+- [Streamlit type checking playground with mypy](https://github.com/harahu/streamlit-typing-example)
 
 ### Components
 
@@ -405,6 +414,8 @@
 - [Streamlit Vizzu](https://github.com/avrabyt/Streamlit-ipyvizzu)
 - [Streamlit extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Streamlit vertical slider](https://github.com/sqlinsights/streamlit-vertical-slider)
+- [Streamlit toggle switch](https://discuss.streamlit.io/t/streamlit-toggle-switch/32474)
+- [Streamlit datalist](https://discuss.streamlit.io/t/new-component-streamlit-datalist/32931)
 
 ### Build components
 
@@ -413,6 +424,7 @@
 - [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 - [Streamlit components video tutorial](https://youtu.be/TqOGBOHHxrU)
+- [Streamlit tutorial app to build components](https://streamlit-components-tutorial.netlify.app/)
 
 ## Strings
 

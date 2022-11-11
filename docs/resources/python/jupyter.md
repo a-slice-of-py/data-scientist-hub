@@ -22,3 +22,4 @@
 - [StickyLand for sticky notes in Jupyter](https://towardsdatascience.com/sticky-notes-in-jupyter-notebook-3a2ca55fab99)
 - [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
 - [Notebook cells output strip out with `nbstripout`](https://github.com/kynan/nbstripout)
+- [In and Out variables and %store magic command](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)

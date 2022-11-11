@@ -49,6 +49,7 @@
 - [Interpreting ACF and PACF plots for time series](https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c)
 - [Python Automatic Forecasting](https://github.com/antoinecarme/pyaf)
 - [Forecasting with tree-based algorithms](https://towardsdatascience.com/forecasting-with-decision-trees-and-random-forests-ac081ff451ec)
+- [FEDOT: an AutoML approach to time series forecasting](https://github.com/nccr-itmo/FEDOT)
 
 ## Prophet
 

@@ -19,6 +19,10 @@
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
 - [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
 - [Streamlit book](https://github.com/sebastiandres/streamlit_book/)
+- [Streamlit-Pydantic: auto-generate Streamlit UI elements from Pydantic models](https://github.com/LukasMasuch/streamlit-pydantic)
+- [Package Streamlit into an Electron desktop app](https://discuss.streamlit.io/t/streamlit-wasm-electron-desktop-app/31655)
+- [Prototyping Streamlit app via Figma](https://discuss.streamlit.io/t/prototype-your-app-in-figma/32560) and [figma-to-streamlit plugin](https://blog.streamlit.io/announcing-the-figma-to-streamlit-plugin/)
+- [Streamlit type checking playground with mypy](https://github.com/harahu/streamlit-typing-example)
 
 ## Components
 
@@ -40,6 +44,8 @@
 - [Streamlit Vizzu](https://github.com/avrabyt/Streamlit-ipyvizzu)
 - [Streamlit extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Streamlit vertical slider](https://github.com/sqlinsights/streamlit-vertical-slider)
+- [Streamlit toggle switch](https://discuss.streamlit.io/t/streamlit-toggle-switch/32474)
+- [Streamlit datalist](https://discuss.streamlit.io/t/new-component-streamlit-datalist/32931)
 
 ## Build components
 
@@ -48,3 +54,4 @@
 - [Introductive tutorial to Streamlit components](https://auth0-com.cdn.ampproject.org/c/s/auth0.com/blog/amp/introduction-to-streamlit-and-streamlit-components/)
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 - [Streamlit components video tutorial](https://youtu.be/TqOGBOHHxrU)
+- [Streamlit tutorial app to build components](https://streamlit-components-tutorial.netlify.app/)

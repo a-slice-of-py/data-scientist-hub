@@ -7,3 +7,4 @@
 
 - [`combo` for ML models combination](https://github.com/yzhao062/combo)
 - [`scikit-multilearn` for multi-label learning](https://github.com/scikit-multilearn/scikit-multilearn)
+- [`scikit-lego`](https://github.com/koaning/scikit-lego)

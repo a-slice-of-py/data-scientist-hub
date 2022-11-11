@@ -86,3 +86,7 @@
 - [Streamlit deploy with Fargate](https://github.com/nicolasmetallo/legendary-streamlit-demo#3-deploy-your-streamlit-app-to-aws-fargate-using-aws-cdk)
 - [Streamlit dashboard deployment via ECS](https://aws.amazon.com/it/blogs/opensource/using-streamlit-to-build-an-interactive-dashboard-for-data-analysis-on-aws/)
 
+### Infographics
+
+- [AWS Fundamentals](https://digests.awsfundamentals.com/)
+

@@ -493,6 +493,10 @@
 - [Support vector machines](https://towardsdatascience.com/so-why-the-heck-are-they-called-support-vector-machines-52fc72c990a1)
 - [SVM theory and practice](https://towardsdatascience.com/support-vector-machine-theory-and-practice-13c2cbef1980)
 
+## Synthetic data
+
+- [Synthetic mobility data generation](https://towardsdatascience.com/generate-synthetic-mobility-data-a32894f1a253)
+
 ## Time Series
 
 - [Nested cross validation](https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9)
@@ -544,6 +548,7 @@
 - [Interpreting ACF and PACF plots for time series](https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c)
 - [Python Automatic Forecasting](https://github.com/antoinecarme/pyaf)
 - [Forecasting with tree-based algorithms](https://towardsdatascience.com/forecasting-with-decision-trees-and-random-forests-ac081ff451ec)
+- [FEDOT: an AutoML approach to time series forecasting](https://github.com/nccr-itmo/FEDOT)
 
 ### Prophet
 
