@@ -63,6 +63,7 @@
 ## Data Mapping
 
 - [from Data to Viz](https://www.data-to-viz.com/)
+- [Word embedding visualization](https://towardsdatascience.com/contour-plots-and-word-embedding-visualisation-in-python-9dd2dacff6ac)
 
 ## Data Storytelling
 
@@ -109,6 +110,7 @@
 - [`datapane` to automate HTML report](https://github.com/datapane/datapane)
 - [RAWGraphs to explore spreadsheets data](https://github.com/densitydesign/raw)
 - [`arviz` for Bayesian EDA](https://github.com/arviz-devs/arviz)
+- [Kangas: exploring, analyzing, and visualizing large-scale multimedia data](https://github.com/comet-ml/kangas)
 
 ## Geodata
 
@@ -128,6 +130,7 @@
 - [Electricity Maps](https://app.electricitymaps.com/zone/IT-NO)
 - [Planning the perfect hike with OSMnx](https://towardsdatascience.com/planning-the-perfect-hike-with-networkx-and-openstreetmap-2fbeaded3cc6)
 - [Prettymaps](https://github.com/marceloprates/prettymaps)
+- [Visualizing routes with VeRoViz](https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4)
 
 ## GUI
 
@@ -153,6 +156,7 @@
 - [Javascript charts](http://markibrahim.me/musings/notebooks/beautiful_javascript_charts.html)
 - [`d3blocks`: Python porting of D3js](https://github.com/d3blocks/d3blocks)[^1]
 - [Carbon charts: a reusable framework-agnostic D3 charting library](https://github.com/carbon-design-system/carbon-charts)
+- [D3js scatterplots in Python](https://towardsdatascience.com/get-the-most-out-of-your-scatterplot-by-making-it-interactive-using-d3js-19939e3b046)
 
 [^1]: [A day in the life of Americans](/data-scientist-hub/resources/data-visualization/#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
@@ -160,6 +164,10 @@
 
 - [Model lift](https://towardsdatascience.com/model-lift-the-missing-link-70eb37460e67)
 - [Yellowbrick](https://www.scikit-yb.org/en/latest/)
+
+## Pie Charts
+
+- [A case against pie charts](https://towardsdatascience.com/the-case-against-the-pie-chart-43f4c3fccc6)
 
 ## Plotly
 

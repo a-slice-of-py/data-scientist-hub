@@ -115,6 +115,7 @@
 - [Interpretable KMeans via Classification feature importance](https://towardsdatascience.com/interpretable-k-means-clusters-feature-importances-7e516eeb8d3c)
 - [How to select optimal k for K-Means](https://towardsdatascience.com/selecting-optimal-k-for-k-means-clustering-c7579fd2e926)
 - [How many clusters? Methods comparison](https://towardsdatascience.com/how-many-clusters-6b3f220f0ef5)
+- [Expectation Maximization soft clustering](https://pub.towardsai.net/expectation-maximization-em-clustering-every-data-scientist-should-know-2b47fbd0dbc0)
 
 ## Code differentiation
 
@@ -184,6 +185,7 @@
 - [Paper](https://arxiv.org/abs/1802.04987)
 - [Predict Euro 2020 winner](https://towardsdatascience.com/predict-euro-cup-matches-with-simple-statistics-2fc913678117)
 - [Poisson regression for football match results prediction](https://towardsdatascience.com/predicting-matches-for-the-uefa-euro-2020-championship-7dcfa449c8ee)
+- [Predicting FIFA World Cup 2022 winner](https://towardsdatascience.com/predicting-the-fifa-world-cup-2022-with-a-simple-model-using-python-6b34bdd4f2a5)
 
 ## Game Theory
 
@@ -213,6 +215,8 @@
 - [GPS trajectory clustering](https://towardsdatascience.com/gps-trajectory-clustering-with-python-9b0d35660156)
 - [Geospatial indexing with quadkeys](https://towardsdatascience.com/geospatial-indexing-with-quadkeys-d933dff01496)
 - [Travel time estimatione using quadkeys](https://towardsdatascience.com/travel-time-estimation-using-quadkeys-ecf6d54823b4)
+- [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
+- [Geocoding via Geoapify](https://github.com/huels-originals/geobatchpy)
 
 ## Gradient methods
 
@@ -338,6 +342,10 @@
 - [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
 - [Microsoft `presidio` for NER (Named Entity Recognition) and data anonymization](https://microsoft.github.io/presidio/)
 - [SEER model for information extraction based on user-specified examples](https://dl.acm.org/doi/10.1145/3025453.3025540)
+- [Textnets: text analysis with networks](https://textnets.readthedocs.io/en/stable/index.html)
+- [Universal romanizer tool](https://github.com/isi-nlp/uroman)
+- [Text summarization](https://towardsdatascience.com/summarize-a-text-with-python-continued-bbbbb5d37adb)
+- [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)
 
 ## Objects tracking
 
@@ -422,6 +430,7 @@
 - [3 t-tests for data scientists](https://towardsdatascience.com/the-3-t-tests-for-data-scientists-e24e4ef61)
 - [Stats gist list: guide to jargon by Cassie Kozyrkov](https://towardsdatascience.com/stats-gist-list-an-irreverent-statisticians-guide-to-jargon-be8173df090d#5e31-a268c84a0df1-reply)
 - [Algorithmic approach to statistical testing](https://towardsdatascience.com/data-scientists-need-to-know-just-one-statistical-test-3115b2ff26fd)
+- [Kolmogorov-Smirnov test to check how data are distributed](https://towardsdatascience.com/how-is-your-data-distributed-a-practical-introduction-to-the-kolmogorov-smirnov-test-6b4fa7ba32ef)
 
 ## Regression
 
@@ -458,6 +467,8 @@
 - [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)
 - [Multi-agent particle swarm](https://towardsdatascience.com/simulating-multi-agent-swarming-events-in-python-ee133143944d)
 - [The K-armed bandit problem](https://blog.dominodatalab.com/k-armed-bandit-problem)
+- [Python packages to experiment with Reinforcement Learning](https://pub.towardsai.net/top-python-packages-for-studying-reinforcement-learning-e332e1c6e16a)
+- [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)
 
 ## Resampling
 
@@ -549,6 +560,7 @@
 - [Python Automatic Forecasting](https://github.com/antoinecarme/pyaf)
 - [Forecasting with tree-based algorithms](https://towardsdatascience.com/forecasting-with-decision-trees-and-random-forests-ac081ff451ec)
 - [FEDOT: an AutoML approach to time series forecasting](https://github.com/nccr-itmo/FEDOT)
+- [Time series forecasting with Transformers](https://huggingface.co/blog/time-series-transformers)
 
 ### Prophet
 

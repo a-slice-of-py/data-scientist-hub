@@ -25,6 +25,7 @@
 - [How to build a data team](https://towardsdatascience.com/things-i-wish-i-knew-when-i-was-building-a-data-team-efcb43591204?source=social.tw)
 - [Online revenue streams for Data Scientists](https://towardsdatascience.com/how-to-develop-online-revenue-streams-as-a-data-scientist-af290fad64ef)
 - [Benefits of having at least two careers](https://hbr.org/2017/04/why-you-should-have-at-least-two-careers?utm_medium=social&utm_campaign=hbr&utm_source=LinkedIn&tpcc=orgsocial_edit)
+- [What to do if you are nervous about possible layoffs](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)
 
 ## Conferences
 
@@ -89,6 +90,7 @@
 - [Guide for hiring managers to hire better data scientists](https://towardsdatascience.com/hire-better-data-scientists-a-field-guide-for-hiring-managers-new-to-data-science-388d174a96df)
 - [Amazon interview guide](https://towardsdatascience.com/amazons-internship-and-full-time-interview-guide-af3c20455e15)
 - [Interview checklist](https://towardsdatascience.com/preparing-for-data-science-interview-here-is-a-complete-guide-to-help-you-perform-well-a98d28f4a1f4)
+- [The Data Science Interview Project](https://book.thedatascienceinterviewproject.com/)
 
 ## Technical skills
 

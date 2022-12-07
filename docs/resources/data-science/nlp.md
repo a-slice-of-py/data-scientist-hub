@@ -27,3 +27,7 @@
 - [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
 - [Microsoft `presidio` for NER (Named Entity Recognition) and data anonymization](https://microsoft.github.io/presidio/)
 - [SEER model for information extraction based on user-specified examples](https://dl.acm.org/doi/10.1145/3025453.3025540)
+- [Textnets: text analysis with networks](https://textnets.readthedocs.io/en/stable/index.html)
+- [Universal romanizer tool](https://github.com/isi-nlp/uroman)
+- [Text summarization](https://towardsdatascience.com/summarize-a-text-with-python-continued-bbbbb5d37adb)
+- [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)

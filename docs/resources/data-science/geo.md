@@ -7,3 +7,5 @@
 - [GPS trajectory clustering](https://towardsdatascience.com/gps-trajectory-clustering-with-python-9b0d35660156)
 - [Geospatial indexing with quadkeys](https://towardsdatascience.com/geospatial-indexing-with-quadkeys-d933dff01496)
 - [Travel time estimatione using quadkeys](https://towardsdatascience.com/travel-time-estimation-using-quadkeys-ecf6d54823b4)
+- [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
+- [Geocoding via Geoapify](https://github.com/huels-originals/geobatchpy)

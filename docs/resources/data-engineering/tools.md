@@ -9,3 +9,4 @@
 - [Observer pattern vs Pub Sub pattern](https://medium.com/towards-artificial-intelligence/observer-pattern-vs-pub-sub-pattern-7f467bcf5fe)
 - [Prefect](https://docs.prefect.io/core/getting_started/why-not-airflow.html#overview)
 - [Ray](https://github.com/ray-project/ray)
+- [Splink: probabilistic data linkage at scale](https://moj-analytical-services.github.io/splink/index.html)

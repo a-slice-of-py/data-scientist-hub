@@ -13,3 +13,5 @@
 - [Reinforcement Learning series](https://towardsdatascience.com/state-values-and-policy-evaluation-ceefdd8c2369)
 - [Multi-agent particle swarm](https://towardsdatascience.com/simulating-multi-agent-swarming-events-in-python-ee133143944d)
 - [The K-armed bandit problem](https://blog.dominodatalab.com/k-armed-bandit-problem)
+- [Python packages to experiment with Reinforcement Learning](https://pub.towardsai.net/top-python-packages-for-studying-reinforcement-learning-e332e1c6e16a)
+- [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)

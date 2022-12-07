@@ -12,3 +12,4 @@
 - [`datapane` to automate HTML report](https://github.com/datapane/datapane)
 - [RAWGraphs to explore spreadsheets data](https://github.com/densitydesign/raw)
 - [`arviz` for Bayesian EDA](https://github.com/arviz-devs/arviz)
+- [Kangas: exploring, analyzing, and visualizing large-scale multimedia data](https://github.com/comet-ml/kangas)

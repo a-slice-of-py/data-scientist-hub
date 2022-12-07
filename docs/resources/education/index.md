@@ -100,6 +100,9 @@
 - [How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)
 - [Coding learning path](https://towardsdatascience.com/how-i-would-learn-to-code-if-i-had-to-start-over-607428f14266)
 - [Developers second brain](https://stackoverflow.blog/2022/10/03/two-heads-are-better-than-one-what-second-brains-say-about-how-developers-work/)
+- [What is Data Engineering?](https://blog.pragmaticengineer.com/what-is-data-engineering/)
+- [Why tech writing is important](https://thisisimportant.net/topics/tech-writing/)
+- [The Data Cards Playbook: a toolkit for transparency in AI dataset documentation](https://pair-code.github.io/datacardsplaybook/)
 
 ## Programming Languages
 

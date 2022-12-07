@@ -695,6 +695,10 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 - [Markdown guide](https://www.markdownguide.org/getting-started/)
 - [Bootstrap icons](https://icons.getbootstrap.com/)
 
+## macOS
+
+- [How to setup Python on ARM machines](https://towardsdatascience.com/how-to-easily-set-up-python-on-any-m1-mac-5ea885b73fab)
+
 ## Troubleshooting
 
 ### Jupyter Lab

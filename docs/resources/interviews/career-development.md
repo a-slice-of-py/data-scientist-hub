@@ -23,3 +23,4 @@
 - [How to build a data team](https://towardsdatascience.com/things-i-wish-i-knew-when-i-was-building-a-data-team-efcb43591204?source=social.tw)
 - [Online revenue streams for Data Scientists](https://towardsdatascience.com/how-to-develop-online-revenue-streams-as-a-data-scientist-af290fad64ef)
 - [Benefits of having at least two careers](https://hbr.org/2017/04/why-you-should-have-at-least-two-careers?utm_medium=social&utm_campaign=hbr&utm_source=LinkedIn&tpcc=orgsocial_edit)
+- [What to do if you are nervous about possible layoffs](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)

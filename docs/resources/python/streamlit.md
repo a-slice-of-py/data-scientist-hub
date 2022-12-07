@@ -46,6 +46,8 @@
 - [Streamlit vertical slider](https://github.com/sqlinsights/streamlit-vertical-slider)
 - [Streamlit toggle switch](https://discuss.streamlit.io/t/streamlit-toggle-switch/32474)
 - [Streamlit datalist](https://discuss.streamlit.io/t/new-component-streamlit-datalist/32931)
+- [Streamlit pyvista for 3D objects visualization](https://discuss.streamlit.io/t/stpyvista-show-pyvista-3d-visualizations-in-streamlit/31802/4)
+- [Streamlit authenticator](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
 
 ## Build components
 

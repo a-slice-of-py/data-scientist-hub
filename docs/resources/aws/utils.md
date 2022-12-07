@@ -5,6 +5,7 @@
 - [SLAM](https://github.com/miguelgrinberg/slam)
 - [MOTO for local test of aws resources](https://github.com/spulec/moto)
 - [Steampipe: query the cloud with plain SQL](https://github.com/turbot/steampipe)
+- [Dynamoit: a custom frontend for DynamoDB](https://github.com/bykka/dynamoit)
 
 ## Streamlit deployment
 
