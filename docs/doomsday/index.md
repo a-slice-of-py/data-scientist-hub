@@ -698,6 +698,8 @@ aws-login = pushd . && cd C:/Users/USERNAME/Documents/projects/advana/advana-aws
 ## macOS
 
 - [How to setup Python on ARM machines](https://towardsdatascience.com/how-to-easily-set-up-python-on-any-m1-mac-5ea885b73fab)
+- [MacOS terminal makeover](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)
+- [How to dedup conda env name in terminal](https://github.com/spaceship-prompt/spaceship-prompt/issues/218)
 
 ## Troubleshooting
 
