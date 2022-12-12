@@ -10,3 +10,4 @@
 - [Prefect](https://docs.prefect.io/core/getting_started/why-not-airflow.html#overview)
 - [Ray](https://github.com/ray-project/ray)
 - [Splink: probabilistic data linkage at scale](https://moj-analytical-services.github.io/splink/index.html)
+- [Haystack: an end-to-end framework for production-ready search pipelines](https://github.com/deepset-ai/haystack)

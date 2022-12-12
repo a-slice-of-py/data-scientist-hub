@@ -22,3 +22,7 @@
 - [Turn time series to music with `miditime`](https://github.com/cirlabs/miditime)
 - [Data sonification tutorials](https://github.com/SYSTEMSounds/sonification-tutorials)
 - [Sonic Pi: turn live coding into a musical instrument](https://github.com/sonic-pi-net/sonic-pi)
+
+## Social sciences
+
+- [Automating NYC: and (en)coding inequality?](https://automating.nyc/)
