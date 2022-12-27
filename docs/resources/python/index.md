@@ -30,6 +30,7 @@
 - [`schedule` as Python scheduling library](https://github.com/dbader/schedule)
 - [PyAutoGUI](https://github.com/asweigart/pyautogui)
 - [Convert docx to HTML with `mammoth`](https://github.com/mwilliamson/python-mammoth)
+- [How to build a serverless automation to cross-post blog articles](https://www.readysetcloud.io/blog/allen.helton/how-i-built-a-serverless-automation-to-cross-post-my-blogs/)
 
 ## Caching
 
@@ -218,6 +219,7 @@
 - [Convert notebook to web app with Mercury](https://github.com/mljar/mercury)
 - [Notebook cells output strip out with `nbstripout`](https://github.com/kynan/nbstripout)
 - [In and Out variables and %store magic command](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
+- [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 
 ## Logging
 
@@ -368,6 +370,7 @@
 
 - [Math module overview](https://realpython.com/python-math-module/)
 - [Boltons](https://github.com/mahmoud/boltons)
+- [Priority queues and `heapq`](https://realpython.com/python-heapq-module/)
 
 ## Streamlit
 
@@ -419,6 +422,7 @@
 - [Streamlit datalist](https://discuss.streamlit.io/t/new-component-streamlit-datalist/32931)
 - [Streamlit pyvista for 3D objects visualization](https://discuss.streamlit.io/t/stpyvista-show-pyvista-3d-visualizations-in-streamlit/31802/4)
 - [Streamlit authenticator](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
+- [Barfi: a visual flow-based programming component](https://github.com/krish-adi/barfi)
 
 ### Build components
 

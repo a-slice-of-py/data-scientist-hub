@@ -21,3 +21,4 @@
 - [Use Git tactically](https://stackoverflow.blog/2022/04/06/use-git-tactically/)
 - [Git cheatsheet by GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Gitpod: spin up automated dev environments](https://www.gitpod.io/)
+- [Git and GitHub illustrations](https://allisonhorst.com/git-github)

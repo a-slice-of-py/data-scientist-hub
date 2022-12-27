@@ -67,6 +67,7 @@
 - [Use Git tactically](https://stackoverflow.blog/2022/04/06/use-git-tactically/)
 - [Git cheatsheet by GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Gitpod: spin up automated dev environments](https://www.gitpod.io/)
+- [Git and GitHub illustrations](https://allisonhorst.com/git-github)
 
 ## Github
 
@@ -101,6 +102,7 @@
 - [Stackedit](https://stackedit.io/)
 - [Markdown email in PBP](https://pbpython.com/markdown-email.html)
 - [Mermaid for markdown diagram](https://mermaid-js.github.io/mermaid/#/)
+- [Markdown books with mdBook](https://rust-lang.github.io/mdBook/index.html)
 
 ## Misc
 
@@ -157,6 +159,7 @@
 - [Cool terminal customization](https://towardsdatascience.com/how-to-look-like-a-10x-developer-f3d2211cb998)
 - [Rich](https://github.com/willmcgugan/rich)
 - [How to use `rich` features](https://towardsdatascience.com/rich-generate-rich-and-beautiful-text-in-the-terminal-with-python-541f39abf32e)
+- [Quokka.js](https://quokkajs.com/)
 
 ## Visual Studio Code
 

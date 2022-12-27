@@ -39,3 +39,7 @@
 - [Jupyter Book](https://jupyterbook.org/intro.html)
 - [Private documentation](https://github.com/readme/guides/private-documentation)
 - [Example personal website](https://federicodecillia.github.io/)
+
+## Resume
+
+- [JSON Resume](https://jsonresume.org/): a [walkthrough](https://anthonydellavecchia.com/portfolio/json-resume/) and [some themes](https://anthonydellavecchia.com/portfolio/json-resume-themes/)

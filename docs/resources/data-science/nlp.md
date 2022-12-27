@@ -31,3 +31,5 @@
 - [Universal romanizer tool](https://github.com/isi-nlp/uroman)
 - [Text summarization](https://towardsdatascience.com/summarize-a-text-with-python-continued-bbbbb5d37adb)
 - [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)
+- [Semantic search with `txtai`](https://github.com/neuml/txtai)
+- [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)

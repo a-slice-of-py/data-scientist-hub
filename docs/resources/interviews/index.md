@@ -82,6 +82,10 @@
 - [Private documentation](https://github.com/readme/guides/private-documentation)
 - [Example personal website](https://federicodecillia.github.io/)
 
+### Resume
+
+- [JSON Resume](https://jsonresume.org/): a [walkthrough](https://anthonydellavecchia.com/portfolio/json-resume/) and [some themes](https://anthonydellavecchia.com/portfolio/json-resume-themes/)
+
 ## Preparation
 
 - [How to survive a layoff during challenging times](https://towardsdatascience.com/how-to-survive-a-layoff-during-challenging-times-and-thrive-3b9ee2f9af24)

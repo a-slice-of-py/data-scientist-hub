@@ -64,6 +64,7 @@
 
 - [from Data to Viz](https://www.data-to-viz.com/)
 - [Word embedding visualization](https://towardsdatascience.com/contour-plots-and-word-embedding-visualisation-in-python-9dd2dacff6ac)
+- [Visual vocabulary](https://ft-interactive.github.io/visual-vocabulary/)
 
 ## Data Storytelling
 
@@ -140,6 +141,7 @@
 ## Hierarchical
 
 - [Technology tree visualization with `skillmap`](https://github.com/niyue/skillmap)
+- [treevis: a Visual Bibliography of Tree Visualization](https://treevis.net/)
 
 ## High-dimensional data
 

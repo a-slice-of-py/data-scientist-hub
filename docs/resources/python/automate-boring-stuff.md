@@ -9,3 +9,4 @@
 - [`schedule` as Python scheduling library](https://github.com/dbader/schedule)
 - [PyAutoGUI](https://github.com/asweigart/pyautogui)
 - [Convert docx to HTML with `mammoth`](https://github.com/mwilliamson/python-mammoth)
+- [How to build a serverless automation to cross-post blog articles](https://www.readysetcloud.io/blog/allen.helton/how-i-built-a-serverless-automation-to-cross-post-my-blogs/)

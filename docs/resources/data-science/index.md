@@ -168,6 +168,10 @@
 
 - [Dynamic pricing for theatre](https://towardsdatascience.com/statistics-for-dynamic-pricing-of-theatre-87df073a0848)
 
+## Energy and Power Systems
+
+- [PyPSA: Python for Power System Analysis](https://pypsa.org/#projects)
+
 ## Ensemble models
 
 - [`vectstack` for models stacking](https://github.com/vecxoz/vecstack)
@@ -346,6 +350,8 @@
 - [Universal romanizer tool](https://github.com/isi-nlp/uroman)
 - [Text summarization](https://towardsdatascience.com/summarize-a-text-with-python-continued-bbbbb5d37adb)
 - [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)
+- [Semantic search with `txtai`](https://github.com/neuml/txtai)
+- [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)
 
 ## Objects tracking
 
@@ -562,6 +568,7 @@
 - [Forecasting with tree-based algorithms](https://towardsdatascience.com/forecasting-with-decision-trees-and-random-forests-ac081ff451ec)
 - [FEDOT: an AutoML approach to time series forecasting](https://github.com/nccr-itmo/FEDOT)
 - [Time series forecasting with Transformers](https://huggingface.co/blog/time-series-transformers)
+- [Conformal prediction interval with scikit-learn, MAPIE and TSPIRAL](https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a)
 
 ### Prophet
 
@@ -603,6 +610,10 @@
 - [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
 - [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
 - [Maths and viz of Gradient Boosting](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+
+## Weather data
+
+- [Prediction of severe thunderstorm events with ensemble deep learning and radar data](https://www.nature.com/articles/s41598-022-23306-6.epdf?sharing_token=q_4Df7HMTbUQ9WMLXDmpN9RgN0jAjWel9jnR3ZoTv0PCpm1rZdS5SxfJ9WBqwSAbgQmJGXDkKrluVRIpRu5eaerxSW6ScMmq3xwubkdCpbcb2KNaPEJAcl3wCRiaTYhhNtzFwkBJPbYui6dSPK8nj89oSKTo3L7ORqP8TecYV-Q%3D)
 
 ## XAI
 
