@@ -11,6 +11,7 @@
 ## Asynchronous Programming
 
 - [Intro to asynchronous programming in Python](https://towardsdatascience.com/introduction-to-asynchronous-programming-in-python-3cd190748cd5)
+- [Understanding async, await and asyncio](https://towardsdatascience.com/understand-async-await-with-asyncio-for-asynchronous-programming-in-python-e0bc4d25808e)
 
 ## Audio recognition
 
@@ -335,6 +336,10 @@
 ## Polymorphism
 
 - [`multipledispatch` for polymorphism](https://towardsdatascience.com/flawless-parametric-polymorphism-in-python-with-multipledispatch-f26b75d69c5f)
+
+## Privacy
+
+- [Privacy for class attributes and methods](https://towardsdatascience.com/indication-and-hide-and-seek-privacy-of-attributes-in-python-classes-3f64f9d6da88)
 
 ## Process simulation
 
