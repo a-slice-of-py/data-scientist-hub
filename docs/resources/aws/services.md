@@ -15,6 +15,7 @@
 - [AWS CloudWatch custom metrics dashboard via CDK](https://dev.to/leeoc/custom-cloudwatch-metrics-using-the-cdk-337f)
 - [A no-nonsense guide to AWS CDK](https://blog.phillipninan.com/a-no-nonsense-guide-to-aws-cloud-development-kit-cdk)
 - [Constructs vs stacks](https://blog.phillipninan.com/when-to-use-aws-cdk-constructs-vs-stacks)
+- [AWS DDK: DataOps Development Kit](https://github.com/awslabs/aws-ddk)
 
 ### Dependencies between stacks
 

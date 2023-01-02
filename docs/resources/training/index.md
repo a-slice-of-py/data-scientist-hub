@@ -56,6 +56,10 @@
 - [Terrelogiche GIS](Terrelogiche)
 - [AWS Digital training](https://aws.amazon.com/it/training/digital-training-providers/)
 
+## Academic papers
+
+- [Papers we love: learning more about academic computer science papers](https://github.com/papers-we-love/papers-we-love)
+
 ## Schools
 
 - [Barcelona GSE](https://www.barcelonagse.eu/study/professional-courses/data-science-winter-school)

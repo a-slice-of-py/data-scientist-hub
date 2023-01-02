@@ -276,6 +276,7 @@
 - [Markov chain process and HMM](https://medium.com/towards-artificial-intelligence/introduction-to-the-markov-chain-process-and-hidden-markov-model-7b6abad37035)
 - [Markov chain as text generation model](https://towardsdatascience.com/generating-drug-names-with-a-markov-chain-49704dad8740)
 - [Beatles lyrics generation via Markov Chains](https://towardsdatascience.com/generate-unedited-beatles-lyrics-using-markov-chain-b7968c49584f)
+- [Markov chains for time series forecasting](https://pub.towardsai.net/markov-algorithm-for-time-series-2563cad7d54c)
 
 ## MCMC
 
