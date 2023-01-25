@@ -26,3 +26,4 @@
 - [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
 - [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
 - [Maths and viz of Gradient Boosting](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+- [Intuitive explanation of entropy](https://towardsdatascience.com/what-does-entropy-measure-an-intuitive-explanation-a7f7e5d16421)

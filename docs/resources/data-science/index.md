@@ -74,6 +74,7 @@
 - [Intro to Causal Inference course](https://www.bradyneal.com/causal-inference-course)
 - [What is Causal Inference?](https://www.oreilly.com/radar/what-is-causal-inference/)
 - [PyWhy: ML based causal inference by Microsoft DoWhy](https://github.com/py-why/dowhy)
+- [CausalPy hands-on](https://towardsdatascience.com/causal-python-elon-musks-tweet-our-googling-habits-bayesian-synthetic-control-187114fc4aa8)
 
 ## Churn analysis
 
@@ -175,6 +176,7 @@
 ## Ensemble models
 
 - [`vectstack` for models stacking](https://github.com/vecxoz/vecstack)
+- [One general model vs many specialized ones](https://towardsdatascience.com/what-is-better-one-general-model-or-many-specialized-models-9500d9f8751d)
 
 ## Features engineering and selection
 
@@ -353,6 +355,8 @@
 - [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)
 - [Semantic search with `txtai`](https://github.com/neuml/txtai)
 - [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)
+- [Arabica and Cappuccino for text EDA](https://towardsdatascience.com/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)
+- [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)
 
 ## Objects tracking
 
@@ -611,10 +615,12 @@
 - [Why bagging works](https://towardsdatascience.com/why-bagging-works-b9961354ee73)
 - [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
 - [Maths and viz of Gradient Boosting](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+- [Intuitive explanation of entropy](https://towardsdatascience.com/what-does-entropy-measure-an-intuitive-explanation-a7f7e5d16421)
 
 ## Weather data
 
 - [Prediction of severe thunderstorm events with ensemble deep learning and radar data](https://www.nature.com/articles/s41598-022-23306-6.epdf?sharing_token=q_4Df7HMTbUQ9WMLXDmpN9RgN0jAjWel9jnR3ZoTv0PCpm1rZdS5SxfJ9WBqwSAbgQmJGXDkKrluVRIpRu5eaerxSW6ScMmq3xwubkdCpbcb2KNaPEJAcl3wCRiaTYhhNtzFwkBJPbYui6dSPK8nj89oSKTo3L7ORqP8TecYV-Q%3D)
+- [Pirate weather API](https://pirateweather.net/)
 
 ## XAI
 

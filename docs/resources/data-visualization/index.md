@@ -56,6 +56,10 @@
 - [Confusion matrix visualized](https://towardsdatascience.com/the-confusion-matrix-visualized-e778584c8834)
 - [Visual guide to the confusion matrix](https://towardsdatascience.com/visual-guide-to-the-confusion-matrix-bb63730c8eba)
 
+## Dashboard design
+
+- [Dashboard design patterns](https://dashboarddesignpatterns.github.io/)
+
 ## Data Journalism
 
 - [Data Journalism spatial projection for story decomposition](https://towardsdatascience.com/data-journalism-3d-spatial-projection-a54c96137c6a)

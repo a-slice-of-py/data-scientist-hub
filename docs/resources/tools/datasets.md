@@ -12,3 +12,4 @@
 - [Footprint Network](https://data.footprintnetwork.org/#/countryTrends?cn=5001&type=BCtot,EFCtot)
 - [Sondaggi politico elettorali ITA](http://www.sondaggipoliticoelettorali.it/ListaSondaggi.aspx?st=SONDAGGI)
 - [Microsoft's Bing road detections](https://github.com/microsoft/RoadDetections)
+- [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)

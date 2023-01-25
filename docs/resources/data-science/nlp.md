@@ -33,3 +33,5 @@
 - [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)
 - [Semantic search with `txtai`](https://github.com/neuml/txtai)
 - [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)
+- [Arabica and Cappuccino for text EDA](https://towardsdatascience.com/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)
+- [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)

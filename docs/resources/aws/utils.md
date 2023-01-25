@@ -8,8 +8,11 @@
 
 - [SLAM](https://github.com/miguelgrinberg/slam)
 - [MOTO for local test of aws resources](https://github.com/spulec/moto)
+- [MOTO tutorial](https://towardsdatascience.com/moto-pytest-and-aws-databases-a-quality-and-data-engineering-crossroads-ae58f9e7b265)
 - [Steampipe: query the cloud with plain SQL](https://github.com/turbot/steampipe)
 - [Dynamoit: a custom frontend for DynamoDB](https://github.com/bykka/dynamoit)
+- [Basti: a CLI tool for securely accessing AWS resources in private networks at almost no cost](https://github.com/BohdanPetryshyn/basti)
+- [klotho: an open source tool that transforms plain code into cloud native code](https://github.com/klothoplatform/klotho)
 
 ## Streamlit deployment
 
