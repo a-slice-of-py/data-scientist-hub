@@ -580,6 +580,8 @@
 - [Is Facebook's "Prophet" the Time-Series Messiah, or Just a Very Naughty Boy?](https://www.microprediction.com/blog/prophet)
 - [LSTM and Prophet](https://towardsdatascience.com/time-series-forecasting-with-lstms-and-prophet-predict-your-email-workload-48bf9cdb1580)
 - [Prophet forecasting](https://towardsdatascience.com/forecasting-with-prophet-d50bbfe95f91)
+- [AutoArima Prophet adapter in statsforecast](https://github.com/Nixtla/statsforecast/tree/main/experiments/arima_prophet_adapter)
+- [Fixing Prophet forecasting issue](https://towardsdatascience.com/fixing-prophets-forecasting-issue-b473afe2cc70)
 
 ### Greykite
 
