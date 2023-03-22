@@ -9,6 +9,7 @@
 ### AWS Athena
 
 - [Athena window functions (prestodb)](https://prestodb.io/docs/0.172/functions/window.html)
+- [Extend geospatial queries in Amazon Athena with UDFs and AWS Lambda](https://aws.amazon.com/blogs/big-data/extend-geospatial-queries-in-amazon-athena-with-udfs-and-aws-lambda/)
 
 ### AWS CDK
 
@@ -18,6 +19,7 @@
 - [A no-nonsense guide to AWS CDK](https://blog.phillipninan.com/a-no-nonsense-guide-to-aws-cloud-development-kit-cdk)
 - [Constructs vs stacks](https://blog.phillipninan.com/when-to-use-aws-cdk-constructs-vs-stacks)
 - [AWS DDK: DataOps Development Kit](https://github.com/awslabs/aws-ddk)
+- [Serverless AWS CDK Pipeline best practices](https://blog.serverlessadvocate.com/serverless-aws-cdk-pipeline-best-practices-patterns-part-1-ab80962f109d)
 
 #### Dependencies between stacks
 
@@ -74,6 +76,10 @@
 - [AWS shell](https://github.com/awslabs/aws-shell)
 
 ## Utils
+
+### DevOps
+
+- [Deployment Pipeline Reference Architecture (DPRA) for AWS workloads](https://pipelines.devops.aws.dev/)
 
 ### Blogposts
 

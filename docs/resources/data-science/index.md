@@ -19,6 +19,7 @@
 - [Python outlier detection library](https://github.com/yzhao062/pyod)
 - [5 anomaly detection algorithms with sklearn implementation](https://towardsdatascience.com/5-anomaly-detection-algorithms-every-data-scientist-should-know-b36c3605ea16)
 - [Auto anomaly detection with isolation forest](https://towardsdatascience.com/isolation-forest-auto-anomaly-detection-with-python-e7a8559d4562)
+- [Probabilistic forecasting of binary events using regression](https://towardsdatascience.com/probabilistic-forecasting-of-binary-events-using-regression-4f8a8022ec37)
 
 ## AutoML
 
@@ -117,6 +118,7 @@
 - [How to select optimal k for K-Means](https://towardsdatascience.com/selecting-optimal-k-for-k-means-clustering-c7579fd2e926)
 - [How many clusters? Methods comparison](https://towardsdatascience.com/how-many-clusters-6b3f220f0ef5)
 - [Expectation Maximization soft clustering](https://pub.towardsai.net/expectation-maximization-em-clustering-every-data-scientist-should-know-2b47fbd0dbc0)
+- [Markov clustering](https://medium.com/analytics-vidhya/demystifying-markov-clustering-aeb6cdabbfc7)
 
 ## Code differentiation
 
@@ -185,6 +187,7 @@
 - [Feature selection don'ts](https://towardsdatascience.com/feature-selection-you-are-probably-doing-it-wrong-985679b41456)
 - [Features normally distributed](https://towardsdatascience.com/what-if-the-exam-marks-are-not-normally-distributed-67e2d2d56286)
 - [How and Why](https://towardsdatascience.com/feature-importance-hows-and-why-s-3678ede1e58f)
+- [Feast: an open source feature store for machine learning](https://github.com/feast-dev/feast)
 
 ## Football analytics
 
@@ -357,6 +360,7 @@
 - [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)
 - [Arabica and Cappuccino for text EDA](https://towardsdatascience.com/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)
 - [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)
+- [A guide to computational linguistics and conversational AI](https://pub.towardsai.net/a-guide-to-computational-linguistics-and-conversational-ai-1539a8f3113)
 
 ## Objects tracking
 
@@ -574,6 +578,7 @@
 - [FEDOT: an AutoML approach to time series forecasting](https://github.com/nccr-itmo/FEDOT)
 - [Time series forecasting with Transformers](https://huggingface.co/blog/time-series-transformers)
 - [Conformal prediction interval with scikit-learn, MAPIE and TSPIRAL](https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a)
+- [`mlforecast`: scalable machine learning based time series forecasting](https://github.com/Nixtla/statsforecast)
 
 ### Prophet
 

@@ -17,3 +17,8 @@
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 - [Polars](https://github.com/pola-rs/polars)
 - [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
+- [Pandas illustrated: a visual guide](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+
+## Numpy
+
+- [Numpy illustrated: a visual guide](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)

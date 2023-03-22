@@ -9,3 +9,4 @@
 - [Python outlier detection library](https://github.com/yzhao062/pyod)
 - [5 anomaly detection algorithms with sklearn implementation](https://towardsdatascience.com/5-anomaly-detection-algorithms-every-data-scientist-should-know-b36c3605ea16)
 - [Auto anomaly detection with isolation forest](https://towardsdatascience.com/isolation-forest-auto-anomaly-detection-with-python-e7a8559d4562)
+- [Probabilistic forecasting of binary events using regression](https://towardsdatascience.com/probabilistic-forecasting-of-binary-events-using-regression-4f8a8022ec37)

@@ -52,6 +52,7 @@
 - [FEDOT: an AutoML approach to time series forecasting](https://github.com/nccr-itmo/FEDOT)
 - [Time series forecasting with Transformers](https://huggingface.co/blog/time-series-transformers)
 - [Conformal prediction interval with scikit-learn, MAPIE and TSPIRAL](https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a)
+- [`mlforecast`: scalable machine learning based time series forecasting](https://github.com/Nixtla/statsforecast)
 
 ## Prophet
 

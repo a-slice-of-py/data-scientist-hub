@@ -107,6 +107,7 @@
 - [`pretty errors`](https://github.com/onelivesleft/PrettyErrors)
 - [`memray` code memory profiler](https://github.com/bloomberg/memray)
 - [Custom classes supporting `with` statement and context management](https://towardsdatascience.com/what-is-behind-the-python-with-statement-89c74be3a6bd)
+- [PySnooper: a poor man's debugger](https://github.com/cool-RR/PySnooper)
 
 ## Dash
 
@@ -255,6 +256,7 @@
 - [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)
 - [FastDash](https://github.com/dkedar7/fast_dash)
 - [H2O Wave](https://wave.h2o.ai/) and [its table component](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
+- [MLEM: package and deploy machine learning models](https://github.com/iterative/mlem)
 
 ## Model monitoring
 
@@ -322,6 +324,11 @@
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 - [Polars](https://github.com/pola-rs/polars)
 - [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
+- [Pandas illustrated: a visual guide](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+
+### Numpy
+
+- [Numpy illustrated: a visual guide](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
 
 ## Password Management
 

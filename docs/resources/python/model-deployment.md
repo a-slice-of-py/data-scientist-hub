@@ -20,3 +20,4 @@
 - [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)
 - [FastDash](https://github.com/dkedar7/fast_dash)
 - [H2O Wave](https://wave.h2o.ai/) and [its table component](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
+- [MLEM: package and deploy machine learning models](https://github.com/iterative/mlem)

@@ -1,5 +1,9 @@
 # Utils
 
+## DevOps
+
+- [Deployment Pipeline Reference Architecture (DPRA) for AWS workloads](https://pipelines.devops.aws.dev/)
+
 ## Blogposts
 
 - [The history of Amazon forecasting algorithm](https://www.amazon.science/latest-news/the-history-of-amazons-forecasting-algorithm)
