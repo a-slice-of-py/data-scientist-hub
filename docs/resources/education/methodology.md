@@ -45,3 +45,6 @@
 - [What is Data Engineering?](https://blog.pragmaticengineer.com/what-is-data-engineering/)
 - [Why tech writing is important](https://thisisimportant.net/topics/tech-writing/)
 - [The Data Cards Playbook: a toolkit for transparency in AI dataset documentation](https://pair-code.github.io/datacardsplaybook/)
+- [The Privileged Have Entered Their Escape Pods](https://onezero.medium.com/the-privileged-have-entered-their-escape-pods-4706b4893af7)
+- [Complessità crescente vs. management e consulenza old-style: cosa non funziona e perché](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
+- [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)

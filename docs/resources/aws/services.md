@@ -18,6 +18,7 @@
 - [Constructs vs stacks](https://blog.phillipninan.com/when-to-use-aws-cdk-constructs-vs-stacks)
 - [AWS DDK: DataOps Development Kit](https://github.com/awslabs/aws-ddk)
 - [Serverless AWS CDK Pipeline best practices](https://blog.serverlessadvocate.com/serverless-aws-cdk-pipeline-best-practices-patterns-part-1-ab80962f109d)
+- [How working with AWS CDK made me a better dev](https://dev.to/aws-builders/how-working-with-aws-open-source-tools-made-me-a-better-developer-343c)
 
 ### Dependencies between stacks
 
@@ -54,6 +55,7 @@
 ## AWS IAM
 
 - [All AWS managed policies](https://gist.github.com/bernadinm/6f68bfdd015b3f3e0a17b2f00c9ea3f8)
+- [IAMbic: Cloud IAM as Code](https://github.com/noqdev/iambic)
 
 ## AWS Lambda
 
@@ -68,6 +70,7 @@
 - [SageMaker ScriptProcessor](https://sagemaker.readthedocs.io/en/stable/api/training/processing.html#sagemaker.processing.ScriptProcessor)
 - [Automatic canary releases for ML models](https://towardsdatascience.com/automatic-canary-releases-for-machine-learning-models-38874a756f87)
 - [Cross-validation via SageMaker and Step functions](https://towardsdatascience.com/cross-validate-your-machine-learning-model-with-sagemaker-and-step-functions-6610e9c6ab32?source=social.tw)
+- [Run custom model via SageMaker (e.g. OR-Tools solver)](https://github.com/aws-samples/wastecollector-planner/blob/main/Sagemaker/Using%20Sagemaker-OR-Tools.ipynb)
 
 ## AWS Shell
 

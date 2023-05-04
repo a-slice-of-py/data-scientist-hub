@@ -53,6 +53,8 @@
 - [Time series forecasting with Transformers](https://huggingface.co/blog/time-series-transformers)
 - [Conformal prediction interval with scikit-learn, MAPIE and TSPIRAL](https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a)
 - [`mlforecast`: scalable machine learning based time series forecasting](https://github.com/Nixtla/statsforecast)
+- [Time Series Forecasting with Scikit-learn](https://nbviewer.org/github/ogrisel/euroscipy-2022-time-series/blob/main/plot_time_series_feature_engineering.ipynb)
+- [Time Series for Climate Change: Forecasting Energy Demand](https://towardsdatascience.com/time-series-for-climate-change-forecasting-energy-demand-79f39c24c85e)
 
 ## Prophet
 

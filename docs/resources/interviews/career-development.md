@@ -26,3 +26,4 @@
 - [What to do if you are nervous about possible layoffs](https://stackoverflow.blog/2022/12/05/just-laid-off-nervous-about-possible-layoffs-heres-what-to-do/)
 - [Awesome data leadership](https://github.com/ronikobrosly/awesome-data-leadership)
 - [The Staff Engineer path](https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path)
+- [The Best Learning Paths for AI and Data Leadership](https://towardsdatascience.com/the-best-learning-paths-for-ai-and-data-leadership-fabc3d4f8e36)

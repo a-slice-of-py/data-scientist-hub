@@ -26,3 +26,4 @@
 ## Social sciences
 
 - [Automating NYC: and (en)coding inequality?](https://automating.nyc/)
+- [All The Names: Algorithmic Design and the 9/11 Memorial](https://blprnt.medium.com/all-the-names-algorithmic-design-and-the-9-11-memorial-9fdcd753057c)
