@@ -6,3 +6,4 @@
 - [ML model deployment strategies](https://towardsdatascience.com/ml-model-deployment-strategies-72044b3c1410)
 - [MLOps lifecycles](https://towardsdatascience.com/mlops-machine-learning-lifecycle-b168cc39e52f)
 - [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
+- [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)

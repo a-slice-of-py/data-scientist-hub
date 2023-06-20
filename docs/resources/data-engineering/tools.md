@@ -11,3 +11,7 @@
 - [Ray](https://github.com/ray-project/ray)
 - [Splink: probabilistic data linkage at scale](https://moj-analytical-services.github.io/splink/index.html)
 - [Haystack: an end-to-end framework for production-ready search pipelines](https://github.com/deepset-ai/haystack)
+
+## Search engines
+
+- [Approaching Relevance Challenges in Elasticsearch Query Construction](https://towardsdatascience.com/a-site-search-engineers-journal-approaching-relevance-challenges-in-elasticsearch-query-1eca29283da5)

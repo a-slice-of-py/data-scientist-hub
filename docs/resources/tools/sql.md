@@ -16,3 +16,5 @@
 - [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
 - [Advanced SQL for Data Scientists: cube, array, window and math functions](https://allaboutdata.substack.com/p/sql-avanzato-per-data-scientists)
 - [DuckDB: open source OLAP database](https://github.com/duckdb/duckdb)
+- [Lost at SQL: the SQL learning game](https://lost-at-sql.therobinlord.com/)
+- [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)

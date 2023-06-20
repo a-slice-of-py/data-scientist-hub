@@ -9,3 +9,4 @@
 - [Neural networks as ensembles of simpler models](https://towardsdatascience.com/a-neural-network-as-an-ensemble-of-simple-models-1f2b01a0616b)
 - [Neural networks as functions composition](https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f)
 - [N-Students learning framework](https://towardsdatascience.com/n-student-learning-fc4e452ad006)
+- [A short history of Neural Networks](https://vzocca.substack.com/p/a-short-history-of-artificial-intelligence)

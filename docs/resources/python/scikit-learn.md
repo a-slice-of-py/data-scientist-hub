@@ -2,6 +2,8 @@
 
 - [Pipelines with `sklearn`](https://towardsdatascience.com/introduction-to-scikit-learn-pipelines-454a7a1ad3f4)
 - [Pipeline visualization](https://towardsdatascience.com/data-science-plumbing-peeking-into-scikit-learn-pipelines-f9233ad638e)
+- [Sklearn Pipelines for the Modern ML Engineer](https://towardsdatascience.com/sklearn-pipelines-for-the-modern-ml-engineer-9-techniques-you-cant-ignore-637788f05df5)
+- [Pipeline for data preparation](https://towardsdatascience.com/simplify-your-data-preparation-with-these-4-lesser-known-scikit-learn-classes-70270c94569f)
 
 ## Extensions
 

@@ -55,6 +55,7 @@
 - [`mlforecast`: scalable machine learning based time series forecasting](https://github.com/Nixtla/statsforecast)
 - [Time Series Forecasting with Scikit-learn](https://nbviewer.org/github/ogrisel/euroscipy-2022-time-series/blob/main/plot_time_series_feature_engineering.ipynb)
 - [Time Series for Climate Change: Forecasting Energy Demand](https://towardsdatascience.com/time-series-for-climate-change-forecasting-energy-demand-79f39c24c85e)
+- [Skforecast: a Python library that eases using scikit-learn regressors as single and multi-step forecasters](https://github.com/JoaquinAmatRodrigo/skforecast)
 
 ## Prophet
 

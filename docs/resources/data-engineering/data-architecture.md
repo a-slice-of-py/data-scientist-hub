@@ -4,3 +4,4 @@
 - [Modern data architecture schema](https://s3.amazonaws.com/eckerson/assets/files/000/000/235/original/RackMultipart20180125-15584-mvyoc.jpg?1516917446)
 - [Data pipelines](https://pub.towardsai.net/diving-into-data-pipelines-b2eb1b8a4923)
 - [Data Engineering blog posts by Robin Linacre](https://www.robinlinacre.com/)
+- [Databases and Data Modelling: a quick crash course](https://towardsdatascience.com/databases-and-data-modelling-a-quick-crash-course-546891a49b67)

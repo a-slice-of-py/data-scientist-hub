@@ -1,0 +1,10 @@
+# Large Language Models (LLM)
+
+- [ChatGPT Is An Extra-Ordinary Python Programmer](https://davidamos.dev/chatgpt-is-an-extra-ordinary-python-programmer/)
+- [StartChat Playground by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/starchat-playground)
+- [What is ChatGPT doing and why does it work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [privateGPT](https://github.com/imartinez/privateGPT)
+- [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
+- [How Foundation Model Providers Comply with the Draft EU AI Act](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
+- [A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)

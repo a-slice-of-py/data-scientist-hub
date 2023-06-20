@@ -44,3 +44,4 @@
 - [`memray` code memory profiler](https://github.com/bloomberg/memray)
 - [Custom classes supporting `with` statement and context management](https://towardsdatascience.com/what-is-behind-the-python-with-statement-89c74be3a6bd)
 - [PySnooper: a poor man's debugger](https://github.com/cool-RR/PySnooper)
+- [Improve performance with caching via `@lru_cache`](https://towardsdatascience.com/performance-fix-for-slow-python-lru-cache-f9a454776716)

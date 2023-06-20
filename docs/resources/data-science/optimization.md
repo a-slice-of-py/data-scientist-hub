@@ -16,6 +16,8 @@
 - [Animate particle swarm optimization](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
 - [ErlangC queue optimization with `pyworkforce`](https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a)
 - [Optimization heuristics](https://towardsdatascience.com/mathematical-optimization-heuristics-every-data-scientist-should-know-b26de0bd43e6)
+- [How Amazon learned to cut its cardboard waste with pioneering web-based PackOpt tool](https://www.amazon.science/latest-news/amazon-cardboard-boxes-waste-reduction)
+- [Route optimization with Python](https://towardsdatascience.com/modern-route-optimization-with-python-fea87d34288b)
 
 ## Scholarpedia
 

@@ -27,6 +27,7 @@
 
 ## Components
 
+- [Ant Design Menu and Tree](https://github.com/nicedouble/StreamlitAntdComponents)
 - [Authenticator](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
 - [Barfi: a visual flow-based programming component](https://github.com/krish-adi/barfi)
 - [Bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)

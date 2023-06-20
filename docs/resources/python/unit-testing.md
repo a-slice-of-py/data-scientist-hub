@@ -6,3 +6,4 @@
 - [`nox`](https://nox.thea.codes/en/stable/tutorial.html)
 - [`locust` as a test framework in pure Python](https://github.com/locustio/locust)
 - [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
+- [Python Mocking in Production](https://towardsdatascience.com/python-mocking-in-production-1924953c8a14)

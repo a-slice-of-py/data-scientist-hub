@@ -26,3 +26,4 @@
 ## Algorithms
 
 - [Discovering novel algorithms with AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
+- [Beyond automatic differentiation](https://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html?m=1)
