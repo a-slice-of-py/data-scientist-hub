@@ -14,6 +14,7 @@
 - [Modern data architecture schema](https://s3.amazonaws.com/eckerson/assets/files/000/000/235/original/RackMultipart20180125-15584-mvyoc.jpg?1516917446)
 - [Data pipelines](https://pub.towardsai.net/diving-into-data-pipelines-b2eb1b8a4923)
 - [Data Engineering blog posts by Robin Linacre](https://www.robinlinacre.com/)
+- [Databases and Data Modelling: a quick crash course](https://towardsdatascience.com/databases-and-data-modelling-a-quick-crash-course-546891a49b67)
 
 ## MLOps
 
@@ -23,6 +24,7 @@
 - [ML model deployment strategies](https://towardsdatascience.com/ml-model-deployment-strategies-72044b3c1410)
 - [MLOps lifecycles](https://towardsdatascience.com/mlops-machine-learning-lifecycle-b168cc39e52f)
 - [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
+- [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)
 
 ## os
 
@@ -45,6 +47,10 @@
 - [Ray](https://github.com/ray-project/ray)
 - [Splink: probabilistic data linkage at scale](https://moj-analytical-services.github.io/splink/index.html)
 - [Haystack: an end-to-end framework for production-ready search pipelines](https://github.com/deepset-ai/haystack)
+
+### Search engines
+
+- [Approaching Relevance Challenges in Elasticsearch Query Construction](https://towardsdatascience.com/a-site-search-engineers-journal-approaching-relevance-challenges-in-elasticsearch-query-1eca29283da5)
 
 ## Unit testing
 

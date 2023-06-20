@@ -5,6 +5,10 @@
 - [FAQs](https://code.visualstudio.com/docs/editor/integrated-terminal#_can-i-use-cmders-shell-with-the-terminal-on-windows)
 - [cmder wiki](https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration)
 
+### CLI
+
+- [CLI cheatsheet](https://towardsdatascience.com/how-to-become-a-command-line-wizard-5d78d75fbf0c)
+
 ## Code freezing
 
 - [Nativefier](https://github.com/jiahaog/nativefier)
@@ -35,6 +39,7 @@
 - [Sondaggi politico elettorali ITA](http://www.sondaggipoliticoelettorali.it/ListaSondaggi.aspx?st=SONDAGGI)
 - [Microsoft's Bing road detections](https://github.com/microsoft/RoadDetections)
 - [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)
+- [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
 
 ## Docker
 
@@ -101,6 +106,17 @@
 
 - [JSON Visio editor](https://jsonvisio.com/editor)
 
+## Large Language Models (LLM)
+
+- [ChatGPT Is An Extra-Ordinary Python Programmer](https://davidamos.dev/chatgpt-is-an-extra-ordinary-python-programmer/)
+- [StartChat Playground by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/starchat-playground)
+- [What is ChatGPT doing and why does it work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [privateGPT](https://github.com/imartinez/privateGPT)
+- [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
+- [How Foundation Model Providers Comply with the Draft EU AI Act](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
+- [A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)
+
 ## Markdown
 
 - [Stackedit](https://stackedit.io/)
@@ -156,6 +172,8 @@
 - [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
 - [Advanced SQL for Data Scientists: cube, array, window and math functions](https://allaboutdata.substack.com/p/sql-avanzato-per-data-scientists)
 - [DuckDB: open source OLAP database](https://github.com/duckdb/duckdb)
+- [Lost at SQL: the SQL learning game](https://lost-at-sql.therobinlord.com/)
+- [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 
 ## Terminal
 

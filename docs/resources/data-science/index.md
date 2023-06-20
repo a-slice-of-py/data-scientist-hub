@@ -196,6 +196,10 @@
 - [Poisson regression for football match results prediction](https://towardsdatascience.com/predicting-matches-for-the-uefa-euro-2020-championship-7dcfa449c8ee)
 - [Predicting FIFA World Cup 2022 winner](https://towardsdatascience.com/predicting-the-fifa-world-cup-2022-with-a-simple-model-using-python-6b34bdd4f2a5)
 
+## Function learning
+
+- [Adaptive: Parallel Active Learning of Mathematical Functions](https://github.com/python-adaptive/adaptive)
+
 ## Game Theory
 
 - [Game Theory intro with Python](https://towardsdatascience.com/an-introduction-to-game-theory-using-python-358c63e36e02)
@@ -294,6 +298,7 @@
 - [Monte Carlo methods](https://towardsdatascience.com/monte-carlo-methods-made-simple-91758ba58dde)
 - [Random sampling via Python decorator](https://towardsdatascience.com/python-decorators-with-data-science-random-sampling-177962cae80c)
 - [Intro to Monte Carlo methods](https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-methods-98451674018d)
+- [Simulating data with PyMC](https://www.pymc-labs.io/blog-posts/simulating-data-with-pymc/)
 
 ## Model evaluation
 
@@ -322,6 +327,7 @@
 - [Neural networks as ensembles of simpler models](https://towardsdatascience.com/a-neural-network-as-an-ensemble-of-simple-models-1f2b01a0616b)
 - [Neural networks as functions composition](https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f)
 - [N-Students learning framework](https://towardsdatascience.com/n-student-learning-fc4e452ad006)
+- [A short history of Neural Networks](https://vzocca.substack.com/p/a-short-history-of-artificial-intelligence)
 
 ## Natural Language Processing (NLP)
 
@@ -361,6 +367,7 @@
 - [Arabica and Cappuccino for text EDA](https://towardsdatascience.com/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)
 - [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)
 - [A guide to computational linguistics and conversational AI](https://pub.towardsai.net/a-guide-to-computational-linguistics-and-conversational-ai-1539a8f3113)
+- [diff-match-patch: robust algorithms to perform the operations required for synchronizing plain text](https://github.com/google/diff-match-patch)
 
 ## Objects tracking
 
@@ -390,6 +397,8 @@
 - [Animate particle swarm optimization](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
 - [ErlangC queue optimization with `pyworkforce`](https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a)
 - [Optimization heuristics](https://towardsdatascience.com/mathematical-optimization-heuristics-every-data-scientist-should-know-b26de0bd43e6)
+- [How Amazon learned to cut its cardboard waste with pioneering web-based PackOpt tool](https://www.amazon.science/latest-news/amazon-cardboard-boxes-waste-reduction)
+- [Route optimization with Python](https://towardsdatascience.com/modern-route-optimization-with-python-fea87d34288b)
 
 ### Scholarpedia
 
@@ -447,6 +456,7 @@
 - [Stats gist list: guide to jargon by Cassie Kozyrkov](https://towardsdatascience.com/stats-gist-list-an-irreverent-statisticians-guide-to-jargon-be8173df090d#5e31-a268c84a0df1-reply)
 - [Algorithmic approach to statistical testing](https://towardsdatascience.com/data-scientists-need-to-know-just-one-statistical-test-3115b2ff26fd)
 - [Kolmogorov-Smirnov test to check how data are distributed](https://towardsdatascience.com/how-is-your-data-distributed-a-practical-introduction-to-the-kolmogorov-smirnov-test-6b4fa7ba32ef)
+- [Empirical cumulative distribution: advantages over histogram for EDA](https://towardsdatascience.com/empirical-cumulative-distribution-function-the-only-plotting-tool-a-data-scientist-needs-a9976f86c718)
 
 ## Regression
 
@@ -579,6 +589,9 @@
 - [Time series forecasting with Transformers](https://huggingface.co/blog/time-series-transformers)
 - [Conformal prediction interval with scikit-learn, MAPIE and TSPIRAL](https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a)
 - [`mlforecast`: scalable machine learning based time series forecasting](https://github.com/Nixtla/statsforecast)
+- [Time Series Forecasting with Scikit-learn](https://nbviewer.org/github/ogrisel/euroscipy-2022-time-series/blob/main/plot_time_series_feature_engineering.ipynb)
+- [Time Series for Climate Change: Forecasting Energy Demand](https://towardsdatascience.com/time-series-for-climate-change-forecasting-energy-demand-79f39c24c85e)
+- [Skforecast: a Python library that eases using scikit-learn regressors as single and multi-step forecasters](https://github.com/JoaquinAmatRodrigo/skforecast)
 
 ### Prophet
 
@@ -628,6 +641,7 @@
 
 - [Prediction of severe thunderstorm events with ensemble deep learning and radar data](https://www.nature.com/articles/s41598-022-23306-6.epdf?sharing_token=q_4Df7HMTbUQ9WMLXDmpN9RgN0jAjWel9jnR3ZoTv0PCpm1rZdS5SxfJ9WBqwSAbgQmJGXDkKrluVRIpRu5eaerxSW6ScMmq3xwubkdCpbcb2KNaPEJAcl3wCRiaTYhhNtzFwkBJPbYui6dSPK8nj89oSKTo3L7ORqP8TecYV-Q%3D)
 - [Pirate weather API](https://pirateweather.net/)
+- [Meteostat Python library](https://github.com/meteostat/meteostat-python)
 
 ## XAI
 

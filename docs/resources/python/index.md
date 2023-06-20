@@ -108,6 +108,7 @@
 - [`memray` code memory profiler](https://github.com/bloomberg/memray)
 - [Custom classes supporting `with` statement and context management](https://towardsdatascience.com/what-is-behind-the-python-with-statement-89c74be3a6bd)
 - [PySnooper: a poor man's debugger](https://github.com/cool-RR/PySnooper)
+- [Improve performance with caching via `@lru_cache`](https://towardsdatascience.com/performance-fix-for-slow-python-lru-cache-f9a454776716)
 
 ## Dash
 
@@ -181,6 +182,7 @@
 - [Functions attributes](https://towardsdatascience.com/hidden-gems-of-python-76020b14e42f)
 - [Python operators module](https://towardsdatascience.com/the-unknown-features-of-pythons-operator-module-1ad9075d9536)
 - [`funcy`](https://github.com/Suor/funcy/tree/61fc6a9494199c539390a0776c43d22e127cc5a8)
+- [Lazy Evaluation Using Recursive Python Generators](https://martinheinz.dev/blog/88)
 
 ## Game development
 
@@ -270,6 +272,8 @@
 - [deepchecks](https://github.com/deepchecks/deepchecks)
 - [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
 - [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
+- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
+- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
 
 ## Numpy
 
@@ -361,6 +365,7 @@
 - [Poetry](https://towardsdatascience.com/a-guide-to-python-environment-dependency-and-package-management-conda-poetry-f5a6c48d795)
 - [Publish to PiP via Poetry](https://towardsdatascience.com/how-to-publish-your-python-package-with-just-2-commands-39ea6a400285)
 - [Publish to PiP via Poetry v2](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
+- [Pooch: a friend to fetch your data files](https://github.com/fatiando/pooch)
 
 ## Regex
 
@@ -372,6 +377,8 @@
 
 - [Pipelines with `sklearn`](https://towardsdatascience.com/introduction-to-scikit-learn-pipelines-454a7a1ad3f4)
 - [Pipeline visualization](https://towardsdatascience.com/data-science-plumbing-peeking-into-scikit-learn-pipelines-f9233ad638e)
+- [Sklearn Pipelines for the Modern ML Engineer](https://towardsdatascience.com/sklearn-pipelines-for-the-modern-ml-engineer-9-techniques-you-cant-ignore-637788f05df5)
+- [Pipeline for data preparation](https://towardsdatascience.com/simplify-your-data-preparation-with-these-4-lesser-known-scikit-learn-classes-70270c94569f)
 
 ### Extensions
 
@@ -415,6 +422,7 @@
 
 ### Components
 
+- [Ant Design Menu and Tree](https://github.com/nicedouble/StreamlitAntdComponents)
 - [Authenticator](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
 - [Barfi: a visual flow-based programming component](https://github.com/krish-adi/barfi)
 - [Bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
@@ -473,6 +481,7 @@
 - [`nox`](https://nox.thea.codes/en/stable/tutorial.html)
 - [`locust` as a test framework in pure Python](https://github.com/locustio/locust)
 - [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
+- [Python Mocking in Production](https://towardsdatascience.com/python-mocking-in-production-1924953c8a14)
 
 ## Misc utils
 

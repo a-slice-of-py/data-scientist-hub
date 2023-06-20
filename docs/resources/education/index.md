@@ -54,6 +54,7 @@
 ### Social sciences
 
 - [Automating NYC: and (en)coding inequality?](https://automating.nyc/)
+- [All The Names: Algorithmic Design and the 9/11 Memorial](https://blprnt.medium.com/all-the-names-algorithmic-design-and-the-9-11-memorial-9fdcd753057c)
 
 ## Gamification
 
@@ -107,6 +108,9 @@
 - [What is Data Engineering?](https://blog.pragmaticengineer.com/what-is-data-engineering/)
 - [Why tech writing is important](https://thisisimportant.net/topics/tech-writing/)
 - [The Data Cards Playbook: a toolkit for transparency in AI dataset documentation](https://pair-code.github.io/datacardsplaybook/)
+- [The Privileged Have Entered Their Escape Pods](https://onezero.medium.com/the-privileged-have-entered-their-escape-pods-4706b4893af7)
+- [Complessità crescente vs. management e consulenza old-style: cosa non funziona e perché](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
+- [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)
 
 ## Programming Languages
 
@@ -133,11 +137,17 @@
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
 - [Python for Data Science](https://nbviewer.org/github/gumption/Python_for_Data_Science/blob/master/Python_for_Data_Science_all.ipynb)
 - [Python learning paths](https://realpython.com/learning-paths/)
+- [Thonny: the beginner-friendly Python editor](https://realpython.com/python-thonny/)
 
 ## Quantum Computing
 
 - [Quantum computing per ottimizzazione delle reti mobili](https://www.gruppotim.it/content/tiportal/it/notiziariotecnico/edizioni-2020/n-1-2020/Quantum-Computing-ottimizzazione-delle-reti-mobili.html)
 - [Quantum computing as a field is obvious bullshit](https://scottlocklin.wordpress.com/2019/01/15/quantum-computing-as-a-field-is-obvious-bullshit/)
+
+## Regulation
+
+- [EU Artificial Intelligence Act](https://artificialintelligenceact.eu/)
+- [Legge sull'Intelligenza Artificiale](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:52021PC0206)
 
 ## Teaching
 

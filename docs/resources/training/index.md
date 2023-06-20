@@ -9,6 +9,7 @@
 - [Database Theory](https://github.com/pdm-book/community)
 - [Open Electricity Economics](http://www.open-electricity-economics.org/index.html)
 - [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
+- [The Pragmatic Programmer for Machine Learning](https://ppml.dev/index.html)
 
 ## Certifications
 
