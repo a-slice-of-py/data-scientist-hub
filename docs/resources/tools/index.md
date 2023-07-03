@@ -116,6 +116,7 @@
 - [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
 - [How Foundation Model Providers Comply with the Draft EU AI Act](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
 - [A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)
+- [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)
 
 ## Markdown
 
