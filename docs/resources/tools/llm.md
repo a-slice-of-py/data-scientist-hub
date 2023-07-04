@@ -9,3 +9,6 @@
 - [How Foundation Model Providers Comply with the Draft EU AI Act](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
 - [A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)
 - [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)
+- [Mastering Prompt Engineering](https://towardsdatascience.com/mastering-prompt-engineering-to-unleash-chatgpts-potential-9578a3fe799c)
+- [How to Run LLMs Locally](https://wandb.ai/capecape/LLMs/reports/A-Guide-on-Running-LLMs-Locally--Vmlldzo0Njg5NzMx)
+- [LangChain: Building applications with LLMs through composability](https://github.com/hwchase17/langchain)

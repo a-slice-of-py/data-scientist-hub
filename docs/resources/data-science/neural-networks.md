@@ -10,3 +10,5 @@
 - [Neural networks as functions composition](https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f)
 - [N-Students learning framework](https://towardsdatascience.com/n-student-learning-fc4e452ad006)
 - [A short history of Neural Networks](https://vzocca.substack.com/p/a-short-history-of-artificial-intelligence)
+- [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://github.com/XingangPan/DragGAN)
+- [AI Canon](https://a16z.com/2023/05/25/ai-canon/)

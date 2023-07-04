@@ -109,6 +109,7 @@
 - [Custom classes supporting `with` statement and context management](https://towardsdatascience.com/what-is-behind-the-python-with-statement-89c74be3a6bd)
 - [PySnooper: a poor man's debugger](https://github.com/cool-RR/PySnooper)
 - [Improve performance with caching via `@lru_cache`](https://towardsdatascience.com/performance-fix-for-slow-python-lru-cache-f9a454776716)
+- [The art of naming things](https://vickiboykis.com/2023/06/29/naming-things/)
 
 ## Dash
 
@@ -386,6 +387,7 @@
 - [`scikit-multilearn` for multi-label learning](https://github.com/scikit-multilearn/scikit-multilearn)
 - [`scikit-lego`](https://github.com/koaning/scikit-lego)
 - [`lazypredict`](https://github.com/shankarpandala/lazypredict)
+- [`human-learn` to rule-based learning and interactive drawing rules](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
 
 ## Standard library
 
@@ -432,6 +434,7 @@
 - [Elements for Material UI tools integration](https://github.com/okld/streamlit-elements)
 - [Extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
+- [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [Marquee banner](https://github.com/inspurer/streamlit-marquee)

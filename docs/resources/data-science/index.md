@@ -267,7 +267,6 @@
 - [Hybrid rule based ML](https://towardsdatascience.com/hybrid-rule-based-machine-learning-with-scikit-learn-9cb9841bebf2)
 - [`pycaret-2.0`](https://towardsdatascience.com/announcing-pycaret-2-0-39c11014540e)
 - [QLattice](https://medium.com/abzuai/the-qlattice-a-new-machine-learning-model-you-didnt-know-you-needed-c2e037878cd)
-- [`human-learn` library to labeling data by drawing](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
 - [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
 
@@ -328,6 +327,8 @@
 - [Neural networks as functions composition](https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f)
 - [N-Students learning framework](https://towardsdatascience.com/n-student-learning-fc4e452ad006)
 - [A short history of Neural Networks](https://vzocca.substack.com/p/a-short-history-of-artificial-intelligence)
+- [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://github.com/XingangPan/DragGAN)
+- [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
 
 ## Natural Language Processing (NLP)
 

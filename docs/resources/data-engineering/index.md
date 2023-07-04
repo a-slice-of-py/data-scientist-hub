@@ -26,6 +26,10 @@
 - [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
 - [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)
 
+## Monitoring
+
+- [SLA, SLO and SLI for data teams](https://towardsdatascience.com/its-time-to-set-sla-slo-sli-for-your-data-team-only-3-steps-ed3c93009aa5)
+
 ## os
 
 - [Tech info about operating systems](https://towardsdatascience.com/all-you-should-know-about-operating-systems-in-technical-interviews-4dcc55210fea)
