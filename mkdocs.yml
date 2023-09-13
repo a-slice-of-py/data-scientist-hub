@@ -67,8 +67,6 @@ markdown_extensions:
 plugins:
   - search
   - awesome-pages
-  - blog:
-      format: "[%Y/%m/%d]"
   - tags:
       tags_file: tags.md
   - glightbox
