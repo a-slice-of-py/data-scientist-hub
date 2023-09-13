@@ -15,3 +15,4 @@
 - [The K-armed bandit problem](https://blog.dominodatalab.com/k-armed-bandit-problem)
 - [Python packages to experiment with Reinforcement Learning](https://pub.towardsai.net/top-python-packages-for-studying-reinforcement-learning-e332e1c6e16a)
 - [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)
+- [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)

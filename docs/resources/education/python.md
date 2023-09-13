@@ -9,3 +9,4 @@
 - [Python learning paths](https://realpython.com/learning-paths/)
 - [Thonny: the beginner-friendly Python editor](https://realpython.com/python-thonny/)
 - [Learn Python with Jupyter](https://learnpythonwithjupyter.com/)
+- [pytudes](https://github.com/norvig/pytudes)

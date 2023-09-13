@@ -3,6 +3,8 @@
 ## DevOps
 
 - [Deployment Pipeline Reference Architecture (DPRA) for AWS workloads](https://pipelines.devops.aws.dev/)
+- [DevOps Essentials](https://community.aws/concepts/devops-essentials)
+- [12 DevOps Best Practices That Make Deploying on Fridays Less Scary](https://community.aws/posts/deploy-on-friday-devops-best-practices)
 
 ## Blogposts
 

@@ -1,5 +1,9 @@
 # Data Visualization
 
+## 3D
+
+- [Guide to real-time visualization of massive 3D point clouds in Python](https://towardsdatascience.com/guide-to-real-time-visualisation-of-massive-3d-point-clouds-in-python-ea6f00241ee0)
+
 ## Altair
 
 - [Multiple plots bindings with `altair`](https://towardsdatascience.com/how-to-create-bindings-and-conditions-between-multiple-plots-using-altair-4e4fe907de37)
@@ -220,6 +224,10 @@
 
 <script src="https://gist.github.com/matteocourthoud/88e6d04978bc234c79c182c8e946e4c2.js"></script>
 
+### Connected
+
+- [Connected Scatterplots Make Me Feel Dumb](https://nightingaledvs.com/connected-scatterplots-make-me-feel-dumb/)
+
 ## Seaborn
 
 - [Advanced data visualization with `seaborn`](https://towardsdatascience.com/a-step-by-step-guide-for-creating-advanced-python-data-visualizations-with-seaborn-matplotlib-1579d6a1a7d0)
@@ -229,6 +237,7 @@
 
 - [Visualization of elections with python](https://towardsdatascience.com/visualising-elections-with-python-4973c0c60bbe)
 - [How visualizing social inequality can make it worse](https://nightingaledvs.com/unfair-comparisons-how-visualizing-social-inequality-can-make-it-worse/)
+- [Beyond Numbers: How Ethical Data Visualization Tells the Human Story](https://nightingaledvs.com/ethical-data-visualization-tells-the-human-story/)
 
 ## Strip charts for time-series
 
@@ -244,6 +253,13 @@
 - [Psychology behind data visualization](https://towardsdatascience.com/the-psychology-behind-data-visualization-techniques-68ef12865720)
 - [Does data visualization have rules?](https://nightingaledvs.com/does-data-visualization-have-rules-or-is-it-all-just-it-depends/)
 - [Introduction to data visualization theory](https://towardsdatascience.com/data-visualization-theory-an-introduction-a077c0d80498)
+
+### Datawrapper Blog
+
+- [Emphasize what you want readers to see with color](https://blog.datawrapper.de/emphasize-with-color-in-data-visualizations/)
+- [What to consider when using text in data visualizations](https://blog.datawrapper.de/text-in-data-visualizations/)
+- [Which fonts to use for your charts and tables](https://blog.datawrapper.de/fonts-for-data-visualization/)
+- [How to choose an interpolation for your color scale](https://blog.datawrapper.de/interpolation-for-color-scales-and-maps/)
 
 ## Time Series visualization
 

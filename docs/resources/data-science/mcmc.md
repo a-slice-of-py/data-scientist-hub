@@ -10,3 +10,4 @@
 - [Random sampling via Python decorator](https://towardsdatascience.com/python-decorators-with-data-science-random-sampling-177962cae80c)
 - [Intro to Monte Carlo methods](https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-methods-98451674018d)
 - [Simulating data with PyMC](https://www.pymc-labs.io/blog-posts/simulating-data-with-pymc/)
+- [Mastering Monte Carlo: How to Simulate Your Way to Better Machine Learning Models](https://towardsdatascience.com/mastering-monte-carlo-how-to-simulate-your-way-to-better-machine-learning-models-6b57ec4e5514)

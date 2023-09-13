@@ -110,6 +110,7 @@
 - [PySnooper: a poor man's debugger](https://github.com/cool-RR/PySnooper)
 - [Improve performance with caching via `@lru_cache`](https://towardsdatascience.com/performance-fix-for-slow-python-lru-cache-f9a454776716)
 - [The art of naming things](https://vickiboykis.com/2023/06/29/naming-things/)
+- [Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals](https://github.com/plasma-umass/scalene)
 
 ## Dash
 
@@ -184,6 +185,7 @@
 - [Python operators module](https://towardsdatascience.com/the-unknown-features-of-pythons-operator-module-1ad9075d9536)
 - [`funcy`](https://github.com/Suor/funcy/tree/61fc6a9494199c539390a0776c43d22e127cc5a8)
 - [Lazy Evaluation Using Recursive Python Generators](https://martinheinz.dev/blog/88)
+- [Writing Python like it's Rust](https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html)
 
 ## Game development
 
@@ -421,6 +423,7 @@
 - [Prototyping Streamlit app via Figma](https://discuss.streamlit.io/t/prototype-your-app-in-figma/32560) and [figma-to-streamlit plugin](https://blog.streamlit.io/announcing-the-figma-to-streamlit-plugin/)
 - [Streamlit type checking playground with mypy](https://github.com/harahu/streamlit-typing-example)
 - [Creating repeatable elements](https://medium.com/streamlit/creating-repeatable-items-in-streamlit-cb8b6264e1e6)
+- [Data analysis with Mito: a powerful spreadsheet in Streamlit](https://blog.streamlit.io/data-analysis-with-mito-a-powerful-spreadsheet-in-streamlit/)
 
 ### Components
 
@@ -435,12 +438,14 @@
 - [Extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
+- [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [Marquee banner](https://github.com/inspurer/streamlit-marquee)
 - [Option menù](https://github.com/victoryhb/streamlit-option-menu)
 - [Pyvista for 3D objects visualization](https://discuss.streamlit.io/t/stpyvista-show-pyvista-3d-visualizations-in-streamlit/31802/4)
 - [Raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
+- [RevealJS slides](https://github.com/bouzidanas/streamlit-reveal-slides)
 - [SHAP](https://github.com/snehankekre/streamlit-shap)
 - [Sortables](https://github.com/ohtaman/streamlit-sortables)
 - [Star rating](https://github.com/flucas96/streamlit_star_rating)
@@ -448,6 +453,7 @@
 - [Timeline](https://github.com/giswqs/streamlit-timeline-demo)
 - [Toggle switch](https://discuss.streamlit.io/t/streamlit-toggle-switch/32474)
 - [Tree-shaped nested selectbox component](https://github.com/Schluca/streamlit_tree_select)
+- [User feedback](https://github.com/trubrics/streamlit-feedback)
 - [Vizzu](https://github.com/avrabyt/Streamlit-ipyvizzu)
 - [Vertical slider](https://github.com/sqlinsights/streamlit-vertical-slider)
 

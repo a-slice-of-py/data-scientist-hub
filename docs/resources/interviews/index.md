@@ -35,6 +35,10 @@
 
 - [PyCon Italia](https://pycon.it/it/call-for-proposals)
 
+## Jobs
+
+- [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
+
 ## Negotiation
 
 - [Ten rules for negotiating](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)

@@ -18,6 +18,7 @@
 - [Optimization heuristics](https://towardsdatascience.com/mathematical-optimization-heuristics-every-data-scientist-should-know-b26de0bd43e6)
 - [How Amazon learned to cut its cardboard waste with pioneering web-based PackOpt tool](https://www.amazon.science/latest-news/amazon-cardboard-boxes-waste-reduction)
 - [Route optimization with Python](https://towardsdatascience.com/modern-route-optimization-with-python-fea87d34288b)
+- [The Vehicle Routing Problem: Exact and Heuristic Solutions](https://towardsdatascience.com/the-vehicle-routing-problem-exact-and-heuristic-solutions-c411c0f4d734)
 
 ## Scholarpedia
 

@@ -14,3 +14,4 @@
 - [Microsoft's Bing road detections](https://github.com/microsoft/RoadDetections)
 - [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)
 - [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
+- [Folktables](https://github.com/socialfoundations/folktables)

@@ -37,3 +37,5 @@
 - [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)
 - [A guide to computational linguistics and conversational AI](https://pub.towardsai.net/a-guide-to-computational-linguistics-and-conversational-ai-1539a8f3113)
 - [diff-match-patch: robust algorithms to perform the operations required for synchronizing plain text](https://github.com/google/diff-match-patch)
+- [Advanced Topic Modeling with BERTopic](https://www.pinecone.io/learn/bertopic/)
+- [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)

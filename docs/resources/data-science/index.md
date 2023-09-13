@@ -170,6 +170,8 @@
 ## Dynamic pricing
 
 - [Dynamic pricing for theatre](https://towardsdatascience.com/statistics-for-dynamic-pricing-of-theatre-87df073a0848)
+- [Regression for price optimization](https://towardsdatascience.com/optimizing-product-price-using-regression-2c17688e65ea)
+- [Dynamic Pricing with Reinforcement Learning from Scratch: Q-Learning](https://towardsdatascience.com/dynamic-pricing-with-reinforcement-learning-from-scratch-q-learning-fb3fb764da49)
 
 ## Energy and Power Systems
 
@@ -230,6 +232,7 @@
 - [Travel time estimatione using quadkeys](https://towardsdatascience.com/travel-time-estimation-using-quadkeys-ecf6d54823b4)
 - [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
 - [Geocoding via Geoapify](https://github.com/huels-originals/geobatchpy)
+- [Geospatial Data Engineering: Spatial Indexing](https://towardsdatascience.com/geospatial-data-engineering-spatial-indexing-18200ef9160b)
 
 ## Gradient methods
 
@@ -269,10 +272,12 @@
 - [QLattice](https://medium.com/abzuai/the-qlattice-a-new-machine-learning-model-you-didnt-know-you-needed-c2e037878cd)
 - [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
+- [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
 
 ## Marketing Analytics
 
 - [Beginner guide to Marketing Analytics](https://towardsdatascience.com/data-science-in-marketing-a-beginners-guide-f23423d2ee68)
+- [Discrete-Time Markov Chains: Identifying Winning Customer Journeys in a Cashback Campaign](https://pub.towardsai.net/discrete-time-markov-chains-identifying-winning-customer-journeys-in-a-cashback-campaign-39b62eb8a6fe)
 
 ## Markov Chains
 
@@ -298,6 +303,7 @@
 - [Random sampling via Python decorator](https://towardsdatascience.com/python-decorators-with-data-science-random-sampling-177962cae80c)
 - [Intro to Monte Carlo methods](https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-methods-98451674018d)
 - [Simulating data with PyMC](https://www.pymc-labs.io/blog-posts/simulating-data-with-pymc/)
+- [Mastering Monte Carlo: How to Simulate Your Way to Better Machine Learning Models](https://towardsdatascience.com/mastering-monte-carlo-how-to-simulate-your-way-to-better-machine-learning-models-6b57ec4e5514)
 
 ## Model evaluation
 
@@ -369,6 +375,8 @@
 - [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)
 - [A guide to computational linguistics and conversational AI](https://pub.towardsai.net/a-guide-to-computational-linguistics-and-conversational-ai-1539a8f3113)
 - [diff-match-patch: robust algorithms to perform the operations required for synchronizing plain text](https://github.com/google/diff-match-patch)
+- [Advanced Topic Modeling with BERTopic](https://www.pinecone.io/learn/bertopic/)
+- [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
 
 ## Objects tracking
 
@@ -400,6 +408,7 @@
 - [Optimization heuristics](https://towardsdatascience.com/mathematical-optimization-heuristics-every-data-scientist-should-know-b26de0bd43e6)
 - [How Amazon learned to cut its cardboard waste with pioneering web-based PackOpt tool](https://www.amazon.science/latest-news/amazon-cardboard-boxes-waste-reduction)
 - [Route optimization with Python](https://towardsdatascience.com/modern-route-optimization-with-python-fea87d34288b)
+- [The Vehicle Routing Problem: Exact and Heuristic Solutions](https://towardsdatascience.com/the-vehicle-routing-problem-exact-and-heuristic-solutions-c411c0f4d734)
 
 ### Scholarpedia
 
@@ -414,10 +423,6 @@
 ## Physics
 
 - [From physics to optimization](https://towardsdatascience.com/how-to-turn-physics-into-an-optimization-problem-11b3fbf83062)
-
-## Price optimization
-
-- [Regression for price optimization](https://towardsdatascience.com/optimizing-product-price-using-regression-2c17688e65ea)
 
 ## Probability & Statistics
 
@@ -496,6 +501,7 @@
 - [The K-armed bandit problem](https://blog.dominodatalab.com/k-armed-bandit-problem)
 - [Python packages to experiment with Reinforcement Learning](https://pub.towardsai.net/top-python-packages-for-studying-reinforcement-learning-e332e1c6e16a)
 - [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)
+- [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)
 
 ## Resampling
 
@@ -593,6 +599,7 @@
 - [Time Series Forecasting with Scikit-learn](https://nbviewer.org/github/ogrisel/euroscipy-2022-time-series/blob/main/plot_time_series_feature_engineering.ipynb)
 - [Time Series for Climate Change: Forecasting Energy Demand](https://towardsdatascience.com/time-series-for-climate-change-forecasting-energy-demand-79f39c24c85e)
 - [Skforecast: a Python library that eases using scikit-learn regressors as single and multi-step forecasters](https://github.com/JoaquinAmatRodrigo/skforecast)
+- [Time series complexity analysis using entropy](https://towardsdatascience.com/time-series-complexity-analysis-using-entropy-ec49a4aaff11)
 
 ### Prophet
 
