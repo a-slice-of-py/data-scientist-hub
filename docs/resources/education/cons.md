@@ -14,3 +14,4 @@
 - [Data Scientists will be extinct before 2030](https://towardsdatascience.com/data-scientists-will-be-extinct-in-10-years-a6e5dd77162b)
 - [Things you are not told about data science](https://towardsdatascience.com/10-things-you-are-not-told-about-data-science-3460636feeb1)
 - [Reasons to quit being a data scientist](https://towardsdatascience.com/today-i-quit-data-sciences-here-are-7-reasons-why-15c29e51d032)
+- [What we talk about when we talk about imposter syndrome](https://stackoverflow.blog/2023/09/11/what-we-talk-about-when-we-talk-about-imposter-syndrome/)

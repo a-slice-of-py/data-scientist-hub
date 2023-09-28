@@ -48,3 +48,5 @@
 - [The Privileged Have Entered Their Escape Pods](https://onezero.medium.com/the-privileged-have-entered-their-escape-pods-4706b4893af7)
 - [Complessità crescente vs. management e consulenza old-style: cosa non funziona e perché](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
 - [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)
+- [The Real Problem with Software Development: It’s not writing code, it’s managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
+- [Il curioso caso Orosz vs. McKinsey: Come misurare gli sviluppatori e una riflessione sull'autorevolezza](https://allaboutdata.substack.com/p/il-curioso-caso-orosz-vs-mckinsey)

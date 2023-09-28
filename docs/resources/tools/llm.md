@@ -20,3 +20,8 @@
 - [Understand how BERT constructs state-of-the-art embeddings](https://towardsdatascience.com/bert-3d1bf880386a)
 - [codellama](https://github.com/facebookresearch/codellama)
 - [NLP tasks via LLM](https://towardsdatascience.com/natural-language-processing-for-absolute-beginners-a195549a3164)
+- [From encoding to embeddings](https://towardsdatascience.com/from-encodings-to-embeddings-5b59bceef094)
+- [Large Language Models: Sentence-BERT](https://towardsdatascience.com/sbert-deb3d4aef8a4)
+- [Methods For Improving Your Large Language Model](https://towardsdatascience.com/3-easy-methods-for-improving-your-large-language-model-68670fde9ffa)
+- [Vector Databases and How to Use Them to Augment LLM](https://towardsdatascience.com/all-you-need-to-know-about-vector-databases-and-how-to-use-them-to-augment-your-llm-apps-596f39adfedb)
+- [Large Language Models: RoBERTa, a Robustly Optimized BERT Approach](https://towardsdatascience.com/roberta-1ef07226c8d8)

@@ -9,3 +9,4 @@
 - [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
 - [The Pragmatic Programmer for Machine Learning](https://ppml.dev/index.html)
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
+- [Python4DS](https://aeturrell.github.io/python4DS/welcome.html)

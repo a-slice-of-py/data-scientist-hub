@@ -255,7 +255,7 @@ This solution depends on `python-dotenv`, `loguru` and `icecream`: with the foll
 The above setup also prevents from dangling `ic()` calls accidentally left into production code, without the need of [verbose try-except](https://github.com/gruns/icecream#import-tricks).
 
 ??? Example
-    
+
     Let's define a test function:
 
     ```python
@@ -276,7 +276,6 @@ The above setup also prevents from dangling `ic()` calls accidentally left into 
     >>> print(test([1, 2]))
     2022-10-19 10:20:28.588 | DEBUG | my_library:<lambda>:50 - my_script.py:1 - test([1, 2]): '1, 2'
     ```
-
 
 ## `timed`
 
@@ -344,4 +343,30 @@ def validate_type_annotations(func: Callable) -> Callable:
             except Exception as e:
                 logger.exception(e.__class__.__name__)
     return wrapper
+```
+
+## `xray`
+
+!!! info
+    Full credits to [Samuele Mazzanti's gist](https://gist.github.com/smazzanti/99c1e01c132166477ac7f987e88ae1c3).
+
+```
+def xray(var):
+    """Return name of variable and its state,
+        for logging purposes."""
+    
+    import inspect, re
+
+    string = inspect.getframeinfo(
+        inspect.getouterframes(
+        inspect.currentframe()
+        )[1][0]).code_context[0]
+    
+    lpar = [m.start() for m in re.finditer(pattern="\(", string=string)]
+    rpar = [m.start() for m in re.finditer(pattern="\)", string=string)]
+    ipar = lpar.index(string.find("xray(")+4)
+        
+    varname = string[lpar[ipar]+1:rpar[-ipar-1]]
+    
+    return f'{varname}: {var}'
 ```

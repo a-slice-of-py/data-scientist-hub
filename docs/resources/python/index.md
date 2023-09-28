@@ -431,6 +431,7 @@
 - [Authenticator](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
 - [Barfi: a visual flow-based programming component](https://github.com/krish-adi/barfi)
 - [Bokeh events](https://github.com/ash2shukla/streamlit-bokeh-events)
+- [Calendar](https://github.com/im-perativa/streamlit-calendar)
 - [Component for chat UI](https://github.com/AI-Yash/st-chat)
 - [Datalist](https://discuss.streamlit.io/t/new-component-streamlit-datalist/32931)
 - [Drawable canvas](https://github.com/andfanilo/streamlit-drawable-canvas)

@@ -30,6 +30,8 @@
 - [The Staff Engineer path](https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path)
 - [The Best Learning Paths for AI and Data Leadership](https://towardsdatascience.com/the-best-learning-paths-for-ai-and-data-leadership-fabc3d4f8e36)
 - [The Engineering Ladder: AgileLab way to provide people a professional growth path](https://handbook.agilelab.it/EngineeringLadder.html)
+- [From MSc thesis to Lead Data Scientist](https://www.edgarbahilo.com/from-msc-thesis-to-lead-data-scientist/)
+- [A comprehensive guide to designing your technical career](https://www.linkedin.com/pulse/comprehensive-guide-designing-your-technical-career-github)
 
 ## Conferences
 

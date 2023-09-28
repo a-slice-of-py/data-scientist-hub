@@ -25,6 +25,7 @@
 - [Data Scientists will be extinct before 2030](https://towardsdatascience.com/data-scientists-will-be-extinct-in-10-years-a6e5dd77162b)
 - [Things you are not told about data science](https://towardsdatascience.com/10-things-you-are-not-told-about-data-science-3460636feeb1)
 - [Reasons to quit being a data scientist](https://towardsdatascience.com/today-i-quit-data-sciences-here-are-7-reasons-why-15c29e51d032)
+- [What we talk about when we talk about imposter syndrome](https://stackoverflow.blog/2023/09/11/what-we-talk-about-when-we-talk-about-imposter-syndrome/)
 
 ## Data, Art & Science
 
@@ -111,6 +112,8 @@
 - [The Privileged Have Entered Their Escape Pods](https://onezero.medium.com/the-privileged-have-entered-their-escape-pods-4706b4893af7)
 - [Complessità crescente vs. management e consulenza old-style: cosa non funziona e perché](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
 - [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)
+- [The Real Problem with Software Development: It’s not writing code, it’s managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
+- [Il curioso caso Orosz vs. McKinsey: Come misurare gli sviluppatori e una riflessione sull'autorevolezza](https://allaboutdata.substack.com/p/il-curioso-caso-orosz-vs-mckinsey)
 
 ## Programming Languages
 

@@ -16,3 +16,4 @@
 - [Python packages to experiment with Reinforcement Learning](https://pub.towardsai.net/top-python-packages-for-studying-reinforcement-learning-e332e1c6e16a)
 - [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)
 - [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)
+- [Training an Agent to Master Tic-Tac-Toe Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-tic-tac-toe-through-self-play-72038c3f33f7)
