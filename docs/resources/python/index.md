@@ -111,6 +111,7 @@
 - [Improve performance with caching via `@lru_cache`](https://towardsdatascience.com/performance-fix-for-slow-python-lru-cache-f9a454776716)
 - [The art of naming things](https://vickiboykis.com/2023/06/29/naming-things/)
 - [Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals](https://github.com/plasma-umass/scalene)
+- [Generates call graphs for dynamic programming language](https://github.com/scottrogowski/code2flow)
 
 ## Dash
 
@@ -171,6 +172,11 @@
 - [`diagrams` as code](https://diagrams.mingrammer.com/)
 - [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
 
+### mkdocs
+
+- [mktestdocs: run pytest against markdown files/docstrings](https://github.com/koaning/mktestdocs)
+- [mkdocs-jupyter: use Jupyter Notebooks in mkdocs](https://github.com/danielfrg/mkdocs-jupyter)
+
 ## DTale
 
 - [`dtale`](https://towardsdatascience.com/introduction-to-d-tale-5eddd81abe3f)
@@ -193,6 +199,12 @@
 - [Traffic intersection simulation](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a)
 - [A primer on game programming](https://realpython.com/pygame-a-primer/)
 - [Build Tic-Tac-Toe with Python](https://realpython.com/tic-tac-toe-python/)
+- [Build a Tic-Tac-Toe Game Engine With an AI Player in Python](https://realpython.com/tic-tac-toe-ai-python/)
+
+## GUI
+
+- [Toga: a Python native, OS native GUI toolkit](https://github.com/beeware/toga)
+- [Textual: a Rapid Application Development framework for Python](https://github.com/textualize/textual/)
 
 ## Holidays
 
@@ -229,6 +241,7 @@
 - [Notebook cells output strip out with `nbstripout`](https://github.com/kynan/nbstripout)
 - [In and Out variables and %store magic command](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
+- [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
 
 ## Logging
 
@@ -369,6 +382,8 @@
 - [Publish to PiP via Poetry](https://towardsdatascience.com/how-to-publish-your-python-package-with-just-2-commands-39ea6a400285)
 - [Publish to PiP via Poetry v2](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
 - [Pooch: a friend to fetch your data files](https://github.com/fatiando/pooch)
+- [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
+- [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
 
 ## Regex
 
@@ -416,7 +431,7 @@
 - [Sync session state and app url via query params](https://blog.streamlit.io/how-streamlit-uses-streamlit-sharing-contextual-apps/)
 - [Table of contents in Streamlit](https://github.com/arnaudmiribel/stoc)
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
-- [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
+- [Stlite: streamlit app running in browser](https://github.com/whitphx/stlite)
 - [Streamlit book](https://github.com/sebastiandres/streamlit_book/)
 - [Streamlit-Pydantic: auto-generate Streamlit UI elements from Pydantic models](https://github.com/LukasMasuch/streamlit-pydantic)
 - [Package Streamlit into an Electron desktop app](https://discuss.streamlit.io/t/streamlit-wasm-electron-desktop-app/31655)
@@ -424,6 +439,9 @@
 - [Streamlit type checking playground with mypy](https://github.com/harahu/streamlit-typing-example)
 - [Creating repeatable elements](https://medium.com/streamlit/creating-repeatable-items-in-streamlit-cb8b6264e1e6)
 - [Data analysis with Mito: a powerful spreadsheet in Streamlit](https://blog.streamlit.io/data-analysis-with-mito-a-powerful-spreadsheet-in-streamlit/)
+- [Simplifying generative AI workflows](https://blog.streamlit.io/simplifying-generative-ai-workflows/)
+- [Streamlit Contact Form Template](https://github.com/jlnetosci/streamlit-contact-form)
+- [Search grid for a Pandas DataFrame](https://github.com/sqlinsights/df-global-search/tree/main)
 
 ### Components
 
@@ -497,6 +515,7 @@
 
 - [Barcodes, captcha and num2words](https://levelup.gitconnected.com/10-fantastic-python-packages-af2a16a1183a)
 - [Barcode generation with Python](https://towardsdatascience.com/generate-barcode-using-python-2da187f46954)
+- [Modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 
 ## Python versions
 
@@ -514,10 +533,12 @@
 ## Web Framework
 
 - [10 Python web frameworks](https://towardsdatascience.com/my-favorite-python-web-frameworks-for-2021-a255fde2cd68)
+- [Reflex: performant, customizable web apps in pure Python](https://github.com/reflex-dev/reflex)
 
 ## Web scraping
 
 - [Comparison between `BeatifulSoup`, `selenium` and `scrapy`](https://towardsdatascience.com/web-scraping-with-beautiful-soup-selenium-or-scrapy-62c6f3545de7)
+- [trafilatura: a Python package and command-line tool to gather text on the Web](https://github.com/adbar/trafilatura)
 
 ## Whatsapp
 

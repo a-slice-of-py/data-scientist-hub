@@ -47,3 +47,4 @@
 - [Improve performance with caching via `@lru_cache`](https://towardsdatascience.com/performance-fix-for-slow-python-lru-cache-f9a454776716)
 - [The art of naming things](https://vickiboykis.com/2023/06/29/naming-things/)
 - [Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals](https://github.com/plasma-umass/scalene)
+- [Generates call graphs for dynamic programming language](https://github.com/scottrogowski/code2flow)

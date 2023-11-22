@@ -57,6 +57,13 @@
 - [Time Series for Climate Change: Forecasting Energy Demand](https://towardsdatascience.com/time-series-for-climate-change-forecasting-energy-demand-79f39c24c85e)
 - [Skforecast: a Python library that eases using scikit-learn regressors as single and multi-step forecasters](https://github.com/JoaquinAmatRodrigo/skforecast)
 - [Time series complexity analysis using entropy](https://towardsdatascience.com/time-series-complexity-analysis-using-entropy-ec49a4aaff11)
+- [`functime` is a powerful Python library for production-ready global forecasting and time-series feature extraction on large panel datasets](https://github.com/TracecatHQ/functime)
+- [Feature Engineering for Time Series Regression](https://towardsdatascience.com/false-prophet-feature-engineering-for-a-homemade-time-series-regression-part-1-of-2-52d9df3d930d)
+- [TimeGPT: The First Foundation Model for Time Series Forecasting](https://towardsdatascience.com/timegpt-the-first-foundation-model-for-time-series-forecasting-bf0a75e63b3a)
+- [Group time-series split](https://www.kaggle.com/code/jorijnsmit/found-the-holy-grail-grouptimeseriessplit)
+- [Feature Engineering for Time Series](https://towardsdatascience.com/three-approaches-to-feature-engineering-for-time-series-2123069567be)
+- [TSMixer: The Latest Forecasting Model by Google](https://towardsdatascience.com/tsmixer-the-latest-forecasting-model-by-google-2fd1e29a8ccb)
+- [`tsfresh`: Time Series Feature extraction based on scalable hypothesis tests](https://github.com/blue-yonder/tsfresh)
 
 ## Prophet
 

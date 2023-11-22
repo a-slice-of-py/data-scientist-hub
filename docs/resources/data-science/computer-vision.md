@@ -5,3 +5,4 @@
 - [`scikit-image` for image processing](https://scikit-image.org/)
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
+- [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)

@@ -6,3 +6,4 @@
 - [Features normally distributed](https://towardsdatascience.com/what-if-the-exam-marks-are-not-normally-distributed-67e2d2d56286)
 - [How and Why](https://towardsdatascience.com/feature-importance-hows-and-why-s-3678ede1e58f)
 - [Feast: an open source feature store for machine learning](https://github.com/feast-dev/feast)
+- [Shapicant: a feature selection package based on SHAP and target permutation, for pandas and Spark](https://github.com/manuel-calzolari/shapicant)

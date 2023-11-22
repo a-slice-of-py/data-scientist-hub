@@ -12,6 +12,7 @@
 - [The Pragmatic Programmer for Machine Learning](https://ppml.dev/index.html)
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
 - [Python4DS](https://aeturrell.github.io/python4DS/welcome.html)
+- [The Data Engineering Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 
 ## Certifications
 
@@ -38,6 +39,11 @@
 - [Google ML](https://developers.google.com/machine-learning)
 - [Applied Machine Learning (Cornell Tech University)](https://www.youtube.com/playlist?list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83) and its [repo](https://github.com/kuleshov/cornell-cs5785-2020-applied-ml)
 - [Introduction to data-centric A.I.](https://dcai.csail.mit.edu/)
+
+## Open Source Heroes
+
+- [koaning](https://github.com/koaning)
+- [MaartenGr](https://github.com/MaartenGr)
 
 ## Learning Path
 
@@ -68,6 +74,7 @@
 ## Academic papers
 
 - [Papers we love: learning more about academic computer science papers](https://github.com/papers-we-love/papers-we-love)
+- [Papers with code](https://paperswithcode.com/)
 
 ## Schools
 

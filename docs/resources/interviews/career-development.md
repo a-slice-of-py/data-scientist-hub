@@ -30,3 +30,6 @@
 - [The Engineering Ladder: AgileLab way to provide people a professional growth path](https://handbook.agilelab.it/EngineeringLadder.html)
 - [From MSc thesis to Lead Data Scientist](https://www.edgarbahilo.com/from-msc-thesis-to-lead-data-scientist/)
 - [A comprehensive guide to designing your technical career](https://www.linkedin.com/pulse/comprehensive-guide-designing-your-technical-career-github)
+- [Decoding the Data Scientist Hierarchy From Junior to Senior: What Sets Them Apart?](https://towardsdatascience.com/decoding-the-data-scientist-hierarchy-from-junior-to-senior-what-sets-them-apart-566158a0d5ff)
+- [How to get promoted](https://towardsdatascience.com/i-got-promoted-71b6c87e4f0b)
+- [Elevate Your Data Science Career: How to become a Senior Data Scientist](https://towardsdatascience.com/elevate-your-data-science-career-how-to-become-a-senior-data-scientist-5d7546d060e2)

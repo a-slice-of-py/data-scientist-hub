@@ -10,3 +10,4 @@
 - [The Pragmatic Programmer for Machine Learning](https://ppml.dev/index.html)
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
 - [Python4DS](https://aeturrell.github.io/python4DS/welcome.html)
+- [The Data Engineering Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)

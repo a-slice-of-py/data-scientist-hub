@@ -66,6 +66,10 @@
 - [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
 
+### AWS S3
+
+- [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
+
 ### AWS SageMaker
 
 - [KNN on SageMaker](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/k_nearest_neighbors_covtype/k_nearest_neighbors_covtype.ipynb)
@@ -73,6 +77,7 @@
 - [Automatic canary releases for ML models](https://towardsdatascience.com/automatic-canary-releases-for-machine-learning-models-38874a756f87)
 - [Cross-validation via SageMaker and Step functions](https://towardsdatascience.com/cross-validate-your-machine-learning-model-with-sagemaker-and-step-functions-6610e9c6ab32?source=social.tw)
 - [Run custom model via SageMaker (e.g. OR-Tools solver)](https://github.com/aws-samples/wastecollector-planner/blob/main/Sagemaker/Using%20Sagemaker-OR-Tools.ipynb)
+- [Automating ML Training on AWS](https://towardsdatascience.com/pipeline-dreams-automating-ml-training-on-aws-8e90a33061fd)
 
 ### AWS Shell
 

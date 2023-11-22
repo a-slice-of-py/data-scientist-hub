@@ -15,3 +15,4 @@
 - [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)
 - [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
 - [Folktables](https://github.com/socialfoundations/folktables)
+- [The official portal for European data](https://data.europa.eu/en)

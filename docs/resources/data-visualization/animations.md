@@ -13,3 +13,4 @@
 - [`ipyvizzu`](https://github.com/vizzuhq/ipyvizzu)
 - [Manim step by step intro](https://towardsdatascience.com/how-to-create-slick-math-animations-like-3blue1brown-in-python-457f74701f68)
 - [Visualizing the shockwave propagation of Tonga vulcano eruption](https://towardsdatascience.com/tonga-volcano-visualizing-the-shockwave-propagation-75dcfbadef76)
+- [ManimML: animations and visualizations of common machine learning concepts](https://github.com/helblazer811/ManimML)

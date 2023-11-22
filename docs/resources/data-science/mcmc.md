@@ -11,3 +11,5 @@
 - [Intro to Monte Carlo methods](https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-methods-98451674018d)
 - [Simulating data with PyMC](https://www.pymc-labs.io/blog-posts/simulating-data-with-pymc/)
 - [Mastering Monte Carlo: How to Simulate Your Way to Better Machine Learning Models](https://towardsdatascience.com/mastering-monte-carlo-how-to-simulate-your-way-to-better-machine-learning-models-6b57ec4e5514)
+- [Chaospy: a numerical toolbox for performing uncertainty quantification using polynomial chaos expansions and advanced Monte Carlo methods](https://github.com/jonathf/chaospy)
+- [PyMC-Marketing: Bayesian Marketing Mix Modeling (MMM) & Customer Lifetime Value (CLV)](https://github.com/pymc-labs/pymc-marketing)

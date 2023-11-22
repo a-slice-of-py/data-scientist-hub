@@ -130,6 +130,7 @@
 - [Pluto notebook for Julia](https://towardsdatascience.com/reactive-data-analysis-with-julia-in-pluto-notebooks-b4652defd03e)
 - [Mint language](https://stackoverflow.blog/2021/03/29/mint-a-new-language-designed-for-building-single-page-applications/)
 - [Calmcode](https://calmcode.io/)
+- [From Python to Julia: An Ultimate Guide](https://python.plainenglish.io/from-python-to-julia-an-ultimate-guide-244fd3dc35c6)
 
 ## Python
 
@@ -143,6 +144,7 @@
 - [Thonny: the beginner-friendly Python editor](https://realpython.com/python-thonny/)
 - [Learn Python with Jupyter](https://learnpythonwithjupyter.com/)
 - [pytudes](https://github.com/norvig/pytudes)
+- [Advanced Python Mastery: an exercise-driven course](https://github.com/dabeaz-course/python-mastery)
 
 ## Quantum Computing
 

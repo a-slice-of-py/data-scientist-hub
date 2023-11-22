@@ -23,6 +23,7 @@
 - [`ipyvizzu`](https://github.com/vizzuhq/ipyvizzu)
 - [Manim step by step intro](https://towardsdatascience.com/how-to-create-slick-math-animations-like-3blue1brown-in-python-457f74701f68)
 - [Visualizing the shockwave propagation of Tonga vulcano eruption](https://towardsdatascience.com/tonga-volcano-visualizing-the-shockwave-propagation-75dcfbadef76)
+- [ManimML: animations and visualizations of common machine learning concepts](https://github.com/helblazer811/ManimML)
 
 ## BI tools
 
@@ -98,6 +99,7 @@
 - [ML concepts interactively](https://towardsdatascience.com/learn-machine-learning-concepts-interactively-6c3f64518da2)
 - [The 10-20-30 rule](https://guykawasaki.com/the_102030_rule/)
 - [365 days in data-viz](https://towardsdatascience.com/i-studied-365-data-visualizations-in-2020-ac1e0fc9799c)
+- [Visual and interactive explorables data-stories](https://yizhe-ang.github.io/)
 
 ## Datashader
 
@@ -253,6 +255,7 @@
 - [Psychology behind data visualization](https://towardsdatascience.com/the-psychology-behind-data-visualization-techniques-68ef12865720)
 - [Does data visualization have rules?](https://nightingaledvs.com/does-data-visualization-have-rules-or-is-it-all-just-it-depends/)
 - [Introduction to data visualization theory](https://towardsdatascience.com/data-visualization-theory-an-introduction-a077c0d80498)
+- [Data Visualization guidelines from `data.europa.eu`](https://data.europa.eu/apps/data-visualisation-guide/)
 
 ### Datawrapper Blog
 

@@ -10,3 +10,8 @@
 - [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
 - [Geocoding via Geoapify](https://github.com/huels-originals/geobatchpy)
 - [Geospatial Data Engineering: Spatial Indexing](https://towardsdatascience.com/geospatial-data-engineering-spatial-indexing-18200ef9160b)
+- [Proximity Analysis: a few words about spatial data processing](https://towardsdatascience.com/proximity-analysis-to-find-the-nearest-bar-using-python-a29d29a3754d)
+- [Deep Dive into ESA's Sentinel API](https://towardsdatascience.com/deep-dive-into-esas-sentinel-api-e6ff4f9d0730)
+- [Geospatial Analysis and Representation for Data Science course for the master in Data Science University of Trento](https://napo.github.io/geospatial_course_unitn/)
+- [Overture Maps Data Repo](https://github.com/OvertureMaps/data)
+- [3D Geospatial Data Integration with Python: The Ultimate Guide](https://towardsdatascience.com/3d-spatial-data-integration-with-python-7ef8ef14589a)

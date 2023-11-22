@@ -39,6 +39,7 @@
 - [Jupyter Book](https://jupyterbook.org/intro.html)
 - [Private documentation](https://github.com/readme/guides/private-documentation)
 - [Example personal website](https://federicodecillia.github.io/)
+- [Come scrivere una newsletter di successo](https://scrollinginfinito.substack.com/p/come-scrivere-una-newsletter-di-successo?r=vt52)
 
 ## Resume
 

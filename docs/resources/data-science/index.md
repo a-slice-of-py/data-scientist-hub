@@ -7,6 +7,7 @@
 - [Fundamentals of A/B testing](https://towardsdatascience.com/data-science-fundamentals-a-b-testing-cb371ceecc27)
 - [Netflix: interpreting A/B testing results part 1](https://netflixtechblog.com/interpreting-a-b-test-results-false-positives-and-statistical-significance-c1522d0db27a)
 - [Netflix: interpreting A/B testing results part 2](https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8)
+- [How to Accurately Test Significance with Difference in Difference Models](https://engineering.atspotify.com/2023/09/how-to-accurately-test-significance-with-difference-in-difference-models/)
 
 ## Anomaly detection
 
@@ -48,6 +49,8 @@
 - [Bayesian state space model with `pymc3`](https://towardsdatascience.com/first-bayesian-state-space-model-with-pymc3-51cbb06ef8bd)
 - [Bayesian inference and MCMC variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
 - [`bambi` for Bayesian Model Building Interface](https://github.com/bambinos/bambi)
+- [How to be less wrong: a Bayesian's guide to predicting the future with limited data](https://towardsdatascience.com/how-to-be-less-wrong-5d6632a08f)
+- [bnlearn: a library for Bayesian network learning and inference](https://github.com/erdogant/bnlearn)
 
 ## Bin Packing 
 
@@ -129,6 +132,7 @@
 ## Community detection
 
 - [Louvain algorithm for community detection](https://towardsdatascience.com/louvains-algorithm-for-community-detection-in-python-95ff7f675306)
+- [Decoding the Manhattan Project's Network](https://towardsdatascience.com/decoding-the-manhattan-projects-network-unveiling-science-collaboration-and-human-legacy-418164a2b416)
 
 ## Computer Vision
 
@@ -137,6 +141,7 @@
 - [`scikit-image` for image processing](https://scikit-image.org/)
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
+- [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)
 
 ## Correlation
 
@@ -173,6 +178,12 @@
 - [Regression for price optimization](https://towardsdatascience.com/optimizing-product-price-using-regression-2c17688e65ea)
 - [Dynamic Pricing with Reinforcement Learning from Scratch: Q-Learning](https://towardsdatascience.com/dynamic-pricing-with-reinforcement-learning-from-scratch-q-learning-fb3fb764da49)
 
+## Embeddings
+
+- [Embetter: scikit-learn compatible embeddings for computer vision and text](https://github.com/koaning/embetter)
+- [An intuitive introduction to text embeddings](https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings)
+- [The Hidden World of (Vector) Indexes](https://towardsdatascience.com/the-hidden-world-of-vector-indexes-f320a626c3dd)
+
 ## Energy and Power Systems
 
 - [PyPSA: Python for Power System Analysis](https://pypsa.org/#projects)
@@ -190,6 +201,7 @@
 - [Features normally distributed](https://towardsdatascience.com/what-if-the-exam-marks-are-not-normally-distributed-67e2d2d56286)
 - [How and Why](https://towardsdatascience.com/feature-importance-hows-and-why-s-3678ede1e58f)
 - [Feast: an open source feature store for machine learning](https://github.com/feast-dev/feast)
+- [Shapicant: a feature selection package based on SHAP and target permutation, for pandas and Spark](https://github.com/manuel-calzolari/shapicant)
 
 ## Football analytics
 
@@ -233,6 +245,11 @@
 - [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
 - [Geocoding via Geoapify](https://github.com/huels-originals/geobatchpy)
 - [Geospatial Data Engineering: Spatial Indexing](https://towardsdatascience.com/geospatial-data-engineering-spatial-indexing-18200ef9160b)
+- [Proximity Analysis: a few words about spatial data processing](https://towardsdatascience.com/proximity-analysis-to-find-the-nearest-bar-using-python-a29d29a3754d)
+- [Deep Dive into ESA's Sentinel API](https://towardsdatascience.com/deep-dive-into-esas-sentinel-api-e6ff4f9d0730)
+- [Geospatial Analysis and Representation for Data Science course for the master in Data Science University of Trento](https://napo.github.io/geospatial_course_unitn/)
+- [Overture Maps Data Repo](https://github.com/OvertureMaps/data)
+- [3D Geospatial Data Integration with Python: The Ultimate Guide](https://towardsdatascience.com/3d-spatial-data-integration-with-python-7ef8ef14589a)
 
 ## Gradient methods
 
@@ -278,6 +295,7 @@
 
 - [Beginner guide to Marketing Analytics](https://towardsdatascience.com/data-science-in-marketing-a-beginners-guide-f23423d2ee68)
 - [Discrete-Time Markov Chains: Identifying Winning Customer Journeys in a Cashback Campaign](https://pub.towardsai.net/discrete-time-markov-chains-identifying-winning-customer-journeys-in-a-cashback-campaign-39b62eb8a6fe)
+- [Methods for Modelling Customer Lifetime Value: The Good Stuff and the Gotchas](https://towardsdatascience.com/methods-for-modelling-customer-lifetime-value-the-good-stuff-and-the-gotchas-445f8a6587be)
 
 ## Markov Chains
 
@@ -304,6 +322,8 @@
 - [Intro to Monte Carlo methods](https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-methods-98451674018d)
 - [Simulating data with PyMC](https://www.pymc-labs.io/blog-posts/simulating-data-with-pymc/)
 - [Mastering Monte Carlo: How to Simulate Your Way to Better Machine Learning Models](https://towardsdatascience.com/mastering-monte-carlo-how-to-simulate-your-way-to-better-machine-learning-models-6b57ec4e5514)
+- [Chaospy: a numerical toolbox for performing uncertainty quantification using polynomial chaos expansions and advanced Monte Carlo methods](https://github.com/jonathf/chaospy)
+- [PyMC-Marketing: Bayesian Marketing Mix Modeling (MMM) & Customer Lifetime Value (CLV)](https://github.com/pymc-labs/pymc-marketing)
 
 ## Model evaluation
 
@@ -320,6 +340,8 @@
 
 - [Static threshold vs anomalies and changepoints detection](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe)
 - [Different retrain strategies for ML models](https://towardsdatascience.com/retrain-or-not-retrain-online-machine-learning-with-gradient-boosting-9ccb464415e7)
+- [An end-to-end implementation of a prediction flow for kids who can't MLOps good](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)
+- [Giskard: scan AI models to detect risks of biases, performance issues and errors](https://github.com/Giskard-AI/giskard)
 
 ## Neural Networks
 
@@ -377,6 +399,9 @@
 - [diff-match-patch: robust algorithms to perform the operations required for synchronizing plain text](https://github.com/google/diff-match-patch)
 - [Advanced Topic Modeling with BERTopic](https://www.pinecone.io/learn/bertopic/)
 - [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
+- [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
+- [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
+- [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
 
 ## Objects tracking
 
@@ -409,6 +434,7 @@
 - [How Amazon learned to cut its cardboard waste with pioneering web-based PackOpt tool](https://www.amazon.science/latest-news/amazon-cardboard-boxes-waste-reduction)
 - [Route optimization with Python](https://towardsdatascience.com/modern-route-optimization-with-python-fea87d34288b)
 - [The Vehicle Routing Problem: Exact and Heuristic Solutions](https://towardsdatascience.com/the-vehicle-routing-problem-exact-and-heuristic-solutions-c411c0f4d734)
+- [List of optimization packages in Python](https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/)
 
 ### Scholarpedia
 
@@ -423,6 +449,11 @@
 ## Physics
 
 - [From physics to optimization](https://towardsdatascience.com/how-to-turn-physics-into-an-optimization-problem-11b3fbf83062)
+
+## Predictive Maintenance
+
+- [Understanding Predictive Maintenance: Data Acquisition and Signal Denoising](https://towardsdatascience.com/understanding-predictive-maintenance-data-acquisition-and-signal-denoising-0309b1b103a7)
+- [Understanding Predictive Maintenance — Unit Roots and Stationarity](https://towardsdatascience.com/understanding-predictive-maintenance-unit-roots-and-stationarity-f05322f7b6df)
 
 ## Probability & Statistics
 
@@ -503,6 +534,7 @@
 - [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)
 - [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)
 - [Training an Agent to Master Tic-Tac-Toe Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-tic-tac-toe-through-self-play-72038c3f33f7)
+- [Stablebaseline3: the Swiss Army Knife of Applied RL](https://towardsdatascience.com/sb3-the-swiss-army-knife-of-applied-rl-5548535d09cd)
 
 ## Resampling
 
@@ -601,6 +633,13 @@
 - [Time Series for Climate Change: Forecasting Energy Demand](https://towardsdatascience.com/time-series-for-climate-change-forecasting-energy-demand-79f39c24c85e)
 - [Skforecast: a Python library that eases using scikit-learn regressors as single and multi-step forecasters](https://github.com/JoaquinAmatRodrigo/skforecast)
 - [Time series complexity analysis using entropy](https://towardsdatascience.com/time-series-complexity-analysis-using-entropy-ec49a4aaff11)
+- [`functime` is a powerful Python library for production-ready global forecasting and time-series feature extraction on large panel datasets](https://github.com/TracecatHQ/functime)
+- [Feature Engineering for Time Series Regression](https://towardsdatascience.com/false-prophet-feature-engineering-for-a-homemade-time-series-regression-part-1-of-2-52d9df3d930d)
+- [TimeGPT: The First Foundation Model for Time Series Forecasting](https://towardsdatascience.com/timegpt-the-first-foundation-model-for-time-series-forecasting-bf0a75e63b3a)
+- [Group time-series split](https://www.kaggle.com/code/jorijnsmit/found-the-holy-grail-grouptimeseriessplit)
+- [Feature Engineering for Time Series](https://towardsdatascience.com/three-approaches-to-feature-engineering-for-time-series-2123069567be)
+- [TSMixer: The Latest Forecasting Model by Google](https://towardsdatascience.com/tsmixer-the-latest-forecasting-model-by-google-2fd1e29a8ccb)
+- [`tsfresh`: Time Series Feature extraction based on scalable hypothesis tests](https://github.com/blue-yonder/tsfresh)
 
 ### Prophet
 
@@ -651,6 +690,8 @@
 - [Prediction of severe thunderstorm events with ensemble deep learning and radar data](https://www.nature.com/articles/s41598-022-23306-6.epdf?sharing_token=q_4Df7HMTbUQ9WMLXDmpN9RgN0jAjWel9jnR3ZoTv0PCpm1rZdS5SxfJ9WBqwSAbgQmJGXDkKrluVRIpRu5eaerxSW6ScMmq3xwubkdCpbcb2KNaPEJAcl3wCRiaTYhhNtzFwkBJPbYui6dSPK8nj89oSKTo3L7ORqP8TecYV-Q%3D)
 - [Pirate weather API](https://pirateweather.net/)
 - [Meteostat Python library](https://github.com/meteostat/meteostat-python)
+- [GraphCast: AI model for faster and more accurate global weather forecasting](https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/)
+- [GraphCast: Learning skillful medium-range global weather forecasting](https://github.com/google-deepmind/graphcast)
 
 ## XAI
 

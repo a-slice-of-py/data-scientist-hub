@@ -4,6 +4,13 @@
 
 - [Architecture based on feedback loops](https://aws.amazon.com/it/blogs/architecture/establishing-feedback-loops-based-on-the-aws-well-architected-framework-review/)
 
+## Basics
+
+- [Python for Data Engineers](https://towardsdatascience.com/python-for-data-engineers-f3d5db59b6dd)
+- [JSON Lines](https://medium.com/hackernoon/json-lines-format-76353b4e588d)
+- [Modern Data Engineering](https://towardsdatascience.com/modern-data-engineering-e202776fb9a9)
+- [Introduction to Streaming Frameworks](https://towardsdatascience.com/introduction-to-streaming-frameworks-d612583a3246)
+
 ## CI/CD
 
 - [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)

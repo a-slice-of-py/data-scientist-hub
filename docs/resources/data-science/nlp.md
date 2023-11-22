@@ -39,3 +39,6 @@
 - [diff-match-patch: robust algorithms to perform the operations required for synchronizing plain text](https://github.com/google/diff-match-patch)
 - [Advanced Topic Modeling with BERTopic](https://www.pinecone.io/learn/bertopic/)
 - [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
+- [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
+- [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
+- [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)

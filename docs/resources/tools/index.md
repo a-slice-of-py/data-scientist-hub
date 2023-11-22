@@ -41,6 +41,7 @@
 - [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)
 - [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
 - [Folktables](https://github.com/socialfoundations/folktables)
+- [The official portal for European data](https://data.europa.eu/en)
 
 ## Docker
 
@@ -78,6 +79,10 @@
 - [Git cheatsheet by GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Gitpod: spin up automated dev environments](https://www.gitpod.io/)
 - [Git and GitHub illustrations](https://allisonhorst.com/git-github)
+- [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
+- [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
+
+    > The internet is full of interesting data that changes over time. These changes can sometimes be more interesting than the underlying static data.
 
 ## Github
 
@@ -134,6 +139,11 @@
 - [Methods For Improving Your Large Language Model](https://towardsdatascience.com/3-easy-methods-for-improving-your-large-language-model-68670fde9ffa)
 - [Vector Databases and How to Use Them to Augment LLM](https://towardsdatascience.com/all-you-need-to-know-about-vector-databases-and-how-to-use-them-to-augment-your-llm-apps-596f39adfedb)
 - [Large Language Models: RoBERTa, a Robustly Optimized BERT Approach](https://towardsdatascience.com/roberta-1ef07226c8d8)
+- [DeepEval: Unit Testing for LLMs](https://github.com/confident-ai/deepeval)
+- [Attention Sinks in LLMs for endless fluency](https://huggingface.co/blog/tomaarsen/attention-sinks)
+- [Generative AI exists because of the transformer: this is how it works](https://ig.ft.com/generative-ai/)
+- [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [All you need to know to Develop using Large Language Models](https://towardsdatascience.com/all-you-need-to-know-to-develop-using-large-language-models-5c45708156bc)
 
 ## Markdown
 

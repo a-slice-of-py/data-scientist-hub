@@ -17,7 +17,7 @@
 - [Sync session state and app url via query params](https://blog.streamlit.io/how-streamlit-uses-streamlit-sharing-contextual-apps/)
 - [Table of contents in Streamlit](https://github.com/arnaudmiribel/stoc)
 - [Prettymaps Streamlit frontend](https://chrieke-prettymapp-streamlit-prettymappapp-1k0qxh.streamlitapp.com/)
-- [Stlite: streamlit app running in browser](https://towardsdatascience.com/python-based-data-viz-with-no-installation-required-aaf2358c881)
+- [Stlite: streamlit app running in browser](https://github.com/whitphx/stlite)
 - [Streamlit book](https://github.com/sebastiandres/streamlit_book/)
 - [Streamlit-Pydantic: auto-generate Streamlit UI elements from Pydantic models](https://github.com/LukasMasuch/streamlit-pydantic)
 - [Package Streamlit into an Electron desktop app](https://discuss.streamlit.io/t/streamlit-wasm-electron-desktop-app/31655)
@@ -25,6 +25,9 @@
 - [Streamlit type checking playground with mypy](https://github.com/harahu/streamlit-typing-example)
 - [Creating repeatable elements](https://medium.com/streamlit/creating-repeatable-items-in-streamlit-cb8b6264e1e6)
 - [Data analysis with Mito: a powerful spreadsheet in Streamlit](https://blog.streamlit.io/data-analysis-with-mito-a-powerful-spreadsheet-in-streamlit/)
+- [Simplifying generative AI workflows](https://blog.streamlit.io/simplifying-generative-ai-workflows/)
+- [Streamlit Contact Form Template](https://github.com/jlnetosci/streamlit-contact-form)
+- [Search grid for a Pandas DataFrame](https://github.com/sqlinsights/df-global-search/tree/main)
 
 ## Components
 

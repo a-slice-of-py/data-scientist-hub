@@ -17,3 +17,4 @@
 - [Reinforcement Learning algorithms explained](https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e)
 - [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)
 - [Training an Agent to Master Tic-Tac-Toe Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-tic-tac-toe-through-self-play-72038c3f33f7)
+- [Stablebaseline3: the Swiss Army Knife of Applied RL](https://towardsdatascience.com/sb3-the-swiss-army-knife-of-applied-rl-5548535d09cd)

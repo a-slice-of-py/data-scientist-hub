@@ -22,3 +22,7 @@
 - [Git cheatsheet by GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Gitpod: spin up automated dev environments](https://www.gitpod.io/)
 - [Git and GitHub illustrations](https://allisonhorst.com/git-github)
+- [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
+- [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
+
+    > The internet is full of interesting data that changes over time. These changes can sometimes be more interesting than the underlying static data.

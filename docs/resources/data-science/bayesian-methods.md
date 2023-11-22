@@ -19,3 +19,5 @@
 - [Bayesian state space model with `pymc3`](https://towardsdatascience.com/first-bayesian-state-space-model-with-pymc3-51cbb06ef8bd)
 - [Bayesian inference and MCMC variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
 - [`bambi` for Bayesian Model Building Interface](https://github.com/bambinos/bambi)
+- [How to be less wrong: a Bayesian's guide to predicting the future with limited data](https://towardsdatascience.com/how-to-be-less-wrong-5d6632a08f)
+- [bnlearn: a library for Bayesian network learning and inference](https://github.com/erdogant/bnlearn)
