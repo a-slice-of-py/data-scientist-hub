@@ -42,3 +42,4 @@
 - [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
 - [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
+- [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)

@@ -55,6 +55,7 @@
 - [What to consider when choosing colors](https://www.dataquest.io/blog/what-to-consider-when-choosing-colors-for-data-visualization/)
 - [Palette transfer via KMeans](https://towardsdatascience.com/the-perils-of-palette-transfer-f2739b5e4d2c)
 - [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
+- [Pantone colors](https://github.com/Margaret2/pantone-colors/tree/master)
 
 ## Confusion matrix
 
@@ -179,10 +180,18 @@
 
 [^1]: [A day in the life of Americans](/data-scientist-hub/resources/data-visualization/#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
+## Line Plot
+
+- [How to Create a Heat-Line Plot: a multi-dimensional segmented line graph](https://towardsdatascience.com/how-to-create-a-heat-line-plot-82f8038d1659)
+
 ## Model accuracy
 
 - [Model lift](https://towardsdatascience.com/model-lift-the-missing-link-70eb37460e67)
 - [Yellowbrick](https://www.scikit-yb.org/en/latest/)
+
+## Networks and graphs
+
+- [Ipysigma](https://github.com/medialab/ipysigma)
 
 ## Pie Charts
 

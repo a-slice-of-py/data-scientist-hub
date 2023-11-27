@@ -8,3 +8,4 @@
 - [What to consider when choosing colors](https://www.dataquest.io/blog/what-to-consider-when-choosing-colors-for-data-visualization/)
 - [Palette transfer via KMeans](https://towardsdatascience.com/the-perils-of-palette-transfer-f2739b5e4d2c)
 - [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
+- [Pantone colors](https://github.com/Margaret2/pantone-colors/tree/master)

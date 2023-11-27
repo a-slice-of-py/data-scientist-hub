@@ -122,6 +122,7 @@
 - [How many clusters? Methods comparison](https://towardsdatascience.com/how-many-clusters-6b3f220f0ef5)
 - [Expectation Maximization soft clustering](https://pub.towardsai.net/expectation-maximization-em-clustering-every-data-scientist-should-know-2b47fbd0dbc0)
 - [Markov clustering](https://medium.com/analytics-vidhya/demystifying-markov-clustering-aeb6cdabbfc7)
+- [Unsupervised Learning Series: exploring DBScan](https://towardsdatascience.com/unsupervised-learning-series-exploring-dbscan-624c820290ce)
 
 ## Code differentiation
 
@@ -343,6 +344,10 @@
 - [An end-to-end implementation of a prediction flow for kids who can't MLOps good](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)
 - [Giskard: scan AI models to detect risks of biases, performance issues and errors](https://github.com/Giskard-AI/giskard)
 
+## Nearest Neighbors
+
+- [Voyager: a library for performing fast approximate nearest-neighbor searches on an in-memory collection of vectors](https://spotify.github.io/voyager/python/reference.html)
+
 ## Neural Networks
 
 - [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
@@ -402,6 +407,7 @@
 - [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
 - [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
+- [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
 
 ## Objects tracking
 
