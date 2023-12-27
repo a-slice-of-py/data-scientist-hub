@@ -16,3 +16,4 @@
 - [Python class `__slots__`](https://towardsdatascience.com/understand-slots-in-python-e3081ef5196d)
 - [Strict constants in Python](https://realpython.com/python-constants/#defining-strict-constants-in-python)
 - [Python decorator patterns](https://bytepawn.com/python-decorator-patterns.html)
+- [`__init__` is not a constructor: a deep dive in Python object creation](https://towardsdatascience.com/python-init-is-not-a-constructor-a-deep-dive-in-python-object-creation-9134d971e334)

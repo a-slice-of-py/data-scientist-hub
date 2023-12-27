@@ -112,6 +112,7 @@
 - [The art of naming things](https://vickiboykis.com/2023/06/29/naming-things/)
 - [Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals](https://github.com/plasma-umass/scalene)
 - [Generates call graphs for dynamic programming language](https://github.com/scottrogowski/code2flow)
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 ## Dash
 
@@ -315,6 +316,7 @@
 - [Python class `__slots__`](https://towardsdatascience.com/understand-slots-in-python-e3081ef5196d)
 - [Strict constants in Python](https://realpython.com/python-constants/#defining-strict-constants-in-python)
 - [Python decorator patterns](https://bytepawn.com/python-decorator-patterns.html)
+- [`__init__` is not a constructor: a deep dive in Python object creation](https://towardsdatascience.com/python-init-is-not-a-constructor-a-deep-dive-in-python-object-creation-9134d971e334)
 
 ## Object Relational Mapper (ORM)
 
@@ -465,9 +467,11 @@
 - [Pyvista for 3D objects visualization](https://discuss.streamlit.io/t/stpyvista-show-pyvista-3d-visualizations-in-streamlit/31802/4)
 - [Raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
 - [RevealJS slides](https://github.com/bouzidanas/streamlit-reveal-slides)
+- [Shadcn-ui](https://github.com/ObservedObserver/streamlit-shadcn-ui)
 - [SHAP](https://github.com/snehankekre/streamlit-shap)
 - [Sortables](https://github.com/ohtaman/streamlit-sortables)
 - [Star rating](https://github.com/flucas96/streamlit_star_rating)
+- [Text labeling and annotation tool](https://github.com/rmarquet21/streamlit-annotation-tools)
 - [Text rating component](https://github.com/TVS-Motor-Company/streamlit-text-rating)
 - [Timeline](https://github.com/giswqs/streamlit-timeline-demo)
 - [Toggle switch](https://discuss.streamlit.io/t/streamlit-toggle-switch/32474)
@@ -501,7 +505,14 @@
 - [ML classifying text with NN and tensorflow](https://medium.freecodecamp.org/big-picture-machine-learning-classifying-text-with-neural-networks-and-tensorflow-d94036ac2274)
 - [`einsum` for compact and efficient Einstein summation](https://towardsdatascience.com/write-better-and-faster-python-using-einstein-notation-3b01fc1e8641)
 
-## Unit testing
+## Testing
+
+- [`PyHamcrest`: a framework for writing matcher objects, allowing you to declaratively define match rules](https://github.com/hamcrest/PyHamcrest)
+- [`behave`: behavior-driven development based on Gherkin syntax](https://github.com/behave/behave)
+- [`hypothesis`: generates simple and comprehensible examples that make your tests fail](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python)
+- [`mutmut`: a mutation testing system for Python, with a strong focus on ease of use](https://github.com/boxed/mutmut)
+
+### Unit tests
 
 - [Unit testing for DS](https://towardsdatascience.com/unit-testing-for-data-scientists-dc5e0cd397fb)
 - [`pytest`](https://docs.pytest.org/en/latest/contents.html)
@@ -516,6 +527,7 @@
 - [Barcodes, captcha and num2words](https://levelup.gitconnected.com/10-fantastic-python-packages-af2a16a1183a)
 - [Barcode generation with Python](https://towardsdatascience.com/generate-barcode-using-python-2da187f46954)
 - [Modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
+- [`pysentation`: a CLI for displaying Python presentations](https://github.com/mimseyedi/pysentation)
 
 ## Python versions
 
@@ -534,6 +546,7 @@
 
 - [10 Python web frameworks](https://towardsdatascience.com/my-favorite-python-web-frameworks-for-2021-a255fde2cd68)
 - [Reflex: performant, customizable web apps in pure Python](https://github.com/reflex-dev/reflex)
+- [Dara](https://github.com/causalens/dara)
 
 ## Web scraping
 

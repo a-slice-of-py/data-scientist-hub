@@ -8,6 +8,7 @@
 
 - [Teach and learn Fourier transform geometrically](https://towardsdatascience.com/teach-and-learn-the-fourier-transform-geometrically-ce320f4200c9)
 - [K-space explorer for MRI image reconstruction](https://github.com/birogeri/kspace-explorer)
+- [The Fourier Transform and its applications in Machine Learning](https://medium.com/the-modern-scientist/the-fourier-transform-and-its-application-in-machine-learning-edecfac4133c)
 
 ## Topology
 

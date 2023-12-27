@@ -42,6 +42,7 @@
 - [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
 - [Folktables](https://github.com/socialfoundations/folktables)
 - [The official portal for European data](https://data.europa.eu/en)
+- [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)
 
 ## Docker
 
@@ -80,9 +81,10 @@
 - [Gitpod: spin up automated dev environments](https://www.gitpod.io/)
 - [Git and GitHub illustrations](https://allisonhorst.com/git-github)
 - [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
-- [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
 
     > The internet is full of interesting data that changes over time. These changes can sometimes be more interesting than the underlying static data.
+
+- [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
 
 ## Github
 
@@ -144,6 +146,9 @@
 - [Generative AI exists because of the transformer: this is how it works](https://ig.ft.com/generative-ai/)
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [All you need to know to Develop using Large Language Models](https://towardsdatascience.com/all-you-need-to-know-to-develop-using-large-language-models-5c45708156bc)
+- [LMQL: a programming language for large language models](https://github.com/eth-sri/lmql)
+- [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
+- [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
 
 ## Markdown
 

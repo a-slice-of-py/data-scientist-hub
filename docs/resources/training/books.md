@@ -11,3 +11,4 @@
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
 - [Python4DS](https://aeturrell.github.io/python4DS/welcome.html)
 - [The Data Engineering Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
+- [Stochastic Simulation: from Uniform Random Numbers to Generative Models](https://akyildiz.me/works/simulation_book.pdf)

@@ -16,3 +16,4 @@
 - [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
 - [Folktables](https://github.com/socialfoundations/folktables)
 - [The official portal for European data](https://data.europa.eu/en)
+- [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)

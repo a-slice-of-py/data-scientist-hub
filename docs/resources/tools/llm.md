@@ -30,3 +30,6 @@
 - [Generative AI exists because of the transformer: this is how it works](https://ig.ft.com/generative-ai/)
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [All you need to know to Develop using Large Language Models](https://towardsdatascience.com/all-you-need-to-know-to-develop-using-large-language-models-5c45708156bc)
+- [LMQL: a programming language for large language models](https://github.com/eth-sri/lmql)
+- [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
+- [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)

@@ -5,3 +5,4 @@
 - [Data pipelines](https://pub.towardsai.net/diving-into-data-pipelines-b2eb1b8a4923)
 - [Data Engineering blog posts by Robin Linacre](https://www.robinlinacre.com/)
 - [Databases and Data Modelling: a quick crash course](https://towardsdatascience.com/databases-and-data-modelling-a-quick-crash-course-546891a49b67)
+- [System Design: ElasticSearch](https://towardsdatascience.com/system-design-cheatsheets-elasticsearch-673b98eebfff)
