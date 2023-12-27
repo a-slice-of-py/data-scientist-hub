@@ -69,7 +69,7 @@
 - [10 things to know about DS](https://towardsdatascience.com/10-things-i-wish-i-knew-about-learning-data-science-7a30bfb91759)
 - [ColumbiaX](https://www.edx.org/micromasters/columbiax-artificial-intelligence)
 - [Morphocode](https://morphocode.io/mapping-urban-data/)
-- [Terrelogiche GIS](Terrelogiche)
+- [Terrelogiche GIS](https://www.terrelogiche.com/)
 - [AWS Digital training](https://aws.amazon.com/it/training/digital-training-providers/)
 
 ## Academic papers

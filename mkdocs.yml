@@ -53,8 +53,6 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.emoji
   - pymdownx.arithmatex
-  # - pymdownx.arithmatex:
-  #     generic: True
   - pymdownx.tasklist:
       custom_checkbox: true
   - admonition
@@ -78,8 +76,6 @@ extra_css:
 extra_javascript:
   - javascript/config.js
   - javascript/MathJax.min.js
-  # - https://polyfill.io/v3/polyfill.min.js?features=es6
-  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
   social:
@@ -90,4 +86,4 @@ extra:
       link: https://it.linkedin.com/in/silviolugaro
       name: Linkedin
 
-copyright: Copyright &copy; 2022 Silvio Lugaro
+copyright: Copyright &copy; 2024 Silvio Lugaro
