@@ -1,0 +1,2207 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A data scientist knowledge center.">
+      
+      
+      
+        <link rel="canonical" href="https://a-slice-of-py.github.io/data-scientist-hub/legacy/projects/progress-tracker/">
+      
+      
+        <link rel="prev" href="../products/">
+      
+      
+        <link rel="next" href="../repositories/">
+      
+      
+      <link rel="icon" href="../../../assets/dsh_minimal.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Progress tracker - Data Scientist Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Readex Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/tasklist.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#progress-tracker" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Data Scientist Hub" class="md-header__button md-logo" aria-label="Data Scientist Hub" data-md-component="logo">
+      
+  <img src="../../../assets/dsh_minimal.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Data Scientist Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Progress tracker
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/a-slice-of-py/data-scientist-hub" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    a-slice-of-py/dsh
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../blog/" class="md-tabs__link">
+          
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../resources/" class="md-tabs__link">
+          
+  
+    
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Data Scientist Hub" class="md-nav__button md-logo" aria-label="Data Scientist Hub" data-md-component="logo">
+      
+  <img src="../../../assets/dsh_minimal.png" alt="logo">
+
+    </a>
+    Data Scientist Hub
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/a-slice-of-py/data-scientist-hub" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    a-slice-of-py/dsh
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../blog/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/archive/2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/archive/2021/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2021
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/archive/2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2020
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/archive/2019/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2019
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/category/guides/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/category/recipes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recipes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/aws/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    AWS
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            AWS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/interviews/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Career
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Career
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/data-engineering/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Engineering
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Data Engineering
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/data-science/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Science
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Data Science
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/data-visualization/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Visualization
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Data Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/education/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/misc/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Misc
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            Misc
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_9" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/python/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_10" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/snippets/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Snippets
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            Snippets
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_11" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/tools/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_12" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/training/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Training
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_12">
+            <span class="md-nav__icon md-icon"></span>
+            Training
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="What's here">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      What's here
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      2022
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#05-may" class="md-nav__link">
+    <span class="md-ellipsis">
+      05 / May
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#01-january" class="md-nav__link">
+    <span class="md-ellipsis">
+      01 / January
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      2021
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10-october" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 / October
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-april" class="md-nav__link">
+    <span class="md-ellipsis">
+      04 / April
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-march" class="md-nav__link">
+    <span class="md-ellipsis">
+      03 / March
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#01-january_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      01 / January
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      2020
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2020">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#12-december" class="md-nav__link">
+    <span class="md-ellipsis">
+      12 / December
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-september" class="md-nav__link">
+    <span class="md-ellipsis">
+      09 / September
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-august" class="md-nav__link">
+    <span class="md-ellipsis">
+      08 / August
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-june" class="md-nav__link">
+    <span class="md-ellipsis">
+      06 / June
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-march_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      03 / March
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-february" class="md-nav__link">
+    <span class="md-ellipsis">
+      02 / February
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#01-january_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      01 / January
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      2019
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2019">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#12-december_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      12 / December
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-november" class="md-nav__link">
+    <span class="md-ellipsis">
+      11 / November
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-august_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      08 / August
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="progress-tracker">Progress tracker<a class="headerlink" href="#progress-tracker" title="Permanent link">&para;</a></h1>
+<h2 id="2022">2022<a class="headerlink" href="#2022" title="Permanent link">&para;</a></h2>
+<h3 id="05-may">05 / May<a class="headerlink" href="#05-may" title="Permanent link">&para;</a></h3>
+<h4 id="time-series-analysis-and-forecasting"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> ⚗️ Time series analysis and forecasting<a class="headerlink" href="#time-series-analysis-and-forecasting" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="../../../resources/data-science/time-series/">resources</a></li>
+</ul>
+<h4 id="greykite"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> 🐍 Greykite<a class="headerlink" href="#greykite" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="../../../resources/data-science/time-series/#greykite">resources</a></li>
+</ul>
+<h3 id="01-january">01 / January<a class="headerlink" href="#01-january" title="Permanent link">&para;</a></h3>
+<h4 id="git-pre-commit-hooks"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> 🛠️ Git pre-commit hooks<a class="headerlink" href="#git-pre-commit-hooks" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="../../../resources/tools/git-versioning/">resources</a></li>
+</ul>
+<h4 id="python-packaging-best-practices"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> 🐍 Python packaging best practices<a class="headerlink" href="#python-packaging-best-practices" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://www.scivision.dev/minimal-setup-py-with-prerequisites/">Switch to minimal <code>setup.py</code></a></li>
+<li><a href="https://snarky.ca/what-the-heck-is-pyproject-toml/">What the heck is <code>pyproject.toml</code>?</a></li>
+<li><a href="http://ivory.idyll.org/blog/2021-transition-to-pyproject.toml-example.html">Transition to <code>pyproject.toml</code></a></li>
+<li><a href="https://setuptools.pypa.io/en/latest/userguide/quickstart.html">Setuptools quickstart</a></li>
+</ul>
+<h4 id="apache-echarts"><a class="glightbox" href="https://progress-bar.dev/60" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="60%" src="https://progress-bar.dev/60" /></a> 📊 Apache Echarts<a class="headerlink" href="#apache-echarts" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://echarts.apache.org/en/option.html#title">API Reference</a></li>
+<li><a href="https://echarts.apache.org/examples/en/index.html">Examples</a></li>
+<li><a href="https://github.com/andfanilo/streamlit-echarts">streamlit-echarts</a></li>
+</ul>
+<h2 id="2021">2021<a class="headerlink" href="#2021" title="Permanent link">&para;</a></h2>
+<h3 id="10-october">10 / October<a class="headerlink" href="#10-october" title="Permanent link">&para;</a></h3>
+<h4 id="vehicle-routing-problem"><a class="glightbox" href="https://progress-bar.dev/60" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="60%" src="https://progress-bar.dev/60" /></a> ⚗️ <code>Vehicle Routing Problem</code><a class="headerlink" href="#vehicle-routing-problem" title="Permanent link">&para;</a></h4>
+<h3 id="04-april">04 / April<a class="headerlink" href="#04-april" title="Permanent link">&para;</a></h3>
+<h4 id="ortools"><a class="glightbox" href="https://progress-bar.dev/60" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="60%" src="https://progress-bar.dev/60" /></a> 🐍 <code>ortools</code><a class="headerlink" href="#ortools" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://developers.google.com/optimization/reference/python/index_python">ortools</a></li>
+</ul>
+<h3 id="03-march">03 / March<a class="headerlink" href="#03-march" title="Permanent link">&para;</a></h3>
+<h4 id="revealjs"><a class="glightbox" href="https://progress-bar.dev/60" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="60%" src="https://progress-bar.dev/60" /></a> 🛠️ <code>reveal.js</code><a class="headerlink" href="#revealjs" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://revealjs.com/">reveal.js</a></li>
+<li><a href="https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d">Hosting on GitHub pages</a></li>
+</ul>
+<h4 id="pydocstyle"><a class="glightbox" href="https://progress-bar.dev/75" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="75%" src="https://progress-bar.dev/75" /></a> 🐍 <code>pydocstyle</code><a class="headerlink" href="#pydocstyle" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/PyCQA/pydocstyle"><code>pydocstyle</code></a></li>
+</ul>
+<h4 id="tljh"><a class="glightbox" href="https://progress-bar.dev/80" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="80%" src="https://progress-bar.dev/80" /></a> ⚙️ <code>TLJH</code><a class="headerlink" href="#tljh" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://tljh.jupyter.org/en/latest/install/custom-server.html">The Littlest JupyterHub installation</a></li>
+<li><a href="https://github.com/jupyterhub/the-littlest-jupyterhub/issues/351">Server spawn failed due to timeout</a></li>
+<li><a href="https://tljh.jupyter.org/en/latest/howto/content/nbgitpuller.html">Distribute material with nbgitpuller</a></li>
+</ul>
+<h3 id="01-january_1">01 / January<a class="headerlink" href="#01-january_1" title="Permanent link">&para;</a></h3>
+<h4 id="osmnx"><a class="glightbox" href="https://progress-bar.dev/80" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="80%" src="https://progress-bar.dev/80" /></a> 🐍 <code>OSMnx</code><a class="headerlink" href="#osmnx" title="Permanent link">&para;</a></h4>
+<h2 id="2020">2020<a class="headerlink" href="#2020" title="Permanent link">&para;</a></h2>
+<h3 id="12-december">12 / December<a class="headerlink" href="#12-december" title="Permanent link">&para;</a></h3>
+<h4 id="folium"><a class="glightbox" href="https://progress-bar.dev/80" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="80%" src="https://progress-bar.dev/80" /></a> 📊 <code>folium</code><a class="headerlink" href="#folium" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://towardsdatascience.com/how-to-make-stunning-interactive-maps-with-python-and-folium-in-minutes-e3aff3b0ed43">Intro</a></li>
+<li><a href="https://python-visualization.github.io/folium/">Official docs</a></li>
+</ul>
+<h3 id="09-september">09 / September<a class="headerlink" href="#09-september" title="Permanent link">&para;</a></h3>
+<h4 id="python-dotenv"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> 🐍 <code>python-dotenv</code><a class="headerlink" href="#python-dotenv" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/theskumar/python-dotenv">Intro</a></li>
+</ul>
+<h4 id="logging"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> 🐍 Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://realpython.com/python-logging/">Intro to Python logging</a></li>
+<li><a href="https://handyman.dulare.com/stop-using-print-start-using-loguru-in-python/">Stop print and start use <code>loguru</code></a></li>
+<li><a href="https://github.com/Delgan/loguru">Loguru</a></li>
+</ul>
+<h4 id="click"><a class="glightbox" href="https://progress-bar.dev/10" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="10%" src="https://progress-bar.dev/10" /></a> 🐍 <code>click</code><a class="headerlink" href="#click" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://click.palletsprojects.com/en/7.x/">Official docs</a></li>
+</ul>
+<h4 id="pydantic"><a class="glightbox" href="https://progress-bar.dev/60" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="60%" src="https://progress-bar.dev/60" /></a> 🐍 <code>pydantic</code><a class="headerlink" href="#pydantic" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://pydantic-docs.helpmanual.io/">Help manual</a></li>
+<li><a href="https://towardsdatascience.com/pydantic-688e897cfd3a">How to use pydantic</a></li>
+</ul>
+<h4 id="pytest"><a class="glightbox" href="https://progress-bar.dev/75" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="75%" src="https://progress-bar.dev/75" /></a> 🐍 <code>pytest</code><a class="headerlink" href="#pytest" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.pytest.org/en/stable/getting-started.html#our-first-test-run">Getting started</a></li>
+<li><a href="https://docs.pytest.org/en/stable/goodpractices.html#test-discovery">Testing good practices</a></li>
+<li><a href="https://blog.j-labs.pl/2019/02/Pytest-why-its-more-popular-than-unittest">vs unittest</a></li>
+<li><a href="https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6?source=social.tw">Pytest for Data Scientist</a></li>
+</ul>
+<h4 id="docker-compose"><a class="glightbox" href="https://progress-bar.dev/50" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="50%" src="https://progress-bar.dev/50" /></a> ⚙️ Docker compose<a class="headerlink" href="#docker-compose" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.docker.com/compose/gettingstarted/">Getting started</a></li>
+<li><a href="https://docs.docker.com/storage/bind-mounts/">Bind mounts</a></li>
+<li><a href="https://docs.docker.com/compose/environment-variables/">Environment variables</a></li>
+<li><a href="https://docs.docker.com/compose/reference/">Reference</a></li>
+</ul>
+<h4 id="mkdocs-continuous-deployment-to-s3"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ☁️ <code>mkdocs</code> continuous deployment to S3<a class="headerlink" href="#mkdocs-continuous-deployment-to-s3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://netosec.com/deploy-aws-s3-website-using-cdk-python/">Deploy a website with AWS CDK</a></li>
+<li><a href="https://stackoverflow.com/questions/60310575/how-to-add-s3-bucketpolicy-with-aws-cdk">Add S3 bucket policy via AWS CDK</a></li>
+<li><a href="https://netosec.com/continuous-deployment-using-aws-codebuild-with-cdk-for-next-js/">Continuous deployment with AWS Codebuild</a></li>
+<li><a href="https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html#build-spec-ref-syntax"><code>buildspec.yml</code> reference</a></li>
+<li><a href="https://stackoverflow.com/questions/52624102/local-mathjax-with-mkdocs">Local MathJax with mkdocs</a></li>
+</ul>
+<h4 id="hydra-config"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ⚙️ <code>hydra</code> config<a class="headerlink" href="#hydra-config" title="Permanent link">&para;</a></h4>
+<h5 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="https://hydra.cc/docs/intro">Intro to Hydra</a></li>
+<li><a href="https://github.com/facebookresearch/hydra/issues/407">Issue 407</a></li>
+<li><a href="https://github.com/facebookresearch/hydra/issues/332">Issue 332</a></li>
+</ul>
+<h5 id="vs-dynaconfig">vs <code>dynaconfig</code><a class="headerlink" href="#vs-dynaconfig" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="https://python.libhunt.com/compare-dynaconf-vs-hydra">Comparison</a></li>
+<li><a href="https://www.dynaconf.com/">Dynaconf</a></li>
+</ul>
+<h5 id="w-streamlit">w/ <code>streamlit</code><a class="headerlink" href="#w-streamlit" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="https://hydra.cc/docs/experimental/compose_api">Compose API</a></li>
+<li><a href="https://github.com/facebookresearch/hydra/issues/440">Hydra issue</a></li>
+<li><a href="https://github.com/facebookresearch/hydra/blob/master/hydra/core/global_hydra.py">Global hydra</a></li>
+</ul>
+<h4 id="windows-terminal"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🛠️ Windows Terminal<a class="headerlink" href="#windows-terminal" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/cmderdev/cmder/issues/2121">Cmder issue</a></li>
+<li><a href="https://traviscolbert.net/blog/windows-terminal-generating-guids-for-your-profiles/">Generate guids for profiles</a></li>
+<li><a href="https://terminalsplash.com/">Terminal splash</a></li>
+<li><a href="https://www.hanselman.com/blog/ItsTimeForYouToInstallWindowsTerminal.aspx">It's time to install Windows Terminal</a></li>
+<li><a href="https://www.hanselman.com/blog/AddingReactionGifsForYourBuildSystemAndTheWindowsTerminal.aspx">Adding reaction GIFs</a></li>
+<li><a href="https://github.com/Eugeny/terminus/issues/2131">Terminus issue</a></li>
+<li><a href="https://stackoverflow.com/questions/44476521/display-current-directory-not-full-path">How to shorten <code>cmder</code> current path</a></li>
+</ul>
+<h4 id="wsl2-101"><a class="glightbox" href="https://progress-bar.dev/90" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="90%" src="https://progress-bar.dev/90" /></a> ⚙️ WSL2 101<a class="headerlink" href="#wsl2-101" title="Permanent link">&para;</a></h4>
+<h5 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="https://docs.microsoft.com/it-it/windows/wsl/install-win10">Install in Windows 10</a></li>
+<li><a href="https://docs.microsoft.com/it-it/windows/wsl/user-support">User support</a></li>
+<li><a href="https://www.tenforums.com/tutorials/128052-add-user-windows-subsystem-linux-wsl-distro-windows-10-a.html">Add user in WSL</a></li>
+<li><a href="https://code.visualstudio.com/docs/remote/wsl#_getting-started">Getting started</a></li>
+</ul>
+<h5 id="file-systems">File systems<a class="headerlink" href="#file-systems" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="https://superuser.com/questions/1127307/create-folder-from-windows-then-access-from-bash-in-windows-10-wsl">Create folder from windows then access from bash</a></li>
+<li><a href="https://superuser.com/questions/282963/browse-an-unc-path-using-windows-cmd-without-mapping-it-to-a-network-drive">Browsing a Unix path using Windows</a></li>
+</ul>
+<h5 id="packages">Packages<a class="headerlink" href="#packages" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="https://stackoverflow.com/questions/11934997/how-to-install-make-in-ubuntu">How to install make in Ubuntu</a></li>
+<li><a href="https://www.tecmint.com/fix-user-is-not-in-the-sudoers-file-the-incident-will-be-reported-ubuntu/">User is not in the sudoers</a></li>
+<li><a href="https://net2.com/how-to-switch-users-on-linux-ubuntu/">Switch users on Linux Ubuntu</a></li>
+</ul>
+<h4 id="first-heroku-deployment"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ⚙️ First Heroku deployment<a class="headerlink" href="#first-heroku-deployment" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088">Streamlit on Heroku</a></li>
+<li><a href="https://dev.to/hannahyan/getting-started-in-deploying-interactive-data-science-apps-with-streamlit-part-2-3ob">Deploying interactive Data Science apps</a></li>
+</ul>
+<h3 id="08-august">08 / August<a class="headerlink" href="#08-august" title="Permanent link">&para;</a></h3>
+<h4 id="mkdocs-101"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 <code>mkdocs</code> 101<a class="headerlink" href="#mkdocs-101" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b">Documenting a Python package</a></li>
+<li><a href="https://www.mkdocs.org/">Official docs</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/"><code>mkdocs-material</code></a></li>
+<li><a href="https://pawamoy.github.io/mkdocstrings/"><code>mkdocstrings</code></a></li>
+<li><a href="https://github.com/pawamoy/mkdocstrings/blob/master/mkdocs.yml">YAML of mkdocs itself</a></li>
+<li><a href="https://mkdocs.readthedocs.io/en/0.11.1/user-guide/writing-your-docs/#linking-documents">Linking documents</a></li>
+</ul>
+<h4 id="aws-cdk-101"><a class="glightbox" href="https://progress-bar.dev/60" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="60%" src="https://progress-bar.dev/60" /></a> ☁️ AWS CDK 101<a class="headerlink" href="#aws-cdk-101" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.aws.amazon.com/cdk/latest/guide/home.html">Intro to AWS CDK</a></li>
+<li><a href="https://pypi.org/project/cdk-ec2-key-pair/">AWS CDK EC2 key-pair</a></li>
+<li><a href="https://aws.amazon.com/it/blogs/developer/getting-started-with-the-aws-cloud-development-kit-and-python/">Getting started</a></li>
+<li><a href="https://cdkworkshop.com/30-python.html">CDK workshop</a></li>
+<li><a href="https://github.com/kevinslin/open-cdk">Open CDK</a></li>
+<li><a href="https://github.com/aws/aws-cdk">Official repo</a></li>
+<li><a href="https://github.com/aws-samples/aws-cdk-examples">AWS CDK examples</a></li>
+</ul>
+<h3 id="06-june">06 / June<a class="headerlink" href="#06-june" title="Permanent link">&para;</a></h3>
+<h4 id="aws-ec2-101"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ☁️ AWS EC2 101<a class="headerlink" href="#aws-ec2-101" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html">AWS and Docker basics</a></li>
+<li><a href="https://discuss.streamlit.io/t/streamlit-fails-to-start-because-external-ip-not-detected/2378">Streamlit fails for external IP not detected</a></li>
+<li><a href="https://serverfault.com/questions/594281/how-can-i-override-cmd-when-running-a-docker-image">Override CMD when running a Docker image</a></li>
+</ul>
+<h4 id="gnu-make"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🛠️ GNU Make<a class="headerlink" href="#gnu-make" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://opensource.com/article/18/8/what-how-makefile">What and how about Makefile</a></li>
+<li><a href="https://swcarpentry.github.io/make-novice/02-makefiles/index.html">Make novice tutorial</a></li>
+<li><a href="https://www.gnu.org/software/make/manual/html_node/">Make official manual</a></li>
+<li><a href="https://github.com/tqdm/py-make"><code>pymake</code></a></li>
+<li><a href="http://lifesum.github.io/posts/2016/01/14/make-experiments/">Make experiments</a></li>
+<li><a href="https://stackoverflow.com/questions/3798562/why-use-make-over-a-shell-script">Make vs shell scripts</a></li>
+</ul>
+<h3 id="03-march_1">03 / March<a class="headerlink" href="#03-march_1" title="Permanent link">&para;</a></h3>
+<h4 id="dataclass"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 Dataclass<a class="headerlink" href="#dataclass" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.python.org/3/library/dataclasses.html">Dataclasses</a></li>
+<li><a href="https://realpython.com/python-data-classes/">Python dataclasses</a></li>
+<li><a href="https://towardsdatascience.com/understand-how-to-use-namedtuple-and-dataclass-in-python-e82e535c3691">Namedtuple vs Dataclass</a></li>
+<li><a href="https://towardsdatascience.com/dunderless-python-7d7ab634450b">Dunderless Python</a></li>
+</ul>
+<h4 id="transportation-problem"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ⚗️ Transportation problem<a class="headerlink" href="#transportation-problem" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="http://find-santa.eu/teaching/cms/milp.php">Find Santa with MILP</a></li>
+<li><a href="https://coin-or.github.io/pulp/CaseStudies/a_transportation_problem.html">PuLP transportation problem</a></li>
+<li><a href="https://scipbook.readthedocs.io/en/latest/intro.html#transportation-problem">Scip intro to transportation problem</a></li>
+<li><a href="https://developers.google.com/optimization/flow/mincostflow.html">OR Tools min cost flow</a></li>
+<li><a href="https://www.geeksforgeeks.org/transportation-problem-set-1-introduction/">Transportation problem intro</a></li>
+<li><a href="https://medium.com/@geekrodion/course-optimization-for-programmers-5316572ed69b">Optimization for programmers</a></li>
+</ul>
+<h4 id="tmux-101-and-cmder"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🛠️ tmux 101 and cmder<a class="headerlink" href="#tmux-101-and-cmder" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://tmuxcheatsheet.com/">Tmux cheatsheet</a></li>
+<li><a href="https://cmder.net/">Cmder</a></li>
+<li><a href="https://github.com/cmderdev/cmder/issues/2028">Cmder issue</a></li>
+</ul>
+<h3 id="02-february">02 / February<a class="headerlink" href="#02-february" title="Permanent link">&para;</a></h3>
+<h4 id="pandas-profiling-and-pyjanitor"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 <code>pandas-profiling</code> and <code>pyjanitor</code><a class="headerlink" href="#pandas-profiling-and-pyjanitor" title="Permanent link">&para;</a></h4>
+<h4 id="docker-101"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ⚙️ Docker 101<a class="headerlink" href="#docker-101" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://discuss.streamlit.io/t/how-to-use-streamlit-in-docker/1067/6">Streamlit in Docker</a></li>
+<li><a href="https://docs.docker.com/get-started/">Get started</a></li>
+<li><a href="https://stackoverflow.com/questions/44769315/how-to-see-docker-image-contents">How to see docker image contents</a></li>
+<li><a href="https://towardsdatascience.com/how-to-mount-a-directory-inside-a-docker-container-4cee379c298b">Mount a directory inside a container</a></li>
+<li><a href="https://vsupalov.com/docker-arg-env-variable-guide/">Docker arg env variable</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#:~:text=Remove%20all%20images,docker%20images%20%2Da">Remove images and containers</a></li>
+</ul>
+<h4 id="python-virtual-environment-overview"><a class="glightbox" href="https://progress-bar.dev/80" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="80%" src="https://progress-bar.dev/80" /></a> 🐍 Python virtual environment overview<a class="headerlink" href="#python-virtual-environment-overview" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://towardsdatascience.com/create-virtual-environment-using-virtualenv-and-add-it-to-jupyter-notebook-6e1bf4e03415"><code>virtualenv</code> and Jupyter</a></li>
+<li><a href="https://towardsdatascience.com/python-environment-101-1d68bda3094d">Python environment 101</a></li>
+<li><a href="https://docs.python-guide.org/dev/virtualenvs/">Guide to virtual envs</a></li>
+<li><a href="https://janakiev.com/blog/jupyter-virtual-envs/">Jupyter and virtual envs</a></li>
+<li><a href="https://towardsdatascience.com/devops-for-data-science-making-your-python-project-reproducible-f55646e110fa">Devops for data science project</a></li>
+<li><a href="https://github.com/alanhamlett/pip-update-requirements">Update requirements with <code>pur</code></a></li>
+<li><a href="https://github.com/jupyter/notebook/issues/2359#issuecomment-318061445">Wrong jupyter kernels reference</a></li>
+</ul>
+<h4 id="aws-sam-vs-chalice"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ☁️ AWS SAM vs Chalice<a class="headerlink" href="#aws-sam-vs-chalice" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/configfile.html#stage-specific-configuration">Stage specific config</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/configfile.html#lambda-specific-configuration">Lambda specific config</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/packaging.html">Packaging</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/multifile.html">Multifile</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/pyversion.html#changing-python-runtime-versions">Runtime version</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/cfn.html">Cloud formation</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/api.html">API Gateway</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/purelambda.html">Pure lambda functions</a></li>
+<li><a href="https://chalice.readthedocs.io/en/latest/topics/events.html">Events</a></li>
+<li><a href="https://chalice-workshop.readthedocs.io/en/latest/media-query/index.html">Chalice workshop</a></li>
+</ul>
+<h3 id="01-january_2">01 / January<a class="headerlink" href="#01-january_2" title="Permanent link">&para;</a></h3>
+<h4 id="aws-101-and-aws-sam"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ☁️ AWS 101 and AWS SAM<a class="headerlink" href="#aws-101-and-aws-sam" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html">AWS SAM hello world</a></li>
+<li><a href="https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction">AWS SAM serverless function</a></li>
+<li><a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/notification-content-structure.html">Notification content structure</a></li>
+<li><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#S3.Client.get_object">S3 client</a></li>
+<li><a href="https://stackoverflow.com/questions/58369170/build-custom-aws-lambda-layer-for-scikit-image/58408130#58408130">Custom AWS Lambda layer</a></li>
+</ul>
+<h4 id="publish-sphinx-docs-as-static-website-on-aws-s3"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ☁️ Publish <code>sphinx</code> docs as static website on AWS S3<a class="headerlink" href="#publish-sphinx-docs-as-static-website-on-aws-s3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://gist.github.com/monkut/aa011550d596088ef577ad6d82722a20">Gist</a></li>
+</ul>
+<h4 id="aws-codecommit"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> ☁️ AWS Codecommit<a class="headerlink" href="#aws-codecommit" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-gc.html">Setting up</a></li>
+<li><a href="https://docs.aws.amazon.com/codecommit/latest/userguide/how-to-migrate-repository-local.html">How to migrate local repo</a></li>
+<li><a href="https://docs.aws.amazon.com/codecommit/latest/userguide/how-to-connect.html">How to connect to AWS Codecommit</a></li>
+<li><a href="https://sharpi.sh/blog/web-development/workaround-for-gitkraken-ssh-and-https-not-workig-with-aws-codecommit/">Gitkraken HTTPS with AWS Codecommit</a></li>
+</ul>
+<h4 id="python-package-to-install-vs-module-to-use-with-__main__py"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 Python package to install vs module to use with <code>__main__.py</code><a class="headerlink" href="#python-package-to-install-vs-module-to-use-with-__main__py" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://python-packaging.readthedocs.io/en/latest/minimal.html">Minimal project packaging</a></li>
+<li><a href="https://docs.python-guide.org/writing/structure/">Official docs</a></li>
+<li><a href="https://dev.to/codemouse92/dead-simple-python-project-structure-and-imports-38c6">Dead simple Python project structure</a></li>
+<li><a href="https://towardsdatascience.com/how-to-build-your-first-python-package-6a00b02635c9">How to build your first Python package</a></li>
+<li><a href="https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html">Python packaging tutorial</a></li>
+<li><a href="https://towardsdatascience.com/a-recipe-for-organising-data-science-projects-50a1cc539c69">Recipe to organize data science projects</a></li>
+<li><a href="https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/">Guide to <code>setup.py</code></a></li>
+</ul>
+<h4 id="pipreqs-for-automate-requirementstxt"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 <code>pipreqs</code> for automate <em>requirements.txt</em><a class="headerlink" href="#pipreqs-for-automate-requirementstxt" title="Permanent link">&para;</a></h4>
+<h4 id="git-101-with-gitkraken"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🛠️ Git 101 with gitkraken<a class="headerlink" href="#git-101-with-gitkraken" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://towardsdatascience.com/version-control-101-getting-started-with-git-3b2c78d91184">Getting started with Git</a></li>
+</ul>
+<h4 id="sphinx-documentation"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 <code>sphinx</code> documentation<a class="headerlink" href="#sphinx-documentation" title="Permanent link">&para;</a></h4>
+<h2 id="2019">2019<a class="headerlink" href="#2019" title="Permanent link">&para;</a></h2>
+<h3 id="12-december_1">12 / December<a class="headerlink" href="#12-december_1" title="Permanent link">&para;</a></h3>
+<h4 id="first-streamlit-app"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 📊 First <code>streamlit</code> app<a class="headerlink" href="#first-streamlit-app" title="Permanent link">&para;</a></h4>
+<h4 id="visual-studio-code-and-jupyterlab"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 Visual Studio Code and JupyterLab<a class="headerlink" href="#visual-studio-code-and-jupyterlab" title="Permanent link">&para;</a></h4>
+<h3 id="11-november">11 / November<a class="headerlink" href="#11-november" title="Permanent link">&para;</a></h3>
+<h4 id="python-decorators"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 Python decorators<a class="headerlink" href="#python-decorators" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://www.codementor.io/@sheena/introduction-to-decorators-du107vo5c">Intro to decorators</a></li>
+<li><a href="https://stackoverflow.com/questions/58515362/a-decorator-to-replace-specific-string-in-function-to-another-string">A decorator to replace specific string in function</a></li>
+</ul>
+<h3 id="08-august_1">08 / August<a class="headerlink" href="#08-august_1" title="Permanent link">&para;</a></h3>
+<h4 id="python-class-usage-inheritance-and-__init__-method"><a class="glightbox" href="https://progress-bar.dev/100" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="100%" src="https://progress-bar.dev/100" /></a> 🐍 Python class usage, inheritance and  <code>__init__</code> method<a class="headerlink" href="#python-class-usage-inheritance-and-__init__-method" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="http://introtopython.org/classes.html">Intro to Python classes</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T14:21:32+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T14:21:32+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Silvio Lugaro
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/a-slice-of-py" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://it.linkedin.com/in/silviolugaro" target="_blank" rel="noopener" title="Linkedin" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../javascript/config.js"></script>
+      
+        <script src="../../../javascript/MathJax.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

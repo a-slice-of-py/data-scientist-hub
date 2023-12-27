@@ -1,0 +1,2455 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A data scientist knowledge center.">
+      
+      
+      
+        <link rel="canonical" href="https://a-slice-of-py.github.io/data-scientist-hub/blog/2020/05/12/a-guide-to-transportation-problems/">
+      
+      
+        <link rel="prev" href="../../../../2019/08/12/a-brief-guide-to-pythons-pulp/">
+      
+      
+        <link rel="next" href="../../../06/11/a-brief-guide-to-gnu-make/">
+      
+      
+      <link rel="icon" href="../../../../../assets/dsh_minimal.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>A guide to transportation problems - Data Scientist Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Readex Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/tasklist.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#a-guide-to-transportation-problems" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="Data Scientist Hub" class="md-header__button md-logo" aria-label="Data Scientist Hub" data-md-component="logo">
+      
+  <img src="../../../../../assets/dsh_minimal.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Data Scientist Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              A guide to transportation problems
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/a-slice-of-py/data-scientist-hub" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    a-slice-of-py/dsh
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../.." class="md-tabs__link">
+          
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../" class="md-tabs__link">
+          
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../resources/" class="md-tabs__link">
+          
+  
+    
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="Data Scientist Hub" class="md-nav__button md-logo" aria-label="Data Scientist Hub" data-md-component="logo">
+      
+  <img src="../../../../../assets/dsh_minimal.png" alt="logo">
+
+    </a>
+    Data Scientist Hub
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/a-slice-of-py/data-scientist-hub" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    a-slice-of-py/dsh
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../CHANGELOG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2021/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2021
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2020
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2019/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2019
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/guides/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/recipes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recipes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/aws/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    AWS
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            AWS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/interviews/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Career
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Career
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/data-engineering/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Engineering
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Data Engineering
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/data-science/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Science
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Data Science
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/data-visualization/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Visualization
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Data Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/education/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/misc/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Misc
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            Misc
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_9" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/python/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_10" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/snippets/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Snippets
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            Snippets
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_11" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/tools/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_12" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../resources/training/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Training
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_12">
+            <span class="md-nav__icon md-icon"></span>
+            Training
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="What's here">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      What's here
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#classic-formulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classic formulation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#balancing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Balancing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Balancing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#theorem-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Theorem 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transportation-tableau" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transportation tableau
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heuristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heuristics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lp-advantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      LP advantages
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LP advantages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sensitivity-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sensitivity analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slack-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Slack variables
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-objective-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-objective programming
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-variations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem variations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem variations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transshipment-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transshipment nodes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sortation-centers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sortation centers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-commodity-transportation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-commodity transportation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duality
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Duality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#an-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      An example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dual-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dual problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theorem-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Theorem 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theorem-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Theorem 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transportation-dual-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transportation dual problem
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions-to-other-graph-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extensions to other graph structures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extensions to other graph structures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#theorem-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Theorem 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-custom-heuristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      A custom heuristics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+              <div class="md-post__authors md-typeset">
+                
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>
+                        
+                          <a href="https://github.com/a-slice-of-py">Silvio Lugaro</a>
+                        
+                      </strong>
+                      <br>
+                      Data Scientist
+                    </span>
+                  </div>
+                
+              </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
+                        <time datetime="2020-05-12 00:00:00" class="md-ellipsis">May 12, 2020</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3H9m3 2 4 13 3-1-4-13-3 1M5 5v13h3V5H5M3 19v2h18v-2H3Z"/></svg>
+                          <span class="md-ellipsis">
+                            in
+                            
+                              <a href="../../../../category/guides/">Guides</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              16 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+  
+
+<nav class="md-tags" >
+  
+    
+    
+    
+      <a href="../../../../../tags/#or" class="md-tag">OR</a>
+    
+  
+</nav>
+
+
+  
+  
+
+
+<h1 id="a-guide-to-transportation-problems">A guide to transportation problems<a class="headerlink" href="#a-guide-to-transportation-problems" title="Permanent link">&para;</a></h1>
+<!-- more -->
+
+<h2 id="classic-formulation">Classic formulation<a class="headerlink" href="#classic-formulation" title="Permanent link">&para;</a></h2>
+<p>Let <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span> be a <em>complete bipartite directed graph</em>, with
+disjoint sets of vertices <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}=\{s_i\}_{i=1}^{m}</span><script type="math/tex">\mathcal{S}=\{s_i\}_{i=1}^{m}</script></span> and
+<span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}=\{d_j\}_{j=1}^{n}</span><script type="math/tex">\mathcal{D}=\{d_j\}_{j=1}^{n}</script></span> interpreted respectively as <em>supply
+nodes</em> and <em>demand nodes</em>.</p>
+<p>For all <span class="arithmatex"><span class="MathJax_Preview">i=1,\dots,m,\;j=1,\dots,n</span><script type="math/tex">i=1,\dots,m,\;j=1,\dots,n</script></span> let:</p>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">c_{ij}</span><script type="math/tex">c_{ij}</script></span> represent the (unitary) transportation cost between
+    <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span> and <span class="arithmatex"><span class="MathJax_Preview">C=\left(c_{ij}\right)</span><script type="math/tex">C=\left(c_{ij}\right)</script></span> the corresponding
+    <span class="arithmatex"><span class="MathJax_Preview">m\times n</span><script type="math/tex">m\times n</script></span> matrix</li>
+<li><span class="arithmatex"><span class="MathJax_Preview">x_{ij}\geq 0</span><script type="math/tex">x_{ij}\geq 0</script></span> represent the amount of product transported between
+    <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span> amount of available product (<em>supply</em>) at node <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">D_j</span><script type="math/tex">D_j</script></span> amount of required product (<em>demand</em>) at node <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span></li>
+</ul>
+<p>We then define the <strong>transportation problem</strong> as the linear programming
+problem of minimize the total transportation cost subject to supply and
+demand constraints i.e.,</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{j=1}^n c_{ij}x_{ij}</span><script type="math/tex">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{j=1}^n c_{ij}x_{ij}</script></span>
+s.t.</p>
+<ul>
+<li><em>supply constraint</em>:
+    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{j=1}^n x_{ij}\leq S_i \;\;\forall i=1,\dots,m</span><script type="math/tex">\sum\limits_{j=1}^n x_{ij}\leq S_i \;\;\forall i=1,\dots,m</script></span></li>
+<li><em>demand constraint</em>:
+    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i=1}^m x_{ij}\geq D_j \;\;\forall j=1,\dots,n</span><script type="math/tex">\sum\limits_{i=1}^m x_{ij}\geq D_j \;\;\forall j=1,\dots,n</script></span></li>
+</ul>
+<h2 id="balancing">Balancing<a class="headerlink" href="#balancing" title="Permanent link">&para;</a></h2>
+<p>We define two quantities that play a crucial role within transportation
+problem framework: <em>total supply</em> and <em>total demand</em> in the network,
+respectively expressed as <span class="arithmatex"><span class="MathJax_Preview">S^*=\sum_{i=1}^m S_i</span><script type="math/tex">S^*=\sum_{i=1}^m S_i</script></span> and analogously
+<span class="arithmatex"><span class="MathJax_Preview">D^*=\sum_{j=1}^n D_j</span><script type="math/tex">D^*=\sum_{j=1}^n D_j</script></span>. The problem is said to be <em>balanced</em> if
+<span class="arithmatex"><span class="MathJax_Preview">S^* = D^*</span><script type="math/tex">S^* = D^*</script></span> and <em>unbalanced</em> otherwise. In case of an unbalanced
+transportation problem, is convenient to distinguish two cases:</p>
+<ul>
+<li>if <span class="arithmatex"><span class="MathJax_Preview">D^* &gt; S^*</span><script type="math/tex">D^* > S^*</script></span> the problem is <em>infeasible</em> because there is not
+    enough supply to satisfy the given demand</li>
+<li>if <span class="arithmatex"><span class="MathJax_Preview">S^* &gt; D^*</span><script type="math/tex">S^* > D^*</script></span> the problem is in turn <em>feasible</em> thanks to the
+    excess supply which makes no harm to any of the constraints</li>
+</ul>
+<p>Since in the former case is possible to state <em>a priori</em> that the
+problem will result in an infeasible one, is convenient to propose a
+general balancing method for a transportation problem:</p>
+<ul>
+<li>if <span class="arithmatex"><span class="MathJax_Preview">D^* &gt; S^*</span><script type="math/tex">D^* > S^*</script></span>, we can add a <em>dummy supply</em> which is accountable
+    for unmet demand i.e., a node <span class="arithmatex"><span class="MathJax_Preview">s_{m+1}</span><script type="math/tex">s_{m+1}</script></span> such that
+    <span class="arithmatex"><span class="MathJax_Preview">S_{m+1}=D^* - S^*</span><script type="math/tex">S_{m+1}=D^* - S^*</script></span>. In this case, we are expanding costs matrix
+    <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span> by adding a new row. Each of its elements <span class="arithmatex"><span class="MathJax_Preview">c_{m+1,j}</span><script type="math/tex">c_{m+1,j}</script></span> will
+    represent the cost penalty associated with unmet demand for demand
+    node <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>. In a proper supply chain framework, this penalty can
+    be thought as the financial loss for the unmet demand, as well as
+    the buying-in cost for satisfying the (otherwise unmet) demand. In a
+    costs minimization perspective, the higher is <span class="arithmatex"><span class="MathJax_Preview">c_{m+1,j}</span><script type="math/tex">c_{m+1,j}</script></span> the
+    lower will be <span class="arithmatex"><span class="MathJax_Preview">x_{m+1,j}</span><script type="math/tex">x_{m+1,j}</script></span>: this means that we have a first way to
+    influence the shape of the solution according to our (business)
+    needs.</li>
+<li>if <span class="arithmatex"><span class="MathJax_Preview">S^* &gt; D^*</span><script type="math/tex">S^* > D^*</script></span>, even if the problem would be feasible, is
+    convenient to mirror the above technique by adding a <em>dummy demand</em>
+    accountable for unexploited supply i.e., a node <span class="arithmatex"><span class="MathJax_Preview">d_{n+1}</span><script type="math/tex">d_{n+1}</script></span> such
+    that <span class="arithmatex"><span class="MathJax_Preview">D_{n+1}=S^* - D^*</span><script type="math/tex">D_{n+1}=S^* - D^*</script></span>. Again, we are implicitly expanding costs
+    matrix by adding a new column in which each element <span class="arithmatex"><span class="MathJax_Preview">c_{i, n+1}</span><script type="math/tex">c_{i, n+1}</script></span>
+    will represent cost associated with unexploited supply. In a supply
+    chain framework, this can be interpreted as storage cost for excess
+    supply, and all the considerations made above about the relationship
+    with <span class="arithmatex"><span class="MathJax_Preview">x_{i,n+1}</span><script type="math/tex">x_{i,n+1}</script></span> still hold.</li>
+</ul>
+<p>In the following we will consider only balanced transportation problems,
+in which the balancing has might been restored with one of the above
+procedures. In particular, we will therefore consider both the
+constraints as equalities. For such a problem the following holds:</p>
+<h3 id="theorem-1">Theorem 1<a class="headerlink" href="#theorem-1" title="Permanent link">&para;</a></h3>
+<p>Given a balanced transportation problem assigned over a complete
+bipartite directed graph <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span>, the problem admits at least
+one feasible solution.</p>
+<h2 id="transportation-tableau">Transportation tableau<a class="headerlink" href="#transportation-tableau" title="Permanent link">&para;</a></h2>
+<p><a class="glightbox" href="https://i.stack.imgur.com/BaqR2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="https://i.stack.imgur.com/BaqR2.jpg" width="360"></a></p>
+<p>Transportation problem data are often summarized and visualized on a
+table called <strong>transportation tableau</strong> (see picture above). It
+basically consists in the costs matrix <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span>, with the addition of a
+bottom row containing the demands and a right column containing the
+supplies. Moreover, it’s useful also to hold the decision variables
+<span class="arithmatex"><span class="MathJax_Preview">x_{ij}</span><script type="math/tex">x_{ij}</script></span> as well as the total supply <span class="arithmatex"><span class="MathJax_Preview">S^*</span><script type="math/tex">S^*</script></span> and the total demand
+<span class="arithmatex"><span class="MathJax_Preview">D^*</span><script type="math/tex">D^*</script></span>.</p>
+<h2 id="heuristics">Heuristics<a class="headerlink" href="#heuristics" title="Permanent link">&para;</a></h2>
+<p>Based on the transportation tableau, several heuristics have been
+studied in order to find an initial basic feasible solution to the
+transportation problem. The most used are:</p>
+<ul>
+<li>North West Corner method</li>
+<li>Least Cost method</li>
+<li>Vogel’s Approximation method</li>
+</ul>
+<p>They basically consist in algorithm than can be performed (also) by a
+human in order to match the problem constraints while distributing
+product amount amongst each <span class="arithmatex"><span class="MathJax_Preview">x_{ij}</span><script type="math/tex">x_{ij}</script></span> (in a “Sudoku-like” approach)
+<a href="https://www.geeksforgeeks.org/transportation-problem-set-1-introduction/?ref=rp">see here</a>.
+Given an initial basic feasible solution, several techniques can be used
+to improve it in order to lower the corresponding objective function
+value (e.g. simplex method, evolutionary algorithms, Hungarian method).</p>
+<p>We have seen that a classic transportation problem can be solved through
+several heuristics, even if possibly not in an optimal way. It’s anyway
+convenient, whenever possible, to approach it in a LP perspective,
+mostly to take advantages of all the linear programming techniques and
+libraries available.</p>
+<p>The transportation problem can be approach as:</p>
+<ul>
+<li>a classic LP problem with continuous decision variables i.e.,
+    <span class="arithmatex"><span class="MathJax_Preview">x_{ij}\in\mathbb{R}_{\geq 0}</span><script type="math/tex">x_{ij}\in\mathbb{R}_{\geq 0}</script></span>;</li>
+<li>an ILP/MIP problem if <span class="arithmatex"><span class="MathJax_Preview">x_{ij}\in\mathbb{N}</span><script type="math/tex">x_{ij}\in\mathbb{N}</script></span> i.e., if it’s more
+    convenient to express the decision variables in terms of (integer)
+    number of transports needed to satisfy the constraints. In this
+    case, we must assume that the transportation costs do not depend on
+    the amount of product transported along each route - to preserve
+    linearity - and we also have to properly adjust objective function
+    and constraints formulation to behave accordingly with the change in
+    measurement units.</li>
+</ul>
+<h2 id="lp-advantages">LP advantages<a class="headerlink" href="#lp-advantages" title="Permanent link">&para;</a></h2>
+<h3 id="sensitivity-analysis">Sensitivity analysis<a class="headerlink" href="#sensitivity-analysis" title="Permanent link">&para;</a></h3>
+<p>LP formulation and implementation can guarantee several advantages in
+approaching a transportation problem.</p>
+<p>One of them is the <em>sensitivity analysis</em>: defined <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> as the
+optimal solution (or the set of optimal solutions) and <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> the problem
+objective function, the sensitivity analysis leds to study changes in
+<span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> and <span class="arithmatex"><span class="MathJax_Preview">f(x^*)</span><script type="math/tex">f(x^*)</script></span> as functions of problem data.</p>
+<p>For example, in the transportation problem framework, one of the
+sensitivity analysis goal is to answer to questions such as:</p>
+<ul>
+<li>how much and how costs decrease when supply increases of 1 unit?</li>
+<li>how much and how costs increase when demand increases of 1 unit?</li>
+</ul>
+<h3 id="slack-variables">Slack variables<a class="headerlink" href="#slack-variables" title="Permanent link">&para;</a></h3>
+<p>Another advantage of a LP approach is represented by <em>slack variables</em>,
+which enable the <em>elastic relaxation</em> of a given problem.</p>
+<p>For example, we can consider the supply constraint
+<span class="arithmatex"><span class="MathJax_Preview">\sum_{j=1}^n x_{ij}\leq S_i</span><script type="math/tex">\sum_{j=1}^n x_{ij}\leq S_i</script></span> for a given supply node <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span>. This
+constraint requires that the amount of product going out from <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> is
+at most equal to the node capacity i.e., <span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span>. Another way to monitor
+such a request is to keep track of the difference
+<span class="arithmatex"><span class="MathJax_Preview">\nu_i:= \sum_{j=1}^n x_{ij} - S_i</span><script type="math/tex">\nu_i:= \sum_{j=1}^n x_{ij} - S_i</script></span>. If <span class="arithmatex"><span class="MathJax_Preview">\nu_i\leq 0</span><script type="math/tex">\nu_i\leq 0</script></span>, the
+constraint has been observed, if <span class="arithmatex"><span class="MathJax_Preview">\nu_i&gt;0</span><script type="math/tex">\nu_i>0</script></span> the constraint has been
+violated.</p>
+<p>Having observed so, we can then relax the supply constraint by restating
+it as follows:</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{j=1}^n x_{ij}-\nu_i\leq S_i</span><script type="math/tex">\sum\limits_{j=1}^n x_{ij}-\nu_i\leq S_i</script></span></p>
+<p>where <span class="arithmatex"><span class="MathJax_Preview">\nu_i</span><script type="math/tex">\nu_i</script></span> is a decision variable taking values in <span class="arithmatex"><span class="MathJax_Preview">[0, U_i]</span><script type="math/tex">[0, U_i]</script></span> -
+called <em>slack variable</em> - which objective is to soften the constraint
+possibly allowing to excess the given supply <span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span>.</p>
+<p>The main purpose of slack variables is to locate infeasibility causes:
+if the resolution of the problem seems impossible, we can add one slack
+variable for each constraint, taking care of adding it also to the
+objective function multiplying it by a (big) penalty factor. After the
+successful resolution procedure, whenever a slack variable hits a
+nonzero value it means that, despite its penalty factor in the objective
+function, its usage has been crucial to the resolution itself i.e., in
+making the problem actually feasible.</p>
+<p>In general:</p>
+<ul>
+<li>for a <span class="arithmatex"><span class="MathJax_Preview">\leq</span><script type="math/tex">\leq</script></span> constraint we should subtract the slack variable from
+    the left side of the constraint i.e., where decision variables are
+    located;</li>
+<li>for a <span class="arithmatex"><span class="MathJax_Preview">\geq</span><script type="math/tex">\geq</script></span> constraint we should add the slack variable to the
+    left side of the constraint;</li>
+<li>for a <span class="arithmatex"><span class="MathJax_Preview">=</span><script type="math/tex">=</script></span> constraint we should split the slack variable in its
+    positive and negative part and respectively add and subtract these
+    components to the left side of the constraint;</li>
+<li>the slack variable must be added (if the goal is to minimize) /
+    subtracted (if the goal is to maximize) from the objective function
+    by multiplying it with a (big) penalty factor - to ensure its usage
+    “only if needed”.</li>
+</ul>
+<p>If any slack variable has been introduced and has been used in problem
+resolution, we must refactor the objective function value to restore its
+meaning with respect to the underlying business framework and units of
+measurements.</p>
+<h3 id="multi-objective-programming">Multi-objective programming<a class="headerlink" href="#multi-objective-programming" title="Permanent link">&para;</a></h3>
+<p>LP framework enables also to address <em>multi-objective</em> problems, in
+which for example we are interested in chase both <span class="arithmatex"><span class="MathJax_Preview">\min f_1</span><script type="math/tex">\min f_1</script></span> and
+<span class="arithmatex"><span class="MathJax_Preview">\min f_2</span><script type="math/tex">\min f_2</script></span> - we can consider both as minimization objectives thanks to
+the equivalence <span class="arithmatex"><span class="MathJax_Preview">\max(f) = -\min(-f)</span><script type="math/tex">\max(f) = -\min(-f)</script></span>. A more rigorous definition of
+<em>chasing more objectives</em> can be stated in a Pareto perspective: we
+could be interested in finding <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> such that, if there exists
+another <span class="arithmatex"><span class="MathJax_Preview">x'</span><script type="math/tex">x'</script></span> such that <span class="arithmatex"><span class="MathJax_Preview">f_1(x')&lt;f_1(x^*)</span><script type="math/tex">f_1(x')<f_1(x^*)</script></span>, then
+<span class="arithmatex"><span class="MathJax_Preview">f_2(x')&gt;f_2(x^*)</span><script type="math/tex">f_2(x')>f_2(x^*)</script></span>. In other words our aim could be find a <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span>
+which is <em>Pareto-optimal</em> i.e., a preferred solution such that any other
+candidate solution which significantly improves one of the objectives
+ends up worsening the other
+<a href="https://en.wikipedia.org/wiki/Pareto_efficiency">see here</a>.</p>
+<p>In such cases we can exploit one of the following techniques:</p>
+<ul>
+<li><em>relaxed formulation</em>: address one of the two objectives as the
+    “real” objective of our LP problem, by adding the relaxed version
+    of the other within the problem constraints. For example
+    <span class="arithmatex"><span class="MathJax_Preview">\min f_1</span><script type="math/tex">\min f_1</script></span> subject to <span class="arithmatex"><span class="MathJax_Preview">f_2\leq \varepsilon</span><script type="math/tex">f_2\leq \varepsilon</script></span> where
+    <span class="arithmatex"><span class="MathJax_Preview">\varepsilon</span><script type="math/tex">\varepsilon</script></span> is an upper bound on <span class="arithmatex"><span class="MathJax_Preview">f_2</span><script type="math/tex">f_2</script></span> known a priori;</li>
+<li><em>elastic formulation</em>: mix the objectives with a convex combination
+    of parameters to encapsulate them into a single objective. For
+    example <span class="arithmatex"><span class="MathJax_Preview">\min\lambda f_1 + (1-\lambda)f_2</span><script type="math/tex">\min\lambda f_1 + (1-\lambda)f_2</script></span> where
+    <span class="arithmatex"><span class="MathJax_Preview">\lambda\in[0,1]</span><script type="math/tex">\lambda\in[0,1]</script></span> controls the weight given to each of the
+    original objectives;</li>
+<li><em>sequential formulation</em>: solve a single objective problem with one
+    of the two objectives, for example <span class="arithmatex"><span class="MathJax_Preview">\min f_1</span><script type="math/tex">\min f_1</script></span> finding <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> as
+    optimal solution, and then approaching a second single objective
+    problem, for example <span class="arithmatex"><span class="MathJax_Preview">\min f_2</span><script type="math/tex">\min f_2</script></span>, by adding a constraint to
+    preserve the former optimality i.e., <span class="arithmatex"><span class="MathJax_Preview">f_1(x)\leq f_1(x^*)</span><script type="math/tex">f_1(x)\leq f_1(x^*)</script></span>.</li>
+</ul>
+<h2 id="problem-variations">Problem variations<a class="headerlink" href="#problem-variations" title="Permanent link">&para;</a></h2>
+<h3 id="transshipment-nodes">Transshipment nodes<a class="headerlink" href="#transshipment-nodes" title="Permanent link">&para;</a></h3>
+<p>The classic formulation can be extended to a more general case where the
+product goes from the supply nodes to the demand ones through one (resp.
+<span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span>) layer of intermediary nodes, which is implicitly equivalent to
+change the underlying graph structure to the union of two (resp.
+<span class="arithmatex"><span class="MathJax_Preview">k+1</span><script type="math/tex">k+1</script></span>) complete bipartite graphs which share one set of nodes. In such
+a case, we refer to the shared layer of nodes with
+<span class="arithmatex"><span class="MathJax_Preview">\mathcal{T}=\{t_k\}_{k=1}^p</span><script type="math/tex">\mathcal{T}=\{t_k\}_{k=1}^p</script></span> and the problem objective will change as
+follows</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}x_{kj}</span><script type="math/tex">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}x_{kj}</script></span></p>
+<p>Both the supply and demand constraints must be changed accordingly
+(since no longer exists a direct connection between <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}</span><script type="math/tex">\mathcal{S}</script></span> and
+<span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}</span><script type="math/tex">\mathcal{D}</script></span>), and the <em>transshipment constraint</em> must be added in
+the following form</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i=1}^m x_{ik}=\sum\limits_{j=1}^n x_{kj}\;,\;\;\forall k=1,\dots,p</span><script type="math/tex">\sum\limits_{i=1}^m x_{ik}=\sum\limits_{j=1}^n x_{kj}\;,\;\;\forall k=1,\dots,p</script></span></p>
+<p>assuming no storage is allowed within transshipment nodes. </p>
+<h3 id="sortation-centers">Sortation centers<a class="headerlink" href="#sortation-centers" title="Permanent link">&para;</a></h3>
+<p>The intermediaries of the middle layer can be
+interpreted also as sortation centers. In this case, a mixture between
+transportation problem and <em>assignment problem</em> better fits our needs:
+the classic transportation problem can be applied to the transportation
+of products between supply nodes and sortation centers, and then an
+assignment problem can be used to optimize the accountability of
+sortation centers with respect to final customer demands (this strategy
+is a simple yet good model of Amazon logistics).</p>
+<p>In this case, the problem formulation can be changed as follows</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x,y}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}y_{kj}</span><script type="math/tex">\min\limits_{x,y}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}y_{kj}</script></span></p>
+<p>where the introduced new decision variables <span class="arithmatex"><span class="MathJax_Preview">y_{kj}\in\{0,1\}</span><script type="math/tex">y_{kj}\in\{0,1\}</script></span> are
+binary variables which represent the assignment of sortation between
+<span class="arithmatex"><span class="MathJax_Preview">t_k</span><script type="math/tex">t_k</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>, with corresponding sortation cost <span class="arithmatex"><span class="MathJax_Preview">c_{kj}</span><script type="math/tex">c_{kj}</script></span>. The
+constraint of such a model are the following:</p>
+<ul>
+<li><em>supply constraint</em>:
+    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{k=1}^p x_{ik}\leq S_i \;\;\forall i=1,\dots,m</span><script type="math/tex">\sum\limits_{k=1}^p x_{ik}\leq S_i \;\;\forall i=1,\dots,m</script></span></li>
+<li><em>sortation decoupling</em>:
+    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{k=1}^p y_{kj} = 1\;\;\forall j=1,\dots,n</span><script type="math/tex">\sum\limits_{k=1}^p y_{kj} = 1\;\;\forall j=1,\dots,n</script></span></li>
+<li><em>demand constraint</em>:
+    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i=1}^m x_{ik} = \sum\limits_{j=1}^n y_{kj}\cdot D_j \;\;\forall k=1,\dots,p</span><script type="math/tex">\sum\limits_{i=1}^m x_{ik} = \sum\limits_{j=1}^n y_{kj}\cdot D_j \;\;\forall k=1,\dots,p</script></span></li>
+</ul>
+<h3 id="multi-commodity-transportation">Multi-commodity transportation<a class="headerlink" href="#multi-commodity-transportation" title="Permanent link">&para;</a></h3>
+<p>In the case of a transportation problem which involves the
+transportation of more than one product, the “product” variable can be
+taken into account in the LP framework switching to a three-dimension
+tensor of decision variables <span class="arithmatex"><span class="MathJax_Preview">x_{ijh}</span><script type="math/tex">x_{ijh}</script></span>, each representing the amount
+of product <span class="arithmatex"><span class="MathJax_Preview">p_h</span><script type="math/tex">p_h</script></span> transported from <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> to <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>.</p>
+<h2 id="duality">Duality<a class="headerlink" href="#duality" title="Permanent link">&para;</a></h2>
+<p>For reference see
+<a href="https://medium.com/@geekrodion/course-optimization-for-programmers-5316572ed69b">this article</a>.</p>
+<h3 id="an-example">An example<a class="headerlink" href="#an-example" title="Permanent link">&para;</a></h3>
+<p>Let us consider the following maximization problem <span class="arithmatex"><span class="MathJax_Preview">\max 2x_1 + 3x_2</span><script type="math/tex">\max 2x_1 + 3x_2</script></span>
+s.t.</p>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">4x_1 + 8x_2 \leq 12\;\;(1)</span><script type="math/tex">4x_1 + 8x_2 \leq 12\;\;(1)</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">2x_1 + x_2 \leq 3\;\;(2)</span><script type="math/tex">2x_1 + x_2 \leq 3\;\;(2)</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">3x_1 + 2x_2 \leq 4\;\;(3)</span><script type="math/tex">3x_1 + 2x_2 \leq 4\;\;(3)</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">x_1, x_2 \geq 0\;\;(4)</span><script type="math/tex">x_1, x_2 \geq 0\;\;(4)</script></span></li>
+</ul>
+<p>Thanks to nonnegativity constraint (4), we can observe for example that
+the objective function has an upper bound given by the left side of (1):
+this ensures that the objective function is bounded by 12. Similarly,
+the same holds dividing the left side of (1) by 2: we have then a better
+upper bound on the objective function i.e., 6: this is the inspiration
+for the following discussion.</p>
+<p>Given <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> the objective function of our LP problem, is then possible
+to write <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> as a linear combination of variables <span class="arithmatex"><span class="MathJax_Preview">x_j</span><script type="math/tex">x_j</script></span> i.e.,
+<span class="arithmatex"><span class="MathJax_Preview">f(x_1,\dots,x_n)=\sum_{j=1}^nc_jx_j</span><script type="math/tex">f(x_1,\dots,x_n)=\sum_{j=1}^nc_jx_j</script></span>, and the same holds for the left
+side of each constraint, which can be represented by a function <span class="arithmatex"><span class="MathJax_Preview">g_i</span><script type="math/tex">g_i</script></span>
+such that <span class="arithmatex"><span class="MathJax_Preview">g_i(x_1,\dots,x_n)=\sum_{j=1}^na_{ij}x_j\leq b_i</span><script type="math/tex">g_i(x_1,\dots,x_n)=\sum_{j=1}^na_{ij}x_j\leq b_i</script></span>. As in
+the above example, we are then interested in finding a linear
+combination of the given constraints which constitutes an upper bound on
+<span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> i.e., <span class="arithmatex"><span class="MathJax_Preview">f\leq\sum_{j=1}^nd_jx_j\leq M</span><script type="math/tex">f\leq\sum_{j=1}^nd_jx_j\leq M</script></span> where <span class="arithmatex"><span class="MathJax_Preview">d_j\geq c_j</span><script type="math/tex">d_j\geq c_j</script></span> for
+all <span class="arithmatex"><span class="MathJax_Preview">j=1,\dots, n</span><script type="math/tex">j=1,\dots, n</script></span>. In the example, we are looking for a combination</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">d_1x_1 + d_2x_2\leq M</span><script type="math/tex">d_1x_1 + d_2x_2\leq M</script></span></p>
+<p>where <span class="arithmatex"><span class="MathJax_Preview">d_1\geq 2</span><script type="math/tex">d_1\geq 2</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_2\geq 3</span><script type="math/tex">d_2\geq 3</script></span>.</p>
+<p>For doing so, we can consider a linear combination
+<span class="arithmatex"><span class="MathJax_Preview">\sum_{j=1}^nd_j(y_1,\dots,y_p)x_j=\sum_{i=1}^py_ig_i(x_1,\dots,x_n)\leq\sum_{i=1}^pb_iy_i=M</span><script type="math/tex">\sum_{j=1}^nd_j(y_1,\dots,y_p)x_j=\sum_{i=1}^py_ig_i(x_1,\dots,x_n)\leq\sum_{i=1}^pb_iy_i=M</script></span>
+where <span class="arithmatex"><span class="MathJax_Preview">y_i\geq 0</span><script type="math/tex">y_i\geq 0</script></span> are brand new variables linked with the original
+constraints. In the example, the linear combination is</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">y_1\left(4x_1 + 8x_2\right) + y_2\left(2x_1 + x_2\right) + y_3\left(3x_1 + 2x_2\right) \leq 12y_1 + 3y_2 + 4y_3</span><script type="math/tex">y_1\left(4x_1 + 8x_2\right) + y_2\left(2x_1 + x_2\right) + y_3\left(3x_1 + 2x_2\right) \leq 12y_1 + 3y_2 + 4y_3</script></span></p>
+<p>which correspondes to</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\left(4y_1+2y_2+3y_3\right)x_1 + \left(8y_1+y_2+2y_3\right)x_2\leq 12y_1 + 3y_2 + 4y_3</span><script type="math/tex">\left(4y_1+2y_2+3y_3\right)x_1 + \left(8y_1+y_2+2y_3\right)x_2\leq 12y_1 + 3y_2 + 4y_3</script></span></p>
+<p>As per the intro of this section, our goal is to find the best possible
+upper bound on <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> i.e., to lower as much as we can the upper bound
+<span class="arithmatex"><span class="MathJax_Preview">M</span><script type="math/tex">M</script></span> which controls <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> from above while respecting the constraints
+<span class="arithmatex"><span class="MathJax_Preview">d_j\geq c_j</span><script type="math/tex">d_j\geq c_j</script></span> for all <span class="arithmatex"><span class="MathJax_Preview">j=1,\dots,n</span><script type="math/tex">j=1,\dots,n</script></span>. We have then implicitly defined
+a new LP problem, corresponding to the original one, i.e.
+<span class="arithmatex"><span class="MathJax_Preview">\min 12y_1 + 3y_2 + 4y_3</span><script type="math/tex">\min 12y_1 + 3y_2 + 4y_3</script></span> s.t.</p>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">4y_1+2y_2+3y_3 \geq 2\;\;(1)</span><script type="math/tex">4y_1+2y_2+3y_3 \geq 2\;\;(1)</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">8y_1+y_2+2y_3 \geq 3\;\;(2)</span><script type="math/tex">8y_1+y_2+2y_3 \geq 3\;\;(2)</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">y_1, y_2, y_3 \geq 0\;\;(3)</span><script type="math/tex">y_1, y_2, y_3 \geq 0\;\;(3)</script></span></li>
+</ul>
+<h3 id="dual-problem">Dual problem<a class="headerlink" href="#dual-problem" title="Permanent link">&para;</a></h3>
+<p>We have just figured out that a minimization problem corresponds in a
+“natural way” to a maximization one, and viceversa. In general we have
+that to a minimization problem <span class="arithmatex"><span class="MathJax_Preview">\min b^Ty</span><script type="math/tex">\min b^Ty</script></span> s.t.</p>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">A^Ty\geq c</span><script type="math/tex">A^Ty\geq c</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">y\geq 0</span><script type="math/tex">y\geq 0</script></span></li>
+</ul>
+<p>corresponds a maximization problem <span class="arithmatex"><span class="MathJax_Preview">\max c^Tx</span><script type="math/tex">\max c^Tx</script></span> s.t.</p>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">Ax\leq b</span><script type="math/tex">Ax\leq b</script></span></li>
+<li><span class="arithmatex"><span class="MathJax_Preview">x\geq 0</span><script type="math/tex">x\geq 0</script></span></li>
+</ul>
+<p>Given the privileged perspective of the transportation problem framework
+(minimization), we will call the former <em>primal problem</em>
+<span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and the latter its <em>dual problem</em> <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span>.</p>
+<h3 id="theorem-2">Theorem 2<a class="headerlink" href="#theorem-2" title="Permanent link">&para;</a></h3>
+<p>Any feasible solution of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> is a lower bound on the
+objective function of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span>.</p>
+<h3 id="theorem-3">Theorem 3<a class="headerlink" href="#theorem-3" title="Permanent link">&para;</a></h3>
+<p>One of the following holds:</p>
+<ol>
+<li>both <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> are infeasible;</li>
+<li><span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> is unbounded and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> is infeasible;</li>
+<li><span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> is infeasible and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> is unbounded;</li>
+<li>both <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> are feasible.
+    Furthermore, for any <span class="arithmatex"><span class="MathJax_Preview">y^*</span><script type="math/tex">y^*</script></span> solution of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and
+    <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> solution of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span>, the equation <span class="arithmatex"><span class="MathJax_Preview">b^Ty^*=c^Tx^*</span><script type="math/tex">b^Ty^*=c^Tx^*</script></span>
+    holds, which means that <span class="arithmatex"><span class="MathJax_Preview">\min\mathfrak{P}=\max\mathfrak{D}</span><script type="math/tex">\min\mathfrak{P}=\max\mathfrak{D}</script></span>.</li>
+</ol>
+<h3 id="transportation-dual-problem">Transportation dual problem<a class="headerlink" href="#transportation-dual-problem" title="Permanent link">&para;</a></h3>
+<p>A possible formulation of the dual problem of the (primal) classic
+transportation problem defined above, with equalities constraints, is
+the following
+<span class="arithmatex"><span class="MathJax_Preview">\max\sum\limits_{j=1}^nD_jv_j-\sum\limits_{i=1}^mS_iu_i</span><script type="math/tex">\max\sum\limits_{j=1}^nD_jv_j-\sum\limits_{i=1}^mS_iu_i</script></span> s.t.
+<span class="arithmatex"><span class="MathJax_Preview">v_j-u_i\leq c_{ij}</span><script type="math/tex">v_j-u_i\leq c_{ij}</script></span></p>
+<p>To understand and interpret this dual problem, let us refer to
+<a href="https://econweb.ucsd.edu/~jsobel/172aw02/notes8.pdf">this notes</a>.</p>
+<p>Consider the need of transportation expressed by the business
+stakeholders and modeled with the primal problem.</p>
+<p>Imagine now that the business wants to outsource the transportation and
+finds an external company which offers such a service in a particular
+way: it offers to buy product at price <span class="arithmatex"><span class="MathJax_Preview">u_i</span><script type="math/tex">u_i</script></span> at each supply nodes,
+transport it and resell the same amount at demand nodes at price
+<span class="arithmatex"><span class="MathJax_Preview">v_j</span><script type="math/tex">v_j</script></span>. Since the original transportation cost from <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> to <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>
+was <span class="arithmatex"><span class="MathJax_Preview">c_{ij}</span><script type="math/tex">c_{ij}</script></span>, from a cost perspective the business should only ensure
+that <span class="arithmatex"><span class="MathJax_Preview">v_j - u_i</span><script type="math/tex">v_j - u_i</script></span> is lower than <span class="arithmatex"><span class="MathJax_Preview">c_{ij}</span><script type="math/tex">c_{ij}</script></span>: the dual constraint
+represents this condition. From the external company point of view, it
+represents a condition to be matched to make the proposal appealing for
+the customer (our business).</p>
+<p>The dual objective function represents the net revenue of the external
+company in managing transportation along the network while satisfying
+customer constraints in terms of supply and demand.</p>
+<h2 id="extensions-to-other-graph-structures">Extensions to other graph structures<a class="headerlink" href="#extensions-to-other-graph-structures" title="Permanent link">&para;</a></h2>
+<p>This section goal is to discuss the following question: what happens to
+Theorem 1 if <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span> is not a complete bipartite graph anymore?
+Or, in other words, which are minimal balancing actions needed to ensure
+problem feasibility at the change of the underlying graph structure?</p>
+<p>This is crucial because in a given business framework not all routes
+between <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}</span><script type="math/tex">\mathcal{S}</script></span> and <span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}</span><script type="math/tex">\mathcal{D}</script></span> might be admissible. In such
+a case, graph connectivity can be “reduced” and therefore the problem
+could reveals to be infeasible subject to the given constraint.</p>
+<h3 id="theorem-4">Theorem 4<a class="headerlink" href="#theorem-4" title="Permanent link">&para;</a></h3>
+<p>Consider a feasible transportation problem assigned over a bipartite
+directed graph <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span>. For each demand node <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span> let
+<span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}^j</span><script type="math/tex">\mathcal{S}^j</script></span> be the set of indices of supply nodes adjacent to
+<span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>. Then we have</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i\in\mathcal{S}^j} S_i\geq D_j</span><script type="math/tex">\sum\limits_{i\in\mathcal{S}^j} S_i\geq D_j</script></span></p>
+<p>This theorem provides a necessary condition to be checked in order to
+ensure feasibility for a transportation problem assigned over a generic
+bipartite graph: the sum of supplies of supply nodes adjacent to a given
+demand node must be at least equal to the demand of that node. This is a
+necessary condition which partially overcomes the possibly
+“insufficient” graph connectivity.</p>
+<p>Unfortunately, since Theorem 1 does not hold if <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span> isn’t
+complete and Theorem 4 gives only a necessary condition, we are still 
+without a set of sufficient conditions for
+feasibility of a transportation problem assigned over a generic
+bipartite directed graph. Given the relationship between graph structure
+and supply-demand constraints, any useful condition must take into
+account the flow of product that can be assigned over the network
+(<em>max-flow connectivity</em>, <em>min-cut connectivity</em>, etc.).</p>
+<h3 id="a-custom-heuristics">A custom heuristics<a class="headerlink" href="#a-custom-heuristics" title="Permanent link">&para;</a></h3>
+<p>In order to solve a transportation problem over a
+“generic” graph and to overcome the lack of a proper Theorem to ensure
+feasibility, a custom heuristics to “balance” the
+given problem before submitting it to the actual solver is below.</p>
+<p>In particular, we search for <span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}^i</span><script type="math/tex">\mathcal{D}^i</script></span> (defined similarly to <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}^j</span><script type="math/tex">\mathcal{S}^j</script></span>)
+sets for each <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> and define the maximal set of suppliers adjacent
+to nodes in <span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}^i</span><script type="math/tex">\mathcal{D}^i</script></span>, denoting this set as
+<span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}(\mathcal{D}^i)</span><script type="math/tex">\mathcal{S}(\mathcal{D}^i)</script></span>. Then we refer to supplier nodes in
+<span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}(\mathcal{D}^i)</span><script type="math/tex">\mathcal{S}(\mathcal{D}^i)</script></span> as <em>critical suppliers</em> in the following
+cases:</p>
+<ul>
+<li>if <span class="arithmatex"><span class="MathJax_Preview">\left|\mathcal{D}^i\right|=1</span><script type="math/tex">\left|\mathcal{D}^i\right|=1</script></span>;</li>
+<li>if <span class="arithmatex"><span class="MathJax_Preview">\left|\mathcal{D}^i\right|=2</span><script type="math/tex">\left|\mathcal{D}^i\right|=2</script></span> and
+    <span class="arithmatex"><span class="MathJax_Preview">\left|\mathcal{S}(\mathcal{D}^i)\right|=1</span><script type="math/tex">\left|\mathcal{S}(\mathcal{D}^i)\right|=1</script></span>.</li>
+</ul>
+<p>We then sum up the supply of all the critical suppliers and create a
+dummy supply node, <em>adjacent to all demand nodes</em>, accountable for this
+quantity: this helps preventing the unattainability of the critical
+suppliers, which might affect problem feasibility.</p>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="https://coin-or.github.io/pulp/CaseStudies/a_transportation_problem.html">TP in PuLP</a></li>
+<li><a href="https://scipbook.readthedocs.io/en/latest/intro.html#transportation-problem">TP in Scipbook</a></li>
+<li><a href="https://developers.google.com/optimization/flow/mincostflow.html">Min cost flow problem by OR-tools</a></li>
+<li><a href="https://www.geeksforgeeks.org/transportation-problem-set-1-introduction/">TP heuristics</a></li>
+<li><a href="https://medium.com/@geekrodion/course-optimization-for-programmers-5316572ed69b">OR for programmers</a></li>
+</ol>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T14:21:32+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T14:21:32+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Silvio Lugaro
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/a-slice-of-py" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://it.linkedin.com/in/silviolugaro" target="_blank" rel="noopener" title="Linkedin" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../javascript/config.js"></script>
+      
+        <script src="../../../../../javascript/MathJax.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
