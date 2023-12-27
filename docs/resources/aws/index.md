@@ -33,6 +33,8 @@
 ### AWS CodeBuild
 
 - [Docker layer caching for CodeBuild](https://github.com/aws/aws-codebuild-docker-images/issues/26)
+- [serving Sphinx docs on S3](https://gist.github.com/monkut/aa011550d596088ef577ad6d82722a20)
+- [Continuous Deployment using AWS CodeBuild with CDK](https://netosec.com/continuous-deployment-using-aws-codebuild-with-cdk-for-next-js/)
 
 ### AWS CodePipeline
 

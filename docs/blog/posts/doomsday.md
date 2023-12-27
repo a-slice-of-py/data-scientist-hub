@@ -1,12 +1,19 @@
 ---
 date: 2022-01-05
+authors:
+  - silvio
 categories:
-  - Setup
+  - Recipes
+tags:
+  - Development
+  - Cmder
+  - GNU Make
+  - VSC
+  - Jupyter
+  - Windows Terminal
 ---
 
-# Doomsday
-
-I just _don't_ want to start all over again: recipes to survive to a forced reset of development local environment.
+# How to survive a forced reset of local development environment
 
 <!-- more -->
 

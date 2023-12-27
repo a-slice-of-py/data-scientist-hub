@@ -6,17 +6,17 @@
 
 #### ![50%](https://progress-bar.dev/50) ⚗️ Time series analysis and forecasting
 
-- [resources](/data-scientist-hub/resources/data-science/time-series)
+- [resources](../../resources/data-science/time-series.md)
 
 #### ![50%](https://progress-bar.dev/50) 🐍 Greykite
 
-- [resources](/data-scientist-hub/resources/data-science/time-series#greykite)
+- [resources](../../resources/data-science/time-series.md#greykite)
 
 ### 01 / January
 
 #### ![50%](https://progress-bar.dev/50) 🛠️ Git pre-commit hooks
 
-- [resources](/data-scientist-hub/resources/tools/git-versioning)
+- [resources](../../resources/tools/git-versioning.md)
 
 #### ![50%](https://progress-bar.dev/50) 🐍 Python packaging best practices
 

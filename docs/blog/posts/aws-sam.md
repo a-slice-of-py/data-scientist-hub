@@ -1,16 +1,20 @@
 ---
 date: 2021-12-21
+authors:
+  - silvio
 categories:
   - Recipes
+tags:
+  - AWS
+  - SAM
+  - Lambda
 ---
 
-# AWS SAM
+# Build Lambda layers with AWS SAM
 
 The AWS Serverless Application Model (AWS SAM) is an open-source framework that you can use to build serverless applications on AWS. A useful tutorial can be found [here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html).
 
 <!-- more -->
-
-## Build Lambda layers
 
 Lambda layers builds can be automated through the code in [aws-lambda-layer](https://github.com/a-slice-of-py/aws-lambda-layer) repo. The idea is forcing AWS SAM to build layers in the same way it builds Lambdas as described [here](https://bryson3gps.wordpress.com/2018/12/06/trick-sam-into-building-your-lambda-layers/) and [here](https://stackoverflow.com/questions/58369170/build-custom-aws-lambda-layer-for-scikit-image/58408130#58408130).
 
@@ -61,7 +65,7 @@ The addition made in the template should look like this:
     DependsOn: DummyLambda
 ```
 
-### w/ custom local module
+## w/ custom local module
 
 The following methods are possible ways to overcome errors related to the import of custom local scripts within AWS Lambda functions, such as `attempted relative import with no known parent package`, `attempted relative import beyond top-level package`, etc.
 

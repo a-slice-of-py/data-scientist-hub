@@ -1,16 +1,21 @@
 ---
 date: 2021-12-21
+authors:
+  - silvio
 categories:
   - Recipes
+tags:
+  - AWS
+  - S3
 ---
 
-# S3
+# AWS S3 presigned URLs
+
+Solutions to common problems when working with S3 presigned URLs.
 
 <!-- more -->
 
-## Presigned URLs
-
-### `SignatureDoesNotMatch` error
+## `SignatureDoesNotMatch` error
 
 The error can be spotted visiting presigned URL and receiving:
 
@@ -25,7 +30,7 @@ A possible solution is given in [this issue](https://github.com/boto/boto3/issue
 
 More on the topic [here](https://botocore.amazonaws.com/v1/documentation/api/latest/reference/config.html#botocore.config.Config).
 
-### Credentials and expiration
+## Credentials and expiration
 
 Even if presigned URL creation lets you specify the URL duration via `ExpiresIn` parameter, you can experience different url durations, capped to 12 hours despite longer requested value.
 

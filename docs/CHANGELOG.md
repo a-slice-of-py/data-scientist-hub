@@ -6,9 +6,11 @@ _Release date: Dec 27, 2023_
 
 Lighter appearance and big refactor:
 
-- upgrade `mkdocs-material` to laatest version
+- upgrade `mkdocs-material` to latest version
+- enable Git metadata
 - move all notes under new Blog plugin
-- move Snippets under Resourcs section
+- move Snippets under Resources section
+- refactor several resources pages
 - remove legacy sections
 
 ## v2.3

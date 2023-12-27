@@ -7,14 +7,25 @@
 
 **Data Scientist Hub (DSH)** is my personal knowledge center.
 
-<!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
-
 DSH is definitely a living creature, always under development and I expect - and somehow _wish_ - frequent changes in both contents and shape.
 It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material theme](https://squidfunk.github.io/mkdocs-material/) and deployed on [GitHub Pages](https://pages.github.com/).
 
 You can visit the current deployed version [here](http://a-slice-of-py.github.io/data-scientist-hub/).
 
 ## Changelog
+
+## v2.4
+
+_Release date: Dec 27, 2023_
+
+Lighter appearance and big refactor:
+
+- upgrade `mkdocs-material` to latest version
+- enable Git metadata
+- move all notes under new Blog plugin
+- move Snippets under Resources section
+- refactor several resources pages
+- remove legacy sections
 
 ### v2.3
 

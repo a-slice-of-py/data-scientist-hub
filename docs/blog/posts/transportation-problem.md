@@ -1,10 +1,14 @@
 ---
 date: 2020-05-12
+authors:
+  - silvio
 categories:
   - Guides
+tags:
+  - OR
 ---
 
-# Transportation Problem
+# A guide to transportation problems
 
 <!-- more -->
 

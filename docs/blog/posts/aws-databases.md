@@ -1,10 +1,15 @@
 ---
 date: 2022-02-01
+authors:
+  - silvio
 categories:
   - Guides
+tags:
+  - AWS
+  - Database
 ---
 
-# AWS databases
+# A comparison between AWS databases
 
 <!-- more -->
 
@@ -47,7 +52,7 @@ It allows to manage and run six database engines:
 - Oracle
 - Microsoft SQL Server
 
-For a comparison between open source alternatives you can see [this page](/data-scientist-hub/notes/databases).
+For a comparison between open source alternatives you can see [this page](databases.md).
 
 ## Amazon Athena
 

@@ -1,16 +1,19 @@
 ---
 date: 2022-02-02
+authors:
+  - silvio
 categories:
-  - Learning
+  - Guides
+tags:
+  - Database
+  - Open Source
 ---
 
-# Open source databases
-
-<!-- more -->
-
-## Relational
+# A brief comparison between open source databases
 
 A brief comparison between open source relational databases is available below (full credits to [Soufiane L](https://stackshare.io/stackups/mariadb-vs-mysql-vs-postgresql)).
+
+<!-- more -->
 
 |          Feature         | MariaDB[^1] | MySQL | PostgreSQL[^2] |
 |--------------------------|:-----------:|:-----:|:--------------:|

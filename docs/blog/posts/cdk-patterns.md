@@ -1,14 +1,18 @@
 ---
 date: 2022-10-13
+authors:
+  - silvio
 categories:
   - Recipes
 tags:
   - ITA
+  - AWS
+  - CDK
+  - IaC
+  - Coding
 ---
 
-# Custom L3 Constructs (Patterns)
-
-## Esigenza
+# Best practices per AWS CDK L3 constructs
 
 Nell'utilizzo avanzato di [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html), si realizza prima o poi l'esigenza di centralizzare alcune logiche e risorse in maniera da poterle riutilizzare in maniera rapida, riducendo il codice boilerplate.
 Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementazione di una "casalinga" [factory](https://en.wikipedia.org/wiki/Factory_method_pattern) - pythonica sì, ma non conforme alle best practices di CDK - la risposta probabilmente più corretta potrebbe riguardare l'implementazione di un costrutto L3, [descritto come](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html#constructs_lib):

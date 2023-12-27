@@ -14,6 +14,6 @@ It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material
 
 ## Sitemap
 
-- _Home_: README, sitemap and tags.
-- _Blog_: development notes about cloud development, data science and more.
-- _Resources_: collection of links to useful online resources.
+- **Home**: README, sitemap and tags.
+- **Blog**: development notes about cloud development, data science and more.
+- **Resources**: collection of links to useful online resources.

@@ -1,12 +1,18 @@
 ---
 date: 2021-12-21
+authors:
+  - silvio
 categories:
   - Guides
+tags:
+  - AWS
+  - NoSQL
+  - DynamoDB
 ---
 
-# DynamoDB
+# An introduction to Amazon DynamoDB
 
-An overview of AWS DynamoDB NoSQL database.
+An overview of Amazon DynamoDB NoSQL database.
 
 <!-- more -->
 
@@ -83,6 +89,10 @@ To customize this behaviour you can specify `DynamoEventSource` parameters as su
 
 - `retry_attempts`: Maximum number of retry attempts Valid Range: \*. Minimum value of 0 \*. Maximum value of 10000. Default: - retry until the record expires
 - `max_record_age`: The maximum age of a record that Lambda sends to a function for processing. Valid Range: - Minimum value of 60 seconds - Maximum value of 7 days Default: - the retention period configured on the stream
+
+### Lambda and VPC Subnets
+
+If an AWS Lambda raises timeout connection error while trying to reach a Dynamo DB table, despite inside a VPC with endpoint towards DynamoDB enabled, please refer to [this issue](https://stackoverflow.com/a/54789779): the reason might be related to public subnets randomly assigned to the lambda in a given availability zone.
 
 ### Main takeaways
 

@@ -1,16 +1,16 @@
 # Resources
 
-- _Data Science_: data science, in the widest meaning of the term.
-- _Python_: Python, my actual programming language.
-- _Data Visualization_: data-viz, both methodology and implementation.
-- _Education_: collection of resources for an effective data education.
-- _Interviews_: how to nail down job interviews!
-- _Tools_: toolbox full of utilities.
-- _Training_: books, MOOC, certifications and everything else about training.
-- _AWS_: Amazon Web Service related stuff.
-- _Data Engineering_: DevOps, CI/CD and others data engineering best practices.
-- _Misc_: a salad of math, physics and the rest of hard sciences.
-- _Snippets_: the temple of DRY, collection of snippets of reusable code.
+- **AWS**: Amazon Web Service related stuff.
+- **Education**: collection of resources for an effective data education.
+- **Data Engineering**: DevOps, CI/CD and others data engineering best practices.
+- **Data Science**: data science, in the widest meaning of the term.
+- **Data Visualization**: data-viz, both methodology and implementation.
+- **Interviews**: how to nail down job interviews!
+- **Misc**: a salad of math, physics and the rest of hard sciences.
+- **Python**: Python, my actual programming language.
+- **Snippets**: the temple of DRY, collection of snippets of reusable code.
+- **Tools**: toolbox full of utilities.
+- **Training**: books, MOOC, certifications and everything else about training.
 
 ## ML Tooling
 

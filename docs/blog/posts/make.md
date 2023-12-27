@@ -1,10 +1,14 @@
 ---
 date: 2020-06-11
+authors:
+  - silvio
 categories:
   - Guides
+tags:
+  - GNU Make
 ---
 
-# GNU Make
+# A brief guide to GNU Make
 
 `make` is a build tool which tracks the dependencies between the
 resources it manages, updating the successors whenever a change in one

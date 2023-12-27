@@ -1,10 +1,16 @@
 ---
 date: 2021-10-15
+authors:
+  - silvio
 categories:
   - Recipes
+tags:
+  - AWS
+  - Streamlit
+  - Logging
 ---
 
-# AWS CloudWatch logs in Streamlit
+# How to display AWS CloudWatch logs in Streamlit
 
 Let's dive in the following scenario:
 

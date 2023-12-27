@@ -178,7 +178,7 @@
 - [Carbon charts: a reusable framework-agnostic D3 charting library](https://github.com/carbon-design-system/carbon-charts)
 - [D3js scatterplots in Python](https://towardsdatascience.com/get-the-most-out-of-your-scatterplot-by-making-it-interactive-using-d3js-19939e3b046)
 
-[^1]: [A day in the life of Americans](/data-scientist-hub/resources/data-visualization/#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
+[^1]: [A day in the life of Americans](index.md#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
 ## Line Plot
 

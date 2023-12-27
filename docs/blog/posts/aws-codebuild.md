@@ -1,12 +1,16 @@
 ---
 date: 2021-12-21
+authors:
+  - silvio
 categories:
-  - Guides
+  - Recipes
+tags:
+  - AWS
+  - DevOps
+  - CodeBuild
 ---
 
-# CodeBuild
-
-## CodeBuild local testing
+# AWS CodeBuild local testing
 
 Suppose you have a CodeBuild project triggered by a push on a given branch of a linked CodeCommit repo. If the build is particularly heavy, you might want to ensure its correctness _before_ an actual commit to the related repo - for example, you might be interested in testing the build process specified in `buildspec.yml` locally.
 
@@ -32,10 +36,3 @@ Thankfully, AWS [released in 2018](https://aws.amazon.com/it/blogs/devops/announ
 
 !!! hint "Hint 2"
     If you want CodeBuild local agent to use a local named profile, you can execute `codebuild_build.sh` with options `-c -p <PROFILE_NAME>`, as suggested [here](https://github.com/aws/aws-codebuild-docker-images/issues/252).
-
-## Docs continuous deployment via CodeBuild
-
-See:
-
-- [serving Sphinx docs on S3](https://gist.github.com/monkut/aa011550d596088ef577ad6d82722a20)
-- [Continuous Deployment using AWS CodeBuild with CDK](https://netosec.com/continuous-deployment-using-aws-codebuild-with-cdk-for-next-js/)

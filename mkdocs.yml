@@ -32,9 +32,11 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.sections
+    - navigation.expand
     - search.suggest
     - search.share
     - search.highlight
+    - toc.follow
 
 markdown_extensions:
   - meta
@@ -72,6 +74,9 @@ plugins:
   - tags:
       tags_file: tags.md
   - glightbox
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
 
 extra_css:
   - stylesheets/extra.css
