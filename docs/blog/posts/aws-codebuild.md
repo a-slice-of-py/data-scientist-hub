@@ -1,8 +1,16 @@
+---
+date: 2021-12-21
+categories:
+  - Guides
+---
+
 # CodeBuild
 
 ## CodeBuild local testing
 
 Suppose you have a CodeBuild project triggered by a push on a given branch of a linked CodeCommit repo. If the build is particularly heavy, you might want to ensure its correctness _before_ an actual commit to the related repo - for example, you might be interested in testing the build process specified in `buildspec.yml` locally.
+
+<!-- more -->
 
 Thankfully, AWS [released in 2018](https://aws.amazon.com/it/blogs/devops/announcing-local-build-support-for-aws-codebuild/) the capability to do so with [AWS CodeBuild agent](https://docs.aws.amazon.com/codebuild/latest/userguide/use-codebuild-agent.html). To use it you must:
 

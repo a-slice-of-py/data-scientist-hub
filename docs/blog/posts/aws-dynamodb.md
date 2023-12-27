@@ -1,6 +1,14 @@
+---
+date: 2021-12-21
+categories:
+  - Guides
+---
+
 # DynamoDB
 
 An overview of AWS DynamoDB NoSQL database.
+
+<!-- more -->
 
 ## Usage modes
 

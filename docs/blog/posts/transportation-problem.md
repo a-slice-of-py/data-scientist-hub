@@ -1,6 +1,12 @@
+---
+date: 2020-05-12
+categories:
+  - Guides
+---
+
 # Transportation Problem
 
-<small><p style="text-align:right;margin-top:-76px">12/05/2020</p></small>
+<!-- more -->
 
 ## Classic formulation
 

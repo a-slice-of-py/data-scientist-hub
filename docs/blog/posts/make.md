@@ -1,10 +1,16 @@
-# GNU Make
+---
+date: 2020-06-11
+categories:
+  - Guides
+---
 
-<small><p style="text-align:right;margin-top:-76px">11/06/2020</p></small>
+# GNU Make
 
 `make` is a build tool which tracks the dependencies between the
 resources it manages, updating the successors whenever a change in one
 or more predecessors is detected.
+
+<!-- more -->
 
 It was originally developed by Stuart Feldman in 1976 as a Bell Labs
 summer intern - he then received the 2003 ACM Software System Award for

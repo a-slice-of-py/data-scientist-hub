@@ -31,6 +31,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.sections
     - search.suggest
     - search.share
     - search.highlight
@@ -65,6 +66,9 @@ markdown_extensions:
 plugins:
   - search
   - awesome-pages
+  - blog:
+      authors: true
+      post_excerpt: required
   - tags:
       tags_file: tags.md
   - glightbox

@@ -1,6 +1,14 @@
+---
+date: 2021-12-21
+categories:
+  - Recipes
+---
+
 # AWS SAM
 
 The AWS Serverless Application Model (AWS SAM) is an open-source framework that you can use to build serverless applications on AWS. A useful tutorial can be found [here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html).
+
+<!-- more -->
 
 ## Build Lambda layers
 

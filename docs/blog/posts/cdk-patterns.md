@@ -1,4 +1,7 @@
 ---
+date: 2022-10-13
+categories:
+  - Recipes
 tags:
   - ITA
 ---
@@ -11,6 +14,8 @@ Nell'utilizzo avanzato di [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/hom
 Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementazione di una "casalinga" [factory](https://en.wikipedia.org/wiki/Factory_method_pattern) - pythonica sì, ma non conforme alle best practices di CDK - la risposta probabilmente più corretta potrebbe riguardare l'implementazione di un costrutto L3, [descritto come](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html#constructs_lib):
 
 > designed to help you complete common tasks in AWS, often involving multiple kinds of resources.
+
+<!-- more -->
 
 ## Implementazione
 

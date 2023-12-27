@@ -1,6 +1,14 @@
-# ☄️ Doomsday
+---
+date: 2022-01-05
+categories:
+  - Setup
+---
+
+# Doomsday
 
 I just _don't_ want to start all over again: recipes to survive to a forced reset of development local environment.
+
+<!-- more -->
 
 ## cmder
 

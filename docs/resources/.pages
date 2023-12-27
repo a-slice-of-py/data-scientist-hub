@@ -1,12 +1,13 @@
 nav:
   - What's here: index.md
-  - ⚗️ Data Science: data-science
-  - 🐍 Python: python
-  - 📊 Data Visualization: data-visualization
-  - 👨‍🏫 Education: education
-  - 👔 Interviews: interviews
-  - 🛠️ Tools: tools
-  - 📚 Training: training
-  - ☁️ AWS: aws
-  - ⚙️ Data Engineering: data-engineering
-  - 🥗 Misc: misc
+  - Data Science: data-science
+  - Python: python
+  - Data Visualization: data-visualization
+  - Education: education
+  - Interviews: interviews
+  - Tools: tools
+  - Training: training
+  - AWS: aws
+  - Data Engineering: data-engineering
+  - Misc: misc
+  - Snippets: snippets

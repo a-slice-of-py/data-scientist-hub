@@ -1,6 +1,10 @@
-# AWS CloudWatch logs in Streamlit
+---
+date: 2021-10-15
+categories:
+  - Recipes
+---
 
-<small><p style="text-align:right;margin-top:-76px">15/10/2021</p></small>
+# AWS CloudWatch logs in Streamlit
 
 Let's dive in the following scenario:
 
@@ -10,6 +14,8 @@ Let's dive in the following scenario:
 - we _don't_ want to neither switch from our Streamlit frontend to AWS Console, nor become crazy in following right log groups/streams to track our job
 
 A possible custom solution is presented below.
+
+<!-- more -->
 
 ## Requirements
 

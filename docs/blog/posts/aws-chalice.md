@@ -1,6 +1,16 @@
+---
+date: 2021-12-21
+authors:
+  - silvio
+categories:
+  - Guides
+---
+
 # AWS Chalice
 
 [AWS Chalice](https://github.com/aws/chalice) is a microframework for writing serverless apps in Python.
+
+<!-- more -->
 
 ## Comparison with SAM
 
@@ -56,7 +66,7 @@ The following table provides a mapping between AWS SAM and AWS Chalice commands:
 </tbody>
 </table>
 
-The following sample is the Chalice implementation equivalent of SAM project discussed [here](/data-scientist-hub/notes/paws/sam/#w-custom-local-module).
+The following sample is the Chalice implementation equivalent of SAM project discussed [here](sam.md#w-custom-local-module).
 
 ``` python
 chalice-app/

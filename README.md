@@ -10,7 +10,6 @@
 <!-- [=75% "current website progress 75%"]{: .candystripe .candystripe-animate} -->
 
 DSH is definitely a living creature, always under development and I expect - and somehow _wish_ - frequent changes in both contents and shape.
-
 It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material theme](https://squidfunk.github.io/mkdocs-material/) and deployed on [GitHub Pages](https://pages.github.com/).
 
 You can visit the current deployed version [here](http://a-slice-of-py.github.io/data-scientist-hub/).
@@ -59,18 +58,6 @@ _Release date: Jun 21, 2018_
 
 Unorganized collection of links stored in random mails to myself.
 
-## Commit types
-
-From v2.1 on, commit messages _should_ follow a convention (as suggested by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)) with below types:
-
-- `feat` ➜ new project features
-- `fix` ➜ bug fixing
-- `data` ➜ contents update
-- `refactor` ➜ light code refactoring
-- `style` ➜ code style update
-- `wip` ➜ backup commits
-- `misc` ➜ none of the above
-
 ---
 
-Copyright &copy; 2022 Silvio Lugaro
+Copyright &copy; 2024 Silvio Lugaro

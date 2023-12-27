@@ -1,13 +1,15 @@
 ---
-tags:
-  - WIP
+date: 2022-01-16
+draft: true
+categories:
+  - Guides
 ---
 
 # TNMFML
 
-<small><p style="text-align:right;margin-top:-76px">16/01/2022</p></small>
-
 a.k.a. _Taking Notes on [Making Friends with Machine Learning](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)_: notes on applications, processes and big ideas underlying ML.
+
+<!-- more -->
 
 !!! info "Disclaimer"
     I really enjoyed watching the entire playlist MFML by [Cassie Kozyrkov](https://twitter.com/quaesita), so I decided to watch it a second time while taking notes. Therefore, below you can find those notes, meaning essentially that: all credits for crystal clear explanations, brilliant examples and fun ideas go to Cassie, while biases and misunderstandings are all on me.

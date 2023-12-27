@@ -1,4 +1,12 @@
-# Database
+---
+date: 2022-02-01
+categories:
+  - Guides
+---
+
+# AWS databases
+
+<!-- more -->
 
 Main databases types:
 

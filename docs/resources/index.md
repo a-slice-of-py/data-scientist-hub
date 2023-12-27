@@ -10,6 +10,7 @@
 - _AWS_: Amazon Web Service related stuff.
 - _Data Engineering_: DevOps, CI/CD and others data engineering best practices.
 - _Misc_: a salad of math, physics and the rest of hard sciences.
+- _Snippets_: the temple of DRY, collection of snippets of reusable code.
 
 ## ML Tooling
 

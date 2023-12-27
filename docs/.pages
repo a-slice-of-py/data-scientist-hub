@@ -1,11 +1,7 @@
 nav:
-  - 🏡 Home: 
+  - Home: 
       - Home: index.md
+      - Changelog: CHANGELOG.md
       - tags.md
-  - 📂 Projects: projects
-  - ✏️ Notes: notes
-  - 💾 Snippets: snippets  
-  - 🗃️ Resources: resources
-  - ☄️ Doomsday: doomsday
-  - 🏷️ About: about.md
-  
+  - Blog: blog
+  - Resources: resources

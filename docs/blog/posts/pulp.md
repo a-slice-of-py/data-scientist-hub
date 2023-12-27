@@ -1,10 +1,16 @@
-# PuLP
+---
+date: 2019-08-12
+categories:
+  - Guides
+---
 
-<small><p style="text-align:right;margin-top:-76px">12/08/2019</p></small>
+# PuLP
 
 ## Taxonomy and general approach
 
 PuLP is a Python library for linear programming written in a _pythonic_ way.
+
+<!-- more -->
 
 ### Linear, Integer and Mixed-integer programming
 
