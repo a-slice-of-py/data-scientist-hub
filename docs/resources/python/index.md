@@ -253,45 +253,6 @@
 
 - [Custom imputer for missing data in scikit-learn](https://towardsdatascience.com/coding-a-custom-imputer-in-scikit-learn-31bd68e541de)
 
-## Model deployment
-
-- [Deploying ML model as a REST API](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
-- [Denzel](https://denzel.readthedocs.io/en/latest/tutorial.html)
-- [Dash development and deployment](https://towardsdatascience.com/a-gentle-introduction-to-dash-development-and-deployment-f8b91990d3bd)
-- [Deploy ML model with Flask and Heroku](https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50)
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Website to host Python web app](https://towardsdatascience.com/creating-a-website-to-host-your-python-web-application-f06f694a87e8)
-- [Deploy Dash app to Heroku](https://medium.com/@austinlasseter/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73)
-- [Build and deploy a ML web app](https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99)
-- [Deploy `streamlit` on Heroku](https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088)
-- [Anvil](https://anvil.works/)
-- [Pythonanywhere](https://www.pythonanywhere.com/pricing/)
-- [Deploy Dash app for free](https://towardsdatascience.com/the-easiest-way-to-deploy-your-dash-app-for-free-f92c575bb69e)
-- [`streamlit` deployment on Heroku](https://github.com/ash2shukla/streamlit-heroku)
-- [Deploying `streamlit` on AWS Lightsail with nginx and docker](https://medium.com/@dasirra/using-streamlit-nginx-docker-to-build-and-put-in-production-dashboards-in-aws-lightsail-781dab8f2836)
-- [`gradio` as a lightweight alternative to Streamlit](https://github.com/gradio-app/gradio)
-- [ML model deployment on iPhone](https://medium.com/towards-artificial-intelligence/deploy-a-python-machine-learning-model-on-your-iphone-d006b1e04bc4)
-- [Deploy PyCaret model via FastAPI](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786)
-- [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)
-- [FastDash](https://github.com/dkedar7/fast_dash)
-- [H2O Wave](https://wave.h2o.ai/) and [its table component](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
-- [MLEM: package and deploy machine learning models](https://github.com/iterative/mlem)
-
-## Model monitoring
-
-- [MLflow](https://towardsdatascience.com/5-tips-for-mlflow-experiment-tracking-c70ae117b03f)
-- [Model drift](https://towardsdatascience.com/take-my-drift-away-650d0cd92168)
-- [Evidently for model monitoring](https://github.com/evidentlyai/evidently)
-- [Weights and Biases](https://wandb.ai/site)
-- [Sacred](https://github.com/IDSIA/sacred)
-- [Omniboard as a Sacred frontend](https://github.com/vivekratnavel/omniboard)
-- [MLflow 101](https://towardsdatascience.com/machine-learning-adventures-with-mlflow-64127713b0a1)
-- [deepchecks](https://github.com/deepchecks/deepchecks)
-- [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
-- [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
-- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
-- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
-
 ## Numpy
 
 - [Reshaping numpy arrays](https://towardsdatascience.com/reshaping-numpy-arrays-in-python-a-step-by-step-pictorial-tutorial-aed5f471cf0b)
@@ -357,7 +318,7 @@
 - [Secure password handling](https://towardsdatascience.com/secure-password-handling-in-python-6b9f5747eca5)
 - [Secrets management](https://pub.towardsai.net/secrets-python-module-for-strong-random-number-and-token-generation-39af0392352b)
 
-## `os` and Pathlib
+## OS and Pathlib
 
 - [`pathlib`](https://docs.python.org/3/library/pathlib.html)
 - [Examples with Python's pathlib](https://towardsdatascience.com/10-examples-to-master-python-pathlib-1249cc77de0b)
@@ -544,6 +505,27 @@
 
 ## Web Framework
 
+- [Deploying ML model as a REST API](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
+- [Denzel](https://denzel.readthedocs.io/en/latest/tutorial.html)
+- [Dash development and deployment](https://towardsdatascience.com/a-gentle-introduction-to-dash-development-and-deployment-f8b91990d3bd)
+- [Deploy ML model with Flask and Heroku](https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Website to host Python web app](https://towardsdatascience.com/creating-a-website-to-host-your-python-web-application-f06f694a87e8)
+- [Deploy Dash app to Heroku](https://medium.com/@austinlasseter/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73)
+- [Build and deploy a ML web app](https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99)
+- [Deploy `streamlit` on Heroku](https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088)
+- [Anvil](https://anvil.works/)
+- [Pythonanywhere](https://www.pythonanywhere.com/pricing/)
+- [Deploy Dash app for free](https://towardsdatascience.com/the-easiest-way-to-deploy-your-dash-app-for-free-f92c575bb69e)
+- [`streamlit` deployment on Heroku](https://github.com/ash2shukla/streamlit-heroku)
+- [Deploying `streamlit` on AWS Lightsail with nginx and docker](https://medium.com/@dasirra/using-streamlit-nginx-docker-to-build-and-put-in-production-dashboards-in-aws-lightsail-781dab8f2836)
+- [`gradio` as a lightweight alternative to Streamlit](https://github.com/gradio-app/gradio)
+- [ML model deployment on iPhone](https://medium.com/towards-artificial-intelligence/deploy-a-python-machine-learning-model-on-your-iphone-d006b1e04bc4)
+- [Deploy PyCaret model via FastAPI](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786)
+- [`PyWebIO` for web app development](https://github.com/wang0618/PyWebIO)
+- [FastDash](https://github.com/dkedar7/fast_dash)
+- [H2O Wave](https://wave.h2o.ai/) and [its table component](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
+- [MLEM: package and deploy machine learning models](https://github.com/iterative/mlem)
 - [10 Python web frameworks](https://towardsdatascience.com/my-favorite-python-web-frameworks-for-2021-a255fde2cd68)
 - [Reflex: performant, customizable web apps in pure Python](https://github.com/reflex-dev/reflex)
 - [Dara](https://github.com/causalens/dara)

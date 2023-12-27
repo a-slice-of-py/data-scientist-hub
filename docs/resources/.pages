@@ -1,11 +1,11 @@
 nav:
   - What's here: index.md
   - AWS: aws
-  - Education: education
+  - Career: interviews
   - Data Engineering: data-engineering
   - Data Science: data-science
   - Data Visualization: data-visualization
-  - Interviews: interviews
+  - Education: education
   - Misc: misc
   - Python: python
   - Snippets: snippets

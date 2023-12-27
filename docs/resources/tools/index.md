@@ -24,26 +24,6 @@
 - [Croniter](https://github.com/kiorky/croniter)
 - [Cronrange](https://www.cronrange.info/)
 
-## Dataset
-
-- [Dataset search](https://toolbox.google.com/datasetsearch)
-- [Hand drawn data](https://towardsdatascience.com/get-hand-drawn-visualization-shaped-data-for-teaching-and-experimenting-391425fe3171)
-- [Faker](https://github.com/joke2k/faker)
-- [Mimesis](https://github.com/lk-geimfari/mimesis)
-- [SDV](https://github.com/sdv-dev/SDV)
-- [Diffbot](https://www.diffbot.com/)
-- [Datasette](https://github.com/simonw/datasette)
-- [Hand drawn data in Jupyter with `drawdata`](https://github.com/koaning/drawdata)
-- [World Bank data API](https://towardsdatascience.com/access-a-world-of-data-with-wbgapi-61849354f769)
-- [Footprint Network](https://data.footprintnetwork.org/#/countryTrends?cn=5001&type=BCtot,EFCtot)
-- [Sondaggi politico elettorali ITA](http://www.sondaggipoliticoelettorali.it/ListaSondaggi.aspx?st=SONDAGGI)
-- [Microsoft's Bing road detections](https://github.com/microsoft/RoadDetections)
-- [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)
-- [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
-- [Folktables](https://github.com/socialfoundations/folktables)
-- [The official portal for European data](https://data.europa.eu/en)
-- [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)
-
 ## Docker
 
 - [Git submodules to install custom Python package in Docker image](https://towardsdatascience.com/use-git-submodules-to-install-a-private-custom-python-package-in-a-docker-image-dd6b89b1ee7a)
@@ -114,42 +94,6 @@
 
 - [JSON Visio editor](https://jsonvisio.com/editor)
 
-## Large Language Models (LLM)
-
-- [ChatGPT Is An Extra-Ordinary Python Programmer](https://davidamos.dev/chatgpt-is-an-extra-ordinary-python-programmer/)
-- [StartChat Playground by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/starchat-playground)
-- [What is ChatGPT doing and why does it work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
-- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
-- [privateGPT](https://github.com/imartinez/privateGPT)
-- [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
-- [How Foundation Model Providers Comply with the Draft EU AI Act](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
-- [A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)
-- [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)
-- [Mastering Prompt Engineering](https://towardsdatascience.com/mastering-prompt-engineering-to-unleash-chatgpts-potential-9578a3fe799c)
-- [How to Run LLMs Locally](https://wandb.ai/capecape/LLMs/reports/A-Guide-on-Running-LLMs-Locally--Vmlldzo0Njg5NzMx)
-- [LangChain: Building applications with LLMs through composability](https://github.com/hwchase17/langchain)
-- [DeclarAI: turning Python code into production-ready LLM tasks](https://github.com/vendi-ai/declarai)
-- [Open Source LLMs To Power A LLM Application](https://pub.towardsai.net/top-10-open-source-llms-to-use-in-your-next-llm-application-fbfc51542b78)
-- [Large language models, explained with a minimum of math and jargon](https://www.understandingai.org/p/large-language-models-explained-with?utm_medium=ios)
-- [Inside GPT: Understanding the text generation](https://towardsdatascience.com/inside-gpt-i-1e8840ca8093)
-- [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)
-- [Understand how BERT constructs state-of-the-art embeddings](https://towardsdatascience.com/bert-3d1bf880386a)
-- [codellama](https://github.com/facebookresearch/codellama)
-- [NLP tasks via LLM](https://towardsdatascience.com/natural-language-processing-for-absolute-beginners-a195549a3164)
-- [From encoding to embeddings](https://towardsdatascience.com/from-encodings-to-embeddings-5b59bceef094)
-- [Large Language Models: Sentence-BERT](https://towardsdatascience.com/sbert-deb3d4aef8a4)
-- [Methods For Improving Your Large Language Model](https://towardsdatascience.com/3-easy-methods-for-improving-your-large-language-model-68670fde9ffa)
-- [Vector Databases and How to Use Them to Augment LLM](https://towardsdatascience.com/all-you-need-to-know-about-vector-databases-and-how-to-use-them-to-augment-your-llm-apps-596f39adfedb)
-- [Large Language Models: RoBERTa, a Robustly Optimized BERT Approach](https://towardsdatascience.com/roberta-1ef07226c8d8)
-- [DeepEval: Unit Testing for LLMs](https://github.com/confident-ai/deepeval)
-- [Attention Sinks in LLMs for endless fluency](https://huggingface.co/blog/tomaarsen/attention-sinks)
-- [Generative AI exists because of the transformer: this is how it works](https://ig.ft.com/generative-ai/)
-- [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-- [All you need to know to Develop using Large Language Models](https://towardsdatascience.com/all-you-need-to-know-to-develop-using-large-language-models-5c45708156bc)
-- [LMQL: a programming language for large language models](https://github.com/eth-sri/lmql)
-- [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
-- [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
-
 ## Markdown
 
 - [Stackedit](https://stackedit.io/)
@@ -186,27 +130,6 @@
 
 - [SOLID principle](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 - [Software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes/)
-
-## SQL
-
-- [PugSQL](https://pugsql.org/)
-- [Window functions in SparkSQL](https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html)
-- [Advanced SQL queries in pandas](https://towardsdatascience.com/writing-advanced-sql-queries-in-pandas-1dc494a17afe)
-- [SQL window functions](https://towardsdatascience.com/mastering-sql-window-functions-6cd17004dfe0)
-- [5 SQL common queries](https://towardsdatascience.com/5-common-sql-problems-for-you-to-crush-10a796258643)
-- [SQL window functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
-- [Intermediate SQL queries](https://towardsdatascience.com/intermediate-sql-for-everyone-fe35c541147a)
-- [6 lesser known queries](https://towardsdatascience.com/6-lesser-known-sql-techniques-to-save-you-100-hours-a-month-10ceed47d3fe)
-- [10 SQL tips](https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0)
-- [Settings for NLS in SQL Developer](https://stackoverflow.com/questions/12628385/sql-developer-is-returning-only-the-date-not-the-time-how-do-i-fix-this)
-- [Advanced SQL concepts](https://towardsdatascience.com/5-advanced-sql-concepts-you-should-know-in-2022-b50efe6c99)
-- [SQL advanced functions: qualify, arrays and more](https://towardsdatascience.com/powerful-sql-queries-that-you-might-not-know-c9953ea4bf20)
-- [SQL CASE](https://towardsdatascience.com/5-advanced-sql-case-examples-that-will-make-you-use-case-when-easily-1040c1eb8857)
-- [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
-- [Advanced SQL for Data Scientists: cube, array, window and math functions](https://allaboutdata.substack.com/p/sql-avanzato-per-data-scientists)
-- [DuckDB: open source OLAP database](https://github.com/duckdb/duckdb)
-- [Lost at SQL: the SQL learning game](https://lost-at-sql.therobinlord.com/)
-- [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 
 ## Terminal
 

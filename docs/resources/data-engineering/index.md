@@ -11,10 +11,6 @@
 - [Modern Data Engineering](https://towardsdatascience.com/modern-data-engineering-e202776fb9a9)
 - [Introduction to Streaming Frameworks](https://towardsdatascience.com/introduction-to-streaming-frameworks-d612583a3246)
 
-## CI/CD
-
-- [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)
-
 ## Data Architecture
 
 - [10 characteristics of a modern data architecture](https://www.eckerson.com/articles/ten-characteristics-of-a-modern-data-architecture)
@@ -24,21 +20,11 @@
 - [Databases and Data Modelling: a quick crash course](https://towardsdatascience.com/databases-and-data-modelling-a-quick-crash-course-546891a49b67)
 - [System Design: ElasticSearch](https://towardsdatascience.com/system-design-cheatsheets-elasticsearch-673b98eebfff)
 
-## MLOps
-
-- [What is MLOps](https://towardsdatascience.com/whats-mlops-5bf60dd693dd)
-- [MLOps maturity checklist](https://towardsdatascience.com/thirty-one-checks-for-different-levels-of-machine-learning-operation-maturity-2ba19cc87be9)
-- [Why data makes MLOps different](https://www.oreilly.com/radar/mlops-and-devops-why-data-makes-it-different/)
-- [ML model deployment strategies](https://towardsdatascience.com/ml-model-deployment-strategies-72044b3c1410)
-- [MLOps lifecycles](https://towardsdatascience.com/mlops-machine-learning-lifecycle-b168cc39e52f)
-- [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
-- [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)
-
 ## Monitoring
 
 - [SLA, SLO and SLI for data teams](https://towardsdatascience.com/its-time-to-set-sla-slo-sli-for-your-data-team-only-3-steps-ed3c93009aa5)
 
-## os
+## OS
 
 - [Tech info about operating systems](https://towardsdatascience.com/all-you-should-know-about-operating-systems-in-technical-interviews-4dcc55210fea)
 

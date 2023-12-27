@@ -164,6 +164,26 @@
 - [DS guide to subscription businesses](https://towardsdatascience.com/the-data-scientists-guide-to-subscription-businesses-70b1fc4b4493)
 - [Clustering for customer segmentation](https://towardsdatascience.com/clustering-algorithm-for-customer-segmentation-e2d79e28cbc3)
 
+## Dataset
+
+- [Dataset search](https://toolbox.google.com/datasetsearch)
+- [Hand drawn data](https://towardsdatascience.com/get-hand-drawn-visualization-shaped-data-for-teaching-and-experimenting-391425fe3171)
+- [Faker](https://github.com/joke2k/faker)
+- [Mimesis](https://github.com/lk-geimfari/mimesis)
+- [SDV](https://github.com/sdv-dev/SDV)
+- [Diffbot](https://www.diffbot.com/)
+- [Datasette](https://github.com/simonw/datasette)
+- [Hand drawn data in Jupyter with `drawdata`](https://github.com/koaning/drawdata)
+- [World Bank data API](https://towardsdatascience.com/access-a-world-of-data-with-wbgapi-61849354f769)
+- [Footprint Network](https://data.footprintnetwork.org/#/countryTrends?cn=5001&type=BCtot,EFCtot)
+- [Sondaggi politico elettorali ITA](http://www.sondaggipoliticoelettorali.it/ListaSondaggi.aspx?st=SONDAGGI)
+- [Microsoft's Bing road detections](https://github.com/microsoft/RoadDetections)
+- [Kontur population dataset](https://data.humdata.org/dataset/kontur-population-dataset)
+- [ISPRA: Open Data sul dissesto idrogeologico](https://idrogeo.isprambiente.it/app/)
+- [Folktables](https://github.com/socialfoundations/folktables)
+- [The official portal for European data](https://data.europa.eu/en)
+- [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)
+
 ## Deep Learning
 
 - [D2L](http://d2l.ai/)
@@ -281,6 +301,42 @@
 - [Kernel trick](https://towardsdatascience.com/the-kernel-trick-c98cdbcaeb3f)
 - [Kernel regression](https://towardsdatascience.com/kernel-regression-from-scratch-in-python-ea0615b23918)
 
+## Large Language Models (LLM)
+
+- [ChatGPT Is An Extra-Ordinary Python Programmer](https://davidamos.dev/chatgpt-is-an-extra-ordinary-python-programmer/)
+- [StartChat Playground by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/starchat-playground)
+- [What is ChatGPT doing and why does it work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [privateGPT](https://github.com/imartinez/privateGPT)
+- [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
+- [How Foundation Model Providers Comply with the Draft EU AI Act](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
+- [A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)
+- [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)
+- [Mastering Prompt Engineering](https://towardsdatascience.com/mastering-prompt-engineering-to-unleash-chatgpts-potential-9578a3fe799c)
+- [How to Run LLMs Locally](https://wandb.ai/capecape/LLMs/reports/A-Guide-on-Running-LLMs-Locally--Vmlldzo0Njg5NzMx)
+- [LangChain: Building applications with LLMs through composability](https://github.com/hwchase17/langchain)
+- [DeclarAI: turning Python code into production-ready LLM tasks](https://github.com/vendi-ai/declarai)
+- [Open Source LLMs To Power A LLM Application](https://pub.towardsai.net/top-10-open-source-llms-to-use-in-your-next-llm-application-fbfc51542b78)
+- [Large language models, explained with a minimum of math and jargon](https://www.understandingai.org/p/large-language-models-explained-with?utm_medium=ios)
+- [Inside GPT: Understanding the text generation](https://towardsdatascience.com/inside-gpt-i-1e8840ca8093)
+- [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)
+- [Understand how BERT constructs state-of-the-art embeddings](https://towardsdatascience.com/bert-3d1bf880386a)
+- [codellama](https://github.com/facebookresearch/codellama)
+- [NLP tasks via LLM](https://towardsdatascience.com/natural-language-processing-for-absolute-beginners-a195549a3164)
+- [From encoding to embeddings](https://towardsdatascience.com/from-encodings-to-embeddings-5b59bceef094)
+- [Large Language Models: Sentence-BERT](https://towardsdatascience.com/sbert-deb3d4aef8a4)
+- [Methods For Improving Your Large Language Model](https://towardsdatascience.com/3-easy-methods-for-improving-your-large-language-model-68670fde9ffa)
+- [Vector Databases and How to Use Them to Augment LLM](https://towardsdatascience.com/all-you-need-to-know-about-vector-databases-and-how-to-use-them-to-augment-your-llm-apps-596f39adfedb)
+- [Large Language Models: RoBERTa, a Robustly Optimized BERT Approach](https://towardsdatascience.com/roberta-1ef07226c8d8)
+- [DeepEval: Unit Testing for LLMs](https://github.com/confident-ai/deepeval)
+- [Attention Sinks in LLMs for endless fluency](https://huggingface.co/blog/tomaarsen/attention-sinks)
+- [Generative AI exists because of the transformer: this is how it works](https://ig.ft.com/generative-ai/)
+- [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [All you need to know to Develop using Large Language Models](https://towardsdatascience.com/all-you-need-to-know-to-develop-using-large-language-models-5c45708156bc)
+- [LMQL: a programming language for large language models](https://github.com/eth-sri/lmql)
+- [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
+- [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
+
 ## Machine Learning
 
 - [GUI for ML workflow and pipeline discovery](https://towardsdatascience.com/gui-fying-the-machine-learning-workflow-towards-rapid-discovery-of-viable-pipelines-cab2552c909f)
@@ -295,6 +351,47 @@
 - [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
+
+### Model evaluation
+
+- [Plot learning curve](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html)
+- [Validation sets](http://www.fast.ai/2017/11/13/validation-sets)
+- [ML Tool](https://github.com/DataBeast03/DataBeast/blob/master/ML_Tool/ML_Tool.ipynb)
+- [Validate and ML model](https://towardsdatascience.com/validating-your-machine-learning-model-25b4c8643fb7)
+- [Overfitting and underfitting](https://towardsdatascience.com/overfitting-and-underfitting-visually-explained-like-youre-five-8a389b511751)
+- [Cross validation](https://towardsdatascience.com/cross-validation-c4fae714f1c5)
+- [Validation curve](https://towardsdatascience.com/validation-curve-explained-plot-the-influence-of-a-single-hyperparameter-1ac4864deaf8)
+- [MAPIE for confidence prediction intervals estimation](https://github.com/scikit-learn-contrib/MAPIE)
+
+### Model monitoring
+
+- [Static threshold vs anomalies and changepoints detection](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe)
+- [Different retrain strategies for ML models](https://towardsdatascience.com/retrain-or-not-retrain-online-machine-learning-with-gradient-boosting-9ccb464415e7)
+- [An end-to-end implementation of a prediction flow for kids who can't MLOps good](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)
+- [Giskard: scan AI models to detect risks of biases, performance issues and errors](https://github.com/Giskard-AI/giskard)
+- [MLflow](https://towardsdatascience.com/5-tips-for-mlflow-experiment-tracking-c70ae117b03f)
+- [Model drift](https://towardsdatascience.com/take-my-drift-away-650d0cd92168)
+- [Evidently for model monitoring](https://github.com/evidentlyai/evidently)
+- [Weights and Biases](https://wandb.ai/site)
+- [Sacred](https://github.com/IDSIA/sacred)
+- [Omniboard as a Sacred frontend](https://github.com/vivekratnavel/omniboard)
+- [MLflow 101](https://towardsdatascience.com/machine-learning-adventures-with-mlflow-64127713b0a1)
+- [deepchecks](https://github.com/deepchecks/deepchecks)
+- [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
+- [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
+- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
+- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
+
+### MLOps
+
+- [What is MLOps](https://towardsdatascience.com/whats-mlops-5bf60dd693dd)
+- [MLOps maturity checklist](https://towardsdatascience.com/thirty-one-checks-for-different-levels-of-machine-learning-operation-maturity-2ba19cc87be9)
+- [Why data makes MLOps different](https://www.oreilly.com/radar/mlops-and-devops-why-data-makes-it-different/)
+- [ML model deployment strategies](https://towardsdatascience.com/ml-model-deployment-strategies-72044b3c1410)
+- [MLOps lifecycles](https://towardsdatascience.com/mlops-machine-learning-lifecycle-b168cc39e52f)
+- [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
+- [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)
+- [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)
 
 ## Marketing Analytics
 
@@ -329,24 +426,6 @@
 - [Mastering Monte Carlo: How to Simulate Your Way to Better Machine Learning Models](https://towardsdatascience.com/mastering-monte-carlo-how-to-simulate-your-way-to-better-machine-learning-models-6b57ec4e5514)
 - [Chaospy: a numerical toolbox for performing uncertainty quantification using polynomial chaos expansions and advanced Monte Carlo methods](https://github.com/jonathf/chaospy)
 - [PyMC-Marketing: Bayesian Marketing Mix Modeling (MMM) & Customer Lifetime Value (CLV)](https://github.com/pymc-labs/pymc-marketing)
-
-## Model evaluation
-
-- [Plot learning curve](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html)
-- [Validation sets](http://www.fast.ai/2017/11/13/validation-sets)
-- [ML Tool](https://github.com/DataBeast03/DataBeast/blob/master/ML_Tool/ML_Tool.ipynb)
-- [Validate and ML model](https://towardsdatascience.com/validating-your-machine-learning-model-25b4c8643fb7)
-- [Overfitting and underfitting](https://towardsdatascience.com/overfitting-and-underfitting-visually-explained-like-youre-five-8a389b511751)
-- [Cross validation](https://towardsdatascience.com/cross-validation-c4fae714f1c5)
-- [Validation curve](https://towardsdatascience.com/validation-curve-explained-plot-the-influence-of-a-single-hyperparameter-1ac4864deaf8)
-- [MAPIE for confidence prediction intervals estimation](https://github.com/scikit-learn-contrib/MAPIE)
-
-## Model monitoring
-
-- [Static threshold vs anomalies and changepoints detection](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe)
-- [Different retrain strategies for ML models](https://towardsdatascience.com/retrain-or-not-retrain-online-machine-learning-with-gradient-boosting-9ccb464415e7)
-- [An end-to-end implementation of a prediction flow for kids who can't MLOps good](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)
-- [Giskard: scan AI models to detect risks of biases, performance issues and errors](https://github.com/Giskard-AI/giskard)
 
 ## Nearest Neighbors
 
@@ -566,6 +645,27 @@
 ## Simulated Annealing
 
 - [Simulated annealing for optimization](https://towardsdatascience.com/optimization-techniques-simulated-annealing-d6a4785a1de7)
+
+## SQL
+
+- [PugSQL](https://pugsql.org/)
+- [Window functions in SparkSQL](https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html)
+- [Advanced SQL queries in pandas](https://towardsdatascience.com/writing-advanced-sql-queries-in-pandas-1dc494a17afe)
+- [SQL window functions](https://towardsdatascience.com/mastering-sql-window-functions-6cd17004dfe0)
+- [5 SQL common queries](https://towardsdatascience.com/5-common-sql-problems-for-you-to-crush-10a796258643)
+- [SQL window functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
+- [Intermediate SQL queries](https://towardsdatascience.com/intermediate-sql-for-everyone-fe35c541147a)
+- [6 lesser known queries](https://towardsdatascience.com/6-lesser-known-sql-techniques-to-save-you-100-hours-a-month-10ceed47d3fe)
+- [10 SQL tips](https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0)
+- [Settings for NLS in SQL Developer](https://stackoverflow.com/questions/12628385/sql-developer-is-returning-only-the-date-not-the-time-how-do-i-fix-this)
+- [Advanced SQL concepts](https://towardsdatascience.com/5-advanced-sql-concepts-you-should-know-in-2022-b50efe6c99)
+- [SQL advanced functions: qualify, arrays and more](https://towardsdatascience.com/powerful-sql-queries-that-you-might-not-know-c9953ea4bf20)
+- [SQL CASE](https://towardsdatascience.com/5-advanced-sql-case-examples-that-will-make-you-use-case-when-easily-1040c1eb8857)
+- [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
+- [Advanced SQL for Data Scientists: cube, array, window and math functions](https://allaboutdata.substack.com/p/sql-avanzato-per-data-scientists)
+- [DuckDB: open source OLAP database](https://github.com/duckdb/duckdb)
+- [Lost at SQL: the SQL learning game](https://lost-at-sql.therobinlord.com/)
+- [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 
 ## Streaming/Online Learning
 
