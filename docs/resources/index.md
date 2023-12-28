@@ -1,17 +1,13 @@
 # Resources
 
-## ML Tooling
-
-Here the awesome [Machine Learning Tooling](https://github.com/ml-tooling) GitHub space with _ranked lists of awesome Python libraries for, updated weekly._
-
-## LF AI & Data Landscape
-
-Here the wonderful [AI & Data Landscape by Linux Foundation](https://landscape.lfai.foundation/).
-
-<iframe
-    src="https://landscape.lfai.foundation/"
-    title="LF AI & Data Landscape"
-    width="100%"
-    height="500"
-    scrolling="no">
-    </iframe>
+- **AWS**: Amazon Web Service related stuff.
+- **Career**: how to shape a data career and nail down job interviews!
+- **Data Engineering**: data architectures, monitoring and observability, DevOps and others data engineering best practices.
+- **Data Science**: data science, in the widest meaning of the term.
+- **Data Visualization**: information and data visualization, both methodology and implementation.
+- **Education**: collection of resources for an effective data education.
+- **Misc**: a salad of math, physics and the rest of hard sciences.
+- **Python**: Python, my actual programming language.
+- **Snippets**: the temple of DRY, collection of snippets of reusable code.
+- **Tools**: toolbox full of utilities.
+- **Training**: books, MOOC, certifications and everything else about training.

@@ -6,8 +6,6 @@ categories:
   - Guides
 tags:
   - AWS
-  - Chalice
-  - SAM
 ---
 
 # A comparison between AWS Chalice and AWS SAM

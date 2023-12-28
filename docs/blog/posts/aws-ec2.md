@@ -6,7 +6,6 @@ categories:
   - Recipes
 tags:
   - AWS
-  - EC2
 ---
 
 # Amazon EC2 instance debug

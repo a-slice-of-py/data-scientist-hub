@@ -7,7 +7,6 @@ categories:
 tags:
   - AWS
   - DevOps
-  - CodeBuild
 ---
 
 # AWS CodeBuild local testing

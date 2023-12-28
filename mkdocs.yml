@@ -9,21 +9,30 @@ theme:
   logo: assets/dsh_minimal.png
   icon:
     repo: fontawesome/brands/github
+    tag:
+      aws: simple/amazonaws
+      db: material/database
+      devops: material/source-branch-sync
+      iac: simple/awsorganizations
+      ita: material/translate
+      ml: material/brain
+      open: material/open-source-initiative
+      or: fontawesome/solid/gears
+      py: simple/python
+      streamlit: simple/streamlit
   name: "material"
-  font:
-    text: Readex Pro
   palette:
     - scheme: slate
       primary: black
       accent: teal
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-7
         name: Switch to light mode
     - scheme: default
       primary: blue grey
-      accent: amber
+      accent: teal
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode 
   features:
     - content.code.annotate
@@ -78,15 +87,22 @@ plugins:
   #     enable_creation_date: true
   #     type: timeago
 
-extra_css:
-  - stylesheets/extra.css
-  - stylesheets/tasklist.css
-
 extra_javascript:
   - javascript/config.js
   - javascript/MathJax.min.js
 
 extra:
+  tags:
+    AWS: aws
+    Database: db
+    DevOps: devops
+    IaC: iac
+    ITA: ita
+    Machine Learning: ml
+    Open Source: open
+    OR: or
+    Python: py
+    Streamlit: streamlit
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/a-slice-of-py

@@ -4,8 +4,6 @@ authors:
   - silvio
 categories:
   - Guides
-tags:
-  - GNU Make
 ---
 
 # A brief guide to GNU Make

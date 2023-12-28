@@ -4,13 +4,6 @@ authors:
   - silvio
 categories:
   - Recipes
-tags:
-  - Development
-  - Cmder
-  - GNU Make
-  - VSC
-  - Jupyter
-  - Windows Terminal
 ---
 
 # How to survive a forced reset of local development environment

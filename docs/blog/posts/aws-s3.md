@@ -6,7 +6,6 @@ categories:
   - Recipes
 tags:
   - AWS
-  - S3
 ---
 
 # AWS S3 presigned URLs

@@ -6,8 +6,6 @@ categories:
   - Recipes
 tags:
   - AWS
-  - SAM
-  - Lambda
 ---
 
 # Build Lambda layers with AWS SAM

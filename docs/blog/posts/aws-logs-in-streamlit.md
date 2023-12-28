@@ -7,7 +7,6 @@ categories:
 tags:
   - AWS
   - Streamlit
-  - Logging
 ---
 
 # How to display AWS CloudWatch logs in Streamlit

@@ -339,6 +339,8 @@
 
 ## Machine Learning
 
+[Machine Learning Tooling](https://github.com/ml-tooling) GitHub space with _ranked lists of awesome Python libraries for, updated weekly._
+
 - [GUI for ML workflow and pipeline discovery](https://towardsdatascience.com/gui-fying-the-machine-learning-workflow-towards-rapid-discovery-of-viable-pipelines-cab2552c909f)
 - [ML prototypes](https://towardsdatascience.com/learn-to-build-machine-learning-services-prototype-real-applications-and-deploy-your-work-to-aa97b2b09e0c)
 - [Designing intelligence](https://towardsdatascience.com/designing-intelligence-c78f9959b3b8)

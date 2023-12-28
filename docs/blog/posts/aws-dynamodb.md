@@ -6,8 +6,7 @@ categories:
   - Guides
 tags:
   - AWS
-  - NoSQL
-  - DynamoDB
+  - Database
 ---
 
 # An introduction to Amazon DynamoDB

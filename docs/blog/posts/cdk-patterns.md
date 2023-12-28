@@ -7,9 +7,7 @@ categories:
 tags:
   - ITA
   - AWS
-  - CDK
   - IaC
-  - Coding
 ---
 
 # Best practices per AWS CDK L3 constructs
