@@ -96,51 +96,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/projects/products/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/projects/progress-tracker/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/projects/repositories/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/boto3/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/folium/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/ortools/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/pre-commit/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/sklearn/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/streamlit/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
@@ -1176,7 +1131,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/sklearn/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/stdlib/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/streamlit/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://a-slice-of-py.github.io/data-scientist-hub/legacy/snippets/boto3/">
+        <link rel="canonical" href="https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/sklearn/">
       
       
-        <link rel="prev" href="../../projects/repositories/">
+        <link rel="prev" href="../jupyter/">
       
       
-        <link rel="next" href="../folium/">
+        <link rel="next" href="../stdlib/">
       
       
       <link rel="icon" href="../../../assets/dsh_minimal.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>boto3 - Data Scientist Hub</title>
+        <title>sklearn - Data Scientist Hub</title>
       
     
     
@@ -156,7 +156,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#boto3" class="md-skip">
+        <a href="#sklearn" class="md-skip">
           Skip to content
         </a>
       
@@ -189,7 +189,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              boto3
+              sklearn
             
           </span>
         </div>
@@ -341,11 +341,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../resources/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
     
@@ -840,8 +842,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -900,19 +904,17 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../resources/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -929,7 +931,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Resources
@@ -945,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/aws/" class="md-nav__link">
+      <a href="../../aws/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -966,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/interviews/" class="md-nav__link">
+      <a href="../../interviews/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -987,7 +989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/data-engineering/" class="md-nav__link">
+      <a href="../../data-engineering/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1008,7 +1010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/data-science/" class="md-nav__link">
+      <a href="../../data-science/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1029,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/data-visualization/" class="md-nav__link">
+      <a href="../../data-visualization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1050,7 +1052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/education/" class="md-nav__link">
+      <a href="../../education/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1071,7 +1073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/misc/" class="md-nav__link">
+      <a href="../../misc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1092,7 +1094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/python/" class="md-nav__link">
+      <a href="../../python/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1113,7 +1115,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/snippets/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1134,7 +1136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/tools/" class="md-nav__link">
+      <a href="../../tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1155,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/training/" class="md-nav__link">
+      <a href="../../training/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1205,9 +1207,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#put_log_events" class="md-nav__link">
+  <a href="#timeseriessplitmultistep" class="md-nav__link">
     <span class="md-ellipsis">
-      put_log_events
+      TimeSeriesSplitMultiStep
     </span>
   </a>
   
@@ -1231,82 +1233,38 @@
   
 
 
-<h1 id="boto3">boto3<a class="headerlink" href="#boto3" title="Permanent link">&para;</a></h1>
-<h2 id="put_log_events"><code>put_log_events</code><a class="headerlink" href="#put_log_events" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-
-<span class="kn">import</span> <span class="nn">boto3</span>
-<span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
-
-<span class="n">session</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">Session</span><span class="p">(</span><span class="n">profile_name</span><span class="o">=...</span><span class="p">,</span> <span class="n">region_name</span><span class="o">=...</span><span class="p">)</span>
-<span class="n">client</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;logs&#39;</span><span class="p">)</span>
-<span class="n">LOG_GROUP_NAME</span> <span class="o">=</span> <span class="o">...</span>
+<h1 id="sklearn">sklearn<a class="headerlink" href="#sklearn" title="Permanent link">&para;</a></h1>
+<h2 id="timeseriessplitmultistep"><code>TimeSeriesSplitMultiStep</code><a class="headerlink" href="#timeseriessplitmultistep" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">model_selection</span>
 
 
-<span class="k">def</span> <span class="nf">_create_log_stream</span><span class="p">(</span><span class="n">log_stream_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Create log stream if not exists already.</span>
+<span class="k">def</span> <span class="nf">TimeSeriesSplitMultiStep</span><span class="p">(</span><span class="n">series</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> 
+                             <span class="n">n_splits</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> 
+                             <span class="n">n_steps</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> 
+                             <span class="n">max_train_size</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Extend sklearn&#39; TimeSeriesSplit to the multistep case.</span>
 
 <span class="sd">    Args:</span>
-<span class="sd">        log_stream_name (str): log stream name.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">_</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">create_log_stream</span><span class="p">(</span>
-            <span class="n">logGroupName</span><span class="o">=</span><span class="n">LOG_GROUP_NAME</span><span class="p">,</span>
-            <span class="n">logStreamName</span><span class="o">=</span><span class="n">log_stream_name</span>
-        <span class="p">)</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Log stream </span><span class="si">{</span><span class="n">log_stream_name</span><span class="si">}</span><span class="s1"> created.&#39;</span><span class="p">)</span>
-    <span class="k">except</span> <span class="n">client</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">ResourceAlreadyExistsException</span><span class="p">:</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Log stream </span><span class="si">{</span><span class="n">log_stream_name</span><span class="si">}</span><span class="s1"> already exists.&#39;</span><span class="p">)</span>
-
-
-<span class="k">def</span> <span class="nf">_put_log_events</span><span class="p">(</span><span class="n">log_stream_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">log_events</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Put log events on the given log stream.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        log_stream_name (str): target log stream name.</span>
-<span class="sd">        log_events (list): list of strings (events message to log).</span>
+<span class="sd">        series (pd.DataFrame): input time series.</span>
+<span class="sd">        n_splits (optional, int): number of splits. Defaults to 3.</span>
+<span class="sd">        n_steps (optional, int): number of steps ahead. Defaults to 3.</span>
+<span class="sd">        max_train_size (optional, Optional[int]): maximum training set size. Defaults to None.</span>
 
 <span class="sd">    Returns:</span>
-<span class="sd">        Put operation response.</span>
+<span class="sd">        Indices for splitting.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># Log events must be in the form {&#39;timestamp&#39;: ..., &#39;message&#39;: ...}.</span>
-    <span class="n">now</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span>
-    <span class="n">_log_events</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
-        <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;timestamp&#39;</span><span class="p">:</span> <span class="n">now</span><span class="p">,</span> <span class="s1">&#39;message&#39;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)},</span> <span class="n">log_events</span><span class="p">))</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">put_log_events</span><span class="p">(</span>
-            <span class="n">logGroupName</span><span class="o">=</span><span class="n">LOG_GROUP_NAME</span><span class="p">,</span>
-            <span class="n">logStreamName</span><span class="o">=</span><span class="n">log_stream_name</span><span class="p">,</span>
-            <span class="n">logEvents</span><span class="o">=</span><span class="n">_log_events</span>
-        <span class="p">)</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;First log submitted to log stream </span><span class="si">{</span><span class="n">log_stream_name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
-    <span class="k">except</span> <span class="n">client</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">InvalidSequenceTokenException</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="c1"># Parse exception to retrieve expected sequence token</span>
-        <span class="n">sequence_token</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;: &#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">put_log_events</span><span class="p">(</span>
-            <span class="n">logGroupName</span><span class="o">=</span><span class="n">LOG_GROUP_NAME</span><span class="p">,</span>
-            <span class="n">logStreamName</span><span class="o">=</span><span class="n">log_stream_name</span><span class="p">,</span>
-            <span class="n">logEvents</span><span class="o">=</span><span class="n">_log_events</span><span class="p">,</span>
-            <span class="n">sequenceToken</span><span class="o">=</span><span class="n">sequence_token</span>
-        <span class="p">)</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Events successfully logged to log stream </span><span class="si">{</span><span class="n">log_stream_name</span><span class="si">}</span><span class="s1">.&#39;</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">response</span>
+    <span class="n">tscv</span> <span class="o">=</span> <span class="n">model_selection</span><span class="o">.</span><span class="n">TimeSeriesSplit</span><span class="p">(</span><span class="n">n_splits</span><span class="p">,</span> <span class="n">max_train_size</span><span class="p">)</span>
 
-
-<span class="k">def</span> <span class="nf">put_log_events</span><span class="p">(</span><span class="n">log_stream_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">log_events</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Put log events on the given log stream.</span>
-
-<span class="sd">    This function wraps also the (possible) creation of the log stream beforehand.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        log_stream_name (str): target log stream name.</span>
-<span class="sd">        log_events (list): list of strings (events message to log).</span>
-
-<span class="sd">    Returns:</span>
-<span class="sd">        Put operation response.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">_create_log_stream</span><span class="p">(</span><span class="n">log_stream_name</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">_put_log_events</span><span class="p">(</span><span class="n">log_stream_name</span><span class="p">,</span> <span class="n">log_events</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">train_index</span><span class="p">,</span> <span class="n">test_index</span> <span class="ow">in</span> <span class="n">tscv</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">series</span><span class="p">):</span>
+        <span class="n">last_test_index</span> <span class="o">=</span> <span class="n">test_index</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">step_to_add</span> <span class="o">=</span> <span class="n">n_steps</span> <span class="o">-</span> <span class="nb">len</span><span class="p">(</span><span class="n">test_index</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">last_test_index</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">series</span><span class="p">)</span> <span class="o">-</span> <span class="n">step_to_add</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">step_to_add</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">next_step</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">last_test_index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">step_to_add</span> <span class="o">+</span> <span class="n">last_test_index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+                    <span class="n">test_index</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">test_index</span><span class="p">,</span> <span class="n">next_step</span><span class="p">)</span>
+            <span class="k">yield</span> <span class="n">train_index</span><span class="p">,</span> <span class="n">test_index</span>
 </code></pre></div>
 
 
@@ -1330,7 +1288,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T11:17:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-28T15:21:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-28</span>
   </span>
 
     
@@ -1340,7 +1298,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2021-12-21T10:56:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2021-12-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-28T15:21:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-28</span>
   </span>
 
     
