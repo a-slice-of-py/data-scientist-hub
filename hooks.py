@@ -6,7 +6,7 @@ RESOURCES_PATH = "docs/resources"
 
 
 def _index_resources(*args, **kwargs) -> None:
-    """Create index for eache resources section."""
+    """Create index for each of the resources sections."""
     for section in sorted(os.listdir(RESOURCES_PATH)):
         if section not in BLACKLIST:
             index = [f"# {section.replace('-', ' ').title()}", NEWLINE, NEWLINE]

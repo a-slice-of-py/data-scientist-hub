@@ -9,7 +9,7 @@
 
 ## profiling
 
-```
+```python
 %load_ext line_profiler
 
 def function_to_profile(arg: int):

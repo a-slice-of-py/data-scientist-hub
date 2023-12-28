@@ -11,7 +11,7 @@
 
 ### profiling
 
-```
+```python
 %load_ext line_profiler
 
 def function_to_profile(arg: int):
@@ -58,7 +58,7 @@ import numpy as np
 import pandas as pd
 
 
-def flatten(x: list) -> list:
+def flatten(x: list | pd.Series | np.ndarray | tuple | map) -> list:
     """Flatten nested input list.
 
     Credits to [Samuele Fiorini](https://github.com/samuelefiorini).
@@ -70,7 +70,7 @@ def flatten(x: list) -> list:
         Flattened list.
     """
     return (
-        [xi for l in x for xi in flatten(l)] if isinstance(x, (list, np.ndarray)) 
+        [xi for l in x for xi in flatten(l)] if isinstance(x, (list, np.ndarray, tuple)) 
         else flatten(list(x)) if isinstance(x, (pd.Series, map))
         else [x]
     )
@@ -367,31 +367,5 @@ def validate_type_annotations(func: Callable) -> Callable:
             except Exception as e:
                 logger.exception(e.__class__.__name__)
     return wrapper
-```
-
-### `xray`
-
-!!! info
-    Full credits to [Samuele Mazzanti's gist](https://gist.github.com/smazzanti/99c1e01c132166477ac7f987e88ae1c3).
-
-```
-def xray(var):
-    """Return name of variable and its state,
-        for logging purposes."""
-    
-    import inspect, re
-
-    string = inspect.getframeinfo(
-        inspect.getouterframes(
-        inspect.currentframe()
-        )[1][0]).code_context[0]
-    
-    lpar = [m.start() for m in re.finditer(pattern="\(", string=string)]
-    rpar = [m.start() for m in re.finditer(pattern="\)", string=string)]
-    ipar = lpar.index(string.find("xray(")+4)
-        
-    varname = string[lpar[ipar]+1:rpar[-ipar-1]]
-    
-    return f'{varname}: {var}'
 ```
 

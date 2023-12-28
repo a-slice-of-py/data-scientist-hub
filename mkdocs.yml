@@ -20,7 +20,7 @@ theme:
       or: fontawesome/solid/gears
       py: simple/python
       streamlit: simple/streamlit
-  name: "material"
+  name: material
   palette:
     - scheme: slate
       primary: black
@@ -35,6 +35,7 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode 
   features:
+    - content.code.copy
     - content.code.annotate
     - navigation.indexes
     - navigation.tabs
