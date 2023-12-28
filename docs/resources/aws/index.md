@@ -1,4 +1,4 @@
-# .Aws
+# AWS
 
 ## Services
 
