@@ -116,6 +116,46 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/career-development/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/conferences/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/jobs/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/negotiation/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/portfolio/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/preparation/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/technical-skills/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
@@ -762,46 +802,6 @@
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/videos/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/career-development/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/conferences/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/jobs/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/negotiation/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/portfolio/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/preparation/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/interviews/technical-skills/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
