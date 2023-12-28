@@ -15,6 +15,6 @@
 - [Geospatial Analysis and Representation for Data Science course for the master in Data Science University of Trento](https://napo.github.io/geospatial_course_unitn/)
 - [Overture Maps Data Repo](https://github.com/OvertureMaps/data)
 - [3D Geospatial Data Integration with Python: The Ultimate Guide](https://towardsdatascience.com/3d-spatial-data-integration-with-python-7ef8ef14589a)
-- [`srai``: Spatial Representations for Artificial Intelligence](https://github.com/kraina-ai/srai)
-- [Earth Isn’t Flat, and Neither Should Your Voronoi Diagrams Be](https://towardsdatascience.com/earth-isnt-flat-and-neither-should-your-voronoi-diagrams-be-25137e0a073b)
+- [`srai`: Spatial Representations for Artificial Intelligence](https://github.com/kraina-ai/srai)
+- [Earth Isn't Flat, and Neither Should Your Voronoi Diagrams Be](https://towardsdatascience.com/earth-isnt-flat-and-neither-should-your-voronoi-diagrams-be-25137e0a073b)
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)

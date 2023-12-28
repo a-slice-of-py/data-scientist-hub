@@ -22,6 +22,43 @@ def function_to_profile(arg: int):
 
 For reference see [here](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html) and [here](https://ipython-books.github.io/43-profiling-your-code-line-by-line-with-line_profiler/).
 
+## sklearn
+
+### `TimeSeriesSplitMultiStep`
+
+```python
+import numpy as np
+import pandas as pd
+from sklearn import model_selection
+
+
+def TimeSeriesSplitMultiStep(series: pd.DataFrame, 
+                             n_splits: int = 3, 
+                             n_steps: int = 3, 
+                             max_train_size: Optional[int] = None) -> tuple:
+    """Extend sklearn' TimeSeriesSplit to the multistep case.
+
+    Args:
+        series (pd.DataFrame): input time series.
+        n_splits (optional, int): number of splits. Defaults to 3.
+        n_steps (optional, int): number of steps ahead. Defaults to 3.
+        max_train_size (optional, Optional[int]): maximum training set size. Defaults to None.
+
+    Returns:
+        Indices for splitting.
+    """
+    tscv = model_selection.TimeSeriesSplit(n_splits, max_train_size)
+
+    for train_index, test_index in tscv.split(series):
+        last_test_index = test_index[-1]
+        step_to_add = n_steps - len(test_index)
+        if last_test_index < len(series) - step_to_add:
+            if step_to_add > 0:
+                for next_step in range(last_test_index + 1, step_to_add + last_test_index + 1):
+                    test_index = np.append(test_index, next_step)
+            yield train_index, test_index
+```
+
 ## stdlib
 
 ### `clean_text`
@@ -367,5 +404,313 @@ def validate_type_annotations(func: Callable) -> Callable:
             except Exception as e:
                 logger.exception(e.__class__.__name__)
     return wrapper
+```
+
+## streamlit
+
+### `AgGrid`
+
+#### Deferred single row deletion
+
+Originally posted at [discuss.streamlit.io](https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/167).
+
+```python
+import string
+
+import numpy as np
+import pandas as pd
+import streamlit as st
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
+
+st.set_page_config(layout='wide')
+
+
+def display_table(df: pd.DataFrame) -> AgGrid:
+    # Configure AgGrid options
+    gb = GridOptionsBuilder.from_dataframe(df)
+    gb.configure_selection('single')
+    st.write(f"Dataframe shape: {df.shape}")
+    return AgGrid(
+        df,
+        gridOptions=gb.build(),
+        # this override the default VALUE_CHANGED
+        update_mode=GridUpdateMode.MODEL_CHANGED
+    )
+
+
+## Define dummy data
+rng = np.random.default_rng(2021)
+N_SAMPLES = 100
+N_FEATURES = 10
+df = pd.DataFrame(rng.integers(0, N_SAMPLES, size=(
+    N_SAMPLES, N_FEATURES)), columns=list(string.ascii_uppercase[:N_FEATURES]))
+
+cols = st.columns(2)
+
+with cols[0]:
+
+    st.markdown('# 🠔 Before')
+
+    # Display AgGrid from data and write response
+    st.markdown("### 1️⃣ Let's display dummy data through AgGrid")
+    response = display_table(df)
+
+    st.markdown(
+        "### 2️⃣ AgGrid response contains `data` (original df) and `selected_rows`")
+    for k, v in response.items():
+        st.write(k, v)
+
+with cols[1]:
+
+    st.markdown('# 🠖 After')
+
+    # Retrieve selected rows indices
+    st.markdown(
+        "### 3️⃣ From selected rows we can obtain dataframe indices to drop")
+    data = response['data'].to_dict(orient='records')
+    indices = [data.index(row) for row in response['selected_rows']]
+    st.write(f"Selected rows are located at indices: {indices}")
+
+    # Use retrieved indices to remove corresponding rows from dataframe
+    st.markdown(
+        "### 4️⃣ Display the updated dataframe where rows have been removed")
+    _df = df.drop(indices, axis=0)
+    st.write(f"Dataframe shape: {_df.shape}")
+    AgGrid(_df)
+```
+
+#### Realtime single row deletion
+
+Originally posted at [discuss.streamlit.io](https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/171).
+
+```python
+import string
+
+import numpy as np
+import pandas as pd
+import streamlit as st
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+
+st.set_page_config(layout='wide')
+
+
+def display_table(df: pd.DataFrame) -> AgGrid:
+    # Configure AgGrid options
+    gb = GridOptionsBuilder.from_dataframe(df)
+    gb.configure_selection('single', use_checkbox=True)
+    
+    # Custom JS code for interactive rows deletion
+    # For credits SEE: 
+    # https://github.com/PablocFonseca/streamlit-aggrid/blob/1acb526ba43b5aac9c8eb22cc54eeb05696cd84d/examples/example_highlight_change.py#L21
+    # https://ag-grid.zendesk.com/hc/en-us/articles/360020160932-Removing-selected-rows-or-cells-when-Backspace-or-Delete-is-pressed
+    js = JsCode("""
+    function(e) {
+        let api = e.api;        
+        let sel = api.getSelectedRows();
+        
+        api.applyTransaction({remove: sel});
+    };
+    """)
+    gb.configure_grid_options(onRowSelected=js) 
+    return AgGrid(
+        df,
+        gridOptions=gb.build(),
+        # this override the default VALUE_CHANGED
+        update_mode=GridUpdateMode.MODEL_CHANGED,
+        # needed for js injection
+        allow_unsafe_jscode=True
+    )
+
+
+## Define dummy data
+rng = np.random.default_rng(2021)
+N_SAMPLES = 100
+N_FEATURES = 10
+df = pd.DataFrame(rng.integers(0, N_SAMPLES, size=(
+    N_SAMPLES, N_FEATURES)), columns=list(string.ascii_uppercase[:N_FEATURES]))
+
+st.info("Select a row to remove it")
+response = display_table(df)
+st.write(f"Dataframe shape: {response['data'].shape}")
+```
+
+#### Deferred multiple rows deletion
+
+Originally posted at [discuss.streamlit.io](https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/216).
+
+```python
+import string
+
+import numpy as np
+import pandas as pd
+import streamlit as st
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
+
+st.set_page_config(layout='wide')
+
+def display_table(df: pd.DataFrame) -> AgGrid:
+    # Configure AgGrid options
+    gb = GridOptionsBuilder.from_dataframe(df)
+    gb.configure_selection('multiple', use_checkbox=True) 
+    return AgGrid(
+        df,
+        gridOptions=gb.build(),
+        # this override the default VALUE_CHANGED
+        update_mode=GridUpdateMode.MODEL_CHANGED
+    )
+
+
+## Define dummy data
+rng = np.random.default_rng(2021)
+N_SAMPLES = 100
+N_FEATURES = 10
+df = pd.DataFrame(rng.integers(0, N_SAMPLES, size=(
+    N_SAMPLES, N_FEATURES)), columns=list(string.ascii_uppercase[:N_FEATURES]))
+
+## Display data and selected rows
+left, right = st.columns(2)
+with left:
+    st.info("Select rows to be deleted")
+    response = display_table(df)
+with right:
+    st.warning("Rows selected for deletion")
+    rows_to_delete = pd.DataFrame(response['selected_rows'])
+    st.write(rows_to_delete)
+
+## Delete rows on button press
+if st.button("Delete rows") and not rows_to_delete.empty:
+    # Lookup table is needed because AgGrid does not return rows indices
+    lookup = df.merge(rows_to_delete, on=list(df.columns), how='left', indicator=True)
+    _df = df.drop(lookup[lookup['_merge'] == 'both'].index)
+    st.success('Rows deleted')
+    st.write(_df)
+```
+
+### `folium_map`
+
+```python
+import folium
+import streamlit as st
+from streamlit_folium import folium_static
+
+
+def folium_map(geomap: folium.Map, height: int = 800) -> None:
+    """Render a responsive Folium map via streamlit-folium component.
+
+    Args:
+        geomap (folium.Map): Geo map.
+        height (optional, int): map height. Defaults to 800.
+    """
+    make_map_responsive = """
+    <style>
+    [title~="st.iframe"] { width: 100%}
+    </style>
+    """
+    st.markdown(make_map_responsive, unsafe_allow_html=True)
+    folium_static(geomap, height=height)
+```
+
+### `folium_dual_map`
+
+```python
+from folium import plugins
+import streamlit as st
+import streamlit.components.v1 as st_components
+
+
+def folium_dual_map(dualmap: plugins.DualMap, height: int = 800) -> None:
+    """Render a responsive Folium DualMap via streamlit-folium component.
+
+    Args:
+        dualmap (plugins.DualMap): dual geo map.
+        height (optional, int): map height. Defaults to 800.
+    """
+    make_map_responsive = """
+    <style>
+    [title~="st.iframe"] { width: 100%}
+    </style>
+    """
+    st.markdown(make_map_responsive, unsafe_allow_html=True)
+    st_components.html(
+        dualmap._repr_html_(),
+        height=height
+    )
+```
+
+### Grid layout
+
+```python
+from typing import Callable, ContextManager
+import streamlit as st
+
+def make_grid(n_rows: int, n_cols: int) -> Callable:
+    """Build a grid context manager.
+
+    Inspired from https://towardsdatascience.com/how-to-create-a-grid-layout-in-streamlit-7aff16b94508.
+
+    Args:
+        n_rows (int): number of rows.
+        n_cols (int): number of cols.
+
+    Returns:
+        Callable context manager.
+    """
+    grid = [st.columns(n_rows) for _ in range(n_cols)]
+    def _grid(i: int, j: int) -> ContextManager:
+        return grid[i][j]
+    return _grid
+
+grid = make_grid(2, 2)
+
+for i in range(2):
+    for j in range(2):
+        with grid(i, j):
+            st.markdown(f'# Hello from ({i}, {j})')
+```
+
+### Injecting `javascript`
+
+```python
+import streamlit.components.v1 as components
+
+## SEE: 
+## - https://github.com/streamlit/streamlit/issues/1291#issuecomment-1022408379
+## - https://discuss.streamlit.io/t/injecting-js/22651
+## - https://www.w3schools.com/jsref/event_onclick.asp
+components.html('''
+    <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+
+    <script>
+    function myFunction() {
+        let color = document.getElementById("demo").style.color;
+        if (color != "red") {
+            document.getElementById("demo").style.color = "red";
+            }
+        else {
+            document.getElementById("demo").style.color = "black";
+            }
+    }
+    </script>
+    '''
+) 
+```
+
+### `loguru_to_streamlit`
+
+```python
+import streamlit as st
+from loguru import logger
+
+
+def redirect_loguru_to_streamlit() -> None:
+    """Redirect Loguru logs to Streamlit."""
+    def _filter_warning(record):
+        return record["level"].no == logger.level("WARNING").no    
+    if 'warning_logger' not in st.session_state:
+        st.session_state['warning_logger'] = logger.add(st.warning, 
+                                                        filter=_filter_warning, 
+                                                        level='INFO')
+    if 'error_logger' not in st.session_state:
+        st.session_state['error_logger'] = logger.add(st.error, level='ERROR')
 ```
 

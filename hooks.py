@@ -13,7 +13,7 @@ def _index_resources(*args, **kwargs) -> None:
             path = f"{RESOURCES_PATH}/{section}"
             for file in sorted(os.listdir(path)):
                 if file not in BLACKLIST:
-                    with open(f"{path}/{file}", "r") as f:
+                    with open(f"{path}/{file}", "r", encoding="utf-8") as f:
                         lines = f.readlines()
                         for i, line in enumerate(lines):
                             if line.startswith("#"):
@@ -24,7 +24,7 @@ def _index_resources(*args, **kwargs) -> None:
                     else:
                         index.extend([NEWLINE, NEWLINE])
 
-            with open(f"{path}/index.md", "w") as f:
+            with open(f"{path}/index.md", "w", encoding="utf-8") as f:
                 f.writelines(index)
 
 

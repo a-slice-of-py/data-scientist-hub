@@ -110,9 +110,9 @@
 - [Why tech writing is important](https://thisisimportant.net/topics/tech-writing/)
 - [The Data Cards Playbook: a toolkit for transparency in AI dataset documentation](https://pair-code.github.io/datacardsplaybook/)
 - [The Privileged Have Entered Their Escape Pods](https://onezero.medium.com/the-privileged-have-entered-their-escape-pods-4706b4893af7)
-- [Complessità crescente vs. management e consulenza old-style: cosa non funziona e perché](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
+- [Complessita crescente vs. management e consulenza old-style: cosa non funziona e perchè](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
 - [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)
-- [The Real Problem with Software Development: It’s not writing code, it’s managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
+- [The Real Problem with Software Development: It's not writing code, it's managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
 - [Il curioso caso Orosz vs. McKinsey: Come misurare gli sviluppatori e una riflessione sull'autorevolezza](https://allaboutdata.substack.com/p/il-curioso-caso-orosz-vs-mckinsey)
 
 ## Python
@@ -121,7 +121,7 @@
 - [Advent of Code](https://adventofcode.com/)
 - [Learn python](https://github.com/trekhleb/learn-python)
 - [Online compiler](https://www.programiz.com/python-programming/online-compiler/)
-- [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+- [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 - [Python for Data Science](https://nbviewer.org/github/gumption/Python_for_Data_Science/blob/master/Python_for_Data_Science_all.ipynb)
 - [Python learning paths](https://realpython.com/learning-paths/)
 - [Thonny: the beginner-friendly Python editor](https://realpython.com/python-thonny/)
