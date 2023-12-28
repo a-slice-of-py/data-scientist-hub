@@ -115,6 +115,8 @@
     
       <link rel="stylesheet" href="../../../../../css/timeago.css">
     
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -143,7 +145,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -198,7 +200,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -1585,7 +1587,7 @@ where:</p>
 <li><em>cat</em> is the category of the variable (Integer, Binary or Continuous)</li>
 </ul>
 <p><strong>Example</strong></p>
-<p>To define an 10x1 array of binary variables <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> we can declare</p>
+<p>To define an 10x1 array of binary variables <span class="arithmatex">\(x\)</span> we can declare</p>
 <div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="n">LpVariable</span><span class="o">.</span><span class="n">dicts</span><span class="p">(</span>
     <span class="s1">&#39;my_binary_array&#39;</span><span class="p">,</span> 
     <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> 
@@ -1594,7 +1596,7 @@ where:</p>
     <span class="n">cat</span><span class="o">=</span><span class="s1">&#39;Binary&#39;</span>
     <span class="p">)</span>
 </code></pre></div>
-<p>To define <span class="arithmatex"><span class="MathJax_Preview">X</span><script type="math/tex">X</script></span> as a 5x4 matrix of integer variables <span class="arithmatex"><span class="MathJax_Preview">x_{ij}</span><script type="math/tex">x_{ij}</script></span> such that <span class="arithmatex"><span class="MathJax_Preview">0\leq x_{ij}\leq 7</span><script type="math/tex">0\leq x_{ij}\leq 7</script></span> we can declare</p>
+<p>To define <span class="arithmatex">\(X\)</span> as a 5x4 matrix of integer variables <span class="arithmatex">\(x_{ij}\)</span> such that <span class="arithmatex">\(0\leq x_{ij}\leq 7\)</span> we can declare</p>
 <div class="highlight"><pre><span></span><code><span class="n">X</span> <span class="o">=</span> <span class="n">LpVariable</span><span class="o">.</span><span class="n">dicts</span><span class="p">(</span>
     <span class="s1">&#39;my_integer_matrix&#39;</span><span class="p">,</span> 
     <span class="p">[(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)],</span> 
@@ -1620,7 +1622,7 @@ where:</p>
 <li><em>objective_function_desc</em> is a string containing the description of the objective function to be minimized/maximized</li>
 </ul>
 <p><strong>Example</strong></p>
-<p>To add the (possible) function to be minimized <span class="arithmatex"><span class="MathJax_Preview">\sum_{i\in I}a_ix_i</span><script type="math/tex">\sum_{i\in I}a_ix_i</script></span> to our problem we can set</p>
+<p>To add the (possible) function to be minimized <span class="arithmatex">\(\sum_{i\in I}a_ix_i\)</span> to our problem we can set</p>
 <div class="highlight"><pre><span></span><code><span class="n">my_problem</span> <span class="o">+=</span> <span class="n">lpSum</span><span class="p">([</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">my_indices</span><span class="p">]),</span>\
 <span class="s2">&quot;minimized this affine expression with coefficients a_i and variables x_i&quot;</span>
 </code></pre></div>
@@ -1632,7 +1634,7 @@ where:</p>
 <li><em>constraint_desc</em> is a string containing the description of the constraint</li>
 </ul>
 <p><strong>Example</strong></p>
-<p>To add to our problem a constraint in the form <span class="arithmatex"><span class="MathJax_Preview">\sum_{i\in I}x_i\leq b</span><script type="math/tex">\sum_{i\in I}x_i\leq b</script></span> we can set</p>
+<p>To add to our problem a constraint in the form <span class="arithmatex">\(\sum_{i\in I}x_i\leq b\)</span> we can set</p>
 <div class="highlight"><pre><span></span><code><span class="n">my_problem</span> <span class="o">+=</span> <span class="n">lpSum</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">my_indices</span><span class="p">])</span> <span class="o">&lt;=</span> <span class="n">b</span>
 </code></pre></div>
 <h3 id="solution-debug">Solution &amp; debug<a class="headerlink" href="#solution-debug" title="Permanent link">&para;</a></h3>
@@ -1707,18 +1709,18 @@ where:</p>
 </code></pre></div>
 <h3 id="change-the-point-of-view">Change the point of view<a class="headerlink" href="#change-the-point-of-view" title="Permanent link">&para;</a></h3>
 <p>The most straightforward implementation of a given minimization (resp. maximization) problem might sometimes involve a non-linear function of the decision variables. For example, we can think about a bin-packing problem in which the cost to be minimized depends in a non-linear way on the number of items contained in each bin. In a more detailed way, we are referring to the problem</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x}\sum\limits_{j\in\text{bins}} c\left(\sum\limits_{i\in\text{items}}x_{ij}\right)</span><script type="math/tex">\min\limits_{x}\sum\limits_{j\in\text{bins}} c\left(\sum\limits_{i\in\text{items}}x_{ij}\right)</script></span></p>
-<p>being <span class="arithmatex"><span class="MathJax_Preview">c(\cdot)</span><script type="math/tex">c(\cdot)</script></span> a non-linear function and <span class="arithmatex"><span class="MathJax_Preview">x_{ij}</span><script type="math/tex">x_{ij}</script></span> a binary variable which indicates if the item <span class="arithmatex"><span class="MathJax_Preview">i</span><script type="math/tex">i</script></span> belongs to the bin <span class="arithmatex"><span class="MathJax_Preview">j</span><script type="math/tex">j</script></span>.</p>
-<p>In such occasions, the linearity of the problem can be "manually" restored with the introduction of indicator variables defined over the possible values assumed by the above summation. Given for example that <span class="arithmatex"><span class="MathJax_Preview">\sum_{i\in\text{items}}x_{ij}\in\{0,\dots,N\}</span><script type="math/tex">\sum_{i\in\text{items}}x_{ij}\in\{0,\dots,N\}</script></span>, the problem can be written as</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\min \sum\limits_{j\in\text{bins}}\sum\limits_{n=0}^Nc(n)y_{nj}</span><script type="math/tex">\min \sum\limits_{j\in\text{bins}}\sum\limits_{n=0}^Nc(n)y_{nj}</script></span></p>
-<p>where <span class="arithmatex"><span class="MathJax_Preview">y_{nj}</span><script type="math/tex">y_{nj}</script></span> is a binary variable such that</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">y_{nj}=1\Leftrightarrow \sum\limits_{i\in\text{items}}x_{ij}=n</span><script type="math/tex">y_{nj}=1\Leftrightarrow \sum\limits_{i\in\text{items}}x_{ij}=n</script></span></p>
+<p><span class="arithmatex">\(\min\limits_{x}\sum\limits_{j\in\text{bins}} c\left(\sum\limits_{i\in\text{items}}x_{ij}\right)\)</span></p>
+<p>being <span class="arithmatex">\(c(\cdot)\)</span> a non-linear function and <span class="arithmatex">\(x_{ij}\)</span> a binary variable which indicates if the item <span class="arithmatex">\(i\)</span> belongs to the bin <span class="arithmatex">\(j\)</span>.</p>
+<p>In such occasions, the linearity of the problem can be "manually" restored with the introduction of indicator variables defined over the possible values assumed by the above summation. Given for example that <span class="arithmatex">\(\sum_{i\in\text{items}}x_{ij}\in\{0,\dots,N\}\)</span>, the problem can be written as</p>
+<p><span class="arithmatex">\(\min \sum\limits_{j\in\text{bins}}\sum\limits_{n=0}^Nc(n)y_{nj}\)</span></p>
+<p>where <span class="arithmatex">\(y_{nj}\)</span> is a binary variable such that</p>
+<p><span class="arithmatex">\(y_{nj}=1\Leftrightarrow \sum\limits_{i\in\text{items}}x_{ij}=n\)</span></p>
 <p>subject to the following constraint</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{n=0}^Ny_{nj}=1\;\forall j\in\text{bins}</span><script type="math/tex">\sum\limits_{n=0}^Ny_{nj}=1\;\forall j\in\text{bins}</script></span></p>
+<p><span class="arithmatex">\(\sum\limits_{n=0}^Ny_{nj}=1\;\forall j\in\text{bins}\)</span></p>
 <h3 id="the-more-the-better">The more the better<a class="headerlink" href="#the-more-the-better" title="Permanent link">&para;</a></h3>
 <p>In the first PuLP implementation, I found useful to write "more" constraints (even if redundant) rather than "less". This forced me to carefully reason about relations between decision variables during the formulation phase, as well as to be sure that I had implemented all the constraints required without missing any (even if in two or more different ways each).</p>
 <h3 id="latex-is-your-friend">LaTeX is your friend<a class="headerlink" href="#latex-is-your-friend" title="Permanent link">&para;</a></h3>
-<p>Before the implementation phase I found extremely useful to write down the full problem formulation in a clean and clear way (for example, with usage of <span class="arithmatex"><span class="MathJax_Preview">\LaTeX</span><script type="math/tex">\LaTeX</script></span> within Jupyter notebook markdown cells). Again, this forced me to be really sure about the theoretical framework of the problem, making clear all the assumptions and the modelization choices I have made. Moreover, this habit really helps the implementation serving as a to-do-list in terms of constraints to be added within the PuLP problem.</p>
+<p>Before the implementation phase I found extremely useful to write down the full problem formulation in a clean and clear way (for example, with usage of <span class="arithmatex">\(\LaTeX\)</span> within Jupyter notebook markdown cells). Again, this forced me to be really sure about the theoretical framework of the problem, making clear all the assumptions and the modelization choices I have made. Moreover, this habit really helps the implementation serving as a to-do-list in terms of constraints to be added within the PuLP problem.</p>
 <p>In doing so, I strongly recommend to use a coherent indexing and notation between the theory (markdown cells) and the practice (PuLP code), to avoid transliteration mistakes and help your <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">System 1</a> in doing its job.</p>
 <h3 id="linearize-linearize-linearize">Linearize, linearize, linearize<a class="headerlink" href="#linearize-linearize-linearize" title="Permanent link">&para;</a></h3>
 <p>If you desire (or must) stick to PuLP, you want every non-linear part of your formulation to disappear. In doing so, be confident and optimistic that many non-linear formulations can be properly linearized! For example:</p>
@@ -1927,9 +1929,11 @@ where:</p>
       
         <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../../../javascript/config.js"></script>
+        <script src="../../../../../javascripts/mathjax.js"></script>
       
-        <script src="../../../../../javascript/MathJax.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

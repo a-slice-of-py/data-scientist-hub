@@ -117,6 +117,8 @@
     
       <link rel="stylesheet" href="../../../../../css/timeago.css">
     
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -145,7 +147,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -200,7 +202,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -1523,7 +1525,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                           <span class="md-ellipsis">
                             
-                              16 min read
+                              14 min read
                             
                           </span>
                         </div>
@@ -1568,69 +1570,69 @@
 <!-- more -->
 
 <h2 id="classic-formulation">Classic formulation<a class="headerlink" href="#classic-formulation" title="Permanent link">&para;</a></h2>
-<p>Let <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span> be a <em>complete bipartite directed graph</em>, with
-disjoint sets of vertices <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}=\{s_i\}_{i=1}^{m}</span><script type="math/tex">\mathcal{S}=\{s_i\}_{i=1}^{m}</script></span> and
-<span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}=\{d_j\}_{j=1}^{n}</span><script type="math/tex">\mathcal{D}=\{d_j\}_{j=1}^{n}</script></span> interpreted respectively as <em>supply
+<p>Let <span class="arithmatex">\(\mathcal{G}\)</span> be a <em>complete bipartite directed graph</em>, with
+disjoint sets of vertices <span class="arithmatex">\(\mathcal{S}=\{s_i\}_{i=1}^{m}\)</span> and
+<span class="arithmatex">\(\mathcal{D}=\{d_j\}_{j=1}^{n}\)</span> interpreted respectively as <em>supply
 nodes</em> and <em>demand nodes</em>.</p>
-<p>For all <span class="arithmatex"><span class="MathJax_Preview">i=1,\dots,m,\;j=1,\dots,n</span><script type="math/tex">i=1,\dots,m,\;j=1,\dots,n</script></span> let:</p>
+<p>For all <span class="arithmatex">\(i=1,\dots,m,\;j=1,\dots,n\)</span> let:</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">c_{ij}</span><script type="math/tex">c_{ij}</script></span> represent the (unitary) transportation cost between
-    <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span> and <span class="arithmatex"><span class="MathJax_Preview">C=\left(c_{ij}\right)</span><script type="math/tex">C=\left(c_{ij}\right)</script></span> the corresponding
-    <span class="arithmatex"><span class="MathJax_Preview">m\times n</span><script type="math/tex">m\times n</script></span> matrix</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">x_{ij}\geq 0</span><script type="math/tex">x_{ij}\geq 0</script></span> represent the amount of product transported between
-    <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span> amount of available product (<em>supply</em>) at node <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">D_j</span><script type="math/tex">D_j</script></span> amount of required product (<em>demand</em>) at node <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span></li>
+<li><span class="arithmatex">\(c_{ij}\)</span> represent the (unitary) transportation cost between
+    <span class="arithmatex">\(s_i\)</span> and <span class="arithmatex">\(d_j\)</span> and <span class="arithmatex">\(C=\left(c_{ij}\right)\)</span> the corresponding
+    <span class="arithmatex">\(m\times n\)</span> matrix</li>
+<li><span class="arithmatex">\(x_{ij}\geq 0\)</span> represent the amount of product transported between
+    <span class="arithmatex">\(s_i\)</span> and <span class="arithmatex">\(d_j\)</span></li>
+<li><span class="arithmatex">\(S_i\)</span> amount of available product (<em>supply</em>) at node <span class="arithmatex">\(s_i\)</span></li>
+<li><span class="arithmatex">\(D_j\)</span> amount of required product (<em>demand</em>) at node <span class="arithmatex">\(d_j\)</span></li>
 </ul>
 <p>We then define the <strong>transportation problem</strong> as the linear programming
 problem of minimize the total transportation cost subject to supply and
 demand constraints i.e.,</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{j=1}^n c_{ij}x_{ij}</span><script type="math/tex">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{j=1}^n c_{ij}x_{ij}</script></span>
+<p><span class="arithmatex">\(\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{j=1}^n c_{ij}x_{ij}\)</span>
 s.t.</p>
 <ul>
 <li><em>supply constraint</em>:
-    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{j=1}^n x_{ij}\leq S_i \;\;\forall i=1,\dots,m</span><script type="math/tex">\sum\limits_{j=1}^n x_{ij}\leq S_i \;\;\forall i=1,\dots,m</script></span></li>
+    <span class="arithmatex">\(\sum\limits_{j=1}^n x_{ij}\leq S_i \;\;\forall i=1,\dots,m\)</span></li>
 <li><em>demand constraint</em>:
-    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i=1}^m x_{ij}\geq D_j \;\;\forall j=1,\dots,n</span><script type="math/tex">\sum\limits_{i=1}^m x_{ij}\geq D_j \;\;\forall j=1,\dots,n</script></span></li>
+    <span class="arithmatex">\(\sum\limits_{i=1}^m x_{ij}\geq D_j \;\;\forall j=1,\dots,n\)</span></li>
 </ul>
 <h2 id="balancing">Balancing<a class="headerlink" href="#balancing" title="Permanent link">&para;</a></h2>
 <p>We define two quantities that play a crucial role within transportation
 problem framework: <em>total supply</em> and <em>total demand</em> in the network,
-respectively expressed as <span class="arithmatex"><span class="MathJax_Preview">S^*=\sum_{i=1}^m S_i</span><script type="math/tex">S^*=\sum_{i=1}^m S_i</script></span> and analogously
-<span class="arithmatex"><span class="MathJax_Preview">D^*=\sum_{j=1}^n D_j</span><script type="math/tex">D^*=\sum_{j=1}^n D_j</script></span>. The problem is said to be <em>balanced</em> if
-<span class="arithmatex"><span class="MathJax_Preview">S^* = D^*</span><script type="math/tex">S^* = D^*</script></span> and <em>unbalanced</em> otherwise. In case of an unbalanced
+respectively expressed as <span class="arithmatex">\(S^*=\sum_{i=1}^m S_i\)</span> and analogously
+<span class="arithmatex">\(D^*=\sum_{j=1}^n D_j\)</span>. The problem is said to be <em>balanced</em> if
+<span class="arithmatex">\(S^* = D^*\)</span> and <em>unbalanced</em> otherwise. In case of an unbalanced
 transportation problem, is convenient to distinguish two cases:</p>
 <ul>
-<li>if <span class="arithmatex"><span class="MathJax_Preview">D^* &gt; S^*</span><script type="math/tex">D^* > S^*</script></span> the problem is <em>infeasible</em> because there is not
+<li>if <span class="arithmatex">\(D^* &gt; S^*\)</span> the problem is <em>infeasible</em> because there is not
     enough supply to satisfy the given demand</li>
-<li>if <span class="arithmatex"><span class="MathJax_Preview">S^* &gt; D^*</span><script type="math/tex">S^* > D^*</script></span> the problem is in turn <em>feasible</em> thanks to the
+<li>if <span class="arithmatex">\(S^* &gt; D^*\)</span> the problem is in turn <em>feasible</em> thanks to the
     excess supply which makes no harm to any of the constraints</li>
 </ul>
 <p>Since in the former case is possible to state <em>a priori</em> that the
 problem will result in an infeasible one, is convenient to propose a
 general balancing method for a transportation problem:</p>
 <ul>
-<li>if <span class="arithmatex"><span class="MathJax_Preview">D^* &gt; S^*</span><script type="math/tex">D^* > S^*</script></span>, we can add a <em>dummy supply</em> which is accountable
-    for unmet demand i.e., a node <span class="arithmatex"><span class="MathJax_Preview">s_{m+1}</span><script type="math/tex">s_{m+1}</script></span> such that
-    <span class="arithmatex"><span class="MathJax_Preview">S_{m+1}=D^* - S^*</span><script type="math/tex">S_{m+1}=D^* - S^*</script></span>. In this case, we are expanding costs matrix
-    <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span> by adding a new row. Each of its elements <span class="arithmatex"><span class="MathJax_Preview">c_{m+1,j}</span><script type="math/tex">c_{m+1,j}</script></span> will
+<li>if <span class="arithmatex">\(D^* &gt; S^*\)</span>, we can add a <em>dummy supply</em> which is accountable
+    for unmet demand i.e., a node <span class="arithmatex">\(s_{m+1}\)</span> such that
+    <span class="arithmatex">\(S_{m+1}=D^* - S^*\)</span>. In this case, we are expanding costs matrix
+    <span class="arithmatex">\(C\)</span> by adding a new row. Each of its elements <span class="arithmatex">\(c_{m+1,j}\)</span> will
     represent the cost penalty associated with unmet demand for demand
-    node <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>. In a proper supply chain framework, this penalty can
+    node <span class="arithmatex">\(d_j\)</span>. In a proper supply chain framework, this penalty can
     be thought as the financial loss for the unmet demand, as well as
     the buying-in cost for satisfying the (otherwise unmet) demand. In a
-    costs minimization perspective, the higher is <span class="arithmatex"><span class="MathJax_Preview">c_{m+1,j}</span><script type="math/tex">c_{m+1,j}</script></span> the
-    lower will be <span class="arithmatex"><span class="MathJax_Preview">x_{m+1,j}</span><script type="math/tex">x_{m+1,j}</script></span>: this means that we have a first way to
+    costs minimization perspective, the higher is <span class="arithmatex">\(c_{m+1,j}\)</span> the
+    lower will be <span class="arithmatex">\(x_{m+1,j}\)</span>: this means that we have a first way to
     influence the shape of the solution according to our (business)
     needs.</li>
-<li>if <span class="arithmatex"><span class="MathJax_Preview">S^* &gt; D^*</span><script type="math/tex">S^* > D^*</script></span>, even if the problem would be feasible, is
+<li>if <span class="arithmatex">\(S^* &gt; D^*\)</span>, even if the problem would be feasible, is
     convenient to mirror the above technique by adding a <em>dummy demand</em>
-    accountable for unexploited supply i.e., a node <span class="arithmatex"><span class="MathJax_Preview">d_{n+1}</span><script type="math/tex">d_{n+1}</script></span> such
-    that <span class="arithmatex"><span class="MathJax_Preview">D_{n+1}=S^* - D^*</span><script type="math/tex">D_{n+1}=S^* - D^*</script></span>. Again, we are implicitly expanding costs
-    matrix by adding a new column in which each element <span class="arithmatex"><span class="MathJax_Preview">c_{i, n+1}</span><script type="math/tex">c_{i, n+1}</script></span>
+    accountable for unexploited supply i.e., a node <span class="arithmatex">\(d_{n+1}\)</span> such
+    that <span class="arithmatex">\(D_{n+1}=S^* - D^*\)</span>. Again, we are implicitly expanding costs
+    matrix by adding a new column in which each element <span class="arithmatex">\(c_{i, n+1}\)</span>
     will represent cost associated with unexploited supply. In a supply
     chain framework, this can be interpreted as storage cost for excess
     supply, and all the considerations made above about the relationship
-    with <span class="arithmatex"><span class="MathJax_Preview">x_{i,n+1}</span><script type="math/tex">x_{i,n+1}</script></span> still hold.</li>
+    with <span class="arithmatex">\(x_{i,n+1}\)</span> still hold.</li>
 </ul>
 <p>In the following we will consider only balanced transportation problems,
 in which the balancing has might been restored with one of the above
@@ -1638,17 +1640,17 @@ procedures. In particular, we will therefore consider both the
 constraints as equalities. For such a problem the following holds:</p>
 <h3 id="theorem-1">Theorem 1<a class="headerlink" href="#theorem-1" title="Permanent link">&para;</a></h3>
 <p>Given a balanced transportation problem assigned over a complete
-bipartite directed graph <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span>, the problem admits at least
+bipartite directed graph <span class="arithmatex">\(\mathcal{G}\)</span>, the problem admits at least
 one feasible solution.</p>
 <h2 id="transportation-tableau">Transportation tableau<a class="headerlink" href="#transportation-tableau" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://i.stack.imgur.com/BaqR2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="https://i.stack.imgur.com/BaqR2.jpg" width="360"></a></p>
 <p>Transportation problem data are often summarized and visualized on a
 table called <strong>transportation tableau</strong> (see picture above). It
-basically consists in the costs matrix <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span>, with the addition of a
+basically consists in the costs matrix <span class="arithmatex">\(C\)</span>, with the addition of a
 bottom row containing the demands and a right column containing the
 supplies. Moreover, it’s useful also to hold the decision variables
-<span class="arithmatex"><span class="MathJax_Preview">x_{ij}</span><script type="math/tex">x_{ij}</script></span> as well as the total supply <span class="arithmatex"><span class="MathJax_Preview">S^*</span><script type="math/tex">S^*</script></span> and the total demand
-<span class="arithmatex"><span class="MathJax_Preview">D^*</span><script type="math/tex">D^*</script></span>.</p>
+<span class="arithmatex">\(x_{ij}\)</span> as well as the total supply <span class="arithmatex">\(S^*\)</span> and the total demand
+<span class="arithmatex">\(D^*\)</span>.</p>
 <h2 id="heuristics">Heuristics<a class="headerlink" href="#heuristics" title="Permanent link">&para;</a></h2>
 <p>Based on the transportation tableau, several heuristics have been
 studied in order to find an initial basic feasible solution to the
@@ -1660,7 +1662,7 @@ transportation problem. The most used are:</p>
 </ul>
 <p>They basically consist in algorithm than can be performed (also) by a
 human in order to match the problem constraints while distributing
-product amount amongst each <span class="arithmatex"><span class="MathJax_Preview">x_{ij}</span><script type="math/tex">x_{ij}</script></span> (in a “Sudoku-like” approach)
+product amount amongst each <span class="arithmatex">\(x_{ij}\)</span> (in a “Sudoku-like” approach)
 <a href="https://www.geeksforgeeks.org/transportation-problem-set-1-introduction/?ref=rp">see here</a>.
 Given an initial basic feasible solution, several techniques can be used
 to improve it in order to lower the corresponding objective function
@@ -1673,8 +1675,8 @@ libraries available.</p>
 <p>The transportation problem can be approach as:</p>
 <ul>
 <li>a classic LP problem with continuous decision variables i.e.,
-    <span class="arithmatex"><span class="MathJax_Preview">x_{ij}\in\mathbb{R}_{\geq 0}</span><script type="math/tex">x_{ij}\in\mathbb{R}_{\geq 0}</script></span>;</li>
-<li>an ILP/MIP problem if <span class="arithmatex"><span class="MathJax_Preview">x_{ij}\in\mathbb{N}</span><script type="math/tex">x_{ij}\in\mathbb{N}</script></span> i.e., if it’s more
+    <span class="arithmatex">\(x_{ij}\in\mathbb{R}_{\geq 0}\)</span>;</li>
+<li>an ILP/MIP problem if <span class="arithmatex">\(x_{ij}\in\mathbb{N}\)</span> i.e., if it’s more
     convenient to express the decision variables in terms of (integer)
     number of transports needed to satisfy the constraints. In this
     case, we must assume that the transportation costs do not depend on
@@ -1687,10 +1689,10 @@ libraries available.</p>
 <h3 id="sensitivity-analysis">Sensitivity analysis<a class="headerlink" href="#sensitivity-analysis" title="Permanent link">&para;</a></h3>
 <p>LP formulation and implementation can guarantee several advantages in
 approaching a transportation problem.</p>
-<p>One of them is the <em>sensitivity analysis</em>: defined <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> as the
-optimal solution (or the set of optimal solutions) and <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> the problem
+<p>One of them is the <em>sensitivity analysis</em>: defined <span class="arithmatex">\(x^*\)</span> as the
+optimal solution (or the set of optimal solutions) and <span class="arithmatex">\(f\)</span> the problem
 objective function, the sensitivity analysis leds to study changes in
-<span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> and <span class="arithmatex"><span class="MathJax_Preview">f(x^*)</span><script type="math/tex">f(x^*)</script></span> as functions of problem data.</p>
+<span class="arithmatex">\(x^*\)</span> and <span class="arithmatex">\(f(x^*)\)</span> as functions of problem data.</p>
 <p>For example, in the transportation problem framework, one of the
 sensitivity analysis goal is to answer to questions such as:</p>
 <ul>
@@ -1701,19 +1703,19 @@ sensitivity analysis goal is to answer to questions such as:</p>
 <p>Another advantage of a LP approach is represented by <em>slack variables</em>,
 which enable the <em>elastic relaxation</em> of a given problem.</p>
 <p>For example, we can consider the supply constraint
-<span class="arithmatex"><span class="MathJax_Preview">\sum_{j=1}^n x_{ij}\leq S_i</span><script type="math/tex">\sum_{j=1}^n x_{ij}\leq S_i</script></span> for a given supply node <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span>. This
-constraint requires that the amount of product going out from <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> is
-at most equal to the node capacity i.e., <span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span>. Another way to monitor
+<span class="arithmatex">\(\sum_{j=1}^n x_{ij}\leq S_i\)</span> for a given supply node <span class="arithmatex">\(s_i\)</span>. This
+constraint requires that the amount of product going out from <span class="arithmatex">\(s_i\)</span> is
+at most equal to the node capacity i.e., <span class="arithmatex">\(S_i\)</span>. Another way to monitor
 such a request is to keep track of the difference
-<span class="arithmatex"><span class="MathJax_Preview">\nu_i:= \sum_{j=1}^n x_{ij} - S_i</span><script type="math/tex">\nu_i:= \sum_{j=1}^n x_{ij} - S_i</script></span>. If <span class="arithmatex"><span class="MathJax_Preview">\nu_i\leq 0</span><script type="math/tex">\nu_i\leq 0</script></span>, the
-constraint has been observed, if <span class="arithmatex"><span class="MathJax_Preview">\nu_i&gt;0</span><script type="math/tex">\nu_i>0</script></span> the constraint has been
+<span class="arithmatex">\(\nu_i:= \sum_{j=1}^n x_{ij} - S_i\)</span>. If <span class="arithmatex">\(\nu_i\leq 0\)</span>, the
+constraint has been observed, if <span class="arithmatex">\(\nu_i&gt;0\)</span> the constraint has been
 violated.</p>
 <p>Having observed so, we can then relax the supply constraint by restating
 it as follows:</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{j=1}^n x_{ij}-\nu_i\leq S_i</span><script type="math/tex">\sum\limits_{j=1}^n x_{ij}-\nu_i\leq S_i</script></span></p>
-<p>where <span class="arithmatex"><span class="MathJax_Preview">\nu_i</span><script type="math/tex">\nu_i</script></span> is a decision variable taking values in <span class="arithmatex"><span class="MathJax_Preview">[0, U_i]</span><script type="math/tex">[0, U_i]</script></span> -
+<p><span class="arithmatex">\(\sum\limits_{j=1}^n x_{ij}-\nu_i\leq S_i\)</span></p>
+<p>where <span class="arithmatex">\(\nu_i\)</span> is a decision variable taking values in <span class="arithmatex">\([0, U_i]\)</span> -
 called <em>slack variable</em> - which objective is to soften the constraint
-possibly allowing to excess the given supply <span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span>.</p>
+possibly allowing to excess the given supply <span class="arithmatex">\(S_i\)</span>.</p>
 <p>The main purpose of slack variables is to locate infeasibility causes:
 if the resolution of the problem seems impossible, we can add one slack
 variable for each constraint, taking care of adding it also to the
@@ -1724,12 +1726,12 @@ function, its usage has been crucial to the resolution itself i.e., in
 making the problem actually feasible.</p>
 <p>In general:</p>
 <ul>
-<li>for a <span class="arithmatex"><span class="MathJax_Preview">\leq</span><script type="math/tex">\leq</script></span> constraint we should subtract the slack variable from
+<li>for a <span class="arithmatex">\(\leq\)</span> constraint we should subtract the slack variable from
     the left side of the constraint i.e., where decision variables are
     located;</li>
-<li>for a <span class="arithmatex"><span class="MathJax_Preview">\geq</span><script type="math/tex">\geq</script></span> constraint we should add the slack variable to the
+<li>for a <span class="arithmatex">\(\geq\)</span> constraint we should add the slack variable to the
     left side of the constraint;</li>
-<li>for a <span class="arithmatex"><span class="MathJax_Preview">=</span><script type="math/tex">=</script></span> constraint we should split the slack variable in its
+<li>for a <span class="arithmatex">\(=\)</span> constraint we should split the slack variable in its
     positive and negative part and respectively add and subtract these
     components to the left side of the constraint;</li>
 <li>the slack variable must be added (if the goal is to minimize) /
@@ -1743,13 +1745,13 @@ meaning with respect to the underlying business framework and units of
 measurements.</p>
 <h3 id="multi-objective-programming">Multi-objective programming<a class="headerlink" href="#multi-objective-programming" title="Permanent link">&para;</a></h3>
 <p>LP framework enables also to address <em>multi-objective</em> problems, in
-which for example we are interested in chase both <span class="arithmatex"><span class="MathJax_Preview">\min f_1</span><script type="math/tex">\min f_1</script></span> and
-<span class="arithmatex"><span class="MathJax_Preview">\min f_2</span><script type="math/tex">\min f_2</script></span> - we can consider both as minimization objectives thanks to
-the equivalence <span class="arithmatex"><span class="MathJax_Preview">\max(f) = -\min(-f)</span><script type="math/tex">\max(f) = -\min(-f)</script></span>. A more rigorous definition of
+which for example we are interested in chase both <span class="arithmatex">\(\min f_1\)</span> and
+<span class="arithmatex">\(\min f_2\)</span> - we can consider both as minimization objectives thanks to
+the equivalence <span class="arithmatex">\(\max(f) = -\min(-f)\)</span>. A more rigorous definition of
 <em>chasing more objectives</em> can be stated in a Pareto perspective: we
-could be interested in finding <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> such that, if there exists
-another <span class="arithmatex"><span class="MathJax_Preview">x'</span><script type="math/tex">x'</script></span> such that <span class="arithmatex"><span class="MathJax_Preview">f_1(x')&lt;f_1(x^*)</span><script type="math/tex">f_1(x')<f_1(x^*)</script></span>, then
-<span class="arithmatex"><span class="MathJax_Preview">f_2(x')&gt;f_2(x^*)</span><script type="math/tex">f_2(x')>f_2(x^*)</script></span>. In other words our aim could be find a <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span>
+could be interested in finding <span class="arithmatex">\(x^*\)</span> such that, if there exists
+another <span class="arithmatex">\(x'\)</span> such that <span class="arithmatex">\(f_1(x')&lt;f_1(x^*)\)</span>, then
+<span class="arithmatex">\(f_2(x')&gt;f_2(x^*)\)</span>. In other words our aim could be find a <span class="arithmatex">\(x^*\)</span>
 which is <em>Pareto-optimal</em> i.e., a preferred solution such that any other
 candidate solution which significantly improves one of the objectives
 ends up worsening the other
@@ -1759,35 +1761,35 @@ ends up worsening the other
 <li><em>relaxed formulation</em>: address one of the two objectives as the
     “real” objective of our LP problem, by adding the relaxed version
     of the other within the problem constraints. For example
-    <span class="arithmatex"><span class="MathJax_Preview">\min f_1</span><script type="math/tex">\min f_1</script></span> subject to <span class="arithmatex"><span class="MathJax_Preview">f_2\leq \varepsilon</span><script type="math/tex">f_2\leq \varepsilon</script></span> where
-    <span class="arithmatex"><span class="MathJax_Preview">\varepsilon</span><script type="math/tex">\varepsilon</script></span> is an upper bound on <span class="arithmatex"><span class="MathJax_Preview">f_2</span><script type="math/tex">f_2</script></span> known a priori;</li>
+    <span class="arithmatex">\(\min f_1\)</span> subject to <span class="arithmatex">\(f_2\leq \varepsilon\)</span> where
+    <span class="arithmatex">\(\varepsilon\)</span> is an upper bound on <span class="arithmatex">\(f_2\)</span> known a priori;</li>
 <li><em>elastic formulation</em>: mix the objectives with a convex combination
     of parameters to encapsulate them into a single objective. For
-    example <span class="arithmatex"><span class="MathJax_Preview">\min\lambda f_1 + (1-\lambda)f_2</span><script type="math/tex">\min\lambda f_1 + (1-\lambda)f_2</script></span> where
-    <span class="arithmatex"><span class="MathJax_Preview">\lambda\in[0,1]</span><script type="math/tex">\lambda\in[0,1]</script></span> controls the weight given to each of the
+    example <span class="arithmatex">\(\min\lambda f_1 + (1-\lambda)f_2\)</span> where
+    <span class="arithmatex">\(\lambda\in[0,1]\)</span> controls the weight given to each of the
     original objectives;</li>
 <li><em>sequential formulation</em>: solve a single objective problem with one
-    of the two objectives, for example <span class="arithmatex"><span class="MathJax_Preview">\min f_1</span><script type="math/tex">\min f_1</script></span> finding <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> as
+    of the two objectives, for example <span class="arithmatex">\(\min f_1\)</span> finding <span class="arithmatex">\(x^*\)</span> as
     optimal solution, and then approaching a second single objective
-    problem, for example <span class="arithmatex"><span class="MathJax_Preview">\min f_2</span><script type="math/tex">\min f_2</script></span>, by adding a constraint to
-    preserve the former optimality i.e., <span class="arithmatex"><span class="MathJax_Preview">f_1(x)\leq f_1(x^*)</span><script type="math/tex">f_1(x)\leq f_1(x^*)</script></span>.</li>
+    problem, for example <span class="arithmatex">\(\min f_2\)</span>, by adding a constraint to
+    preserve the former optimality i.e., <span class="arithmatex">\(f_1(x)\leq f_1(x^*)\)</span>.</li>
 </ul>
 <h2 id="problem-variations">Problem variations<a class="headerlink" href="#problem-variations" title="Permanent link">&para;</a></h2>
 <h3 id="transshipment-nodes">Transshipment nodes<a class="headerlink" href="#transshipment-nodes" title="Permanent link">&para;</a></h3>
 <p>The classic formulation can be extended to a more general case where the
 product goes from the supply nodes to the demand ones through one (resp.
-<span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span>) layer of intermediary nodes, which is implicitly equivalent to
+<span class="arithmatex">\(k\)</span>) layer of intermediary nodes, which is implicitly equivalent to
 change the underlying graph structure to the union of two (resp.
-<span class="arithmatex"><span class="MathJax_Preview">k+1</span><script type="math/tex">k+1</script></span>) complete bipartite graphs which share one set of nodes. In such
+<span class="arithmatex">\(k+1\)</span>) complete bipartite graphs which share one set of nodes. In such
 a case, we refer to the shared layer of nodes with
-<span class="arithmatex"><span class="MathJax_Preview">\mathcal{T}=\{t_k\}_{k=1}^p</span><script type="math/tex">\mathcal{T}=\{t_k\}_{k=1}^p</script></span> and the problem objective will change as
+<span class="arithmatex">\(\mathcal{T}=\{t_k\}_{k=1}^p\)</span> and the problem objective will change as
 follows</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}x_{kj}</span><script type="math/tex">\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}x_{kj}</script></span></p>
+<p><span class="arithmatex">\(\min\limits_{x}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}x_{kj}\)</span></p>
 <p>Both the supply and demand constraints must be changed accordingly
-(since no longer exists a direct connection between <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}</span><script type="math/tex">\mathcal{S}</script></span> and
-<span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}</span><script type="math/tex">\mathcal{D}</script></span>), and the <em>transshipment constraint</em> must be added in
+(since no longer exists a direct connection between <span class="arithmatex">\(\mathcal{S}\)</span> and
+<span class="arithmatex">\(\mathcal{D}\)</span>), and the <em>transshipment constraint</em> must be added in
 the following form</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i=1}^m x_{ik}=\sum\limits_{j=1}^n x_{kj}\;,\;\;\forall k=1,\dots,p</span><script type="math/tex">\sum\limits_{i=1}^m x_{ik}=\sum\limits_{j=1}^n x_{kj}\;,\;\;\forall k=1,\dots,p</script></span></p>
+<p><span class="arithmatex">\(\sum\limits_{i=1}^m x_{ik}=\sum\limits_{j=1}^n x_{kj}\;,\;\;\forall k=1,\dots,p\)</span></p>
 <p>assuming no storage is allowed within transshipment nodes. </p>
 <h3 id="sortation-centers">Sortation centers<a class="headerlink" href="#sortation-centers" title="Permanent link">&para;</a></h3>
 <p>The intermediaries of the middle layer can be
@@ -1799,36 +1801,36 @@ assignment problem can be used to optimize the accountability of
 sortation centers with respect to final customer demands (this strategy
 is a simple yet good model of Amazon logistics).</p>
 <p>In this case, the problem formulation can be changed as follows</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\min\limits_{x,y}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}y_{kj}</span><script type="math/tex">\min\limits_{x,y}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}y_{kj}</script></span></p>
-<p>where the introduced new decision variables <span class="arithmatex"><span class="MathJax_Preview">y_{kj}\in\{0,1\}</span><script type="math/tex">y_{kj}\in\{0,1\}</script></span> are
+<p><span class="arithmatex">\(\min\limits_{x,y}\sum\limits_{i=1}^m\sum\limits_{k=1}^p c_{ik}x_{ik} + \sum\limits_{k=1}^p\sum\limits_{j=1}^n c_{kj}y_{kj}\)</span></p>
+<p>where the introduced new decision variables <span class="arithmatex">\(y_{kj}\in\{0,1\}\)</span> are
 binary variables which represent the assignment of sortation between
-<span class="arithmatex"><span class="MathJax_Preview">t_k</span><script type="math/tex">t_k</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>, with corresponding sortation cost <span class="arithmatex"><span class="MathJax_Preview">c_{kj}</span><script type="math/tex">c_{kj}</script></span>. The
+<span class="arithmatex">\(t_k\)</span> and <span class="arithmatex">\(d_j\)</span>, with corresponding sortation cost <span class="arithmatex">\(c_{kj}\)</span>. The
 constraint of such a model are the following:</p>
 <ul>
 <li><em>supply constraint</em>:
-    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{k=1}^p x_{ik}\leq S_i \;\;\forall i=1,\dots,m</span><script type="math/tex">\sum\limits_{k=1}^p x_{ik}\leq S_i \;\;\forall i=1,\dots,m</script></span></li>
+    <span class="arithmatex">\(\sum\limits_{k=1}^p x_{ik}\leq S_i \;\;\forall i=1,\dots,m\)</span></li>
 <li><em>sortation decoupling</em>:
-    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{k=1}^p y_{kj} = 1\;\;\forall j=1,\dots,n</span><script type="math/tex">\sum\limits_{k=1}^p y_{kj} = 1\;\;\forall j=1,\dots,n</script></span></li>
+    <span class="arithmatex">\(\sum\limits_{k=1}^p y_{kj} = 1\;\;\forall j=1,\dots,n\)</span></li>
 <li><em>demand constraint</em>:
-    <span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i=1}^m x_{ik} = \sum\limits_{j=1}^n y_{kj}\cdot D_j \;\;\forall k=1,\dots,p</span><script type="math/tex">\sum\limits_{i=1}^m x_{ik} = \sum\limits_{j=1}^n y_{kj}\cdot D_j \;\;\forall k=1,\dots,p</script></span></li>
+    <span class="arithmatex">\(\sum\limits_{i=1}^m x_{ik} = \sum\limits_{j=1}^n y_{kj}\cdot D_j \;\;\forall k=1,\dots,p\)</span></li>
 </ul>
 <h3 id="multi-commodity-transportation">Multi-commodity transportation<a class="headerlink" href="#multi-commodity-transportation" title="Permanent link">&para;</a></h3>
 <p>In the case of a transportation problem which involves the
 transportation of more than one product, the “product” variable can be
 taken into account in the LP framework switching to a three-dimension
-tensor of decision variables <span class="arithmatex"><span class="MathJax_Preview">x_{ijh}</span><script type="math/tex">x_{ijh}</script></span>, each representing the amount
-of product <span class="arithmatex"><span class="MathJax_Preview">p_h</span><script type="math/tex">p_h</script></span> transported from <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> to <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>.</p>
+tensor of decision variables <span class="arithmatex">\(x_{ijh}\)</span>, each representing the amount
+of product <span class="arithmatex">\(p_h\)</span> transported from <span class="arithmatex">\(s_i\)</span> to <span class="arithmatex">\(d_j\)</span>.</p>
 <h2 id="duality">Duality<a class="headerlink" href="#duality" title="Permanent link">&para;</a></h2>
 <p>For reference see
 <a href="https://medium.com/@geekrodion/course-optimization-for-programmers-5316572ed69b">this article</a>.</p>
 <h3 id="an-example">An example<a class="headerlink" href="#an-example" title="Permanent link">&para;</a></h3>
-<p>Let us consider the following maximization problem <span class="arithmatex"><span class="MathJax_Preview">\max 2x_1 + 3x_2</span><script type="math/tex">\max 2x_1 + 3x_2</script></span>
+<p>Let us consider the following maximization problem <span class="arithmatex">\(\max 2x_1 + 3x_2\)</span>
 s.t.</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">4x_1 + 8x_2 \leq 12\;\;(1)</span><script type="math/tex">4x_1 + 8x_2 \leq 12\;\;(1)</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">2x_1 + x_2 \leq 3\;\;(2)</span><script type="math/tex">2x_1 + x_2 \leq 3\;\;(2)</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">3x_1 + 2x_2 \leq 4\;\;(3)</span><script type="math/tex">3x_1 + 2x_2 \leq 4\;\;(3)</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">x_1, x_2 \geq 0\;\;(4)</span><script type="math/tex">x_1, x_2 \geq 0\;\;(4)</script></span></li>
+<li><span class="arithmatex">\(4x_1 + 8x_2 \leq 12\;\;(1)\)</span></li>
+<li><span class="arithmatex">\(2x_1 + x_2 \leq 3\;\;(2)\)</span></li>
+<li><span class="arithmatex">\(3x_1 + 2x_2 \leq 4\;\;(3)\)</span></li>
+<li><span class="arithmatex">\(x_1, x_2 \geq 0\;\;(4)\)</span></li>
 </ul>
 <p>Thanks to nonnegativity constraint (4), we can observe for example that
 the objective function has an upper bound given by the left side of (1):
@@ -1836,82 +1838,82 @@ this ensures that the objective function is bounded by 12. Similarly,
 the same holds dividing the left side of (1) by 2: we have then a better
 upper bound on the objective function i.e., 6: this is the inspiration
 for the following discussion.</p>
-<p>Given <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> the objective function of our LP problem, is then possible
-to write <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> as a linear combination of variables <span class="arithmatex"><span class="MathJax_Preview">x_j</span><script type="math/tex">x_j</script></span> i.e.,
-<span class="arithmatex"><span class="MathJax_Preview">f(x_1,\dots,x_n)=\sum_{j=1}^nc_jx_j</span><script type="math/tex">f(x_1,\dots,x_n)=\sum_{j=1}^nc_jx_j</script></span>, and the same holds for the left
-side of each constraint, which can be represented by a function <span class="arithmatex"><span class="MathJax_Preview">g_i</span><script type="math/tex">g_i</script></span>
-such that <span class="arithmatex"><span class="MathJax_Preview">g_i(x_1,\dots,x_n)=\sum_{j=1}^na_{ij}x_j\leq b_i</span><script type="math/tex">g_i(x_1,\dots,x_n)=\sum_{j=1}^na_{ij}x_j\leq b_i</script></span>. As in
+<p>Given <span class="arithmatex">\(f\)</span> the objective function of our LP problem, is then possible
+to write <span class="arithmatex">\(f\)</span> as a linear combination of variables <span class="arithmatex">\(x_j\)</span> i.e.,
+<span class="arithmatex">\(f(x_1,\dots,x_n)=\sum_{j=1}^nc_jx_j\)</span>, and the same holds for the left
+side of each constraint, which can be represented by a function <span class="arithmatex">\(g_i\)</span>
+such that <span class="arithmatex">\(g_i(x_1,\dots,x_n)=\sum_{j=1}^na_{ij}x_j\leq b_i\)</span>. As in
 the above example, we are then interested in finding a linear
 combination of the given constraints which constitutes an upper bound on
-<span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> i.e., <span class="arithmatex"><span class="MathJax_Preview">f\leq\sum_{j=1}^nd_jx_j\leq M</span><script type="math/tex">f\leq\sum_{j=1}^nd_jx_j\leq M</script></span> where <span class="arithmatex"><span class="MathJax_Preview">d_j\geq c_j</span><script type="math/tex">d_j\geq c_j</script></span> for
-all <span class="arithmatex"><span class="MathJax_Preview">j=1,\dots, n</span><script type="math/tex">j=1,\dots, n</script></span>. In the example, we are looking for a combination</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">d_1x_1 + d_2x_2\leq M</span><script type="math/tex">d_1x_1 + d_2x_2\leq M</script></span></p>
-<p>where <span class="arithmatex"><span class="MathJax_Preview">d_1\geq 2</span><script type="math/tex">d_1\geq 2</script></span> and <span class="arithmatex"><span class="MathJax_Preview">d_2\geq 3</span><script type="math/tex">d_2\geq 3</script></span>.</p>
+<span class="arithmatex">\(f\)</span> i.e., <span class="arithmatex">\(f\leq\sum_{j=1}^nd_jx_j\leq M\)</span> where <span class="arithmatex">\(d_j\geq c_j\)</span> for
+all <span class="arithmatex">\(j=1,\dots, n\)</span>. In the example, we are looking for a combination</p>
+<p><span class="arithmatex">\(d_1x_1 + d_2x_2\leq M\)</span></p>
+<p>where <span class="arithmatex">\(d_1\geq 2\)</span> and <span class="arithmatex">\(d_2\geq 3\)</span>.</p>
 <p>For doing so, we can consider a linear combination
-<span class="arithmatex"><span class="MathJax_Preview">\sum_{j=1}^nd_j(y_1,\dots,y_p)x_j=\sum_{i=1}^py_ig_i(x_1,\dots,x_n)\leq\sum_{i=1}^pb_iy_i=M</span><script type="math/tex">\sum_{j=1}^nd_j(y_1,\dots,y_p)x_j=\sum_{i=1}^py_ig_i(x_1,\dots,x_n)\leq\sum_{i=1}^pb_iy_i=M</script></span>
-where <span class="arithmatex"><span class="MathJax_Preview">y_i\geq 0</span><script type="math/tex">y_i\geq 0</script></span> are brand new variables linked with the original
+<span class="arithmatex">\(\sum_{j=1}^nd_j(y_1,\dots,y_p)x_j=\sum_{i=1}^py_ig_i(x_1,\dots,x_n)\leq\sum_{i=1}^pb_iy_i=M\)</span>
+where <span class="arithmatex">\(y_i\geq 0\)</span> are brand new variables linked with the original
 constraints. In the example, the linear combination is</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">y_1\left(4x_1 + 8x_2\right) + y_2\left(2x_1 + x_2\right) + y_3\left(3x_1 + 2x_2\right) \leq 12y_1 + 3y_2 + 4y_3</span><script type="math/tex">y_1\left(4x_1 + 8x_2\right) + y_2\left(2x_1 + x_2\right) + y_3\left(3x_1 + 2x_2\right) \leq 12y_1 + 3y_2 + 4y_3</script></span></p>
+<p><span class="arithmatex">\(y_1\left(4x_1 + 8x_2\right) + y_2\left(2x_1 + x_2\right) + y_3\left(3x_1 + 2x_2\right) \leq 12y_1 + 3y_2 + 4y_3\)</span></p>
 <p>which correspondes to</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\left(4y_1+2y_2+3y_3\right)x_1 + \left(8y_1+y_2+2y_3\right)x_2\leq 12y_1 + 3y_2 + 4y_3</span><script type="math/tex">\left(4y_1+2y_2+3y_3\right)x_1 + \left(8y_1+y_2+2y_3\right)x_2\leq 12y_1 + 3y_2 + 4y_3</script></span></p>
+<p><span class="arithmatex">\(\left(4y_1+2y_2+3y_3\right)x_1 + \left(8y_1+y_2+2y_3\right)x_2\leq 12y_1 + 3y_2 + 4y_3\)</span></p>
 <p>As per the intro of this section, our goal is to find the best possible
-upper bound on <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> i.e., to lower as much as we can the upper bound
-<span class="arithmatex"><span class="MathJax_Preview">M</span><script type="math/tex">M</script></span> which controls <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> from above while respecting the constraints
-<span class="arithmatex"><span class="MathJax_Preview">d_j\geq c_j</span><script type="math/tex">d_j\geq c_j</script></span> for all <span class="arithmatex"><span class="MathJax_Preview">j=1,\dots,n</span><script type="math/tex">j=1,\dots,n</script></span>. We have then implicitly defined
+upper bound on <span class="arithmatex">\(f\)</span> i.e., to lower as much as we can the upper bound
+<span class="arithmatex">\(M\)</span> which controls <span class="arithmatex">\(f\)</span> from above while respecting the constraints
+<span class="arithmatex">\(d_j\geq c_j\)</span> for all <span class="arithmatex">\(j=1,\dots,n\)</span>. We have then implicitly defined
 a new LP problem, corresponding to the original one, i.e.
-<span class="arithmatex"><span class="MathJax_Preview">\min 12y_1 + 3y_2 + 4y_3</span><script type="math/tex">\min 12y_1 + 3y_2 + 4y_3</script></span> s.t.</p>
+<span class="arithmatex">\(\min 12y_1 + 3y_2 + 4y_3\)</span> s.t.</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">4y_1+2y_2+3y_3 \geq 2\;\;(1)</span><script type="math/tex">4y_1+2y_2+3y_3 \geq 2\;\;(1)</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">8y_1+y_2+2y_3 \geq 3\;\;(2)</span><script type="math/tex">8y_1+y_2+2y_3 \geq 3\;\;(2)</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">y_1, y_2, y_3 \geq 0\;\;(3)</span><script type="math/tex">y_1, y_2, y_3 \geq 0\;\;(3)</script></span></li>
+<li><span class="arithmatex">\(4y_1+2y_2+3y_3 \geq 2\;\;(1)\)</span></li>
+<li><span class="arithmatex">\(8y_1+y_2+2y_3 \geq 3\;\;(2)\)</span></li>
+<li><span class="arithmatex">\(y_1, y_2, y_3 \geq 0\;\;(3)\)</span></li>
 </ul>
 <h3 id="dual-problem">Dual problem<a class="headerlink" href="#dual-problem" title="Permanent link">&para;</a></h3>
 <p>We have just figured out that a minimization problem corresponds in a
 “natural way” to a maximization one, and viceversa. In general we have
-that to a minimization problem <span class="arithmatex"><span class="MathJax_Preview">\min b^Ty</span><script type="math/tex">\min b^Ty</script></span> s.t.</p>
+that to a minimization problem <span class="arithmatex">\(\min b^Ty\)</span> s.t.</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">A^Ty\geq c</span><script type="math/tex">A^Ty\geq c</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">y\geq 0</span><script type="math/tex">y\geq 0</script></span></li>
+<li><span class="arithmatex">\(A^Ty\geq c\)</span></li>
+<li><span class="arithmatex">\(y\geq 0\)</span></li>
 </ul>
-<p>corresponds a maximization problem <span class="arithmatex"><span class="MathJax_Preview">\max c^Tx</span><script type="math/tex">\max c^Tx</script></span> s.t.</p>
+<p>corresponds a maximization problem <span class="arithmatex">\(\max c^Tx\)</span> s.t.</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">Ax\leq b</span><script type="math/tex">Ax\leq b</script></span></li>
-<li><span class="arithmatex"><span class="MathJax_Preview">x\geq 0</span><script type="math/tex">x\geq 0</script></span></li>
+<li><span class="arithmatex">\(Ax\leq b\)</span></li>
+<li><span class="arithmatex">\(x\geq 0\)</span></li>
 </ul>
 <p>Given the privileged perspective of the transportation problem framework
 (minimization), we will call the former <em>primal problem</em>
-<span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and the latter its <em>dual problem</em> <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span>.</p>
+<span class="arithmatex">\(\mathfrak{P}\)</span> and the latter its <em>dual problem</em> <span class="arithmatex">\(\mathfrak{D}\)</span>.</p>
 <h3 id="theorem-2">Theorem 2<a class="headerlink" href="#theorem-2" title="Permanent link">&para;</a></h3>
-<p>Any feasible solution of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> is a lower bound on the
-objective function of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span>.</p>
+<p>Any feasible solution of <span class="arithmatex">\(\mathfrak{D}\)</span> is a lower bound on the
+objective function of <span class="arithmatex">\(\mathfrak{P}\)</span>.</p>
 <h3 id="theorem-3">Theorem 3<a class="headerlink" href="#theorem-3" title="Permanent link">&para;</a></h3>
 <p>One of the following holds:</p>
 <ol>
-<li>both <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> are infeasible;</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> is unbounded and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> is infeasible;</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> is infeasible and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> is unbounded;</li>
-<li>both <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span> are feasible.
-    Furthermore, for any <span class="arithmatex"><span class="MathJax_Preview">y^*</span><script type="math/tex">y^*</script></span> solution of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{P}</span><script type="math/tex">\mathfrak{P}</script></span> and
-    <span class="arithmatex"><span class="MathJax_Preview">x^*</span><script type="math/tex">x^*</script></span> solution of <span class="arithmatex"><span class="MathJax_Preview">\mathfrak{D}</span><script type="math/tex">\mathfrak{D}</script></span>, the equation <span class="arithmatex"><span class="MathJax_Preview">b^Ty^*=c^Tx^*</span><script type="math/tex">b^Ty^*=c^Tx^*</script></span>
-    holds, which means that <span class="arithmatex"><span class="MathJax_Preview">\min\mathfrak{P}=\max\mathfrak{D}</span><script type="math/tex">\min\mathfrak{P}=\max\mathfrak{D}</script></span>.</li>
+<li>both <span class="arithmatex">\(\mathfrak{P}\)</span> and <span class="arithmatex">\(\mathfrak{D}\)</span> are infeasible;</li>
+<li><span class="arithmatex">\(\mathfrak{P}\)</span> is unbounded and <span class="arithmatex">\(\mathfrak{D}\)</span> is infeasible;</li>
+<li><span class="arithmatex">\(\mathfrak{P}\)</span> is infeasible and <span class="arithmatex">\(\mathfrak{D}\)</span> is unbounded;</li>
+<li>both <span class="arithmatex">\(\mathfrak{P}\)</span> and <span class="arithmatex">\(\mathfrak{D}\)</span> are feasible.
+    Furthermore, for any <span class="arithmatex">\(y^*\)</span> solution of <span class="arithmatex">\(\mathfrak{P}\)</span> and
+    <span class="arithmatex">\(x^*\)</span> solution of <span class="arithmatex">\(\mathfrak{D}\)</span>, the equation <span class="arithmatex">\(b^Ty^*=c^Tx^*\)</span>
+    holds, which means that <span class="arithmatex">\(\min\mathfrak{P}=\max\mathfrak{D}\)</span>.</li>
 </ol>
 <h3 id="transportation-dual-problem">Transportation dual problem<a class="headerlink" href="#transportation-dual-problem" title="Permanent link">&para;</a></h3>
 <p>A possible formulation of the dual problem of the (primal) classic
 transportation problem defined above, with equalities constraints, is
 the following
-<span class="arithmatex"><span class="MathJax_Preview">\max\sum\limits_{j=1}^nD_jv_j-\sum\limits_{i=1}^mS_iu_i</span><script type="math/tex">\max\sum\limits_{j=1}^nD_jv_j-\sum\limits_{i=1}^mS_iu_i</script></span> s.t.
-<span class="arithmatex"><span class="MathJax_Preview">v_j-u_i\leq c_{ij}</span><script type="math/tex">v_j-u_i\leq c_{ij}</script></span></p>
+<span class="arithmatex">\(\max\sum\limits_{j=1}^nD_jv_j-\sum\limits_{i=1}^mS_iu_i\)</span> s.t.
+<span class="arithmatex">\(v_j-u_i\leq c_{ij}\)</span></p>
 <p>To understand and interpret this dual problem, let us refer to
 <a href="https://econweb.ucsd.edu/~jsobel/172aw02/notes8.pdf">this notes</a>.</p>
 <p>Consider the need of transportation expressed by the business
 stakeholders and modeled with the primal problem.</p>
 <p>Imagine now that the business wants to outsource the transportation and
 finds an external company which offers such a service in a particular
-way: it offers to buy product at price <span class="arithmatex"><span class="MathJax_Preview">u_i</span><script type="math/tex">u_i</script></span> at each supply nodes,
+way: it offers to buy product at price <span class="arithmatex">\(u_i\)</span> at each supply nodes,
 transport it and resell the same amount at demand nodes at price
-<span class="arithmatex"><span class="MathJax_Preview">v_j</span><script type="math/tex">v_j</script></span>. Since the original transportation cost from <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> to <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>
-was <span class="arithmatex"><span class="MathJax_Preview">c_{ij}</span><script type="math/tex">c_{ij}</script></span>, from a cost perspective the business should only ensure
-that <span class="arithmatex"><span class="MathJax_Preview">v_j - u_i</span><script type="math/tex">v_j - u_i</script></span> is lower than <span class="arithmatex"><span class="MathJax_Preview">c_{ij}</span><script type="math/tex">c_{ij}</script></span>: the dual constraint
+<span class="arithmatex">\(v_j\)</span>. Since the original transportation cost from <span class="arithmatex">\(s_i\)</span> to <span class="arithmatex">\(d_j\)</span>
+was <span class="arithmatex">\(c_{ij}\)</span>, from a cost perspective the business should only ensure
+that <span class="arithmatex">\(v_j - u_i\)</span> is lower than <span class="arithmatex">\(c_{ij}\)</span>: the dual constraint
 represents this condition. From the external company point of view, it
 represents a condition to be matched to make the proposal appealing for
 the customer (our business).</p>
@@ -1920,26 +1922,26 @@ company in managing transportation along the network while satisfying
 customer constraints in terms of supply and demand.</p>
 <h2 id="extensions-to-other-graph-structures">Extensions to other graph structures<a class="headerlink" href="#extensions-to-other-graph-structures" title="Permanent link">&para;</a></h2>
 <p>This section goal is to discuss the following question: what happens to
-Theorem 1 if <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span> is not a complete bipartite graph anymore?
+Theorem 1 if <span class="arithmatex">\(\mathcal{G}\)</span> is not a complete bipartite graph anymore?
 Or, in other words, which are minimal balancing actions needed to ensure
 problem feasibility at the change of the underlying graph structure?</p>
 <p>This is crucial because in a given business framework not all routes
-between <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}</span><script type="math/tex">\mathcal{S}</script></span> and <span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}</span><script type="math/tex">\mathcal{D}</script></span> might be admissible. In such
+between <span class="arithmatex">\(\mathcal{S}\)</span> and <span class="arithmatex">\(\mathcal{D}\)</span> might be admissible. In such
 a case, graph connectivity can be “reduced” and therefore the problem
 could reveals to be infeasible subject to the given constraint.</p>
 <h3 id="theorem-4">Theorem 4<a class="headerlink" href="#theorem-4" title="Permanent link">&para;</a></h3>
 <p>Consider a feasible transportation problem assigned over a bipartite
-directed graph <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span>. For each demand node <span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span> let
-<span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}^j</span><script type="math/tex">\mathcal{S}^j</script></span> be the set of indices of supply nodes adjacent to
-<span class="arithmatex"><span class="MathJax_Preview">d_j</span><script type="math/tex">d_j</script></span>. Then we have</p>
-<p><span class="arithmatex"><span class="MathJax_Preview">\sum\limits_{i\in\mathcal{S}^j} S_i\geq D_j</span><script type="math/tex">\sum\limits_{i\in\mathcal{S}^j} S_i\geq D_j</script></span></p>
+directed graph <span class="arithmatex">\(\mathcal{G}\)</span>. For each demand node <span class="arithmatex">\(d_j\)</span> let
+<span class="arithmatex">\(\mathcal{S}^j\)</span> be the set of indices of supply nodes adjacent to
+<span class="arithmatex">\(d_j\)</span>. Then we have</p>
+<p><span class="arithmatex">\(\sum\limits_{i\in\mathcal{S}^j} S_i\geq D_j\)</span></p>
 <p>This theorem provides a necessary condition to be checked in order to
 ensure feasibility for a transportation problem assigned over a generic
 bipartite graph: the sum of supplies of supply nodes adjacent to a given
 demand node must be at least equal to the demand of that node. This is a
 necessary condition which partially overcomes the possibly
 “insufficient” graph connectivity.</p>
-<p>Unfortunately, since Theorem 1 does not hold if <span class="arithmatex"><span class="MathJax_Preview">\mathcal{G}</span><script type="math/tex">\mathcal{G}</script></span> isn’t
+<p>Unfortunately, since Theorem 1 does not hold if <span class="arithmatex">\(\mathcal{G}\)</span> isn’t
 complete and Theorem 4 gives only a necessary condition, we are still 
 without a set of sufficient conditions for
 feasibility of a transportation problem assigned over a generic
@@ -1952,16 +1954,16 @@ account the flow of product that can be assigned over the network
 “generic” graph and to overcome the lack of a proper Theorem to ensure
 feasibility, a custom heuristics to “balance” the
 given problem before submitting it to the actual solver is below.</p>
-<p>In particular, we search for <span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}^i</span><script type="math/tex">\mathcal{D}^i</script></span> (defined similarly to <span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}^j</span><script type="math/tex">\mathcal{S}^j</script></span>)
-sets for each <span class="arithmatex"><span class="MathJax_Preview">s_i</span><script type="math/tex">s_i</script></span> and define the maximal set of suppliers adjacent
-to nodes in <span class="arithmatex"><span class="MathJax_Preview">\mathcal{D}^i</span><script type="math/tex">\mathcal{D}^i</script></span>, denoting this set as
-<span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}(\mathcal{D}^i)</span><script type="math/tex">\mathcal{S}(\mathcal{D}^i)</script></span>. Then we refer to supplier nodes in
-<span class="arithmatex"><span class="MathJax_Preview">\mathcal{S}(\mathcal{D}^i)</span><script type="math/tex">\mathcal{S}(\mathcal{D}^i)</script></span> as <em>critical suppliers</em> in the following
+<p>In particular, we search for <span class="arithmatex">\(\mathcal{D}^i\)</span> (defined similarly to <span class="arithmatex">\(\mathcal{S}^j\)</span>)
+sets for each <span class="arithmatex">\(s_i\)</span> and define the maximal set of suppliers adjacent
+to nodes in <span class="arithmatex">\(\mathcal{D}^i\)</span>, denoting this set as
+<span class="arithmatex">\(\mathcal{S}(\mathcal{D}^i)\)</span>. Then we refer to supplier nodes in
+<span class="arithmatex">\(\mathcal{S}(\mathcal{D}^i)\)</span> as <em>critical suppliers</em> in the following
 cases:</p>
 <ul>
-<li>if <span class="arithmatex"><span class="MathJax_Preview">\left|\mathcal{D}^i\right|=1</span><script type="math/tex">\left|\mathcal{D}^i\right|=1</script></span>;</li>
-<li>if <span class="arithmatex"><span class="MathJax_Preview">\left|\mathcal{D}^i\right|=2</span><script type="math/tex">\left|\mathcal{D}^i\right|=2</script></span> and
-    <span class="arithmatex"><span class="MathJax_Preview">\left|\mathcal{S}(\mathcal{D}^i)\right|=1</span><script type="math/tex">\left|\mathcal{S}(\mathcal{D}^i)\right|=1</script></span>.</li>
+<li>if <span class="arithmatex">\(\left|\mathcal{D}^i\right|=1\)</span>;</li>
+<li>if <span class="arithmatex">\(\left|\mathcal{D}^i\right|=2\)</span> and
+    <span class="arithmatex">\(\left|\mathcal{S}(\mathcal{D}^i)\right|=1\)</span>.</li>
 </ul>
 <p>We then sum up the supply of all the critical suppliers and create a
 dummy supply node, <em>adjacent to all demand nodes</em>, accountable for this
@@ -2094,9 +2096,11 @@ suppliers, which might affect problem feasibility.</p>
       
         <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../../../javascript/config.js"></script>
+        <script src="../../../../../javascripts/mathjax.js"></script>
       
-        <script src="../../../../../javascript/MathJax.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
