@@ -46,7 +46,7 @@
 
 ### Genoa
 
-- [Imavis](software.imavis.com/it/job)
+- [Imavis](https://software.imavis.com/it/job)
 - [ARPAL](https://www.arpal.gov.it/amministrazione-trasparente/bandi-di-concorso.html)
 - FlairBit
 - OnAir
