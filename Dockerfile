@@ -9,7 +9,7 @@ WORKDIR /dsh
 COPY ./pyproject.toml dsh/pyproject.toml
 COPY ./setup.cfg dsh/setup.cfg
 
-RUN cd dsh && pip install -e .
+RUN cd dsh && pip install -r requirements.txt
 
 # Expose MkDocs development server port
 EXPOSE 8000
