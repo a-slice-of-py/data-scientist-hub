@@ -1,7 +1,7 @@
 nav:
   - What's here: index.md
   - AWS: aws
-  - Career: interviews
+  - Career: career
   - Data Engineering: data-engineering
   - Data Science: data-science
   - Data Visualization: data-visualization
