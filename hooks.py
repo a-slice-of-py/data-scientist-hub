@@ -9,7 +9,10 @@ def _index_resources(*args, **kwargs) -> None:
     """Create index for each of the resources sections."""
     for section in sorted(os.listdir(RESOURCES_PATH)):
         if section not in BLACKLIST:
-            index = [f"# {section.replace('-', ' ').title()}", NEWLINE, NEWLINE]
+            section_name = (
+                section.replace("-", " ").title() if section.lower() != "aws" else "AWS"
+            )
+            index = [f"# {section_name}", NEWLINE, NEWLINE]
             path = f"{RESOURCES_PATH}/{section}"
             for file in sorted(os.listdir(path)):
                 if file not in BLACKLIST:
