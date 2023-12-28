@@ -83,9 +83,9 @@ plugins:
   - tags:
       tags_file: tags.md
   - glightbox
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: timeago
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
 
 extra_javascript:
   - javascript/config.js
