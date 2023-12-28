@@ -1286,15 +1286,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#xray" class="md-nav__link">
-    <span class="md-ellipsis">
-      xray
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1510,15 +1501,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#xray" class="md-nav__link">
-    <span class="md-ellipsis">
-      xray
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1549,12 +1531,12 @@
 <span class="o">%</span><span class="n">autoreload</span> <span class="mi">2</span>
 </code></pre></div>
 <h3 id="profiling">profiling<a class="headerlink" href="#profiling" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>%load_ext line_profiler
+<div class="highlight"><pre><span></span><code><span class="o">%</span><span class="n">load_ext</span> <span class="n">line_profiler</span>
 
-def function_to_profile(arg: int):
-    ...
+<span class="k">def</span> <span class="nf">function_to_profile</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="o">...</span>
 
-%lprun -f function_to_profile function_to_profile(1)
+<span class="o">%</span><span class="n">lprun</span> <span class="o">-</span><span class="n">f</span> <span class="n">function_to_profile</span> <span class="n">function_to_profile</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </code></pre></div>
 <p>For reference see <a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html">here</a> and <a href="https://ipython-books.github.io/43-profiling-your-code-line-by-line-with-line_profiler/">here</a>.</p>
 <h2 id="stdlib">stdlib<a class="headerlink" href="#stdlib" title="Permanent link">&para;</a></h2>
@@ -1587,7 +1569,7 @@ def function_to_profile(arg: int):
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
 
-<span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span> <span class="o">|</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span> <span class="o">|</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span> <span class="o">|</span> <span class="nb">tuple</span> <span class="o">|</span> <span class="nb">map</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Flatten nested input list.</span>
 
 <span class="sd">    Credits to [Samuele Fiorini](https://github.com/samuelefiorini).</span>
@@ -1599,7 +1581,7 @@ def function_to_profile(arg: int):
 <span class="sd">        Flattened list.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="p">(</span>
-        <span class="p">[</span><span class="n">xi</span> <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">x</span> <span class="k">for</span> <span class="n">xi</span> <span class="ow">in</span> <span class="n">flatten</span><span class="p">(</span><span class="n">l</span><span class="p">)]</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">))</span> 
+        <span class="p">[</span><span class="n">xi</span> <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">x</span> <span class="k">for</span> <span class="n">xi</span> <span class="ow">in</span> <span class="n">flatten</span><span class="p">(</span><span class="n">l</span><span class="p">)]</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">))</span> 
         <span class="k">else</span> <span class="n">flatten</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">,</span> <span class="nb">map</span><span class="p">))</span>
         <span class="k">else</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
     <span class="p">)</span>
@@ -1868,30 +1850,6 @@ def function_to_profile(arg: int):
                 <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">wrapper</span>
 </code></pre></div>
-<h3 id="xray"><code>xray</code><a class="headerlink" href="#xray" title="Permanent link">&para;</a></h3>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Full credits to <a href="https://gist.github.com/smazzanti/99c1e01c132166477ac7f987e88ae1c3">Samuele Mazzanti's gist</a>.</p>
-</div>
-<div class="highlight"><pre><span></span><code>def xray(var):
-    &quot;&quot;&quot;Return name of variable and its state,
-        for logging purposes.&quot;&quot;&quot;
-
-    import inspect, re
-
-    string = inspect.getframeinfo(
-        inspect.getouterframes(
-        inspect.currentframe()
-        )[1][0]).code_context[0]
-
-    lpar = [m.start() for m in re.finditer(pattern=&quot;\(&quot;, string=string)]
-    rpar = [m.start() for m in re.finditer(pattern=&quot;\)&quot;, string=string)]
-    ipar = lpar.index(string.find(&quot;xray(&quot;)+4)
-
-    varname = string[lpar[ipar]+1:rpar[-ipar-1]]
-
-    return f&#39;{varname}: {var}&#39;
-</code></pre></div>
 
 
 
@@ -1914,7 +1872,7 @@ def function_to_profile(arg: int):
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T11:17:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-28T15:06:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-28</span>
   </span>
 
     
@@ -2000,7 +1958,7 @@ def function_to_profile(arg: int):
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "tags": {"AWS": "aws", "Database": "db", "DevOps": "devops", "ITA": "ita", "IaC": "iac", "Machine Learning": "ml", "OR": "or", "Open Source": "open", "Python": "py", "Streamlit": "streamlit"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.annotate", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "tags": {"AWS": "aws", "Database": "db", "DevOps": "devops", "ITA": "ita", "IaC": "iac", "Machine Learning": "ml", "OR": "or", "Open Source": "open", "Python": "py", "Streamlit": "streamlit"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>

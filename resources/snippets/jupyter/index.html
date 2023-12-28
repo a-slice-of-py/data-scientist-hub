@@ -1248,12 +1248,12 @@
 <span class="o">%</span><span class="n">autoreload</span> <span class="mi">2</span>
 </code></pre></div>
 <h2 id="profiling">profiling<a class="headerlink" href="#profiling" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>%load_ext line_profiler
+<div class="highlight"><pre><span></span><code><span class="o">%</span><span class="n">load_ext</span> <span class="n">line_profiler</span>
 
-def function_to_profile(arg: int):
-    ...
+<span class="k">def</span> <span class="nf">function_to_profile</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="o">...</span>
 
-%lprun -f function_to_profile function_to_profile(1)
+<span class="o">%</span><span class="n">lprun</span> <span class="o">-</span><span class="n">f</span> <span class="n">function_to_profile</span> <span class="n">function_to_profile</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </code></pre></div>
 <p>For reference see <a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html">here</a> and <a href="https://ipython-books.github.io/43-profiling-your-code-line-by-line-with-line_profiler/">here</a>.</p>
 
@@ -1278,7 +1278,7 @@ def function_to_profile(arg: int):
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-27T11:17:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-28T15:06:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-28</span>
   </span>
 
     
@@ -1364,7 +1364,7 @@ def function_to_profile(arg: int):
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "tags": {"AWS": "aws", "Database": "db", "DevOps": "devops", "ITA": "ita", "IaC": "iac", "Machine Learning": "ml", "OR": "or", "Open Source": "open", "Python": "py", "Streamlit": "streamlit"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.code.annotate", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "tags": {"AWS": "aws", "Database": "db", "DevOps": "devops", "ITA": "ita", "IaC": "iac", "Machine Learning": "ml", "OR": "or", "Open Source": "open", "Python": "py", "Streamlit": "streamlit"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
