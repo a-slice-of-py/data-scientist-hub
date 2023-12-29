@@ -19,6 +19,7 @@ theme:
       open: material/open-source-initiative
       or: fontawesome/solid/gears
       py: simple/python
+      sql: simple/quicklook
       streamlit: simple/streamlit
   name: material
   palette:
@@ -117,6 +118,7 @@ extra:
     Open Source: open
     OR: or
     Python: py
+    SQL: sql
     Streamlit: streamlit
   social:
     - icon: fontawesome/brands/github
