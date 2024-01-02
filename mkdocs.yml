@@ -96,6 +96,7 @@ plugins:
       tags_file: tags.md
   - glightbox
   - git-revision-date-localized:
+      enabled: true
       enable_creation_date: true
       type: timeago
 
