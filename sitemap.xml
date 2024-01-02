@@ -91,6 +91,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/blog/2024/01/02/cross-account-full-table-copy-options-for-amazon-dynamodb/</loc>
+         <lastmod>2024-01-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/blog/2020/05/12/a-guide-to-transportation-problems/</loc>
          <lastmod>2024-01-02</lastmod>
          <changefreq>daily</changefreq>
@@ -1342,6 +1347,11 @@
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/schools/</loc>
+         <lastmod>2024-01-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/blog/archive/2024/</loc>
          <lastmod>2024-01-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
