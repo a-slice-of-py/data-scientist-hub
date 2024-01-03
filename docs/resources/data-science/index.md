@@ -17,10 +17,12 @@
 - [Equipment effectiveness with python](https://towardsdatascience.com/overall-equipment-effectiveness-with-python-fb34ccc6127b)
 - [Real-time time series anomaly detection](https://towardsdatascience.com/real-time-time-series-anomaly-detection-981cf1e1ca13)
 - [Anomaly detection with copulas](https://towardsdatascience.com/fast-accurate-anomaly-detection-based-on-copulas-copod-3133ce9041fa)
-- [Python outlier detection library](https://github.com/yzhao062/pyod)
+- [PyOD: Python outlier detection library](https://github.com/yzhao062/pyod)
 - [5 anomaly detection algorithms with sklearn implementation](https://towardsdatascience.com/5-anomaly-detection-algorithms-every-data-scientist-should-know-b36c3605ea16)
 - [Auto anomaly detection with isolation forest](https://towardsdatascience.com/isolation-forest-auto-anomaly-detection-with-python-e7a8559d4562)
 - [Probabilistic forecasting of binary events using regression](https://towardsdatascience.com/probabilistic-forecasting-of-binary-events-using-regression-4f8a8022ec37)
+- [Luminol: a light weight Python library for time series anomaly detection and correlation](https://github.com/linkedin/luminol)
+- [Alibi Detect: an open source Python library focused on outlier, adversarial and drift detection](https://github.com/SeldonIO/alibi-detect)
 
 ## AutoML
 
@@ -381,8 +383,6 @@
 - [deepchecks](https://github.com/deepchecks/deepchecks)
 - [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
 - [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
-- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
-- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
 
 ### MLOps
 
@@ -394,6 +394,8 @@
 - [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
 - [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)
 - [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)
+- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
+- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
 
 ## Marketing Analytics
 

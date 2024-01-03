@@ -42,8 +42,6 @@
 - [deepchecks](https://github.com/deepchecks/deepchecks)
 - [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
 - [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
-- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
-- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
 
 ## MLOps
 
@@ -55,3 +53,5 @@
 - [A curated (awesome!) list of open source libraries to deploy, monitor, version, scale and secure production machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
 - [The Full Stack 7-steps MLOps framework](https://towardsdatascience.com/tagged/full-stack-mlops)
 - [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)
+- [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
+- [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
