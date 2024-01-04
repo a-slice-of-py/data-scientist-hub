@@ -158,6 +158,7 @@
 - [UCLA Technology Innovations in Statistics Education](https://cloudfront.escholarship.org/dist/prd/content/qt0rx1231m/qt0rx1231m.pdf?t=pfkq54)
 - [Machine Learning University (MLU) by Amazon](https://mlu-explain.github.io/precision-recall/)
 - [Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
+- [Data Science Trivia](https://www.datasciencetrivia.com/)
 
 ## Tools
 

@@ -93,7 +93,7 @@ plugins:
       authors: true
       post_excerpt: required
   - tags:
-      tags_file: tags.md
+      tags_file: blog/tags.md
   - glightbox
   - git-revision-date-localized:
       enabled: !ENV [ENABLE_MKDOCS_PLUGIN, true]

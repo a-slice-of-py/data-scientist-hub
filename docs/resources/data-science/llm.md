@@ -33,3 +33,4 @@
 - [LMQL: a programming language for large language models](https://github.com/eth-sri/lmql)
 - [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
 - [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
+- [magentic: easily integrate Large Language Models into your Python code](https://github.com/jackmpcollins/magentic)

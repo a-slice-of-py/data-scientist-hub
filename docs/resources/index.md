@@ -1,5 +1,7 @@
 # Resources
 
+Collection of links to useful online resources.
+
 - **AWS**: Amazon Web Service related stuff.
 - **Career**: how to shape a data career and nail down job interviews!
 - **Data Engineering**: data architectures, monitoring and observability, DevOps and others data engineering best practices.

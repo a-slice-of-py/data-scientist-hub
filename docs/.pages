@@ -1,7 +1,6 @@
 nav:
-  - Home: 
-      - Home: index.md
-      - Changelog: CHANGELOG.md
-      - tags.md
   - Blog: blog
   - Resources: resources
+  - About: 
+      - Home: index.md
+      - Changelog: CHANGELOG.md
