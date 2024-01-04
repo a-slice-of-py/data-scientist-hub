@@ -3,7 +3,7 @@ date: 2022-01-05
 authors:
   - silvio
 categories:
-  - Recipes
+  - Guides
 ---
 
 # How to survive a forced reset of local development environment

@@ -3,7 +3,7 @@ date: 2021-10-15
 authors:
   - silvio
 categories:
-  - Recipes
+  - Guides
 tags:
   - AWS
   - Streamlit

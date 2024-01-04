@@ -1,5 +1,5 @@
 ---
-date: 2022-02-01
+date: 2022-02-02
 authors:
   - silvio
 categories:
@@ -11,8 +11,6 @@ tags:
 
 # A comparison between AWS databases
 
-<!-- more -->
-
 Main databases types:
 
 - **Relational**: data are stored in tabular form (rows and columns), where each row represents a unique _record_. Tables can be put in relation with each other through joins and queried via SQL;
@@ -20,6 +18,8 @@ Main databases types:
 - **Document**: semi-structured and hierarchical databases for catalogs and content management systems, often stored as JSON;
 - **Graph**: the way the data are stored is graph-based, with nodes and edges connecting each data source with the others;
 - **Time-series**: database optimized for records which indices are timestamps.
+
+<!-- more -->
 
 |   Service  |                      Type                     |            Query language              |                               Use cases                                   |
 | -----------| --------------------------------------------- |----------------------------------------|---------------------------------------------------------------------------|
@@ -52,7 +52,23 @@ It allows to manage and run six database engines:
 - Oracle
 - Microsoft SQL Server
 
-For a comparison between open source alternatives you can see [this page](databases.md).
+## A brief comparison between open source databases
+
+A brief comparison between open source relational databases is available below (full credits to [Soufiane L](https://stackshare.io/stackups/mariadb-vs-mysql-vs-postgresql)).
+
+|          Feature         | MariaDB[^2] | MySQL | PostgreSQL[^3] |
+|--------------------------|:-----------:|:-----:|:--------------:|
+| Materialized Views       |    ❌      |  ❌   |     ✔️         |
+| Partial Indexes          |    ❌      |  ❌   |     ✔️         |
+| Array Data Type          |    ❌      |  ❌   |     ✔️         |
+| JSON Data Type           |    ✔️      |  ✔️   |     ✔️         |
+| CHECK constraints        |    ✔️      |  ❌   |     ✔️         |
+| Replication              |    ✔️      |  ✔️   |     ✔️         |
+| Full-Text Search         |    ✔️      |  ✔️   |     ✔️         |
+| UPSERT                   |    ✔️      |  ✔️   |     ✔️         |
+| Common Table Expressions |    ✔️      |  ✔️   |     ✔️         |
+| Sequences                |    ✔️      |  ❌   |     ✔️         |
+| Table Partitioning       |    ✔️      |  ✔️   |     ❌         |
 
 ## Amazon Athena
 
@@ -68,5 +84,9 @@ In contrast, efficient querying requires data to be _partitioned_ and purposely 
 - [Amazon Athena vs traditional databases](https://www.upsolver.com/blog/comparing-amazon-athena-traditional-databases)
 - [CloudZero blog on Athena](https://www.cloudzero.com/blog/aws-athena)
 - [AWS database comparison](https://www.justaftermidnight247.com/insights/rds-redshift-dynamodb-and-aurora-how-do-aws-managed-databases-compare/)
+- [MariaDB vs PostgreSQL](https://hevodata.com/learn/mariadb-vs-postgresql/)
+- [Open source databases comparison](https://opensource.com/article/19/1/open-source-databases)
 
 [^1]: can be run on both RDS and as Aurora _serverless_.
+[^2]: based on MySQL and created after its acquisition by Oracle.
+[^3]: PostgreSQL is generally considered to be the fastest one in terms of read/write speed.

@@ -3,7 +3,7 @@ date: 2021-12-21
 authors:
   - silvio
 categories:
-  - Recipes
+  - TIL
 tags:
   - AWS
   - DevOps
