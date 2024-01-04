@@ -2,6 +2,12 @@
 ## |        Data Scientist Hub         |
 ## -------------------------------------
 ## 
+## docs-serve
+##     locally serve docs
+.PHONY: docs-serve
+docs-serve:
+	export ENABLE_MKDOCS_PLUGIN=false && mkdocs serve
+## 
 ## server-up
 ##     run server for local development
 .PHONY: server-up
