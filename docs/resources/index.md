@@ -1,6 +1,7 @@
 # Resources
 
-Collection of links to useful online resources.
+!!! info
+    Here you can find a curated (yet opinionated) collection of links to useful online resources.
 
 - **AWS**: Amazon Web Service related stuff.
 - **Career**: how to shape a data career and nail down job interviews!
