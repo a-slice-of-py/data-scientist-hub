@@ -1319,15 +1319,15 @@
 <p>In these days I am working on the redaction of a complex tender notice, which must be delivered as an editable <code>docx</code> and then exported (with all the fancy stuff and theming) into <code>pdf</code>. Unfortunately, I find the user experience of writing documents with Microsoft Word really unsatisfying and cluttered.</p>
 <!-- more -->
 
-<p>Therefore I decidef to project this task to a space where I feel more comfortable: markdown editing. In doing so, I also took the chance to explore a nice tool I discovered some months ago: <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>Therefore I decided to project this task to a space where I feel more comfortable: markdown editing. In doing so, I also took the chance to explore a nice tool I discovered some months ago: <a href="https://obsidian.md/">Obsidian</a>.</p>
 <div class="admonition question">
 <p class="admonition-title">Elephant in the room</p>
-<p>The main question obviously was: can I easily (and perhaps nicely?) convert my markdown sources into the requested docx format?</p>
+<p>The main question obviously was: can I easily (and perhaps nicely) convert my markdown sources into the requested docx format?</p>
 </div>
-<p>Pandoc to the rescue! With an awesome one-liner provided among the documented <a href="https://pandoc.org/demos.html#examples">examples</a>, the conversion takes seconds - and thanks to the <code>--reference-doc</code> option the output theming is enforced.</p>
+<p>Pandoc to the rescue! With an awesome one-liner provided among the documented <a href="https://pandoc.org/demos.html#examples">examples</a>, the conversion takes seconds - and thanks to the <code>--reference-doc</code> option the reference theme is enforced with no effort.</p>
 <div class="highlight"><pre><span></span><code>pandoc<span class="w"> </span>--reference-doc<span class="w"> </span>reference.docx<span class="w"> </span>-o<span class="w"> </span>output.docx<span class="w"> </span>obsidian_vault/input.md
 </code></pre></div>
-<p>Of course, the above one liner has been already listed as a target into the project <a href="/data-scientist-hub/2020/06/11/a-brief-guide-to-gnu-make/">Makefile</a>.</p>
+<p>Of course, the above one-liner has been already listed as a target into the project <a href="/data-scientist-hub/2020/06/11/a-brief-guide-to-gnu-make/">Makefile</a>.</p>
 
 
 
@@ -1350,7 +1350,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-01-09T07:31:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-01-09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-01-19T10:37:04+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-01-19</span>
   </span>
 
     
