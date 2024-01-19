@@ -114,6 +114,7 @@
 - [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)
 - [The Real Problem with Software Development: It's not writing code, it's managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
 - [Il curioso caso Orosz vs. McKinsey: Come misurare gli sviluppatori e una riflessione sull'autorevolezza](https://allaboutdata.substack.com/p/il-curioso-caso-orosz-vs-mckinsey)
+- [hacker-laws: laws, theories, principles and patterns that developers will find useful](https://github.com/dwmkerr/hacker-laws)
 
 ## Python
 

@@ -1,16 +1,5 @@
 # Data Engineering
 
-## Architecturing
-
-- [Architecture based on feedback loops](https://aws.amazon.com/it/blogs/architecture/establishing-feedback-loops-based-on-the-aws-well-architected-framework-review/)
-
-## Basics
-
-- [Python for Data Engineers](https://towardsdatascience.com/python-for-data-engineers-f3d5db59b6dd)
-- [JSON Lines](https://medium.com/hackernoon/json-lines-format-76353b4e588d)
-- [Modern Data Engineering](https://towardsdatascience.com/modern-data-engineering-e202776fb9a9)
-- [Introduction to Streaming Frameworks](https://towardsdatascience.com/introduction-to-streaming-frameworks-d612583a3246)
-
 ## Data Architecture
 
 - [10 characteristics of a modern data architecture](https://www.eckerson.com/articles/ten-characteristics-of-a-modern-data-architecture)
@@ -19,6 +8,26 @@
 - [Data Engineering blog posts by Robin Linacre](https://www.robinlinacre.com/)
 - [Databases and Data Modelling: a quick crash course](https://towardsdatascience.com/databases-and-data-modelling-a-quick-crash-course-546891a49b67)
 - [System Design: ElasticSearch](https://towardsdatascience.com/system-design-cheatsheets-elasticsearch-673b98eebfff)
+- [Architecture based on feedback loops](https://aws.amazon.com/it/blogs/architecture/establishing-feedback-loops-based-on-the-aws-well-architected-framework-review/)
+
+## Basics
+
+- [Python for Data Engineers](https://towardsdatascience.com/python-for-data-engineers-f3d5db59b6dd)
+- [JSON Lines](https://medium.com/hackernoon/json-lines-format-76353b4e588d)
+- [Modern Data Engineering](https://towardsdatascience.com/modern-data-engineering-e202776fb9a9)
+- [Introduction to Streaming Frameworks](https://towardsdatascience.com/introduction-to-streaming-frameworks-d612583a3246)
+- [Data Engineering Design Patterns](https://www.dedp.online/)
+- [Airbyte Data Glossary](https://glossary.airbyte.com/)
+- [Modern Data Engineering](https://moderndataengineering.substack.com/)
+
+## Database
+
+- [TimescaleDB](https://github.com/timescale/timescaledb)
+- [DuckDB and Motherduck serverless analytics platform](https://motherduck.com/)
+
+## Data format
+
+- [Apache Iceberg O'Reilly Training](https://github.com/wssbck/training-oreilly-iceberg)
 
 ## Monitoring
 

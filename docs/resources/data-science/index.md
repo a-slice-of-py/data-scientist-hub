@@ -277,6 +277,7 @@
 - [`srai`: Spatial Representations for Artificial Intelligence](https://github.com/kraina-ai/srai)
 - [Earth Isn't Flat, and Neither Should Your Voronoi Diagrams Be](https://towardsdatascience.com/earth-isnt-flat-and-neither-should-your-voronoi-diagrams-be-25137e0a073b)
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)
+- [Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3](https://towardsdatascience.com/geospatial-indexing-explained-a-comparison-of-geohash-s2-and-h3-68d4ed7e366d)
 
 ## Gradient methods
 
@@ -339,6 +340,9 @@
 - [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
 - [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
 - [magentic: easily integrate Large Language Models into your Python code](https://github.com/jackmpcollins/magentic)
+- [Hard Truths About Generative AI for Technology Leaders](https://www.montecarlodata.com/5-hard-truths-about-generative-ai-for-technology-leaders/)
+- [AlphaCodium: From Prompt Engineering to Flow Engineering](https://github.com/Codium-ai/AlphaCodium)
+- [Cheshire-Cat: Production ready AI assistant framework](https://github.com/cheshire-cat-ai/core)
 
 ## Machine Learning
 
@@ -468,16 +472,12 @@
 - [`texthero`](https://texthero.org/)
 - [`yarl` for URL processing](https://github.com/aio-libs/yarl)
 - [`Ecco` for pattern visualization in text data](https://towardsdatascience.com/finding-pattern-in-data-using-nmf-7b119555cb41)
-- [Concept modeling to link text and images](https://github.com/MaartenGr/concept)
 - [Data QA to label data](https://towardsdatascience.com/a-labelling-tool-to-easily-extract-and-label-wikipedia-data-63f58e2e76ae)
-- [Topic coherence measures](https://towardsdatascience.com/understanding-topic-coherence-measures-4aa41339634c)
 - [Text summarization](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65)
 - [Text similarity with Levenshtein distance](https://towardsdatascience.com/text-similarity-w-levenshtein-distance-in-python-2f7478986e75)
-- [Intro to topic modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/topic-modeling-with-latent-dirichlet-allocation-ea3ebb2be9f4)
 - [Autocorrect for multilanguage spelling correction](https://github.com/filyp/autocorrect)
 - [Neattext for cleaning textual data and text preprocessing](https://github.com/Jcharis/neattext)
 - [Texthero tutorial](https://towardsdatascience.com/texthero-text-preprocessing-representation-and-visualization-for-a-pandas-dataframe-525405af16b6)
-- [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
 - [Microsoft `presidio` for NER (Named Entity Recognition) and data anonymization](https://microsoft.github.io/presidio/)
 - [SEER model for information extraction based on user-specified examples](https://dl.acm.org/doi/10.1145/3025453.3025540)
 - [Textnets: text analysis with networks](https://textnets.readthedocs.io/en/stable/index.html)
@@ -485,17 +485,25 @@
 - [Text summarization](https://towardsdatascience.com/summarize-a-text-with-python-continued-bbbbb5d37adb)
 - [Sentence embedding](https://towardsdatascience.com/a-sentence-is-greater-than-the-sum-of-its-words-56ce3967fcc6)
 - [Semantic search with `txtai`](https://github.com/neuml/txtai)
-- [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)
 - [Arabica and Cappuccino for text EDA](https://towardsdatascience.com/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)
 - [Simple spelling check in Python](https://towardsdatascience.com/develop-your-own-spelling-check-toolkit-with-python-740bf84a865d)
 - [A guide to computational linguistics and conversational AI](https://pub.towardsai.net/a-guide-to-computational-linguistics-and-conversational-ai-1539a8f3113)
 - [diff-match-patch: robust algorithms to perform the operations required for synchronizing plain text](https://github.com/google/diff-match-patch)
-- [Advanced Topic Modeling with BERTopic](https://www.pinecone.io/learn/bertopic/)
-- [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
 - [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
-- [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
 - [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
+
+### Topic modeling
+
+- [Concept modeling to link text and images](https://github.com/MaartenGr/concept)
+- [Topic coherence measures](https://towardsdatascience.com/understanding-topic-coherence-measures-4aa41339634c)
+- [Intro to topic modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/topic-modeling-with-latent-dirichlet-allocation-ea3ebb2be9f4)
+- [Topic modeling strategies comparison](https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5)
+- [Hands-on topic modeling via LDA](https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7)
+- [Advanced Topic Modeling with BERTopic](https://www.pinecone.io/learn/bertopic/)
+- [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
+- [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
+- [Practical Guide to Topic Modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/practical-guide-to-topic-modeling-with-lda-05cd6b027bdf)
 
 ## Objects tracking
 
@@ -756,6 +764,10 @@
 - [Feature Engineering for Time Series](https://towardsdatascience.com/three-approaches-to-feature-engineering-for-time-series-2123069567be)
 - [TSMixer: The Latest Forecasting Model by Google](https://towardsdatascience.com/tsmixer-the-latest-forecasting-model-by-google-2fd1e29a8ccb)
 - [`tsfresh`: Time Series Feature extraction based on scalable hypothesis tests](https://github.com/blue-yonder/tsfresh)
+- [`pytimetk`: time series easier, faster, more fun](https://github.com/business-science/pytimetk)
+- [`autogluon`: AutoML for Image, Text, Time Series, and Tabular Data](https://github.com/autogluon/autogluon)
+- [AutoGluon-TimeSeries: Every Time Series Forecasting Model In One Library](https://towardsdatascience.com/autogluon-timeseries-every-time-series-forecasting-model-in-one-library-29a3bf6879db)
+- [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
 
 ### Prophet
 

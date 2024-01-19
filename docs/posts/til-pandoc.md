@@ -16,15 +16,15 @@ In these days I am working on the redaction of a complex tender notice, which mu
 
 <!-- more -->
 
-Therefore I decidef to project this task to a space where I feel more comfortable: markdown editing. In doing so, I also took the chance to explore a nice tool I discovered some months ago: [Obsidian](https://obsidian.md/).
+Therefore I decided to project this task to a space where I feel more comfortable: markdown editing. In doing so, I also took the chance to explore a nice tool I discovered some months ago: [Obsidian](https://obsidian.md/).
 
 !!! question "Elephant in the room"
-    The main question obviously was: can I easily (and perhaps nicely?) convert my markdown sources into the requested docx format?
+    The main question obviously was: can I easily (and perhaps nicely) convert my markdown sources into the requested docx format?
 
-Pandoc to the rescue! With an awesome one-liner provided among the documented [examples](https://pandoc.org/demos.html#examples), the conversion takes seconds - and thanks to the `--reference-doc` option the output theming is enforced.
+Pandoc to the rescue! With an awesome one-liner provided among the documented [examples](https://pandoc.org/demos.html#examples), the conversion takes seconds - and thanks to the `--reference-doc` option the reference theme is enforced with no effort.
 
 ```bash
 pandoc --reference-doc reference.docx -o output.docx obsidian_vault/input.md
 ```
 
-Of course, the above one liner has been already listed as a target into the project [Makefile](/data-scientist-hub/2020/06/11/a-brief-guide-to-gnu-make/).
+Of course, the above one-liner has been already listed as a target into the project [Makefile](/data-scientist-hub/2020/06/11/a-brief-guide-to-gnu-make/).

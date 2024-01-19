@@ -19,6 +19,10 @@
 - [AWS DDK: DataOps Development Kit](https://github.com/awslabs/aws-ddk)
 - [Serverless AWS CDK Pipeline best practices](https://blog.serverlessadvocate.com/serverless-aws-cdk-pipeline-best-practices-patterns-part-1-ab80962f109d)
 - [How working with AWS CDK made me a better dev](https://dev.to/aws-builders/how-working-with-aws-open-source-tools-made-me-a-better-developer-343c)
+- [Optimize your AWS CDK Project Structure for Growth](https://towardsthecloud.com/aws-cdk-project-structure)
+- [Self-destroying and ephemeral stacks](https://matt.martz.codes/destroy-their-stacks-ephemeral-cdk-stacks-as-a-service)
+- [Using AWS CloudFormation and AWS Cloud Development Kit to provision multicloud resources](https://aws.amazon.com/it/blogs/devops/using-aws-cloudformation-and-aws-cloud-development-kit-to-provision-multicloud-resources/)
+- [The Lambda trilogy](https://github.com/cdk-patterns/serverless/blob/main/the-lambda-trilogy/README.md)
 
 ### Dependencies between stacks
 

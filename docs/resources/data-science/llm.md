@@ -34,3 +34,6 @@
 - [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
 - [Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
 - [magentic: easily integrate Large Language Models into your Python code](https://github.com/jackmpcollins/magentic)
+- [Hard Truths About Generative AI for Technology Leaders](https://www.montecarlodata.com/5-hard-truths-about-generative-ai-for-technology-leaders/)
+- [AlphaCodium: From Prompt Engineering to Flow Engineering](https://github.com/Codium-ai/AlphaCodium)
+- [Cheshire-Cat: Production ready AI assistant framework](https://github.com/cheshire-cat-ai/core)

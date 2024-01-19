@@ -4,3 +4,6 @@
 - [JSON Lines](https://medium.com/hackernoon/json-lines-format-76353b4e588d)
 - [Modern Data Engineering](https://towardsdatascience.com/modern-data-engineering-e202776fb9a9)
 - [Introduction to Streaming Frameworks](https://towardsdatascience.com/introduction-to-streaming-frameworks-d612583a3246)
+- [Data Engineering Design Patterns](https://www.dedp.online/)
+- [Airbyte Data Glossary](https://glossary.airbyte.com/)
+- [Modern Data Engineering](https://moderndataengineering.substack.com/)

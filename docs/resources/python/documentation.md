@@ -9,3 +9,4 @@
 
 - [mktestdocs: run pytest against markdown files/docstrings](https://github.com/koaning/mktestdocs)
 - [mkdocs-jupyter: use Jupyter Notebooks in mkdocs](https://github.com/danielfrg/mkdocs-jupyter)
+- [Python markdown terminal built for mkdocs](https://github.com/mkdocs-plugins/termynal)

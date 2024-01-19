@@ -21,7 +21,7 @@ Una soluzione manuale è però possibile tramite la utils [`TIMEZONE_HOUR`](http
 
 !!! example
     ```sql
-    SELECT 
+    SELECT
       TIMEZONE_HOUR(unix_timestamp) - LAG(TIMEZONE_HOUR(unix_timestamp), 1, 0) OVER (
         PARTITION BY partition_key
         ORDER BY unix_timestamp

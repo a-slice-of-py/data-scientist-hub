@@ -18,3 +18,4 @@
 - [`srai`: Spatial Representations for Artificial Intelligence](https://github.com/kraina-ai/srai)
 - [Earth Isn't Flat, and Neither Should Your Voronoi Diagrams Be](https://towardsdatascience.com/earth-isnt-flat-and-neither-should-your-voronoi-diagrams-be-25137e0a073b)
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)
+- [Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3](https://towardsdatascience.com/geospatial-indexing-explained-a-comparison-of-geohash-s2-and-h3-68d4ed7e366d)

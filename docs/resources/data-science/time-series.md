@@ -64,6 +64,10 @@
 - [Feature Engineering for Time Series](https://towardsdatascience.com/three-approaches-to-feature-engineering-for-time-series-2123069567be)
 - [TSMixer: The Latest Forecasting Model by Google](https://towardsdatascience.com/tsmixer-the-latest-forecasting-model-by-google-2fd1e29a8ccb)
 - [`tsfresh`: Time Series Feature extraction based on scalable hypothesis tests](https://github.com/blue-yonder/tsfresh)
+- [`pytimetk`: time series easier, faster, more fun](https://github.com/business-science/pytimetk)
+- [`autogluon`: AutoML for Image, Text, Time Series, and Tabular Data](https://github.com/autogluon/autogluon)
+- [AutoGluon-TimeSeries: Every Time Series Forecasting Model In One Library](https://towardsdatascience.com/autogluon-timeseries-every-time-series-forecasting-model-in-one-library-29a3bf6879db)
+- [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
 
 ## Prophet
 

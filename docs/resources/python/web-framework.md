@@ -24,3 +24,5 @@
 - [10 Python web frameworks](https://towardsdatascience.com/my-favorite-python-web-frameworks-for-2021-a255fde2cd68)
 - [Reflex: performant, customizable web apps in pure Python](https://github.com/reflex-dev/reflex)
 - [Dara](https://github.com/causalens/dara)
+- [NiceGUI](https://github.com/zauberzeug/nicegui/)
+- [Vizro is a toolkit for creating modular data visualization applications](https://github.com/mckinsey/vizro)

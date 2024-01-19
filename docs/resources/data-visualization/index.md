@@ -25,13 +25,6 @@
 - [Visualizing the shockwave propagation of Tonga vulcano eruption](https://towardsdatascience.com/tonga-volcano-visualizing-the-shockwave-propagation-75dcfbadef76)
 - [ManimML: animations and visualizations of common machine learning concepts](https://github.com/helblazer811/ManimML)
 
-## BI tools
-
-- [Causal](https://www.causal.app/)
-- [10 tools for data visualization](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
-- [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
-- [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
-
 ## Books
 
 - [Serialmentor data-viz](https://serialmentor.com/dataviz/)
@@ -102,6 +95,11 @@
 - [365 days in data-viz](https://towardsdatascience.com/i-studied-365-data-visualizations-in-2020-ac1e0fc9799c)
 - [Visual and interactive explorables data-stories](https://yizhe-ang.github.io/)
 
+## Datamapplot
+
+- [Topic Modeling with Quantized LLMs](https://colab.research.google.com/drive/1DdSHvVPJA3rmNfBWjCo2P1E9686xfxFx?usp=sharing)
+- [DataMapPlot: Creating beautiful plot of data maps](https://datamapplot.readthedocs.io/en/latest/index.html)
+
 ## Datashader
 
 - [Networks](https://datashader.org/user_guide/Networks.html)
@@ -109,6 +107,10 @@
 ## Decision Trees
 
 - [`pybaobabdt` BaobabView](https://towardsdatascience.com/visualizing-decision-trees-with-pybaobabdt-f8eb5b3d0d17)
+
+## Design Systems
+
+- [Design Systems Database](https://designsystems.surf/)
 
 ## Dumbbell charts
 
@@ -130,6 +132,10 @@
 - [`arviz` for Bayesian EDA](https://github.com/arviz-devs/arviz)
 - [Kangas: exploring, analyzing, and visualizing large-scale multimedia data](https://github.com/comet-ml/kangas)
 - [PyGWalker: A Python Library for Exploratory Data Analysis with Visualization](https://github.com/Kanaries/pygwalker)
+
+## Energy data
+
+- [Modo Energy Plotter](https://modoenergy.com/plotter)
 
 ## Geodata
 
@@ -280,6 +286,14 @@
 - [Stop aggregating: context and rearrangement for time series visualization with Observable plot](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/)
 - [Radial visualization of time series](https://towardsdatascience.com/visualising-time-series-data-with-spirals-efe0cd9f4c5)
 - [Visualization tips for long time series](https://towardsdatascience.com/6-visualization-tricks-to-handle-ultra-long-time-series-data-57dad97e0fc2)
+
+## Tools
+
+- [Causal](https://www.causal.app/)
+- [10 tools for data visualization](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
+- [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
+- [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
+- [RAWGraphs](https://www.rawgraphs.io/)
 
 ## Upset plot
 
