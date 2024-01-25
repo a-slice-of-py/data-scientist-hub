@@ -65,6 +65,7 @@
     > The internet is full of interesting data that changes over time. These changes can sometimes be more interesting than the underlying static data.
 
 - [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
+- [git effort: show effort statistics on file](https://github.com/tj/git-extras/blob/master/man/git-effort.md)
 
 ## Github
 

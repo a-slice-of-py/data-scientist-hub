@@ -271,6 +271,7 @@
 - [Does data visualization have rules?](https://nightingaledvs.com/does-data-visualization-have-rules-or-is-it-all-just-it-depends/)
 - [Introduction to data visualization theory](https://towardsdatascience.com/data-visualization-theory-an-introduction-a077c0d80498)
 - [Data Visualization guidelines from `data.europa.eu`](https://data.europa.eu/apps/data-visualisation-guide/)
+- [Declarative vs. Imperative Plotting](https://towardsdatascience.com/declarative-vs-imperative-plotting-3ee9952d6bf3)
 
 ### Datawrapper Blog
 
