@@ -88,6 +88,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - social
   - awesome-pages
   - blog:
       blog_dir: .

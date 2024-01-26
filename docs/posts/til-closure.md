@@ -74,7 +74,7 @@ I recently read and enjoy [Robust Python by Patrick Viafore](https://learning.or
 
 Backoff offers a handy decorator-based approach to handle retry logic in a wide range of different situations, with some customization options to be feed as decorator kwargs.
 
-Thanks to the intuitive and well documented API, after few minutes of experiments I converge to this setup which seemed to do the job:
+Thanks to the intuitive and well documented API, after few minutes of experiments I came up with this setup which seemed to do the job:
 
 ```python
 import awswrangler as wr
