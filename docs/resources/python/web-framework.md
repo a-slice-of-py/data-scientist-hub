@@ -26,3 +26,4 @@
 - [Dara](https://github.com/causalens/dara)
 - [NiceGUI](https://github.com/zauberzeug/nicegui/)
 - [Vizro is a toolkit for creating modular data visualization applications](https://github.com/mckinsey/vizro)
+- [Panel for data apps](https://medium.com/@marcskovmadsen/i-prefer-to-use-panel-for-my-data-apps-here-is-why-1ff5d2b98e8f)

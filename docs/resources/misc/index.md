@@ -16,6 +16,8 @@
 - [Obsidian tools: a Python package for analysing an Obsidian vault](https://github.com/mfarragher/obsidiantools)
 - [A no-brainer solution to turning your Obsidian PKM into a Zola site](https://github.com/ppeetteerrs/obsidian-zola)
 - [Mkdocs Obsidian is a combination of an Obsidian plugin and a Material mkdocs](https://obsidian-publisher.netlify.app/)
+- [Lyz digital garden](https://lyz-code.github.io/blue-book/)
+- [A curated list of awesome digital gardens and second brains](https://github.com/KasperZutterman/Second-Brain)
 
 ## Mathematics
 

@@ -62,6 +62,7 @@
 ## Data Journalism
 
 - [Data Journalism spatial projection for story decomposition](https://towardsdatascience.com/data-journalism-3d-spatial-projection-a54c96137c6a)
+- [vis4.net: random thoughts on visualization and data journalism by Gregor Aisch](https://www.vis4.net/blog/)
 
 ### Scrolling Visualisation with `D3.js`
 

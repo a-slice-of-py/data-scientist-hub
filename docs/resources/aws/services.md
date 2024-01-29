@@ -53,6 +53,7 @@
 ## EC2
 
 - [EC2 ssh with `argparse`](https://towardsdatascience.com/improve-your-ec2-ssh-workflow-using-argparse-ae831d1de754)
+- [Deploy Tiny-Llama on AWS EC2](https://towardsdatascience.com/deploy-tiny-llama-on-aws-ec2-f3ff312c896d)
 
 ## Fargate
 

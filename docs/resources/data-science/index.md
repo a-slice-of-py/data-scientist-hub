@@ -125,6 +125,7 @@
 - [Expectation Maximization soft clustering](https://pub.towardsai.net/expectation-maximization-em-clustering-every-data-scientist-should-know-2b47fbd0dbc0)
 - [Markov clustering](https://medium.com/analytics-vidhya/demystifying-markov-clustering-aeb6cdabbfc7)
 - [Unsupervised Learning Series: exploring DBScan](https://towardsdatascience.com/unsupervised-learning-series-exploring-dbscan-624c820290ce)
+- [Recursive Embedding and Clustering by Spotify](https://engineering.atspotify.com/2023/12/recursive-embedding-and-clustering/)
 
 ## Code differentiation
 

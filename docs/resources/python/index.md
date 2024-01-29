@@ -178,6 +178,7 @@
 - [mktestdocs: run pytest against markdown files/docstrings](https://github.com/koaning/mktestdocs)
 - [mkdocs-jupyter: use Jupyter Notebooks in mkdocs](https://github.com/danielfrg/mkdocs-jupyter)
 - [Python markdown terminal built for mkdocs](https://github.com/mkdocs-plugins/termynal)
+- [Mkdocs Newsletter: show the changes of documentation repositories in a user friendly format](https://lyz-code.github.io/mkdocs-newsletter/)
 
 ## DTale
 
@@ -536,6 +537,7 @@
 - [Dara](https://github.com/causalens/dara)
 - [NiceGUI](https://github.com/zauberzeug/nicegui/)
 - [Vizro is a toolkit for creating modular data visualization applications](https://github.com/mckinsey/vizro)
+- [Panel for data apps](https://medium.com/@marcskovmadsen/i-prefer-to-use-panel-for-my-data-apps-here-is-why-1ff5d2b98e8f)
 
 ## Web scraping
 
