@@ -11,7 +11,7 @@ tags:
 
 # AWS Certification Skill Tree
 
-I am considering to get an [AWS Certification](https://aws.amazon.com/certification/) sooner or later this year, then I started to deep dive all the possibilities out there.
+As a professional with more than 4 years of experience with AWS, I might attempt to get an [AWS Certification](https://aws.amazon.com/certification/) sooner or later this year, so I'm evaluating all the possibilities out there.
 
 AWS itself provides a useful guide to the recommended [AWS Certification Paths](https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf), where all the top cloud job roles are listed together with a bried description of their responsibilities.
 
@@ -19,7 +19,7 @@ Even if such a resource is more than welcome, I find that the big picture is not
 
 <!-- more -->
 
-After having manually scraped the internet to get AWS Certification icons - surely the entire collection is already available somewhere, I didn't search that much - I started experimenting with `diagrams` and I finally came up with this final result (click to enlarge).
+After having manually scraped the internet to get AWS Certification icons[^1], I started experimenting with `diagrams` and I finally came up with this result (click to enlarge).
 
 ![aws-cert-paths](../assets/aws_certification_paths.png)
 
@@ -140,7 +140,7 @@ After having manually scraped the internet to get AWS Certification icons - sure
                 )
     ```
 
-I am definitely a visual person: the following table show some property I wanted to retain in the skill tree next to the visual element I chose for the encoding.
+I am mostly a [visual learner](https://en.wikipedia.org/wiki/Visual_learning): the following table shows some property I wanted to retain in the skill tree next to the visual element I chose for the encoding.
 
 | Property | Encoded with |
 | -------- | ------------ |
@@ -149,14 +149,22 @@ I am definitely a visual person: the following table show some property I wanted
 | Job title | `diagrams.Cluster` |
 | Dive Deep layer | styled `diagrams.Edge` |
 
-With that skill tree in front of me, some considerations are now straightforward:
+With this skill tree available, some considerations are now straightforward:
 
 - after the optional Cloud Practitioner, you basically have three front doors: Solutions Architect, Developer or SysOps Administrator;
 - you are expected to know how to architecture first, and only later start implementing;
-- the so-called [Security by Design](https://aws.amazon.com/compliance/security-by-design/) approach is also enforced ensuring that many recommended paths include Security specialty;
+- the so-called [Security by Design](https://aws.amazon.com/compliance/security-by-design/) approach is enforced also ensuring that many certified professionals have measured themselves with Security specialty;
 - the Development, DevOps and Operations paths seem to be more general-purpose than the ones departing from the Solutions Architect front door;
-- a Machine Learning Engineer is a specialized Cloud Data Engineer;
-- these paths suggest that the people building and fine-tuning data solutions should try to stick to their role and to avoid [wearing too many hats](https://en.wiktionary.org/wiki/wear_too_many_hats) (e.g. DevOps certifications are not listed in their paths);
-- why the Cloud Data Engineer path do not include [AWS Certified Database - Specialty](https://aws.amazon.com/certification/certified-database-specialty/)?!
+- in this AWS vision, a Machine Learning Engineer is a specialized Cloud Data Engineer;
+- these paths suggest that the people building and fine-tuning data solutions should try to stick to their role and to avoid [wearing too many hats](https://en.wiktionary.org/wiki/wear_too_many_hats) (e.g. DevOps certifications are not listed in their paths).
 
-The bottom line: there are many suggested ways to reach a given certification, you can either follow these recommended/recognized paths or build your own.
+!!! question "Missing Database Specialty"
+    I found two other certifications not included in any path: [Data Analytics Specialty](https://aws.amazon.com/certification/certified-data-analytics-specialty/), retiring in Spring 2024, and [Database Specialty](https://aws.amazon.com/certification/certified-database-specialty/), which seems to be still available and with no retirement already planned: why the latter is not included into the Cloud Data Engineer path?
+
+Finally, I tried to answer my original question: which certifications I should try pursuing first? To do so, it's useful reinterpreting the skill tree as a proper graph, e.g. by removing redundant edges and merging redundant nodes. After playing around with `diagrams` options, I highlighted the three paths that look closer to my experience so far (and thus represent the most probable choices I will invest time in): Cloud Data Engineer, Machine Learning Engineer and Application Architect.
+
+![aws-cert-paths-highlight](../assets/aws_certification_paths_highlight.png)
+
+The bottom line: there are many suggested ways to reach a given certification, you can either follow these recommended/recognized paths or build your own. Enjoy!
+
+[^1]: The entire collection is already available somewhere for sure, but I didn't search that much.

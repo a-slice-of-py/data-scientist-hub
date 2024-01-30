@@ -89,6 +89,7 @@ markdown_extensions:
 plugins:
   - search
   - social:
+      enabled: !ENV [ENABLE_MKDOCS_PLUGIN, true]
       cards_layout: default/variant
   - awesome-pages
   - blog:
