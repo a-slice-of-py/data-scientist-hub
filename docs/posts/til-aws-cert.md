@@ -161,10 +161,11 @@ With this skill tree available, some considerations are now straightforward:
 !!! question "Missing Database Specialty"
     I found two other certifications not included in any path: [Data Analytics Specialty](https://aws.amazon.com/certification/certified-data-analytics-specialty/), retiring in Spring 2024, and [Database Specialty](https://aws.amazon.com/certification/certified-database-specialty/), which seems to be still available and with no retirement already planned: why the latter is not included into the Cloud Data Engineer path?
 
-Finally, I tried to answer my original question: which certifications I should try pursuing first? To do so, it's useful reinterpreting the skill tree as a proper graph, e.g. by removing redundant edges and merging redundant nodes. After playing around with `diagrams` options, I highlighted the three paths that look closer to my experience so far (and thus represent the most probable choices I will invest time in): Cloud Data Engineer, Machine Learning Engineer and Application Architect.
+Finally, I tried to answer my original question: which certifications I should try pursuing first? To do so, it's useful reinterpreting the skill tree as a proper graph, e.g. by removing redundant edges and merging redundant nodes[^2]. After playing around with `diagrams` options, I highlighted the three paths that look closer to my experience so far (and thus represent the most probable choices I will invest time in): Cloud Data Engineer, Machine Learning Engineer and Application Architect.
 
 ![aws-cert-paths-highlight](../assets/aws_certification_paths_highlight.png)
 
 The bottom line: there are many suggested ways to reach a given certification, you can either follow these recommended/recognized paths or build your own. Enjoy!
 
 [^1]: The entire collection is already available somewhere for sure, but I didn't search that much.
+[^2]: This rendition make also clearer the four levels of certification and their increasing difficulty: Foundational, Associate, Professional and Specialty. To further deepen their features and the differences in scope/depth assessed, you can refer to [this useful post](https://digitalcloud.training/which-aws-certification-should-i-get/).
