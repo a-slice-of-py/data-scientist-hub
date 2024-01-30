@@ -1314,7 +1314,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                           <span class="md-ellipsis">
                             
-                              3 min read
+                              4 min read
                             
                           </span>
                         </div>
@@ -1367,12 +1367,12 @@
 
 
 <h1 id="aws-certification-skill-tree">AWS Certification Skill Tree<a class="headerlink" href="#aws-certification-skill-tree" title="Permanent link">&para;</a></h1>
-<p>I am considering to get an <a href="https://aws.amazon.com/certification/">AWS Certification</a> sooner or later this year, then I started to deep dive all the possibilities out there.</p>
+<p>As a professional with more than 4 years of experience with AWS, I might attempt to get an <a href="https://aws.amazon.com/certification/">AWS Certification</a> sooner or later this year, so I'm evaluating all the possibilities out there.</p>
 <p>AWS itself provides a useful guide to the recommended <a href="https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf">AWS Certification Paths</a>, where all the top cloud job roles are listed together with a bried description of their responsibilities.</p>
 <p>Even if such a resource is more than welcome, I find that the big picture is not as clear as it should be: I decided to help myself building a <a href="https://en.wiktionary.org/wiki/skill_tree">skill tree</a> with the aid of the awesome <a href="https://github.com/mingrammer/diagrams"><code>diagrams</code></a>.</p>
 <!-- more -->
 
-<p>After having manually scraped the internet to get AWS Certification icons - surely the entire collection is already available somewhere, I didn't search that much - I started experimenting with <code>diagrams</code> and I finally came up with this final result (click to enlarge).</p>
+<p>After having manually scraped the internet to get AWS Certification icons<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, I started experimenting with <code>diagrams</code> and I finally came up with this result (click to enlarge).</p>
 <p><a class="glightbox" href="../../../../assets/aws_certification_paths.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="aws-cert-paths" src="../../../../assets/aws_certification_paths.png" /></a></p>
 <details class="note">
 <summary>Source code</summary>
@@ -1491,7 +1491,7 @@
             <span class="p">)</span>
 </code></pre></div>
 </details>
-<p>I am definitely a visual person: the following table show some property I wanted to retain in the skill tree next to the visual element I chose for the encoding.</p>
+<p>I am mostly a <a href="https://en.wikipedia.org/wiki/Visual_learning">visual learner</a>: the following table shows some property I wanted to retain in the skill tree next to the visual element I chose for the encoding.</p>
 <table>
 <thead>
 <tr>
@@ -1518,17 +1518,30 @@
 </tr>
 </tbody>
 </table>
-<p>With that skill tree in front of me, some considerations are now straightforward:</p>
+<p>With this skill tree available, some considerations are now straightforward:</p>
 <ul>
 <li>after the optional Cloud Practitioner, you basically have three front doors: Solutions Architect, Developer or SysOps Administrator;</li>
 <li>you are expected to know how to architecture first, and only later start implementing;</li>
-<li>the so-called <a href="https://aws.amazon.com/compliance/security-by-design/">Security by Design</a> approach is also enforced ensuring that many recommended paths include Security specialty;</li>
+<li>the so-called <a href="https://aws.amazon.com/compliance/security-by-design/">Security by Design</a> approach is enforced also ensuring that many certified professionals have measured themselves with Security specialty;</li>
 <li>the Development, DevOps and Operations paths seem to be more general-purpose than the ones departing from the Solutions Architect front door;</li>
-<li>a Machine Learning Engineer is a specialized Cloud Data Engineer;</li>
-<li>these paths suggest that the people building and fine-tuning data solutions should try to stick to their role and to avoid <a href="https://en.wiktionary.org/wiki/wear_too_many_hats">wearing too many hats</a> (e.g. DevOps certifications are not listed in their paths);</li>
-<li>why the Cloud Data Engineer path do not include <a href="https://aws.amazon.com/certification/certified-database-specialty/">AWS Certified Database - Specialty</a>?!</li>
+<li>in this AWS vision, a Machine Learning Engineer is a specialized Cloud Data Engineer;</li>
+<li>these paths suggest that the people building and fine-tuning data solutions should try to stick to their role and to avoid <a href="https://en.wiktionary.org/wiki/wear_too_many_hats">wearing too many hats</a> (e.g. DevOps certifications are not listed in their paths).</li>
 </ul>
-<p>The bottom line: there are many suggested ways to reach a given certification, you can either follow these recommended/recognized paths or build your own.</p>
+<div class="admonition question">
+<p class="admonition-title">Missing Database Specialty</p>
+<p>I found two other certifications not included in any path: <a href="https://aws.amazon.com/certification/certified-data-analytics-specialty/">Data Analytics Specialty</a>, retiring in Spring 2024, and <a href="https://aws.amazon.com/certification/certified-database-specialty/">Database Specialty</a>, which seems to be still available and with no retirement already planned: why the latter is not included into the Cloud Data Engineer path?</p>
+</div>
+<p>Finally, I tried to answer my original question: which certifications I should try pursuing first? To do so, it's useful reinterpreting the skill tree as a proper graph, e.g. by removing redundant edges and merging redundant nodes. After playing around with <code>diagrams</code> options, I highlighted the three paths that look closer to my experience so far (and thus represent the most probable choices I will invest time in): Cloud Data Engineer, Machine Learning Engineer and Application Architect.</p>
+<p><a class="glightbox" href="../../../../assets/aws_certification_paths_highlight.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="aws-cert-paths-highlight" src="../../../../assets/aws_certification_paths_highlight.png" /></a></p>
+<p>The bottom line: there are many suggested ways to reach a given certification, you can either follow these recommended/recognized paths or build your own. Enjoy!</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The entire collection is already available somewhere for sure, but I didn't search that much.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -1551,7 +1564,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-01-29T17:27:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-01-29</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-01-30T08:16:09+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-01-30</span>
   </span>
 
     
