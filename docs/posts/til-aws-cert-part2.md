@@ -394,8 +394,6 @@ By comparing the raw count of in-scope services, however, we miss the potential 
 
 ![aws-cert-paths](../assets/upset.png)
 
-The m
-
 ### Interactive tree
 
 With the UpSet plot at our disposal, the last question is: _which are the specific services in each intersection_?
