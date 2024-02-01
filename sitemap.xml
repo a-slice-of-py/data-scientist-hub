@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/02/01/a-visual-comparison-of-aws-certifications/</loc>
+         <lastmod>2024-02-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/01/29/aws-certification-skill-tree/</loc>
          <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
@@ -1432,6 +1437,11 @@
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/page/2/</loc>
+         <lastmod>2024-02-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/page/3/</loc>
          <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
