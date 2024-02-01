@@ -12,3 +12,7 @@
 - [`scikit-lego`](https://github.com/koaning/scikit-lego)
 - [`lazypredict`](https://github.com/shankarpandala/lazypredict)
 - [`human-learn` to rule-based learning and interactive drawing rules](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
+
+## Probabl
+
+- [Probabl open source gallery](https://www.probabl.ai/open-source)
