@@ -37,6 +37,7 @@
 - [Elevate Your Data Science Career: How to become a Senior Data Scientist](https://towardsdatascience.com/elevate-your-data-science-career-how-to-become-a-senior-data-scientist-5d7546d060e2)
 - [The Trimodal Nature of Software Engineering Salaries in the Netherlands and Europe](https://blog.pragmaticengineer.com/software-engineering-salaries-in-the-netherlands-and-europe/)
 - [Measuring Developer Productivity: Real-World Examples](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)
+- [Career progression](https://progression.fyi/)
 
 ## Conferences
 
