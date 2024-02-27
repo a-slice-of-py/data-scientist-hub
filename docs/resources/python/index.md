@@ -246,6 +246,7 @@
 - [In and Out variables and %store magic command](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 - [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
+- [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
 
 ## Logging
 
@@ -281,6 +282,7 @@
 - [Strict constants in Python](https://realpython.com/python-constants/#defining-strict-constants-in-python)
 - [Python decorator patterns](https://bytepawn.com/python-decorator-patterns.html)
 - [`__init__` is not a constructor: a deep dive in Python object creation](https://towardsdatascience.com/python-init-is-not-a-constructor-a-deep-dive-in-python-object-creation-9134d971e334)
+- [Python `@property` decorator](https://towardsdatascience.com/pythons-most-powerful-decorator-6bc39e6a8dd8)
 
 ## Object Relational Mapper (ORM)
 
@@ -319,6 +321,15 @@
 
 - [Polars](https://github.com/pola-rs/polars)
 - [Polars intro by Practical Business Python](https://pbpython.com/polars-intro.html)
+- [Great Tables: The Polars DataFrame Styler of Your Dreams](https://posit-dev.github.io/great-tables/blog/polars-styling/?li_fat_id=e8e50df8-f912-4082-a37e-4ab70b22c848)
+
+### Daft
+
+- [Daft: a fast and scalable Python dataframe for complex data and machine learning workloads](https://www.getdaft.io/projects/docs/en/latest/index.html)
+
+### Ibis
+
+- [Ibis: the portable Python dataframe library](https://ibis-project.org/why)
 
 ## Password Management
 
@@ -385,6 +396,7 @@
 - [Math module overview](https://realpython.com/python-math-module/)
 - [Boltons](https://github.com/mahmoud/boltons)
 - [Priority queues and `heapq`](https://realpython.com/python-heapq-module/)
+- [Everything You Can Do with Python's textwrap Module](https://martinheinz.dev/blog/108)
 
 ## Streamlit
 
@@ -430,6 +442,7 @@
 - [Elements for Material UI tools integration](https://github.com/okld/streamlit-elements)
 - [Extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
+- [Float: fix the vertical position of containers relative to viewport instead of page](https://github.com/bouzidanas/streamlit-float)
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)

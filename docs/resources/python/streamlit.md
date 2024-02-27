@@ -42,6 +42,7 @@
 - [Elements for Material UI tools integration](https://github.com/okld/streamlit-elements)
 - [Extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
+- [Float: fix the vertical position of containers relative to viewport instead of page](https://github.com/bouzidanas/streamlit-float)
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)

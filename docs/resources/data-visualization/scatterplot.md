@@ -1,5 +1,7 @@
 # Scatterplot
 
+- [Jupyter Scatter: an Interactive Scatter Plot Widget](https://jupyter-scatter.dev/)
+
 ## Binned
 
 - [Binsreg](https://github.com/nppackages/binsreg)

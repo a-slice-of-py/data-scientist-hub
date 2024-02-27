@@ -36,3 +36,5 @@
 - [The Trimodal Nature of Software Engineering Salaries in the Netherlands and Europe](https://blog.pragmaticengineer.com/software-engineering-salaries-in-the-netherlands-and-europe/)
 - [Measuring Developer Productivity: Real-World Examples](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)
 - [Career progression](https://progression.fyi/)
+- [7Factors to build human centric, high performing engineering teams](https://github.com/7Factor/7factor)
+- [Mastering Programming by Kent Beck](https://tidyfirst.substack.com/p/mastering-programming)

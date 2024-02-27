@@ -344,6 +344,13 @@
 - [Hard Truths About Generative AI for Technology Leaders](https://www.montecarlodata.com/5-hard-truths-about-generative-ai-for-technology-leaders/)
 - [AlphaCodium: From Prompt Engineering to Flow Engineering](https://github.com/Codium-ai/AlphaCodium)
 - [Cheshire-Cat: Production ready AI assistant framework](https://github.com/cheshire-cat-ai/core)
+- [OLMo: a State-of-the-Art, Truly Open LLM and Framework](https://allenai.org/olmo)
+- [Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting](https://github.com/time-series-foundation-models/lag-llama)
+- [Cohere For AI Launches Aya: an LLM Covering More Than 100 Languages](https://txt.cohere.com/aya/)
+- [A non-exhaustive but essential list of key papers that underpins text-to-video Deep Generative model like SORA](https://www.linkedin.com/posts/cristiano-de-nobili_sora-generativeai-machinelearning-activity-7164174393965699072-aHTo)
+- [Do large language models understand the world?](https://www.amazon.science/blog/do-large-language-models-understand-the-world)
+- [A Visual Guide to Mamba and State Space Models](https://maartengrootendorst.substack.com/p/a-visual-guide-to-mamba-and-state)
+- [Gemma: una nuova famiglia di modelli aperti](https://blog.google/intl/it-it/una-nuova-famiglia-di-modelli-aperti-denominata-gemma/)
 
 ## Machine Learning
 

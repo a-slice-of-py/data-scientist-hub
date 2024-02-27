@@ -17,3 +17,4 @@
 - [The 10-20-30 rule](https://guykawasaki.com/the_102030_rule/)
 - [365 days in data-viz](https://towardsdatascience.com/i-studied-365-data-visualizations-in-2020-ac1e0fc9799c)
 - [Visual and interactive explorables data-stories](https://yizhe-ang.github.io/)
+- [Tagging Mountaineering Accident Reports Using bart-large-mnli](https://towardsdatascience.com/tagging-mountaineering-accident-reports-using-bart-large-mnli-1b1f6d97756a)

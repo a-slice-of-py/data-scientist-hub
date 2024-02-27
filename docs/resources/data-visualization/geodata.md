@@ -17,3 +17,4 @@
 - [Planning the perfect hike with OSMnx](https://towardsdatascience.com/planning-the-perfect-hike-with-networkx-and-openstreetmap-2fbeaded3cc6)
 - [Prettymaps](https://github.com/marceloprates/prettymaps)
 - [Visualizing routes with VeRoViz](https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4)
+- [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)

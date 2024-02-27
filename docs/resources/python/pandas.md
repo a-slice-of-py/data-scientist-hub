@@ -26,3 +26,12 @@
 
 - [Polars](https://github.com/pola-rs/polars)
 - [Polars intro by Practical Business Python](https://pbpython.com/polars-intro.html)
+- [Great Tables: The Polars DataFrame Styler of Your Dreams](https://posit-dev.github.io/great-tables/blog/polars-styling/?li_fat_id=e8e50df8-f912-4082-a37e-4ab70b22c848)
+
+## Daft
+
+- [Daft: a fast and scalable Python dataframe for complex data and machine learning workloads](https://www.getdaft.io/projects/docs/en/latest/index.html)
+
+## Ibis
+
+- [Ibis: the portable Python dataframe library](https://ibis-project.org/why)

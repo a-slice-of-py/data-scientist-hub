@@ -9,6 +9,7 @@
 ## Blogposts
 
 - [The history of Amazon forecasting algorithm](https://www.amazon.science/latest-news/the-history-of-amazons-forecasting-algorithm)
+- [Amazon’s renewable energy forecasting: continuous delivery with Jupyter Notebooks](https://aws.amazon.com/it/blogs/hpc/amazons-renewable-energy-forecasting-continuous-delivery-with-jupyter-notebooks/)
 
 ## Misc
 

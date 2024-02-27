@@ -26,6 +26,7 @@
 - [Things you are not told about data science](https://towardsdatascience.com/10-things-you-are-not-told-about-data-science-3460636feeb1)
 - [Reasons to quit being a data scientist](https://towardsdatascience.com/today-i-quit-data-sciences-here-are-7-reasons-why-15c29e51d032)
 - [What we talk about when we talk about imposter syndrome](https://stackoverflow.blog/2023/09/11/what-we-talk-about-when-we-talk-about-imposter-syndrome/)
+- [Navigating the Realities of Being A Data Scientist](https://towardsdatascience.com/navigating-the-realities-of-being-a-data-scientist-429625f9baed)
 
 ## Data, Art & Science
 

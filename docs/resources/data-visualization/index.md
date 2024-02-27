@@ -3,6 +3,7 @@
 ## 3D
 
 - [Guide to real-time visualization of massive 3D point clouds in Python](https://towardsdatascience.com/guide-to-real-time-visualisation-of-massive-3d-point-clouds-in-python-ea6f00241ee0)
+- [3D Visualization of Geospatial Big Data by Lexcube](https://towardsdatascience.com/3d-visualization-of-geospatial-big-data-by-lexcube-python-a57512cabd69)
 
 ## Altair
 
@@ -95,6 +96,7 @@
 - [The 10-20-30 rule](https://guykawasaki.com/the_102030_rule/)
 - [365 days in data-viz](https://towardsdatascience.com/i-studied-365-data-visualizations-in-2020-ac1e0fc9799c)
 - [Visual and interactive explorables data-stories](https://yizhe-ang.github.io/)
+- [Tagging Mountaineering Accident Reports Using bart-large-mnli](https://towardsdatascience.com/tagging-mountaineering-accident-reports-using-bart-large-mnli-1b1f6d97756a)
 
 ## Datamapplot
 
@@ -112,6 +114,10 @@
 ## Design Systems
 
 - [Design Systems Database](https://designsystems.surf/)
+
+## Distributions
+
+- [Professionally Visualize Data Distributions in Python](https://towardsdatascience.com/professionally-visualize-data-distributions-in-python-09481e1493b2)
 
 ## Dumbbell charts
 
@@ -157,6 +163,7 @@
 - [Planning the perfect hike with OSMnx](https://towardsdatascience.com/planning-the-perfect-hike-with-networkx-and-openstreetmap-2fbeaded3cc6)
 - [Prettymaps](https://github.com/marceloprates/prettymaps)
 - [Visualizing routes with VeRoViz](https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4)
+- [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)
 
 ## GUI
 
@@ -184,6 +191,7 @@
 - [`d3blocks`: Python porting of D3js](https://github.com/d3blocks/d3blocks)[^1]
 - [Carbon charts: a reusable framework-agnostic D3 charting library](https://github.com/carbon-design-system/carbon-charts)
 - [D3js scatterplots in Python](https://towardsdatascience.com/get-the-most-out-of-your-scatterplot-by-making-it-interactive-using-d3js-19939e3b046)
+- [The Most Advanced Libraries for Data Visualization and Analysis on the Web](https://towardsdatascience.com/the-most-advanced-libraries-for-data-visualization-and-analysis-on-the-web-e823535e0eb1)
 
 [^1]: [A day in the life of Americans](index.md#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
@@ -235,6 +243,8 @@
 
 ## Scatterplot
 
+- [Jupyter Scatter: an Interactive Scatter Plot Widget](https://jupyter-scatter.dev/)
+
 ### Binned
 
 - [Binsreg](https://github.com/nppackages/binsreg)
@@ -256,6 +266,7 @@
 - [Visualization of elections with python](https://towardsdatascience.com/visualising-elections-with-python-4973c0c60bbe)
 - [How visualizing social inequality can make it worse](https://nightingaledvs.com/unfair-comparisons-how-visualizing-social-inequality-can-make-it-worse/)
 - [Beyond Numbers: How Ethical Data Visualization Tells the Human Story](https://nightingaledvs.com/ethical-data-visualization-tells-the-human-story/)
+- [Google Books Ngram Viewer](https://books.google.com/ngrams/info)
 
 ## Strip charts for time-series
 

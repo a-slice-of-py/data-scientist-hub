@@ -25,3 +25,4 @@
 - [In and Out variables and %store magic command](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 - [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
+- [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)

@@ -101,6 +101,7 @@
 - [Markdown email in PBP](https://pbpython.com/markdown-email.html)
 - [Mermaid for markdown diagram](https://mermaid-js.github.io/mermaid/#/)
 - [Markdown books with mdBook](https://rust-lang.github.io/mdBook/index.html)
+- [VitePress: Vite & Vue Powered Static Site Generator](https://vitepress.dev/)
 
 ## Misc
 
@@ -114,6 +115,7 @@
 
 - [Optimize a to-do list with Monte Carlo simulations](https://towardsdatascience.com/optimise-your-todo-list-with-monte-carlo-simulations-in-python-1682a8a5eb84)
 - [Estimating tasks with statistics and simulations](https://towardsdatascience.com/estimating-tasks-with-statistics-and-simulations-using-python-ddd1df3c7ce1)
+- [Decide better together: answer a few simple questions to explore better ways to make group decisions](https://thedecider.app/)
 
 ## Quarto
 
@@ -131,6 +133,7 @@
 
 - [SOLID principle](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 - [Software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes/)
+- [AWS guidelines for Correction of Error](https://wa.aws.amazon.com/wat.concept.coe.en.html)
 
 ## Terminal
 
