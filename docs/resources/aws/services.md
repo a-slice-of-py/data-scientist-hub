@@ -4,6 +4,10 @@
 
 - [Accessing API Gateway from VPC](https://stackoverflow.com/questions/58175596/access-api-gateway-api-operation-from-vpc)
 
+## AppConfig
+
+- [Using AWS AppConfig Feature Flags](https://aws.amazon.com/blogs/mt/using-aws-appconfig-feature-flags/)
+
 ## Athena
 
 - [Athena window functions (prestodb)](https://prestodb.io/docs/0.172/functions/window.html)
@@ -70,6 +74,7 @@
 - [AWS Lambda tests](https://towardsdatascience.com/how-i-write-meaningful-tests-for-aws-lambda-functions-f009f0a9c587)
 - [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
+- [Comparing design approaches for building serverless microservices](https://aws.amazon.com/it/blogs/compute/comparing-design-approaches-for-building-serverless-microservices/)
 
 ## S3
 

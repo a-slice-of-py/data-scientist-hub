@@ -28,3 +28,4 @@
 
 - [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
 - [git effort: show effort statistics on file](https://github.com/tj/git-extras/blob/master/man/git-effort.md)
+- [PyDriller: a Python framework to analyze Git repositories](https://github.com/ishepard/pydriller)

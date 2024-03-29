@@ -20,6 +20,7 @@
 - [Dynamoit: a custom frontend for DynamoDB](https://github.com/bykka/dynamoit)
 - [Basti: a CLI tool for securely accessing AWS resources in private networks at almost no cost](https://github.com/BohdanPetryshyn/basti)
 - [klotho: an open source tool that transforms plain code into cloud native code](https://github.com/klothoplatform/klotho)
+- [Powerpipe: dashboards for DevOps](https://powerpipe.io/)
 
 ## Streamlit deployment
 

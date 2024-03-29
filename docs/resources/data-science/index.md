@@ -218,6 +218,10 @@
 - [`vectstack` for models stacking](https://github.com/vecxoz/vecstack)
 - [One general model vs many specialized ones](https://towardsdatascience.com/what-is-better-one-general-model-or-many-specialized-models-9500d9f8751d)
 
+## Ethics
+
+- [deon: an ethics checklist for data scientists](https://deon.drivendata.org/)
+
 ## Features engineering and selection
 
 - [Boruta](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)
@@ -351,6 +355,8 @@
 - [Do large language models understand the world?](https://www.amazon.science/blog/do-large-language-models-understand-the-world)
 - [A Visual Guide to Mamba and State Space Models](https://maartengrootendorst.substack.com/p/a-visual-guide-to-mamba-and-state)
 - [Gemma: una nuova famiglia di modelli aperti](https://blog.google/intl/it-it/una-nuova-famiglia-di-modelli-aperti-denominata-gemma/)
+- [DSPy: the framework for programming - not prompting! - foundation models](https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9)
+- [Text Embeddings: Comprehensive Guide](https://towardsdatascience.com/text-embeddings-comprehensive-guide-afd97fce8fb5)
 
 ## Machine Learning
 
@@ -368,6 +374,7 @@
 - [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
+- [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
 
 ### Model evaluation
 
@@ -545,6 +552,7 @@
 - [Route optimization with Python](https://towardsdatascience.com/modern-route-optimization-with-python-fea87d34288b)
 - [The Vehicle Routing Problem: Exact and Heuristic Solutions](https://towardsdatascience.com/the-vehicle-routing-problem-exact-and-heuristic-solutions-c411c0f4d734)
 - [List of optimization packages in Python](https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/)
+- [A Comprehensive Guide to Modeling Techniques in Mixed-Integer Linear Programming](https://towardsdatascience.com/a-comprehensive-guide-to-modeling-techniques-in-mixed-integer-linear-programming-3e96cc1bc03d)
 
 ### Scholarpedia
 
@@ -688,6 +696,7 @@
 - [Lost at SQL: the SQL learning game](https://lost-at-sql.therobinlord.com/)
 - [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 - [How to Low-Pass Filter in Google BigQuery](https://towardsdatascience.com/how-to-low-pass-filter-in-google-bigquery-3eefa082b497)
+- [Harlequin: the SQL IDE for your terminal](https://github.com/tconbeer/harlequin)
 
 ## Streaming/Online Learning
 

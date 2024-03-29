@@ -66,6 +66,7 @@
 
 - [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
 - [git effort: show effort statistics on file](https://github.com/tj/git-extras/blob/master/man/git-effort.md)
+- [PyDriller: a Python framework to analyze Git repositories](https://github.com/ishepard/pydriller)
 
 ## Github
 
@@ -94,6 +95,7 @@
 ## JSON
 
 - [JSON Visio editor](https://jsonvisio.com/editor)
+- [JSONPath for Python](https://github.com/h2non/jsonpath-ng)
 
 ## Markdown
 
@@ -102,10 +104,12 @@
 - [Mermaid for markdown diagram](https://mermaid-js.github.io/mermaid/#/)
 - [Markdown books with mdBook](https://rust-lang.github.io/mdBook/index.html)
 - [VitePress: Vite & Vue Powered Static Site Generator](https://vitepress.dev/)
+- [Evidence: build fast, interactive data visualizations in pure SQL and markdown](https://github.com/evidence-dev/evidence)
 
 ## Misc
 
 - [Data Science toolset starter kit](https://towardsdatascience.com/data-scientists-starter-pack-32ef08f7829c)
+- [Excalidraw](https://excalidraw.com/)
 
 ## Performance monitoring
 
@@ -134,6 +138,7 @@
 - [SOLID principle](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 - [Software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes/)
 - [AWS guidelines for Correction of Error](https://wa.aws.amazon.com/wat.concept.coe.en.html)
+- [Backstage by Spotify: an open platform for building developer portals](https://backstage.io/)
 
 ## Terminal
 

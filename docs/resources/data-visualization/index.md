@@ -34,6 +34,7 @@
 ## Chord diagram
 
 - [Interactive chord diagram](https://towardsdatascience.com/create-beautiful-and-interactive-chord-diagrams-using-python-cb5ecb092a7c)
+- [pycirclize: circular visualization in Python](https://github.com/moshi4/pyCirclize)
 
 ## Clustering
 
@@ -143,6 +144,7 @@
 ## Energy data
 
 - [Modo Energy Plotter](https://modoenergy.com/plotter)
+- [Energy-Charts: interactive graphics displaying energy production and spot market prices](https://www.energy-charts.info/?l=en&c=IT)
 
 ## Geodata
 
@@ -267,6 +269,7 @@
 - [How visualizing social inequality can make it worse](https://nightingaledvs.com/unfair-comparisons-how-visualizing-social-inequality-can-make-it-worse/)
 - [Beyond Numbers: How Ethical Data Visualization Tells the Human Story](https://nightingaledvs.com/ethical-data-visualization-tells-the-human-story/)
 - [Google Books Ngram Viewer](https://books.google.com/ngrams/info)
+- [Parallel Lives](https://janwillemtulp.github.io/parallel-lives/)
 
 ## Strip charts for time-series
 

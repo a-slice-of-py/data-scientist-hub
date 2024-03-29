@@ -142,6 +142,7 @@
 - [Legge sull'Intelligenza Artificiale](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:52021PC0206)
 - [Understanding the EU AI Act as a Data Scientist](https://www.nannyml.com/blog/eu-ai-act-guide-data-science)
 - [Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
+- [Uncovering the EU AI Act](https://towardsdatascience.com/uncovering-the-eu-ai-act-22b10f946174)
 
 ## Teaching
 
@@ -161,6 +162,10 @@
 - [Machine Learning University (MLU) by Amazon](https://mlu-explain.github.io/precision-recall/)
 - [Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
 - [Data Science Trivia](https://www.datasciencetrivia.com/)
+
+## Technical writing
+
+- [Write the Docs: best practices for creating software documentation](https://www.writethedocs.org/guide/)
 
 ## Tools
 

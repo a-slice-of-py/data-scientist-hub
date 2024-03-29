@@ -14,6 +14,7 @@
 - [Applied ML use cases](https://github.com/eugeneyan/applied-ml)
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
+- [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
 
 ## Model evaluation
 

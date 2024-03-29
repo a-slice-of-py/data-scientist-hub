@@ -44,3 +44,5 @@
 - [Do large language models understand the world?](https://www.amazon.science/blog/do-large-language-models-understand-the-world)
 - [A Visual Guide to Mamba and State Space Models](https://maartengrootendorst.substack.com/p/a-visual-guide-to-mamba-and-state)
 - [Gemma: una nuova famiglia di modelli aperti](https://blog.google/intl/it-it/una-nuova-famiglia-di-modelli-aperti-denominata-gemma/)
+- [DSPy: the framework for programming - not prompting! - foundation models](https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9)
+- [Text Embeddings: Comprehensive Guide](https://towardsdatascience.com/text-embeddings-comprehensive-guide-afd97fce8fb5)

@@ -46,6 +46,7 @@
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
+- [LDAP authenticator](https://github.com/NathanChen198/streamlit-ldap-authenticator)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [Marquee banner](https://github.com/inspurer/streamlit-marquee)
 - [Option menù](https://github.com/victoryhb/streamlit-option-menu)

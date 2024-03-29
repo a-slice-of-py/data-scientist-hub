@@ -17,6 +17,7 @@
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 - [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
 - [Pandas illustrated: a visual guide](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+- [PandasAI: a Python library to ask questions to your data in natural language](https://github.com/Sinaptik-AI/pandas-ai)
 
 ## Numpy
 
@@ -27,6 +28,7 @@
 - [Polars](https://github.com/pola-rs/polars)
 - [Polars intro by Practical Business Python](https://pbpython.com/polars-intro.html)
 - [Great Tables: The Polars DataFrame Styler of Your Dreams](https://posit-dev.github.io/great-tables/blog/polars-styling/?li_fat_id=e8e50df8-f912-4082-a37e-4ab70b22c848)
+- [Using Polars in a Pandas world](https://pythonspeed.com/articles/polars-pandas-interopability/)
 
 ## Daft
 

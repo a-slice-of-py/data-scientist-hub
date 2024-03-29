@@ -40,6 +40,9 @@
 - [Career progression](https://progression.fyi/)
 - [7Factors to build human centric, high performing engineering teams](https://github.com/7Factor/7factor)
 - [Mastering Programming by Kent Beck](https://tidyfirst.substack.com/p/mastering-programming)
+- [Glue work](https://noidea.dog/glue)
+- [Recurse Social Rules to create a friendly, intellectual programming environmen](https://www.recurse.com/social-rules)
+- [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 
 ## Conferences
 

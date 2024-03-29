@@ -114,6 +114,11 @@
 - [Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals](https://github.com/plasma-umass/scalene)
 - [Generates call graphs for dynamic programming language](https://github.com/scottrogowski/code2flow)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
+
+## Colors
+
+- [ColorAid: a pure Python, object oriented approach to colors](https://github.com/facelessuser/coloraide)
 
 ## Dash
 
@@ -189,6 +194,11 @@
 
 - [IO streams and ZIP archives](https://medium.com/dev-bits/ultimate-guide-for-working-with-i-o-streams-and-zip-archives-in-python-3-6f3cf96dca50)
 
+## Feature flags
+
+- [OpenFeature: an open specification that provides a vendor-agnostic, community-driven API for feature flagging](https://github.com/open-feature/python-sdk)
+- [GO Feature Flag: a completely open-source, simple and lightweight feature flag solution](https://gofeatureflag.org/docs/openfeature_sdk/server_providers/openfeature_python)
+
 ## Functional programming
 
 - [Functions attributes](https://towardsdatascience.com/hidden-gems-of-python-76020b14e42f)
@@ -252,6 +262,7 @@
 
 - [Structured logging](https://github.com/hynek/structlog)
 - [Whylogs for data logging](https://github.com/whylabs/whylogs)
+- [Toolong: a terminal application to view, tail, merge, and search log files](https://github.com/Textualize/toolong)
 
 ## Missing values
 
@@ -312,6 +323,7 @@
 - [Dataframe manipulations explained](https://towardsdatascience.com/every-dataframe-manipulation-explained-visualized-intuitively-dbeea7a5529e)
 - [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
 - [Pandas illustrated: a visual guide](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+- [PandasAI: a Python library to ask questions to your data in natural language](https://github.com/Sinaptik-AI/pandas-ai)
 
 ### Numpy
 
@@ -322,6 +334,7 @@
 - [Polars](https://github.com/pola-rs/polars)
 - [Polars intro by Practical Business Python](https://pbpython.com/polars-intro.html)
 - [Great Tables: The Polars DataFrame Styler of Your Dreams](https://posit-dev.github.io/great-tables/blog/polars-styling/?li_fat_id=e8e50df8-f912-4082-a37e-4ab70b22c848)
+- [Using Polars in a Pandas world](https://pythonspeed.com/articles/polars-pandas-interopability/)
 
 ### Daft
 
@@ -391,6 +404,10 @@
 
 - [Probabl open source gallery](https://www.probabl.ai/open-source)
 
+## Search engine
+
+- [lunr: simple and powerful full text search capabilities](https://github.com/yeraydiazdiaz/lunr.py)
+
 ## Standard library
 
 - [Math module overview](https://realpython.com/python-math-module/)
@@ -446,6 +463,7 @@
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
+- [LDAP authenticator](https://github.com/NathanChen198/streamlit-ldap-authenticator)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [Marquee banner](https://github.com/inspurer/streamlit-marquee)
 - [Option menù](https://github.com/victoryhb/streamlit-option-menu)
@@ -513,6 +531,9 @@
 - [Barcode generation with Python](https://towardsdatascience.com/generate-barcode-using-python-2da187f46954)
 - [Modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 - [`pysentation`: a CLI for displaying Python presentations](https://github.com/mimseyedi/pysentation)
+- [Pint: a Python package to define, operate and manipulate physical quantities](https://github.com/hgrecco/pint)
+- [kanban-python: your terminal Kanban-board manager](https://github.com/Zaloog/kanban-python)
+- [humanize: various common humanization utilities](https://github.com/python-humanize/humanize)
 
 ## Python versions
 
@@ -556,6 +577,9 @@
 - [NiceGUI](https://github.com/zauberzeug/nicegui/)
 - [Vizro is a toolkit for creating modular data visualization applications](https://github.com/mckinsey/vizro)
 - [Panel for data apps](https://medium.com/@marcskovmadsen/i-prefer-to-use-panel-for-my-data-apps-here-is-why-1ff5d2b98e8f)
+- [Playwright: reliable end-to-end testing for modern web apps](https://playwright.dev/python/)
+- [Grog: a CLI that creates a Gradio UI for a Cog application](https://github.com/multimodalart/grog)
+- [Gradio Themes Gallery](https://huggingface.co/spaces/gradio/theme-gallery)
 
 ## Web scraping
 

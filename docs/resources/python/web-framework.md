@@ -27,3 +27,6 @@
 - [NiceGUI](https://github.com/zauberzeug/nicegui/)
 - [Vizro is a toolkit for creating modular data visualization applications](https://github.com/mckinsey/vizro)
 - [Panel for data apps](https://medium.com/@marcskovmadsen/i-prefer-to-use-panel-for-my-data-apps-here-is-why-1ff5d2b98e8f)
+- [Playwright: reliable end-to-end testing for modern web apps](https://playwright.dev/python/)
+- [Grog: a CLI that creates a Gradio UI for a Cog application](https://github.com/multimodalart/grog)
+- [Gradio Themes Gallery](https://huggingface.co/spaces/gradio/theme-gallery)

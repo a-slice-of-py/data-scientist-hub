@@ -49,3 +49,4 @@
 - [Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals](https://github.com/plasma-umass/scalene)
 - [Generates call graphs for dynamic programming language](https://github.com/scottrogowski/code2flow)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
