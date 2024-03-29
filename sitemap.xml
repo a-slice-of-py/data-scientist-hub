@@ -2,1457 +2,1482 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/about/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/tags/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2021/12/21/a-comparison-between-aws-chalice-and-aws-sam/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2021/12/21/aws-codebuild-local-testing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2022/02/02/a-comparison-between-aws-databases/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2023/01/09/read-dynamodb-table-items-into-a-pandas-dataframe/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2021/12/21/an-introduction-to-amazon-dynamodb/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2022/01/19/amazon-ec2-instance-debug/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2021/10/15/how-to-display-aws-cloudwatch-logs-in-streamlit/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2021/12/21/aws-s3-presigned-urls/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2021/12/21/build-lambda-layers-with-aws-sam/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2022/10/13/best-practices-per-aws-cdk-l3-constructs/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2022/01/05/how-to-survive-a-forced-reset-of-local-development-environment/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2020/06/11/a-brief-guide-to-gnu-make/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2019/08/12/a-brief-guide-to-pythons-pulp/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/02/01/a-visual-comparison-of-aws-certifications/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/01/29/aws-certification-skill-tree/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/01/24/all-you-need-is-closure/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2023/11/30/prestotrino-unix-timestamp-window-functions-e-daylight-saving-time/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/01/08/convert-a-markdown-file-to-docx-with-pandoc/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/01/02/cross-account-full-table-copy-options-for-amazon-dynamodb/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2024/01/03/terminal-user-interface/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2020/05/12/a-guide-to-transportation-problems/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/aws/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/aws/services/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/aws/utils/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/career-development/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/conferences/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/jobs/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/negotiation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/portfolio/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/preparation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/career/technical-skills/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/architecture/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/basics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/database/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/format/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/monitoring/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/os/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/rest-api/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/tools/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/unit-testing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/a-b-testing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/anomaly-detection/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/automl/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/bayesian-methods/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/bin-packing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/binsize/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/causal-inference/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/churn-analysis/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/classification/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/clustering/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/code-differentiation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/community-detection/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/computer-vision/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/correlation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/curse-of-dimensionality/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/customer-value/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/datasets/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/deep-learning/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/dimensionality-reduction/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/dynamic-pricing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/embeddings/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/energy/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/ensemble-models/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/ethics/</loc>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/features-engineering-selection/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/football-analytics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/function-learning/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/game-theory/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/gaussian-mixture-models/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/gaussian-processes/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/genetic-algorithm/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/geo/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/gradient-methods/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/hyperparameters-tuning/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/information-theory/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/kernel-methods/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/llm/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/machine-learning/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/marketing-analytics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/markov-chains/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/mcmc/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/nearest-neighbors/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/neural-networks/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/nlp/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/objects-tracking/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/ocr/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/optimization/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/pattern-mining/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/physics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/predictive-maintenance/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/probability-statistics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/regression/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/reinforcement-learning/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/resampling/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/revenue-science/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/scada/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/similarity-measures/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/simulated-annealing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/sql/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/streaming-ml/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/structural-equation-modeling/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/svm/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/synthetic-data/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/time-series/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/trees/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/weather/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-science/xai/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/3d/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/altair/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/animations/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/books/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/chord-diagram/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/clustering/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/colors/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/confusion-matrix/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/dashboard/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/data-journalism/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/data-mapping/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/data-storytelling/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/datamapplot/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/datashader/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/decision-trees/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/design/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/distribution/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/dumbbell-charts/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/eda/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/energy/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/geodata/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/gui/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/hierarchical/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/high-dimensional-data/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/js-libraries/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/line/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/model-accuracy/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/network/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/pie-chart/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/plotly/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/publications-plot/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/reports/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/ridgeline/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/roc-curve/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/scatterplot/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/seaborn/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/social-science/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/strip-charts/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/theory/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/time-series/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/tools/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/upset-plot/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-visualization/widgets/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/collaborative-coding/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/competition/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/cons/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/data-art-science/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/gamification/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/methodology/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/python/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/quantum-computing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/regulation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/teaching/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/technical-skills/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/technical-writing/</loc>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/tools/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/education/videos/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/misc/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/misc/games/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/misc/hardware/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/misc/km/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/misc/math/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/misc/physics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/api/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/asynchronous-programming/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/audio/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/automate-boring-stuff/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/caching/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/carbon-footprint/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/cheatsheets/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/cli/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/code-freezing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/code-maintenance/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/colors/</loc>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/dash/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/data-augmentation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/data-processing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/data-structures/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/data-validation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/datatable/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/datetime/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/dependencies/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/digital-clock/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/documentation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/dtale/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/file-system/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/flag/</loc>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/functional-programming/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/game-development/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/gui/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/holidays/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/hypothesis-testing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/jupyter/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/logging/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/missing-values/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/numpy/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/oo-programming/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/orm/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/ortools/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/pandas/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/password/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/pathlib/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/polymorphism/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/privacy/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/process-simulation/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/project-packaging/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/regex/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/scikit-learn/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/search-engine/</loc>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/stdlib/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/streamlit/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/strings/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/structural-pattern-matching/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/tensorflow/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/testing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/utils/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/versions/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/video-editing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/vocal-reader/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/web-framework/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/web-scraping/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/whatsapp/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/python/windows-client/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/jupyter/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/sklearn/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/stdlib/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/snippets/streamlit/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/cmder/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/code-freezing/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/coding/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/cron/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/docker/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/drawio/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/git-versioning/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/github/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/google/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/graphics/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/graphql/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/html/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/impress-js/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/json/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/markdown/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/misc/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/performance-monitoring/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/project-management/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/quarto/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/reveal-js/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/slack/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/software-development/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/terminal/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/visual-studio-code/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/wsl/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/tools/yaml/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/books/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/certifications/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/competitions/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/courses/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/heroes/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/learning-path/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/master/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/mooc/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/papers/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/programming-languages/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/training/schools/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2024/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2023/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2022/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2021/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2020/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2019/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/til/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/announcements/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/guides/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/page/2/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/page/3/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/tags/</loc>
-         <lastmod>2024-02-27</lastmod>
+         <lastmod>2024-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
