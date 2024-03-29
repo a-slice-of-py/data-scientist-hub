@@ -89,7 +89,8 @@ markdown_extensions:
 plugins:
   - search
   - social:
-      enabled: !ENV [ENABLE_MKDOCS_PLUGIN, true]
+      # temporarly disabled due to https://github.com/squidfunk/mkdocs-material/issues/6983
+      enabled: !ENV [ENABLE_MKDOCS_PLUGIN, false]
       cards_layout: default/variant
   - awesome-pages
   - blog:
