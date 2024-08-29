@@ -181,6 +181,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/changelog/2024-08-29/</loc>
+         <lastmod>2024-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/resources/data-engineering/</loc>
          <lastmod>2024-08-29</lastmod>
          <changefreq>daily</changefreq>
