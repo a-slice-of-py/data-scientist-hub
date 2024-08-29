@@ -29,3 +29,5 @@
 - [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
 - [git effort: show effort statistics on file](https://github.com/tj/git-extras/blob/master/man/git-effort.md)
 - [PyDriller: a Python framework to analyze Git repositories](https://github.com/ishepard/pydriller)
+- [How To Clone Specific Subdirectory with Git](https://medium.com/@judyess/how-to-clone-specific-subdirectory-branch-with-git-3fb02fd35b68)
+- [git-cliff: a highly customizable changelog generator](https://git-cliff.org/)

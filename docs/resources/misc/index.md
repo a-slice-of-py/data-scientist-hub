@@ -46,6 +46,7 @@
 ### Symbolic calculations
 
 - [Latex sympy calculator VSC extension](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator)
+- [How the Lean language brings math to coding and coding to math](https://www.amazon.science/blog/how-the-lean-language-brings-math-to-coding-and-coding-to-math)
 
 ### Algorithms
 

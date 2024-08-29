@@ -4,6 +4,7 @@
 - [`behave`: behavior-driven development based on Gherkin syntax](https://github.com/behave/behave)
 - [`hypothesis`: generates simple and comprehensible examples that make your tests fail](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python)
 - [`mutmut`: a mutation testing system for Python, with a strong focus on ease of use](https://github.com/boxed/mutmut)
+- [`freezegun`: let your Python tests travel through time](https://github.com/spulec/freezegun)
 
 ## Unit tests
 

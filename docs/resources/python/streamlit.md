@@ -28,6 +28,9 @@
 - [Simplifying generative AI workflows](https://blog.streamlit.io/simplifying-generative-ai-workflows/)
 - [Streamlit Contact Form Template](https://github.com/jlnetosci/streamlit-contact-form)
 - [Search grid for a Pandas DataFrame](https://github.com/sqlinsights/df-global-search/tree/main)
+- [Streamlit auth via JWT and FastAPI](https://github.com/andfanilo/social-media-tutorials/tree/master/20240716-streamlit-fastapi-multipage-auth)
+- [Build a chatbot with custom data sources, powered by LlamaIndex](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/amp/)
+- [Streamlit: an opinionated framework](https://blog-streamlit-io.cdn.ampproject.org/c/s/blog.streamlit.io/just-build-it-streamlit-opinionated-framework/amp/)
 
 ## Components
 
@@ -43,12 +46,15 @@
 - [Extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
 - [Float: fix the vertical position of containers relative to viewport instead of page](https://github.com/bouzidanas/streamlit-float)
+- [Streamlit Component to quickly create Interactive Flow Diagrams using React Flow](https://github.com/dkapur17/streamlit-flow)
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [LDAP authenticator](https://github.com/NathanChen198/streamlit-ldap-authenticator)
+- [Link analysis](https://github.com/AlrasheedA/st-link-analysis)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [Marquee banner](https://github.com/inspurer/streamlit-marquee)
+- [Navigation bar](https://github.com/gabrieltempass/streamlit-navigation-bar)
 - [Option menù](https://github.com/victoryhb/streamlit-option-menu)
 - [Pyvista for 3D objects visualization](https://discuss.streamlit.io/t/stpyvista-show-pyvista-3d-visualizations-in-streamlit/31802/4)
 - [Raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)

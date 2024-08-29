@@ -14,6 +14,8 @@
 - [Python4DS](https://aeturrell.github.io/python4DS/welcome.html)
 - [The Data Engineering Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 - [Stochastic Simulation: from Uniform Random Numbers to Generative Models](https://akyildiz.me/works/simulation_book.pdf)
+- [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html)
+- [Books that influenced Robust Python by Pat Viafore](https://patviafore.com/2024/07/30/on-the-shoulders-of-giants/)
 
 ## Certifications
 

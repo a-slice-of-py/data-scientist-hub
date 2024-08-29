@@ -7,3 +7,5 @@
 - [Pint: a Python package to define, operate and manipulate physical quantities](https://github.com/hgrecco/pint)
 - [kanban-python: your terminal Kanban-board manager](https://github.com/Zaloog/kanban-python)
 - [humanize: various common humanization utilities](https://github.com/python-humanize/humanize)
+- [pycountry: a Python library to access ISO country, subdivision, language, currency and script definitions and their translations](https://github.com/pycountry/pycountry)
+- [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)

@@ -2,6 +2,7 @@
 
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
 - [Cosmos: large networks visualization](https://github.com/cosmograph-org/cosmos)
+- [Visualize streams of multimodal data with rerun](https://github.com/rerun-io/rerun)
 
 ## Andrews curves
 

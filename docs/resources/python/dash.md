@@ -9,3 +9,4 @@
 - [`awesome-dash`](https://github.com/Acrotrend/awesome-dash)
 - [Metrics in `dash`](http://jmdaignan.com/2018/02/26/metricsdash/)
 - [Long callbacks in Dash](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937)
+- [What is a Data App?](https://plotly.com/blog/what-is-a-data-app/)

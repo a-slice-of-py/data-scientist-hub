@@ -5,3 +5,4 @@
 - [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
 - [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
 - [RAWGraphs](https://www.rawgraphs.io/)
+- [Data Viz Catalogue](https://datavizcatalogue.com/)

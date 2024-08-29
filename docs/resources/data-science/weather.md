@@ -5,3 +5,5 @@
 - [Meteostat Python library](https://github.com/meteostat/meteostat-python)
 - [GraphCast: AI model for faster and more accurate global weather forecasting](https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/)
 - [GraphCast: Learning skillful medium-range global weather forecasting](https://github.com/google-deepmind/graphcast)
+- [NeuralGCM: a Python library for building hybrid ML/physics atmospheric models for weather and climate simulation](https://github.com/google-research/neuralgcm)
+- [Aurora: a Foundation Model of the Atmosphere](https://github.com/microsoft/aurora)

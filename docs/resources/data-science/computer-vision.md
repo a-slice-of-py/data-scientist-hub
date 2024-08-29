@@ -6,3 +6,4 @@
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
 - [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)
+- [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)

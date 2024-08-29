@@ -15,6 +15,7 @@
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
 - [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
+- [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
 
 ## Model evaluation
 
@@ -26,6 +27,7 @@
 - [Cross validation](https://towardsdatascience.com/cross-validation-c4fae714f1c5)
 - [Validation curve](https://towardsdatascience.com/validation-curve-explained-plot-the-influence-of-a-single-hyperparameter-1ac4864deaf8)
 - [MAPIE for confidence prediction intervals estimation](https://github.com/scikit-learn-contrib/MAPIE)
+- [Why You Should Never Use Cross-Validation](https://towardsdatascience.com/why-you-should-never-use-cross-validation-4360d42456ac)
 
 ## Model monitoring
 

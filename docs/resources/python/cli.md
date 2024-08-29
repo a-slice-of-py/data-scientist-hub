@@ -5,3 +5,4 @@
 - [Python Fire](https://github.com/google/python-fire#why-is-it-called-fire)
 - [Typer](https://typer.tiangolo.com/)
 - [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
+- [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)

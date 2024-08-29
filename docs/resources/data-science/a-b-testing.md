@@ -6,3 +6,4 @@
 - [Netflix: interpreting A/B testing results part 1](https://netflixtechblog.com/interpreting-a-b-test-results-false-positives-and-statistical-significance-c1522d0db27a)
 - [Netflix: interpreting A/B testing results part 2](https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8)
 - [How to Accurately Test Significance with Difference in Difference Models](https://engineering.atspotify.com/2023/09/how-to-accurately-test-significance-with-difference-in-difference-models/)
+- [Forget Statistical Tests: A/B Testing Is All About Simulations](https://towardsdatascience.com/forget-statistical-tests-a-b-testing-is-all-about-simulations-33efa2241ae2)

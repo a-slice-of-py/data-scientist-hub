@@ -16,7 +16,7 @@ It all started with random mails to myself to store somewhere useful links I cam
 
 ## Whois
 
-I am a former [mathematician](https://arxiv.org/abs/1807.11287)[^1], amateur [singer, guitarist and music producer](https://radrocks.bandcamp.com/album/dieci) and casual [hiker](https://goo.gl/maps/XFowRG5hPc7ufbX69) - currently employed as Data Scientist.
+I am a former [mathematician](https://arxiv.org/abs/1807.11287)[^1], amateur [singer, guitarist and music producer](https://radrocks.bandcamp.com/album/dieci) and casual [hiker](https://goo.gl/maps/XFowRG5hPc7ufbX69) - currently employed as [Data Scientist](https://www.youtube.com/watch?v=yOX1lJ5-eMk).
 
 You can find me on [GitHub](https://github.com/a-slice-of-py) or [Linkedin](https://it.linkedin.com/in/silviolugaro).
 

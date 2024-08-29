@@ -166,6 +166,7 @@
 - [Prettymaps](https://github.com/marceloprates/prettymaps)
 - [Visualizing routes with VeRoViz](https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4)
 - [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)
+- [Isochrones in Python via OSMnx](https://towardsdatascience.com/isochrones-in-python-fe21814e5cb1)
 
 ## GUI
 
@@ -181,6 +182,7 @@
 
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
 - [Cosmos: large networks visualization](https://github.com/cosmograph-org/cosmos)
+- [Visualize streams of multimodal data with rerun](https://github.com/rerun-io/rerun)
 
 ### Andrews curves
 
@@ -232,6 +234,7 @@
 ## Ridgeline plots
 
 - [`joypy` for drawing ridgeline plots](https://github.com/leotac/joypy)
+- [Ridge plots of ridges](https://github.com/ColCarroll/ridge_map)
 
 ## ROC Curve
 
@@ -310,6 +313,7 @@
 - [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
 - [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
 - [RAWGraphs](https://www.rawgraphs.io/)
+- [Data Viz Catalogue](https://datavizcatalogue.com/)
 
 ## Upset plot
 

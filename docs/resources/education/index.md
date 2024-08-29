@@ -113,9 +113,11 @@
 - [The Privileged Have Entered Their Escape Pods](https://onezero.medium.com/the-privileged-have-entered-their-escape-pods-4706b4893af7)
 - [Complessita crescente vs. management e consulenza old-style: cosa non funziona e perchè](https://allaboutdata.substack.com/p/complessita-crescente-vs-management?publication_id=786563&post_id=118548223&triggerShare=true&isFreemail=true)
 - [The Paradigm Shift to Cloudless Computing](https://www.oreilly.com/radar/the-paradigm-shift-to-cloudless-computing/)
-- [The Real Problem with Software Development: It's not writing code, it's managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
 - [Il curioso caso Orosz vs. McKinsey: Come misurare gli sviluppatori e una riflessione sull'autorevolezza](https://allaboutdata.substack.com/p/il-curioso-caso-orosz-vs-mckinsey)
 - [hacker-laws: laws, theories, principles and patterns that developers will find useful](https://github.com/dwmkerr/hacker-laws)
+- [Il Libro Open Source](https://il-libro-open-source.github.io/book/)
+- [8 Years in Data: What I Wish I’d Known from the Start](https://towardsdatascience.com/8-years-in-data-what-i-wish-id-known-from-the-start-d2af8e6fc829)
+- [Potemkin Data Science](https://mcorrell.medium.com/potemkin-data-science-fba2b5ba5cc6)
 
 ## Python
 

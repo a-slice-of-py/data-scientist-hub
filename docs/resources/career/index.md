@@ -43,6 +43,7 @@
 - [Glue work](https://noidea.dog/glue)
 - [Recurse Social Rules to create a friendly, intellectual programming environmen](https://www.recurse.com/social-rules)
 - [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
+- [Run Your Data Team Like A Product Team](https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/)
 
 ## Conferences
 

@@ -26,3 +26,8 @@
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 - [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
 - [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
+
+## marimo
+
+- [Marimo](https://github.com/marimo-team/marimo)
+- [quak: a scalable data profiler](https://github.com/manzt/quak)

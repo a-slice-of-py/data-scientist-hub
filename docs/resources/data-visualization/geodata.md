@@ -18,3 +18,4 @@
 - [Prettymaps](https://github.com/marceloprates/prettymaps)
 - [Visualizing routes with VeRoViz](https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4)
 - [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)
+- [Isochrones in Python via OSMnx](https://towardsdatascience.com/isochrones-in-python-fe21814e5cb1)

@@ -57,6 +57,7 @@
 - [Python Fire](https://github.com/google/python-fire#why-is-it-called-fire)
 - [Typer](https://typer.tiangolo.com/)
 - [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
+- [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)
 
 ## Code freezing
 
@@ -115,10 +116,12 @@
 - [Generates call graphs for dynamic programming language](https://github.com/scottrogowski/code2flow)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 - [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
+- [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
 
 ## Colors
 
 - [ColorAid: a pure Python, object oriented approach to colors](https://github.com/facelessuser/coloraide)
+- [pypalettes: a large (+2500) collection of color maps for Python](https://github.com/JosephBARBIERDARNAL/pypalettes) and its [color palette finder](https://python-graph-gallery.com/color-palette-finder/)
 
 ## Dash
 
@@ -131,12 +134,14 @@
 - [`awesome-dash`](https://github.com/Acrotrend/awesome-dash)
 - [Metrics in `dash`](http://jmdaignan.com/2018/02/26/metricsdash/)
 - [Long callbacks in Dash](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937)
+- [What is a Data App?](https://plotly.com/blog/what-is-a-data-app/)
 
 ## Data Augmentation
 
 - [AugLy](https://github.com/facebookresearch/AugLy)
 - [`snorkel` for training data labeling](https://github.com/snorkel-team/snorkel)
 - [Cleanlab: automatically find and fix label issues in ML datasets](https://docs.cleanlab.ai/stable/index.html)
+- [Bulk: a quick developer tool to apply some bulk labels](https://github.com/koaning/bulk)
 
 ## Data Processing
 
@@ -185,6 +190,7 @@
 - [mkdocs-jupyter: use Jupyter Notebooks in mkdocs](https://github.com/danielfrg/mkdocs-jupyter)
 - [Python markdown terminal built for mkdocs](https://github.com/mkdocs-plugins/termynal)
 - [Mkdocs Newsletter: show the changes of documentation repositories in a user friendly format](https://lyz-code.github.io/mkdocs-newsletter/)
+- [Python Code Playground in MkDocs](https://towardsdatascience.com/python-code-playground-in-mkdocs-cc05eddceb63)
 
 ## DTale
 
@@ -219,6 +225,7 @@
 
 - [Toga: a Python native, OS native GUI toolkit](https://github.com/beeware/toga)
 - [Textual: a Rapid Application Development framework for Python](https://github.com/textualize/textual/)
+- [DearPyGui: a modern, fast and powerful GUI framework for Python](https://github.com/hoffstadt/DearPyGui/)
 
 ## Holidays
 
@@ -257,6 +264,11 @@
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 - [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
 - [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
+
+### marimo
+
+- [Marimo](https://github.com/marimo-team/marimo)
+- [quak: a scalable data profiler](https://github.com/manzt/quak)
 
 ## Logging
 
@@ -343,6 +355,12 @@
 ### Ibis
 
 - [Ibis: the portable Python dataframe library](https://ibis-project.org/why)
+- [ibis introduction by calmcode](https://calmcode.io/course/ibis/introduction)
+
+### Narwhals
+
+- [Narwhals: lightweight and extensible compatibility layer between dataframe libraries!](https://github.com/narwhals-dev/narwhals)
+- [How Narwhals and scikit-lego came together to achieve dataframe-agnosticism](https://labs.quansight.org/blog/scikit-lego-narwhals)
 
 ## Password Management
 
@@ -378,6 +396,7 @@
 - [Pooch: a friend to fetch your data files](https://github.com/fatiando/pooch)
 - [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
 - [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
+- [uv: an extremely fast Python package and project manager, written in Rust](https://github.com/astral-sh/uv)
 
 ## Regex
 
@@ -399,6 +418,7 @@
 - [`scikit-lego`](https://github.com/koaning/scikit-lego)
 - [`lazypredict`](https://github.com/shankarpandala/lazypredict)
 - [`human-learn` to rule-based learning and interactive drawing rules](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
+- [`scikit-mdn`: a mixture density network, by PyTorch, for scikit-learn](https://github.com/koaning/scikit-mdn)
 
 ### Probabl
 
@@ -445,6 +465,9 @@
 - [Simplifying generative AI workflows](https://blog.streamlit.io/simplifying-generative-ai-workflows/)
 - [Streamlit Contact Form Template](https://github.com/jlnetosci/streamlit-contact-form)
 - [Search grid for a Pandas DataFrame](https://github.com/sqlinsights/df-global-search/tree/main)
+- [Streamlit auth via JWT and FastAPI](https://github.com/andfanilo/social-media-tutorials/tree/master/20240716-streamlit-fastapi-multipage-auth)
+- [Build a chatbot with custom data sources, powered by LlamaIndex](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/amp/)
+- [Streamlit: an opinionated framework](https://blog-streamlit-io.cdn.ampproject.org/c/s/blog.streamlit.io/just-build-it-streamlit-opinionated-framework/amp/)
 
 ### Components
 
@@ -460,12 +483,15 @@
 - [Extras](https://github.com/arnaudmiribel/streamlit-extras)
 - [Extra components](https://github.com/Mohamed-512/Extra-Streamlit-Components)
 - [Float: fix the vertical position of containers relative to viewport instead of page](https://github.com/bouzidanas/streamlit-float)
+- [Streamlit Component to quickly create Interactive Flow Diagrams using React Flow](https://github.com/dkapur17/streamlit-flow)
 - [Image comparison](https://github.com/fcakyon/streamlit-image-comparison)
 - [Image cropper](https://github.com/erjieyong/streamlit-cropperjs)
 - [Image selection component](https://github.com/jrieke/streamlit-image-select)
 - [LDAP authenticator](https://github.com/NathanChen198/streamlit-ldap-authenticator)
+- [Link analysis](https://github.com/AlrasheedA/st-link-analysis)
 - [Lottie animations with `streamlit-lottie`](https://github.com/andfanilo/streamlit-lottie)
 - [Marquee banner](https://github.com/inspurer/streamlit-marquee)
+- [Navigation bar](https://github.com/gabrieltempass/streamlit-navigation-bar)
 - [Option menù](https://github.com/victoryhb/streamlit-option-menu)
 - [Pyvista for 3D objects visualization](https://discuss.streamlit.io/t/stpyvista-show-pyvista-3d-visualizations-in-streamlit/31802/4)
 - [Raw echarts](https://github.com/liunux4odoo/streamlit-raw-echarts)
@@ -514,6 +540,7 @@
 - [`behave`: behavior-driven development based on Gherkin syntax](https://github.com/behave/behave)
 - [`hypothesis`: generates simple and comprehensible examples that make your tests fail](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python)
 - [`mutmut`: a mutation testing system for Python, with a strong focus on ease of use](https://github.com/boxed/mutmut)
+- [`freezegun`: let your Python tests travel through time](https://github.com/spulec/freezegun)
 
 ### Unit tests
 
@@ -534,6 +561,8 @@
 - [Pint: a Python package to define, operate and manipulate physical quantities](https://github.com/hgrecco/pint)
 - [kanban-python: your terminal Kanban-board manager](https://github.com/Zaloog/kanban-python)
 - [humanize: various common humanization utilities](https://github.com/python-humanize/humanize)
+- [pycountry: a Python library to access ISO country, subdivision, language, currency and script definitions and their translations](https://github.com/pycountry/pycountry)
+- [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)
 
 ## Python versions
 
@@ -548,7 +577,7 @@
 - [How to build an audiobook](https://towardsdatascience.com/build-your-own-audiobook-in-7-lines-of-python-code-bfd805fca4b1)
 - [How to make your computer talk](https://towardsdatascience.com/how-to-make-your-computer-talk-with-python-63f6c6eb534a)
 
-## Web Framework
+## Web App Framework
 
 - [Deploying ML model as a REST API](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
 - [Denzel](https://denzel.readthedocs.io/en/latest/tutorial.html)
@@ -580,6 +609,8 @@
 - [Playwright: reliable end-to-end testing for modern web apps](https://playwright.dev/python/)
 - [Grog: a CLI that creates a Gradio UI for a Cog application](https://github.com/multimodalart/grog)
 - [Gradio Themes Gallery](https://huggingface.co/spaces/gradio/theme-gallery)
+- [DearPyGui: a fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies](https://github.com/hoffstadt/DearPyGui)
+- [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)
 
 ## Web scraping
 

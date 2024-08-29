@@ -1,4 +1,4 @@
-# Web Framework
+# Web App Framework
 
 - [Deploying ML model as a REST API](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
 - [Denzel](https://denzel.readthedocs.io/en/latest/tutorial.html)
@@ -30,3 +30,5 @@
 - [Playwright: reliable end-to-end testing for modern web apps](https://playwright.dev/python/)
 - [Grog: a CLI that creates a Gradio UI for a Cog application](https://github.com/multimodalart/grog)
 - [Gradio Themes Gallery](https://huggingface.co/spaces/gradio/theme-gallery)
+- [DearPyGui: a fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies](https://github.com/hoffstadt/DearPyGui)
+- [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)

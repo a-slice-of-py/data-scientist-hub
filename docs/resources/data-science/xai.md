@@ -18,3 +18,4 @@
 - [SHAP vs ACV](https://towardsdatascience.com/the-right-way-to-compute-your-shapley-values-cfea30509254)
 - [FastTreeSHAP: speed up SHAP values computation for tree-based models](https://github.com/linkedin/fasttreeshap)
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
+- [PiML (Python Interpretable Machine Learning) toolbox for model development & diagnostics](https://github.com/SelfExplainML/PiML-Toolbox)

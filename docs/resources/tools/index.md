@@ -67,6 +67,8 @@
 - [git-story: tell the story of a Git project by creating video animations](https://github.com/initialcommit-com/git-story)
 - [git effort: show effort statistics on file](https://github.com/tj/git-extras/blob/master/man/git-effort.md)
 - [PyDriller: a Python framework to analyze Git repositories](https://github.com/ishepard/pydriller)
+- [How To Clone Specific Subdirectory with Git](https://medium.com/@judyess/how-to-clone-specific-subdirectory-branch-with-git-3fb02fd35b68)
+- [git-cliff: a highly customizable changelog generator](https://git-cliff.org/)
 
 ## Github
 
@@ -114,12 +116,14 @@
 ## Performance monitoring
 
 - [Netdata](https://github.com/netdata/netdata)
+- [web-check: all-in-one OSINT tool for analysing any website](https://github.com/lissy93/web-check)
 
 ## Project Management
 
 - [Optimize a to-do list with Monte Carlo simulations](https://towardsdatascience.com/optimise-your-todo-list-with-monte-carlo-simulations-in-python-1682a8a5eb84)
 - [Estimating tasks with statistics and simulations](https://towardsdatascience.com/estimating-tasks-with-statistics-and-simulations-using-python-ddd1df3c7ce1)
 - [Decide better together: answer a few simple questions to explore better ways to make group decisions](https://thedecider.app/)
+- [A Decision-Making Framework for Identifying Strategic Innovative Projects](https://andreagigli.medium.com/a-decision-making-framework-for-identifying-strategic-innovative-projects-055361406924)
 
 ## Quarto
 
@@ -139,6 +143,11 @@
 - [Software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes/)
 - [AWS guidelines for Correction of Error](https://wa.aws.amazon.com/wat.concept.coe.en.html)
 - [Backstage by Spotify: an open platform for building developer portals](https://backstage.io/)
+- [The Real Problem with Software Development: It's not writing code, it's managing complexity](https://www.oreilly.com/radar/the-real-problem-with-software-development/)
+- [Understanding Polylith through the lens of Hexagonal architecture](https://medium.com/@joakimtengstrand/understanding-polylith-through-the-lens-of-hexagonal-architecture-8e7c8757dab1)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [All Code Is Technical Debt](https://blog.professorbeekums.com/all-code-is-debt/)
+- [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
 
 ## Terminal
 

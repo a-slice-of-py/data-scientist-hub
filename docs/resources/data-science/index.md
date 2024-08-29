@@ -8,6 +8,7 @@
 - [Netflix: interpreting A/B testing results part 1](https://netflixtechblog.com/interpreting-a-b-test-results-false-positives-and-statistical-significance-c1522d0db27a)
 - [Netflix: interpreting A/B testing results part 2](https://netflixtechblog.com/interpreting-a-b-test-results-false-negatives-and-power-6943995cf3a8)
 - [How to Accurately Test Significance with Difference in Difference Models](https://engineering.atspotify.com/2023/09/how-to-accurately-test-significance-with-difference-in-difference-models/)
+- [Forget Statistical Tests: A/B Testing Is All About Simulations](https://towardsdatascience.com/forget-statistical-tests-a-b-testing-is-all-about-simulations-33efa2241ae2)
 
 ## Anomaly detection
 
@@ -146,6 +147,7 @@
 - [FiftyOne app](https://github.com/voxel51/fiftyone)
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
 - [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)
+- [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 
 ## Correlation
 
@@ -186,6 +188,8 @@
 - [Folktables](https://github.com/socialfoundations/folktables)
 - [The official portal for European data](https://data.europa.eu/en)
 - [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)
+- [Dataset imports from UCI ML Repository](https://github.com/uci-ml-repo/ucimlrepo)
+- [Eurostat Data](https://ec.europa.eu/eurostat/en/web/main/data)
 
 ## Deep Learning
 
@@ -208,6 +212,7 @@
 - [An intuitive introduction to text embeddings](https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings)
 - [The Hidden World of (Vector) Indexes](https://towardsdatascience.com/the-hidden-world-of-vector-indexes-f320a626c3dd)
 - [Why cosine similarity between sentence embeddings is always positive](https://datascience.stackexchange.com/questions/101862/cosine-similarity-between-sentence-embeddings-is-always-positive)
+- [What are embeddings?](https://vickiboykis.com/what_are_embeddings/index.html)
 
 ## Energy and Power Systems
 
@@ -277,12 +282,24 @@
 - [Proximity Analysis: a few words about spatial data processing](https://towardsdatascience.com/proximity-analysis-to-find-the-nearest-bar-using-python-a29d29a3754d)
 - [Deep Dive into ESA's Sentinel API](https://towardsdatascience.com/deep-dive-into-esas-sentinel-api-e6ff4f9d0730)
 - [Geospatial Analysis and Representation for Data Science course for the master in Data Science University of Trento](https://napo.github.io/geospatial_course_unitn/)
-- [Overture Maps Data Repo](https://github.com/OvertureMaps/data)
 - [3D Geospatial Data Integration with Python: The Ultimate Guide](https://towardsdatascience.com/3d-spatial-data-integration-with-python-7ef8ef14589a)
 - [`srai`: Spatial Representations for Artificial Intelligence](https://github.com/kraina-ai/srai)
 - [Earth Isn't Flat, and Neither Should Your Voronoi Diagrams Be](https://towardsdatascience.com/earth-isnt-flat-and-neither-should-your-voronoi-diagrams-be-25137e0a073b)
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)
 - [Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3](https://towardsdatascience.com/geospatial-indexing-explained-a-comparison-of-geohash-s2-and-h3-68d4ed7e366d)
+
+### OpenStreetMap
+
+- [Overpass Turbo](https://overpass-turbo.eu/)
+- [Humanitarian OpenStreetMap Team](https://github.com/hotosm)
+
+### Overture Maps
+
+- [Overture Maps data](https://github.com/OvertureMaps/data)
+- [Overture Maps docs](https://github.com/OvertureMaps/docs)
+- [Exploring Overture data, no SQL required](https://docs.overturemaps.org/blog/2024/07/24/explore-site/)
+- [Overture Grabber](https://overturegrabber.evanapplegate.com/)
+- [Overture GERS: Towards Standardizing Place](https://www.dbreunig.com/2024/07/31/towards-standardizing-place.html)
 
 ## Gradient methods
 
@@ -357,6 +374,28 @@
 - [Gemma: una nuova famiglia di modelli aperti](https://blog.google/intl/it-it/una-nuova-famiglia-di-modelli-aperti-denominata-gemma/)
 - [DSPy: the framework for programming - not prompting! - foundation models](https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9)
 - [Text Embeddings: Comprehensive Guide](https://towardsdatascience.com/text-embeddings-comprehensive-guide-afd97fce8fb5)
+- [Developers with AI assistants need to follow the pair programming model](https://stackoverflow.blog/2024/04/03/developers-with-ai-assistants-need-to-follow-the-pair-programming-model/?utm_campaign=so-blog&utm_content=pair-programming&utm_medium=social&utm_source=linkedin)
+- [LLM Evaluation](https://huggingface.co/blog/clefourrier/llm-evaluation)
+- [A programming framework for agentic AI](https://github.com/microsoft/autogen)
+- [Gemma 2 optimized for your local machine](https://github.com/huggingface/local-gemma)
+- [GraphRAG: a modular graph-based Retrieval-Augmented Generation (RAG) system](https://github.com/microsoft/graphrag)
+- [Explaining generative language models to (almost) anyone](https://stackoverflow.blog/2024/06/27/explaining-generative-language-models-to-almost-anyone/)
+- [Auditing the Ask Astro LLM Q&A app](https://blog.trailofbits.com/2024/07/05/auditing-the-ask-astro-llm-qa-app/)
+- [The Rise of the LLM OS: From AIOS to MemGPT and beyond](https://community.aws/content/2eojjD2E7TBgPFJmB2FGAtrSSBh/the-rise-of-the-llm-os-from-aios-to-memgpt-and-beyond)
+- [A Visual Guide to Quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization)
+- [Unsloth: Finetune Llama 3.1, Mistral, Phi and Gemma](https://github.com/unslothai/unsloth)
+- [Open WebUI: user-friendly WebUI for LLMs](https://github.com/open-webui/open-webui)
+- [LangDrive: train LLMs on private data](https://github.com/addy-ai/langdrive)
+- [llmware: unified framework for building enterprise RAG pipelines with small, specialized models](https://github.com/llmware-ai/llmware)
+- [giskard: Open-Source Evaluation & Testing for LLMs and ML models](https://github.com/Giskard-AI/giskard)
+- [talkd/dialog: RAG LLM Ops App for easy deployment and testing](https://github.com/talkdai/dialog)
+- [LLM sampling](https://artefact2.github.io/llm-sampling/index.xhtml)
+- [AI models collapse when trained on recursively generated data](https://www.nature.com/articles/s41586-024-07566-y?fbclid=IwZXh0bgNhZW0CMTEAAR02IYQRaioU3B0L2VkxL401nN0qbH0feuxA94S89umdBAYLVsC8iDEgj0Y_aem_xMLGS6APHIPIA_2cyXM9Rg)
+- [Trace: AutoDiff for AI Systems and LLM Agents](https://github.com/microsoft/trace)
+- [Will We Run Out of Data? Limits of LLM Scaling Based on Human-Generated Data](https://epochai.org/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data)
+- [LitGPT: 2high-performance LLMs with recipes to pretrain, finetune and deploy at scale](https://github.com/Lightning-AI/litgpt)
+- [How to build a basic LLM GPT model from Scratch in Python](https://ruslanmv.com/blog/How-to-Build-a-basic-LLM-GPT-from-Scratch-in-Python)
+- [guidance: a guidance language for controlling large language models](https://github.com/guidance-ai/guidance)
 
 ## Machine Learning
 
@@ -375,6 +414,7 @@
 - [Google ML glossary](https://developers.google.com/machine-learning/glossary)
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
 - [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
+- [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
 
 ### Model evaluation
 
@@ -386,6 +426,7 @@
 - [Cross validation](https://towardsdatascience.com/cross-validation-c4fae714f1c5)
 - [Validation curve](https://towardsdatascience.com/validation-curve-explained-plot-the-influence-of-a-single-hyperparameter-1ac4864deaf8)
 - [MAPIE for confidence prediction intervals estimation](https://github.com/scikit-learn-contrib/MAPIE)
+- [Why You Should Never Use Cross-Validation](https://towardsdatascience.com/why-you-should-never-use-cross-validation-4360d42456ac)
 
 ### Model monitoring
 
@@ -529,6 +570,7 @@
 
 - [Open source OCR tools](https://towardsdatascience.com/5-open-source-tools-you-can-use-to-train-and-deploy-an-ocr-project-8f204dec862b)
 - [Extract text written in different languages with `easyocr`](https://towardsdatascience.com/extract-text-written-in-different-languages-from-images-with-python-2348ff021fe5)
+- [Apple Vision wrapper for text extraction, scalar representation and clustering using K-means](https://github.com/louisbrulenaudet/apple-ocr)
 
 ## Optimization
 
@@ -613,6 +655,7 @@
 - [Algorithmic approach to statistical testing](https://towardsdatascience.com/data-scientists-need-to-know-just-one-statistical-test-3115b2ff26fd)
 - [Kolmogorov-Smirnov test to check how data are distributed](https://towardsdatascience.com/how-is-your-data-distributed-a-practical-introduction-to-the-kolmogorov-smirnov-test-6b4fa7ba32ef)
 - [Empirical cumulative distribution: advantages over histogram for EDA](https://towardsdatascience.com/empirical-cumulative-distribution-function-the-only-plotting-tool-a-data-scientist-needs-a9976f86c718)
+- [Hypothesis Testing Explained (How I Wish It Was Explained to Me)](https://towardsdatascience.com/hypothesis-testing-explained-how-i-wish-it-was-explained-to-me-14379f7a41c3)
 
 ## Regression
 
@@ -692,7 +735,6 @@
 - [SQL CASE](https://towardsdatascience.com/5-advanced-sql-case-examples-that-will-make-you-use-case-when-easily-1040c1eb8857)
 - [Python built-in database: SQLite](https://towardsdatascience.com/yes-python-has-a-built-in-database-heres-how-to-use-it-b3c033f172d3)
 - [Advanced SQL for Data Scientists: cube, array, window and math functions](https://allaboutdata.substack.com/p/sql-avanzato-per-data-scientists)
-- [DuckDB: open source OLAP database](https://github.com/duckdb/duckdb)
 - [Lost at SQL: the SQL learning game](https://lost-at-sql.therobinlord.com/)
 - [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 - [How to Low-Pass Filter in Google BigQuery](https://towardsdatascience.com/how-to-low-pass-filter-in-google-bigquery-3eefa082b497)
@@ -838,6 +880,8 @@
 - [Meteostat Python library](https://github.com/meteostat/meteostat-python)
 - [GraphCast: AI model for faster and more accurate global weather forecasting](https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/)
 - [GraphCast: Learning skillful medium-range global weather forecasting](https://github.com/google-deepmind/graphcast)
+- [NeuralGCM: a Python library for building hybrid ML/physics atmospheric models for weather and climate simulation](https://github.com/google-research/neuralgcm)
+- [Aurora: a Foundation Model of the Atmosphere](https://github.com/microsoft/aurora)
 
 ## XAI
 
@@ -859,4 +903,5 @@
 - [SHAP vs ACV](https://towardsdatascience.com/the-right-way-to-compute-your-shapley-values-cfea30509254)
 - [FastTreeSHAP: speed up SHAP values computation for tree-based models](https://github.com/linkedin/fasttreeshap)
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
+- [PiML (Python Interpretable Machine Learning) toolbox for model development & diagnostics](https://github.com/SelfExplainML/PiML-Toolbox)
 

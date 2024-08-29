@@ -37,3 +37,9 @@
 ## Ibis
 
 - [Ibis: the portable Python dataframe library](https://ibis-project.org/why)
+- [ibis introduction by calmcode](https://calmcode.io/course/ibis/introduction)
+
+## Narwhals
+
+- [Narwhals: lightweight and extensible compatibility layer between dataframe libraries!](https://github.com/narwhals-dev/narwhals)
+- [How Narwhals and scikit-lego came together to achieve dataframe-agnosticism](https://labs.quansight.org/blog/scikit-lego-narwhals)
