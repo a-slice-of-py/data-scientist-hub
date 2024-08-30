@@ -58,6 +58,7 @@
 - [Typer](https://typer.tiangolo.com/)
 - [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
 - [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)
+- [radicli: radically lightweight command-line interfaces](https://github.com/explosion/radicli)
 
 ## Code freezing
 
@@ -563,6 +564,7 @@
 - [humanize: various common humanization utilities](https://github.com/python-humanize/humanize)
 - [pycountry: a Python library to access ISO country, subdivision, language, currency and script definitions and their translations](https://github.com/pycountry/pycountry)
 - [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)
+- [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 
 ## Python versions
 

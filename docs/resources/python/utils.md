@@ -9,3 +9,4 @@
 - [humanize: various common humanization utilities](https://github.com/python-humanize/humanize)
 - [pycountry: a Python library to access ISO country, subdivision, language, currency and script definitions and their translations](https://github.com/pycountry/pycountry)
 - [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)
+- [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)

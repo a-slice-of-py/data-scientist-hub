@@ -6,3 +6,4 @@
 - [Typer](https://typer.tiangolo.com/)
 - [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
 - [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)
+- [radicli: radically lightweight command-line interfaces](https://github.com/explosion/radicli)
