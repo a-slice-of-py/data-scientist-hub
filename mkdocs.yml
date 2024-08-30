@@ -10,7 +10,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
     tag:
-      aws: simple/amazonaws
+      aws: simple/amazonwebservices
       db: material/database
       devops: material/source-branch-sync
       iac: simple/awsorganizations
