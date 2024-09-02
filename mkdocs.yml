@@ -15,6 +15,7 @@ theme:
       devops: material/source-branch-sync
       iac: simple/awsorganizations
       ita: material/translate
+      mkdocs: simple/materialformkdocs
       ml: material/brain
       open: material/open-source-initiative
       or: fontawesome/solid/gears
@@ -25,12 +26,12 @@ theme:
   palette:
     - scheme: slate
       primary: black
-      accent: orange
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
     - scheme: default
-      primary: blue grey
+      primary: black
       accent: teal
       toggle:
         icon: material/weather-night
@@ -90,8 +91,7 @@ plugins:
   - search
   - social:
       # temporarly disabled due to https://github.com/squidfunk/mkdocs-material/issues/6983
-      enabled: !ENV [ENABLE_MKDOCS_PLUGIN, false]
-      cards_layout: default/variant
+      enabled: !ENV [ENABLE_MKDOCS_PLUGIN, true]
   - awesome-pages
   - blog:
       blog_dir: .
@@ -123,6 +123,7 @@ extra:
     Machine Learning: ml
     Open Source: open
     OR: or
+    mkdocs: mkdocs
     Python: py
     SQL: sql
     Streamlit: streamlit
