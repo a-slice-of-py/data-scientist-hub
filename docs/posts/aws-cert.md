@@ -3,7 +3,7 @@ date: 2024-01-29
 authors:
   - silvio
 categories:
-  - TIL
+  - Guides
 tags:
   - AWS
   - Python

@@ -3,7 +3,7 @@ date: 2022-10-13
 authors:
   - silvio
 categories:
-  - Guides
+  - Solutions
 tags:
   - ITA
   - AWS
