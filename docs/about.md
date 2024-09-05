@@ -1,4 +1,4 @@
-<img src="../assets/dsh_minimal.png" width="200"/>
+<img src="../assets/dsh_ai.png" width="200"/>
 
 ## Whatis
 
