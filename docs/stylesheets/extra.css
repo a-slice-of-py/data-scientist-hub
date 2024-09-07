@@ -2,12 +2,10 @@
     --md-typeset-a-color: black;
 }
 
-.md-typeset {
-    a {
-        font-weight: bold;
-    }
-}
-
 [data-md-color-scheme="slate"][data-md-color-scheme] {
     --md-typeset-a-color: white;
+}
+
+.md-typeset a {
+    font-weight: 700;
 }
