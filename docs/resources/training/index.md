@@ -16,6 +16,7 @@
 - [Stochastic Simulation: from Uniform Random Numbers to Generative Models](https://akyildiz.me/works/simulation_book.pdf)
 - [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html)
 - [Books that influenced Robust Python by Pat Viafore](https://patviafore.com/2024/07/30/on-the-shoulders-of-giants/)
+- [Alice's Adventures in a Differentiable Wonderland](https://arxiv.org/abs/2404.17625)
 
 ## Certifications
 
@@ -119,6 +120,10 @@
 
 - [Swift and differentiable programming](https://tryolabs.com/blog/2020/04/02/swift-googles-bet-on-differentiable-programming/)
 - [Swift by example](https://brettbukowski.github.io/SwiftExamples/)
+
+### TypeScript
+
+- [Total Typescript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials/kickstart-your-typescript-setup)
 
 ## Schools
 

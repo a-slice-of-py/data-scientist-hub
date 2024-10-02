@@ -77,6 +77,8 @@
 - [from Data to Viz](https://www.data-to-viz.com/)
 - [Word embedding visualization](https://towardsdatascience.com/contour-plots-and-word-embedding-visualisation-in-python-9dd2dacff6ac)
 - [Visual vocabulary](https://ft-interactive.github.io/visual-vocabulary/)
+- [The Python Graph Gallery](https://python-graph-gallery.com/)
+- [Dataviz Inspiration](https://www.dataviz-inspiration.com/)
 
 ## Data Storytelling
 
@@ -311,9 +313,13 @@
 - [Causal](https://www.causal.app/)
 - [10 tools for data visualization](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
 - [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
-- [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
 - [RAWGraphs](https://www.rawgraphs.io/)
 - [Data Viz Catalogue](https://datavizcatalogue.com/)
+
+### Datawrapper
+
+- [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
+- [Datawrapper for PowerPoint](https://blog.datawrapper.de/create-data-visualizations-in-powerpoint/)
 
 ## Upset plot
 

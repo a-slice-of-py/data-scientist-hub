@@ -16,6 +16,7 @@
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
 - [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
 - [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
+- [Causality in ML Models: Introducing Monotonic Constraints](https://towardsdatascience.com/causality-in-ml-models-introducing-monotonic-constraints-8426e1b5cc34)
 
 ## Model evaluation
 

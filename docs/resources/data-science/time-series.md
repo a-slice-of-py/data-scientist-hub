@@ -68,6 +68,7 @@
 - [`autogluon`: AutoML for Image, Text, Time Series, and Tabular Data](https://github.com/autogluon/autogluon)
 - [AutoGluon-TimeSeries: Every Time Series Forecasting Model In One Library](https://towardsdatascience.com/autogluon-timeseries-every-time-series-forecasting-model-in-one-library-29a3bf6879db)
 - [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
+- [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
 
 ## Prophet
 

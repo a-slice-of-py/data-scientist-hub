@@ -62,6 +62,7 @@
 
 - [Habitica](https://habitica.com/)
 - [RPG to do list](https://play.google.com/store/apps/details?id=com.levor.liferpgtasks&hl=it)
+- [Graphs: find the dataset that fits the graph](https://www.graphs.world/)
 
 ## Methodology
 
@@ -145,11 +146,13 @@
 - [Understanding the EU AI Act as a Data Scientist](https://www.nannyml.com/blog/eu-ai-act-guide-data-science)
 - [Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
 - [Uncovering the EU AI Act](https://towardsdatascience.com/uncovering-the-eu-ai-act-22b10f946174)
+- [The EU AI Act Explorer](https://artificialintelligenceact.eu/ai-act-explorer/)
 
 ## Teaching
 
 - [`handcalcs` for hand calculations](https://github.com/connorferster/handcalcs)
 - [Google LaTeXify](https://github.com/google/latexify_py)
+- [AI for Teachers: an Open Textbook](https://pressbooks.pub/aiforteachers/)
 
 ## Technical skills
 

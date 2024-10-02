@@ -15,3 +15,5 @@
 - [Friendly SQL in DuckDB](https://duckdb.org/docs/sql/dialect/friendly_sql)
 - [DuckDB blog: Friendly Lists and Their Buddies, the Lambdas](https://duckdb.org/2024/08/08/friendly-lists-and-their-buddies-the-lambdas)
 - [DuckDB Tricks](https://duckdb.org/2024/08/19/duckdb-tricks-part-1)
+- [Moving from Pandas to DuckDB](https://ai.gopubby.com/moving-from-pandas-to-duckdb-3ba10903ec13)
+- [DuckERD: a CLI tool for generating ERD diagrams from DuckDB databases](https://github.com/tobilg/duckerd)

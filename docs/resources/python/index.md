@@ -20,6 +20,7 @@
 - [Sound data analysis with `librosa`](https://towardsdatascience.com/what-is-sound-691988d780bb)
 - [Whisper: OpenAI model for audio transcriptions](https://github.com/openai/whisper)
 - [Pedalboard: a Python library for working with audio: reading, writing, rendering, adding effects, and more](https://github.com/spotify/pedalboard)
+- [WhisperX: Automatic Speech Recognition with Word-level Timestamps and Diarization](https://github.com/m-bain/whisperX)
 
 ## Automate boring stuff
 
@@ -64,6 +65,7 @@
 
 - [Code freezing with Python](http://docs.python-guide.org/en/latest/shipping/freezing/)
 - [Nativefier](https://github.com/jiahaog/nativefier)
+- [pyapp: Runtime installer for Python applications](https://github.com/ofek/pyapp)
 
 ## Code maintenance
 
@@ -118,6 +120,7 @@
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 - [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
 - [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
+- [Stamina: production-grade retries for Python](https://github.com/hynek/stamina)
 
 ## Colors
 
@@ -148,6 +151,7 @@
 
 - [`flowpy`](https://towardsdatascience.com/introducing-flowpy-an-intuitive-front-end-for-processing-data-with-python-a619ebe6bb9e)
 - [Data anonymization tutorial](https://dev.to/r0f1/a-simple-way-to-anonymize-data-with-python-and-pandas-79g)
+- [Unstructured: Open-Source Pre-Processing Tools for Unstructured Data](https://github.com/Unstructured-IO/unstructured)
 
 ## Data Structures
 
@@ -184,6 +188,7 @@
 - [How to write an awesome readme](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
 - [`diagrams` as code](https://diagrams.mingrammer.com/)
 - [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
+- [`pdoc`: API Documentation for Python projects](https://github.com/mitmproxy/pdoc)
 
 ### mkdocs
 
@@ -424,6 +429,7 @@
 ### Probabl
 
 - [Probabl open source gallery](https://www.probabl.ai/open-source)
+- [The `StandardScaler` is not standard](https://papers.probabl.ai/the-standardscaler-is-not-standard)
 
 ## Search engine
 
@@ -565,6 +571,7 @@
 - [pycountry: a Python library to access ISO country, subdivision, language, currency and script definitions and their translations](https://github.com/pycountry/pycountry)
 - [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)
 - [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
+- [xlwings: a Python library that makes it easy to call Python from Excel and vice versa](https://github.com/xlwings/xlwings)
 
 ## Python versions
 
@@ -613,6 +620,7 @@
 - [Gradio Themes Gallery](https://huggingface.co/spaces/gradio/theme-gallery)
 - [DearPyGui: a fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies](https://github.com/hoffstadt/DearPyGui)
 - [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)
+- [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
 
 ## Web scraping
 

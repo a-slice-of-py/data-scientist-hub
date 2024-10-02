@@ -23,6 +23,7 @@
 
 - [Overpass Turbo](https://overpass-turbo.eu/)
 - [Humanitarian OpenStreetMap Team](https://github.com/hotosm)
+- [Open Infrastructure Map](https://openinframap.org/#2/26/12)
 
 ## Overture Maps
 

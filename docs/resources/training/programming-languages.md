@@ -34,3 +34,7 @@
 
 - [Swift and differentiable programming](https://tryolabs.com/blog/2020/04/02/swift-googles-bet-on-differentiable-programming/)
 - [Swift by example](https://brettbukowski.github.io/SwiftExamples/)
+
+## TypeScript
+
+- [Total Typescript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials/kickstart-your-typescript-setup)

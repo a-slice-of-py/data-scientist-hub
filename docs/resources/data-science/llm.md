@@ -68,3 +68,8 @@
 - [LitGPT: 2high-performance LLMs with recipes to pretrain, finetune and deploy at scale](https://github.com/Lightning-AI/litgpt)
 - [How to build a basic LLM GPT model from Scratch in Python](https://ruslanmv.com/blog/How-to-Build-a-basic-LLM-GPT-from-Scratch-in-Python)
 - [guidance: a guidance language for controlling large language models](https://github.com/guidance-ai/guidance)
+- ["Attention, Please!": A Visual Guide To The Attention Mechanism](https://codecompass00.substack.com/p/visual-guide-attention-mechanism-transformers)
+- [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
+- [litellm: Python SDK, proxy server to call LLM APIs using the OpenAI format](https://github.com/BerriAI/litellm)
+- [guardrails: adding guardrails to large language models](https://github.com/guardrails-ai/guardrails)
+- [Burr: build applications that make decisions (chatbots, agents, simulations). Monitor, trace, persist, and execute on your own infrastructure](https://github.com/dagworks-inc/burr)

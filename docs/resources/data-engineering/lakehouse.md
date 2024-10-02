@@ -6,6 +6,7 @@
 - [AWS Apache Iceberg technical guide](https://aws.amazon.com/it/blogs/big-data/understanding-apache-iceberg-on-aws-with-the-new-technical-guide/)
 - [Apache Polaris: the interoperable, open source catalog for Apache Iceberg](https://github.com/apache/polaris)
 - [4 hours learning Apache Iceberg](https://vutr.substack.com/p/i-spent-8-hours-learning-apache-iceberg)
+- [7 hours learning Apache Iceberg](https://vutr.substack.com/p/i-spent-7-hours-diving-deep-into)
 
 ## Apache DataFusion
 

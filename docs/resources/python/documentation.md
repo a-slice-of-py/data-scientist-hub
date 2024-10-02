@@ -4,6 +4,7 @@
 - [How to write an awesome readme](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
 - [`diagrams` as code](https://diagrams.mingrammer.com/)
 - [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
+- [`pdoc`: API Documentation for Python projects](https://github.com/mitmproxy/pdoc)
 
 ## mkdocs
 

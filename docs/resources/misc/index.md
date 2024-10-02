@@ -54,6 +54,10 @@
 - [Beyond automatic differentiation](https://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html?m=1)
 - [Exposing the Power of the Kalman Filter](https://towardsdatascience.com/exposing-the-power-of-the-kalman-filter-1b78621c3f56)
 
+### Differential equations
+
+- [Wave Partial Differential Equation Solver in Python](https://github.com/salastro/wavepde)
+
 ## Physics
 
 - [Sound: a visual explanation](https://ciechanow.ski/sound/)

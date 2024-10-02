@@ -19,3 +19,4 @@
 - [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)
 - [Dataset imports from UCI ML Repository](https://github.com/uci-ml-repo/ucimlrepo)
 - [Eurostat Data](https://ec.europa.eu/eurostat/en/web/main/data)
+- [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)

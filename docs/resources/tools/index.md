@@ -73,6 +73,7 @@
 ## Github
 
 - [20 repositories for developers](https://towardsdatascience.com/20-amazing-github-repositories-every-developer-should-follow-d8ce4c728351)
+- [github1s: one second to read GitHub code with VS Code](https://github.com/conwnet/github1s)
 
 ## Google
 
@@ -113,6 +114,7 @@
 - [Data Science toolset starter kit](https://towardsdatascience.com/data-scientists-starter-pack-32ef08f7829c)
 - [Excalidraw](https://excalidraw.com/)
 - [Task is a task runner/build tool simpler and easier than GNU Make](https://github.com/go-task/task)
+- [Zed: a high-performance, multiplayer code editor](https://github.com/zed-industries/zed)
 
 ## Performance monitoring
 
@@ -125,6 +127,7 @@
 - [Estimating tasks with statistics and simulations](https://towardsdatascience.com/estimating-tasks-with-statistics-and-simulations-using-python-ddd1df3c7ce1)
 - [Decide better together: answer a few simple questions to explore better ways to make group decisions](https://thedecider.app/)
 - [A Decision-Making Framework for Identifying Strategic Innovative Projects](https://andreagigli.medium.com/a-decision-making-framework-for-identifying-strategic-innovative-projects-055361406924)
+- [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 
 ## Quarto
 

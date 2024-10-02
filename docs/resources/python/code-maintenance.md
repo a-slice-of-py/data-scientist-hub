@@ -51,3 +51,4 @@
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 - [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
 - [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
+- [Stamina: production-grade retries for Python](https://github.com/hynek/stamina)

@@ -190,6 +190,7 @@
 - [Awesome datasets](https://github.com/awesomedata/awesome-public-datasets#awesome-public-datasets)
 - [Dataset imports from UCI ML Repository](https://github.com/uci-ml-repo/ucimlrepo)
 - [Eurostat Data](https://ec.europa.eu/eurostat/en/web/main/data)
+- [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
 
 ## Deep Learning
 
@@ -217,6 +218,8 @@
 ## Energy and Power Systems
 
 - [PyPSA: Python for Power System Analysis](https://pypsa.org/#projects)
+- [Prebuilt Electricity Network for PyPSA-Eur based on OpenStreetMap Data](https://zenodo.org/records/13358976)
+- [Modelling the High-Voltage Grid Using Open Data for Europe and Beyond](https://arxiv.org/abs/2408.17178)
 
 ## Ensemble models
 
@@ -292,6 +295,7 @@
 
 - [Overpass Turbo](https://overpass-turbo.eu/)
 - [Humanitarian OpenStreetMap Team](https://github.com/hotosm)
+- [Open Infrastructure Map](https://openinframap.org/#2/26/12)
 
 ### Overture Maps
 
@@ -397,6 +401,11 @@
 - [LitGPT: 2high-performance LLMs with recipes to pretrain, finetune and deploy at scale](https://github.com/Lightning-AI/litgpt)
 - [How to build a basic LLM GPT model from Scratch in Python](https://ruslanmv.com/blog/How-to-Build-a-basic-LLM-GPT-from-Scratch-in-Python)
 - [guidance: a guidance language for controlling large language models](https://github.com/guidance-ai/guidance)
+- ["Attention, Please!": A Visual Guide To The Attention Mechanism](https://codecompass00.substack.com/p/visual-guide-attention-mechanism-transformers)
+- [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
+- [litellm: Python SDK, proxy server to call LLM APIs using the OpenAI format](https://github.com/BerriAI/litellm)
+- [guardrails: adding guardrails to large language models](https://github.com/guardrails-ai/guardrails)
+- [Burr: build applications that make decisions (chatbots, agents, simulations). Monitor, trace, persist, and execute on your own infrastructure](https://github.com/dagworks-inc/burr)
 
 ## Machine Learning
 
@@ -416,6 +425,7 @@
 - [130 ML Tricks And Resources Carefully Curated](https://towardsdatascience.com/130-ml-tricks-and-resources-curated-carefully-from-3-years-plus-free-ebook-7832ca4a37ef)
 - [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
 - [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
+- [Causality in ML Models: Introducing Monotonic Constraints](https://towardsdatascience.com/causality-in-ml-models-introducing-monotonic-constraints-8426e1b5cc34)
 
 ### Model evaluation
 
@@ -829,6 +839,7 @@
 - [`autogluon`: AutoML for Image, Text, Time Series, and Tabular Data](https://github.com/autogluon/autogluon)
 - [AutoGluon-TimeSeries: Every Time Series Forecasting Model In One Library](https://towardsdatascience.com/autogluon-timeseries-every-time-series-forecasting-model-in-one-library-29a3bf6879db)
 - [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
+- [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
 
 ### Prophet
 

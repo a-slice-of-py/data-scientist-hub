@@ -17,3 +17,4 @@
 ## Probabl
 
 - [Probabl open source gallery](https://www.probabl.ai/open-source)
+- [The `StandardScaler` is not standard](https://papers.probabl.ai/the-standardscaler-is-not-standard)
