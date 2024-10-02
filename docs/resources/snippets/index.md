@@ -88,6 +88,58 @@ print(x)
 print(clean_text(x)) # cleaner
 ```
 
+### dbc
+
+```python
+import functools
+from typing import Callable
+
+
+def condition(
+    pre: bool,
+    check: Callable | None = None,
+    message: str | None = None,
+    placeholder: str = "abort",
+):
+    def decorator(func: Callable):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            if check is not None:
+                if pre and not check(*args, **kwargs):
+                    raise ValueError(
+                        f"Precondition not satisfied: {message or placeholder}"
+                    )
+                response = func(*args, **kwargs)
+                if not pre and not check(response):
+                    raise ValueError(
+                        f"Postcondition not satisfied: {message or placeholder}"
+                    )
+                return response
+
+        return wrapper
+
+    return decorator
+
+
+def precondition(check: Callable, description: str | None = None):
+    return condition(pre=True, check=check, message=description)
+
+
+def postcondition(check: Callable, description: str | None = None):
+    return condition(pre=False, check=check, message=description)
+
+@precondition(lambda x: x > 0, description="Input must be positive.")
+@precondition(lambda x: x % 2 == 0, description="Input must be even.")
+@postcondition(lambda x: x > 4, description="Output must be > 4.")
+def test(x: int) -> int:
+    return 2*x
+
+>>> test(-1) # ValueError: Precondition not satisfied: Input must be positive.
+>>> test(1)  # ValueError: Precondition not satisfied: Input must be even.
+>>> test(2)  # ValueError: Postcondition not satisfied: Output must be > 4.
+>>> test(4)  # 8
+```
+
 ### `flatten`
 
 ```python
