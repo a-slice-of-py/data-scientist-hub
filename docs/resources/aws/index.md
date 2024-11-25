@@ -78,6 +78,10 @@
 - [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
 - [Comparing design approaches for building serverless microservices](https://aws.amazon.com/it/blogs/compute/comparing-design-approaches-for-building-serverless-microservices/)
 
+### Q Developer
+
+- [DIY personalization for Amazon Q Developer](https://it20.info/2024/10/diy-personalization-for-amazon-q-developer/)
+
 ### S3
 
 - [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
@@ -107,6 +111,8 @@
 
 - [The history of Amazon forecasting algorithm](https://www.amazon.science/latest-news/the-history-of-amazons-forecasting-algorithm)
 - [Amazon’s renewable energy forecasting: continuous delivery with Jupyter Notebooks](https://aws.amazon.com/it/blogs/hpc/amazons-renewable-energy-forecasting-continuous-delivery-with-jupyter-notebooks/)
+- [Programmatic AWS Action List](https://blog.rowanudell.com/programmatic-aws-action-list/)
+- [Our cloud-exit savings will now top ten million over five years](https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd)
 
 ### Misc
 

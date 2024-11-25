@@ -21,3 +21,4 @@
 - [`bambi` for Bayesian Model Building Interface](https://github.com/bambinos/bambi)
 - [How to be less wrong: a Bayesian's guide to predicting the future with limited data](https://towardsdatascience.com/how-to-be-less-wrong-5d6632a08f)
 - [bnlearn: a library for Bayesian network learning and inference](https://github.com/erdogant/bnlearn)
+- [Kalmangrad: automated, smooth, n-th order derivatives of non-uniformly sampled time series data](https://github.com/hugohadfield/kalmangrad)

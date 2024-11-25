@@ -9,3 +9,4 @@
 - [Palette transfer via KMeans](https://towardsdatascience.com/the-perils-of-palette-transfer-f2739b5e4d2c)
 - [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
 - [Pantone colors](https://github.com/Margaret2/pantone-colors/tree/master)
+- [Transforming colors with matrices](https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html)

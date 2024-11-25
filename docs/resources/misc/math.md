@@ -34,3 +34,12 @@
 ## Differential equations
 
 - [Wave Partial Differential Equation Solver in Python](https://github.com/salastro/wavepde)
+
+## Geometry
+
+- [Counterintuitive Properties of High Dimensional Space](https://people.eecs.berkeley.edu/~jrs/highd/)
+- [The Deceptively Asymmetric Unit Sphere](https://www.tangramvision.com/blog/the-deceptively-asymmetric-unit-sphere)
+
+## Estimates
+
+- [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)

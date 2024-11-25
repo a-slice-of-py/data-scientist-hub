@@ -20,6 +20,10 @@
 - [A curated list of awesome digital gardens and second brains](https://github.com/KasperZutterman/Second-Brain)
 - [Wagtail: an open source Content Management System written in Python](https://docs.wagtail.org/en/latest/index.html)
 - [A collection of learning resources for curious software engineers](https://github.com/charlax/professional-programming)
+- [How to Use AI to Build Your Company’s Collective Intelligence](https://hbr.org/2024/10/how-to-use-ai-to-build-your-companys-collective-intelligence)
+- [A Single Text File Is My Productivity Hack](https://jagcoop.github.io/posts/Single_text_file/)
+- [jrnl: a simple journal application for the command line](https://github.com/jrnl-org/jrnl/)
+- [My Simple Knowledge Management and Time Tracking System](https://henrikwarne.com/2024/11/09/my-simple-knowledge-management-and-time-tracking-system/#comment-53596)
 
 ## Mathematics
 
@@ -57,6 +61,15 @@
 ### Differential equations
 
 - [Wave Partial Differential Equation Solver in Python](https://github.com/salastro/wavepde)
+
+### Geometry
+
+- [Counterintuitive Properties of High Dimensional Space](https://people.eecs.berkeley.edu/~jrs/highd/)
+- [The Deceptively Asymmetric Unit Sphere](https://www.tangramvision.com/blog/the-deceptively-asymmetric-unit-sphere)
+
+### Estimates
+
+- [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
 
 ## Physics
 

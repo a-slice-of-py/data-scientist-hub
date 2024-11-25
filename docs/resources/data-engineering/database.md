@@ -17,3 +17,7 @@
 - [DuckDB Tricks](https://duckdb.org/2024/08/19/duckdb-tricks-part-1)
 - [Moving from Pandas to DuckDB](https://ai.gopubby.com/moving-from-pandas-to-duckdb-3ba10903ec13)
 - [DuckERD: a CLI tool for generating ERD diagrams from DuckDB databases](https://github.com/tobilg/duckerd)
+- [DuckDB in Python in the Browser with Pyodide, PyScript and JupyterLite](https://duckdb.org/2024/10/02/pyodide.html)
+- [A Beginner's Guide to DuckDB's Python Client](https://github.com/mebauer/duckdb-python-basics)
+- [Ducklake: A journey to integrate DuckDB with Unity Catalog](https://xebia.com/blog/ducklake-a-journey-to-integrate-duckdb-with-unity-catalog/)
+- [15+ companies using duckdb in production: a comprehensive guide](https://motherduck.com/blog/15-companies-duckdb-in-prod/)

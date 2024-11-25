@@ -21,6 +21,8 @@
 - [Whisper: OpenAI model for audio transcriptions](https://github.com/openai/whisper)
 - [Pedalboard: a Python library for working with audio: reading, writing, rendering, adding effects, and more](https://github.com/spotify/pedalboard)
 - [WhisperX: Automatic Speech Recognition with Word-level Timestamps and Diarization](https://github.com/m-bain/whisperX)
+- [Moonshine: Fast and accurate automatic speech recognition (ASR) for edge devices](https://github.com/usefulsensors/moonshine)
+- [Amphion: An Open-Source Audio, Music, and Speech Generation Toolkit](https://github.com/open-mmlab/Amphion)
 
 ## Automate boring stuff
 
@@ -197,6 +199,7 @@
 - [Python markdown terminal built for mkdocs](https://github.com/mkdocs-plugins/termynal)
 - [Mkdocs Newsletter: show the changes of documentation repositories in a user friendly format](https://lyz-code.github.io/mkdocs-newsletter/)
 - [Python Code Playground in MkDocs](https://towardsdatascience.com/python-code-playground-in-mkdocs-cc05eddceb63)
+- [mkdocs-charts-plugin: mkdocs plugin to add plots from data using vegalite](https://github.com/timvink/mkdocs-charts-plugin)
 
 ## DTale
 
@@ -442,6 +445,10 @@
 - [Priority queues and `heapq`](https://realpython.com/python-heapq-module/)
 - [Everything You Can Do with Python's textwrap Module](https://martinheinz.dev/blog/108)
 
+### Extensions
+
+- [Stream-like manipulation of Python iterables](https://github.com/ebonnal/streamable)
+
 ## Streamlit
 
 - [Coding ML tools like you code ML models](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace)
@@ -572,6 +579,7 @@
 - [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)
 - [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 - [xlwings: a Python library that makes it easy to call Python from Excel and vice versa](https://github.com/xlwings/xlwings)
+- [wigglystuff: a collection of creative AnyWidgets for Python notebook environments](https://github.com/koaning/wigglystuff)
 
 ## Python versions
 
@@ -621,6 +629,7 @@
 - [DearPyGui: a fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies](https://github.com/hoffstadt/DearPyGui)
 - [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)
 - [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
+- [PuePy: PyScript Frontend Framework](https://github.com/kkinder/puepy)
 
 ## Web scraping
 

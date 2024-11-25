@@ -76,6 +76,10 @@
 - [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
 - [Comparing design approaches for building serverless microservices](https://aws.amazon.com/it/blogs/compute/comparing-design-approaches-for-building-serverless-microservices/)
 
+## Q Developer
+
+- [DIY personalization for Amazon Q Developer](https://it20.info/2024/10/diy-personalization-for-amazon-q-developer/)
+
 ## S3
 
 - [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)

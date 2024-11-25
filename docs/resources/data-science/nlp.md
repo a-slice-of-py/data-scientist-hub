@@ -35,6 +35,7 @@
 - [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
 - [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
+- [NLP Course](https://lena-voita.github.io/nlp_course.html)
 
 ## Topic modeling
 
@@ -47,3 +48,4 @@
 - [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
 - [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Practical Guide to Topic Modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/practical-guide-to-topic-modeling-with-lda-05cd6b027bdf)
+- [BERTrend: Neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)

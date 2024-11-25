@@ -26,6 +26,10 @@
 - [Visualizing the shockwave propagation of Tonga vulcano eruption](https://towardsdatascience.com/tonga-volcano-visualizing-the-shockwave-propagation-75dcfbadef76)
 - [ManimML: animations and visualizations of common machine learning concepts](https://github.com/helblazer811/ManimML)
 
+## Annotations
+
+- [Drawing arrows for matplotlib made easy](https://github.com/JosephBARBIERDARNAL/drawarrow)
+
 ## Books
 
 - [Serialmentor data-viz](https://serialmentor.com/dataviz/)
@@ -51,6 +55,7 @@
 - [Palette transfer via KMeans](https://towardsdatascience.com/the-perils-of-palette-transfer-f2739b5e4d2c)
 - [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
 - [Pantone colors](https://github.com/Margaret2/pantone-colors/tree/master)
+- [Transforming colors with matrices](https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html)
 
 ## Confusion matrix
 
@@ -142,6 +147,7 @@
 - [`arviz` for Bayesian EDA](https://github.com/arviz-devs/arviz)
 - [Kangas: exploring, analyzing, and visualizing large-scale multimedia data](https://github.com/comet-ml/kangas)
 - [PyGWalker: A Python Library for Exploratory Data Analysis with Visualization](https://github.com/Kanaries/pygwalker)
+- [Data Formulator: Create Rich Visualizations with AI](https://github.com/microsoft/data-formulator)
 
 ## Energy data
 
@@ -190,6 +196,10 @@
 
 - [Andrews plot Wikipedia page](https://en.wikipedia.org/wiki/Andrews_plot)
 - [`pandas.plotting.andrews_curves`](https://pandas.pydata.org/docs/reference/api/pandas.plotting.andrews_curves.html)
+
+## Interactive visualizations
+
+- [Quibbler: a toolset for building highly interactive, yet reproducible data analysis](https://github.com/Technion-Kishony-lab/quibbler)
 
 ## Javascript libraries
 
@@ -315,6 +325,7 @@
 - [Other 5 tools for data visualization](https://towardsdatascience.com/5-more-open-source-tools-to-get-started-with-data-visualisation-a03373972f81)
 - [RAWGraphs](https://www.rawgraphs.io/)
 - [Data Viz Catalogue](https://datavizcatalogue.com/)
+- [Panel Graphic Walker: a simple way to explore your data through a Tableau-like interface directly in your Panel data applications](https://github.com/panel-extensions/panel-graphic-walker)
 
 ### Datawrapper
 

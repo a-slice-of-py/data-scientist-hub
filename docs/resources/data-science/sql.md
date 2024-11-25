@@ -19,3 +19,5 @@
 - [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 - [How to Low-Pass Filter in Google BigQuery](https://towardsdatascience.com/how-to-low-pass-filter-in-google-bigquery-3eefa082b497)
 - [Harlequin: the SQL IDE for your terminal](https://github.com/tconbeer/harlequin)
+- [SQLModel: a library for interacting with SQL databases from Python code, with Python objects](https://github.com/fastapi/sqlmodel)
+- [Sampling with SQL](https://blog.moertel.com/posts/2024-08-23-sampling-with-sql.html)

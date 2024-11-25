@@ -10,6 +10,8 @@
 
 - [The history of Amazon forecasting algorithm](https://www.amazon.science/latest-news/the-history-of-amazons-forecasting-algorithm)
 - [Amazon’s renewable energy forecasting: continuous delivery with Jupyter Notebooks](https://aws.amazon.com/it/blogs/hpc/amazons-renewable-energy-forecasting-continuous-delivery-with-jupyter-notebooks/)
+- [Programmatic AWS Action List](https://blog.rowanudell.com/programmatic-aws-action-list/)
+- [Our cloud-exit savings will now top ten million over five years](https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd)
 
 ## Misc
 

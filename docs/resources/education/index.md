@@ -44,6 +44,8 @@
 - [DALL-E 2: from text to images](https://openai.com/dall-e-2/)
 - [WebGL Fluid Simulation](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
 - [Stable Diffusion by Hugging Face](https://huggingface.co/spaces/stabilityai/stable-diffusion)
+- [DataMorph: morph an input dataset of 2D points into select shapes while preserving the summary statistics](https://github.com/stefmolin/data-morph)
+- [1 dataset 100 visualizations](https://100.datavizproject.com/)
 
 ### Data sonification
 
@@ -119,6 +121,7 @@
 - [Il Libro Open Source](https://il-libro-open-source.github.io/book/)
 - [8 Years in Data: What I Wish I’d Known from the Start](https://towardsdatascience.com/8-years-in-data-what-i-wish-id-known-from-the-start-d2af8e6fc829)
 - [Potemkin Data Science](https://mcorrell.medium.com/potemkin-data-science-fba2b5ba5cc6)
+- [Psychological Safety vs. High Standards: A Misunderstood Dynamic](https://www.leadingsapiens.com/psychological-safety-vs-high-standards/)
 
 ## Python
 
@@ -153,6 +156,7 @@
 - [`handcalcs` for hand calculations](https://github.com/connorferster/handcalcs)
 - [Google LaTeXify](https://github.com/google/latexify_py)
 - [AI for Teachers: an Open Textbook](https://pressbooks.pub/aiforteachers/)
+- [Latex To](https://latex.to/)
 
 ## Technical skills
 
@@ -171,6 +175,8 @@
 ## Technical writing
 
 - [Write the Docs: best practices for creating software documentation](https://www.writethedocs.org/guide/)
+- [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/)
+- [Material Design Writing Principles](https://m2.material.io/design/communication/writing.html#principles)
 
 ## Tools
 

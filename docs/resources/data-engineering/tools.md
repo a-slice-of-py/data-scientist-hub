@@ -14,6 +14,7 @@
 - [filequery: Query CSV and Parquet files using SQL](https://github.com/MarkyMan4/filequery)
 - [dbt (data build tools): a command line tool to transform data more effectively](https://docs.getdbt.com/)
 - [dlt: an open-source library to load data from various and often messy data sources into well-structured, live datasets](https://dlthub.com/docs/intro)
+- [Trilogy Python Semantic Layers](https://trilogydata.dev/thesis/#python-semantic-layers)
 
 ## Search engines
 

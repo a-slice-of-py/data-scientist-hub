@@ -33,3 +33,4 @@
 - [DearPyGui: a fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies](https://github.com/hoffstadt/DearPyGui)
 - [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)
 - [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
+- [PuePy: PyScript Frontend Framework](https://github.com/kkinder/puepy)

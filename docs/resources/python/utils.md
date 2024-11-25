@@ -11,3 +11,4 @@
 - [bigtree: Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame](https://github.com/kayjan/bigtree)
 - [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 - [xlwings: a Python library that makes it easy to call Python from Excel and vice versa](https://github.com/xlwings/xlwings)
+- [wigglystuff: a collection of creative AnyWidgets for Python notebook environments](https://github.com/koaning/wigglystuff)

@@ -54,6 +54,7 @@
 - [`bambi` for Bayesian Model Building Interface](https://github.com/bambinos/bambi)
 - [How to be less wrong: a Bayesian's guide to predicting the future with limited data](https://towardsdatascience.com/how-to-be-less-wrong-5d6632a08f)
 - [bnlearn: a library for Bayesian network learning and inference](https://github.com/erdogant/bnlearn)
+- [Kalmangrad: automated, smooth, n-th order derivatives of non-uniformly sampled time series data](https://github.com/hugohadfield/kalmangrad)
 
 ## Bin Packing 
 
@@ -191,6 +192,9 @@
 - [Dataset imports from UCI ML Repository](https://github.com/uci-ml-repo/ucimlrepo)
 - [Eurostat Data](https://ec.europa.eu/eurostat/en/web/main/data)
 - [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
+- [Open-Meteo: Free Weather Forecast API for non-commercial use](https://github.com/open-meteo/open-meteo)
+- [Data Commons: aggregates global, open data, uncovering insights with natural language questions](https://datacommons.org/)
+- [Foursquare Places OS Data Schemas](https://docs.foursquare.com/data-products/docs/places-os-data-schema)
 
 ## Deep Learning
 
@@ -406,6 +410,20 @@
 - [litellm: Python SDK, proxy server to call LLM APIs using the OpenAI format](https://github.com/BerriAI/litellm)
 - [guardrails: adding guardrails to large language models](https://github.com/guardrails-ai/guardrails)
 - [Burr: build applications that make decisions (chatbots, agents, simulations). Monitor, trace, persist, and execute on your own infrastructure](https://github.com/dagworks-inc/burr)
+- [el: a language model programming library](https://github.com/MadcowD/ell)
+- [Model2Vec: Distill a Small Fast Model from any Sentence Transformer](https://huggingface.co/blog/Pringled/model2vec)
+- [Beyond Traditional Testing: Addressing the Challenges of Non-Deterministic Software](https://dev.to/aws/beyond-traditional-testing-addressing-the-challenges-of-non-deterministic-software-583a)
+- [JIT Implementation: A Python Library That Implements Your Code at Runtime](https://github.com/JirkaKlimes/jit-implementation)
+- [Open Source Frameworks for Building Generative AI Applications](https://github.com/danilop/oss-for-generative-ai)
+- [ChainLit: Build Conversational AI in minutes](https://github.com/Chainlit/chainlit)
+- [A RAG from scratch to query the scikit-learn documentation](https://papers.probabl.ai/a-rag-from-scratch-to-query-the-scikit-learn-documentation)
+- [Introduction to Large Language Models](https://github.com/SelfExplainML/PiML-Toolbox/blob/main/docs/Workshop/202410IntroLLM/202410IntroLLM.pdf)
+- [DataChain: AI-data warehouse to enrich, transform and analyze unstructured data](https://github.com/iterative/datachain)
+- [Simplemind: Python client for AI providers](https://github.com/kennethreitz/simplemind)
+- [Official code repo for the O'Reilly Book "Hands-On Large Language Models"](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
+- [Docling: parse documents and export them to the desired format with ease and speed](https://github.com/DS4SD/docling)
+- [Posting: the modern API client that lives in your terminal](https://github.com/darrenburns/posting)
+- [Large Chainsaw Model](https://www.scottsmitelli.com/articles/large-chainsaw-model/)
 
 ## Machine Learning
 
@@ -559,6 +577,7 @@
 - [PolyFuzz: fuzzy string matching and string grouping](https://github.com/MaartenGr/PolyFuzz)
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
 - [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
+- [NLP Course](https://lena-voita.github.io/nlp_course.html)
 
 ### Topic modeling
 
@@ -571,6 +590,7 @@
 - [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
 - [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Practical Guide to Topic Modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/practical-guide-to-topic-modeling-with-lda-05cd6b027bdf)
+- [BERTrend: Neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
 
 ## Objects tracking
 
@@ -712,6 +732,7 @@
 ## Resampling
 
 - [Weighted resampling in Matlab](http://stackoverflow.com/questions/27092478/matlab-weighted-resampling)
+- [Efficient random sampling via linear interpolation](https://github.com/aneeshnaik/lintsampler)
 
 ## Revenue science
 
@@ -750,6 +771,8 @@
 - [Window Functions: A Must Know for Data Engineers and Data Scientists](https://towardsdatascience.com/window-functions-a-must-know-for-data-engineers-and-data-scientists-4dd3e4ad0d2)
 - [How to Low-Pass Filter in Google BigQuery](https://towardsdatascience.com/how-to-low-pass-filter-in-google-bigquery-3eefa082b497)
 - [Harlequin: the SQL IDE for your terminal](https://github.com/tconbeer/harlequin)
+- [SQLModel: a library for interacting with SQL databases from Python code, with Python objects](https://github.com/fastapi/sqlmodel)
+- [Sampling with SQL](https://blog.moertel.com/posts/2024-08-23-sampling-with-sql.html)
 
 ## Streaming/Online Learning
 

@@ -14,3 +14,4 @@
 - [`arviz` for Bayesian EDA](https://github.com/arviz-devs/arviz)
 - [Kangas: exploring, analyzing, and visualizing large-scale multimedia data](https://github.com/comet-ml/kangas)
 - [PyGWalker: A Python Library for Exploratory Data Analysis with Visualization](https://github.com/Kanaries/pygwalker)
+- [Data Formulator: Create Rich Visualizations with AI](https://github.com/microsoft/data-formulator)
