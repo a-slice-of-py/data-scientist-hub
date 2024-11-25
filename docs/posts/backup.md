@@ -32,8 +32,9 @@ TARGET_PATH = Path(...).resolve()
 
 paths = (
     "%USERPROFILE%/AppData/Local/Microsoft/Edge/User Data/Default/Bookmarks",
-    "%USERPROFILE%/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
+    "%USERPROFILE%/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
     "%USERPROFILE%/Documents/projects/cmder_mini/config/user_aliases.cmd",
+    "%USERPROFILE%/Documents/projects/cmder_mini/config/.history",
 )
 
 def main() -> None:
