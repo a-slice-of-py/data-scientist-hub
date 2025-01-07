@@ -1248,6 +1248,8 @@
       
         
       
+        
+      
     
     
       
@@ -1282,6 +1284,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1907,7 +1930,7 @@ where:</p>
 <p>To write a (verbose) file with the complete representation of the given problem, we can use <code>problem.writeLP("problem_name.lp")</code>. Similarly, to solve the problem and obtain a log with the trace of the optimization process we can use the following code:</p>
 <div class="highlight"><pre><span></span><code><span class="n">my_problem</span><span class="o">.</span><span class="n">writeLP</span><span class="p">(</span><span class="s2">&quot;my_problem_name.lp&quot;</span><span class="p">)</span>
 
-<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">dup</span><span class="p">,</span> <span class="n">dup2</span><span class="p">,</span> <span class="n">close</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">os</span><span class="w"> </span><span class="kn">import</span> <span class="n">dup</span><span class="p">,</span> <span class="n">dup2</span><span class="p">,</span> <span class="n">close</span>
 
 <span class="n">logf</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./optimization_log.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
 <span class="n">orig_std_out</span> <span class="o">=</span> <span class="n">dup</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -1935,7 +1958,7 @@ where:</p>
 <h3 id="dummy-is-good">Dummy is good<a class="headerlink" href="#dummy-is-good" title="Permanent link">&para;</a></h3>
 <p>After the (mathematical) formulation of the problem and the related PuLP implementation, it's <em>very</em> useful to test the program over several dummy input datasets of growing complexity having a known ground-truth. This helps to identify possible implementation mistakes and/or to unveil limitations in the theoretical formulation.</p>
 <p>In doing this, the creation of auxiliary data structures to store decision variables output values is often very useful to not get lost within the (possibly) counterintuitive formulation of the problem (see tip below). The following two functions might be useful in monitor variables values:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">print_variable_values</span><span class="p">(</span><span class="n">LpVariable</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">print_variable_values</span><span class="p">(</span><span class="n">LpVariable</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
 
 <span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">    this function can be used to print the values of a given LpVariable</span>
@@ -1952,7 +1975,7 @@ where:</p>
             <span class="nb">print</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="s1">&#39;:&#39;</span><span class="p">,</span><span class="n">value</span><span class="p">)</span> 
     <span class="k">return</span>
 
-<span class="k">def</span> <span class="nf">filter_variable_values</span><span class="p">(</span><span class="n">LpVariable</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">filter_variable_values</span><span class="p">(</span><span class="n">LpVariable</span><span class="p">,</span> <span class="n">exception</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
 
 <span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">    this function can be used to filter the values of a given LpVariable</span>
@@ -2044,7 +2067,7 @@ where:</p>
 <li><code>LpSolutionIntegerFeasible = 2</code> has been mapped to solution status <code>Solution Found</code> but it's not the map value for any problem status in <code>LpStatusToSolution</code></li>
 </ul>
 <p>Looking into the source code of <a href="https://github.com/coin-or/pulp/blob/master/pulp/apis/coin_api.py#L300">PuLP interface to CBC</a>, we can check the <code>get_status</code> function definition:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_status</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">get_status</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
     <span class="n">cbcStatus</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s2">&quot;Optimal&quot;</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">LpStatusOptimal</span><span class="p">,</span>
         <span class="s2">&quot;Infeasible&quot;</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">LpStatusInfeasible</span><span class="p">,</span>

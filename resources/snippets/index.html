@@ -1515,6 +1515,8 @@
       
         
       
+        
+      
     
     
       
@@ -1552,6 +1554,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -2000,7 +2023,7 @@
 <h3 id="profiling">profiling<a class="headerlink" href="#profiling" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="o">%</span><span class="n">load_ext</span> <span class="n">line_profiler</span>
 
-<span class="k">def</span> <span class="nf">function_to_profile</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">function_to_profile</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
     <span class="o">...</span>
 
 <span class="o">%</span><span class="n">lprun</span> <span class="o">-</span><span class="n">f</span> <span class="n">function_to_profile</span> <span class="n">function_to_profile</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -2008,12 +2031,12 @@
 <p>For reference see <a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html">here</a> and <a href="https://ipython-books.github.io/43-profiling-your-code-line-by-line-with-line_profiler/">here</a>.</p>
 <h2 id="sklearn">sklearn<a class="headerlink" href="#sklearn" title="Permanent link">&para;</a></h2>
 <h3 id="timeseriessplitmultistep"><code>TimeSeriesSplitMultiStep</code><a class="headerlink" href="#timeseriessplitmultistep" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">model_selection</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn</span><span class="w"> </span><span class="kn">import</span> <span class="n">model_selection</span>
 
 
-<span class="k">def</span> <span class="nf">TimeSeriesSplitMultiStep</span><span class="p">(</span><span class="n">series</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> 
+<span class="k">def</span><span class="w"> </span><span class="nf">TimeSeriesSplitMultiStep</span><span class="p">(</span><span class="n">series</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> 
                              <span class="n">n_splits</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> 
                              <span class="n">n_steps</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> 
                              <span class="n">max_train_size</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">:</span>
@@ -2041,10 +2064,10 @@
 </code></pre></div>
 <h2 id="stdlib">stdlib<a class="headerlink" href="#stdlib" title="Permanent link">&para;</a></h2>
 <h3 id="clean_text"><code>clean_text</code><a class="headerlink" href="#clean_text" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">textwrap</span> <span class="kn">import</span> <span class="n">dedent</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">textwrap</span><span class="w"> </span><span class="kn">import</span> <span class="n">dedent</span>
 
 
-<span class="k">def</span> <span class="nf">clean_text</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">clean_text</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Remove indentation and whitespaces.</span>
 
 <span class="sd">    Args:</span>
@@ -2065,19 +2088,19 @@
 <span class="nb">print</span><span class="p">(</span><span class="n">clean_text</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="c1"># cleaner</span>
 </code></pre></div>
 <h3 id="dbc">dbc<a class="headerlink" href="#dbc" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">functools</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">functools</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span>
 
 
-<span class="k">def</span> <span class="nf">condition</span><span class="p">(</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">condition</span><span class="p">(</span>
     <span class="n">pre</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span>
     <span class="n">check</span><span class="p">:</span> <span class="n">Callable</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">message</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">placeholder</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;abort&quot;</span><span class="p">,</span>
 <span class="p">):</span>
-    <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">):</span>
         <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">def</span><span class="w"> </span><span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
             <span class="k">if</span> <span class="n">check</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">pre</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">check</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
                     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
@@ -2095,17 +2118,17 @@
     <span class="k">return</span> <span class="n">decorator</span>
 
 
-<span class="k">def</span> <span class="nf">precondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">precondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">condition</span><span class="p">(</span><span class="n">pre</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="n">check</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">description</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">postcondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">postcondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">condition</span><span class="p">(</span><span class="n">pre</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="n">check</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">description</span><span class="p">)</span>
 
 <span class="nd">@precondition</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Input must be positive.&quot;</span><span class="p">)</span>
 <span class="nd">@precondition</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Input must be even.&quot;</span><span class="p">)</span>
 <span class="nd">@postcondition</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Output must be &gt; 4.&quot;</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
     <span class="k">return</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span>
 
 <span class="o">&gt;&gt;&gt;</span> <span class="n">test</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># ValueError: Precondition not satisfied: Input must be positive.</span>
@@ -2114,11 +2137,11 @@
 <span class="o">&gt;&gt;&gt;</span> <span class="n">test</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>  <span class="c1"># 8</span>
 </code></pre></div>
 <h3 id="flatten"><code>flatten</code><a class="headerlink" href="#flatten" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
 
-<span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span> <span class="o">|</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span> <span class="o">|</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span> <span class="o">|</span> <span class="nb">tuple</span> <span class="o">|</span> <span class="nb">map</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">flatten</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span> <span class="o">|</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span> <span class="o">|</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span> <span class="o">|</span> <span class="nb">tuple</span> <span class="o">|</span> <span class="nb">map</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Flatten nested input list.</span>
 
 <span class="sd">    Credits to [Samuele Fiorini](https://github.com/samuelefiorini).</span>
@@ -2139,9 +2162,9 @@
 <span class="nb">print</span><span class="p">(</span><span class="n">flatten</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="c1"># [1, 2, 3, 4, 5, 6, 7]</span>
 </code></pre></div>
 <h3 id="groupby"><code>groupby</code><a class="headerlink" href="#groupby" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">groupby</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">itertools</span><span class="w"> </span><span class="kn">import</span> <span class="n">groupby</span>
 
-<span class="k">def</span> <span class="nf">_groupby</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_groupby</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Groupby a list to remove consecutive duplicates while preserving ordering.</span>
 
 <span class="sd">    Inspired by https://stackoverflow.com/a/5738933/13790005.</span>
@@ -2158,11 +2181,11 @@
 <span class="nb">print</span><span class="p">(</span><span class="n">_groupby</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="c1"># [1, 2, 3, 2]</span>
 </code></pre></div>
 <h3 id="make_deps_graph"><code>make_deps_graph</code><a class="headerlink" href="#make_deps_graph" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">subprocess</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">subprocess</span>
 
 
-<span class="k">def</span> <span class="nf">make_deps_graph</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">make_deps_graph</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Make dependencies graphs via pydeps.&quot;&quot;&quot;</span>
 
     <span class="c1"># Ensure outdir exists</span>
@@ -2177,12 +2200,12 @@
         <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;pydeps </span><span class="si">{</span><span class="n">fname</span><span class="si">}</span><span class="s2"> --cluster --noshow -o </span><span class="si">{</span><span class="n">outdir</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">fname</span><span class="si">}</span><span class="s2">.svg&quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="make_project_tree"><code>make_project_tree</code><a class="headerlink" href="#make_project_tree" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">islice</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">itertools</span><span class="w"> </span><span class="kn">import</span> <span class="n">islice</span>
 
 
-<span class="k">def</span> <span class="nf">make_project_tree</span><span class="p">(</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">make_project_tree</span><span class="p">(</span>
     <span class="n">out_path</span><span class="p">:</span> <span class="n">Path</span> <span class="o">=</span> <span class="s1">&#39;./project_tree.md&#39;</span><span class="p">,</span>
     <span class="n">dir_path</span><span class="p">:</span> <span class="n">Path</span> <span class="o">=</span> <span class="s1">&#39;.&#39;</span><span class="p">,</span>
     <span class="n">level</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
@@ -2213,7 +2236,7 @@
     <span class="n">directories</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">blacklist</span> <span class="o">=</span> <span class="p">[</span><span class="o">...</span><span class="p">]</span> <span class="c1"># fill with path to be excluded</span>
 
-    <span class="k">def</span> <span class="nf">inner</span><span class="p">(</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">inner</span><span class="p">(</span>
         <span class="n">dir_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
         <span class="n">prefix</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
         <span class="n">level</span><span class="o">=-</span><span class="mi">1</span>
@@ -2263,7 +2286,7 @@
         <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </code></pre></div>
 <h3 id="mround"><code>mround</code><a class="headerlink" href="#mround" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">mround</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">m</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">mround</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">m</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Round to nearest multiple of m.</span>
 
 <span class="sd">    Args:</span>
@@ -2287,11 +2310,11 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"> <strong>init</strong>.py </label><label for="__tabbed_1_2">.env</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">sys</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 
-<span class="kn">from</span> <span class="nn">dotenv</span> <span class="kn">import</span> <span class="n">load_dotenv</span>
-<span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">dotenv</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_dotenv</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">loguru</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
 
 <span class="n">__</span> <span class="o">=</span> <span class="n">load_dotenv</span><span class="p">()</span>
 <span class="n">logger</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
@@ -2303,7 +2326,7 @@
 <span class="n">FROM_LOCAL</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;FROM_LOCAL&#39;</span><span class="p">,</span> <span class="s1">&#39;false&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;true&#39;</span>
 
 <span class="k">if</span> <span class="n">FROM_LOCAL</span><span class="p">:</span>
-    <span class="kn">from</span> <span class="nn">icecream</span> <span class="kn">import</span> <span class="n">install</span><span class="p">,</span> <span class="n">ic</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">icecream</span><span class="w"> </span><span class="kn">import</span> <span class="n">install</span><span class="p">,</span> <span class="n">ic</span>
     <span class="n">ic</span><span class="o">.</span><span class="n">configureOutput</span><span class="p">(</span>
         <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
         <span class="n">outputFunction</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">x</span><span class="p">),</span>
@@ -2325,7 +2348,7 @@
 <details class="example">
 <summary>Example</summary>
 <p>Let's define a test function:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     <span class="k">return</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
 </code></pre></div>
 <p>Before, with the standard <code>print</code>:</p>
@@ -2338,24 +2361,24 @@
 </code></pre></div>
 </details>
 <h3 id="timed"><code>timed</code><a class="headerlink" href="#timed" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">timedelta</span>
-<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">wraps</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Optional</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">timedelta</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">functools</span><span class="w"> </span><span class="kn">import</span> <span class="n">wraps</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Optional</span>
 
-<span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">loguru</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
 
 
-<span class="k">def</span> <span class="nf">timed</span><span class="p">(</span><span class="n">_func</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Callable</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">return_time</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">timed</span><span class="p">(</span><span class="n">_func</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Callable</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">return_time</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Print the execution time for the decorated function.</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">        _func (Optional[Callable], optional): function to decorate. Defaults to None.</span>
 <span class="sd">        return_time (bool, optional): if True, returns execution time before function. Defaults to False.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">_timed</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_timed</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
         <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">def</span><span class="w"> </span><span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
             <span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
             <span class="n">end</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
@@ -2372,19 +2395,19 @@
         <span class="k">return</span> <span class="n">_timed</span><span class="p">(</span><span class="n">_func</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="validate_type_annotations"><code>validate_type_annotations</code><a class="headerlink" href="#validate_type_annotations" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">wraps</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">functools</span><span class="w"> </span><span class="kn">import</span> <span class="n">wraps</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span>
 
-<span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">loguru</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
 
-<span class="k">def</span> <span class="nf">validate_type_annotations</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">validate_type_annotations</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Validate type annotations of given function arguments enriching error messages.</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">        func (Callable): function to decorate.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="n">func</span><span class="o">.</span><span class="vm">__annotations__</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;return&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
         <span class="n">func_types</span> <span class="o">=</span> <span class="p">[</span><span class="o">*</span><span class="n">func</span><span class="o">.</span><span class="vm">__annotations__</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>
         <span class="n">input_types</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">*</span><span class="n">kwargs</span><span class="p">)))</span>
@@ -2403,17 +2426,17 @@
 <h3 id="aggrid"><code>AgGrid</code><a class="headerlink" href="#aggrid" title="Permanent link">&para;</a></h3>
 <h4 id="deferred-single-row-deletion">Deferred single row deletion<a class="headerlink" href="#deferred-single-row-deletion" title="Permanent link">&para;</a></h4>
 <p>Originally posted at <a href="https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/167">discuss.streamlit.io</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">string</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
 
 <span class="n">st</span><span class="o">.</span><span class="n">set_page_config</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="s1">&#39;wide&#39;</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
     <span class="c1"># Configure AgGrid options</span>
     <span class="n">gb</span> <span class="o">=</span> <span class="n">GridOptionsBuilder</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">gb</span><span class="o">.</span><span class="n">configure_selection</span><span class="p">(</span><span class="s1">&#39;single&#39;</span><span class="p">)</span>
@@ -2468,17 +2491,17 @@
 </code></pre></div>
 <h4 id="realtime-single-row-deletion">Realtime single row deletion<a class="headerlink" href="#realtime-single-row-deletion" title="Permanent link">&para;</a></h4>
 <p>Originally posted at <a href="https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/171">discuss.streamlit.io</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">string</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span><span class="p">,</span> <span class="n">JsCode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span><span class="p">,</span> <span class="n">JsCode</span>
 
 <span class="n">st</span><span class="o">.</span><span class="n">set_page_config</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="s1">&#39;wide&#39;</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
     <span class="c1"># Configure AgGrid options</span>
     <span class="n">gb</span> <span class="o">=</span> <span class="n">GridOptionsBuilder</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">gb</span><span class="o">.</span><span class="n">configure_selection</span><span class="p">(</span><span class="s1">&#39;single&#39;</span><span class="p">,</span> <span class="n">use_checkbox</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -2519,16 +2542,16 @@
 </code></pre></div>
 <h4 id="deferred-multiple-rows-deletion">Deferred multiple rows deletion<a class="headerlink" href="#deferred-multiple-rows-deletion" title="Permanent link">&para;</a></h4>
 <p>Originally posted at <a href="https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/216">discuss.streamlit.io</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">string</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
 
 <span class="n">st</span><span class="o">.</span><span class="n">set_page_config</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="s1">&#39;wide&#39;</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
     <span class="c1"># Configure AgGrid options</span>
     <span class="n">gb</span> <span class="o">=</span> <span class="n">GridOptionsBuilder</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">gb</span><span class="o">.</span><span class="n">configure_selection</span><span class="p">(</span><span class="s1">&#39;multiple&#39;</span><span class="p">,</span> <span class="n">use_checkbox</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> 
@@ -2566,12 +2589,12 @@
     <span class="n">st</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">_df</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="folium_map"><code>folium_map</code><a class="headerlink" href="#folium_map" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">folium</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">streamlit_folium</span> <span class="kn">import</span> <span class="n">folium_static</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">folium</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">streamlit_folium</span><span class="w"> </span><span class="kn">import</span> <span class="n">folium_static</span>
 
 
-<span class="k">def</span> <span class="nf">folium_map</span><span class="p">(</span><span class="n">geomap</span><span class="p">:</span> <span class="n">folium</span><span class="o">.</span><span class="n">Map</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">folium_map</span><span class="p">(</span><span class="n">geomap</span><span class="p">:</span> <span class="n">folium</span><span class="o">.</span><span class="n">Map</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Render a responsive Folium map via streamlit-folium component.</span>
 
 <span class="sd">    Args:</span>
@@ -2587,12 +2610,12 @@
     <span class="n">folium_static</span><span class="p">(</span><span class="n">geomap</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="folium_dual_map"><code>folium_dual_map</code><a class="headerlink" href="#folium_dual_map" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">folium</span> <span class="kn">import</span> <span class="n">plugins</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">import</span> <span class="nn">streamlit.components.v1</span> <span class="k">as</span> <span class="nn">st_components</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">folium</span><span class="w"> </span><span class="kn">import</span> <span class="n">plugins</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit.components.v1</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st_components</span>
 
 
-<span class="k">def</span> <span class="nf">folium_dual_map</span><span class="p">(</span><span class="n">dualmap</span><span class="p">:</span> <span class="n">plugins</span><span class="o">.</span><span class="n">DualMap</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">folium_dual_map</span><span class="p">(</span><span class="n">dualmap</span><span class="p">:</span> <span class="n">plugins</span><span class="o">.</span><span class="n">DualMap</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Render a responsive Folium DualMap via streamlit-folium component.</span>
 
 <span class="sd">    Args:</span>
@@ -2611,10 +2634,10 @@
     <span class="p">)</span>
 </code></pre></div>
 <h3 id="grid-layout">Grid layout<a class="headerlink" href="#grid-layout" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">ContextManager</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">ContextManager</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
 
-<span class="k">def</span> <span class="nf">make_grid</span><span class="p">(</span><span class="n">n_rows</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">make_grid</span><span class="p">(</span><span class="n">n_rows</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Build a grid context manager.</span>
 
 <span class="sd">    Inspired from https://towardsdatascience.com/how-to-create-a-grid-layout-in-streamlit-7aff16b94508.</span>
@@ -2627,7 +2650,7 @@
 <span class="sd">        Callable context manager.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">grid</span> <span class="o">=</span> <span class="p">[</span><span class="n">st</span><span class="o">.</span><span class="n">columns</span><span class="p">(</span><span class="n">n_rows</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cols</span><span class="p">)]</span>
-    <span class="k">def</span> <span class="nf">_grid</span><span class="p">(</span><span class="n">i</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">j</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ContextManager</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_grid</span><span class="p">(</span><span class="n">i</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">j</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ContextManager</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
     <span class="k">return</span> <span class="n">_grid</span>
 
@@ -2639,7 +2662,7 @@
             <span class="n">st</span><span class="o">.</span><span class="n">markdown</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;# Hello from (</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="n">j</span><span class="si">}</span><span class="s1">)&#39;</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="injecting-javascript">Injecting <code>javascript</code><a class="headerlink" href="#injecting-javascript" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">streamlit.components.v1</span> <span class="k">as</span> <span class="nn">components</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">streamlit.components.v1</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">components</span>
 
 <span class="c1">## SEE: </span>
 <span class="c1">## - https://github.com/streamlit/streamlit/issues/1291#issuecomment-1022408379</span>
@@ -2663,13 +2686,13 @@
 <span class="p">)</span> 
 </code></pre></div>
 <h3 id="loguru_to_streamlit"><code>loguru_to_streamlit</code><a class="headerlink" href="#loguru_to_streamlit" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">loguru</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
 
 
-<span class="k">def</span> <span class="nf">redirect_loguru_to_streamlit</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">redirect_loguru_to_streamlit</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Redirect Loguru logs to Streamlit.&quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">_filter_warning</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_filter_warning</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">record</span><span class="p">[</span><span class="s2">&quot;level&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">no</span> <span class="o">==</span> <span class="n">logger</span><span class="o">.</span><span class="n">level</span><span class="p">(</span><span class="s2">&quot;WARNING&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">no</span>    
     <span class="k">if</span> <span class="s1">&#39;warning_logger&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">st</span><span class="o">.</span><span class="n">session_state</span><span class="p">:</span>
         <span class="n">st</span><span class="o">.</span><span class="n">session_state</span><span class="p">[</span><span class="s1">&#39;warning_logger&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">st</span><span class="o">.</span><span class="n">warning</span><span class="p">,</span> 

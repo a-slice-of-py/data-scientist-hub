@@ -1250,6 +1250,8 @@
       
         
       
+        
+      
     
     
       
@@ -1284,6 +1286,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1595,16 +1618,16 @@
 <p>We can indeed take advantage of <a href="https://github.com/pallets/click/">Click</a>, the command line interfaces builder underlying Typer itself. Since the former has been eagerly adopted almost anywhere a CLI is required, it represents a leader in the Python ecosystem.</p>
 <p>Given so, other libraries have built on-top of Click as Typer did: one of them is <a href="https://github.com/Textualize/trogon">Trogon</a>, which basically provides TUI <em>(Terminal User Interface)</em> based on <a href="https://github.com/textualize/textual">Textual</a> around Click apps.</p>
 <p>As pointed out in <a href="https://github.com/Textualize/trogon/issues/10">this thread</a>, Trogon can therefore do his job also on Typer apps:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">typer</span>
-<span class="kn">from</span> <span class="nn">trogon</span> <span class="kn">import</span> <span class="n">Trogon</span>
-<span class="kn">from</span> <span class="nn">typer.main</span> <span class="kn">import</span> <span class="n">get_group</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">typer</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">trogon</span><span class="w"> </span><span class="kn">import</span> <span class="n">Trogon</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typer.main</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_group</span>
 
 <span class="n">app</span> <span class="o">=</span> <span class="n">typer</span><span class="o">.</span><span class="n">Typer</span><span class="p">()</span>
 
 <span class="c1"># ... pre-existing Typer app</span>
 
 <span class="nd">@app</span><span class="o">.</span><span class="n">command</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">launch_tui</span><span class="p">(</span><span class="n">ctx</span><span class="p">:</span> <span class="n">typer</span><span class="o">.</span><span class="n">Context</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">launch_tui</span><span class="p">(</span><span class="n">ctx</span><span class="p">:</span> <span class="n">typer</span><span class="o">.</span><span class="n">Context</span><span class="p">):</span>
     <span class="n">Trogon</span><span class="p">(</span><span class="n">get_group</span><span class="p">(</span><span class="n">app</span><span class="p">),</span> <span class="n">click_context</span><span class="o">=</span><span class="n">ctx</span><span class="p">)</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </code></pre></div>
 <p>This is a nice add-on for Typer apps, which still remain completely available: Trogon's TUI just corresponds to a brand new command in a Typer app i.e., <code>launch-tui</code> in the above example.</p>

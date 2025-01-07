@@ -1242,6 +1242,8 @@
       
         
       
+        
+      
     
     
       
@@ -1279,6 +1281,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1513,7 +1536,7 @@
 <h2 id="profiling">profiling<a class="headerlink" href="#profiling" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="o">%</span><span class="n">load_ext</span> <span class="n">line_profiler</span>
 
-<span class="k">def</span> <span class="nf">function_to_profile</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">function_to_profile</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
     <span class="o">...</span>
 
 <span class="o">%</span><span class="n">lprun</span> <span class="o">-</span><span class="n">f</span> <span class="n">function_to_profile</span> <span class="n">function_to_profile</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>

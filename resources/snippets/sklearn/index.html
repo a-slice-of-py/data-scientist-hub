@@ -1242,6 +1242,8 @@
       
         
       
+        
+      
     
     
       
@@ -1279,6 +1281,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1498,12 +1521,12 @@
 
 <h1 id="sklearn">sklearn<a class="headerlink" href="#sklearn" title="Permanent link">&para;</a></h1>
 <h2 id="timeseriessplitmultistep"><code>TimeSeriesSplitMultiStep</code><a class="headerlink" href="#timeseriessplitmultistep" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">model_selection</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn</span><span class="w"> </span><span class="kn">import</span> <span class="n">model_selection</span>
 
 
-<span class="k">def</span> <span class="nf">TimeSeriesSplitMultiStep</span><span class="p">(</span><span class="n">series</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> 
+<span class="k">def</span><span class="w"> </span><span class="nf">TimeSeriesSplitMultiStep</span><span class="p">(</span><span class="n">series</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> 
                              <span class="n">n_splits</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> 
                              <span class="n">n_steps</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> 
                              <span class="n">max_train_size</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">:</span>

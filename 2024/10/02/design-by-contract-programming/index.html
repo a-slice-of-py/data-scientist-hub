@@ -1248,6 +1248,8 @@
       
         
       
+        
+      
     
     
       
@@ -1282,6 +1284,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1608,19 +1631,19 @@
 <!-- more -->
 
 <p>The final snippet, available also <a href="/data-scientist-hub/resources/snippets/#dbc">here</a>, is heavily inspired from <a href="https://stackoverflow.com/a/12151531">this old answer on Stack Overflow</a> and the <a href="https://gitlab.com/leogermond/python-dbc/-/blob/main/dbc.py?ref_type=heads">source code</a> linked to the previous blog post:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">functools</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">functools</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span>
 
 
-<span class="k">def</span> <span class="nf">condition</span><span class="p">(</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">condition</span><span class="p">(</span>
     <span class="n">pre</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span>
     <span class="n">check</span><span class="p">:</span> <span class="n">Callable</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">message</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">placeholder</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;abort&quot;</span><span class="p">,</span>
 <span class="p">):</span>
-    <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">):</span>
         <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">def</span><span class="w"> </span><span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
             <span class="k">if</span> <span class="n">check</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">pre</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">check</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
                     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
@@ -1638,11 +1661,11 @@
     <span class="k">return</span> <span class="n">decorator</span>
 
 
-<span class="k">def</span> <span class="nf">precondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">precondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">condition</span><span class="p">(</span><span class="n">pre</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="n">check</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">description</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">postcondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">postcondition</span><span class="p">(</span><span class="n">check</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">condition</span><span class="p">(</span><span class="n">pre</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="n">check</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">description</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
@@ -1650,7 +1673,7 @@
 <div class="highlight"><pre><span></span><code><span class="nd">@precondition</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Input must be positive.&quot;</span><span class="p">)</span>
 <span class="nd">@precondition</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Input must be even.&quot;</span><span class="p">)</span>
 <span class="nd">@postcondition</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Output must be &gt; 4.&quot;</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
     <span class="k">return</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span>
 
 <span class="o">&gt;&gt;&gt;</span> <span class="n">test</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># ValueError: Precondition not satisfied: Input must be positive.</span>

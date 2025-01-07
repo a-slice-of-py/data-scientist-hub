@@ -1242,6 +1242,8 @@
       
         
       
+        
+      
     
     
       
@@ -1279,6 +1281,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1578,17 +1601,17 @@
 <h2 id="aggrid"><code>AgGrid</code><a class="headerlink" href="#aggrid" title="Permanent link">&para;</a></h2>
 <h3 id="deferred-single-row-deletion">Deferred single row deletion<a class="headerlink" href="#deferred-single-row-deletion" title="Permanent link">&para;</a></h3>
 <p>Originally posted at <a href="https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/167">discuss.streamlit.io</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">string</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
 
 <span class="n">st</span><span class="o">.</span><span class="n">set_page_config</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="s1">&#39;wide&#39;</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
     <span class="c1"># Configure AgGrid options</span>
     <span class="n">gb</span> <span class="o">=</span> <span class="n">GridOptionsBuilder</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">gb</span><span class="o">.</span><span class="n">configure_selection</span><span class="p">(</span><span class="s1">&#39;single&#39;</span><span class="p">)</span>
@@ -1643,17 +1666,17 @@
 </code></pre></div>
 <h3 id="realtime-single-row-deletion">Realtime single row deletion<a class="headerlink" href="#realtime-single-row-deletion" title="Permanent link">&para;</a></h3>
 <p>Originally posted at <a href="https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/171">discuss.streamlit.io</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">string</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span><span class="p">,</span> <span class="n">JsCode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span><span class="p">,</span> <span class="n">JsCode</span>
 
 <span class="n">st</span><span class="o">.</span><span class="n">set_page_config</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="s1">&#39;wide&#39;</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
     <span class="c1"># Configure AgGrid options</span>
     <span class="n">gb</span> <span class="o">=</span> <span class="n">GridOptionsBuilder</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">gb</span><span class="o">.</span><span class="n">configure_selection</span><span class="p">(</span><span class="s1">&#39;single&#39;</span><span class="p">,</span> <span class="n">use_checkbox</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -1694,16 +1717,16 @@
 </code></pre></div>
 <h3 id="deferred-multiple-rows-deletion">Deferred multiple rows deletion<a class="headerlink" href="#deferred-multiple-rows-deletion" title="Permanent link">&para;</a></h3>
 <p>Originally posted at <a href="https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108/216">discuss.streamlit.io</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">string</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">GridUpdateMode</span>
 
 <span class="n">st</span><span class="o">.</span><span class="n">set_page_config</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="s1">&#39;wide&#39;</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_table</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
     <span class="c1"># Configure AgGrid options</span>
     <span class="n">gb</span> <span class="o">=</span> <span class="n">GridOptionsBuilder</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">gb</span><span class="o">.</span><span class="n">configure_selection</span><span class="p">(</span><span class="s1">&#39;multiple&#39;</span><span class="p">,</span> <span class="n">use_checkbox</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> 
@@ -1741,12 +1764,12 @@
     <span class="n">st</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">_df</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="folium_map"><code>folium_map</code><a class="headerlink" href="#folium_map" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">folium</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">streamlit_folium</span> <span class="kn">import</span> <span class="n">folium_static</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">folium</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">streamlit_folium</span><span class="w"> </span><span class="kn">import</span> <span class="n">folium_static</span>
 
 
-<span class="k">def</span> <span class="nf">folium_map</span><span class="p">(</span><span class="n">geomap</span><span class="p">:</span> <span class="n">folium</span><span class="o">.</span><span class="n">Map</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">folium_map</span><span class="p">(</span><span class="n">geomap</span><span class="p">:</span> <span class="n">folium</span><span class="o">.</span><span class="n">Map</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Render a responsive Folium map via streamlit-folium component.</span>
 
 <span class="sd">    Args:</span>
@@ -1762,12 +1785,12 @@
     <span class="n">folium_static</span><span class="p">(</span><span class="n">geomap</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="folium_dual_map"><code>folium_dual_map</code><a class="headerlink" href="#folium_dual_map" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">folium</span> <span class="kn">import</span> <span class="n">plugins</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">import</span> <span class="nn">streamlit.components.v1</span> <span class="k">as</span> <span class="nn">st_components</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">folium</span><span class="w"> </span><span class="kn">import</span> <span class="n">plugins</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit.components.v1</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st_components</span>
 
 
-<span class="k">def</span> <span class="nf">folium_dual_map</span><span class="p">(</span><span class="n">dualmap</span><span class="p">:</span> <span class="n">plugins</span><span class="o">.</span><span class="n">DualMap</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">folium_dual_map</span><span class="p">(</span><span class="n">dualmap</span><span class="p">:</span> <span class="n">plugins</span><span class="o">.</span><span class="n">DualMap</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">800</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Render a responsive Folium DualMap via streamlit-folium component.</span>
 
 <span class="sd">    Args:</span>
@@ -1786,10 +1809,10 @@
     <span class="p">)</span>
 </code></pre></div>
 <h2 id="grid-layout">Grid layout<a class="headerlink" href="#grid-layout" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">ContextManager</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">ContextManager</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
 
-<span class="k">def</span> <span class="nf">make_grid</span><span class="p">(</span><span class="n">n_rows</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">make_grid</span><span class="p">(</span><span class="n">n_rows</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Build a grid context manager.</span>
 
 <span class="sd">    Inspired from https://towardsdatascience.com/how-to-create-a-grid-layout-in-streamlit-7aff16b94508.</span>
@@ -1802,7 +1825,7 @@
 <span class="sd">        Callable context manager.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">grid</span> <span class="o">=</span> <span class="p">[</span><span class="n">st</span><span class="o">.</span><span class="n">columns</span><span class="p">(</span><span class="n">n_rows</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_cols</span><span class="p">)]</span>
-    <span class="k">def</span> <span class="nf">_grid</span><span class="p">(</span><span class="n">i</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">j</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ContextManager</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_grid</span><span class="p">(</span><span class="n">i</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">j</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ContextManager</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
     <span class="k">return</span> <span class="n">_grid</span>
 
@@ -1814,7 +1837,7 @@
             <span class="n">st</span><span class="o">.</span><span class="n">markdown</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;# Hello from (</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="n">j</span><span class="si">}</span><span class="s1">)&#39;</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="injecting-javascript">Injecting <code>javascript</code><a class="headerlink" href="#injecting-javascript" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">streamlit.components.v1</span> <span class="k">as</span> <span class="nn">components</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">streamlit.components.v1</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">components</span>
 
 <span class="c1"># SEE: </span>
 <span class="c1"># - https://github.com/streamlit/streamlit/issues/1291#issuecomment-1022408379</span>
@@ -1838,13 +1861,13 @@
 <span class="p">)</span> 
 </code></pre></div>
 <h2 id="loguru_to_streamlit"><code>loguru_to_streamlit</code><a class="headerlink" href="#loguru_to_streamlit" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">loguru</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
 
 
-<span class="k">def</span> <span class="nf">redirect_loguru_to_streamlit</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">redirect_loguru_to_streamlit</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Redirect Loguru logs to Streamlit.&quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">_filter_warning</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_filter_warning</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">record</span><span class="p">[</span><span class="s2">&quot;level&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">no</span> <span class="o">==</span> <span class="n">logger</span><span class="o">.</span><span class="n">level</span><span class="p">(</span><span class="s2">&quot;WARNING&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">no</span>    
     <span class="k">if</span> <span class="s1">&#39;warning_logger&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">st</span><span class="o">.</span><span class="n">session_state</span><span class="p">:</span>
         <span class="n">st</span><span class="o">.</span><span class="n">session_state</span><span class="p">[</span><span class="s1">&#39;warning_logger&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">st</span><span class="o">.</span><span class="n">warning</span><span class="p">,</span> 

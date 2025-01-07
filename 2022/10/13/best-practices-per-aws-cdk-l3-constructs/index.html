@@ -1250,6 +1250,8 @@
       
         
       
+        
+      
     
     
       
@@ -1284,6 +1286,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1673,12 +1696,12 @@ Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementaz
 <div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Pattern</label><label for="__tabbed_1_2">PatternProps</label><label for="__tabbed_1_3">BaseProps</label><label for="__tabbed_1_4">check_type</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">constructs</span> <span class="kn">import</span> <span class="n">Construct</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">constructs</span><span class="w"> </span><span class="kn">import</span> <span class="n">Construct</span>
 
 
-<span class="k">class</span> <span class="nc">Pattern</span><span class="p">(</span><span class="n">Construct</span><span class="p">):</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Pattern</span><span class="p">(</span><span class="n">Construct</span><span class="p">):</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
                  <span class="n">scope</span><span class="p">:</span> <span class="n">Construct</span><span class="p">,</span>
                  <span class="nb">id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                  <span class="o">*</span><span class="p">,</span>
@@ -1691,9 +1714,9 @@ Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementaz
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">PatternProps</span><span class="p">(</span><span class="n">BaseProps</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">PatternProps</span><span class="p">(</span><span class="n">BaseProps</span><span class="p">):</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
                 <span class="o">*</span><span class="p">,</span>
                 <span class="o">...</span> <span class="c1"># &lt;- kwarg_1_name=kwarg_1_value, ...</span>
                 <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -1703,7 +1726,7 @@ Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementaz
         <span class="o">...</span>
 
     <span class="nd">@property</span>
-    <span class="k">def</span> <span class="nf">kwarg_1_name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">...</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">kwarg_1_name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">...</span><span class="p">:</span>
         <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_values</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;kwarg_1_name&#39;</span><span class="p">)</span>
         <span class="n">check_type</span><span class="p">(</span>
             <span class="n">attr</span><span class="o">=</span><span class="s1">&#39;kwarg_1_name&#39;</span><span class="p">,</span>
@@ -1714,23 +1737,23 @@ Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementaz
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">BaseProps</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">BaseProps</span><span class="p">:</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">pass</span>
 
-    <span class="k">def</span> <span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">:</span> <span class="nb">object</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">:</span> <span class="nb">object</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">attr</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_values</span><span class="p">:</span>
             <span class="nb">setattr</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">attr</span><span class="p">,</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">))</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Tuple</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Tuple</span>
 
 <span class="n">JSII_TYPE_ATTR</span> <span class="o">=</span> <span class="s1">&#39;__jsii_type__&#39;</span>
 
 
-<span class="k">def</span> <span class="nf">check_type</span><span class="p">(</span><span class="n">attr</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">check_type</span><span class="p">(</span><span class="n">attr</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                <span class="n">value</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span>
                <span class="n">expected_types</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">Any</span><span class="p">],</span>
                <span class="n">skip_if_missing</span><span class="p">:</span> <span class="nb">bool</span>
@@ -1773,12 +1796,12 @@ Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementaz
 </details>
 <h2 id="utilizzo">Utilizzo<a class="headerlink" href="#utilizzo" title="Permanent link">&para;</a></h2>
 <p>Una volta creato il costrutto, si può utilizzare esattamente come gli altri costrutti L1, L2 e L3 nativi, ovvero istanziandolo in uno stack fornendogli quindi uno scope (il <code>self</code> dello stack stesso), un id e gli eventuali parametri di configurazione.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">aws_cdk</span> <span class="kn">import</span> <span class="n">Stack</span> <span class="k">as</span> <span class="n">BaseStack</span>
-<span class="kn">from</span> <span class="nn">infra.patterns</span> <span class="kn">import</span> <span class="n">Pattern</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">aws_cdk</span><span class="w"> </span><span class="kn">import</span> <span class="n">Stack</span> <span class="k">as</span> <span class="n">BaseStack</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">infra.patterns</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pattern</span>
 
-<span class="k">class</span> <span class="nc">Stack</span><span class="p">(</span><span class="n">BaseStack</span><span class="p">):</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Stack</span><span class="p">(</span><span class="n">BaseStack</span><span class="p">):</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
                  <span class="n">scope</span><span class="p">:</span> <span class="n">Construct</span><span class="p">,</span>
                  <span class="n">construct_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                  <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>        

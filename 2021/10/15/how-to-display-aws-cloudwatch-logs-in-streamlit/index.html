@@ -1250,6 +1250,8 @@
       
         
       
+        
+      
     
     
       
@@ -1284,6 +1286,27 @@
             CHANGELOG
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/changelog/2025-01-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025-01-07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1653,18 +1676,18 @@ streamlit-aggrid # to enhance logs viz experience
 </code></pre></div>
 <h2 id="source-code">Source code<a class="headerlink" href="#source-code" title="Permanent link">&para;</a></h2>
 <p>The solution consists in a Streamlit monitor which tracks <em>last job execution</em> (a custom widget to filter execution by date should be a straightforward addition).</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Optional</span>
 
-<span class="kn">import</span> <span class="nn">boto3</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">pytz</span>
-<span class="kn">import</span> <span class="nn">streamlit</span> <span class="k">as</span> <span class="nn">st</span>
-<span class="kn">from</span> <span class="nn">st_aggrid</span> <span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">JsCode</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">boto3</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pytz</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">streamlit</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">st</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">st_aggrid</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgGrid</span><span class="p">,</span> <span class="n">GridOptionsBuilder</span><span class="p">,</span> <span class="n">JsCode</span>
 
 
-<span class="k">def</span> <span class="nf">gmt2rome</span><span class="p">(</span><span class="n">date</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">fmt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%a</span><span class="s2">, </span><span class="si">%d</span><span class="s2"> %b %Y %H:%M:%S GMT&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">datetime</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">gmt2rome</span><span class="p">(</span><span class="n">date</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">fmt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%a</span><span class="s2">, </span><span class="si">%d</span><span class="s2"> %b %Y %H:%M:%S GMT&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">datetime</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Convert GMT timestamp to EU/Rome.</span>
 
 <span class="sd">    Args:</span>
@@ -1678,7 +1701,7 @@ streamlit-aggrid # to enhance logs viz experience
     <span class="k">return</span> <span class="n">gmt</span><span class="o">.</span><span class="n">localize</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">fmt</span><span class="p">))</span><span class="o">.</span><span class="n">astimezone</span><span class="p">(</span><span class="n">pytz</span><span class="o">.</span><span class="n">timezone</span><span class="p">(</span><span class="s1">&#39;Europe/Rome&#39;</span><span class="p">))</span>
 
 
-<span class="k">def</span> <span class="nf">get_last_log</span><span class="p">(</span><span class="n">cloudwatch</span><span class="p">:</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">,</span> <span class="n">log_group</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_last_log</span><span class="p">(</span><span class="n">cloudwatch</span><span class="p">:</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">,</span> <span class="n">log_group</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Build most recent logs dataframe for the given AWS resource.</span>
 
 <span class="sd">    # SEE: https://gist.github.com/eldondevcg/fffff4b7909351b19a53 for credits.</span>
@@ -1732,7 +1755,7 @@ streamlit-aggrid # to enhance logs viz experience
         <span class="k">return</span> <span class="n">df</span>        
 
 
-<span class="k">def</span> <span class="nf">get_log_groups</span><span class="p">(</span><span class="n">cloudwatch</span><span class="p">:</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">,</span> <span class="n">prefix</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_log_groups</span><span class="p">(</span><span class="n">cloudwatch</span><span class="p">:</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">,</span> <span class="n">prefix</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve log groups given prefix.</span>
 
 <span class="sd">    Args:</span>
@@ -1756,7 +1779,7 @@ streamlit-aggrid # to enhance logs viz experience
         <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;logGroupName&#39;</span><span class="p">],</span> <span class="n">all_groups</span><span class="p">))</span>
 
 
-<span class="k">def</span> <span class="nf">_configure_aggrid</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GridOptionsBuilder</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_configure_aggrid</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GridOptionsBuilder</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Configure AgGrid options.</span>
 
 <span class="sd">    Args:</span>
@@ -1792,7 +1815,7 @@ streamlit-aggrid # to enhance logs viz experience
     <span class="k">return</span> <span class="n">gb</span>
 
 
-<span class="k">def</span> <span class="nf">display_logs</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">display_logs</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgGrid</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Display logs via AgGrid.</span>
 
 <span class="sd">    Args:</span>
@@ -1808,7 +1831,7 @@ streamlit-aggrid # to enhance logs viz experience
     <span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">load_sidebar</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">load_sidebar</span><span class="p">():</span>
     <span class="k">with</span> <span class="n">st</span><span class="o">.</span><span class="n">sidebar</span><span class="p">:</span>
         <span class="n">st</span><span class="o">.</span><span class="n">markdown</span><span class="p">(</span><span class="s1">&#39;# ☁️ AWS CloudWatch Logs&#39;</span><span class="p">)</span>
         <span class="n">profile</span> <span class="o">=</span> <span class="n">st</span><span class="o">.</span><span class="n">text_input</span><span class="p">(</span><span class="s1">&#39;AWS named profile&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
@@ -1824,7 +1847,7 @@ streamlit-aggrid # to enhance logs viz experience
             <span class="k">return</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span>
 
 
-<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
     <span class="n">env</span><span class="p">,</span> <span class="n">cloudwatch</span> <span class="o">=</span> <span class="n">load_sidebar</span><span class="p">()</span>
     <span class="k">if</span> <span class="n">env</span> <span class="ow">and</span> <span class="n">cloudwatch</span><span class="p">:</span>
         <span class="n">cols</span> <span class="o">=</span> <span class="n">st</span><span class="o">.</span><span class="n">columns</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
