@@ -48,4 +48,6 @@
 - [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
 - [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Practical Guide to Topic Modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/practical-guide-to-topic-modeling-with-lda-05cd6b027bdf)
-- [BERTrend: Neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
+- [BERTrend: neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
+- [Turftopic: robust and fast topic models with sentence-transformers](https://github.com/x-tabdeveloping/turftopic)
+- [topicwizard: powerful topic model visualization in Python](https://github.com/x-tabdeveloping/topicwizard)

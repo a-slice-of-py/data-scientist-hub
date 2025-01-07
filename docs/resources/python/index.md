@@ -62,6 +62,7 @@
 - [CLI comparison](https://medium.com/@xiaoxugao/cc3a6444af8e)
 - [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)
 - [radicli: radically lightweight command-line interfaces](https://github.com/explosion/radicli)
+- [TerminalTextEffects: a terminal visual effects engine, application, and Python library](https://github.com/ChrisBuilds/terminaltexteffects)
 
 ## Code freezing
 
@@ -175,10 +176,12 @@
 ## Dates and times
 
 - [Pendulum as a drop-in replacement for datetime](https://towardsdatascience.com/pendulum-one-of-the-most-useful-python-libraries-you-have-ever-seen-e2ecc365c8c0)
+- [Whenever: modern datetime library for Python](https://github.com/ariebovenberg/whenever)
 
 ## Dependencies management
 
 - [Dependencies management](https://kolodziejj.info/articles/dependencies/)
+- [Python dependency management is a dumpster fire](https://nielscautaerts.xyz/python-dependency-management-is-a-dumpster-fire.html)
 
 ## Digital clock
 
@@ -229,6 +232,7 @@
 - [A primer on game programming](https://realpython.com/pygame-a-primer/)
 - [Build Tic-Tac-Toe with Python](https://realpython.com/tic-tac-toe-python/)
 - [Build a Tic-Tac-Toe Game Engine With an AI Player in Python](https://realpython.com/tic-tac-toe-ai-python/)
+- [pyxel: a retro game engine for Python](https://github.com/kitao/pyxel)
 
 ## GUI
 
@@ -382,6 +386,7 @@
 - [Examples with Python's pathlib](https://towardsdatascience.com/10-examples-to-master-python-pathlib-1249cc77de0b)
 - [File system operations](https://towardsdatascience.com/8-must-know-file-system-operations-in-python-7dc185daeccd)
 - [Pathlib vs os comparison](https://towardsdatascience.com/dont-use-python-os-library-any-more-when-pathlib-can-do-141fefb6bdb5)
+- [Python's pathlib module extensive overview](https://www.pythonmorsels.com/pathlib-module/)
 
 ## Polymorphism
 
@@ -428,6 +433,7 @@
 - [`lazypredict`](https://github.com/shankarpandala/lazypredict)
 - [`human-learn` to rule-based learning and interactive drawing rules](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
 - [`scikit-mdn`: a mixture density network, by PyTorch, for scikit-learn](https://github.com/koaning/scikit-mdn)
+- [`skore`: The scikit-learn Modeling Companion](https://github.com/probabl-ai/skore)
 
 ### Probabl
 
@@ -630,6 +636,7 @@
 - [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)
 - [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
 - [PuePy: PyScript Frontend Framework](https://github.com/kkinder/puepy)
+- [Rio: WebApps in pure Python](https://github.com/rio-labs/rio)
 
 ## Web scraping
 

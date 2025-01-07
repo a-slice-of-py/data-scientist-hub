@@ -42,3 +42,5 @@
 - [Recurse Social Rules to create a friendly, intellectual programming environmen](https://www.recurse.com/social-rules)
 - [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 - [Run Your Data Team Like A Product Team](https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/)
+- [Categories of leadership on technical teams](https://www.benkuhn.net/leadcats/)
+- [Staff Engineer vs Engineering Manager](https://blog.alexewerlof.com/p/staff-engineer-vs-engineering-manager)

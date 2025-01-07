@@ -38,3 +38,4 @@
 - [Kolmogorov-Smirnov test to check how data are distributed](https://towardsdatascience.com/how-is-your-data-distributed-a-practical-introduction-to-the-kolmogorov-smirnov-test-6b4fa7ba32ef)
 - [Empirical cumulative distribution: advantages over histogram for EDA](https://towardsdatascience.com/empirical-cumulative-distribution-function-the-only-plotting-tool-a-data-scientist-needs-a9976f86c718)
 - [Hypothesis Testing Explained (How I Wish It Was Explained to Me)](https://towardsdatascience.com/hypothesis-testing-explained-how-i-wish-it-was-explained-to-me-14379f7a41c3)
+- [Why Statistical Significance Is Pointless](https://towardsdatascience.com/why-statistical-significance-is-pointless-a7644be30266)

@@ -20,3 +20,4 @@
 - [Markov clustering](https://medium.com/analytics-vidhya/demystifying-markov-clustering-aeb6cdabbfc7)
 - [Unsupervised Learning Series: exploring DBScan](https://towardsdatascience.com/unsupervised-learning-series-exploring-dbscan-624c820290ce)
 - [Recursive Embedding and Clustering by Spotify](https://engineering.atspotify.com/2023/12/recursive-embedding-and-clustering/)
+- [How to properly cluster with HDBSCAN for 1D dataset](https://stackoverflow.com/questions/68644359/how-to-properly-cluster-with-hdbscan-for-1d-dataset)

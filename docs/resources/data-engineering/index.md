@@ -46,6 +46,8 @@
 
 ## ACID
 
+- [deltabase: a lightweight, comprehensive solution for managing delta tables built on polars and deltalake](https://github.com/uname-n/deltabase)
+
 ### Apache Iceberg
 
 - [Apache Iceberg O'Reilly Training](https://github.com/wssbck/training-oreilly-iceberg)

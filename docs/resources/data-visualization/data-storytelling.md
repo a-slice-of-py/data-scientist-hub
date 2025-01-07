@@ -18,3 +18,5 @@
 - [365 days in data-viz](https://towardsdatascience.com/i-studied-365-data-visualizations-in-2020-ac1e0fc9799c)
 - [Visual and interactive explorables data-stories](https://yizhe-ang.github.io/)
 - [Tagging Mountaineering Accident Reports Using bart-large-mnli](https://towardsdatascience.com/tagging-mountaineering-accident-reports-using-bart-large-mnli-1b1f6d97756a)
+- [Recreating Florence Nightingale's work with ggplot](https://github.com/edwardgunning/FlorenceNightingale)
+- [Map of GitHub](https://anvaka.github.io/map-of-github/#2/0/0)

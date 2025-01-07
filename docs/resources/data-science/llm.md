@@ -87,3 +87,6 @@
 - [Docling: parse documents and export them to the desired format with ease and speed](https://github.com/DS4SD/docling)
 - [Posting: the modern API client that lives in your terminal](https://github.com/darrenburns/posting)
 - [Large Chainsaw Model](https://www.scottsmitelli.com/articles/large-chainsaw-model/)
+- [My colleague Julius](https://ploum.net/2024-12-23-julius-en.html)
+- [Can LLMs write better code if you keep asking them to "write better code"?](https://minimaxir.com/2025/01/write-better-code/)
+- [MyST: Community-driven tools for technical communication](https://mystmd.org/)

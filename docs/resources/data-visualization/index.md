@@ -4,6 +4,7 @@
 
 - [Guide to real-time visualization of massive 3D point clouds in Python](https://towardsdatascience.com/guide-to-real-time-visualisation-of-massive-3d-point-clouds-in-python-ea6f00241ee0)
 - [3D Visualization of Geospatial Big Data by Lexcube](https://towardsdatascience.com/3d-visualization-of-geospatial-big-data-by-lexcube-python-a57512cabd69)
+- [PyVista: 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)](https://github.com/pyvista/pyvista)
 
 ## Altair
 
@@ -105,6 +106,8 @@
 - [365 days in data-viz](https://towardsdatascience.com/i-studied-365-data-visualizations-in-2020-ac1e0fc9799c)
 - [Visual and interactive explorables data-stories](https://yizhe-ang.github.io/)
 - [Tagging Mountaineering Accident Reports Using bart-large-mnli](https://towardsdatascience.com/tagging-mountaineering-accident-reports-using-bart-large-mnli-1b1f6d97756a)
+- [Recreating Florence Nightingale's work with ggplot](https://github.com/edwardgunning/FlorenceNightingale)
+- [Map of GitHub](https://anvaka.github.io/map-of-github/#2/0/0)
 
 ## Datamapplot
 
@@ -247,6 +250,7 @@
 
 - [`joypy` for drawing ridgeline plots](https://github.com/leotac/joypy)
 - [Ridge plots of ridges](https://github.com/ColCarroll/ridge_map)
+- [ridgeplot: beautiful ridgeline plots in Python](https://github.com/tpvasconcelos/ridgeplot)
 
 ## ROC Curve
 

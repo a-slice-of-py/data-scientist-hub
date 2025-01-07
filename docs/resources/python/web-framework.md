@@ -34,3 +34,4 @@
 - [Hyperdiv: Build reactive web UIs in Python](https://github.com/hyperdiv/hyperdiv)
 - [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
 - [PuePy: PyScript Frontend Framework](https://github.com/kkinder/puepy)
+- [Rio: WebApps in pure Python](https://github.com/rio-labs/rio)

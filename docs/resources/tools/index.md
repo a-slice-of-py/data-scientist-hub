@@ -76,6 +76,7 @@
 
 - [20 repositories for developers](https://towardsdatascience.com/20-amazing-github-repositories-every-developer-should-follow-d8ce4c728351)
 - [github1s: one second to read GitHub code with VS Code](https://github.com/conwnet/github1s)
+- [gitdiagram: visualize codebase as an interactive diagram](https://github.com/ahmedkhaleel2004/gitdiagram)
 
 ## Google
 
@@ -130,6 +131,8 @@
 - [Decide better together: answer a few simple questions to explore better ways to make group decisions](https://thedecider.app/)
 - [A Decision-Making Framework for Identifying Strategic Innovative Projects](https://andreagigli.medium.com/a-decision-making-framework-for-identifying-strategic-innovative-projects-055361406924)
 - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+- [The work is never just "the work"](https://davestewart.co.uk/blog/the-work-is-never-just-the-work/)
+- [Why rocks, pebbles, sand is a productivity trap](https://davestewart.co.uk/blog/rocks-pebbles-sand/)
 
 ## Quarto
 

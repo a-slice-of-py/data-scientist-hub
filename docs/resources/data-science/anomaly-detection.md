@@ -12,3 +12,4 @@
 - [Probabilistic forecasting of binary events using regression](https://towardsdatascience.com/probabilistic-forecasting-of-binary-events-using-regression-4f8a8022ec37)
 - [Luminol: a light weight Python library for time series anomaly detection and correlation](https://github.com/linkedin/luminol)
 - [Alibi Detect: an open source Python library focused on outlier, adversarial and drift detection](https://github.com/SeldonIO/alibi-detect)
+- [Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512)

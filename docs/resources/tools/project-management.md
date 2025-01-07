@@ -5,3 +5,5 @@
 - [Decide better together: answer a few simple questions to explore better ways to make group decisions](https://thedecider.app/)
 - [A Decision-Making Framework for Identifying Strategic Innovative Projects](https://andreagigli.medium.com/a-decision-making-framework-for-identifying-strategic-innovative-projects-055361406924)
 - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+- [The work is never just "the work"](https://davestewart.co.uk/blog/the-work-is-never-just-the-work/)
+- [Why rocks, pebbles, sand is a productivity trap](https://davestewart.co.uk/blog/rocks-pebbles-sand/)

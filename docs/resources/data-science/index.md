@@ -24,6 +24,7 @@
 - [Probabilistic forecasting of binary events using regression](https://towardsdatascience.com/probabilistic-forecasting-of-binary-events-using-regression-4f8a8022ec37)
 - [Luminol: a light weight Python library for time series anomaly detection and correlation](https://github.com/linkedin/luminol)
 - [Alibi Detect: an open source Python library focused on outlier, adversarial and drift detection](https://github.com/SeldonIO/alibi-detect)
+- [Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512)
 
 ## AutoML
 
@@ -128,6 +129,7 @@
 - [Markov clustering](https://medium.com/analytics-vidhya/demystifying-markov-clustering-aeb6cdabbfc7)
 - [Unsupervised Learning Series: exploring DBScan](https://towardsdatascience.com/unsupervised-learning-series-exploring-dbscan-624c820290ce)
 - [Recursive Embedding and Clustering by Spotify](https://engineering.atspotify.com/2023/12/recursive-embedding-and-clustering/)
+- [How to properly cluster with HDBSCAN for 1D dataset](https://stackoverflow.com/questions/68644359/how-to-properly-cluster-with-hdbscan-for-1d-dataset)
 
 ## Code differentiation
 
@@ -149,6 +151,7 @@
 - [Augmentor for image augmentation](https://github.com/mdbloice/Augmentor)
 - [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
+- [Deepface: a Lightweight Face Recognition and Facial Attribute Analysis Library for Python](https://github.com/serengil/deepface)
 
 ## Correlation
 
@@ -424,6 +427,9 @@
 - [Docling: parse documents and export them to the desired format with ease and speed](https://github.com/DS4SD/docling)
 - [Posting: the modern API client that lives in your terminal](https://github.com/darrenburns/posting)
 - [Large Chainsaw Model](https://www.scottsmitelli.com/articles/large-chainsaw-model/)
+- [My colleague Julius](https://ploum.net/2024-12-23-julius-en.html)
+- [Can LLMs write better code if you keep asking them to "write better code"?](https://minimaxir.com/2025/01/write-better-code/)
+- [MyST: Community-driven tools for technical communication](https://mystmd.org/)
 
 ## Machine Learning
 
@@ -524,6 +530,7 @@
 ## Nearest Neighbors
 
 - [Voyager: a library for performing fast approximate nearest-neighbor searches on an in-memory collection of vectors](https://spotify.github.io/voyager/python/reference.html)
+- [Vicinity: lightweight Nearest Neighbors with Flexible Backends](https://github.com/MinishLab/vicinity)
 
 ## Neural Networks
 
@@ -590,7 +597,9 @@
 - [Topic Modeling with Llama 2](https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174)
 - [cluestar: visualisation tools to get started with text classification tasks](https://github.com/koaning/cluestar)
 - [Practical Guide to Topic Modeling with Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/practical-guide-to-topic-modeling-with-lda-05cd6b027bdf)
-- [BERTrend: Neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
+- [BERTrend: neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
+- [Turftopic: robust and fast topic models with sentence-transformers](https://github.com/x-tabdeveloping/turftopic)
+- [topicwizard: powerful topic model visualization in Python](https://github.com/x-tabdeveloping/topicwizard)
 
 ## Objects tracking
 
@@ -687,6 +696,7 @@
 - [Kolmogorov-Smirnov test to check how data are distributed](https://towardsdatascience.com/how-is-your-data-distributed-a-practical-introduction-to-the-kolmogorov-smirnov-test-6b4fa7ba32ef)
 - [Empirical cumulative distribution: advantages over histogram for EDA](https://towardsdatascience.com/empirical-cumulative-distribution-function-the-only-plotting-tool-a-data-scientist-needs-a9976f86c718)
 - [Hypothesis Testing Explained (How I Wish It Was Explained to Me)](https://towardsdatascience.com/hypothesis-testing-explained-how-i-wish-it-was-explained-to-me-14379f7a41c3)
+- [Why Statistical Significance Is Pointless](https://towardsdatascience.com/why-statistical-significance-is-pointless-a7644be30266)
 
 ## Regression
 
@@ -773,6 +783,7 @@
 - [Harlequin: the SQL IDE for your terminal](https://github.com/tconbeer/harlequin)
 - [SQLModel: a library for interacting with SQL databases from Python code, with Python objects](https://github.com/fastapi/sqlmodel)
 - [Sampling with SQL](https://blog.moertel.com/posts/2024-08-23-sampling-with-sql.html)
+- [Outerbase Studio: A lightweight Database GUI in your browser](https://github.com/outerbase/studio)
 
 ## Streaming/Online Learning
 
