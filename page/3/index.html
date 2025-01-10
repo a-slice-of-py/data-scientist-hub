@@ -544,6 +544,8 @@
       
         
       
+        
+      
     
     
       
@@ -581,6 +583,29 @@
             Archive
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -745,6 +770,8 @@
       
         
       
+        
+      
     
     
       
@@ -820,6 +847,29 @@
   
   <span class="md-ellipsis">
     Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../category/resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
   </span>
   
 
@@ -1514,6 +1564,346 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2023-01-09 00:00:00">January 9, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/announcements/" class="md-meta__link">Announcements</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              2 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="read-dynamodb-table-items-into-a-pandas-dataframe"><a class="toclink" href="../../2023/01/09/read-dynamodb-table-items-into-a-pandas-dataframe/">Read DynamoDB table items into a Pandas Dataframe</a></h2>
+<p>For all the Python developers working on AWS: have you ever wanted to easily read a DynamoDB table directly into a pandas DataFrame?</p>
+<p>Check out the latest release of <a href="https://github.com/aws/aws-sdk-pandas/releases/tag/2.19.0">AWS SDK for pandas</a> (formerly AWS Data Wrangler), where I contributed with a brand new read method for DynamoDB module!</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2023/01/09/read-dynamodb-table-items-into-a-pandas-dataframe/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2022-10-13 00:00:00">October 13, 2022</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/solutions/" class="md-meta__link">Solutions</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              4 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="best-practices-per-aws-cdk-l3-constructs"><a class="toclink" href="../../2022/10/13/best-practices-per-aws-cdk-l3-constructs/">Best practices per AWS CDK L3 constructs</a></h2>
+<p>Nell'utilizzo avanzato di <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html">AWS CDK</a>, si realizza prima o poi l'esigenza di centralizzare alcune logiche e risorse in maniera da poterle riutilizzare in maniera rapida, riducendo il codice boilerplate.
+Anche se una prima analisi potrebbe suggerire che la soluzione sia l'implementazione di una "casalinga" <a href="https://en.wikipedia.org/wiki/Factory_method_pattern">factory</a> - pythonica sì, ma non conforme alle best practices di CDK - la risposta probabilmente più corretta potrebbe riguardare l'implementazione di un costrutto L3, <a href="https://docs.aws.amazon.com/cdk/v2/guide/constructs.html#constructs_lib">descritto come</a>:</p>
+<blockquote>
+<p>designed to help you complete common tasks in AWS, often involving multiple kinds of resources.</p>
+</blockquote>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2022/10/13/best-practices-per-aws-cdk-l3-constructs/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2022-02-02 00:00:00">February 2, 2022</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/guides/" class="md-meta__link">Guides</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              3 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="a-comparison-between-aws-databases"><a class="toclink" href="../../2022/02/02/a-comparison-between-aws-databases/">A comparison between AWS databases</a></h2>
+<p>Main databases types:</p>
+<ul>
+<li><strong>Relational</strong>: data are stored in tabular form (rows and columns), where each row represents a unique <em>record</em>. Tables can be put in relation with each other through joins and queried via SQL;</li>
+<li><strong>Key-value</strong>: non-relational database where each record stored as a unique <em>key</em> with its associated value, resembling a dictionary-like structure;</li>
+<li><strong>Document</strong>: semi-structured and hierarchical databases for catalogs and content management systems, often stored as JSON;</li>
+<li><strong>Graph</strong>: the way the data are stored is graph-based, with nodes and edges connecting each data source with the others;</li>
+<li><strong>Time-series</strong>: database optimized for records which indices are timestamps.</li>
+</ul>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2022/02/02/a-comparison-between-aws-databases/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2022-01-19 00:00:00">January 19, 2022</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/til/" class="md-meta__link">TIL</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="amazon-ec2-instance-debug"><a class="toclink" href="../../2022/01/19/amazon-ec2-instance-debug/">Amazon EC2 instance debug</a></h2>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2022/01/19/amazon-ec2-instance-debug/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-12-21 00:00:00">December 21, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/til/" class="md-meta__link">TIL</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="aws-codebuild-local-testing"><a class="toclink" href="../../2021/12/21/aws-codebuild-local-testing/">AWS CodeBuild local testing</a></h2>
+<p>Suppose you have a CodeBuild project triggered by a push on a given branch of a linked CodeCommit repo. If the build is particularly heavy, you might want to ensure its correctness <em>before</em> an actual commit to the related repo - for example, you might be interested in testing the build process specified in <code>buildspec.yml</code> locally.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2021/12/21/aws-codebuild-local-testing/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-12-21 00:00:00">December 21, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/guides/" class="md-meta__link">Guides</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              5 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="an-introduction-to-amazon-dynamodb"><a class="toclink" href="../../2021/12/21/an-introduction-to-amazon-dynamodb/">An introduction to Amazon DynamoDB</a></h2>
+<p>An overview of Amazon DynamoDB NoSQL database.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2021/12/21/an-introduction-to-amazon-dynamodb/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-12-21 00:00:00">December 21, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/til/" class="md-meta__link">TIL</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              2 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="aws-s3-presigned-urls"><a class="toclink" href="../../2021/12/21/aws-s3-presigned-urls/">AWS S3 presigned URLs</a></h2>
+<p>Solutions to common problems when working with S3 presigned URLs.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2021/12/21/aws-s3-presigned-urls/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2021-10-15 00:00:00">October 15, 2021</time></li>
         
           <li class="md-meta__item">
@@ -1648,148 +2038,6 @@
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2020-06-11 00:00:00">June 11, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/guides/" class="md-meta__link">Guides</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              7 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="a-brief-guide-to-gnu-make"><a class="toclink" href="../../2020/06/11/a-brief-guide-to-gnu-make/">A brief guide to GNU Make</a></h2>
-<p><code>make</code> is a build tool which tracks the dependencies between the
-resources it manages, updating the successors whenever a change in one
-or more predecessors is detected.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2020/06/11/a-brief-guide-to-gnu-make/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2020-05-12 00:00:00">May 12, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/guides/" class="md-meta__link">Guides</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              14 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="a-guide-to-transportation-problems"><a class="toclink" href="../../2020/05/12/a-guide-to-transportation-problems/">A guide to transportation problems</a></h2>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2020/05/12/a-guide-to-transportation-problems/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2019-08-12 00:00:00">August 12, 2019</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/guides/" class="md-meta__link">Guides</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              9 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="a-brief-guide-to-pythons-pulp"><a class="toclink" href="../../2019/08/12/a-brief-guide-to-pythons-pulp/">A brief guide to Python's PuLP</a></h2>
-<p>PuLP is a Python library for linear programming written in a <em>pythonic</em> way.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2019/08/12/a-brief-guide-to-pythons-pulp/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
       
         
           
@@ -1797,7 +2045,7 @@ or more predecessors is detected.</p>
 
 
 <nav class="md-pagination">
-  <a class="md-pagination__link" href="../..">1</a> <a class="md-pagination__link" href="../2/">2</a> <span class="md-pagination__current">3</span>
+  <a class="md-pagination__link" href="../..">1</a> <a class="md-pagination__link" href="../2/">2</a> <span class="md-pagination__current">3</span> <a class="md-pagination__link" href="../4/">4</a>
 </nav>
         
       
