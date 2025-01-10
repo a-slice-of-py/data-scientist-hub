@@ -64,11 +64,31 @@ def update_resources_changelog(
     changelog = [f"# {date}\n\n"]
     for filename, lines in sorted(added_lines.items(), key=lambda x: titles[x[0]]):
         changelog.append(f"#{titles[filename]}\n")
+        changelog.append("\n<!-- --8<-- [start:body] -->\n")
         for line in sorted(lines):
             changelog.append(f"{line}\n")
+        changelog.append("\n<!-- --8<-- [end:body] -->\n")
         changelog.append("\n")
     with open(f"./docs/resources/changelog/{date}.md", "w", encoding="utf-8") as f:
         f.writelines(changelog[:-1])
+
+    with open(
+        f"./docs/posts/resources_{date.replace('-', '_')}.md", "w", encoding="utf-8"
+    ) as f:
+        post_lines = [
+            "---\n",
+            f"date: {date}\n",
+            "authors:\n",
+            "- silvio\n",
+            "categories:\n",
+            "- Resources\n",
+            "---\n",
+            "\n# (my) Hacker News #7\n",
+            "\nHere's a list of the latest resources that grabbed my attention.\n",
+            "\n<!-- more -->\n",
+            f'\n--8<-- "docs/resources/changelog/{date}.md:body"\n',
+        ]
+        f.writelines(post_lines)
 
 
 def update_resources_index(*args, **kwargs) -> None:
