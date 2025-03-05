@@ -136,6 +136,8 @@
 - [Learn Python with Jupyter](https://learnpythonwithjupyter.com/)
 - [pytudes](https://github.com/norvig/pytudes)
 - [Advanced Python Mastery: an exercise-driven course](https://github.com/dabeaz-course/python-mastery)
+- [Python Terminology: an unofficial glossary](https://www.pythonmorsels.com/terms/)
+- [Python Developer Tooling Handbook](https://pydevtools.com/blog/)
 
 ## Quantum Computing
 
@@ -182,6 +184,10 @@
 - [Docs-as-code topologies](https://passo.uno/docs-as-code-topologies/)
 - [Diataxis: A systematic approach to technical documentation authoring](https://diataxis.fr/)
 - [Rules for Writing Software Tutorials](https://refactoringenglish.com/chapters/rules-for-software-tutorials/)
+- [The Seven-Action Documentation model](https://passo.uno/seven-action-model/)
+- [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture)
+- [The Good Docs Project](https://www.thegooddocsproject.dev/)
+- [Why writing small docs is a game changer](https://bufferbuffer.com/why-writing-small-docs-is-a-game-changer/)
 
 ## Tools
 
@@ -189,9 +195,11 @@
 - [Plotly vs Dash vs Streamlit](https://towardsdatascience.com/plotly-dash-vs-streamlit-which-is-the-best-library-for-building-data-dashboard-web-apps-97d7c98b938c)
 - [AI developer tools and IKEA effect](https://towardsdatascience.com/the-problem-with-ai-developer-tools-for-enterprises-and-what-ikea-has-to-do-with-it-b26277841661)
 - [Google train ML teachable machine](https://teachablemachine.withgoogle.com/train)
+- [Orange Data Mining](https://github.com/biolab/orange3)
 
 ## Videos
 
 - [DS playlist 1](https://www.youtube.com/playlist?list=PL7y-1rk2cCsA339crwXMWUaBRuLBvPBCg)
 - [DS playlist 2](https://www.youtube.com/playlist?list=PL2-dafEMk2A7mu0bSksCGMJEmeddU_H4D)
+- [Information Visualization Course by Enrico Bertini](https://www.youtube.com/playlist?list=PL3kC6uLd91IO8bJ6wickien9WtH0GLLkx)
 

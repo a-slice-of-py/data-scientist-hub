@@ -52,3 +52,4 @@
 - [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
 - [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
 - [Stamina: production-grade retries for Python](https://github.com/hynek/stamina)
+- [Cracking the Python Monorepo](https://gafni.dev/blog/cracking-the-python-monorepo/)

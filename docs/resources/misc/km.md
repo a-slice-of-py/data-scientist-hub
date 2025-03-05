@@ -14,3 +14,5 @@
 - [A Single Text File Is My Productivity Hack](https://jagcoop.github.io/posts/Single_text_file/)
 - [jrnl: a simple journal application for the command line](https://github.com/jrnl-org/jrnl/)
 - [My Simple Knowledge Management and Time Tracking System](https://henrikwarne.com/2024/11/09/my-simple-knowledge-management-and-time-tracking-system/#comment-53596)
+- [Why Blog If Nobody Reads It?](https://andysblog.uk/why-blog-if-nobody-reads-it/)
+- [Johnny.Decimal: a system to organise your life](https://johnnydecimal.com/10-19-concepts/11-core/11.01-introduction/)

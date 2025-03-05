@@ -80,6 +80,7 @@
 
 - [DIY personalization for Amazon Q Developer](https://it20.info/2024/10/diy-personalization-for-amazon-q-developer/)
 - [Amazon Q Developer: 25 tips to supercharge your development](https://dev.to/aws/amazon-q-developer-tips-25-tips-to-supercharge-your-development-2ffg)
+- [Awesome Amazon Q Developer](https://github.com/cremich/awesome-q-developer)
 
 ## S3
 

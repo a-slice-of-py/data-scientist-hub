@@ -12,3 +12,4 @@
 - [A short history of Neural Networks](https://vzocca.substack.com/p/a-short-history-of-artificial-intelligence)
 - [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://github.com/XingangPan/DragGAN)
 - [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
+- [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)

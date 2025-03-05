@@ -153,6 +153,13 @@
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 - [Deepface: a Lightweight Face Recognition and Facial Attribute Analysis Library for Python](https://github.com/serengil/deepface)
 
+### Seam Carving
+
+- [Seam Carving for Content-Aware Image Resizing paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
+- [Seam Carving explanation](https://karthikkaranth.me/blog/implementing-seam-carving-with-python/)
+- [Seam Carving explanation - II](https://andrewdcampbell.github.io/seam-carving)
+- [A super-fast Python implementation of seam carving algorithm for intelligent image resizing](https://github.com/li-plus/seam-carving)
+
 ## Correlation
 
 - [Non-linear correlation matrix](https://towardsdatascience.com/non-linear-correlation-matrix-the-much-needed-technique-which-nobody-talks-about-132bc02ce632)
@@ -207,6 +214,7 @@
 ## Dimensionality Reduction
 
 - [Locally linear embedding (LLE)](https://towardsdatascience.com/lle-locally-linear-embedding-a-nifty-way-to-reduce-dimensionality-in-python-ab5c38336107)
+- [Generalizable Spectral Embedding with an Application to UMAP](https://arxiv.org/abs/2501.11305)
 
 ## Dynamic pricing
 
@@ -221,6 +229,7 @@
 - [The Hidden World of (Vector) Indexes](https://towardsdatascience.com/the-hidden-world-of-vector-indexes-f320a626c3dd)
 - [Why cosine similarity between sentence embeddings is always positive](https://datascience.stackexchange.com/questions/101862/cosine-similarity-between-sentence-embeddings-is-always-positive)
 - [What are embeddings?](https://vickiboykis.com/what_are_embeddings/index.html)
+- [The Best Way to Use Text Embeddings Portably is With Parquet and Polars](https://minimaxir.com/2025/02/embeddings-parquet/)
 
 ## Energy and Power Systems
 
@@ -430,6 +439,11 @@
 - [My colleague Julius](https://ploum.net/2024-12-23-julius-en.html)
 - [Can LLMs write better code if you keep asking them to "write better code"?](https://minimaxir.com/2025/01/write-better-code/)
 - [MyST: Community-driven tools for technical communication](https://mystmd.org/)
+- [TabbyML: self-hosted AI coding assistant](https://github.com/TabbyML/tabby)
+- [The 2025 AI Engineer Reading List](https://www.latent.space/p/2025-papers)
+- [TabPFN: Foundation Model for Tabular Data](https://github.com/PriorLabs/TabPFN)
+- [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
+- [LLM code generation workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
 
 ## Machine Learning
 
@@ -546,6 +560,7 @@
 - [A short history of Neural Networks](https://vzocca.substack.com/p/a-short-history-of-artificial-intelligence)
 - [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://github.com/XingangPan/DragGAN)
 - [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
+- [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
 ## Natural Language Processing (NLP)
 
@@ -697,6 +712,7 @@
 - [Empirical cumulative distribution: advantages over histogram for EDA](https://towardsdatascience.com/empirical-cumulative-distribution-function-the-only-plotting-tool-a-data-scientist-needs-a9976f86c718)
 - [Hypothesis Testing Explained (How I Wish It Was Explained to Me)](https://towardsdatascience.com/hypothesis-testing-explained-how-i-wish-it-was-explained-to-me-14379f7a41c3)
 - [Why Statistical Significance Is Pointless](https://towardsdatascience.com/why-statistical-significance-is-pointless-a7644be30266)
+- [Think Correlation Isn’t Causation? Meet Partial Correlation](https://towardsdatascience.com/think-correlation-isnt-causation-meet-partial-correlation-c3895dfafcfa)
 
 ## Regression
 
@@ -874,6 +890,7 @@
 - [AutoGluon-TimeSeries: Every Time Series Forecasting Model In One Library](https://towardsdatascience.com/autogluon-timeseries-every-time-series-forecasting-model-in-one-library-29a3bf6879db)
 - [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
 - [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
+- [MFLES: a simple time series method based on gradient boosting time series decomposition](https://nixtlaverse.nixtla.io/statsforecast/docs/models/mfles.html)
 
 ### Prophet
 

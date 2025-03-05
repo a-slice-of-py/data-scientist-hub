@@ -11,3 +11,5 @@
 - [Learn Python with Jupyter](https://learnpythonwithjupyter.com/)
 - [pytudes](https://github.com/norvig/pytudes)
 - [Advanced Python Mastery: an exercise-driven course](https://github.com/dabeaz-course/python-mastery)
+- [Python Terminology: an unofficial glossary](https://www.pythonmorsels.com/terms/)
+- [Python Developer Tooling Handbook](https://pydevtools.com/blog/)

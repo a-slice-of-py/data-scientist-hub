@@ -26,6 +26,8 @@
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 - [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
 - [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
+- [ipyflow: a reactive Python kernel for Jupyter notebooks](https://github.com/ipyflow/ipyflow)
+- [euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie)
 
 ## marimo
 

@@ -9,3 +9,4 @@
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [All Code Is Technical Debt](https://blog.professorbeekums.com/all-code-is-debt/)
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
+- [Mistakes engineers make in large established codebases](https://www.seangoedecke.com/large-established-codebases/)

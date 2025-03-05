@@ -4,6 +4,8 @@
 
 <small>by [XKCD](https://xkcd.com/2610/)</small>
 
+- [Visual explanations of mathematics](https://agilescientific.com/blog/2020/2/25/visual-explanations-of-mathematics)
+
 ## Fourier transform
 
 - [Teach and learn Fourier transform geometrically](https://towardsdatascience.com/teach-and-learn-the-fourier-transform-geometrically-ce320f4200c9)
@@ -43,3 +45,11 @@
 ## Estimates
 
 - [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
+
+## Poincarè conjecture
+
+- [Terence Tao class on Perelman's proof of the Poincaré conjecture](https://terrytao.wordpress.com/2008/03/26/285g-lecture-0-riemannian-manifolds-and-curvature/)
+
+## Stocastic calculus
+
+- [Introduction to Stochastic Calculus](https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/)

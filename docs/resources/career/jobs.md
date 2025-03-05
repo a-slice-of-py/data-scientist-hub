@@ -1,6 +1,7 @@
 # Jobs
 
 - [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
+- [Calcolatore netto dipendente dalla RAL](https://www.jethr.com/strumenti)
 
 ## Genoa
 

@@ -90,3 +90,8 @@
 - [My colleague Julius](https://ploum.net/2024-12-23-julius-en.html)
 - [Can LLMs write better code if you keep asking them to "write better code"?](https://minimaxir.com/2025/01/write-better-code/)
 - [MyST: Community-driven tools for technical communication](https://mystmd.org/)
+- [TabbyML: self-hosted AI coding assistant](https://github.com/TabbyML/tabby)
+- [The 2025 AI Engineer Reading List](https://www.latent.space/p/2025-papers)
+- [TabPFN: Foundation Model for Tabular Data](https://github.com/PriorLabs/TabPFN)
+- [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
+- [LLM code generation workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)

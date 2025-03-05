@@ -8,3 +8,7 @@
 - [Docs-as-code topologies](https://passo.uno/docs-as-code-topologies/)
 - [Diataxis: A systematic approach to technical documentation authoring](https://diataxis.fr/)
 - [Rules for Writing Software Tutorials](https://refactoringenglish.com/chapters/rules-for-software-tutorials/)
+- [The Seven-Action Documentation model](https://passo.uno/seven-action-model/)
+- [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture)
+- [The Good Docs Project](https://www.thegooddocsproject.dev/)
+- [Why writing small docs is a game changer](https://bufferbuffer.com/why-writing-small-docs-is-a-game-changer/)

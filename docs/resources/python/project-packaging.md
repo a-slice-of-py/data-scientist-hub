@@ -7,3 +7,4 @@
 - [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
 - [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
 - [uv: an extremely fast Python package and project manager, written in Rust](https://github.com/astral-sh/uv)
+- [uv run](https://simonwillison.net/2024/Aug/21/usrbinenv-uv-run/)

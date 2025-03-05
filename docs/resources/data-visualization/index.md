@@ -108,6 +108,11 @@
 - [Tagging Mountaineering Accident Reports Using bart-large-mnli](https://towardsdatascience.com/tagging-mountaineering-accident-reports-using-bart-large-mnli-1b1f6d97756a)
 - [Recreating Florence Nightingale's work with ggplot](https://github.com/edwardgunning/FlorenceNightingale)
 - [Map of GitHub](https://anvaka.github.io/map-of-github/#2/0/0)
+- [River Runner: visualize the path of a rain droplet](https://river-runner-global.samlearner.com/)
+- [Topography Explorer](https://topography.jessekv.com/)
+- [SCQA: a framework for structuring information](https://analytic-storytelling.com/scqa-what-is-it-how-does-it-work-and-how-can-it-help-me/)
+- [A Map of Python](https://fi-le.net/pypi/)
+- [Code Galaxies Visualization](https://anvaka.github.io/pm/#/)
 
 ## Datamapplot
 
@@ -121,6 +126,7 @@
 ## Decision Trees
 
 - [`pybaobabdt` BaobabView](https://towardsdatascience.com/visualizing-decision-trees-with-pybaobabdt-f8eb5b3d0d17)
+- [supertree: visualize decision trees in Python](https://github.com/mljar/supertree)
 
 ## Design Systems
 

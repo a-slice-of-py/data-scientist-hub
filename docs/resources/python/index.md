@@ -63,6 +63,7 @@
 - [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)
 - [radicli: radically lightweight command-line interfaces](https://github.com/explosion/radicli)
 - [TerminalTextEffects: a terminal visual effects engine, application, and Python library](https://github.com/ChrisBuilds/terminaltexteffects)
+- [Interrupting scripts without tracebacks](https://mathspp.com/blog/til/interrupting-scripts-without-tracebacks)
 
 ## Code freezing
 
@@ -124,11 +125,13 @@
 - [pyinstrument: call stack profiler for Python](https://github.com/joerick/pyinstrument)
 - [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
 - [Stamina: production-grade retries for Python](https://github.com/hynek/stamina)
+- [Cracking the Python Monorepo](https://gafni.dev/blog/cracking-the-python-monorepo/)
 
 ## Colors
 
 - [ColorAid: a pure Python, object oriented approach to colors](https://github.com/facelessuser/coloraide)
 - [pypalettes: a large (+2500) collection of color maps for Python](https://github.com/JosephBARBIERDARNAL/pypalettes) and its [color palette finder](https://python-graph-gallery.com/color-palette-finder/)
+- [Glasbey: algorithmically create or extend categorical colour palettes](https://github.com/lmcinnes/glasbey)
 
 ## Dash
 
@@ -242,7 +245,7 @@
 
 ## Holidays
 
-- [holidays](https://github.com/dr-prodigy/python-holidays)
+- [holidays](https://github.com/vacanza/holidays)
 - [workalendar](https://github.com/workalendar/workalendar)
 
 ## Hypothesis testing
@@ -277,6 +280,8 @@
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 - [Quarto: an open-source scientific and technical publishing system](https://quarto.org/)
 - [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
+- [ipyflow: a reactive Python kernel for Jupyter notebooks](https://github.com/ipyflow/ipyflow)
+- [euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie)
 
 ### marimo
 
@@ -319,6 +324,8 @@
 - [Python decorator patterns](https://bytepawn.com/python-decorator-patterns.html)
 - [`__init__` is not a constructor: a deep dive in Python object creation](https://towardsdatascience.com/python-init-is-not-a-constructor-a-deep-dive-in-python-object-creation-9134d971e334)
 - [Python `@property` decorator](https://towardsdatascience.com/pythons-most-powerful-decorator-6bc39e6a8dd8)
+- [Use case for decorators in Python](https://hashimcolombowala.com/p/python-decorators-a-super-useful-feature/#additional-use-cases-for-decorators)
+- [Pipeline Pattern in Python with reduce and partial](https://pybit.es/articles/a-practical-example-of-the-pipeline-pattern-in-python/)
 
 ## Object Relational Mapper (ORM)
 
@@ -411,12 +418,14 @@
 - [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
 - [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
 - [uv: an extremely fast Python package and project manager, written in Rust](https://github.com/astral-sh/uv)
+- [uv run](https://simonwillison.net/2024/Aug/21/usrbinenv-uv-run/)
 
 ## Regex
 
 - [Regex made simple](https://towardsdatascience.com/regular-expressions-regex-dont-fear-them-it-is-simpler-than-you-think-3a4d6de77058)
 - [How to remember regex](https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd)
 - [AutoRegex: from plain text to regex](https://www.autoregex.xyz/)
+- [How to Use Regular Expressions in Python](https://blog.appsignal.com/2025/01/15/how-to-use-regular-expressions-in-python.html)
 
 ## Scikit-learn
 
@@ -450,6 +459,7 @@
 - [Boltons](https://github.com/mahmoud/boltons)
 - [Priority queues and `heapq`](https://realpython.com/python-heapq-module/)
 - [Everything You Can Do with Python's textwrap Module](https://martinheinz.dev/blog/108)
+- [graphlib: functionality to operate with graph-like structures](https://docs.python.org/3/library/graphlib.html)
 
 ### Extensions
 
@@ -586,6 +596,8 @@
 - [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 - [xlwings: a Python library that makes it easy to call Python from Excel and vice versa](https://github.com/xlwings/xlwings)
 - [wigglystuff: a collection of creative AnyWidgets for Python notebook environments](https://github.com/koaning/wigglystuff)
+- [A python wrapper for fzf, a command-line fuzzy finder](https://github.com/nk412/pyfzf)
+- [psutil: cross-platform lib for process and system monitoring in Python](https://github.com/giampaolo/psutil)
 
 ## Python versions
 
@@ -637,6 +649,8 @@
 - [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
 - [PuePy: PyScript Frontend Framework](https://github.com/kkinder/puepy)
 - [Rio: WebApps in pure Python](https://github.com/rio-labs/rio)
+- [Taichi: productive, portable, and performant GPU programming in Python](https://github.com/taichi-dev/taichi)
+- [Preswald: an open-source Python SDK for turning code into interactive data apps](https://github.com/StructuredLabs/preswald)
 
 ## Web scraping
 

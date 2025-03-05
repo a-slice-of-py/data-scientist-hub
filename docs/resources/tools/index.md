@@ -118,6 +118,7 @@
 - [Excalidraw](https://excalidraw.com/)
 - [Task is a task runner/build tool simpler and easier than GNU Make](https://github.com/go-task/task)
 - [Zed: a high-performance, multiplayer code editor](https://github.com/zed-industries/zed)
+- [television: blazing fast general purpose fuzzy finder TUI](https://github.com/alexpasmantier/television)
 
 ## Performance monitoring
 
@@ -157,6 +158,7 @@
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [All Code Is Technical Debt](https://blog.professorbeekums.com/all-code-is-debt/)
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
+- [Mistakes engineers make in large established codebases](https://www.seangoedecke.com/large-established-codebases/)
 
 ## Terminal
 
@@ -165,6 +167,9 @@
 - [Rich](https://github.com/willmcgugan/rich)
 - [How to use `rich` features](https://towardsdatascience.com/rich-generate-rich-and-beautiful-text-in-the-terminal-with-python-541f39abf32e)
 - [Quokka.js](https://quokkajs.com/)
+- [The Modern CLI Stack](https://gafni.dev/blog/modern-cli-stack/)
+- [Nushell](https://www.nushell.sh/book/installation.html)
+- [Starship](https://starship.rs/)
 
 ## Visual Studio Code
 

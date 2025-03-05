@@ -8,3 +8,4 @@
 - [Cyclopts: a modern, easy-to-use command-line interface framework](https://github.com/BrianPugh/cyclopts)
 - [radicli: radically lightweight command-line interfaces](https://github.com/explosion/radicli)
 - [TerminalTextEffects: a terminal visual effects engine, application, and Python library](https://github.com/ChrisBuilds/terminaltexteffects)
+- [Interrupting scripts without tracebacks](https://mathspp.com/blog/til/interrupting-scripts-without-tracebacks)

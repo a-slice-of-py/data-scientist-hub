@@ -35,3 +35,5 @@
 - [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/)
 - [PuePy: PyScript Frontend Framework](https://github.com/kkinder/puepy)
 - [Rio: WebApps in pure Python](https://github.com/rio-labs/rio)
+- [Taichi: productive, portable, and performant GPU programming in Python](https://github.com/taichi-dev/taichi)
+- [Preswald: an open-source Python SDK for turning code into interactive data apps](https://github.com/StructuredLabs/preswald)

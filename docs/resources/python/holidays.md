@@ -1,4 +1,4 @@
 # Holidays
 
-- [holidays](https://github.com/dr-prodigy/python-holidays)
+- [holidays](https://github.com/vacanza/holidays)
 - [workalendar](https://github.com/workalendar/workalendar)

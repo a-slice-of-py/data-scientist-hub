@@ -46,6 +46,7 @@
 - [Run Your Data Team Like A Product Team](https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/)
 - [Categories of leadership on technical teams](https://www.benkuhn.net/leadcats/)
 - [Staff Engineer vs Engineering Manager](https://blog.alexewerlof.com/p/staff-engineer-vs-engineering-manager)
+- [When Staff Engineer is an anti-pattern](https://blog.alexewerlof.com/p/when-staff-engineer-is-an-anti-pattern)
 
 ## Conferences
 
@@ -54,6 +55,7 @@
 ## Jobs
 
 - [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
+- [Calcolatore netto dipendente dalla RAL](https://www.jethr.com/strumenti)
 
 ### Genoa
 

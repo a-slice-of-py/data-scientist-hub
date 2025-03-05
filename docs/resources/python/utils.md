@@ -12,3 +12,5 @@
 - [srsly: modern high-performance serialization utilities for Python](https://github.com/explosion/srsly)
 - [xlwings: a Python library that makes it easy to call Python from Excel and vice versa](https://github.com/xlwings/xlwings)
 - [wigglystuff: a collection of creative AnyWidgets for Python notebook environments](https://github.com/koaning/wigglystuff)
+- [A python wrapper for fzf, a command-line fuzzy finder](https://github.com/nk412/pyfzf)
+- [psutil: cross-platform lib for process and system monitoring in Python](https://github.com/giampaolo/psutil)
