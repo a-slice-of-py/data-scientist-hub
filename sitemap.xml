@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/2025/03/29/nushell-and-aws-service-reference/</loc>
+         <lastmod>2025-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2019/08/12/a-brief-guide-to-pythons-pulp/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
@@ -127,6 +132,11 @@
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/2025/05/06/my-hacker-news-9/</loc>
+         <lastmod>2025-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/2025/04/18/import-anything-from-a-python-module/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -1611,17 +1621,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/announcements/</loc>
+         <lastmod>2025-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/solutions/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/guides/</loc>
-         <lastmod>2025-05-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/announcements/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -1642,6 +1652,11 @@
     </url>
     <url>
          <loc>https://a-slice-of-py.github.io/data-scientist-hub/archive/2024/page/2/</loc>
+         <lastmod>2025-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://a-slice-of-py.github.io/data-scientist-hub/category/til/page/2/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>

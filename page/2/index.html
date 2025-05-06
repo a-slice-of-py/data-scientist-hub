@@ -1610,6 +1610,101 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2024-07-16 00:00:00">July 16, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/solutions/" class="md-meta__link">Solutions</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              2 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="a-simple-notification-pattern-based-on-apprise"><a class="toclink" href="../../2024/07/16/a-simple-notification-pattern-based-on-apprise/">A simple notification pattern based on <code>apprise</code></a></h2>
+<p>In my current role I try to learn and experiment with side projects whenever I can. One of these regards the need to notify a developer as soon as an update has been made to internal tools (e.g. the latest release of a private Python library, a new page in the team's knowledge base, etc.).</p>
+<p>After some research I came up with a simple solution based on a <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern">pub-sub architecture</a>, <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnethttps://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnet">Microsoft Teams webhook</a> and the awesome <a href="https://github.com/caronc/apprise">Apprise</a>.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2024/07/16/a-simple-notification-pattern-based-on-apprise/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-05-16 00:00:00">May 16, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/til/" class="md-meta__link">TIL</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="three-python-libraries-forwith-a-great-user-experience"><a class="toclink" href="../../2024/05/16/three-python-libraries-forwith-a-great-user-experience/">Three Python libraries for/with a great user experience</a></h2>
+<p>I am working on a super-opinionated solution to assume AWS roles via STS, both programmatically and to log into AWS Console. While searching in the Python ecosystem utilities to build CLI and GUI with, I discovered three libraries that offer a great user experience both <em>for</em> the end users and the developers that build <em>with</em> them.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2024/05/16/three-python-libraries-forwith-a-great-user-experience/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2024-04-05 00:00:00">April 5, 2024</time></li>
         
           <li class="md-meta__item">
@@ -1970,105 +2065,6 @@
     
       <nav class="md-post__action">
         <a href="../../2024/01/24/all-you-need-is-closure/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-01-08 00:00:00">January 8, 2024</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/til/" class="md-meta__link">TIL</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="convert-a-markdown-file-to-docx-with-pandoc"><a class="toclink" href="../../2024/01/08/convert-a-markdown-file-to-docx-with-pandoc/">Convert a markdown file to docx with pandoc</a></h2>
-<p>Today I rediscover an amazing tool: <a href="https://pandoc.org/">pandoc</a>, which correctly presents itself as</p>
-<blockquote>
-<p><em>your swiss-army knife to convert files from one markup format into another</em>.</p>
-</blockquote>
-<p>In these days I am working on the redaction of a complex tender notice, which must be delivered as an editable <code>docx</code> and then exported (with all the fancy stuff and theming) into <code>pdf</code>. Unfortunately, I find the user experience of writing documents with Microsoft Word really unsatisfying and cluttered.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2024/01/08/convert-a-markdown-file-to-docx-with-pandoc/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/a-slice-of-py" alt="Silvio Lugaro">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-01-03 00:00:00">January 3, 2024</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/til/" class="md-meta__link">TIL</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="terminal-user-interface"><a class="toclink" href="../../2024/01/03/terminal-user-interface/">Terminal User Interface</a></h2>
-<p>If you have an already up-and-running <a href="https://github.com/tiangolo/typer">Typer app</a>, you might want to extend it to some sort of GUI <em>(Graphical User Interface)</em>.</p>
-<p>While building a full GUI can be time-consuming, there is a really fast utility which can be adopted to get somewhere in between.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2024/01/03/terminal-user-interface/">
           Continue reading
         </a>
       </nav>
