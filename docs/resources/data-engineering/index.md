@@ -20,12 +20,37 @@
 - [Airbyte Data Glossary](https://glossary.airbyte.com/)
 - [Modern Data Engineering](https://moderndataengineering.substack.com/)
 
+### Data Engineering Vault
+
+- [Data Engineering Vault](https://www.ssp.sh/brain/data-engineering/)
+- [The Data Engineering Toolkit: Essential Tools for Your Machine](https://www.ssp.sh/blog/data-engineering-toolkit/)
+- [BI-as-Code and the New Era of GenBI](https://www.ssp.sh/blog/bi-as-code-and-genbi/)
+- [Modern Data Stack: The Struggle of Enterprise Adoption](https://www.ssp.sh/blog/modern-data-stack-struggle-of-enterprise-adoption/)
+- [Data Lake and Lakehouse Guide: Powered by Data Lake Table Formats (Delta Lake, Iceberg, Hudi)](https://www.ssp.sh/blog/data-lake-lakehouse-guide/)
+- [Data Modeling – The Unsung Hero of Data Engineering: An Introduction to Data Modeling (Part 1)](https://www.ssp.sh/blog/data-modeling-for-data-engineering-introduction/)
+- [Data Engineering Design Patterns (DEDP) book](https://www.dedp.online/about-this-book.html)
+- [The Rise of the Declarative Data Stack](https://www.ssp.sh/blog/rise-of-declarative-data-stack/)
+- [The Rise of the Semantic Layer](https://www.ssp.sh/blog/rise-of-semantic-layer-metrics/)
+
+## Data catalog
+
+- [lakekeeper: lakekeeper is an Apache-Licensed, secure, fast and easy to use Apache Iceberg REST Catalog written in Rust](https://github.com/lakekeeper/lakekeeper)
+
+## Data Structures
+
+- [Tensors vs Tables](https://earthmover.io/blog/tensors-vs-tables/)
+
 ## Database
 
 - [TimescaleDB](https://github.com/timescale/timescaledb)
 - [LanceDB: Developer-friendly, serverless vector database for AI applications](https://github.com/lancedb/lancedb)
 - [sqlite-vec: a vector search SQLite extension that runs anywhere!](https://github.com/asg017/sqlite-vec/tree/main)
 - [OpenDAL](https://github.com/apache/opendal)
+- [JameSQL: an in-memory NoSQL database implemented in Python](https://github.com/capjamesg/jamesql)
+- [icechunk: open-source, cloud-native transactional tensor storage engine](https://github.com/earth-mover/icechunk)
+- [xarray: N-D labeled arrays and datasets in Python](https://github.com/pydata/xarray)
+- [zarr-python: an implementation of chunked, compressed, N-dimensional arrays for Python](https://github.com/zarr-developers/zarr-python)
+- [drawdb: free, simple, and intuitive online database diagram editor and SQL generator](https://github.com/drawdb-io/drawdb)
 
 ### DuckDB
 
@@ -45,10 +70,12 @@
 - [Ducklake: A journey to integrate DuckDB with Unity Catalog](https://xebia.com/blog/ducklake-a-journey-to-integrate-duckdb-with-unity-catalog/)
 - [15+ companies using duckdb in production: a comprehensive guide](https://motherduck.com/blog/15-companies-duckdb-in-prod/)
 - [Mastering DuckDB when you're used to pandas or Polars](https://labs.quansight.org/blog/duckdb-when-used-to-frames)
+- [Instant SQL is here: speedrun ad-hoc queries as you type](https://motherduck.com/blog/introducing-instant-sql/)
 
 ## ACID
 
 - [deltabase: a lightweight, comprehensive solution for managing delta tables built on polars and deltalake](https://github.com/uname-n/deltabase)
+- [strava-datastack: a modern Strava data pipeline fueled by dlt, duckdb, dbt, and evidence.dev](https://github.com/datadisciple/strava-datastack)
 
 ### Apache Iceberg
 
@@ -93,6 +120,7 @@
 - [dlt: an open-source library to load data from various and often messy data sources into well-structured, live datasets](https://dlthub.com/docs/intro)
 - [Trilogy Python Semantic Layers](https://trilogydata.dev/thesis/#python-semantic-layers)
 - [yato: yet another transformation orchestrator](https://github.com/Bl3f/yato)
+- [xorq: deferred computational framework for multi-engine pipelines](https://github.com/xorq-labs/xorq)
 
 ### Search engines
 

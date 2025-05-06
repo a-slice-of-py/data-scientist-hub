@@ -7,6 +7,8 @@
 - [How to build an API in Python](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
 - [Datamodel code generator: create pydantic model from an openapi file and others](https://github.com/koxudaxi/datamodel-code-generator)
 - [FastAPI code generator: create a FastAPI app from an openapi file](https://github.com/koxudaxi/fastapi-code-generator)
+- [Hackernews API: documentation and Samples for the Official HN API](https://github.com/HackerNews/API)
+- [sensei: the Python framework that provides a quick way to build robust HTTP requests and best API clients](https://github.com/CrocoFactory/sensei)
 
 ## Asynchronous Programming
 
@@ -23,6 +25,7 @@
 - [WhisperX: Automatic Speech Recognition with Word-level Timestamps and Diarization](https://github.com/m-bain/whisperX)
 - [Moonshine: Fast and accurate automatic speech recognition (ASR) for edge devices](https://github.com/usefulsensors/moonshine)
 - [Amphion: An Open-Source Audio, Music, and Speech Generation Toolkit](https://github.com/open-mmlab/Amphion)
+- [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)
 
 ## Automate boring stuff
 
@@ -41,6 +44,7 @@
 ## Caching
 
 - [Disk caching using joblib](https://towardsdatascience.com/disk-caching-using-joblib-51372056afac)
+- [moka-py: a high performance caching library for Python written in Rust](https://github.com/deliro/moka-py)
 
 ## Carbon footprint
 
@@ -64,6 +68,7 @@
 - [radicli: radically lightweight command-line interfaces](https://github.com/explosion/radicli)
 - [TerminalTextEffects: a terminal visual effects engine, application, and Python library](https://github.com/ChrisBuilds/terminaltexteffects)
 - [Interrupting scripts without tracebacks](https://mathspp.com/blog/til/interrupting-scripts-without-tracebacks)
+- [tyro: cLI interfaces & config objects, from types](https://github.com/brentyi/tyro)
 
 ## Code freezing
 
@@ -170,6 +175,8 @@
 - [`schema` library for data validation](https://towardsdatascience.com/introduction-to-schema-a-python-libary-to-validate-your-data-c6d99e06d56a)
 - [`pandera`](https://github.com/unionai-oss/pandera)
 - [Joint usage of `hypothesis` and `pandera` to automatically create validation test examples](https://towardsdatascience.com/hypothesis-and-pandera-generate-synthesis-pandas-dataframe-for-testing-e5673c7bec2e)
+- [msgspec: a fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML](https://github.com/jcrist/msgspec)
+- [dataframely: a declarative, polars-native data frame validation library](https://github.com/Quantco/dataframely)
 
 ## Datatable
 
@@ -185,6 +192,12 @@
 
 - [Dependencies management](https://kolodziejj.info/articles/dependencies/)
 - [Python dependency management is a dumpster fire](https://nielscautaerts.xyz/python-dependency-management-is-a-dumpster-fire.html)
+- [PyPack Trends: compare Python package downloads over time](https://pypacktrends.com/)
+
+## Diagrams
+
+- [`diagrams` as code](https://diagrams.mingrammer.com/)
+- [d2-widget: declarative diagramming in Python via AnyWidget](https://github.com/peter-gy/d2-widget)
 
 ## Digital clock
 
@@ -194,7 +207,6 @@
 
 - [Autodocs with Python](https://towardsdatascience.com/auto-docs-for-python-b545ce372e2d)
 - [How to write an awesome readme](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
-- [`diagrams` as code](https://diagrams.mingrammer.com/)
 - [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
 - [`pdoc`: API Documentation for Python projects](https://github.com/mitmproxy/pdoc)
 
@@ -206,6 +218,7 @@
 - [Mkdocs Newsletter: show the changes of documentation repositories in a user friendly format](https://lyz-code.github.io/mkdocs-newsletter/)
 - [Python Code Playground in MkDocs](https://towardsdatascience.com/python-code-playground-in-mkdocs-cc05eddceb63)
 - [mkdocs-charts-plugin: mkdocs plugin to add plots from data using vegalite](https://github.com/timvink/mkdocs-charts-plugin)
+- [mkdocs-material-configurator: a UI configuration tool for the popular Material theme for mkdocs](https://github.com/mocdaniel/mkdocs-material-configurator?tab=readme-ov-file)
 
 ## DTale
 
@@ -242,6 +255,7 @@
 - [Toga: a Python native, OS native GUI toolkit](https://github.com/beeware/toga)
 - [Textual: a Rapid Application Development framework for Python](https://github.com/textualize/textual/)
 - [DearPyGui: a modern, fast and powerful GUI framework for Python](https://github.com/hoffstadt/DearPyGui/)
+- [mininterface: a minimal interface to Python application (GUI, TUI, CLI, web)](https://github.com/CZ-NIC/mininterface)
 
 ## Holidays
 
@@ -282,11 +296,17 @@
 - [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
 - [ipyflow: a reactive Python kernel for Jupyter notebooks](https://github.com/ipyflow/ipyflow)
 - [euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie)
+- [Jupyter AI](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
 ### marimo
 
 - [Marimo](https://github.com/marimo-team/marimo)
 - [quak: a scalable data profiler](https://github.com/manzt/quak)
+- [marimo-snippets: JS snippet to send codeblock contents as a query string](https://github.com/marimo-team/marimo-snippets)
+
+### nushell
+
+- [nu-jupyter-kernel: a wip jupyter raw kernel for nu](https://github.com/cptpiepmatz/nu-jupyter-kernel)
 
 ## Logging
 
@@ -303,6 +323,7 @@
 - [Reshaping numpy arrays](https://towardsdatascience.com/reshaping-numpy-arrays-in-python-a-step-by-step-pictorial-tutorial-aed5f471cf0b)
 - [Random number generator and random seed](https://towardsdatascience.com/stop-using-numpy-random-seed-581a9972805f)
 - [Numpy functions](https://towardsdatascience.com/25-numpy-treasures-buried-in-the-docs-waiting-to-be-found-60d8e17931cd)
+- [Understanding Numpy's einsum](https://eli.thegreenplace.net/2025/understanding-numpys-einsum/)
 
 ## OO Programming
 
@@ -386,6 +407,7 @@
 
 - [Secure password handling](https://towardsdatascience.com/secure-password-handling-in-python-6b9f5747eca5)
 - [Secrets management](https://pub.towardsai.net/secrets-python-module-for-strong-random-number-and-token-generation-39af0392352b)
+- [keyring: an easy way to access the system keyring service from python](https://github.com/jaraco/keyring)
 
 ## OS and Pathlib
 
@@ -417,8 +439,12 @@
 - [Pooch: a friend to fetch your data files](https://github.com/fatiando/pooch)
 - [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
 - [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
+
+### uv
+
 - [uv: an extremely fast Python package and project manager, written in Rust](https://github.com/astral-sh/uv)
 - [uv run](https://simonwillison.net/2024/Aug/21/usrbinenv-uv-run/)
+- [uv and PEP 723 for Easy Deployment of Python scripts](https://thisdavej.com/share-python-scripts-like-a-pro-uv-and-pep-723-for-easy-deployment/)
 
 ## Regex
 
@@ -443,6 +469,7 @@
 - [`human-learn` to rule-based learning and interactive drawing rules](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
 - [`scikit-mdn`: a mixture density network, by PyTorch, for scikit-learn](https://github.com/koaning/scikit-mdn)
 - [`skore`: The scikit-learn Modeling Companion](https://github.com/probabl-ai/skore)
+- [scikit-image: image processing in Python](https://github.com/scikit-image/scikit-image)
 
 ### Probabl
 
@@ -460,6 +487,11 @@
 - [Priority queues and `heapq`](https://realpython.com/python-heapq-module/)
 - [Everything You Can Do with Python's textwrap Module](https://martinheinz.dev/blog/108)
 - [graphlib: functionality to operate with graph-like structures](https://docs.python.org/3/library/graphlib.html)
+- [14 Advanced Python Features](https://blog.edward-li.com/tech/advanced-python-features/)
+- [Self-destructing Python scripts](https://dev.to/snappytuts/pythons-10-insane-underground-scripts-you-didnt-know-exist-10hd)
+- [bisect: array bisection algorithm](https://docs.python.org/3/library/bisect.html)
+- [Python loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)
+- [Haskelling My Python: reimplementing Haskell lazy infinite lists using Python generators](https://unnamed.website/posts/haskelling-my-python/)
 
 ### Extensions
 
@@ -557,6 +589,7 @@
 ## Structural Pattern Matching
 
 - [PEP 636](https://peps.python.org/pep-0636/)
+- [Customising Pattern Matching Behaviour](https://blog.changs.co.uk/customising-pattern-matching-behaviour.html)
 
 ## Tensorflow
 
@@ -571,6 +604,8 @@
 - [`hypothesis`: generates simple and comprehensible examples that make your tests fail](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python)
 - [`mutmut`: a mutation testing system for Python, with a strong focus on ease of use](https://github.com/boxed/mutmut)
 - [`freezegun`: let your Python tests travel through time](https://github.com/spulec/freezegun)
+- [time-machine: travel through time in your tests](https://github.com/adamchainz/time-machine)
+- [locust: write scalable load tests in plain Python](https://github.com/locustio/locust)
 
 ### Unit tests
 
@@ -651,6 +686,7 @@
 - [Rio: WebApps in pure Python](https://github.com/rio-labs/rio)
 - [Taichi: productive, portable, and performant GPU programming in Python](https://github.com/taichi-dev/taichi)
 - [Preswald: an open-source Python SDK for turning code into interactive data apps](https://github.com/StructuredLabs/preswald)
+- [plain: a web framework for building products with Python](https://github.com/dropseed/plain)
 
 ## Web scraping
 

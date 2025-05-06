@@ -4,8 +4,7 @@
 
 - [Free and paid data science books](https://medium.com/towards-artificial-intelligence/best-data-science-books-free-and-paid-data-science-book-recommendations-b519046dcca5)
 - [7 free books to read in 2020](https://towardsdatascience.com/7-free-ebooks-every-data-scientist-should-read-in-2020-32508ad704b7)
-- [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
-- [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
+- [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/)
 - [Database Theory](https://github.com/pdm-book/community)
 - [Open Electricity Economics](http://www.open-electricity-economics.org/index.html)
 - [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
@@ -17,6 +16,9 @@
 - [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html)
 - [Books that influenced Robust Python by Pat Viafore](https://patviafore.com/2024/07/30/on-the-shoulders-of-giants/)
 - [Alice's Adventures in a Differentiable Wonderland](https://arxiv.org/abs/2404.17625)
+- [Probabilistic Artificial Intelligence](https://arxiv.org/abs/2502.05244)
+- [Web Browser Engineering](https://browser.engineering/)
+- [Cosmic Python: simple patterns for building complex applications](https://www.cosmicpython.com/book/preface.html)
 
 ## Certifications
 

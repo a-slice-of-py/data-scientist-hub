@@ -26,6 +26,10 @@
 - [My Simple Knowledge Management and Time Tracking System](https://henrikwarne.com/2024/11/09/my-simple-knowledge-management-and-time-tracking-system/#comment-53596)
 - [Why Blog If Nobody Reads It?](https://andysblog.uk/why-blog-if-nobody-reads-it/)
 - [Johnny.Decimal: a system to organise your life](https://johnnydecimal.com/10-19-concepts/11-core/11.01-introduction/)
+- [techbook.digital: searchable database collection of IT keywords, terms, and concepts with descriptive explanations](https://github.com/stefanicjuraj/techbook.digital)
+- [rucola: terminal-based markdown note manager](https://github.com/Linus-Mussmaecher/rucola)
+- [koaning.io: time for a bespoke blog engine](https://koaning.io/posts/bespoke-new-static-blog-engine/)
+- [nb: a command line and local web note‑taking, bookmarking, archiving, and knowledge base application](https://xwmx.github.io/nb/)
 
 ## Mathematics
 
@@ -74,6 +78,7 @@
 ### Estimates
 
 - [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
+- [Unsure Calculator](https://filiph.github.io/unsure/)
 
 ### Poincarè conjecture
 
@@ -82,10 +87,24 @@
 ### Stocastic calculus
 
 - [Introduction to Stochastic Calculus](https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/)
+- [An Introduction to Stochastic Calculus](https://bjlkeng.io/posts/an-introduction-to-stochastic-calculus/)
+
+### Polynomials
+
+- [Are polynomial features the root of all evil?](https://alexshtf.github.io/2024/01/21/Bernstein.html)
+
+### Transport Theory
+
+- [A friendly introduction to triangular transport](https://arxiv.org/abs/2503.21673)
+
+### Integrals
+
+- [100 years to solve an integral](https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html)
 
 ## Physics
 
 - [Sound: a visual explanation](https://ciechanow.ski/sound/)
 - [International Geomagnetic Reference Field](https://www.ncei.noaa.gov/products/international-geomagnetic-reference-field)
 - [Atlas of Space](https://atlasof.space/)
+- [How Fast the Days Are Getting Longer](https://joe-antognini.github.io/astronomy/daylight)
 

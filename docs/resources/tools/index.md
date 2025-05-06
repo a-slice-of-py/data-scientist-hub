@@ -32,6 +32,7 @@
 - [Docker best practices for Python developers](https://testdriven.io/blog/docker-best-practices/)
 - [Multi-stage Docker builds to reduce image size](https://medium.com/geekculture/using-multi-stage-builds-to-make-your-docker-image-almost-10x-smaller-239068cb6fb0)
 - [Reduce your load on PyPI by improving your Dockerfile](https://mkennedy.codes/posts/lets-go-easy-on-pypi-ok/)
+- [docker-py: a Python library for the Docker Engine API](https://github.com/docker/docker-py)
 
 ## Draw.io
 
@@ -71,6 +72,7 @@
 - [How To Clone Specific Subdirectory with Git](https://medium.com/@judyess/how-to-clone-specific-subdirectory-branch-with-git-3fb02fd35b68)
 - [git-cliff: a highly customizable changelog generator](https://git-cliff.org/)
 - [Tracing the evolution of a Python function with git log](https://nerderati.com/tracing-the-evolution-of-a-python-function-with-git-log/)
+- [gitingest: replace 'hub' with 'ingest' in any github url to get a prompt-friendly extract of a codebase](https://github.com/cyclotruc/gitingest)
 
 ## Github
 
@@ -111,6 +113,13 @@
 - [Markdown books with mdBook](https://rust-lang.github.io/mdBook/index.html)
 - [VitePress: Vite & Vue Powered Static Site Generator](https://vitepress.dev/)
 - [Evidence: build fast, interactive data visualizations in pure SQL and markdown](https://github.com/evidence-dev/evidence)
+- [presenterm: a markdown terminal slideshow tool](https://github.com/mfontanini/presenterm)
+- [Slidev: presentation slides for developers](https://sli.dev/guide/why#comparisons)
+- [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
+
+### Other markup languages
+
+- [typst: a new markup-based typesetting system](https://github.com/typst/typst)
 
 ## Misc
 
@@ -119,6 +128,8 @@
 - [Task is a task runner/build tool simpler and easier than GNU Make](https://github.com/go-task/task)
 - [Zed: a high-performance, multiplayer code editor](https://github.com/zed-industries/zed)
 - [television: blazing fast general purpose fuzzy finder TUI](https://github.com/alexpasmantier/television)
+- [Leaflet: create and share delightful documents on the web](https://github.com/hyperlink-academy/leaflet)
+- [filepizza: peer-to-peer file transfers in your browser](https://github.com/kern/filepizza)
 
 ## Performance monitoring
 
@@ -159,6 +170,9 @@
 - [All Code Is Technical Debt](https://blog.professorbeekums.com/all-code-is-debt/)
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
 - [Mistakes engineers make in large established codebases](https://www.seangoedecke.com/large-established-codebases/)
+- [50 things we’ve learned about building successful products](https://newsletter.posthog.com/p/50-things-weve-learned-about-building)
+- [Binary search as a bidirectional generator](https://mathspp.com/blog/binary-search-as-a-bidirectional-generator)
+- [Modern Tech Stack](https://third-bit.com/2024/04/18/a-new-stack/)
 
 ## Terminal
 
@@ -170,6 +184,10 @@
 - [The Modern CLI Stack](https://gafni.dev/blog/modern-cli-stack/)
 - [Nushell](https://www.nushell.sh/book/installation.html)
 - [Starship](https://starship.rs/)
+- [broot: a new way to see and navigate directory trees](https://github.com/Canop/broot)
+- [Atuin Desktop: Runbooks that Run](https://blog.atuin.sh/atuin-desktop-runbooks-that-run/)
+- [Font Ligatures for your Code Editor and Terminal](https://blog.miguelgrinberg.com/post/font-ligatures-for-your-code-editor-and-terminal)
+- ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
 
 ## Visual Studio Code
 
@@ -180,6 +198,10 @@
 - [Python rules for cognitive complexity](https://rules.sonarsource.com/python)
 - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Advanced VSC for Python developers](https://realpython.com/advanced-visual-studio-code-python/)
+
+### Alternatives
+
+- [Kate Editor](https://kate-editor.org/)
 
 ## WSL
 

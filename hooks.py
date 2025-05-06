@@ -62,13 +62,13 @@ def update_resources_changelog(
             pass
     added_lines = {k: v for k, v in added_lines.items() if k in titles}
     changelog = [f"# {date}\n\n"]
+    changelog.append("\n<!-- --8<-- [start:body] -->\n")
     for filename, lines in sorted(added_lines.items(), key=lambda x: titles[x[0]]):
         changelog.append(f"#{titles[filename]}\n")
-        changelog.append("\n<!-- --8<-- [start:body] -->\n")
         for line in sorted(lines):
             changelog.append(f"{line}\n")
-        changelog.append("\n<!-- --8<-- [end:body] -->\n")
         changelog.append("\n")
+    changelog.append("\n<!-- --8<-- [end:body] -->\n")
     with open(f"./docs/resources/changelog/{date}.md", "w", encoding="utf-8") as f:
         f.writelines(changelog[:-1])
 

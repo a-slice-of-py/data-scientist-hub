@@ -69,6 +69,8 @@
 
 - [All AWS managed policies](https://gist.github.com/bernadinm/6f68bfdd015b3f3e0a17b2f00c9ea3f8)
 - [IAMbic: Cloud IAM as Code](https://github.com/noqdev/iambic)
+- [cedar-py: python bindings for the Cedar Policy project](https://github.com/k9securityio/cedar-py)
+- [AssumeRole vs. AssumeRole vs. PassRole](https://www.awholenother.com/2024/04/07/assumerole-vs-assumerole-vs-passrole.html)
 
 ### Lambda
 
@@ -78,11 +80,16 @@
 - [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
 - [Comparing design approaches for building serverless microservices](https://aws.amazon.com/it/blogs/compute/comparing-design-approaches-for-building-serverless-microservices/)
 
+### MCP
+
+- [AWS MCP Servers: specialized MCP servers that bring AWS best practices directly to your development workflow](https://github.com/awslabs/mcp)
+
 ### Q Developer
 
 - [DIY personalization for Amazon Q Developer](https://it20.info/2024/10/diy-personalization-for-amazon-q-developer/)
 - [Amazon Q Developer: 25 tips to supercharge your development](https://dev.to/aws/amazon-q-developer-tips-25-tips-to-supercharge-your-development-2ffg)
 - [Awesome Amazon Q Developer](https://github.com/cremich/awesome-q-developer)
+- [Amazon Q Developer new context features](https://aws.amazon.com/it/blogs/devops/amazon-q-developers-new-context-features/)
 
 ### S3
 

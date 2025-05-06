@@ -46,6 +46,7 @@
 - [Stable Diffusion by Hugging Face](https://huggingface.co/spaces/stabilityai/stable-diffusion)
 - [DataMorph: morph an input dataset of 2D points into select shapes while preserving the summary statistics](https://github.com/stefmolin/data-morph)
 - [1 dataset 100 visualizations](https://100.datavizproject.com/)
+- [austen: discover story relationships](https://github.com/herol3oy/austen)
 
 ### Data sonification
 
@@ -152,6 +153,7 @@
 - [Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
 - [Uncovering the EU AI Act](https://towardsdatascience.com/uncovering-the-eu-ai-act-22b10f946174)
 - [The EU AI Act Explorer](https://artificialintelligenceact.eu/ai-act-explorer/)
+- [Terms of Service: Didn't Read](https://tosdr.org/en/)
 
 ## Teaching
 
@@ -173,6 +175,8 @@
 - [Machine Learning University (MLU) by Amazon](https://mlu-explain.github.io/precision-recall/)
 - [Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
 - [Data Science Trivia](https://www.datasciencetrivia.com/)
+- [Concept Maps: mental models used in introductory data science lessons](https://third-bit.com/ideas/concept-maps/)
+- [VisuAlgo: visualising data structures and algorithms through animation](https://visualgo.net/en)
 
 ## Technical writing
 
@@ -188,6 +192,7 @@
 - [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture)
 - [The Good Docs Project](https://www.thegooddocsproject.dev/)
 - [Why writing small docs is a game changer](https://bufferbuffer.com/why-writing-small-docs-is-a-game-changer/)
+- [How to Write Blog Posts that Developers Read](https://refactoringenglish.com/chapters/write-blog-posts-developers-read/)
 
 ## Tools
 

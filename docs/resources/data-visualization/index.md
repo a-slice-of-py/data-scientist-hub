@@ -113,6 +113,7 @@
 - [SCQA: a framework for structuring information](https://analytic-storytelling.com/scqa-what-is-it-how-does-it-work-and-how-can-it-help-me/)
 - [A Map of Python](https://fi-le.net/pypi/)
 - [Code Galaxies Visualization](https://anvaka.github.io/pm/#/)
+- [machine-learning-visualized: ML algorithms implemented and derived from first-principles in Jupyter Notebooks and NumPy](https://github.com/gavinkhung/machine-learning-visualized)
 
 ## Datamapplot
 
@@ -184,6 +185,7 @@
 - [Visualizing routes with VeRoViz](https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4)
 - [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)
 - [Isochrones in Python via OSMnx](https://towardsdatascience.com/isochrones-in-python-fe21814e5cb1)
+- [Geocoding APIs compared: pricing, free tiers & terms of use](https://www.bitoff.org/geocoding-apis-comparison/)
 
 ## GUI
 
@@ -200,6 +202,7 @@
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
 - [Cosmos: large networks visualization](https://github.com/cosmograph-org/cosmos)
 - [Visualize streams of multimodal data with rerun](https://github.com/rerun-io/rerun)
+- [fastplotlib: next-gen fast plotting library running on WGPU using the pygfx rendering engine](https://github.com/fastplotlib/fastplotlib)
 
 ### Andrews curves
 
@@ -217,6 +220,7 @@
 - [Carbon charts: a reusable framework-agnostic D3 charting library](https://github.com/carbon-design-system/carbon-charts)
 - [D3js scatterplots in Python](https://towardsdatascience.com/get-the-most-out-of-your-scatterplot-by-making-it-interactive-using-d3js-19939e3b046)
 - [The Most Advanced Libraries for Data Visualization and Analysis on the Web](https://towardsdatascience.com/the-most-advanced-libraries-for-data-visualization-and-analysis-on-the-web-e823535e0eb1)
+- [Mermaid Chart VS Code Plugin: create and edit Mermaid.js diagrams in Visual Studio Code](https://docs.mermaidchart.com/blog/posts/mermaid-chart-vs-code-plugin-create-and-edit-mermaid-js-diagrams-in-visual-studio-code)
 
 [^1]: [A day in the life of Americans](index.md#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
@@ -247,6 +251,7 @@
 ## Publications plot
 
 - [Reproducible scientific figures with `pylustrator`](https://towardsdatascience.com/generate-easily-reproducible-scientific-figures-with-pylustrator-9426292e07a4)
+- [SciencePlots: matplotlib styles for scientific plotting](https://github.com/garrettj403/SciencePlots)
 
 ## Reports
 
@@ -299,6 +304,10 @@
 ## Strip charts for time-series
 
 - [Visualize many time-series at once](https://towardsdatascience.com/using-strip-charts-to-visualize-dozens-of-time-series-at-once-a983baabb54f)
+
+## Tables
+
+- [hyperparam-cli: hyperparam local dataset viewer](https://github.com/hyparam/hyperparam-cli)
 
 ## Theory
 

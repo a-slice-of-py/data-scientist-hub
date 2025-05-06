@@ -56,6 +56,7 @@
 - [How to be less wrong: a Bayesian's guide to predicting the future with limited data](https://towardsdatascience.com/how-to-be-less-wrong-5d6632a08f)
 - [bnlearn: a library for Bayesian network learning and inference](https://github.com/erdogant/bnlearn)
 - [Kalmangrad: automated, smooth, n-th order derivatives of non-uniformly sampled time series data](https://github.com/hugohadfield/kalmangrad)
+- [arviz: exploratory analysis of Bayesian models with Python](https://github.com/arviz-devs/arviz)
 
 ## Bin Packing 
 
@@ -152,6 +153,7 @@
 - [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 - [Deepface: a Lightweight Face Recognition and Facial Attribute Analysis Library for Python](https://github.com/serengil/deepface)
+- [Writing My Own Dithering Algorithm in Racket](https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket)
 
 ### Seam Carving
 
@@ -205,6 +207,7 @@
 - [Open-Meteo: Free Weather Forecast API for non-commercial use](https://github.com/open-meteo/open-meteo)
 - [Data Commons: aggregates global, open data, uncovering insights with natural language questions](https://datacommons.org/)
 - [Foursquare Places OS Data Schemas](https://docs.foursquare.com/data-products/docs/places-os-data-schema)
+- [Gothic Weather Data](https://www.gothicwx.org/)
 
 ## Deep Learning
 
@@ -230,6 +233,9 @@
 - [Why cosine similarity between sentence embeddings is always positive](https://datascience.stackexchange.com/questions/101862/cosine-similarity-between-sentence-embeddings-is-always-positive)
 - [What are embeddings?](https://vickiboykis.com/what_are_embeddings/index.html)
 - [The Best Way to Use Text Embeddings Portably is With Parquet and Polars](https://minimaxir.com/2025/02/embeddings-parquet/)
+- [model2vec: fast State-of-the-Art Static Embeddings](https://github.com/MinishLab/model2vec)
+- [How to Implement a Cosine Similarity Function in TypeScript for Vector Comparison](https://alexop.dev/posts/how-to-implement-a-cosine-similarity-function-in-typescript-for-vector-comparison/)
+- [Late Chunking: The Better Way to Embed Document Chunks](https://isaacflath.com/blog/blog_post?fpath=posts%2F2025-04-08-LateChunking.ipynb)
 
 ## Energy and Power Systems
 
@@ -306,6 +312,12 @@
 - [Earth Isn't Flat, and Neither Should Your Voronoi Diagrams Be](https://towardsdatascience.com/earth-isnt-flat-and-neither-should-your-voronoi-diagrams-be-25137e0a073b)
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)
 - [Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3](https://towardsdatascience.com/geospatial-indexing-explained-a-comparison-of-geohash-s2-and-h3-68d4ed7e366d)
+- [Simplification of street networks](https://martinfleischmann.net/simplification-of-street-networks/)
+
+### Grids
+
+- [a5: pentagonal geospatial indexing system DGGS](https://github.com/felixpalmer/a5)
+- [Uber H3: Hexagonal hierarchical geospatial indexing system](https://github.com/uber/h3)
 
 ### OpenStreetMap
 
@@ -326,6 +338,10 @@
 
 - [ML and particle motion in liquid](https://towardsdatascience.com/machine-learning-and-particle-motion-in-liquids-an-elegant-link-4e7c1611c945)
 - [Gradient descent deep dive](https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21)
+
+## Graphs
+
+- [rustworkx: a high performance Python graph library implemented in Rust](https://github.com/Qiskit/rustworkx)
 
 ## Hyperparameters Tuning
 
@@ -444,6 +460,25 @@
 - [TabPFN: Foundation Model for Tabular Data](https://github.com/PriorLabs/TabPFN)
 - [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
 - [LLM code generation workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
+- [Writing an LLM from scratch](https://www.gilesthomas.com/2024/12/llm-from-scratch-1)
+- [Aider: AI pair programming in your terminal](https://github.com/Aider-AI/aider)
+- [codegen: Python SDK to Interact with Intelligent Code Generation Agents](https://github.com/codegen-sh/codegen)
+- [agx: AI Powered Analytics App](https://github.com/agnosticeng/agx)
+- [torchexplorer: interactively inspect module inputs, outputs, parameters, and gradients](https://github.com/spfrommer/torchexplorer)
+- [token-explorer: a simple tool to explore different possible paths that an LLM might sample](https://github.com/willkurt/token-explorer)
+- [Transformers and Large Language Models cheatsheet for Stanford's CME 295](https://github.com/afshinea/stanford-cme-295-transformers-large-language-models)
+- [CoRT (Chain-of-Recursive-Thoughts): AI think harder when it argues with itself repeatedly](https://github.com/PhialsBasement/Chain-of-Recursive-Thoughts)
+- [agenticSeek: fully Local Manus AI](https://github.com/Fosowl/agenticSeek)
+- [blast: browser-LLM Auto-Scaling Technology](https://github.com/stanford-mast/blast)
+- [I'd rather read the prompt](https://claytonwramsey.com/blog/prompt/)
+- [The Problem with "Vibe Coding"](https://dylanbeattie.net/2025/04/11/the-problem-with-vibe-coding.html)
+- [Emerging Patterns in Building GenAI Products](https://martinfowler.com/articles/gen-ai-patterns/)
+- [Dummy's Guide to Modern LLM Sampling](https://rentry.co/samplers)
+- [A cheat sheet for why using ChatGPT is not bad for the environment](https://simonwillison.net/2025/Apr/29/chatgpt-is-not-bad-for-the-environment/)
+- [The Cultural Divide between Mathematics and AI](https://sugaku.net/content/understanding-the-cultural-divide-between-mathematics-and-ai/)
+- [The Hidden Cost of AI Coding](https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/)
+- [AI code is legacy code from day one](https://text-incubation.com/AI+code+is+legacy+code+from+day+one)
+- [36 Alternatives to LLM Context](https://www.cyberchitta.cc/articles/lc-alternatives.html)
 
 ## Machine Learning
 
@@ -464,6 +499,7 @@
 - [Geomstats: a Python package for computations, statistics, machine learning and deep learning on manifolds](https://github.com/geomstats/geomstats)
 - [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
 - [Causality in ML Models: Introducing Monotonic Constraints](https://towardsdatascience.com/causality-in-ml-models-introducing-monotonic-constraints-8426e1b5cc34)
+- [OpenML: a worldwide machine learning lab](https://openml.org/)
 
 ### Model evaluation
 
@@ -540,6 +576,7 @@
 - [Mastering Monte Carlo: How to Simulate Your Way to Better Machine Learning Models](https://towardsdatascience.com/mastering-monte-carlo-how-to-simulate-your-way-to-better-machine-learning-models-6b57ec4e5514)
 - [Chaospy: a numerical toolbox for performing uncertainty quantification using polynomial chaos expansions and advanced Monte Carlo methods](https://github.com/jonathf/chaospy)
 - [PyMC-Marketing: Bayesian Marketing Mix Modeling (MMM) & Customer Lifetime Value (CLV)](https://github.com/pymc-labs/pymc-marketing)
+- [Monte Carlo Crash Course](https://thenumb.at/Monte-Carlo/)
 
 ## Nearest Neighbors
 
@@ -600,6 +637,7 @@
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
 - [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
 - [NLP Course](https://lena-voita.github.io/nlp_course.html)
+- [semhash: fast Semantic Text Deduplication & Filtering](https://github.com/MinishLab/semhash)
 
 ### Topic modeling
 
@@ -650,6 +688,7 @@
 - [The Vehicle Routing Problem: Exact and Heuristic Solutions](https://towardsdatascience.com/the-vehicle-routing-problem-exact-and-heuristic-solutions-c411c0f4d734)
 - [List of optimization packages in Python](https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/)
 - [A Comprehensive Guide to Modeling Techniques in Mixed-Integer Linear Programming](https://towardsdatascience.com/a-comprehensive-guide-to-modeling-techniques-in-mixed-integer-linear-programming-3e96cc1bc03d)
+- [Implementing Lin-Kernighan in Python](https://arthur.maheo.net/implementing-lin-kernighan-in-python/)
 
 ### Scholarpedia
 
@@ -754,6 +793,9 @@
 - [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)
 - [Training an Agent to Master Tic-Tac-Toe Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-tic-tac-toe-through-self-play-72038c3f33f7)
 - [Stablebaseline3: the Swiss Army Knife of Applied RL](https://towardsdatascience.com/sb3-the-swiss-army-knife-of-applied-rl-5548535d09cd)
+- [Pokemon: Reinforcement Learning Edition](https://drubinstein.github.io/pokerl/)
+- [Mathematical Foundations of Reinforcement Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
+- [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/posts/2018-02-19-rl-overview/)
 
 ## Resampling
 
@@ -800,6 +842,7 @@
 - [SQLModel: a library for interacting with SQL databases from Python code, with Python objects](https://github.com/fastapi/sqlmodel)
 - [Sampling with SQL](https://blog.moertel.com/posts/2024-08-23-sampling-with-sql.html)
 - [Outerbase Studio: A lightweight Database GUI in your browser](https://github.com/outerbase/studio)
+- [A faster way to copy SQLite databases between computers](https://alexwlchan.net/2025/copying-sqlite-databases/)
 
 ## Streaming/Online Learning
 
@@ -891,6 +934,7 @@
 - [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
 - [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
 - [MFLES: a simple time series method based on gradient boosting time series decomposition](https://nixtlaverse.nixtla.io/statsforecast/docs/models/mfles.html)
+- [Time series methods to solve business forecasting problems](https://github.com/WinVector/Examples/tree/main/TimeSeries#readme)
 
 ### Prophet
 
