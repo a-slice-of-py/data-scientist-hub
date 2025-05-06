@@ -5,3 +5,5 @@
 - [How to build an API in Python](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
 - [Datamodel code generator: create pydantic model from an openapi file and others](https://github.com/koxudaxi/datamodel-code-generator)
 - [FastAPI code generator: create a FastAPI app from an openapi file](https://github.com/koxudaxi/fastapi-code-generator)
+- [Hackernews API: documentation and Samples for the Official HN API](https://github.com/HackerNews/API)
+- [sensei: the Python framework that provides a quick way to build robust HTTP requests and best API clients](https://github.com/CrocoFactory/sensei)

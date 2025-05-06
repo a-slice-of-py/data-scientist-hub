@@ -2,6 +2,7 @@
 
 - [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
 - [Calcolatore netto dipendente dalla RAL](https://www.jethr.com/strumenti)
+- [La trasparenza nel tech e digital italiano: stipendi e cultura aziendale](https://techcompenso.com/)
 
 ## Genoa
 

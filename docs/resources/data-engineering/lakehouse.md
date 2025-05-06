@@ -1,6 +1,7 @@
 # ACID
 
 - [deltabase: a lightweight, comprehensive solution for managing delta tables built on polars and deltalake](https://github.com/uname-n/deltabase)
+- [strava-datastack: a modern Strava data pipeline fueled by dlt, duckdb, dbt, and evidence.dev](https://github.com/datadisciple/strava-datastack)
 
 ## Apache Iceberg
 

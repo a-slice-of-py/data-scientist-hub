@@ -32,3 +32,4 @@
 - [How To Clone Specific Subdirectory with Git](https://medium.com/@judyess/how-to-clone-specific-subdirectory-branch-with-git-3fb02fd35b68)
 - [git-cliff: a highly customizable changelog generator](https://git-cliff.org/)
 - [Tracing the evolution of a Python function with git log](https://nerderati.com/tracing-the-evolution-of-a-python-function-with-git-log/)
+- [gitingest: replace 'hub' with 'ingest' in any github url to get a prompt-friendly extract of a codebase](https://github.com/cyclotruc/gitingest)

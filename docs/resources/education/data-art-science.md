@@ -16,6 +16,7 @@
 - [Stable Diffusion by Hugging Face](https://huggingface.co/spaces/stabilityai/stable-diffusion)
 - [DataMorph: morph an input dataset of 2D points into select shapes while preserving the summary statistics](https://github.com/stefmolin/data-morph)
 - [1 dataset 100 visualizations](https://100.datavizproject.com/)
+- [austen: discover story relationships](https://github.com/herol3oy/austen)
 
 ## Data sonification
 

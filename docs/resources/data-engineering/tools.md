@@ -16,6 +16,7 @@
 - [dlt: an open-source library to load data from various and often messy data sources into well-structured, live datasets](https://dlthub.com/docs/intro)
 - [Trilogy Python Semantic Layers](https://trilogydata.dev/thesis/#python-semantic-layers)
 - [yato: yet another transformation orchestrator](https://github.com/Bl3f/yato)
+- [xorq: deferred computational framework for multi-engine pipelines](https://github.com/xorq-labs/xorq)
 
 ## Search engines
 

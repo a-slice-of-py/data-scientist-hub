@@ -23,3 +23,4 @@
 - [Open-Meteo: Free Weather Forecast API for non-commercial use](https://github.com/open-meteo/open-meteo)
 - [Data Commons: aggregates global, open data, uncovering insights with natural language questions](https://datacommons.org/)
 - [Foursquare Places OS Data Schemas](https://docs.foursquare.com/data-products/docs/places-os-data-schema)
+- [Gothic Weather Data](https://www.gothicwx.org/)

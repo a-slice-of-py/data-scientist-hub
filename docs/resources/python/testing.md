@@ -5,6 +5,8 @@
 - [`hypothesis`: generates simple and comprehensible examples that make your tests fail](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python)
 - [`mutmut`: a mutation testing system for Python, with a strong focus on ease of use](https://github.com/boxed/mutmut)
 - [`freezegun`: let your Python tests travel through time](https://github.com/spulec/freezegun)
+- [time-machine: travel through time in your tests](https://github.com/adamchainz/time-machine)
+- [locust: write scalable load tests in plain Python](https://github.com/locustio/locust)
 
 ## Unit tests
 

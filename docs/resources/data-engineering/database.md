@@ -4,6 +4,11 @@
 - [LanceDB: Developer-friendly, serverless vector database for AI applications](https://github.com/lancedb/lancedb)
 - [sqlite-vec: a vector search SQLite extension that runs anywhere!](https://github.com/asg017/sqlite-vec/tree/main)
 - [OpenDAL](https://github.com/apache/opendal)
+- [JameSQL: an in-memory NoSQL database implemented in Python](https://github.com/capjamesg/jamesql)
+- [icechunk: open-source, cloud-native transactional tensor storage engine](https://github.com/earth-mover/icechunk)
+- [xarray: N-D labeled arrays and datasets in Python](https://github.com/pydata/xarray)
+- [zarr-python: an implementation of chunked, compressed, N-dimensional arrays for Python](https://github.com/zarr-developers/zarr-python)
+- [drawdb: free, simple, and intuitive online database diagram editor and SQL generator](https://github.com/drawdb-io/drawdb)
 
 ## DuckDB
 
@@ -23,3 +28,4 @@
 - [Ducklake: A journey to integrate DuckDB with Unity Catalog](https://xebia.com/blog/ducklake-a-journey-to-integrate-duckdb-with-unity-catalog/)
 - [15+ companies using duckdb in production: a comprehensive guide](https://motherduck.com/blog/15-companies-duckdb-in-prod/)
 - [Mastering DuckDB when you're used to pandas or Polars](https://labs.quansight.org/blog/duckdb-when-used-to-frames)
+- [Instant SQL is here: speedrun ad-hoc queries as you type](https://motherduck.com/blog/introducing-instant-sql/)

@@ -11,3 +11,5 @@
 - [Machine Learning University (MLU) by Amazon](https://mlu-explain.github.io/precision-recall/)
 - [Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
 - [Data Science Trivia](https://www.datasciencetrivia.com/)
+- [Concept Maps: mental models used in introductory data science lessons](https://third-bit.com/ideas/concept-maps/)
+- [VisuAlgo: visualising data structures and algorithms through animation](https://visualgo.net/en)

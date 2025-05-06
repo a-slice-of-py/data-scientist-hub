@@ -37,3 +37,4 @@
 - [Rio: WebApps in pure Python](https://github.com/rio-labs/rio)
 - [Taichi: productive, portable, and performant GPU programming in Python](https://github.com/taichi-dev/taichi)
 - [Preswald: an open-source Python SDK for turning code into interactive data apps](https://github.com/StructuredLabs/preswald)
+- [plain: a web framework for building products with Python](https://github.com/dropseed/plain)

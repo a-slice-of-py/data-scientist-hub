@@ -6,3 +6,4 @@
 - [Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
 - [Uncovering the EU AI Act](https://towardsdatascience.com/uncovering-the-eu-ai-act-22b10f946174)
 - [The EU AI Act Explorer](https://artificialintelligenceact.eu/ai-act-explorer/)
+- [Terms of Service: Didn't Read](https://tosdr.org/en/)

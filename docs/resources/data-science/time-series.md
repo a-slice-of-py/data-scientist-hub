@@ -70,6 +70,7 @@
 - [Time Series Forecasting with TiDE](https://towardsdatascience.com/time-series-forecasting-with-tide-b043acc60f79)
 - [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
 - [MFLES: a simple time series method based on gradient boosting time series decomposition](https://nixtlaverse.nixtla.io/statsforecast/docs/models/mfles.html)
+- [Time series methods to solve business forecasting problems](https://github.com/WinVector/Examples/tree/main/TimeSeries#readme)
 
 ## Prophet
 

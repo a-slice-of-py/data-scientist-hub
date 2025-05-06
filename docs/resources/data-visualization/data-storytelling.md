@@ -25,3 +25,4 @@
 - [SCQA: a framework for structuring information](https://analytic-storytelling.com/scqa-what-is-it-how-does-it-work-and-how-can-it-help-me/)
 - [A Map of Python](https://fi-le.net/pypi/)
 - [Code Galaxies Visualization](https://anvaka.github.io/pm/#/)
+- [machine-learning-visualized: ML algorithms implemented and derived from first-principles in Jupyter Notebooks and NumPy](https://github.com/gavinkhung/machine-learning-visualized)

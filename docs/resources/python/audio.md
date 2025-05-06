@@ -8,3 +8,4 @@
 - [WhisperX: Automatic Speech Recognition with Word-level Timestamps and Diarization](https://github.com/m-bain/whisperX)
 - [Moonshine: Fast and accurate automatic speech recognition (ASR) for edge devices](https://github.com/usefulsensors/moonshine)
 - [Amphion: An Open-Source Audio, Music, and Speech Generation Toolkit](https://github.com/open-mmlab/Amphion)
+- [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)

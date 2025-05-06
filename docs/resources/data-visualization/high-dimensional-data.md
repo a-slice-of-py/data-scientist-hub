@@ -3,6 +3,7 @@
 - [HyperTools](https://hypertools.readthedocs.io/en/latest/index.html)
 - [Cosmos: large networks visualization](https://github.com/cosmograph-org/cosmos)
 - [Visualize streams of multimodal data with rerun](https://github.com/rerun-io/rerun)
+- [fastplotlib: next-gen fast plotting library running on WGPU using the pygfx rendering engine](https://github.com/fastplotlib/fastplotlib)
 
 ## Andrews curves
 

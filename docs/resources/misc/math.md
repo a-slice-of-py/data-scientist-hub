@@ -45,6 +45,7 @@
 ## Estimates
 
 - [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
+- [Unsure Calculator](https://filiph.github.io/unsure/)
 
 ## Poincarè conjecture
 
@@ -53,3 +54,16 @@
 ## Stocastic calculus
 
 - [Introduction to Stochastic Calculus](https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/)
+- [An Introduction to Stochastic Calculus](https://bjlkeng.io/posts/an-introduction-to-stochastic-calculus/)
+
+## Polynomials
+
+- [Are polynomial features the root of all evil?](https://alexshtf.github.io/2024/01/21/Bernstein.html)
+
+## Transport Theory
+
+- [A friendly introduction to triangular transport](https://arxiv.org/abs/2503.21673)
+
+## Integrals
+
+- [100 years to solve an integral](https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html)

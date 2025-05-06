@@ -28,8 +28,14 @@
 - [papermill: a tool for parameterizing, executing, and analyzing Jupyter Notebooks](https://github.com/nteract/papermill)
 - [ipyflow: a reactive Python kernel for Jupyter notebooks](https://github.com/ipyflow/ipyflow)
 - [euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie)
+- [Jupyter AI](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
 ## marimo
 
 - [Marimo](https://github.com/marimo-team/marimo)
 - [quak: a scalable data profiler](https://github.com/manzt/quak)
+- [marimo-snippets: JS snippet to send codeblock contents as a query string](https://github.com/marimo-team/marimo-snippets)
+
+## nushell
+
+- [nu-jupyter-kernel: a wip jupyter raw kernel for nu](https://github.com/cptpiepmatz/nu-jupyter-kernel)

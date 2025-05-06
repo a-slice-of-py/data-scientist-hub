@@ -10,3 +10,6 @@
 - [All Code Is Technical Debt](https://blog.professorbeekums.com/all-code-is-debt/)
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
 - [Mistakes engineers make in large established codebases](https://www.seangoedecke.com/large-established-codebases/)
+- [50 things we’ve learned about building successful products](https://newsletter.posthog.com/p/50-things-weve-learned-about-building)
+- [Binary search as a bidirectional generator](https://mathspp.com/blog/binary-search-as-a-bidirectional-generator)
+- [Modern Tech Stack](https://third-bit.com/2024/04/18/a-new-stack/)

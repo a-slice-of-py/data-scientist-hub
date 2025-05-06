@@ -18,3 +18,6 @@
 - [Training an Agent to Master a Simple Game Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-a-simple-game-through-self-play-88bdd0d60928)
 - [Training an Agent to Master Tic-Tac-Toe Through Self-Play](https://towardsdatascience.com/training-an-agent-to-master-tic-tac-toe-through-self-play-72038c3f33f7)
 - [Stablebaseline3: the Swiss Army Knife of Applied RL](https://towardsdatascience.com/sb3-the-swiss-army-knife-of-applied-rl-5548535d09cd)
+- [Pokemon: Reinforcement Learning Edition](https://drubinstein.github.io/pokerl/)
+- [Mathematical Foundations of Reinforcement Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
+- [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/posts/2018-02-19-rl-overview/)

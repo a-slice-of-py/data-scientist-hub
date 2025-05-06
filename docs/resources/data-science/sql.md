@@ -22,3 +22,4 @@
 - [SQLModel: a library for interacting with SQL databases from Python code, with Python objects](https://github.com/fastapi/sqlmodel)
 - [Sampling with SQL](https://blog.moertel.com/posts/2024-08-23-sampling-with-sql.html)
 - [Outerbase Studio: A lightweight Database GUI in your browser](https://github.com/outerbase/studio)
+- [A faster way to copy SQLite databases between computers](https://alexwlchan.net/2025/copying-sqlite-databases/)

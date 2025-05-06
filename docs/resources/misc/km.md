@@ -16,3 +16,7 @@
 - [My Simple Knowledge Management and Time Tracking System](https://henrikwarne.com/2024/11/09/my-simple-knowledge-management-and-time-tracking-system/#comment-53596)
 - [Why Blog If Nobody Reads It?](https://andysblog.uk/why-blog-if-nobody-reads-it/)
 - [Johnny.Decimal: a system to organise your life](https://johnnydecimal.com/10-19-concepts/11-core/11.01-introduction/)
+- [techbook.digital: searchable database collection of IT keywords, terms, and concepts with descriptive explanations](https://github.com/stefanicjuraj/techbook.digital)
+- [rucola: terminal-based markdown note manager](https://github.com/Linus-Mussmaecher/rucola)
+- [koaning.io: time for a bespoke blog engine](https://koaning.io/posts/bespoke-new-static-blog-engine/)
+- [nb: a command line and local web note‑taking, bookmarking, archiving, and knowledge base application](https://xwmx.github.io/nb/)

@@ -14,6 +14,7 @@
 - [`human-learn` to rule-based learning and interactive drawing rules](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
 - [`scikit-mdn`: a mixture density network, by PyTorch, for scikit-learn](https://github.com/koaning/scikit-mdn)
 - [`skore`: The scikit-learn Modeling Companion](https://github.com/probabl-ai/skore)
+- [scikit-image: image processing in Python](https://github.com/scikit-image/scikit-image)
 
 ## Probabl
 

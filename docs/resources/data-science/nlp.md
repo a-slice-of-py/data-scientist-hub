@@ -36,6 +36,7 @@
 - [Outlines: a library for neural text generation](https://github.com/outlines-dev/outlines)
 - [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
 - [NLP Course](https://lena-voita.github.io/nlp_course.html)
+- [semhash: fast Semantic Text Deduplication & Filtering](https://github.com/MinishLab/semhash)
 
 ## Topic modeling
 

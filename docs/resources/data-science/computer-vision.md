@@ -8,6 +8,7 @@
 - [Concept: a technique that leverages CLIP and BERTopic-based techniques to perform Concept Modeling on images](https://github.com/MaartenGr/Concept)
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 - [Deepface: a Lightweight Face Recognition and Facial Attribute Analysis Library for Python](https://github.com/serengil/deepface)
+- [Writing My Own Dithering Algorithm in Racket](https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket)
 
 ## Seam Carving
 
