@@ -88,7 +88,9 @@ markdown_extensions:
   - pymdownx.snippets
 
 plugins:
-  - search
+  - search:
+      # SEE: https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - social:
       # temporarly disabled due to https://github.com/squidfunk/mkdocs-material/issues/6983
       enabled: !ENV [ENABLE_MKDOCS_PLUGIN, true]
