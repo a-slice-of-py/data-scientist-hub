@@ -38,3 +38,5 @@
 - [Taichi: productive, portable, and performant GPU programming in Python](https://github.com/taichi-dev/taichi)
 - [Preswald: an open-source Python SDK for turning code into interactive data apps](https://github.com/StructuredLabs/preswald)
 - [plain: a web framework for building products with Python](https://github.com/dropseed/plain)
+- [bruno: Opensource IDE for exploring and testing APIs](https://github.com/usebruno/bruno)
+- [py-shiny: Shiny for Python web framework](https://github.com/posit-dev/py-shiny)

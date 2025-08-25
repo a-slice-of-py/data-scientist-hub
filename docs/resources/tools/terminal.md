@@ -12,3 +12,5 @@
 - [Atuin Desktop: Runbooks that Run](https://blog.atuin.sh/atuin-desktop-runbooks-that-run/)
 - [Font Ligatures for your Code Editor and Terminal](https://blog.miguelgrinberg.com/post/font-ligatures-for-your-code-editor-and-terminal)
 - ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
+- [ghostty: Fast, feature-rich, and cross-platform terminal emulator](https://github.com/ghostty-org/ghostty)
+- [helix: A post-modern modal text editor](https://github.com/helix-editor/helix)

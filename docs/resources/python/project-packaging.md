@@ -12,3 +12,6 @@
 - [uv: an extremely fast Python package and project manager, written in Rust](https://github.com/astral-sh/uv)
 - [uv run](https://simonwillison.net/2024/Aug/21/usrbinenv-uv-run/)
 - [uv and PEP 723 for Easy Deployment of Python scripts](https://thisdavej.com/share-python-scripts-like-a-pro-uv-and-pep-723-for-easy-deployment/)
+- [poethepoet: Python task runner and build tool](https://github.com/nat-n/poethepoet)
+- [Pre Commit Install Uv](https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/)
+- [Python Recipes With UV](https://just.systems/man/en/python-recipes-with-uv.html)

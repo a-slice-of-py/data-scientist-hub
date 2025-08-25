@@ -14,3 +14,6 @@
 - [Python Code Playground in MkDocs](https://towardsdatascience.com/python-code-playground-in-mkdocs-cc05eddceb63)
 - [mkdocs-charts-plugin: mkdocs plugin to add plots from data using vegalite](https://github.com/timvink/mkdocs-charts-plugin)
 - [mkdocs-material-configurator: a UI configuration tool for the popular Material theme for mkdocs](https://github.com/mocdaniel/mkdocs-material-configurator?tab=readme-ov-file)
+- [Introducing New Open Source Documentation Resources](https://opensource.googleblog.com/2025/05/introducing-new-open-source-documentation-resources.html?m=1)
+- [mkapi: MkDocs plugin for automatic API documentation generation from Python docstrings](https://github.com/daizutabi/mkapi/)
+- [mkdocs MCP server](https://github.com/serverless-dna/mkdocs-mcp)

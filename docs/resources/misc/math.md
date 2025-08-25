@@ -5,6 +5,10 @@
 <small>by [XKCD](https://xkcd.com/2610/)</small>
 
 - [Visual explanations of mathematics](https://agilescientific.com/blog/2020/2/25/visual-explanations-of-mathematics)
+- [Discrete Mathematics](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
+- [Planes in 3D space](https://alexharri.com/blog/planes)
+- [Systematizing Byrne's The Elements of Euclid](https://designsystems.international/ideas/byrne-euclid-systematization/)
+- [The Map of Mathematics](https://mathmap.quantamagazine.org/map/)
 
 ## Fourier transform
 

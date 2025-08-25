@@ -9,6 +9,8 @@
 - [presenterm: a markdown terminal slideshow tool](https://github.com/mfontanini/presenterm)
 - [Slidev: presentation slides for developers](https://sli.dev/guide/why#comparisons)
 - [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
+- [Koaning's draft: GitHub-style markdown editor with AI assistance](https://github.com/koaning/draft)
+- [MDX: Markdown for the component era](https://mdxjs.com/)
 
 ## Other markup languages
 

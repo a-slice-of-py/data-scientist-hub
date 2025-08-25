@@ -17,3 +17,4 @@
 - [`locust` as a test framework in pure Python](https://github.com/locustio/locust)
 - [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
 - [Python Mocking in Production](https://towardsdatascience.com/python-mocking-in-production-1924953c8a14)
+- [pytest-testmon: Pytest plugin for test selection based on code changes](https://github.com/tarpas/pytest-testmon)

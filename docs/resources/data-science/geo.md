@@ -19,6 +19,12 @@
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)
 - [Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3](https://towardsdatascience.com/geospatial-indexing-explained-a-comparison-of-geohash-s2-and-h3-68d4ed7e366d)
 - [Simplification of street networks](https://martinfleischmann.net/simplification-of-street-networks/)
+- [geoai: GeoAI: Artificial Intelligence for Geospatial Data](https://github.com/opengeos/geoai)
+- [jupytergis: Collaborative GIS editor in Jupyter](https://github.com/geojupyter/jupytergis)
+- [Maps With Django, GeoDjango Pillow And GPS](https://www.paulox.net/2025/04/11/maps-with-django-part-3-geodjango-pillow-and-gps/)
+- [OpenStreetMap API Doc](https://jaystecki.github.io/OpenStreetMapAPIdoc/)
+- [Sea Surface Temperature Daily Analysis](https://surftemp.github.io/sst-data-tutorials/)
+- [UrbanMapper: Enrich Urban Layers Given Urban Datasets](https://github.com/VIDA-NYU/UrbanMapper)
 
 ## Grids
 

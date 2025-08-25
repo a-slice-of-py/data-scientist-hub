@@ -52,3 +52,4 @@
 - [BERTrend: neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
 - [Turftopic: robust and fast topic models with sentence-transformers](https://github.com/x-tabdeveloping/turftopic)
 - [topicwizard: powerful topic model visualization in Python](https://github.com/x-tabdeveloping/topicwizard)
+- [Apache Solr: blazing-fast, open source, multi-modal search platform built on the full-text, vector, and geospatial search capabilities of Apache Lucene](https://solr.apache.org/)

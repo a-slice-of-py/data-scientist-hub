@@ -29,6 +29,9 @@
 - [ipyflow: a reactive Python kernel for Jupyter notebooks](https://github.com/ipyflow/ipyflow)
 - [euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie)
 - [Jupyter AI](https://jupyter-ai.readthedocs.io/en/latest/index.html)
+- [ipyleaflet: Interactive maps in Jupyter notebooks](https://github.com/jupyter-widgets/ipyleaflet)
+- [JupyterCAD: 3D CAD in Jupyter notebooks](https://github.com/jupytercad/JupyterCAD)
+- [Everything As Python: From notebook to prod with Bauplan and marimo](https://www.bauplanlabs.com/blog/everything-as-python)
 
 ## marimo
 

@@ -13,3 +13,6 @@
 - [50 things we’ve learned about building successful products](https://newsletter.posthog.com/p/50-things-weve-learned-about-building)
 - [Binary search as a bidirectional generator](https://mathspp.com/blog/binary-search-as-a-bidirectional-generator)
 - [Modern Tech Stack](https://third-bit.com/2024/04/18/a-new-stack/)
+- [toto: DataDog's framework for securing software supply chain](https://github.com/DataDog/toto)
+- [The Guide to Hashing I Wish I Had When I Started](https://banjocode.com/post/cs/hashing/)
+- [The Ingredients of a Productive Monorepo](https://blog.swgillespie.me/posts/monorepo-ingredients/)

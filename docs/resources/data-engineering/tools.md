@@ -17,6 +17,18 @@
 - [Trilogy Python Semantic Layers](https://trilogydata.dev/thesis/#python-semantic-layers)
 - [yato: yet another transformation orchestrator](https://github.com/Bl3f/yato)
 - [xorq: deferred computational framework for multi-engine pipelines](https://github.com/xorq-labs/xorq)
+- [boring-semantic-layer: a lightweight semantic layer based on Ibis](https://github.com/boringdata/boring-semantic-layer)
+- [Deep Dive Into Duckdb Data Scientists](https://codecut.ai/deep-dive-into-duckdb-data-scientists/)
+- [DuckDB ducklake](https://github.com/duckdb/ducklake)
+- [kuzu: Embedded graph database built for query speed and scalability](https://github.com/kuzudb/kuzu)
+- [manticoresearch: Easy to use open source fast database for search](https://github.com/manticoresoftware/manticoresearch)
+- [OpenLineage Marquez](https://github.com/MarquezProject/marquez)
+- [octanedb: A high-performance, lightweight vector database library built in Python](https://github.com/RijinRaju/octanedb)
+- [prql: Pipelined Relational Query Language](https://github.com/PRQL/prql)
+- [robinzhon: Minimal, high-performance Python helpers for concurrent S3 object transfers](https://github.com/rohaquinlop/robinzhon)
+- [s3grep: CLI tool for searching logs and unstructured content in Amazon S3 buckets](https://github.com/dacort/s3grep)
+- [Semantic Layer DuckDB Tutorial](https://motherduck.com/blog/semantic-layer-duckdb-tutorial/)
+- [soda-core: Data quality testing framework](https://github.com/sodadata/soda-core)
 
 ## Search engines
 

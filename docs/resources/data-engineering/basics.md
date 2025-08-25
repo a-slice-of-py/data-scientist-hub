@@ -7,6 +7,7 @@
 - [Data Engineering Design Patterns](https://www.dedp.online/)
 - [Airbyte Data Glossary](https://glossary.airbyte.com/)
 - [Modern Data Engineering](https://moderndataengineering.substack.com/)
+- [Data Engineering For Beginners](https://www.brandonrohrer.com/data_eng_for_beginners)
 
 ## Data Engineering Vault
 

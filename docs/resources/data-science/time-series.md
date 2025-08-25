@@ -71,6 +71,14 @@
 - [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
 - [MFLES: a simple time series method based on gradient boosting time series decomposition](https://nixtlaverse.nixtla.io/statsforecast/docs/models/mfles.html)
 - [Time series methods to solve business forecasting problems](https://github.com/WinVector/Examples/tree/main/TimeSeries#readme)
+- [100 Time Series Data Mining Questions](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf)
+- [How Can We Quantify Similarity Between Time Series](https://tech.gorilla.co/how-can-we-quantify-similarity-between-time-series-ed1d0b633ca0)
+- [Interpreting ACF And PACF Plots For Time Series Forecasting](https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c/)
+- [Matrix Profile Tutorial](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf)
+- [stumpy: Modern time series analysis library](https://github.com/stumpy-dev/stumpy)
+- [Time Series Similarity](https://didawiki.di.unipi.it/lib/exe/fetch.php/dm/11_dm2_time_series_similarity_2020.pdf)
+- [tslearn: Machine learning toolkit for time series analysis](https://github.com/tslearn-team/tslearn)
+- [Digital Signals Theory](https://brianmcfee.net/dstbook-site/content/intro.html)
 
 ## Prophet
 

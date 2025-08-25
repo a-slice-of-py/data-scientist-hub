@@ -18,6 +18,11 @@
 - [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
 - [Pandas illustrated: a visual guide](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
 - [PandasAI: a Python library to ask questions to your data in natural language](https://github.com/Sinaptik-AI/pandas-ai)
+- [Do More With Numpy Array Type Hints](https://medium.com/data-science-collective/do-more-with-numpy-array-type-hints-annotate-validate-shape-dtype-09f81c496746)
+- [Pandas Crosstab](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html)
+- [Pandas DataFrame Plot Density](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.density.html)
+- [patito: A data modelling layer built on top of polars and pydantic](https://github.com/JakobGM/patito)
+- [Data Validation Libraries for Polars](https://posit-dev.github.io/pointblank/blog/validation-libs-2025/)
 
 ## Numpy
 

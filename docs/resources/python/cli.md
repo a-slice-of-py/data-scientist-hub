@@ -10,3 +10,5 @@
 - [TerminalTextEffects: a terminal visual effects engine, application, and Python library](https://github.com/ChrisBuilds/terminaltexteffects)
 - [Interrupting scripts without tracebacks](https://mathspp.com/blog/til/interrupting-scripts-without-tracebacks)
 - [tyro: cLI interfaces & config objects, from types](https://github.com/brentyi/tyro)
+- [python-inquirer: Collection of common interactive command line interfaces](https://github.com/magmax/python-inquirer)
+- [ty: Modern Python CLI framework with type hints](https://github.com/astral-sh/ty)

@@ -24,3 +24,6 @@
 - [Data Commons: aggregates global, open data, uncovering insights with natural language questions](https://datacommons.org/)
 - [Foursquare Places OS Data Schemas](https://docs.foursquare.com/data-products/docs/places-os-data-schema)
 - [Gothic Weather Data](https://www.gothicwx.org/)
+- [ArXiv Explorer](https://arxivxplorer.com/)
+- [Influcast: predizioni epidemiologiche](https://github.com/Predizioni-Epidemiologiche-Italia/Influcast)
+- [Python Data Commons: Unlock deeper insights with the new Python client library for Data Commons](https://developers.googleblog.com/en/pythondatacommons/)

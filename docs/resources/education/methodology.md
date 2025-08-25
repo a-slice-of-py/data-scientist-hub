@@ -54,3 +54,4 @@
 - [8 Years in Data: What I Wish I’d Known from the Start](https://towardsdatascience.com/8-years-in-data-what-i-wish-id-known-from-the-start-d2af8e6fc829)
 - [Potemkin Data Science](https://mcorrell.medium.com/potemkin-data-science-fba2b5ba5cc6)
 - [Psychological Safety vs. High Standards: A Misunderstood Dynamic](https://www.leadingsapiens.com/psychological-safety-vs-high-standards/)
+- [Curing Your Ai 10x Engineer Imposter Syndrome](https://colton.dev/blog/curing-your-ai-10x-engineer-imposter-syndrome/)

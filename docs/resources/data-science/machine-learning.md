@@ -18,6 +18,17 @@
 - [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
 - [Causality in ML Models: Introducing Monotonic Constraints](https://towardsdatascience.com/causality-in-ml-models-introducing-monotonic-constraints-8426e1b5cc34)
 - [OpenML: a worldwide machine learning lab](https://openml.org/)
+- [distfit: Probability density function fitting and hypothesis testing](https://github.com/erdogant/distfit)
+- [fastcore: Python supercharged for the fastai library](https://github.com/AnswerDotAI/fastcore)
+- [imodels: Interpretable machine learning models](https://github.com/csinva/imodels)
+- [Machine Learning Prototyping with DuckDB and scikit-learn](https://duckdb.org/2025/05/16/scikit-learn-duckdb.html)
+- [Machine Learning Q And AI](https://sebastianraschka.com/books/ml-q-and-ai/#table-of-contents)
+- [nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs](https://github.com/karpathy/nanoGPT)
+- [pyGAM: Generalized Additive Models in Python](https://github.com/dswah/pyGAM)
+- [RapidFuzz: Rapid fuzzy string matching library](https://github.com/rapidfuzz/RapidFuzz)
+- [scikit-survival: Survival analysis in Python](https://github.com/sebp/scikit-survival)
+- [tea-tasting: Statistical testing for A/B experiments](https://github.com/e10v/tea-tasting)
+- [Tour Of PyGAM: Generalized Additive Models](https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html)
 
 ## Model evaluation
 

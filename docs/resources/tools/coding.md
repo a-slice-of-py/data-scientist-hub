@@ -1,4 +1,4 @@
 # Coding
 
-- [Functional programming in DS projects](https://towardsdatascience.com/functional-programing-in-data-science-projects-c909c11138bb)
 - [Carbon for code snapshots](https://carbon.now.sh/)
+- [5 Non LLM Software Trends To Be Excited](https://read.engineerscodex.com/p/5-non-llm-software-trends-to-be-excited)

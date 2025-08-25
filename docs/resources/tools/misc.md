@@ -7,3 +7,8 @@
 - [television: blazing fast general purpose fuzzy finder TUI](https://github.com/alexpasmantier/television)
 - [Leaflet: create and share delightful documents on the web](https://github.com/hyperlink-academy/leaflet)
 - [filepizza: peer-to-peer file transfers in your browser](https://github.com/kern/filepizza)
+- [Just: Settings for Nushell](https://just.systems/man/en/settings.html#nushell)
+- [Bees BeWeather](https://www.bees.srl/beweather)
+- [Datova Word Calculator](https://calc.datova.ai/)
+- [Itter: social media for purists](https://www.itter.sh/)
+- [Microsoft edit](https://github.com/microsoft/edit)

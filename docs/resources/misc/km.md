@@ -20,3 +20,6 @@
 - [rucola: terminal-based markdown note manager](https://github.com/Linus-Mussmaecher/rucola)
 - [koaning.io: time for a bespoke blog engine](https://koaning.io/posts/bespoke-new-static-blog-engine/)
 - [nb: a command line and local web note‑taking, bookmarking, archiving, and knowledge base application](https://xwmx.github.io/nb/)
+- [How to create Architectural Decision Records (ADRs) - and how not to](https://www.ozimmer.ch/practices/2023/04/03/ADRCreation.html)
+- [Enabling Hugo Static Site Search With Lunr.js](https://vickiboykis.com/2025/08/08/enabling-hugo-static-site-search-with-lunr.js/)
+- [I Deleted My Second Brain](https://www.joanwestenberg.com/p/i-deleted-my-second-brain)

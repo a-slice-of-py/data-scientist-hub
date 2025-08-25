@@ -13,3 +13,4 @@
 - [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://github.com/XingangPan/DragGAN)
 - [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [Diffusion Models Explained](https://www.seangoedecke.com/diffusion-models-explained/)

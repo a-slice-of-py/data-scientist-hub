@@ -20,3 +20,4 @@
 - [Python `@property` decorator](https://towardsdatascience.com/pythons-most-powerful-decorator-6bc39e6a8dd8)
 - [Use case for decorators in Python](https://hashimcolombowala.com/p/python-decorators-a-super-useful-feature/#additional-use-cases-for-decorators)
 - [Pipeline Pattern in Python with reduce and partial](https://pybit.es/articles/a-practical-example-of-the-pipeline-pattern-in-python/)
+- [python-patterns: Collection of design patterns and idioms in Python](https://github.com/faif/python-patterns)
