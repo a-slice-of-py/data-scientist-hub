@@ -15,8 +15,8 @@
 
 ## Coding
 
-- [Functional programming in DS projects](https://towardsdatascience.com/functional-programing-in-data-science-projects-c909c11138bb)
 - [Carbon for code snapshots](https://carbon.now.sh/)
+- [5 Non LLM Software Trends To Be Excited](https://read.engineerscodex.com/p/5-non-llm-software-trends-to-be-excited)
 
 ## Cron
 
@@ -73,6 +73,7 @@
 - [git-cliff: a highly customizable changelog generator](https://git-cliff.org/)
 - [Tracing the evolution of a Python function with git log](https://nerderati.com/tracing-the-evolution-of-a-python-function-with-git-log/)
 - [gitingest: replace 'hub' with 'ingest' in any github url to get a prompt-friendly extract of a codebase](https://github.com/cyclotruc/gitingest)
+- [Jujutsu For Busy Devs](https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs)
 
 ## Github
 
@@ -96,6 +97,10 @@
 
 - [PyScript](https://towardsdatascience.com/pyscript-unleash-the-power-of-python-in-your-browser-6e0123c6dc3f)
 
+## IDE
+
+- [Positron, a new Data Science IDE](https://posit.co/blog/positron-product-announcement-aug-2025/)
+
 ## impress.js
 
 - [impress.js and Slides, Prezi-inspired](https://github.com/impress/impress.js)
@@ -116,6 +121,8 @@
 - [presenterm: a markdown terminal slideshow tool](https://github.com/mfontanini/presenterm)
 - [Slidev: presentation slides for developers](https://sli.dev/guide/why#comparisons)
 - [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
+- [Koaning's draft: GitHub-style markdown editor with AI assistance](https://github.com/koaning/draft)
+- [MDX: Markdown for the component era](https://mdxjs.com/)
 
 ### Other markup languages
 
@@ -130,6 +137,11 @@
 - [television: blazing fast general purpose fuzzy finder TUI](https://github.com/alexpasmantier/television)
 - [Leaflet: create and share delightful documents on the web](https://github.com/hyperlink-academy/leaflet)
 - [filepizza: peer-to-peer file transfers in your browser](https://github.com/kern/filepizza)
+- [Just: Settings for Nushell](https://just.systems/man/en/settings.html#nushell)
+- [Bees BeWeather](https://www.bees.srl/beweather)
+- [Datova Word Calculator](https://calc.datova.ai/)
+- [Itter: social media for purists](https://www.itter.sh/)
+- [Microsoft edit](https://github.com/microsoft/edit)
 
 ## Performance monitoring
 
@@ -173,6 +185,9 @@
 - [50 things we’ve learned about building successful products](https://newsletter.posthog.com/p/50-things-weve-learned-about-building)
 - [Binary search as a bidirectional generator](https://mathspp.com/blog/binary-search-as-a-bidirectional-generator)
 - [Modern Tech Stack](https://third-bit.com/2024/04/18/a-new-stack/)
+- [toto: DataDog's framework for securing software supply chain](https://github.com/DataDog/toto)
+- [The Guide to Hashing I Wish I Had When I Started](https://banjocode.com/post/cs/hashing/)
+- [The Ingredients of a Productive Monorepo](https://blog.swgillespie.me/posts/monorepo-ingredients/)
 
 ## Terminal
 
@@ -188,6 +203,8 @@
 - [Atuin Desktop: Runbooks that Run](https://blog.atuin.sh/atuin-desktop-runbooks-that-run/)
 - [Font Ligatures for your Code Editor and Terminal](https://blog.miguelgrinberg.com/post/font-ligatures-for-your-code-editor-and-terminal)
 - ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
+- [ghostty: Fast, feature-rich, and cross-platform terminal emulator](https://github.com/ghostty-org/ghostty)
+- [helix: A post-modern modal text editor](https://github.com/helix-editor/helix)
 
 ## Visual Studio Code
 

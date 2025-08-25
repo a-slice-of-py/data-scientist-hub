@@ -19,6 +19,8 @@
 - [Probabilistic Artificial Intelligence](https://arxiv.org/abs/2502.05244)
 - [Web Browser Engineering](https://browser.engineering/)
 - [Cosmic Python: simple patterns for building complex applications](https://www.cosmicpython.com/book/preface.html)
+- [Sequential Decision Analytics and Modelling with Python](https://castle.princeton.edu/wp-content/uploads/2022/11/Powell-SDAM-Nov242022_final_w_frontcover.pdf)
+- [Data Visualization with Category Theory and Geometry](https://link.springer.com/content/pdf/10.1007/978-3-031-97973-6.pdf)
 
 ## Certifications
 
@@ -61,6 +63,7 @@
 - [How to start ML](https://towardsdatascience.com/how-id-start-learning-machine-learning-again-3-years-in-55c52aaee52a)
 - [Learning path repositories](https://towardsdatascience.com/26-github-repositories-to-inspire-your-next-data-science-project-3023c24f4c3c)
 - [DevOps roadmap](https://github.com/milanm/DevOps-Roadmap)
+- [computer-science: Path to a free self-taught education in Computer Science](https://github.com/ossu/computer-science)
 
 ## Master
 

@@ -69,6 +69,8 @@
 - [TerminalTextEffects: a terminal visual effects engine, application, and Python library](https://github.com/ChrisBuilds/terminaltexteffects)
 - [Interrupting scripts without tracebacks](https://mathspp.com/blog/til/interrupting-scripts-without-tracebacks)
 - [tyro: cLI interfaces & config objects, from types](https://github.com/brentyi/tyro)
+- [python-inquirer: Collection of common interactive command line interfaces](https://github.com/magmax/python-inquirer)
+- [ty: Modern Python CLI framework with type hints](https://github.com/astral-sh/ty)
 
 ## Code freezing
 
@@ -219,6 +221,9 @@
 - [Python Code Playground in MkDocs](https://towardsdatascience.com/python-code-playground-in-mkdocs-cc05eddceb63)
 - [mkdocs-charts-plugin: mkdocs plugin to add plots from data using vegalite](https://github.com/timvink/mkdocs-charts-plugin)
 - [mkdocs-material-configurator: a UI configuration tool for the popular Material theme for mkdocs](https://github.com/mocdaniel/mkdocs-material-configurator?tab=readme-ov-file)
+- [Introducing New Open Source Documentation Resources](https://opensource.googleblog.com/2025/05/introducing-new-open-source-documentation-resources.html?m=1)
+- [mkapi: MkDocs plugin for automatic API documentation generation from Python docstrings](https://github.com/daizutabi/mkapi/)
+- [mkdocs MCP server](https://github.com/serverless-dna/mkdocs-mcp)
 
 ## DTale
 
@@ -240,6 +245,13 @@
 - [`funcy`](https://github.com/Suor/funcy/tree/61fc6a9494199c539390a0776c43d22e127cc5a8)
 - [Lazy Evaluation Using Recursive Python Generators](https://martinheinz.dev/blog/88)
 - [Writing Python like it's Rust](https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html)
+- [flowshow: Just a super thin wrapper for Python tasks that form a flow](https://github.com/koaning/flowshow)
+- [reaktiv: Signals for Python](https://github.com/buiapp/reaktiv)
+- [The Missing Manual For Signals State Management For Python Developers](https://bui.app/the-missing-manual-for-signals-state-management-for-python-developers/)
+- [tinyio: a tiny event loop for Python](https://github.com/patrick-kidger/tinyio)
+- [toolz: Functional programming utilities for Python](https://github.com/pytoolz/toolz)
+- [Trio: Python library for writing asynchronous applications](https://trio.readthedocs.io/en/stable/tutorial.html)
+- [Functional programming in DS projects](https://towardsdatascience.com/functional-programing-in-data-science-projects-c909c11138bb)
 
 ## Game development
 
@@ -297,6 +309,9 @@
 - [ipyflow: a reactive Python kernel for Jupyter notebooks](https://github.com/ipyflow/ipyflow)
 - [euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie)
 - [Jupyter AI](https://jupyter-ai.readthedocs.io/en/latest/index.html)
+- [ipyleaflet: Interactive maps in Jupyter notebooks](https://github.com/jupyter-widgets/ipyleaflet)
+- [JupyterCAD: 3D CAD in Jupyter notebooks](https://github.com/jupytercad/JupyterCAD)
+- [Everything As Python: From notebook to prod with Bauplan and marimo](https://www.bauplanlabs.com/blog/everything-as-python)
 
 ### marimo
 
@@ -313,6 +328,7 @@
 - [Structured logging](https://github.com/hynek/structlog)
 - [Whylogs for data logging](https://github.com/whylabs/whylogs)
 - [Toolong: a terminal application to view, tail, merge, and search log files](https://github.com/Textualize/toolong)
+- [Tamga: A modern, high-performance logging utility for Python](https://github.com/DogukanUrker/Tamga)
 
 ## Missing values
 
@@ -347,6 +363,7 @@
 - [Python `@property` decorator](https://towardsdatascience.com/pythons-most-powerful-decorator-6bc39e6a8dd8)
 - [Use case for decorators in Python](https://hashimcolombowala.com/p/python-decorators-a-super-useful-feature/#additional-use-cases-for-decorators)
 - [Pipeline Pattern in Python with reduce and partial](https://pybit.es/articles/a-practical-example-of-the-pipeline-pattern-in-python/)
+- [python-patterns: Collection of design patterns and idioms in Python](https://github.com/faif/python-patterns)
 
 ## Object Relational Mapper (ORM)
 
@@ -377,6 +394,11 @@
 - [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log)
 - [Pandas illustrated: a visual guide](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
 - [PandasAI: a Python library to ask questions to your data in natural language](https://github.com/Sinaptik-AI/pandas-ai)
+- [Do More With Numpy Array Type Hints](https://medium.com/data-science-collective/do-more-with-numpy-array-type-hints-annotate-validate-shape-dtype-09f81c496746)
+- [Pandas Crosstab](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html)
+- [Pandas DataFrame Plot Density](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.density.html)
+- [patito: A data modelling layer built on top of polars and pydantic](https://github.com/JakobGM/patito)
+- [Data Validation Libraries for Polars](https://posit-dev.github.io/pointblank/blog/validation-libs-2025/)
 
 ### Numpy
 
@@ -445,6 +467,9 @@
 - [uv: an extremely fast Python package and project manager, written in Rust](https://github.com/astral-sh/uv)
 - [uv run](https://simonwillison.net/2024/Aug/21/usrbinenv-uv-run/)
 - [uv and PEP 723 for Easy Deployment of Python scripts](https://thisdavej.com/share-python-scripts-like-a-pro-uv-and-pep-723-for-easy-deployment/)
+- [poethepoet: Python task runner and build tool](https://github.com/nat-n/poethepoet)
+- [Pre Commit Install Uv](https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/)
+- [Python Recipes With UV](https://just.systems/man/en/python-recipes-with-uv.html)
 
 ## Regex
 
@@ -616,6 +641,11 @@
 - [`locust` as a test framework in pure Python](https://github.com/locustio/locust)
 - [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
 - [Python Mocking in Production](https://towardsdatascience.com/python-mocking-in-production-1924953c8a14)
+- [pytest-testmon: Pytest plugin for test selection based on code changes](https://github.com/tarpas/pytest-testmon)
+
+## Typing
+
+- [Comparing Pyrefly Vs Ty](https://blog.edward-li.com/tech/comparing-pyrefly-vs-ty/)
 
 ## Misc utils
 
@@ -633,6 +663,26 @@
 - [wigglystuff: a collection of creative AnyWidgets for Python notebook environments](https://github.com/koaning/wigglystuff)
 - [A python wrapper for fzf, a command-line fuzzy finder](https://github.com/nk412/pyfzf)
 - [psutil: cross-platform lib for process and system monitoring in Python](https://github.com/giampaolo/psutil)
+- [copier: Library and CLI app for rendering project templates](https://github.com/copier-org/copier)
+- [A Python Dict That Can Report Which Keys You Did Not Use](https://www.peterbe.com/plog/a-python-dict-that-can-report-which-keys-you-did-not-use)
+- [AutStr: Infinite data structures in python](https://github.com/fariedabuzaid/AutStr)
+- [clippy with some AI](https://github.com/felixrieseberg/clippy)
+- [Dumpy: Numpy except it's ok if you're dumb](https://dynomight.net/dumpy/)
+- [html-to-markdown](https://github.com/Goldziher/html-to-markdown)
+- [notata: A lightweight Python library for saving simulation results in a standardized, reproducible format](https://github.com/alonfnt/notata)
+- [orbital: Turn SciKitLearn pipelines into SQL](https://github.com/posit-dev/orbital)
+- [Otary: elegant, readable, and powerful image and 2D geometry Python library](https://alexandrepoupeau.com/otary/)
+- [overtype: The markdown editor that's just a textarea](https://github.com/panphora/overtype)
+- [Pake: Turn any webpage into a desktop app with Rust](https://github.com/tw93/Pake)
+- [Perfect Freehand](https://www.perfectfreehand.com/)
+- [Python memory graph](https://github.com/bterwijn/memory_graph)
+- [python-ulid: ULID implementation for Python](https://github.com/mdomke/python-ulid)
+- [quarkdown: Markdown with superpowers](https://github.com/iamgio/quarkdown)
+- [Scrapling: high-performance Python library for Web Scraping](https://github.com/D4Vinci/Scrapling)
+- [sff: CLI for semantic search on your computer](https://github.com/do-me/sff)
+- [Tamga: A modern, high-performance logging utility for Python](https://github.com/DogukanUrker/Tamga)
+- [Temporary files and directories in Python](https://heitorpb.github.io/bla/pytmp/)
+- [wetlands: Conda Environment Manager, a library to execute code in isolated environments](https://github.com/arthursw/wetlands)
 
 ## Python versions
 
@@ -687,6 +737,8 @@
 - [Taichi: productive, portable, and performant GPU programming in Python](https://github.com/taichi-dev/taichi)
 - [Preswald: an open-source Python SDK for turning code into interactive data apps](https://github.com/StructuredLabs/preswald)
 - [plain: a web framework for building products with Python](https://github.com/dropseed/plain)
+- [bruno: Opensource IDE for exploring and testing APIs](https://github.com/usebruno/bruno)
+- [py-shiny: Shiny for Python web framework](https://github.com/posit-dev/py-shiny)
 
 ## Web scraping
 

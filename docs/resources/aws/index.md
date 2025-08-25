@@ -143,4 +143,9 @@
 ### Infographics
 
 - [AWS Fundamentals](https://digests.awsfundamentals.com/)
+- [A Mini Book On AWS Networking](https://www.ducktyped.org/p/a-mini-book-on-aws-networking-introduction)
+- [AWS Strands Agents](https://strandsagents.com/latest/)
+- [AWS Strands Agents Python SDK](https://github.com/strands-agents/sdk-python)
+- [iam-floyd: AWS IAM policy statement generator with fluent interface](https://github.com/udondan/iam-floyd)
+- [iam-lens: visibility into the IAM permissions in your AWS organizations and accounts](https://github.com/cloud-copilot/iam-lens)
 

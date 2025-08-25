@@ -25,6 +25,14 @@
 - [Luminol: a light weight Python library for time series anomaly detection and correlation](https://github.com/linkedin/luminol)
 - [Alibi Detect: an open source Python library focused on outlier, adversarial and drift detection](https://github.com/SeldonIO/alibi-detect)
 - [Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512)
+- [Merlion Anomaly Detection Intro](https://opensource.salesforce.com/Merlion/v2.0.2/tutorials/anomaly/0_AnomalyIntro.html)
+- [Anomaly Detection In Time Series](https://blog.jetbrains.com/pycharm/2025/01/anomaly-detection-in-time-series/)
+- [Anomaly Detection with Nixtla](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/anomalydetection.html)
+- [Darts Anomaly Detection](https://unit8co.github.io/darts/examples/22-anomaly-detection-examples.html)
+- [DTAI Anomaly Detection](https://dtaianomaly.readthedocs.io/en/stable/getting_started/examples/anomaly_detection.html)
+- [Simple Anomaly Detection In Time Series Via Optimal Baseline Subtraction](https://www.nixtla.io/blog/simple-anomaly-detection-in-time-series-via-optimal-baseline-subtraction-(obs))
+- [Unsupervised Anomaly Detection for Web Traffic Data](https://antonsruberts.github.io/anomaly-detection-web-2/)
+- [Unsupervised Anomaly Detection](https://temporian.readthedocs.io/en/stable/tutorials/anomaly_detection_unsupervised/)
 
 ## AutoML
 
@@ -208,11 +216,15 @@
 - [Data Commons: aggregates global, open data, uncovering insights with natural language questions](https://datacommons.org/)
 - [Foursquare Places OS Data Schemas](https://docs.foursquare.com/data-products/docs/places-os-data-schema)
 - [Gothic Weather Data](https://www.gothicwx.org/)
+- [ArXiv Explorer](https://arxivxplorer.com/)
+- [Influcast: predizioni epidemiologiche](https://github.com/Predizioni-Epidemiologiche-Italia/Influcast)
+- [Python Data Commons: Unlock deeper insights with the new Python client library for Data Commons](https://developers.googleblog.com/en/pythondatacommons/)
 
 ## Deep Learning
 
 - [D2L](http://d2l.ai/)
 - [Implementing DL from scratch in Python](https://towardsdatascience.com/on-implementing-deep-learning-library-from-scratch-in-python-c93c942710a8)
+- [Deep Learning Is Applied Topology](https://theahura.substack.com/p/deep-learning-is-applied-topology)
 
 ## Dimensionality Reduction
 
@@ -236,6 +248,13 @@
 - [model2vec: fast State-of-the-Art Static Embeddings](https://github.com/MinishLab/model2vec)
 - [How to Implement a Cosine Similarity Function in TypeScript for Vector Comparison](https://alexop.dev/posts/how-to-implement-a-cosine-similarity-function-in-typescript-for-vector-comparison/)
 - [Late Chunking: The Better Way to Embed Document Chunks](https://isaacflath.com/blog/blog_post?fpath=posts%2F2025-04-08-LateChunking.ipynb)
+- [A Visual Exploration Of Vector Embeddings](http://blog.pamelafox.org/2025/05/a-visual-exploration-of-vector.html)
+- [Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/)
+- [LLM Embeddings Explained: A Visual and Intuitive Guide](https://huggingface.co/spaces/hesamation/primer-llm-embedding)
+- [ML Embeddings Overview](https://technicalwriting.dev/ml/embeddings/overview.html)
+- [OpenAI: What Are Embeddings?](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings)
+- [s3vectors-embed-cli :A CLI facilitating semantic similarity search on media in Amazon S3 via AWS Bedrock and Amazon S3 Vectors](https://github.com/awslabs/s3vectors-embed-cli)
+- [vectorvfs: Your filesystem as a vector database](https://github.com/perone/vectorvfs)
 
 ## Energy and Power Systems
 
@@ -313,6 +332,12 @@
 - [Voronoi diagram in Manhattan metric](https://stackoverflow.com/questions/67950324/voronoi-diagram-in-manhattan-metric)
 - [Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3](https://towardsdatascience.com/geospatial-indexing-explained-a-comparison-of-geohash-s2-and-h3-68d4ed7e366d)
 - [Simplification of street networks](https://martinfleischmann.net/simplification-of-street-networks/)
+- [geoai: GeoAI: Artificial Intelligence for Geospatial Data](https://github.com/opengeos/geoai)
+- [jupytergis: Collaborative GIS editor in Jupyter](https://github.com/geojupyter/jupytergis)
+- [Maps With Django, GeoDjango Pillow And GPS](https://www.paulox.net/2025/04/11/maps-with-django-part-3-geodjango-pillow-and-gps/)
+- [OpenStreetMap API Doc](https://jaystecki.github.io/OpenStreetMapAPIdoc/)
+- [Sea Surface Temperature Daily Analysis](https://surftemp.github.io/sst-data-tutorials/)
+- [UrbanMapper: Enrich Urban Layers Given Urban Datasets](https://github.com/VIDA-NYU/UrbanMapper)
 
 ### Grids
 
@@ -342,6 +367,7 @@
 ## Graphs
 
 - [rustworkx: a high performance Python graph library implemented in Rust](https://github.com/Qiskit/rustworkx)
+- [A* algorithm Introduction](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
 
 ## Hyperparameters Tuning
 
@@ -479,6 +505,22 @@
 - [The Hidden Cost of AI Coding](https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/)
 - [AI code is legacy code from day one](https://text-incubation.com/AI+code+is+legacy+code+from+day+one)
 - [36 Alternatives to LLM Context](https://www.cyberchitta.cc/articles/lc-alternatives.html)
+- [ask-human MCP](https://github.com/Masony817/ask-human-mcp)
+- [Awesome Amazon Q developer](https://github.com/cremich/awesome-q-developer?tab=readme-ov-file#-learning-paths)
+- [Basic Memory: AI conversations that actually remember](https://github.com/basicmachines-co/basic-memory)
+- [elroy: An AI assistant that remembers and sets goals](https://github.com/elroy-bot/elroy)
+- [fastmcp: The fast, Pythonic way to build MCP servers and clients](https://github.com/jlowin/fastmcp)
+- [Google A2A: Agent2Agent Protocol](https://github.com/google-a2a/A2A)
+- [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
+- [LLMs to Alloy](https://github.com/jacopotagliabue/LLMs-to-Alloy)
+- [sourcebot: a self-hosted tool that helps you understand your codebase](https://github.com/sourcebot-dev/sourcebot)
+- [AI Is A Floor Raiser Not A Ceiling Raiser](https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html)
+- [Design Partner](https://betweentheprompts.com/design-partner/)
+- [I'd rather read the prompt](https://claytonwramsey.com/blog/prompt/)
+- [In Praise Of Normal Engineers](https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/amp/)
+- [MCP As An Accidentally Universal Plugin](https://worksonmymachine.substack.com/p/mcp-an-accidentally-universal-plugin)
+- [Teach your LLM about me](https://ai.jakegaylor.com/)
+- [The Prompt Engineering Playbook For Programmers](https://addyo.substack.com/p/the-prompt-engineering-playbook-for)
 
 ## Machine Learning
 
@@ -500,6 +542,17 @@
 - [LitServe: an easy-to-use, flexible serving engine for AI models built on FastAPI](https://github.com/Lightning-AI/litserve)
 - [Causality in ML Models: Introducing Monotonic Constraints](https://towardsdatascience.com/causality-in-ml-models-introducing-monotonic-constraints-8426e1b5cc34)
 - [OpenML: a worldwide machine learning lab](https://openml.org/)
+- [distfit: Probability density function fitting and hypothesis testing](https://github.com/erdogant/distfit)
+- [fastcore: Python supercharged for the fastai library](https://github.com/AnswerDotAI/fastcore)
+- [imodels: Interpretable machine learning models](https://github.com/csinva/imodels)
+- [Machine Learning Prototyping with DuckDB and scikit-learn](https://duckdb.org/2025/05/16/scikit-learn-duckdb.html)
+- [Machine Learning Q And AI](https://sebastianraschka.com/books/ml-q-and-ai/#table-of-contents)
+- [nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs](https://github.com/karpathy/nanoGPT)
+- [pyGAM: Generalized Additive Models in Python](https://github.com/dswah/pyGAM)
+- [RapidFuzz: Rapid fuzzy string matching library](https://github.com/rapidfuzz/RapidFuzz)
+- [scikit-survival: Survival analysis in Python](https://github.com/sebp/scikit-survival)
+- [tea-tasting: Statistical testing for A/B experiments](https://github.com/e10v/tea-tasting)
+- [Tour Of PyGAM: Generalized Additive Models](https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html)
 
 ### Model evaluation
 
@@ -598,6 +651,7 @@
 - [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://github.com/XingangPan/DragGAN)
 - [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [Diffusion Models Explained](https://www.seangoedecke.com/diffusion-models-explained/)
 
 ## Natural Language Processing (NLP)
 
@@ -653,6 +707,7 @@
 - [BERTrend: neural Topic Modeling for Emerging Trends Detection](https://github.com/rte-france/BERTrend)
 - [Turftopic: robust and fast topic models with sentence-transformers](https://github.com/x-tabdeveloping/turftopic)
 - [topicwizard: powerful topic model visualization in Python](https://github.com/x-tabdeveloping/topicwizard)
+- [Apache Solr: blazing-fast, open source, multi-modal search platform built on the full-text, vector, and geospatial search capabilities of Apache Lucene](https://solr.apache.org/)
 
 ## Objects tracking
 
@@ -751,7 +806,13 @@
 - [Empirical cumulative distribution: advantages over histogram for EDA](https://towardsdatascience.com/empirical-cumulative-distribution-function-the-only-plotting-tool-a-data-scientist-needs-a9976f86c718)
 - [Hypothesis Testing Explained (How I Wish It Was Explained to Me)](https://towardsdatascience.com/hypothesis-testing-explained-how-i-wish-it-was-explained-to-me-14379f7a41c3)
 - [Why Statistical Significance Is Pointless](https://towardsdatascience.com/why-statistical-significance-is-pointless-a7644be30266)
-- [Think Correlation Isn’t Causation? Meet Partial Correlation](https://towardsdatascience.com/think-correlation-isnt-causation-meet-partial-correlation-c3895dfafcfa)
+- [Think Correlation Isn't Causation? Meet Partial Correlation](https://towardsdatascience.com/think-correlation-isnt-causation-meet-partial-correlation-c3895dfafcfa)
+- [Dummy's Guide to Modern LLM Sampling](https://rentry.co/samplers)
+- [NannyML Probability Calibration](https://www.nannyml.com/blog/probability-calibration)
+- [Probability Calibration Curve](https://ploomber.io/blog/calibration-curve/)
+- [Probability Calibration](https://davidrosenberg.github.io/ttml2021/calibration/2.calibration.pdf)
+- [ProbPy: Python Probabilistic Calculus](https://github.com/petermlm/ProbPy)
+- [Bollinger Bands](https://en.wikipedia.org/wiki/Bollinger_Bands)
 
 ## Regression
 
@@ -935,6 +996,14 @@
 - [Temporian: an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications](https://github.com/google/temporian)
 - [MFLES: a simple time series method based on gradient boosting time series decomposition](https://nixtlaverse.nixtla.io/statsforecast/docs/models/mfles.html)
 - [Time series methods to solve business forecasting problems](https://github.com/WinVector/Examples/tree/main/TimeSeries#readme)
+- [100 Time Series Data Mining Questions](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf)
+- [How Can We Quantify Similarity Between Time Series](https://tech.gorilla.co/how-can-we-quantify-similarity-between-time-series-ed1d0b633ca0)
+- [Interpreting ACF And PACF Plots For Time Series Forecasting](https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c/)
+- [Matrix Profile Tutorial](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf)
+- [stumpy: Modern time series analysis library](https://github.com/stumpy-dev/stumpy)
+- [Time Series Similarity](https://didawiki.di.unipi.it/lib/exe/fetch.php/dm/11_dm2_time_series_similarity_2020.pdf)
+- [tslearn: Machine learning toolkit for time series analysis](https://github.com/tslearn-team/tslearn)
+- [Digital Signals Theory](https://brianmcfee.net/dstbook-site/content/intro.html)
 
 ### Prophet
 

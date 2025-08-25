@@ -1,5 +1,11 @@
 # Misc
 
+## Articles
+
+- [A Genealogy of Technology and Power Since 1500](https://calculatingempires.net/?pos=106392.48%2C8725.00%2C12.3820)
+- [Engineered Addictions](https://masonyarbrough.substack.com/p/engineered-addictions)
+- [Medium's Doctolib](https://medium.com/doctolib)
+
 ## Games development
 
 - [Game Boy Development community](https://gbdev.io/)
@@ -30,6 +36,9 @@
 - [rucola: terminal-based markdown note manager](https://github.com/Linus-Mussmaecher/rucola)
 - [koaning.io: time for a bespoke blog engine](https://koaning.io/posts/bespoke-new-static-blog-engine/)
 - [nb: a command line and local web note‑taking, bookmarking, archiving, and knowledge base application](https://xwmx.github.io/nb/)
+- [How to create Architectural Decision Records (ADRs) - and how not to](https://www.ozimmer.ch/practices/2023/04/03/ADRCreation.html)
+- [Enabling Hugo Static Site Search With Lunr.js](https://vickiboykis.com/2025/08/08/enabling-hugo-static-site-search-with-lunr.js/)
+- [I Deleted My Second Brain](https://www.joanwestenberg.com/p/i-deleted-my-second-brain)
 
 ## Mathematics
 
@@ -38,6 +47,10 @@
 <small>by [XKCD](https://xkcd.com/2610/)</small>
 
 - [Visual explanations of mathematics](https://agilescientific.com/blog/2020/2/25/visual-explanations-of-mathematics)
+- [Discrete Mathematics](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
+- [Planes in 3D space](https://alexharri.com/blog/planes)
+- [Systematizing Byrne's The Elements of Euclid](https://designsystems.international/ideas/byrne-euclid-systematization/)
+- [The Map of Mathematics](https://mathmap.quantamagazine.org/map/)
 
 ### Fourier transform
 
@@ -107,4 +120,5 @@
 - [International Geomagnetic Reference Field](https://www.ncei.noaa.gov/products/international-geomagnetic-reference-field)
 - [Atlas of Space](https://atlasof.space/)
 - [How Fast the Days Are Getting Longer](https://joe-antognini.github.io/astronomy/daylight)
+- [5 Steps To N Body Simulation](https://alvinng4.github.io/grav_sim/5_steps_to_n_body_simulation/)
 
