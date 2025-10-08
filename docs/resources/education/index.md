@@ -162,6 +162,7 @@
 - [Google LaTeXify](https://github.com/google/latexify_py)
 - [AI for Teachers: an Open Textbook](https://pressbooks.pub/aiforteachers/)
 - [Latex To](https://latex.to/)
+- [SymPy printing](https://docs.sympy.org/latest/tutorials/intro-tutorial/printing.html)
 
 ## Technical skills
 
@@ -178,6 +179,8 @@
 - [Data Science Trivia](https://www.datasciencetrivia.com/)
 - [Concept Maps: mental models used in introductory data science lessons](https://third-bit.com/ideas/concept-maps/)
 - [VisuAlgo: visualising data structures and algorithms through animation](https://visualgo.net/en)
+- [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+- [IDEA: a series of nonverbal algorithm assembly instructions](https://idea-instructions.com/)
 
 ## Technical writing
 
@@ -202,6 +205,7 @@
 - [AI developer tools and IKEA effect](https://towardsdatascience.com/the-problem-with-ai-developer-tools-for-enterprises-and-what-ikea-has-to-do-with-it-b26277841661)
 - [Google train ML teachable machine](https://teachablemachine.withgoogle.com/train)
 - [Orange Data Mining](https://github.com/biolab/orange3)
+- [Calcolatore dell'interesse Banca d'Italia](https://economiapertutti.bancaditalia.it/strumenti/calcolatori/calcolatore-dell-interesse/?dotcache=refresh)
 
 ## Videos
 

@@ -1,6 +1,6 @@
-<img src="../assets/dsh_ai.png" width="200"/>
+<img src="../assets/dsh_minimal.png" width="200"/>
 
-## Whatis
+## About DSH
 
 ![](https://img.shields.io/github/last-commit/a-slice-of-py/data-scientist-hub)
 ![](https://img.shields.io/github/commits-since/a-slice-of-py/data-scientist-hub/latest)
@@ -12,9 +12,9 @@
 DSH is definitely a living creature, always under development and I expect - and somehow _wish_ - frequent changes in both contents and shape.
 It is currently implemented via [mkdocs](https://www.mkdocs.org/) with [material theme](https://squidfunk.github.io/mkdocs-material/) and deployed on [GitHub Pages](https://pages.github.com/).
 
-It all started with random mails to myself to store somewhere useful links I came across, then became a Trello board and now is a full mkdocs project with a useful search feature to quickly retrieve references together with a brand new blog which I hope to update frequently - insipiration about TIL approach taken from [koaning](https://koaning.io/til/).
+It all started with random mails to myself to store somewhere useful links I came across, then became a Trello board and now is a full mkdocs project with a useful search feature to quickly retrieve references together with a brand new blog which I hope to update frequently - insipiration about TIL approach taken from [koaning](https://koaning.io).
 
-## Whois
+## About me
 
 I am a former [mathematician](https://arxiv.org/abs/1807.11287)[^1], amateur [singer, guitarist and music producer](https://radrocks.bandcamp.com/album/dieci) and casual [hiker](https://goo.gl/maps/XFowRG5hPc7ufbX69) - currently employed as [Data Scientist](https://www.youtube.com/watch?v=yOX1lJ5-eMk).
 

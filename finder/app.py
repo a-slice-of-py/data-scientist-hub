@@ -191,35 +191,62 @@ def _(datamapplot, mo, pd):
     def build_datamapplot(X, df: pd.DataFrame, indices: list[str] | None = None):
         if indices is None:
             indices = list(range(len(X)))
+            message = ""
+        else:
+            message = f"<br>Currently displaying <b>{len(indices)} resources</b>."
         return datamapplot.create_interactive_plot(
             X[indices],
-            df.loc[indices]["section"].fillna("Unlabelled").tolist(),
+            df.loc[indices]["section"].fillna(df.loc[indices]["topic"]).tolist(),
             df.loc[indices]["topic"].tolist(),
             df.loc[indices]["category"].tolist(),
-            hover_text=df.loc[indices]["link_name"],
+            hover_text=df.loc[indices]["link_name"].reset_index(drop=True),
             title="Data Scientist Hub",
-            sub_title="A personal knowledge center built upon a curated (yet opinionated!) collection of links to useful online resources.",
-            sub_title_font_size=12,
+            sub_title=f"A personal knowledge center built upon a curated collection of {len(X)} resources available links to useful online resources.{message}",
+            sub_title_font_size=11,
             enable_search=True,
             search_field="hover_text",
-            extra_point_data=df.loc[indices][["url"]],
+            extra_point_data=df.loc[indices][["url"]].reset_index(drop=True),
             on_click="window.open(`{url}`)",
             logo="https://github.com/a-slice-of-py/data-scientist-hub/blob/master/docs/assets/dsh_minimal.png?raw=true",
             logo_width=64,
             darkmode=True,
-            selection_handler=datamapplot.selection_handlers.DisplaySample(n_samples=10),
+            selection_handler=datamapplot.selection_handlers.DisplaySample(
+                n_samples=10
+            ),
         )
     return (build_datamapplot,)
 
 
 @app.cell
-def _(X, binder, build_datamapplot, df, query_value, search_results):
+def _(search_results, terms_to_ignore):
+    similarity_key = "similarity" if not terms_to_ignore else "compound_similarity"
+    relevance_threshold = 0.5
+    relevant_points = (
+        search_results[similarity_key] / search_results[similarity_key].max()
+        > relevance_threshold
+    ).sum()
+    return (relevant_points,)
+
+
+@app.cell
+def _(
+    X,
+    binder,
+    build_datamapplot,
+    df,
+    query_value,
+    relevant_points,
+    search_results,
+):
+    indices = (
+        search_results.index[:relevant_points].tolist()
+        if (query_value and binder.value)
+        else None
+    )
     dmp = build_datamapplot(
         X,
         df,
-        indices=search_results.index[:100]
-        if (query_value and binder.value)
-        else None,
+        indices=indices,
     )
     return (dmp,)
 
@@ -252,7 +279,7 @@ def _(mo):
 def _(binder, mo, query, selected_model, top_results):
     mo.sidebar(
         [
-            query,        
+            query,
             binder,
             *top_results,
             mo.accordion({"Embedding model": selected_model}),

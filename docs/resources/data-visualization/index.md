@@ -57,6 +57,9 @@
 - [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
 - [Pantone colors](https://github.com/Margaret2/pantone-colors/tree/master)
 - [Transforming colors with matrices](https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html)
+- [coloraide: library to aid in using colors](https://github.com/facelessuser/coloraide)
+- [What are OKLCH colors?](https://jakub.kr/components/oklch-colors)
+- [What is a color space?](https://www.makingsoftware.com/chapters/color-spaces-models-and-gamuts)
 
 ## Confusion matrix
 
@@ -190,6 +193,9 @@
 - [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)
 - [Isochrones in Python via OSMnx](https://towardsdatascience.com/isochrones-in-python-fe21814e5cb1)
 - [Geocoding APIs compared: pricing, free tiers & terms of use](https://www.bitoff.org/geocoding-apis-comparison/)
+- [lonboard: a Python library for fast, interactive geospatial vector data visualization in Jupyter](https://developmentseed.org/lonboard/latest/)
+- [starplot: star charts and maps in Python](https://github.com/steveberardi/starplot)
+- [geoviews: simple, concise geographical visualization in Python](https://github.com/holoviz/geoviews)
 
 ## GUI
 
@@ -225,6 +231,7 @@
 - [D3js scatterplots in Python](https://towardsdatascience.com/get-the-most-out-of-your-scatterplot-by-making-it-interactive-using-d3js-19939e3b046)
 - [The Most Advanced Libraries for Data Visualization and Analysis on the Web](https://towardsdatascience.com/the-most-advanced-libraries-for-data-visualization-and-analysis-on-the-web-e823535e0eb1)
 - [Mermaid Chart VS Code Plugin: create and edit Mermaid.js diagrams in Visual Studio Code](https://docs.mermaidchart.com/blog/posts/mermaid-chart-vs-code-plugin-create-and-edit-mermaid-js-diagrams-in-visual-studio-code)
+- [detroit: a Python implementation of d3js](https://github.com/bourbonut/detroit)
 
 [^1]: [A day in the life of Americans](index.md#animations) is finally [available](https://d3blocks.github.io/d3blocks/pages/html/MovingBubbles.html) in Python!
 
@@ -266,6 +273,7 @@
 - [`joypy` for drawing ridgeline plots](https://github.com/leotac/joypy)
 - [Ridge plots of ridges](https://github.com/ColCarroll/ridge_map)
 - [ridgeplot: beautiful ridgeline plots in Python](https://github.com/tpvasconcelos/ridgeplot)
+- [bumplot: bump charts in Python](https://github.com/y-sunflower/bumplot)
 
 ## ROC Curve
 
@@ -296,6 +304,7 @@
 
 - [Advanced data visualization with `seaborn`](https://towardsdatascience.com/a-step-by-step-guide-for-creating-advanced-python-data-visualizations-with-seaborn-matplotlib-1579d6a1a7d0)
 - [How to merge seaborn plots](https://towardsdatascience.com/19-examples-of-merging-plots-to-maximize-your-clustering-scatter-plot-87e8f1bb5fd2)
+- [ultraplot: a succinct wrapper for matplotlib](https://github.com/Ultraplot/UltraPlot)
 
 ## Social science
 
@@ -312,6 +321,11 @@
 ## Tables
 
 - [hyperparam-cli: hyperparam local dataset viewer](https://github.com/hyparam/hyperparam-cli)
+
+## Terminal plots
+
+- [YouPlot: a command line tool that draw plots on the terminal](https://github.com/red-data-tools/YouPlot)
+- [uniplot: lightweight plotting to the terminal, with 4x resolution via Unicode](https://github.com/olavolav/uniplot)
 
 ## Theory
 
@@ -349,9 +363,6 @@
 - [RAWGraphs](https://www.rawgraphs.io/)
 - [Data Viz Catalogue](https://datavizcatalogue.com/)
 - [Panel Graphic Walker: a simple way to explore your data through a Tableau-like interface directly in your Panel data applications](https://github.com/panel-extensions/panel-graphic-walker)
-
-### Datawrapper
-
 - [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
 - [Datawrapper for PowerPoint](https://blog.datawrapper.de/create-data-visualizations-in-powerpoint/)
 - [glyphx: A next-gen Python plotting library](https://github.com/kjkoeller/glyphx)

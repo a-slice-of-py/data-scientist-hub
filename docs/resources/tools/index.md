@@ -96,6 +96,8 @@
 ## HTML
 
 - [PyScript](https://towardsdatascience.com/pyscript-unleash-the-power-of-python-in-your-browser-6e0123c6dc3f)
+- [The least amount of CSS for a decent looking site](https://thecascade.dev/article/least-amount-of-css/)
+- [tdom: a rockin' t-string HTML templating system for Python 3.14](https://github.com/t-strings/tdom)
 
 ## IDE
 
@@ -123,6 +125,7 @@
 - [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
 - [Koaning's draft: GitHub-style markdown editor with AI assistance](https://github.com/koaning/draft)
 - [MDX: Markdown for the component era](https://mdxjs.com/)
+- [markdown-it-py: Markdown parser done right](https://github.com/executablebooks/markdown-it-py)
 
 ### Other markup languages
 
@@ -188,6 +191,7 @@
 - [toto: DataDog's framework for securing software supply chain](https://github.com/DataDog/toto)
 - [The Guide to Hashing I Wish I Had When I Started](https://banjocode.com/post/cs/hashing/)
 - [The Ingredients of a Productive Monorepo](https://blog.swgillespie.me/posts/monorepo-ingredients/)
+- [Why Local-First Apps Haven’t Become Popular?](https://marcobambini.substack.com/p/why-local-first-apps-havent-become)
 
 ## Terminal
 

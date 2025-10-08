@@ -33,6 +33,14 @@
 - [Simple Anomaly Detection In Time Series Via Optimal Baseline Subtraction](https://www.nixtla.io/blog/simple-anomaly-detection-in-time-series-via-optimal-baseline-subtraction-(obs))
 - [Unsupervised Anomaly Detection for Web Traffic Data](https://antonsruberts.github.io/anomaly-detection-web-2/)
 - [Unsupervised Anomaly Detection](https://temporian.readthedocs.io/en/stable/tutorials/anomaly_detection_unsupervised/)
+- [Time Series Anomaly Detection](https://wp.sigmod.org/?p=3739)
+- [TSB-AD: Towards A Reliable Time-Series Anomaly Detection Benchmark](https://github.com/TheDatumOrg/TSB-AD)
+- [An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection](https://github.com/TheDatumOrg/TSB-UAD)
+- [Time Series Anomaly Detection: An Overview](https://indico.in2p3.fr/event/32533/contributions/136209/attachments/85599/128159/Lecture_TSAD.pdf)
+- [Time Series Anomaly Detection](https://wp.sigmod.org/?p=3739)
+- [Time Series Anomaly Detection Taxonomy](https://github.com/boniolp/TSADtaxonomy)
+- [Graph-based Time Series Clustering Visualisation Tools](https://github.com/boniolp/graphit)
+- [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series](https://helios2.mi.parisdescartes.fr/~themisp/series2graph/)
 
 ## AutoML
 
@@ -219,6 +227,7 @@
 - [ArXiv Explorer](https://arxivxplorer.com/)
 - [Influcast: predizioni epidemiologiche](https://github.com/Predizioni-Epidemiologiche-Italia/Influcast)
 - [Python Data Commons: Unlock deeper insights with the new Python client library for Data Commons](https://developers.googleblog.com/en/pythondatacommons/)
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 
 ## Deep Learning
 
@@ -255,6 +264,7 @@
 - [OpenAI: What Are Embeddings?](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings)
 - [s3vectors-embed-cli :A CLI facilitating semantic similarity search on media in Amazon S3 via AWS Bedrock and Amazon S3 Vectors](https://github.com/awslabs/s3vectors-embed-cli)
 - [vectorvfs: Your filesystem as a vector database](https://github.com/perone/vectorvfs)
+- [fastembed: Fast, Accurate, Lightweight Python library to make State of the Art Embedding](https://github.com/qdrant/fastembed/)
 
 ## Energy and Power Systems
 
@@ -338,6 +348,8 @@
 - [OpenStreetMap API Doc](https://jaystecki.github.io/OpenStreetMapAPIdoc/)
 - [Sea Surface Temperature Daily Analysis](https://surftemp.github.io/sst-data-tutorials/)
 - [UrbanMapper: Enrich Urban Layers Given Urban Datasets](https://github.com/VIDA-NYU/UrbanMapper)
+- [momepy: Urban Morphology Measuring Toolkit](https://github.com/pysal/momepy)
+- [city2graph: transform geospatial relations into graph representations](https://github.com/c2g-dev/city2graph)
 
 ### Grids
 
@@ -363,6 +375,7 @@
 
 - [ML and particle motion in liquid](https://towardsdatascience.com/machine-learning-and-particle-motion-in-liquids-an-elegant-link-4e7c1611c945)
 - [Gradient descent deep dive](https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21)
+- [How does gradient descent work?](https://centralflows.github.io/part1/)
 
 ## Graphs
 
@@ -521,6 +534,18 @@
 - [MCP As An Accidentally Universal Plugin](https://worksonmymachine.substack.com/p/mcp-an-accidentally-universal-plugin)
 - [Teach your LLM about me](https://ai.jakegaylor.com/)
 - [The Prompt Engineering Playbook For Programmers](https://addyo.substack.com/p/the-prompt-engineering-playbook-for)
+- [Building your own CLI Coding Agent with Pydantic-AI](https://martinfowler.com/articles/build-own-coding-agent.html)
+- [Understanding Transformers Using A Minimal Example](https://github.com/rti/gptvis)
+- [lida: Automatic Generation of Visualizations and Infographics using Large Language Models](https://github.com/microsoft/lida)
+- [Yann LeCun's SSL, JEPA, World Models and the Future of AI](https://drive.google.com/file/d/1oeaO03YRpxkTjKamfYrksEm-MCHk4JbS/view)
+- [Boring is good](https://jenson.org/boring/)
+- [Why Your Prompts Don't Belong in Git](https://towardsdatascience.com/why-your-prompts-dont-belong-in-git/)
+- [LangChain for EDA: Build a CSV Sanity-Check Agent in Python](https://towardsdatascience.com/langchain-for-eda-build-a-csv-sanity-check-agent-in-python/)
+- [Ollama Web search](https://ollama.com/blog/web-search)
+- [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/)
+- [Python MCP Server: Connect LLMs to Your Data](https://realpython.com/python-mcp/)
+- [Model2Vec Size Improvements](https://minish.ai/blog/2025-10-05-size-blogpost)
+- [Maintain the unmaintainable: 1M python loc, 400+ models](https://huggingface.co/spaces/transformers-community/Transformers-tenets)
 
 ## Machine Learning
 
@@ -613,6 +638,8 @@
 - [Markov chain as text generation model](https://towardsdatascience.com/generating-drug-names-with-a-markov-chain-49704dad8740)
 - [Beatles lyrics generation via Markov Chains](https://towardsdatascience.com/generate-unedited-beatles-lyrics-using-markov-chain-b7968c49584f)
 - [Markov chains for time series forecasting](https://pub.towardsai.net/markov-algorithm-for-time-series-2563cad7d54c)
+- [Markov chain Monte Carlo (MCMC) Sampling, Part 1: The Basics](https://www.tweag.io/blog/2019-10-25-mcmc-intro1/)
+- [Hamiltonian Monte Carlo demo app](https://chi-feng.github.io/mcmc-demo/app.html)
 
 ## MCMC
 
@@ -1004,6 +1031,10 @@
 - [Time Series Similarity](https://didawiki.di.unipi.it/lib/exe/fetch.php/dm/11_dm2_time_series_similarity_2020.pdf)
 - [tslearn: Machine learning toolkit for time series analysis](https://github.com/tslearn-team/tslearn)
 - [Digital Signals Theory](https://brianmcfee.net/dstbook-site/content/intro.html)
+- [k-Shape: Efficient and Accurate Clustering of Time Series](https://github.com/TheDatumOrg/kshape-python)
+- [k-Graph: A Graph Embedding for Interpretable Time Series Clustering](https://github.com/boniolp/kGraph)
+- [Sequential Monte Carlo Learning for Time Series Structure Discovery](https://arxiv.org/pdf/2307.09607)
+- [AutoGP.jl: Automated Bayesian model discovery for time series data](https://github.com/probsys/AutoGP.jl)
 
 ### Prophet
 

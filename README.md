@@ -1,4 +1,4 @@
-<img src="./docs/assets/dsh_ai.png" width="200"/>
+<img src="./docs/assets/dsh_minimal.png" width="200"/>
 
 # Data Scientist Hub
 

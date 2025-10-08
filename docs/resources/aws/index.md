@@ -110,6 +110,8 @@
 
 ## Utils
 
+![](../../assets/aws-container.jfif)
+
 ### DevOps
 
 - [Deployment Pipeline Reference Architecture (DPRA) for AWS workloads](https://pipelines.devops.aws.dev/)
@@ -122,6 +124,10 @@
 - [Amazon’s renewable energy forecasting: continuous delivery with Jupyter Notebooks](https://aws.amazon.com/it/blogs/hpc/amazons-renewable-energy-forecasting-continuous-delivery-with-jupyter-notebooks/)
 - [Programmatic AWS Action List](https://blog.rowanudell.com/programmatic-aws-action-list/)
 - [Our cloud-exit savings will now top ten million over five years](https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd)
+
+### Guides
+
+- [Agentic AI frameworks, protocols, and tools on AWS](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/introduction.html)
 
 ### Misc
 

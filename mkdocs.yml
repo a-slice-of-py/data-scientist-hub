@@ -5,8 +5,8 @@ repo_url: https://github.com/a-slice-of-py/data-scientist-hub
 repo_name: a-slice-of-py/dsh
 
 theme:
-  favicon: assets/dsh_ai.png
-  logo: assets/dsh_ai.png
+  favicon: assets/dsh_minimal.png
+  logo: assets/dsh_minimal.png
   icon:
     repo: fontawesome/brands/github
     tag:

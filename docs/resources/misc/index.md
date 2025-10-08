@@ -5,6 +5,9 @@
 - [A Genealogy of Technology and Power Since 1500](https://calculatingempires.net/?pos=106392.48%2C8725.00%2C12.3820)
 - [Engineered Addictions](https://masonyarbrough.substack.com/p/engineered-addictions)
 - [Medium's Doctolib](https://medium.com/doctolib)
+- [Beyond the Front Page: A Personal Guide to Hacker News](https://hsu.cy/2025/09/how-to-read-hn/)
+- [Use singular nouns for database table names](https://www.teamten.com/lawrence/programming/use-singular-nouns-for-database-table-names.html)
+- [Python Violates PEP 8](https://inventwithpython.com/blog/sweigarts-law-of-pep-8-complaints.html)
 
 ## Games development
 
@@ -51,6 +54,7 @@
 - [Planes in 3D space](https://alexharri.com/blog/planes)
 - [Systematizing Byrne's The Elements of Euclid](https://designsystems.international/ideas/byrne-euclid-systematization/)
 - [The Map of Mathematics](https://mathmap.quantamagazine.org/map/)
+- [Folks, we have the best π](https://lcamtuf.substack.com/p/folks-we-have-the-best)
 
 ### Fourier transform
 
@@ -72,12 +76,14 @@
 
 - [Latex sympy calculator VSC extension](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator)
 - [How the Lean language brings math to coding and coding to math](https://www.amazon.science/blog/how-the-lean-language-brings-math-to-coding-and-coding-to-math)
+- [mathflow: a Pythonic Interface for Symbolic and Numerical Mathematics](https://github.com/cybergeek1943/MathFlow)
 
 ### Algorithms
 
 - [Discovering novel algorithms with AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
 - [Beyond automatic differentiation](https://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html?m=1)
 - [Exposing the Power of the Kalman Filter](https://towardsdatascience.com/exposing-the-power-of-the-kalman-filter-1b78621c3f56)
+- [Big O notation visually explained](https://samwho.dev/big-o/)
 
 ### Differential equations
 

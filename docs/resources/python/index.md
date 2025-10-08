@@ -9,6 +9,7 @@
 - [FastAPI code generator: create a FastAPI app from an openapi file](https://github.com/koxudaxi/fastapi-code-generator)
 - [Hackernews API: documentation and Samples for the Official HN API](https://github.com/HackerNews/API)
 - [sensei: the Python framework that provides a quick way to build robust HTTP requests and best API clients](https://github.com/CrocoFactory/sensei)
+- [Air: a web framework built with FastAPI, Starlette, and Pydantic](https://github.com/feldroy/air)
 
 ## Asynchronous Programming
 
@@ -26,6 +27,7 @@
 - [Moonshine: Fast and accurate automatic speech recognition (ASR) for edge devices](https://github.com/usefulsensors/moonshine)
 - [Amphion: An Open-Source Audio, Music, and Speech Generation Toolkit](https://github.com/open-mmlab/Amphion)
 - [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)
+- [Python Audio Transcription: Convert Speech to Text Locally](https://www.pavlinbg.com/posts/python-speech-to-text-guide)
 
 ## Automate boring stuff
 
@@ -71,6 +73,7 @@
 - [tyro: cLI interfaces & config objects, from types](https://github.com/brentyi/tyro)
 - [python-inquirer: Collection of common interactive command line interfaces](https://github.com/magmax/python-inquirer)
 - [ty: Modern Python CLI framework with type hints](https://github.com/astral-sh/ty)
+- [alive-progress: a new kind of Progress Bar, with real-time throughput, ETA, and very cool animations](https://github.com/rsalmei/alive-progress)
 
 ## Code freezing
 
@@ -133,6 +136,7 @@
 - [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
 - [Stamina: production-grade retries for Python](https://github.com/hynek/stamina)
 - [Cracking the Python Monorepo](https://gafni.dev/blog/cracking-the-python-monorepo/)
+- [hexora: static analysis of malicious Python code](https://github.com/rushter/hexora)
 
 ## Colors
 
@@ -237,6 +241,7 @@
 
 - [OpenFeature: an open specification that provides a vendor-agnostic, community-driven API for feature flagging](https://github.com/open-feature/python-sdk)
 - [GO Feature Flag: a completely open-source, simple and lightweight feature flag solution](https://gofeatureflag.org/docs/openfeature_sdk/server_providers/openfeature_python)
+- [Feature Flags In Depth](https://rtpg.co/2023/11/15/feature-flags-in-depth/)
 
 ## Functional programming
 
@@ -329,6 +334,7 @@
 - [Whylogs for data logging](https://github.com/whylabs/whylogs)
 - [Toolong: a terminal application to view, tail, merge, and search log files](https://github.com/Textualize/toolong)
 - [Tamga: A modern, high-performance logging utility for Python](https://github.com/DogukanUrker/Tamga)
+- [Production-Grade with Loguru](https://www.dash0.com/guides/python-logging-with-loguru)
 
 ## Missing values
 
@@ -364,6 +370,7 @@
 - [Use case for decorators in Python](https://hashimcolombowala.com/p/python-decorators-a-super-useful-feature/#additional-use-cases-for-decorators)
 - [Pipeline Pattern in Python with reduce and partial](https://pybit.es/articles/a-practical-example-of-the-pipeline-pattern-in-python/)
 - [python-patterns: Collection of design patterns and idioms in Python](https://github.com/faif/python-patterns)
+- [Safe composable Python](https://www.tweag.io/blog/2024-06-06-safer-composable-python/)
 
 ## Object Relational Mapper (ORM)
 
@@ -470,6 +477,7 @@
 - [poethepoet: Python task runner and build tool](https://github.com/nat-n/poethepoet)
 - [Pre Commit Install Uv](https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/)
 - [Python Recipes With UV](https://just.systems/man/en/python-recipes-with-uv.html)
+- [uv cheatsheet](https://mathspp.com/blog/uv-cheatsheet)
 
 ## Regex
 
@@ -495,6 +503,7 @@
 - [`scikit-mdn`: a mixture density network, by PyTorch, for scikit-learn](https://github.com/koaning/scikit-mdn)
 - [`skore`: The scikit-learn Modeling Companion](https://github.com/probabl-ai/skore)
 - [scikit-image: image processing in Python](https://github.com/scikit-image/scikit-image)
+- [mapie: estimating prediction intervals and controlling risks, based on conformal predictions](https://github.com/scikit-learn-contrib/MAPIE)
 
 ### Probabl
 
@@ -646,6 +655,7 @@
 ## Typing
 
 - [Comparing Pyrefly Vs Ty](https://blog.edward-li.com/tech/comparing-pyrefly-vs-ty/)
+- [How Well Do New Python Type Checkers Conform? A Deep Dive into Ty, Pyrefly, and Zuban](https://sinon.github.io/future-python-type-checkers/)
 
 ## Misc utils
 
@@ -680,7 +690,6 @@
 - [quarkdown: Markdown with superpowers](https://github.com/iamgio/quarkdown)
 - [Scrapling: high-performance Python library for Web Scraping](https://github.com/D4Vinci/Scrapling)
 - [sff: CLI for semantic search on your computer](https://github.com/do-me/sff)
-- [Tamga: A modern, high-performance logging utility for Python](https://github.com/DogukanUrker/Tamga)
 - [Temporary files and directories in Python](https://heitorpb.github.io/bla/pytmp/)
 - [wetlands: Conda Environment Manager, a library to execute code in isolated environments](https://github.com/arthursw/wetlands)
 

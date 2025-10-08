@@ -53,6 +53,7 @@
 - [xarray: N-D labeled arrays and datasets in Python](https://github.com/pydata/xarray)
 - [zarr-python: an implementation of chunked, compressed, N-dimensional arrays for Python](https://github.com/zarr-developers/zarr-python)
 - [drawdb: free, simple, and intuitive online database diagram editor and SQL generator](https://github.com/drawdb-io/drawdb)
+- [SedonaDB: a cluster computing framework for processing large-scale geospatial data](https://github.com/apache/sedona)
 
 ### DuckDB
 
@@ -135,10 +136,16 @@
 - [s3grep: CLI tool for searching logs and unstructured content in Amazon S3 buckets](https://github.com/dacort/s3grep)
 - [Semantic Layer DuckDB Tutorial](https://motherduck.com/blog/semantic-layer-duckdb-tutorial/)
 - [soda-core: Data quality testing framework](https://github.com/sodadata/soda-core)
+- [rainfrog: a database tool for the terminal](https://github.com/achristmascarl/rainfrog)
 
 ### Search engines
 
 - [Approaching Relevance Challenges in Elasticsearch Query Construction](https://towardsdatascience.com/a-site-search-engineers-journal-approaching-relevance-challenges-in-elasticsearch-query-1eca29283da5)
+
+## Data Types
+
+- [The Mondrian introduction to functional optics](https://marcosh.github.io/post/2025/10/07/the-mondrian-introduction-to-functional-optics.html)
+- [What to know before debating type systems](https://blogs.perl.org/users/ovid/2010/08/what-to-know-before-debating-type-systems.html)
 
 ## Unit testing
 

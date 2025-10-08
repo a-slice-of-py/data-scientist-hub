@@ -21,6 +21,7 @@
 - [Cosmic Python: simple patterns for building complex applications](https://www.cosmicpython.com/book/preface.html)
 - [Sequential Decision Analytics and Modelling with Python](https://castle.princeton.edu/wp-content/uploads/2022/11/Powell-SDAM-Nov242022_final_w_frontcover.pdf)
 - [Data Visualization with Category Theory and Geometry](https://link.springer.com/content/pdf/10.1007/978-3-031-97973-6.pdf)
+- [Time series analysis with Python](https://filippomb.github.io/python-time-series-handbook/notebooks/00/intro.html#)
 
 ## Certifications
 
