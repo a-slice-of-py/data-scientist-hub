@@ -9,3 +9,5 @@
 - [Markov chain as text generation model](https://towardsdatascience.com/generating-drug-names-with-a-markov-chain-49704dad8740)
 - [Beatles lyrics generation via Markov Chains](https://towardsdatascience.com/generate-unedited-beatles-lyrics-using-markov-chain-b7968c49584f)
 - [Markov chains for time series forecasting](https://pub.towardsai.net/markov-algorithm-for-time-series-2563cad7d54c)
+- [Markov chain Monte Carlo (MCMC) Sampling, Part 1: The Basics](https://www.tweag.io/blog/2019-10-25-mcmc-intro1/)
+- [Hamiltonian Monte Carlo demo app](https://chi-feng.github.io/mcmc-demo/app.html)

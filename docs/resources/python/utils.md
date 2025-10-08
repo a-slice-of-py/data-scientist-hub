@@ -31,6 +31,5 @@
 - [quarkdown: Markdown with superpowers](https://github.com/iamgio/quarkdown)
 - [Scrapling: high-performance Python library for Web Scraping](https://github.com/D4Vinci/Scrapling)
 - [sff: CLI for semantic search on your computer](https://github.com/do-me/sff)
-- [Tamga: A modern, high-performance logging utility for Python](https://github.com/DogukanUrker/Tamga)
 - [Temporary files and directories in Python](https://heitorpb.github.io/bla/pytmp/)
 - [wetlands: Conda Environment Manager, a library to execute code in isolated environments](https://github.com/arthursw/wetlands)

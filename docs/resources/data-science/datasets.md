@@ -27,3 +27,4 @@
 - [ArXiv Explorer](https://arxivxplorer.com/)
 - [Influcast: predizioni epidemiologiche](https://github.com/Predizioni-Epidemiologiche-Italia/Influcast)
 - [Python Data Commons: Unlock deeper insights with the new Python client library for Data Commons](https://developers.googleblog.com/en/pythondatacommons/)
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)

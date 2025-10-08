@@ -10,3 +10,6 @@
 - [How the right colormap helps revealing hidden information](https://towardsdatascience.com/terraforming-mars-with-python-4c21ed75117f)
 - [Pantone colors](https://github.com/Margaret2/pantone-colors/tree/master)
 - [Transforming colors with matrices](https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html)
+- [coloraide: library to aid in using colors](https://github.com/facelessuser/coloraide)
+- [What are OKLCH colors?](https://jakub.kr/components/oklch-colors)
+- [What is a color space?](https://www.makingsoftware.com/chapters/color-spaces-models-and-gamuts)

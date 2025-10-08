@@ -53,3 +53,4 @@
 - [Python Protocols: Leveraging Structural Subtyping](https://realpython.com/python-protocol/)
 - [Stamina: production-grade retries for Python](https://github.com/hynek/stamina)
 - [Cracking the Python Monorepo](https://gafni.dev/blog/cracking-the-python-monorepo/)
+- [hexora: static analysis of malicious Python code](https://github.com/rushter/hexora)

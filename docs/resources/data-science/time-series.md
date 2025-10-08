@@ -79,6 +79,10 @@
 - [Time Series Similarity](https://didawiki.di.unipi.it/lib/exe/fetch.php/dm/11_dm2_time_series_similarity_2020.pdf)
 - [tslearn: Machine learning toolkit for time series analysis](https://github.com/tslearn-team/tslearn)
 - [Digital Signals Theory](https://brianmcfee.net/dstbook-site/content/intro.html)
+- [k-Shape: Efficient and Accurate Clustering of Time Series](https://github.com/TheDatumOrg/kshape-python)
+- [k-Graph: A Graph Embedding for Interpretable Time Series Clustering](https://github.com/boniolp/kGraph)
+- [Sequential Monte Carlo Learning for Time Series Structure Discovery](https://arxiv.org/pdf/2307.09607)
+- [AutoGP.jl: Automated Bayesian model discovery for time series data](https://github.com/probsys/AutoGP.jl)
 
 ## Prophet
 

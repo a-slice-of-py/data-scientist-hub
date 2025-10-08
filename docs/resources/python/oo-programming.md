@@ -21,3 +21,4 @@
 - [Use case for decorators in Python](https://hashimcolombowala.com/p/python-decorators-a-super-useful-feature/#additional-use-cases-for-decorators)
 - [Pipeline Pattern in Python with reduce and partial](https://pybit.es/articles/a-practical-example-of-the-pipeline-pattern-in-python/)
 - [python-patterns: Collection of design patterns and idioms in Python](https://github.com/faif/python-patterns)
+- [Safe composable Python](https://www.tweag.io/blog/2024-06-06-safer-composable-python/)

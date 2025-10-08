@@ -9,6 +9,7 @@
 - [Planes in 3D space](https://alexharri.com/blog/planes)
 - [Systematizing Byrne's The Elements of Euclid](https://designsystems.international/ideas/byrne-euclid-systematization/)
 - [The Map of Mathematics](https://mathmap.quantamagazine.org/map/)
+- [Folks, we have the best π](https://lcamtuf.substack.com/p/folks-we-have-the-best)
 
 ## Fourier transform
 
@@ -30,12 +31,14 @@
 
 - [Latex sympy calculator VSC extension](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator)
 - [How the Lean language brings math to coding and coding to math](https://www.amazon.science/blog/how-the-lean-language-brings-math-to-coding-and-coding-to-math)
+- [mathflow: a Pythonic Interface for Symbolic and Numerical Mathematics](https://github.com/cybergeek1943/MathFlow)
 
 ## Algorithms
 
 - [Discovering novel algorithms with AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
 - [Beyond automatic differentiation](https://ai.googleblog.com/2023/04/beyond-automatic-differentiation.html?m=1)
 - [Exposing the Power of the Kalman Filter](https://towardsdatascience.com/exposing-the-power-of-the-kalman-filter-1b78621c3f56)
+- [Big O notation visually explained](https://samwho.dev/big-o/)
 
 ## Differential equations
 

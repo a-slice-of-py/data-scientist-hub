@@ -13,3 +13,5 @@
 - [Data Science Trivia](https://www.datasciencetrivia.com/)
 - [Concept Maps: mental models used in introductory data science lessons](https://third-bit.com/ideas/concept-maps/)
 - [VisuAlgo: visualising data structures and algorithms through animation](https://visualgo.net/en)
+- [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+- [IDEA: a series of nonverbal algorithm assembly instructions](https://idea-instructions.com/)

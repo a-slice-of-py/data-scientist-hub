@@ -7,3 +7,4 @@
 - [FastAPI code generator: create a FastAPI app from an openapi file](https://github.com/koxudaxi/fastapi-code-generator)
 - [Hackernews API: documentation and Samples for the Official HN API](https://github.com/HackerNews/API)
 - [sensei: the Python framework that provides a quick way to build robust HTTP requests and best API clients](https://github.com/CrocoFactory/sensei)
+- [Air: a web framework built with FastAPI, Starlette, and Pydantic](https://github.com/feldroy/air)

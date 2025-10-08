@@ -11,6 +11,7 @@
 - [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
 - [Koaning's draft: GitHub-style markdown editor with AI assistance](https://github.com/koaning/draft)
 - [MDX: Markdown for the component era](https://mdxjs.com/)
+- [markdown-it-py: Markdown parser done right](https://github.com/executablebooks/markdown-it-py)
 
 ## Other markup languages
 

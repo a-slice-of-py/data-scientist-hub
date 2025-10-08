@@ -16,3 +16,4 @@
 - [toto: DataDog's framework for securing software supply chain](https://github.com/DataDog/toto)
 - [The Guide to Hashing I Wish I Had When I Started](https://banjocode.com/post/cs/hashing/)
 - [The Ingredients of a Productive Monorepo](https://blog.swgillespie.me/posts/monorepo-ingredients/)
+- [Why Local-First Apps Haven’t Become Popular?](https://marcobambini.substack.com/p/why-local-first-apps-havent-become)

@@ -12,3 +12,4 @@
 - [tyro: cLI interfaces & config objects, from types](https://github.com/brentyi/tyro)
 - [python-inquirer: Collection of common interactive command line interfaces](https://github.com/magmax/python-inquirer)
 - [ty: Modern Python CLI framework with type hints](https://github.com/astral-sh/ty)
+- [alive-progress: a new kind of Progress Bar, with real-time throughput, ETA, and very cool animations](https://github.com/rsalmei/alive-progress)

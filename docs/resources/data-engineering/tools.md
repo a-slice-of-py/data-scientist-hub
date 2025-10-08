@@ -29,6 +29,7 @@
 - [s3grep: CLI tool for searching logs and unstructured content in Amazon S3 buckets](https://github.com/dacort/s3grep)
 - [Semantic Layer DuckDB Tutorial](https://motherduck.com/blog/semantic-layer-duckdb-tutorial/)
 - [soda-core: Data quality testing framework](https://github.com/sodadata/soda-core)
+- [rainfrog: a database tool for the terminal](https://github.com/achristmascarl/rainfrog)
 
 ## Search engines
 

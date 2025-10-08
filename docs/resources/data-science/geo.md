@@ -25,6 +25,8 @@
 - [OpenStreetMap API Doc](https://jaystecki.github.io/OpenStreetMapAPIdoc/)
 - [Sea Surface Temperature Daily Analysis](https://surftemp.github.io/sst-data-tutorials/)
 - [UrbanMapper: Enrich Urban Layers Given Urban Datasets](https://github.com/VIDA-NYU/UrbanMapper)
+- [momepy: Urban Morphology Measuring Toolkit](https://github.com/pysal/momepy)
+- [city2graph: transform geospatial relations into graph representations](https://github.com/c2g-dev/city2graph)
 
 ## Grids
 

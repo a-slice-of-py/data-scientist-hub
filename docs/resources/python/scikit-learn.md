@@ -15,6 +15,7 @@
 - [`scikit-mdn`: a mixture density network, by PyTorch, for scikit-learn](https://github.com/koaning/scikit-mdn)
 - [`skore`: The scikit-learn Modeling Companion](https://github.com/probabl-ai/skore)
 - [scikit-image: image processing in Python](https://github.com/scikit-image/scikit-image)
+- [mapie: estimating prediction intervals and controlling risks, based on conformal predictions](https://github.com/scikit-learn-contrib/MAPIE)
 
 ## Probabl
 

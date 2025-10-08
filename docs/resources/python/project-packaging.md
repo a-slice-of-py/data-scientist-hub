@@ -15,3 +15,4 @@
 - [poethepoet: Python task runner and build tool](https://github.com/nat-n/poethepoet)
 - [Pre Commit Install Uv](https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/)
 - [Python Recipes With UV](https://just.systems/man/en/python-recipes-with-uv.html)
+- [uv cheatsheet](https://mathspp.com/blog/uv-cheatsheet)

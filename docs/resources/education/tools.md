@@ -5,3 +5,4 @@
 - [AI developer tools and IKEA effect](https://towardsdatascience.com/the-problem-with-ai-developer-tools-for-enterprises-and-what-ikea-has-to-do-with-it-b26277841661)
 - [Google train ML teachable machine](https://teachablemachine.withgoogle.com/train)
 - [Orange Data Mining](https://github.com/biolab/orange3)
+- [Calcolatore dell'interesse Banca d'Italia](https://economiapertutti.bancaditalia.it/strumenti/calcolatori/calcolatore-dell-interesse/?dotcache=refresh)

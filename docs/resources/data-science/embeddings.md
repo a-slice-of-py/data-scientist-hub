@@ -16,3 +16,4 @@
 - [OpenAI: What Are Embeddings?](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings)
 - [s3vectors-embed-cli :A CLI facilitating semantic similarity search on media in Amazon S3 via AWS Bedrock and Amazon S3 Vectors](https://github.com/awslabs/s3vectors-embed-cli)
 - [vectorvfs: Your filesystem as a vector database](https://github.com/perone/vectorvfs)
+- [fastembed: Fast, Accurate, Lightweight Python library to make State of the Art Embedding](https://github.com/qdrant/fastembed/)

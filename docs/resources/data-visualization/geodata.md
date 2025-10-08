@@ -20,3 +20,6 @@
 - [FlowmapBlue: create geographic flow maps representing numbers of movements between locations](https://www.flowmap.blue/)
 - [Isochrones in Python via OSMnx](https://towardsdatascience.com/isochrones-in-python-fe21814e5cb1)
 - [Geocoding APIs compared: pricing, free tiers & terms of use](https://www.bitoff.org/geocoding-apis-comparison/)
+- [lonboard: a Python library for fast, interactive geospatial vector data visualization in Jupyter](https://developmentseed.org/lonboard/latest/)
+- [starplot: star charts and maps in Python](https://github.com/steveberardi/starplot)
+- [geoviews: simple, concise geographical visualization in Python](https://github.com/holoviz/geoviews)

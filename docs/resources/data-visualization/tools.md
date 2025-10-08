@@ -6,9 +6,6 @@
 - [RAWGraphs](https://www.rawgraphs.io/)
 - [Data Viz Catalogue](https://datavizcatalogue.com/)
 - [Panel Graphic Walker: a simple way to explore your data through a Tableau-like interface directly in your Panel data applications](https://github.com/panel-extensions/panel-graphic-walker)
-
-## Datawrapper
-
 - [Datawrapper](https://app.datawrapper.de/chart/GP0YN/upload)
 - [Datawrapper for PowerPoint](https://blog.datawrapper.de/create-data-visualizations-in-powerpoint/)
 - [glyphx: A next-gen Python plotting library](https://github.com/kjkoeller/glyphx)

@@ -9,6 +9,7 @@
 - [xarray: N-D labeled arrays and datasets in Python](https://github.com/pydata/xarray)
 - [zarr-python: an implementation of chunked, compressed, N-dimensional arrays for Python](https://github.com/zarr-developers/zarr-python)
 - [drawdb: free, simple, and intuitive online database diagram editor and SQL generator](https://github.com/drawdb-io/drawdb)
+- [SedonaDB: a cluster computing framework for processing large-scale geospatial data](https://github.com/apache/sedona)
 
 ## DuckDB
 
