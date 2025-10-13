@@ -1,5 +1,12 @@
 # Resources
 
+<iframe width="900"
+        height="650"
+        scrolling="no"
+        frameborder="0"
+        src="../assets/dsh_datamapplot.html">
+</iframe>
+
 !!! info
     Here you can find a curated (yet opinionated) collection of links to useful online resources.
 

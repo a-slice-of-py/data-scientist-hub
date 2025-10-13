@@ -15,6 +15,7 @@
 
 - [Intro to asynchronous programming in Python](https://towardsdatascience.com/introduction-to-asynchronous-programming-in-python-3cd190748cd5)
 - [Understanding async, await and asyncio](https://towardsdatascience.com/understand-async-await-with-asyncio-for-asynchronous-programming-in-python-e0bc4d25808e)
+- [Sync vs. Async Python: What is the Difference?](https://blog.miguelgrinberg.com/post/sync-vs-async-python-what-is-the-difference)
 
 ## Audio recognition
 
@@ -228,6 +229,7 @@
 - [Introducing New Open Source Documentation Resources](https://opensource.googleblog.com/2025/05/introducing-new-open-source-documentation-resources.html?m=1)
 - [mkapi: MkDocs plugin for automatic API documentation generation from Python docstrings](https://github.com/daizutabi/mkapi/)
 - [mkdocs MCP server](https://github.com/serverless-dna/mkdocs-mcp)
+- [mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs](https://github.com/douinc/mkdocs-mcp-plugin)
 
 ## DTale
 
@@ -485,6 +487,7 @@
 - [How to remember regex](https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd)
 - [AutoRegex: from plain text to regex](https://www.autoregex.xyz/)
 - [How to Use Regular Expressions in Python](https://blog.appsignal.com/2025/01/15/how-to-use-regular-expressions-in-python.html)
+- [PRegEx: Programmable Regular Expressions](https://github.com/manoss96/pregex)
 
 ## Scikit-learn
 

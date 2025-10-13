@@ -1221,7 +1221,7 @@
     "category": "Career",
     "topic": "Portfolio",
     "section": null,
-    "link_name": "Auto update guthub profile",
+    "link_name": "Auto update github profile",
     "url": "https://towardsdatascience.com/auto-updating-your-github-profile-with-python-cde87b638168"
   },
   {
@@ -3445,6 +3445,41 @@
   },
   {
     "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "t-SNE Exaggerates Clusters, Provably",
+    "url": "https://arxiv.org/abs/2510.07746"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "Biologists, stop putting UMAP plots in your papers",
+    "url": "https://simplystatistics.org/posts/2024-12-23-biologists-stop-including-umap-plots-in-your-papers/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMAP, and PaCMAP for Data Visualization",
+    "url": "https://arxiv.org/abs/2012.04456"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "Why you should not rely on t-SNE, UMAP or TriMAP",
+    "url": "https://towardsdatascience.com/why-you-should-not-rely-on-t-sne-umap-or-trimap-f8f5dc333e59/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "PaCMAP: Large-scale Dimension Reduction Technique Preserving Both Global and Local Structure",
+    "url": "https://github.com/YingfanWang/PaCMAP"
+  },
+  {
+    "category": "Data Science",
     "topic": "Dynamic pricing",
     "section": null,
     "link_name": "Dynamic pricing for theatre",
@@ -5132,6 +5167,13 @@
   },
   {
     "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": null,
+    "link_name": "Why Generative AI Coding Tools and Agents Do Not Work For Me",
+    "url": "https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-do-not-work-for-me"
+  },
+  {
+    "category": "Data Science",
     "topic": "Machine Learning",
     "section": null,
     "link_name": "GUI for ML workflow and pipeline discovery",
@@ -6711,6 +6753,13 @@
     "section": null,
     "link_name": "Bollinger Bands",
     "url": "https://en.wikipedia.org/wiki/Bollinger_Bands"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Recommender systems",
+    "section": null,
+    "link_name": "pyversity: Fast Diversification for Search & Retrieval",
+    "url": "https://github.com/Pringled/pyversity"
   },
   {
     "category": "Data Science",
@@ -11495,6 +11544,13 @@
   },
   {
     "category": "Python",
+    "topic": "Asynchronous Programming",
+    "section": null,
+    "link_name": "Sync vs. Async Python: What is the Difference?",
+    "url": "https://blog.miguelgrinberg.com/post/sync-vs-async-python-what-is-the-difference"
+  },
+  {
+    "category": "Python",
     "topic": "Audio recognition",
     "section": null,
     "link_name": "Kaldi and speech recognition",
@@ -12542,6 +12598,13 @@
     "section": "mkdocs",
     "link_name": "mkdocs MCP server",
     "url": "https://github.com/serverless-dna/mkdocs-mcp"
+  },
+  {
+    "category": "Python",
+    "topic": "Documentation",
+    "section": "mkdocs",
+    "link_name": "mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs",
+    "url": "https://github.com/douinc/mkdocs-mcp-plugin"
   },
   {
     "category": "Python",
@@ -13690,6 +13753,13 @@
     "section": null,
     "link_name": "How to Use Regular Expressions in Python",
     "url": "https://blog.appsignal.com/2025/01/15/how-to-use-regular-expressions-in-python.html"
+  },
+  {
+    "category": "Python",
+    "topic": "Regex",
+    "section": null,
+    "link_name": "PRegEx: Programmable Regular Expressions",
+    "url": "https://github.com/manoss96/pregex"
   },
   {
     "category": "Python",

@@ -17,3 +17,4 @@
 - [Introducing New Open Source Documentation Resources](https://opensource.googleblog.com/2025/05/introducing-new-open-source-documentation-resources.html?m=1)
 - [mkapi: MkDocs plugin for automatic API documentation generation from Python docstrings](https://github.com/daizutabi/mkapi/)
 - [mkdocs MCP server](https://github.com/serverless-dna/mkdocs-mcp)
+- [mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs](https://github.com/douinc/mkdocs-mcp-plugin)

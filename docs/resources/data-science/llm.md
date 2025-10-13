@@ -142,3 +142,4 @@
 - [Python MCP Server: Connect LLMs to Your Data](https://realpython.com/python-mcp/)
 - [Model2Vec Size Improvements](https://minish.ai/blog/2025-10-05-size-blogpost)
 - [Maintain the unmaintainable: 1M python loc, 400+ models](https://huggingface.co/spaces/transformers-community/Transformers-tenets)
+- [Why Generative AI Coding Tools and Agents Do Not Work For Me](https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-do-not-work-for-me)

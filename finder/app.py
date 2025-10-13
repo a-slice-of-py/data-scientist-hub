@@ -12,14 +12,16 @@ app = marimo.App(width="full")
 
 @app.cell
 def _():
+    import re
+
+    import datamapplot
     import marimo as mo
     import pandas as pd
-    from umap import UMAP
+
     from embetter.text import learn_lite_text_embeddings
-    from sklearn.metrics.pairwise import cosine_similarity
     from model2vec import StaticModel
-    import re
-    import datamapplot
+    from sklearn.metrics.pairwise import cosine_similarity
+    from umap import UMAP
     return (
         StaticModel,
         UMAP,
@@ -42,8 +44,9 @@ def _(pd):
             + df["topic"].fillna("")
             + ", "
             + df["section"].fillna("")
-            + " ➜ "
+            + ": "
             + df["link_name"]
+            + "."
         )
         .str.replace(", : ", ": ")
         .tolist()
@@ -159,33 +162,6 @@ def _(mo, pd, terms_to_ignore):
 
 
 @app.cell
-def _(display_stat, mo, pd):
-    def display_stat_grid(df: pd.DataFrame, rows: int = 3, cols: int = 3) -> mo.Html:
-        index_to_pair = {
-            (0, 0): 0,
-            (0, 1): 1,
-            (0, 2): 2,
-            (1, 0): 3,
-            (1, 1): 4,
-            (1, 2): 5,
-            (2, 0): 6,
-            (2, 1): 7,
-            (2, 2): 8,
-        }
-        return mo.vstack(
-            [
-                mo.hstack(
-                    [display_stat(df.iloc[index_to_pair[(r, c)]]) for c in range(cols)],
-                    justify="center",
-                )
-                for r in range(rows)
-            ],
-            justify="center",
-        )
-    return
-
-
-@app.cell
 def _(datamapplot, mo, pd):
     @mo.cache
     def build_datamapplot(X, df: pd.DataFrame, indices: list[str] | None = None):
@@ -252,8 +228,8 @@ def _(
 
 
 @app.cell
-def _():
-    # dmp.save("./dsh_datamapplot.html")
+def _(dmp):
+    dmp.save("./dsh_datamapplot.html")
     return
 
 
