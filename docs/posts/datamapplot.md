@@ -1,5 +1,5 @@
 ---
-date: 2025-10-08
+date: 2025-10-14
 authors:
   - silvio
 categories:
@@ -78,7 +78,7 @@ I chose JSON format and wrote a little parser to build an `index.json`: nothing 
 
 Being a data professional fluent in Python, experimentation nowadays means [marimo](https://github.com/marimo-team/marimo), so I spinned up a new notebook.
 
-To abide to the "start simple" requirement, the first choice for embeddings has been TF-IDF, and I opted for [embetter.text.learn_lite_text_embeddings](https://koaning.github.io/embetter/applications/#lite-embeddings) implementation which wraps it in a convenient way together with LSA (via [TruncatedSVD](https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis)).
+To abide by the "start simple" requirement, the first choice for embeddings has been TF-IDF, and I opted for [embetter.text.learn_lite_text_embeddings](https://koaning.github.io/embetter/applications/#lite-embeddings) implementation which wraps it in a convenient way together with LSA (via [TruncatedSVD](https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis)).
 
 For each element in the index, the actual data passed to the embedding pipeline is the concatenation of category, section, topic and link name, chained together to resemble an actual sentence with the following template `{category} {topic}, {section}: {link_name}`. The input sentences corresponding to the sample index entries above are therefore:
 
