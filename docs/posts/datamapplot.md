@@ -178,7 +178,7 @@ Having used [BERTopic](https://github.com/MaartenGr/BERTopic) in the last years,
 
 ### DataMapPlot
 
-DataMapPlot is a powerful tool to create stunning "enhanced scatterplot", both static and interactive, with a specific focus on text embeddings. I went for the interactive version of the plot with the following configuration:
+DataMapPlot is a powerful tool based on [deck.gl](https://github.com/visgl/deck.gl) to create stunning "enhanced scatterplot", both static and interactive, with a specific focus on text embeddings. I went for the interactive version of the plot with the following configuration:
 
 <div class="annotate" markdown>
 - the labels for the different level of resolution are, respectively, _category_, _topic_ and _section_ (see [above](#index-creation))(1);
