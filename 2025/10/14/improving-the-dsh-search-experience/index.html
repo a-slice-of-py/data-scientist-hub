@@ -1877,7 +1877,7 @@
 
 
 <h1 id="improving-the-dsh-search-experience">Improving the DSH search experience<a class="headerlink" href="#improving-the-dsh-search-experience" title="Permanent link">&para;</a></h1>
-<p>In the past months I thought more and more frequently about how to improve the <em>usability</em> of all the ~2500 resources I carefully curate here on DSH.</p>
+<p>Over the past few months, I've been increasingly thinking about how to improve the <em>usability</em> of all the ~2500 resources I carefully curate here on DSH.</p>
 <p>In this post, I detail the design, development and final result of an interactive semantic search and visualization system for my personal knowledge center, built upon modern technologies like <a href="https://github.com/marimo-team/marimo">marimo</a>, <a href="https://github.com/MinishLab/model2vec">model2vec</a> and <a href="https://github.com/TutteInstitute/datamapplot">datamapplot</a>.</p>
 <!-- more -->
 
@@ -1889,19 +1889,19 @@
 </iframe>
 
 <h2 id="motivations">Motivations<a class="headerlink" href="#motivations" title="Permanent link">&para;</a></h2>
-<p class="annotate">I built DSH in late 2020 to give shape and structure(1) to all the interesting data-related links I came in touch with, and I still find really useful to have a curated collection of online resources which spans over my professional and personal interests.(2)</p>
+<p class="annotate">I built DSH in late 2020 to give shape and structure(1) to all the interesting data-related links I came across, and I still find it really useful to have a curated collection of online resources that spans my professional and personal interests.(2)</p>
 <ol>
 <li>Despite I'm probably still feeding it also to placate a combination of <a href="https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder">OCD</a> and <a href="https://en.wikipedia.org/wiki/Fear_of_missing_out">FOMO</a>.</li>
 <li>Even if the idea of <a href="https://www.joanwestenberg.com/p/i-deleted-my-second-brain">delete everything</a> starts to tickle me.</li>
 </ol>
-<p class="annotate">The built-in search of mkdocs-material is already a good way to enable full text search<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> through DSH and has some good <a href="https://squidfunk.github.io/mkdocs-material/plugins/search/#search">configuration options</a>(1), but in the LLM era - where most of the information retrieval tasks are performed through natural language and agentic interactions - a search bar without semantic search capabilities seems too limited.</p>
+<p class="annotate">The built-in search functionality of mkdocs-material already provides a good way to enable full-text search<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> through DSH and has some good <a href="https://squidfunk.github.io/mkdocs-material/plugins/search/#search">configuration options</a>(1), but in the LLM era, where most information retrieval tasks are performed through natural language and agentic interactions, a search bar without semantic search capabilities feels too limited.</p>
 <ol>
 <li>And even some <a href="https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752">tweaking</a> is available!</li>
 </ol>
 <p>Since I wanted to start simple and add complexity little by little, I decided to do some good old experimentation before unleashing a coding assistant with a still vague request such as <em>"please improve the search experience of my static website"</em> (how? where? why?!).</p>
 <h2 id="index-creation">Index creation<a class="headerlink" href="#index-creation" title="Permanent link">&para;</a></h2>
 <p>First of all, I had to extract all the links from the source Markdown files and put them in a more convenient format for data analysis.</p>
-<p>I chose JSON format and wrote a little parser to build an <code>index.json</code>: nothing fancy here, but I took care to bring other simple metadata in the index for each link, such as the <em>category</em> (section here on DSH), the <em>topic</em> (filename where the link has been stored) and eventual <em>section</em> (file subheader) - see sample below.</p>
+<p>I chose JSON format and wrote a little parser to build an <code>index.json</code>: nothing fancy here, but I took care to include other simple metadata in the index for each link, such as the <em>category</em> (section here on DSH), the <em>topic</em> (filename where the link has been stored) and optional <em>section</em> (file subheader) - see sample below.</p>
 <div>
 <small>
 <div class="highlight"><pre><span></span><code><span class="p">[</span>
@@ -1933,8 +1933,8 @@
 
 <h2 id="new-search-design">New search design<a class="headerlink" href="#new-search-design" title="Permanent link">&para;</a></h2>
 <h3 id="embeddings">Embeddings<a class="headerlink" href="#embeddings" title="Permanent link">&para;</a></h3>
-<p>Being a data professional fluent in Python, experimentation nowadays means <a href="https://github.com/marimo-team/marimo">marimo</a>, so I spinned up a new notebook.</p>
-<p>To abide by the "start simple" requirement, the first choice for embeddings has been TF-IDF, and I opted for <a href="https://koaning.github.io/embetter/applications/#lite-embeddings">embetter.text.learn_lite_text_embeddings</a> implementation which wraps it in a convenient way together with LSA (via <a href="https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis">TruncatedSVD</a>).</p>
+<p>Being a data professional fluent in Python, experimentation nowadays means <a href="https://github.com/marimo-team/marimo">marimo</a>, so I fired up a new notebook.</p>
+<p>To follow the "start simple" approach, the first choice for embeddings was TF-IDF, and I opted for the <a href="https://koaning.github.io/embetter/applications/#lite-embeddings">embetter.text.learn_lite_text_embeddings</a> implementation which wraps it in a convenient way together with Latent Semantic Analysis (LSA) via <a href="https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis">TruncatedSVD</a>.</p>
 <p>For each element in the index, the actual data passed to the embedding pipeline is the concatenation of category, section, topic and link name, chained together to resemble an actual sentence with the following template <code>{category} {topic}, {section}: {link_name}</code>. The input sentences corresponding to the sample index entries above are therefore:</p>
 <div>
 <small>
@@ -1945,10 +1945,10 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 </small>
 </div>
 
-<p>After having played a bit with TF-IDF embeddings, I decided to take the chance to experiment with <a href="https://github.com/MinishLab/model2vec">model2vec</a> by MinishLab: I went for their flagship model <a href="https://huggingface.co/minishlab/potion-base-8M">potion-base-8M</a>, which results in a very small model on disk (~30 MB) stored via <a href="https://github.com/huggingface/safetensors">safetensors</a>.</p>
+<p>After testing TF-IDF embeddings, I decided to take the chance to experiment with <a href="https://github.com/MinishLab/model2vec">model2vec</a> by MinishLab: I went for their flagship model <a href="https://huggingface.co/minishlab/potion-base-8M">potion-base-8M</a>, which results in a very small model on disk (~30 MB) stored via <a href="https://github.com/huggingface/safetensors">safetensors</a>.</p>
 <details class="question">
 <summary>What is the effect on 2D visualization?</summary>
-<p>Here there is a visual comparison between basic embeddings and model-distilled ones, after UMAP projection with euclidean metric.</p>
+<p>Here is a visual comparison between basic embeddings and model-distilled ones, after UMAP projection with Euclidean metric.</p>
 <p>Both embedding models allow some clusters to emerge (e.g. the LLM "island"), but only the latter seems to guarantee a better separation between all the labelled categories.</p>
 <div style="float: left; width: 50%;">
 <p><figure markdown="span">
@@ -1965,11 +1965,11 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 <div style="clear: both;"></div>
 </details>
 <h3 id="query-syntax">Query syntax<a class="headerlink" href="#query-syntax" title="Permanent link">&para;</a></h3>
-<p>I wanted the new search system to support following features: be capable of excluding terms from the search <em>and</em> restricting the search to given categories.</p>
-<p>For the first requirement, I chose a syntax loosely inspired by Google search: using <code>-</code> in a search query penalize search results that match with the term which follows.</p>
+<p>I wanted the new search system to support the following features: be capable of excluding terms from the search <em>and</em> restricting the search to given categories.</p>
+<p>For the first requirement, I chose a syntax loosely inspired by Google search: using <code>-</code> in a search query penalizes search results that match with the term which follows.</p>
 <div class="admonition example annotate">
 <p class="admonition-title">Example</p>
-<p>The query <code>time -series</code> returns the most representative results (1) related to "text" but which have little or no semantic relationship with the term "series".</p>
+<p>The query <code>time -series</code> returns the most representative results (1) related to "time" but which have little or no semantic relationship with the term "series".</p>
 </div>
 <ol>
 <li>With respect to cosine similarity between the query and the index embeddings.</li>
@@ -2017,14 +2017,14 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 </div>
 <h2 id="visualization">Visualization<a class="headerlink" href="#visualization" title="Permanent link">&para;</a></h2>
 <h3 id="projection-in-2d">Projection in 2D<a class="headerlink" href="#projection-in-2d" title="Permanent link">&para;</a></h3>
-<p>Having used <a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> in the last years, I chose <a href="https://github.com/lmcinnes/umap">UMAP</a> to project the high-dimensional embeddings into 2D and prepare them for visualization. As of now, the only customization of hyperparameters has been the selection of <em>cosine</em> metric instead of euclidean one.</p>
+<p>Having used <a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> in recent years, I chose <a href="https://github.com/lmcinnes/umap">UMAP</a> to project the high-dimensional embeddings into 2D and prepare them for visualization. Currently, the only hyperparameter customization has been the selection of <em>cosine</em> metric instead of euclidean one.</p>
 <h3 id="datamapplot">DataMapPlot<a class="headerlink" href="#datamapplot" title="Permanent link">&para;</a></h3>
 <p>DataMapPlot is a powerful tool based on <a href="https://github.com/visgl/deck.gl">deck.gl</a> to create stunning "enhanced scatterplot", both static and interactive, with a specific focus on text embeddings. I went for the interactive version of the plot with the following configuration:</p>
 <div class="annotate">
 <ul>
 <li>the labels for the different level of resolution are, respectively, <em>category</em>, <em>topic</em> and <em>section</em> (see <a href="#index-creation">above</a>)(1);</li>
 <li>the hover text is the <em>link name</em>, and there is a binding on the <code>on_click</code> event to open the corresponding URL;</li>
-<li>the in-plot search is enable and performs the search versus the <code>link_name</code> field;</li>
+<li>the in-plot search is enabled and performs the search versus the <code>link_name</code> field;</li>
 <li>a selection handler can be triggered with <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-left-button">Left Button</kbd></span> to perform lasso selection and obtain 10 samples from the selected region, listed in a popup on the right side.</li>
 </ul>
 </div>
@@ -2083,7 +2083,7 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-10-14T13:12:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-10-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-10-16T06:22:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-10-16</span>
   </span>
 
     
