@@ -10,6 +10,7 @@
 - [zarr-python: an implementation of chunked, compressed, N-dimensional arrays for Python](https://github.com/zarr-developers/zarr-python)
 - [drawdb: free, simple, and intuitive online database diagram editor and SQL generator](https://github.com/drawdb-io/drawdb)
 - [SedonaDB: a cluster computing framework for processing large-scale geospatial data](https://github.com/apache/sedona)
+- [Comparing the Django ORM support across official database backends](https://www.paulox.net/2025/10/06/django-orm-comparison/)
 
 ## DuckDB
 
@@ -30,3 +31,4 @@
 - [15+ companies using duckdb in production: a comprehensive guide](https://motherduck.com/blog/15-companies-duckdb-in-prod/)
 - [Mastering DuckDB when you're used to pandas or Polars](https://labs.quansight.org/blog/duckdb-when-used-to-frames)
 - [Instant SQL is here: speedrun ad-hoc queries as you type](https://motherduck.com/blog/introducing-instant-sql/)
+- [Streaming Patterns with DuckDB](https://duckdb.org/2025/10/13/duckdb-streaming-patterns)

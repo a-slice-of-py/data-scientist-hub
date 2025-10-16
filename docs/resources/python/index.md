@@ -529,6 +529,7 @@
 - [bisect: array bisection algorithm](https://docs.python.org/3/library/bisect.html)
 - [Python loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)
 - [Haskelling My Python: reimplementing Haskell lazy infinite lists using Python generators](https://unnamed.website/posts/haskelling-my-python/)
+- [Functions: a complete reference](https://mathspp.com/blog/pydonts/functions-a-complete-reference)
 
 ### Extensions
 
@@ -622,6 +623,7 @@
 - [Fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
 - [Python strings](https://towardsdatascience.com/python-strings-38c3d74c236a)
 - [Thefuzz](https://github.com/seatgeek/thefuzz)
+- [Alignment in string formatting](https://mathspp.com/blog/til/-alignment-in-string-formatting)
 
 ## Structural Pattern Matching
 

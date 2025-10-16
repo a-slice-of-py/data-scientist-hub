@@ -10,6 +10,7 @@
 - [bisect: array bisection algorithm](https://docs.python.org/3/library/bisect.html)
 - [Python loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)
 - [Haskelling My Python: reimplementing Haskell lazy infinite lists using Python generators](https://unnamed.website/posts/haskelling-my-python/)
+- [Functions: a complete reference](https://mathspp.com/blog/pydonts/functions-a-complete-reference)
 
 ## Extensions
 

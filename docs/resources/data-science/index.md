@@ -552,6 +552,8 @@
 - [Model2Vec Size Improvements](https://minish.ai/blog/2025-10-05-size-blogpost)
 - [Maintain the unmaintainable: 1M python loc, 400+ models](https://huggingface.co/spaces/transformers-community/Transformers-tenets)
 - [Why Generative AI Coding Tools and Agents Do Not Work For Me](https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-do-not-work-for-me)
+- [nanochat by Andrej Karpathy: a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase](https://github.com/karpathy/nanochat)
+- [Datapizza AI: a framework to build Gen AI agentic solutions](https://github.com/datapizza-labs/datapizza-ai)
 
 ## Machine Learning
 
@@ -903,6 +905,7 @@
 ## Revenue science
 
 - [Money tree for revenue prioritization](https://towardsdatascience.com/why-every-data-team-needs-a-money-tree-491a602ea68)
+- [icanexplain: explain why metrics change by unpacking them](https://github.com/carbonfact/icanexplain)
 
 ## Scada data analysis
 

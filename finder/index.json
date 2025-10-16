@@ -1534,6 +1534,13 @@
   },
   {
     "category": "Data Engineering",
+    "topic": "Data Architecture",
+    "section": null,
+    "link_name": "Data Mesh vs Data Fabric: The Ultimate 2025 Comparison for Enterprise Architects",
+    "url": "https://medium.com/@sauravkumarrajjoli/data-mesh-vs-data-fabric-key-differences-architecture-future-trends-2025-c69287b1ef07"
+  },
+  {
+    "category": "Data Engineering",
     "topic": "Basics",
     "section": null,
     "link_name": "Python for Data Engineers",
@@ -1745,6 +1752,13 @@
   {
     "category": "Data Engineering",
     "topic": "Database",
+    "section": null,
+    "link_name": "Comparing the Django ORM support across official database backends",
+    "url": "https://www.paulox.net/2025/10/06/django-orm-comparison/"
+  },
+  {
+    "category": "Data Engineering",
+    "topic": "Database",
     "section": "DuckDB",
     "link_name": "DuckDB and Motherduck serverless analytics platform",
     "url": "https://motherduck.com/"
@@ -1860,6 +1874,13 @@
     "section": "DuckDB",
     "link_name": "Instant SQL is here: speedrun ad-hoc queries as you type",
     "url": "https://motherduck.com/blog/introducing-instant-sql/"
+  },
+  {
+    "category": "Data Engineering",
+    "topic": "Database",
+    "section": "DuckDB",
+    "link_name": "Streaming Patterns with DuckDB",
+    "url": "https://duckdb.org/2025/10/13/duckdb-streaming-patterns"
   },
   {
     "category": "Data Engineering",
@@ -5174,6 +5195,20 @@
   },
   {
     "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": null,
+    "link_name": "nanochat by Andrej Karpathy: a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase",
+    "url": "https://github.com/karpathy/nanochat"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": null,
+    "link_name": "Datapizza AI: a framework to build Gen AI agentic solutions",
+    "url": "https://github.com/datapizza-labs/datapizza-ai"
+  },
+  {
+    "category": "Data Science",
     "topic": "Machine Learning",
     "section": null,
     "link_name": "GUI for ML workflow and pipeline discovery",
@@ -7047,6 +7082,13 @@
     "section": null,
     "link_name": "Money tree for revenue prioritization",
     "url": "https://towardsdatascience.com/why-every-data-team-needs-a-money-tree-491a602ea68"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Revenue science",
+    "section": null,
+    "link_name": "icanexplain: explain why metrics change by unpacking them",
+    "url": "https://github.com/carbonfact/icanexplain"
   },
   {
     "category": "Data Science",
@@ -9980,6 +10022,13 @@
     "section": null,
     "link_name": "Navigating the Realities of Being A Data Scientist",
     "url": "https://towardsdatascience.com/navigating-the-realities-of-being-a-data-scientist-429625f9baed"
+  },
+  {
+    "category": "Education",
+    "topic": "Cons",
+    "section": null,
+    "link_name": "Why your boss isn't worried about AI",
+    "url": "https://boydkane.com/essays/boss"
   },
   {
     "category": "Education",
@@ -13946,6 +13995,13 @@
   {
     "category": "Python",
     "topic": "Standard library",
+    "section": null,
+    "link_name": "Functions: a complete reference",
+    "url": "https://mathspp.com/blog/pydonts/functions-a-complete-reference"
+  },
+  {
+    "category": "Python",
+    "topic": "Standard library",
     "section": "Extensions",
     "link_name": "Stream-like manipulation of Python iterables",
     "url": "https://github.com/ebonnal/streamable"
@@ -14488,6 +14544,13 @@
     "section": null,
     "link_name": "Thefuzz",
     "url": "https://github.com/seatgeek/thefuzz"
+  },
+  {
+    "category": "Python",
+    "topic": "Strings",
+    "section": null,
+    "link_name": "Alignment in string formatting",
+    "url": "https://mathspp.com/blog/til/-alignment-in-string-formatting"
   },
   {
     "category": "Python",

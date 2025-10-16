@@ -8,7 +8,7 @@ categories:
 
 # Improving the DSH search experience
 
-In the past months I thought more and more frequently about how to improve the _usability_ of all the ~2500 resources I carefully curate here on DSH.
+Over the past few months, I've been increasingly thinking about how to improve the _usability_ of all the ~2500 resources I carefully curate here on DSH.
 
 In this post, I detail the design, development and final result of an interactive semantic search and visualization system for my personal knowledge center, built upon modern technologies like [marimo](https://github.com/marimo-team/marimo), [model2vec](https://github.com/MinishLab/model2vec) and [datamapplot](https://github.com/TutteInstitute/datamapplot).
 
@@ -23,13 +23,13 @@ In this post, I detail the design, development and final result of an interactiv
 
 ## Motivations
 
-I built DSH in late 2020 to give shape and structure(1) to all the interesting data-related links I came in touch with, and I still find really useful to have a curated collection of online resources which spans over my professional and personal interests.(2)
+I built DSH in late 2020 to give shape and structure(1) to all the interesting data-related links I came across, and I still find it really useful to have a curated collection of online resources that spans my professional and personal interests.(2)
 { .annotate }
 
 1. Despite I'm probably still feeding it also to placate a combination of [OCD](https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder) and [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out).
 2. Even if the idea of [delete everything](https://www.joanwestenberg.com/p/i-deleted-my-second-brain) starts to tickle me.
 
-The built-in search of mkdocs-material is already a good way to enable full text search[^1] through DSH and has some good [configuration options](https://squidfunk.github.io/mkdocs-material/plugins/search/#search)(1), but in the LLM era - where most of the information retrieval tasks are performed through natural language and agentic interactions - a search bar without semantic search capabilities seems too limited.
+The built-in search functionality of mkdocs-material already provides a good way to enable full-text search[^1] through DSH and has some good [configuration options](https://squidfunk.github.io/mkdocs-material/plugins/search/#search)(1), but in the LLM era, where most information retrieval tasks are performed through natural language and agentic interactions, a search bar without semantic search capabilities feels too limited.
 { .annotate }
 
 1. And even some [tweaking](https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752) is available!
@@ -40,7 +40,7 @@ Since I wanted to start simple and add complexity little by little, I decided to
 
 First of all, I had to extract all the links from the source Markdown files and put them in a more convenient format for data analysis.
 
-I chose JSON format and wrote a little parser to build an `index.json`: nothing fancy here, but I took care to bring other simple metadata in the index for each link, such as the _category_ (section here on DSH), the _topic_ (filename where the link has been stored) and eventual _section_ (file subheader) - see sample below.
+I chose JSON format and wrote a little parser to build an `index.json`: nothing fancy here, but I took care to include other simple metadata in the index for each link, such as the _category_ (section here on DSH), the _topic_ (filename where the link has been stored) and optional _section_ (file subheader) - see sample below.
 
 <div>
 <small>
@@ -76,9 +76,9 @@ I chose JSON format and wrote a little parser to build an `index.json`: nothing 
 
 ### Embeddings
 
-Being a data professional fluent in Python, experimentation nowadays means [marimo](https://github.com/marimo-team/marimo), so I spinned up a new notebook.
+Being a data professional fluent in Python, experimentation nowadays means [marimo](https://github.com/marimo-team/marimo), so I fired up a new notebook.
 
-To abide by the "start simple" requirement, the first choice for embeddings has been TF-IDF, and I opted for [embetter.text.learn_lite_text_embeddings](https://koaning.github.io/embetter/applications/#lite-embeddings) implementation which wraps it in a convenient way together with LSA (via [TruncatedSVD](https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis)).
+To follow the "start simple" approach, the first choice for embeddings was TF-IDF, and I opted for the [embetter.text.learn_lite_text_embeddings](https://koaning.github.io/embetter/applications/#lite-embeddings) implementation which wraps it in a convenient way together with Latent Semantic Analysis (LSA) via [TruncatedSVD](https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis).
 
 For each element in the index, the actual data passed to the embedding pipeline is the concatenation of category, section, topic and link name, chained together to resemble an actual sentence with the following template `{category} {topic}, {section}: {link_name}`. The input sentences corresponding to the sample index entries above are therefore:
 
@@ -92,11 +92,11 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 </small>
 </div>
 
-After having played a bit with TF-IDF embeddings, I decided to take the chance to experiment with [model2vec](https://github.com/MinishLab/model2vec) by MinishLab: I went for their flagship model [potion-base-8M](https://huggingface.co/minishlab/potion-base-8M), which results in a very small model on disk (~30 MB) stored via [safetensors](https://github.com/huggingface/safetensors).
+After testing TF-IDF embeddings, I decided to take the chance to experiment with [model2vec](https://github.com/MinishLab/model2vec) by MinishLab: I went for their flagship model [potion-base-8M](https://huggingface.co/minishlab/potion-base-8M), which results in a very small model on disk (~30 MB) stored via [safetensors](https://github.com/huggingface/safetensors).
 
 ??? question "What is the effect on 2D visualization?"
 
-    Here there is a visual comparison between basic embeddings and model-distilled ones, after UMAP projection with euclidean metric.
+    Here is a visual comparison between basic embeddings and model-distilled ones, after UMAP projection with Euclidean metric.
     
     Both embedding models allow some clusters to emerge (e.g. the LLM "island"), but only the latter seems to guarantee a better separation between all the labelled categories.
 
@@ -119,12 +119,12 @@ After having played a bit with TF-IDF embeddings, I decided to take the chance t
 
 ### Query syntax
 
-I wanted the new search system to support following features: be capable of excluding terms from the search _and_ restricting the search to given categories.
+I wanted the new search system to support the following features: be capable of excluding terms from the search _and_ restricting the search to given categories.
 
-For the first requirement, I chose a syntax loosely inspired by Google search: using `-` in a search query penalize search results that match with the term which follows.
+For the first requirement, I chose a syntax loosely inspired by Google search: using `-` in a search query penalizes search results that match with the term which follows.
 
 !!! example annotate
-    The query `time -series` returns the most representative results (1) related to "text" but which have little or no semantic relationship with the term "series".
+    The query `time -series` returns the most representative results (1) related to "time" but which have little or no semantic relationship with the term "series".
 
 1. With respect to cosine similarity between the query and the index embeddings.
 
@@ -174,7 +174,7 @@ Given that I was already coding into a marimo notebook, I chose to stay in the s
 
 ### Projection in 2D
 
-Having used [BERTopic](https://github.com/MaartenGr/BERTopic) in the last years, I chose [UMAP](https://github.com/lmcinnes/umap) to project the high-dimensional embeddings into 2D and prepare them for visualization. As of now, the only customization of hyperparameters has been the selection of _cosine_ metric instead of euclidean one.
+Having used [BERTopic](https://github.com/MaartenGr/BERTopic) in recent years, I chose [UMAP](https://github.com/lmcinnes/umap) to project the high-dimensional embeddings into 2D and prepare them for visualization. Currently, the only hyperparameter customization has been the selection of _cosine_ metric instead of euclidean one.
 
 ### DataMapPlot
 
@@ -183,7 +183,7 @@ DataMapPlot is a powerful tool based on [deck.gl](https://github.com/visgl/deck.
 <div class="annotate" markdown>
 - the labels for the different level of resolution are, respectively, _category_, _topic_ and _section_ (see [above](#index-creation))(1);
 - the hover text is the _link name_, and there is a binding on the `on_click` event to open the corresponding URL;
-- the in-plot search is enable and performs the search versus the `link_name` field;
+- the in-plot search is enabled and performs the search versus the `link_name` field;
 - a selection handler can be triggered with ++shift+left-button++ to perform lasso selection and obtain 10 samples from the selected region, listed in a popup on the right side.
 </div>
 
