@@ -73,4 +73,4 @@ Unorganized collection of links stored in random mails to myself.
 
 ---
 
-Copyright &copy; 2024 Silvio Lugaro
+Copyright &copy; 2025 Silvio Lugaro
