@@ -275,6 +275,7 @@
 - [Textual: a Rapid Application Development framework for Python](https://github.com/textualize/textual/)
 - [DearPyGui: a modern, fast and powerful GUI framework for Python](https://github.com/hoffstadt/DearPyGui/)
 - [mininterface: a minimal interface to Python application (GUI, TUI, CLI, web)](https://github.com/CZ-NIC/mininterface)
+- [buttonpad: cross-platform GUI toolkit for a configurable grid of buttons](https://github.com/asweigart/buttonpad)
 
 ## Holidays
 
@@ -507,11 +508,13 @@
 - [`skore`: The scikit-learn Modeling Companion](https://github.com/probabl-ai/skore)
 - [scikit-image: image processing in Python](https://github.com/scikit-image/scikit-image)
 - [mapie: estimating prediction intervals and controlling risks, based on conformal predictions](https://github.com/scikit-learn-contrib/MAPIE)
+- [Quantile Regression Forests compatible with scikit-learn](https://github.com/zillow/quantile-forest)
 
 ### Probabl
 
 - [Probabl open source gallery](https://www.probabl.ai/open-source)
 - [The `StandardScaler` is not standard](https://papers.probabl.ai/the-standardscaler-is-not-standard)
+- [Forecasting with machine learning](https://probabl-ai.github.io/forecasting/intro.html)
 
 ## Search engine
 

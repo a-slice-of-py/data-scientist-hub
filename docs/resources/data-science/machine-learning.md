@@ -58,6 +58,7 @@
 - [deepchecks](https://github.com/deepchecks/deepchecks)
 - [MLNotify for training completion notification](https://github.com/aporia-ai/mlnotify)
 - [NannyML for post-deployment model performance monitoring](https://github.com/NannyML/nannyml)
+- [trackio: a lightweight, local-first, experiment tracking library from Hugging Face](https://github.com/gradio-app/trackio)
 
 ## MLOps
 

@@ -37,6 +37,8 @@
 - [`sense2vec`: query vectors for multi-word phrases based on part-of-speech tags and entity labels](https://github.com/explosion/sense2vec)
 - [NLP Course](https://lena-voita.github.io/nlp_course.html)
 - [semhash: fast Semantic Text Deduplication & Filtering](https://github.com/MinishLab/semhash)
+- [pyparsing: Python library for creating PEG parsers](https://github.com/pyparsing/pyparsing)
+- [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
 
 ## Topic modeling
 

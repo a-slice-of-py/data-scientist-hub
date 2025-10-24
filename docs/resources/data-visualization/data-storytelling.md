@@ -26,3 +26,4 @@
 - [A Map of Python](https://fi-le.net/pypi/)
 - [Code Galaxies Visualization](https://anvaka.github.io/pm/#/)
 - [machine-learning-visualized: ML algorithms implemented and derived from first-principles in Jupyter Notebooks and NumPy](https://github.com/gavinkhung/machine-learning-visualized)
+- [Interactive visualization and exploration of scientific papers from the LAION dataset](https://github.com/context-labs/laion-data-explorer)

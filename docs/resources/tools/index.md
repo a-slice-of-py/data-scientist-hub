@@ -126,6 +126,9 @@
 - [Koaning's draft: GitHub-style markdown editor with AI assistance](https://github.com/koaning/draft)
 - [MDX: Markdown for the component era](https://mdxjs.com/)
 - [markdown-it-py: Markdown parser done right](https://github.com/executablebooks/markdown-it-py)
+- [Formats Markdown tables to enforce consistent column widths](https://gitlab.com/russelldickenson/markdown-table-formatter)
+- [Rewrap Markdown paragraphs to the word wrap column setting](https://gitlab.com/russelldickenson/markdown-rewrap-paragraph)
+- [MyST: Community-driven tools for technical communication](https://mystmd.org/)
 
 ### Other markup languages
 

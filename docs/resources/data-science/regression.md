@@ -17,3 +17,5 @@
 - [Constrained logistic regression](https://towardsdatascience.com/constrained-logistic-regression-with-python-c694fcd7a029)
 - [Robust regression](https://towardsdatascience.com/robust-regression-23b633e5d6a5)
 - [Polynomial regression with scikit-learn](https://towardsdatascience.com/polynomial-regression-in-python-dd655a7d9f2b)
+- [How I made peace with quantile regression](https://mindfulmodeler.substack.com/p/how-i-made-peace-with-quantile-regression)
+- [Quantile Pinball Loss](https://insightful-data-lab.com/2025/08/19/pinball-loss-a-k-a-quantile-loss/)

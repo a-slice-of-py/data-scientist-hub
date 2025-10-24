@@ -90,6 +90,7 @@
 - [Amazon Q Developer: 25 tips to supercharge your development](https://dev.to/aws/amazon-q-developer-tips-25-tips-to-supercharge-your-development-2ffg)
 - [Awesome Amazon Q Developer](https://github.com/cremich/awesome-q-developer)
 - [Amazon Q Developer new context features](https://aws.amazon.com/it/blogs/devops/amazon-q-developers-new-context-features/)
+- [Build and ship an entire app using Amazon Q](https://builder.aws.com/content/32oVtOpyI0e0YSI9H4kLvb5Mlvw/build-and-ship-an-entire-app-using-amazon-q)
 
 ### S3
 

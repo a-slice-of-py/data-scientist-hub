@@ -4,3 +4,4 @@
 - [Textual: a Rapid Application Development framework for Python](https://github.com/textualize/textual/)
 - [DearPyGui: a modern, fast and powerful GUI framework for Python](https://github.com/hoffstadt/DearPyGui/)
 - [mininterface: a minimal interface to Python application (GUI, TUI, CLI, web)](https://github.com/CZ-NIC/mininterface)
+- [buttonpad: cross-platform GUI toolkit for a configurable grid of buttons](https://github.com/asweigart/buttonpad)

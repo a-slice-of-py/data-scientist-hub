@@ -8,8 +8,9 @@
 - [Beyond the Front Page: A Personal Guide to Hacker News](https://hsu.cy/2025/09/how-to-read-hn/)
 - [Use singular nouns for database table names](https://www.teamten.com/lawrence/programming/use-singular-nouns-for-database-table-names.html)
 - [Python Violates PEP 8](https://inventwithpython.com/blog/sweigarts-law-of-pep-8-complaints.html)
+- [Maintain the unmaintainable: 1M python loc, 400+ models](https://huggingface.co/spaces/transformers-community/Transformers-tenets)
 
-## Games development
+## Game development
 
 - [Game Boy Development community](https://gbdev.io/)
 

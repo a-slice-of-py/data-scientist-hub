@@ -14,3 +14,4 @@
 - [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 - [Diffusion Models Explained](https://www.seangoedecke.com/diffusion-models-explained/)
+- [Neural Networks: Simpler Than You Think](https://www.hamza.se/blog/neural-networks)
