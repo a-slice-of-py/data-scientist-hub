@@ -1,5 +1,5 @@
 mkdocs==1.6.0
-mkdocs-material[imaging]==9.5.27
+mkdocs-material[imaging]==9.7.0
 mkdocs-awesome-pages-plugin==2.9.2
 pymdown-extensions==10.8.1
 mkdocs-glightbox==0.4.0
