@@ -83,6 +83,7 @@
 - [k-Graph: A Graph Embedding for Interpretable Time Series Clustering](https://github.com/boniolp/kGraph)
 - [Sequential Monte Carlo Learning for Time Series Structure Discovery](https://arxiv.org/pdf/2307.09607)
 - [AutoGP.jl: Automated Bayesian model discovery for time series data](https://github.com/probsys/AutoGP.jl)
+- [Probabilistic Forecast Level Set Forecaster](https://medium.com/@icvandenende/embrace-the-uncertainty-start-building-your-probabilistic-forecast-with-a-level-set-forecaster-or-c55d9f44f0c4)
 
 ## Prophet
 

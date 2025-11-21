@@ -34,3 +34,6 @@
 - [Tracing the evolution of a Python function with git log](https://nerderati.com/tracing-the-evolution-of-a-python-function-with-git-log/)
 - [gitingest: replace 'hub' with 'ingest' in any github url to get a prompt-friendly extract of a codebase](https://github.com/cyclotruc/gitingest)
 - [Jujutsu For Busy Devs](https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs)
+- [Git Bisect](https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html)
+- [Sourcegit: Opensource Git GUI client](https://github.com/sourcegit-scm/sourcegit)
+- [Lazygit](https://www.bwplotka.dev/2025/lazygit/)

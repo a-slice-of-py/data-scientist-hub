@@ -40,3 +40,5 @@
 - [plain: a web framework for building products with Python](https://github.com/dropseed/plain)
 - [bruno: Opensource IDE for exploring and testing APIs](https://github.com/usebruno/bruno)
 - [py-shiny: Shiny for Python web framework](https://github.com/posit-dev/py-shiny)
+- [FuncToWeb: Type hints → Web UI. Minimal-boilerplate web apps from Python functions](https://github.com/offerrall/FuncToWeb)
+- [NiceGUI Goes 3.0](https://talkpython.fm/episodes/show/525/nicegui-goes-3.0)

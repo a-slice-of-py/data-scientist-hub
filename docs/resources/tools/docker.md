@@ -7,3 +7,4 @@
 - [Multi-stage Docker builds to reduce image size](https://medium.com/geekculture/using-multi-stage-builds-to-make-your-docker-image-almost-10x-smaller-239068cb6fb0)
 - [Reduce your load on PyPI by improving your Dockerfile](https://mkennedy.codes/posts/lets-go-easy-on-pypi-ok/)
 - [docker-py: a Python library for the Docker Engine API](https://github.com/docker/docker-py)
+- [Using Python Uv Inside Docker](https://ashishb.net/programming/using-python-uv-inside-docker/)

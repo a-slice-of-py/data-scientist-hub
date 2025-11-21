@@ -29,6 +29,9 @@
 - [scikit-survival: Survival analysis in Python](https://github.com/sebp/scikit-survival)
 - [tea-tasting: Statistical testing for A/B experiments](https://github.com/e10v/tea-tasting)
 - [Tour Of PyGAM: Generalized Additive Models](https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html)
+- [Crepes: Python package for conformal prediction](https://github.com/henrikbostrom/crepes)
+- [Awesome Conformal Prediction: Curated list of conformal prediction resources](https://github.com/valeman/awesome-conformal-prediction)
+- [Nonconform: Conformal prediction library](https://github.com/OliverHennhoefer/nonconform)
 
 ## Model evaluation
 
