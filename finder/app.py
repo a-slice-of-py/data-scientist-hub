@@ -13,7 +13,8 @@ app = marimo.App(width="full")
 @app.cell
 def _():
     import re
-
+    import os
+    os.environ["UV_NO_CACHE"] = "true"
     import datamapplot
     import marimo as mo
     import pandas as pd

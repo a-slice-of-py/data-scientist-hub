@@ -485,6 +485,13 @@
   {
     "category": "AWS",
     "topic": "Utils",
+    "section": "Misc",
+    "link_name": "Prefect AWS",
+    "url": "https://docs.prefect.io/integrations/prefect-aws"
+  },
+  {
+    "category": "AWS",
+    "topic": "Utils",
     "section": "Streamlit deployment",
     "link_name": "Streamlit deploy on EC2",
     "url": "https://towardsdatascience.com/how-to-deploy-a-streamlit-app-using-an-amazon-free-ec2-instance-416a41f69dc3"
@@ -1548,6 +1555,13 @@
   },
   {
     "category": "Data Engineering",
+    "topic": "Data Architecture",
+    "section": null,
+    "link_name": "Expand And Contract Pattern",
+    "url": "https://www.prisma.io/dataguide/types/relational/expand-and-contract-pattern"
+  },
+  {
+    "category": "Data Engineering",
     "topic": "Basics",
     "section": null,
     "link_name": "Python for Data Engineers",
@@ -1902,6 +1916,13 @@
     "section": null,
     "link_name": "strava-datastack: a modern Strava data pipeline fueled by dlt, duckdb, dbt, and evidence.dev",
     "url": "https://github.com/datadisciple/strava-datastack"
+  },
+  {
+    "category": "Data Engineering",
+    "topic": "ACID",
+    "section": null,
+    "link_name": "Python is all you need: an overview of the composable, Python-native data stack",
+    "url": "https://proceedings.scipy.org/articles/wjjm7869"
   },
   {
     "category": "Data Engineering",
@@ -2462,6 +2483,13 @@
     "section": null,
     "link_name": "Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series",
     "url": "https://helios2.mi.parisdescartes.fr/~themisp/series2graph/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Anomaly detection",
+    "section": null,
+    "link_name": "Theseus: Navigating the Labyrinth of Time Series Anomaly Detection",
+    "url": "https://github.com/boniolp/Theseus"
   },
   {
     "category": "Data Science",
@@ -3138,6 +3166,20 @@
   {
     "category": "Data Science",
     "topic": "Computer Vision",
+    "section": null,
+    "link_name": "Deepinv: PyTorch library for solving imaging inverse problems using deep learning",
+    "url": "https://github.com/deepinv/deepinv"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Computer Vision",
+    "section": null,
+    "link_name": "Lightly Studio: Curate, Annotate, and Manage Your Data",
+    "url": "https://github.com/lightly-ai/lightly-studio"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Computer Vision",
     "section": "Seam Carving",
     "link_name": "Seam Carving for Content-Aware Image Resizing paper",
     "url": "https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf"
@@ -3662,6 +3704,27 @@
   },
   {
     "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "Embedding Atlas: Apple's embedding visualization tool",
+    "url": "https://github.com/apple/embedding-atlas"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "Representation Engineering",
+    "url": "https://vgel.me/posts/representation-engineering/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "Repeng: Python library for generating control vectors with representation engineering",
+    "url": "https://github.com/vgel/repeng"
+  },
+  {
+    "category": "Data Science",
     "topic": "Energy and Power Systems",
     "section": null,
     "link_name": "PyPSA: Python for Power System Analysis",
@@ -4027,9 +4090,9 @@
   {
     "category": "Data Science",
     "topic": "Geo science",
-    "section": "Grids",
-    "link_name": "a5: pentagonal geospatial indexing system DGGS",
-    "url": "https://github.com/felixpalmer/a5"
+    "section": null,
+    "link_name": "Polyline: Python implementation of Google's Encoded Polyline Algorithm Format",
+    "url": "https://github.com/frederickjansen/polyline"
   },
   {
     "category": "Data Science",
@@ -4037,6 +4100,13 @@
     "section": "Grids",
     "link_name": "Uber H3: Hexagonal hierarchical geospatial indexing system",
     "url": "https://github.com/uber/h3"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Geo science",
+    "section": "Grids",
+    "link_name": "A5: Global, equal-area, millimeter-accurate geospatial index",
+    "url": "https://github.com/felixpalmer/a5"
   },
   {
     "category": "Data Science",
@@ -4391,6 +4461,20 @@
   {
     "category": "Data Science",
     "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Agentic Coding Intro",
+    "url": "https://www.tweag.io/blog/2025-10-23-agentic-coding-intro/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Agentic Coding Handbook",
+    "url": "https://tweag.github.io/agentic-coding-handbook/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
     "section": "Distillation",
     "link_name": "Model2Vec: Distill a Small Fast Model from any Sentence Transformer",
     "url": "https://huggingface.co/blog/Pringled/model2vec"
@@ -4629,9 +4713,37 @@
   {
     "category": "Data Science",
     "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Transformer Explainer: Interactive Learning of Text-Generative Models",
+    "url": "https://github.com/poloclub/transformer-explainer"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Text Tokens As Image Tokens",
+    "url": "https://www.seangoedecke.com/text-tokens-as-image-tokens/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Spec Driven Development",
+    "url": "https://ainativedev.io/news/spec-driven-development-10-things-you-need-to-know-about-specs"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
     "section": "Foundation models",
     "link_name": "Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting",
     "url": "https://github.com/time-series-foundation-models/lag-llama"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Foundation models",
+    "link_name": "Eurollm.io",
+    "url": "https://eurollm.io/"
   },
   {
     "category": "Data Science",
@@ -4688,6 +4800,13 @@
     "section": "Framework",
     "link_name": "Datapizza AI: a framework to build Gen AI agentic solutions",
     "url": "https://github.com/datapizza-labs/datapizza-ai"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Framework",
+    "link_name": "Datapizza Buonanotte: Scientific Story Generator demonstrating DataPizza AI Agents",
+    "url": "https://github.com//massimilianobianchini/datapizza-buonanotte"
   },
   {
     "category": "Data Science",
@@ -5035,6 +5154,41 @@
   {
     "category": "Data Science",
     "topic": "Large Language Models (LLM)",
+    "section": "Libraries",
+    "link_name": "Llamafile: Distribute and run LLMs with a single file",
+    "url": "https://github.com/mozilla-ai/llamafile"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Libraries",
+    "link_name": "Agent Lightning: The absolute trainer to light up AI agents",
+    "url": "https://github.com/microsoft/agent-lightning"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Libraries",
+    "link_name": "FastAPI MCP: Expose your FastAPI endpoints as Model Context Protocol tools",
+    "url": "https://github.com/tadata-org/fastapi_mcp"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Libraries",
+    "link_name": "TOON: Token-Oriented Object Notation",
+    "url": "https://github.com/toon-format/toon"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Libraries",
+    "link_name": "Openskills: Skills assessment platform",
+    "url": "https://github.com/numman-ali/openskills"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
     "section": "MCP",
     "link_name": "ask-human MCP",
     "url": "https://github.com/Masony817/ask-human-mcp"
@@ -5073,6 +5227,20 @@
     "section": "MCP",
     "link_name": "Claude Skills are awesome, maybe a bigger deal than MCP",
     "url": "https://simonwillison.net/2025/Oct/16/claude-skills/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "MCP",
+    "link_name": "What If You Dont Need MCP",
+    "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "MCP",
+    "link_name": "No OAuth Required MCP Client AWS IAM",
+    "url": "https://dev.to/aws/no-oauth-required-an-mcp-client-for-aws-iam-k1o"
   },
   {
     "category": "Data Science",
@@ -5122,6 +5290,13 @@
     "section": "Prompt engineering",
     "link_name": "The Prompt Engineering Playbook For Programmers",
     "url": "https://addyo.substack.com/p/the-prompt-engineering-playbook-for"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Prompt engineering",
+    "link_name": "Promptz.dev",
+    "url": "https://www.promptz.dev/"
   },
   {
     "category": "Data Science",
@@ -5402,6 +5577,27 @@
     "section": null,
     "link_name": "Tour Of PyGAM: Generalized Additive Models",
     "url": "https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Machine Learning",
+    "section": null,
+    "link_name": "Crepes: Python package for conformal prediction",
+    "url": "https://github.com/henrikbostrom/crepes"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Machine Learning",
+    "section": null,
+    "link_name": "Awesome Conformal Prediction: Curated list of conformal prediction resources",
+    "url": "https://github.com/valeman/awesome-conformal-prediction"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Machine Learning",
+    "section": null,
+    "link_name": "Nonconform: Conformal prediction library",
+    "url": "https://github.com/OliverHennhoefer/nonconform"
   },
   {
     "category": "Data Science",
@@ -6228,6 +6424,13 @@
     "section": null,
     "link_name": "langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization",
     "url": "https://github.com/google/langextract"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
+    "section": null,
+    "link_name": "Linear Algebra Untranslatable Words",
+    "url": "https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable%22"
   },
   {
     "category": "Data Science",
@@ -7947,6 +8150,13 @@
   {
     "category": "Data Science",
     "topic": "Time Series",
+    "section": null,
+    "link_name": "Probabilistic Forecast Level Set Forecaster",
+    "url": "https://medium.com/@icvandenende/embrace-the-uncertainty-start-building-your-probabilistic-forecast-with-a-level-set-forecaster-or-c55d9f44f0c4"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
     "section": "Prophet",
     "link_name": "Is Facebook's \"Prophet\" the Time-Series Messiah, or Just a Very Naughty Boy?",
     "url": "https://www.microprediction.com/blog/prophet"
@@ -9255,6 +9465,13 @@
   },
   {
     "category": "Data Visualization",
+    "topic": "Geodata",
+    "section": null,
+    "link_name": "Mapterhorn.com",
+    "url": "https://mapterhorn.com/"
+  },
+  {
+    "category": "Data Visualization",
     "topic": "GUI",
     "section": null,
     "link_name": "Jupyter `pivottable_js`",
@@ -9329,6 +9546,48 @@
     "section": null,
     "link_name": "Quibbler: a toolset for building highly interactive, yet reproducible data analysis",
     "url": "https://github.com/Technion-Kishony-lab/quibbler"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Draggable Charts: Interactive chart library",
+    "url": "https://github.com/balexandermunoz/draggable-charts"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Python Interactive Plot Drag Drop",
+    "url": "https://stackoverflow.com/questions/65085638/python-interactive-plot-in-browser-drag-and-drop-arbitrary-elements"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Interactive Plot Gist",
+    "url": "https://gist.github.com/niclasmattsson/7bceb05fba6c71c78d507adae3d29417"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Interactive Plots Jupyter Draggable Points",
+    "url": "https://stackoverflow.com/questions/30207912/interactive-plots-in-jupyter-ipython-notebook-with-draggable-points-that-call"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Interactive Test Notebook",
+    "url": "https://nbviewer.org/github/maojrs/ipynotebooks/blob/master/interactive_test.ipynb"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Bqplot: 2-D plotting library for Project Jupyter",
+    "url": "https://github.com/bqplot/bqplot"
   },
   {
     "category": "Data Visualization",
@@ -11047,6 +11306,13 @@
   },
   {
     "category": "Education",
+    "topic": "Technical writing",
+    "section": null,
+    "link_name": "AI Wikis Docs Teather As A Service",
+    "url": "https://passo.uno/ai-wikis-docs-teather-as-a-service/"
+  },
+  {
+    "category": "Education",
     "topic": "Tools",
     "section": null,
     "link_name": "Periodic table of DevOps",
@@ -11159,6 +11425,48 @@
   },
   {
     "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Building CICD Pipeline Runner Python",
+    "url": "https://muhammadraza.me/2025/building-cicd-pipeline-runner-python/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "5 Non LLM Software Trends To Be Excited",
+    "url": "https://read.engineerscodex.com/p/5-non-llm-software-trends-to-be-excited"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "The Ear Does Not Do A Fourier Transform",
+    "url": "https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Tinkering A Lost Art",
+    "url": "https://seated.ro/blog/tinkering-a-lost-art"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Collaboration Sucks",
+    "url": "https://newsletter.posthog.com/p/collaboration-sucks"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Desk Treadmill",
+    "url": "https://www.ybrikman.com/blog/2025/10/30/desk-treadmill/"
+  },
+  {
+    "category": "Misc",
     "topic": "Game development",
     "section": null,
     "link_name": "Game Boy Development community",
@@ -11170,6 +11478,13 @@
     "section": null,
     "link_name": "Differences between software and hardware projects",
     "url": "https://stackoverflow.blog/2021/07/12/the-difference-between-software-and-hardware-projects/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Hardware",
+    "section": null,
+    "link_name": "Valetudo: Buying Supported Robots",
+    "url": "https://valetudo.cloud/pages/general/buying-supported-robots.html"
   },
   {
     "category": "Misc",
@@ -11377,6 +11692,13 @@
   {
     "category": "Misc",
     "topic": "Mathematics",
+    "section": null,
+    "link_name": "Kettenreihen: visualize functions",
+    "url": "https://kettenreihen.wordpress.com/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Mathematics",
     "section": "Fourier transform",
     "link_name": "Teach and learn Fourier transform geometrically",
     "url": "https://towardsdatascience.com/teach-and-learn-the-fourier-transform-geometrically-ce320f4200c9"
@@ -11551,6 +11873,13 @@
   },
   {
     "category": "Misc",
+    "topic": "Mathematics",
+    "section": "Hilbert spaces",
+    "link_name": "Hilbert Space Treating Functions As Vectors",
+    "url": "https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors"
+  },
+  {
+    "category": "Misc",
     "topic": "Physics",
     "section": null,
     "link_name": "Sound: a visual explanation",
@@ -11663,6 +11992,20 @@
   },
   {
     "category": "Python",
+    "topic": "Asynchronous Programming",
+    "section": null,
+    "link_name": "Python Async",
+    "url": "https://harshal.sheth.io/2025/09/12/python-async.html"
+  },
+  {
+    "category": "Python",
+    "topic": "Asynchronous Programming",
+    "section": null,
+    "link_name": "Wove: Beautiful Python async",
+    "url": "https://github.com/curvedinf/wove"
+  },
+  {
+    "category": "Python",
     "topic": "Audio recognition",
     "section": null,
     "link_name": "Kaldi and speech recognition",
@@ -11730,6 +12073,13 @@
     "section": null,
     "link_name": "Python Audio Transcription: Convert Speech to Text Locally",
     "url": "https://www.pavlinbg.com/posts/python-speech-to-text-guide"
+  },
+  {
+    "category": "Python",
+    "topic": "Audio recognition",
+    "section": null,
+    "link_name": "Beets: Media library management system for obsessive music geeks",
+    "url": "https://github.com/beetbox/beets"
   },
   {
     "category": "Python",
@@ -11807,6 +12157,13 @@
     "section": null,
     "link_name": "Rocketry: a modern statement-based scheduling framework for Python",
     "url": "https://github.com/Miksus/rocketry"
+  },
+  {
+    "category": "Python",
+    "topic": "Automate boring stuff",
+    "section": null,
+    "link_name": "Taskipy: The complementary task runner for python",
+    "url": "https://github.com/taskipy/taskipy"
   },
   {
     "category": "Python",
@@ -12839,6 +13196,34 @@
   },
   {
     "category": "Python",
+    "topic": "Functional programming",
+    "section": null,
+    "link_name": "Simplify Your Code Functional Core",
+    "url": "https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html"
+  },
+  {
+    "category": "Python",
+    "topic": "Functional programming",
+    "section": "Lenses",
+    "link_name": "Python Lenses Tutorial",
+    "url": "https://python-lenses.readthedocs.io/en/latest/tutorial/intro.html"
+  },
+  {
+    "category": "Python",
+    "topic": "Functional programming",
+    "section": "Lenses",
+    "link_name": "Python Lenses: A python lens library for manipulating deeply nested immutable structures",
+    "url": "https://github.com/ingolemo/python-lenses"
+  },
+  {
+    "category": "Python",
+    "topic": "Functional programming",
+    "section": "Lenses",
+    "link_name": "Accessors.jl Lenses",
+    "url": "https://juliaobjects.github.io/Accessors.jl/stable/lenses/"
+  },
+  {
+    "category": "Python",
     "topic": "Game development",
     "section": null,
     "link_name": "Pygame",
@@ -13186,6 +13571,13 @@
     "section": "nushell",
     "link_name": "nu-jupyter-kernel: a wip jupyter raw kernel for nu",
     "url": "https://github.com/cptpiepmatz/nu-jupyter-kernel"
+  },
+  {
+    "category": "Python",
+    "topic": "Jupyter",
+    "section": "Other notebooks",
+    "link_name": "Deepnote: Data notebook for the AI era",
+    "url": "https://github.com/deepnote/deepnote"
   },
   {
     "category": "Python",
@@ -13879,6 +14271,13 @@
     "section": null,
     "link_name": "PRegEx: Programmable Regular Expressions",
     "url": "https://github.com/manoss96/pregex"
+  },
+  {
+    "category": "Python",
+    "topic": "Regex",
+    "section": null,
+    "link_name": "Regex Pregex Pyparsing Text Pattern Matching Guide",
+    "url": "https://codecut.ai/regex-pregex-pyparsing-text-pattern-matching-guide/"
   },
   {
     "category": "Python",
@@ -15331,6 +15730,20 @@
   },
   {
     "category": "Python",
+    "topic": "Web App Framework",
+    "section": null,
+    "link_name": "FuncToWeb: Type hints → Web UI. Minimal-boilerplate web apps from Python functions",
+    "url": "https://github.com/offerrall/FuncToWeb"
+  },
+  {
+    "category": "Python",
+    "topic": "Web App Framework",
+    "section": null,
+    "link_name": "NiceGUI Goes 3.0",
+    "url": "https://talkpython.fm/episodes/show/525/nicegui-goes-3.0"
+  },
+  {
+    "category": "Python",
     "topic": "Web scraping",
     "section": null,
     "link_name": "Comparison between `BeatifulSoup`, `selenium` and `scrapy`",
@@ -15438,8 +15851,8 @@
     "category": "Tools",
     "topic": "Coding",
     "section": null,
-    "link_name": "5 Non LLM Software Trends To Be Excited",
-    "url": "https://read.engineerscodex.com/p/5-non-llm-software-trends-to-be-excited"
+    "link_name": "Codepen Demo",
+    "url": "https://codepen.io/meodai/full/zdgXJj/"
   },
   {
     "category": "Tools",
@@ -15510,6 +15923,13 @@
     "section": null,
     "link_name": "docker-py: a Python library for the Docker Engine API",
     "url": "https://github.com/docker/docker-py"
+  },
+  {
+    "category": "Tools",
+    "topic": "Docker",
+    "section": null,
+    "link_name": "Using Python Uv Inside Docker",
+    "url": "https://ashishb.net/programming/using-python-uv-inside-docker/"
   },
   {
     "category": "Tools",
@@ -15734,6 +16154,34 @@
     "section": null,
     "link_name": "Jujutsu For Busy Devs",
     "url": "https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs"
+  },
+  {
+    "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "Git Bisect",
+    "url": "https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html"
+  },
+  {
+    "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "Sourcegit: Opensource Git GUI client",
+    "url": "https://github.com/sourcegit-scm/sourcegit"
+  },
+  {
+    "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "Lazygit",
+    "url": "https://www.bwplotka.dev/2025/lazygit/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "Prek Installation",
+    "url": "https://prek.j178.dev/installation/"
   },
   {
     "category": "Tools",
@@ -16021,6 +16469,13 @@
     "section": null,
     "link_name": "Microsoft edit",
     "url": "https://github.com/microsoft/edit"
+  },
+  {
+    "category": "Tools",
+    "topic": "Misc",
+    "section": null,
+    "link_name": "Chemical Kinetics and Reaction Engineering notes via Typst",
+    "url": "https://github.com/Andrew-S-Rosen/cbe504"
   },
   {
     "category": "Tools",
@@ -16959,6 +17414,13 @@
     "section": "TypeScript",
     "link_name": "Total Typescript Essentials",
     "url": "https://www.totaltypescript.com/books/total-typescript-essentials/kickstart-your-typescript-setup"
+  },
+  {
+    "category": "Training",
+    "topic": "Programming Languages",
+    "section": "Wren",
+    "link_name": "Wren: a small, fast, class-based concurrent scripting language",
+    "url": "https://wren.io/"
   },
   {
     "category": "Training",
