@@ -41,6 +41,7 @@
 - [Time Series Anomaly Detection Taxonomy](https://github.com/boniolp/TSADtaxonomy)
 - [Graph-based Time Series Clustering Visualisation Tools](https://github.com/boniolp/graphit)
 - [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series](https://helios2.mi.parisdescartes.fr/~themisp/series2graph/)
+- [Theseus: Navigating the Labyrinth of Time Series Anomaly Detection](https://github.com/boniolp/Theseus)
 
 ## AutoML
 
@@ -170,6 +171,8 @@
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 - [Deepface: a Lightweight Face Recognition and Facial Attribute Analysis Library for Python](https://github.com/serengil/deepface)
 - [Writing My Own Dithering Algorithm in Racket](https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket)
+- [Deepinv: PyTorch library for solving imaging inverse problems using deep learning](https://github.com/deepinv/deepinv)
+- [Lightly Studio: Curate, Annotate, and Manage Your Data](https://github.com/lightly-ai/lightly-studio)
 
 ### Seam Carving
 
@@ -272,6 +275,9 @@
 - [fastembed: Fast, Accurate, Lightweight Python library to make State of the Art Embedding](https://github.com/qdrant/fastembed/)
 - [Text Embeddings: Comprehensive Guide](https://towardsdatascience.com/text-embeddings-comprehensive-guide-afd97fce8fb5)
 - [BERT is just a Single Text Diffusion Step](https://nathan.rs/posts/roberta-diffusion/)
+- [Embedding Atlas: Apple's embedding visualization tool](https://github.com/apple/embedding-atlas)
+- [Representation Engineering](https://vgel.me/posts/representation-engineering/)
+- [Repeng: Python library for generating control vectors with representation engineering](https://github.com/vgel/repeng)
 
 ## Energy and Power Systems
 
@@ -357,11 +363,12 @@
 - [UrbanMapper: Enrich Urban Layers Given Urban Datasets](https://github.com/VIDA-NYU/UrbanMapper)
 - [momepy: Urban Morphology Measuring Toolkit](https://github.com/pysal/momepy)
 - [city2graph: transform geospatial relations into graph representations](https://github.com/c2g-dev/city2graph)
+- [Polyline: Python implementation of Google's Encoded Polyline Algorithm Format](https://github.com/frederickjansen/polyline)
 
 ### Grids
 
-- [a5: pentagonal geospatial indexing system DGGS](https://github.com/felixpalmer/a5)
 - [Uber H3: Hexagonal hierarchical geospatial indexing system](https://github.com/uber/h3)
+- [A5: Global, equal-area, millimeter-accurate geospatial index](https://github.com/felixpalmer/a5)
 
 ### OpenStreetMap
 
@@ -438,6 +445,8 @@
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/)
 - [Why Generative AI Coding Tools and Agents Do Not Work For Me](https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-do-not-work-for-me)
 - [Micromanaged Driven Development: Build all your code with AI and keep full control](https://mmdd.dev/)
+- [Agentic Coding Intro](https://www.tweag.io/blog/2025-10-23-agentic-coding-intro/)
+- [Agentic Coding Handbook](https://tweag.github.io/agentic-coding-handbook/)
 
 ### Distillation
 
@@ -481,10 +490,14 @@
 - [36 Alternatives to LLM Context](https://www.cyberchitta.cc/articles/lc-alternatives.html)
 - [Boring is good](https://jenson.org/boring/)
 - [The security paradox of local LLMs](https://quesma.com/blog/local-llms-security-paradox/)
+- [Transformer Explainer: Interactive Learning of Text-Generative Models](https://github.com/poloclub/transformer-explainer)
+- [Text Tokens As Image Tokens](https://www.seangoedecke.com/text-tokens-as-image-tokens/)
+- [Spec Driven Development](https://ainativedev.io/news/spec-driven-development-10-things-you-need-to-know-about-specs)
 
 ### Foundation models
 
 - [Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting](https://github.com/time-series-foundation-models/lag-llama)
+- [Eurollm.io](https://eurollm.io/)
 
 ### Framework
 
@@ -496,6 +509,7 @@
 - [Open Source Frameworks for Building Generative AI Applications](https://github.com/danilop/oss-for-generative-ai)
 - [LangChain for EDA: Build a CSV Sanity-Check Agent in Python](https://towardsdatascience.com/langchain-for-eda-build-a-csv-sanity-check-agent-in-python/)
 - [Datapizza AI: a framework to build Gen AI agentic solutions](https://github.com/datapizza-labs/datapizza-ai)
+- [Datapizza Buonanotte: Scientific Story Generator demonstrating DataPizza AI Agents](https://github.com//massimilianobianchini/datapizza-buonanotte)
 
 ### Implementation
 
@@ -551,6 +565,11 @@
 - [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
 - [LLMs to Alloy](https://github.com/jacopotagliabue/LLMs-to-Alloy)
 - [Ollama Web search](https://ollama.com/blog/web-search)
+- [Llamafile: Distribute and run LLMs with a single file](https://github.com/mozilla-ai/llamafile)
+- [Agent Lightning: The absolute trainer to light up AI agents](https://github.com/microsoft/agent-lightning)
+- [FastAPI MCP: Expose your FastAPI endpoints as Model Context Protocol tools](https://github.com/tadata-org/fastapi_mcp)
+- [TOON: Token-Oriented Object Notation](https://github.com/toon-format/toon)
+- [Openskills: Skills assessment platform](https://github.com/numman-ali/openskills)
 
 ### MCP
 
@@ -560,6 +579,8 @@
 - [MCP As An Accidentally Universal Plugin](https://worksonmymachine.substack.com/p/mcp-an-accidentally-universal-plugin)
 - [Python MCP Server: Connect LLMs to Your Data](https://realpython.com/python-mcp/)
 - [Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/)
+- [What If You Dont Need MCP](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
+- [No OAuth Required MCP Client AWS IAM](https://dev.to/aws/no-oauth-required-an-mcp-client-for-aws-iam-k1o)
 
 ### Methods
 
@@ -573,6 +594,7 @@
 - [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
 - [Mastering Prompt Engineering](https://towardsdatascience.com/mastering-prompt-engineering-to-unleash-chatgpts-potential-9578a3fe799c)
 - [The Prompt Engineering Playbook For Programmers](https://addyo.substack.com/p/the-prompt-engineering-playbook-for)
+- [Promptz.dev](https://www.promptz.dev/)
 
 ### RAG
 
@@ -633,6 +655,9 @@
 - [scikit-survival: Survival analysis in Python](https://github.com/sebp/scikit-survival)
 - [tea-tasting: Statistical testing for A/B experiments](https://github.com/e10v/tea-tasting)
 - [Tour Of PyGAM: Generalized Additive Models](https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html)
+- [Crepes: Python package for conformal prediction](https://github.com/henrikbostrom/crepes)
+- [Awesome Conformal Prediction: Curated list of conformal prediction resources](https://github.com/valeman/awesome-conformal-prediction)
+- [Nonconform: Conformal prediction library](https://github.com/OliverHennhoefer/nonconform)
 
 ### Model evaluation
 
@@ -778,6 +803,7 @@
 - [semhash: fast Semantic Text Deduplication & Filtering](https://github.com/MinishLab/semhash)
 - [pyparsing: Python library for creating PEG parsers](https://github.com/pyparsing/pyparsing)
 - [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
+- [Linear Algebra Untranslatable Words](https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable%22)
 
 ### Topic modeling
 
@@ -1101,6 +1127,7 @@
 - [k-Graph: A Graph Embedding for Interpretable Time Series Clustering](https://github.com/boniolp/kGraph)
 - [Sequential Monte Carlo Learning for Time Series Structure Discovery](https://arxiv.org/pdf/2307.09607)
 - [AutoGP.jl: Automated Bayesian model discovery for time series data](https://github.com/probsys/AutoGP.jl)
+- [Probabilistic Forecast Level Set Forecaster](https://medium.com/@icvandenende/embrace-the-uncertainty-start-building-your-probabilistic-forecast-with-a-level-set-forecaster-or-c55d9f44f0c4)
 
 ### Prophet
 

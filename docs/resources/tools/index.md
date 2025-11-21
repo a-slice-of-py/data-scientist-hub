@@ -16,7 +16,7 @@
 ## Coding
 
 - [Carbon for code snapshots](https://carbon.now.sh/)
-- [5 Non LLM Software Trends To Be Excited](https://read.engineerscodex.com/p/5-non-llm-software-trends-to-be-excited)
+- [Codepen Demo](https://codepen.io/meodai/full/zdgXJj/)
 
 ## Cron
 
@@ -33,6 +33,7 @@
 - [Multi-stage Docker builds to reduce image size](https://medium.com/geekculture/using-multi-stage-builds-to-make-your-docker-image-almost-10x-smaller-239068cb6fb0)
 - [Reduce your load on PyPI by improving your Dockerfile](https://mkennedy.codes/posts/lets-go-easy-on-pypi-ok/)
 - [docker-py: a Python library for the Docker Engine API](https://github.com/docker/docker-py)
+- [Using Python Uv Inside Docker](https://ashishb.net/programming/using-python-uv-inside-docker/)
 
 ## Draw.io
 
@@ -74,6 +75,10 @@
 - [Tracing the evolution of a Python function with git log](https://nerderati.com/tracing-the-evolution-of-a-python-function-with-git-log/)
 - [gitingest: replace 'hub' with 'ingest' in any github url to get a prompt-friendly extract of a codebase](https://github.com/cyclotruc/gitingest)
 - [Jujutsu For Busy Devs](https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs)
+- [Git Bisect](https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html)
+- [Sourcegit: Opensource Git GUI client](https://github.com/sourcegit-scm/sourcegit)
+- [Lazygit](https://www.bwplotka.dev/2025/lazygit/)
+- [Prek Installation](https://prek.j178.dev/installation/)
 
 ## Github
 
@@ -148,6 +153,7 @@
 - [Datova Word Calculator](https://calc.datova.ai/)
 - [Itter: social media for purists](https://www.itter.sh/)
 - [Microsoft edit](https://github.com/microsoft/edit)
+- [Chemical Kinetics and Reaction Engineering notes via Typst](https://github.com/Andrew-S-Rosen/cbe504)
 
 ## Performance monitoring
 

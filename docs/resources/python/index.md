@@ -16,6 +16,8 @@
 - [Intro to asynchronous programming in Python](https://towardsdatascience.com/introduction-to-asynchronous-programming-in-python-3cd190748cd5)
 - [Understanding async, await and asyncio](https://towardsdatascience.com/understand-async-await-with-asyncio-for-asynchronous-programming-in-python-e0bc4d25808e)
 - [Sync vs. Async Python: What is the Difference?](https://blog.miguelgrinberg.com/post/sync-vs-async-python-what-is-the-difference)
+- [Python Async](https://harshal.sheth.io/2025/09/12/python-async.html)
+- [Wove: Beautiful Python async](https://github.com/curvedinf/wove)
 
 ## Audio recognition
 
@@ -29,6 +31,7 @@
 - [Amphion: An Open-Source Audio, Music, and Speech Generation Toolkit](https://github.com/open-mmlab/Amphion)
 - [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)
 - [Python Audio Transcription: Convert Speech to Text Locally](https://www.pavlinbg.com/posts/python-speech-to-text-guide)
+- [Beets: Media library management system for obsessive music geeks](https://github.com/beetbox/beets)
 
 ## Automate boring stuff
 
@@ -43,6 +46,7 @@
 - [Convert docx to HTML with `mammoth`](https://github.com/mwilliamson/python-mammoth)
 - [How to build a serverless automation to cross-post blog articles](https://www.readysetcloud.io/blog/allen.helton/how-i-built-a-serverless-automation-to-cross-post-my-blogs/)
 - [Rocketry: a modern statement-based scheduling framework for Python](https://github.com/Miksus/rocketry)
+- [Taskipy: The complementary task runner for python](https://github.com/taskipy/taskipy)
 
 ## Caching
 
@@ -259,6 +263,13 @@
 - [toolz: Functional programming utilities for Python](https://github.com/pytoolz/toolz)
 - [Trio: Python library for writing asynchronous applications](https://trio.readthedocs.io/en/stable/tutorial.html)
 - [Functional programming in DS projects](https://towardsdatascience.com/functional-programing-in-data-science-projects-c909c11138bb)
+- [Simplify Your Code Functional Core](https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html)
+
+### Lenses
+
+- [Python Lenses Tutorial](https://python-lenses.readthedocs.io/en/latest/tutorial/intro.html)
+- [Python Lenses: A python lens library for manipulating deeply nested immutable structures](https://github.com/ingolemo/python-lenses)
+- [Accessors.jl Lenses](https://juliaobjects.github.io/Accessors.jl/stable/lenses/)
 
 ## Game development
 
@@ -330,6 +341,10 @@
 ### nushell
 
 - [nu-jupyter-kernel: a wip jupyter raw kernel for nu](https://github.com/cptpiepmatz/nu-jupyter-kernel)
+
+### Other notebooks
+
+- [Deepnote: Data notebook for the AI era](https://github.com/deepnote/deepnote)
 
 ## Logging
 
@@ -489,6 +504,7 @@
 - [AutoRegex: from plain text to regex](https://www.autoregex.xyz/)
 - [How to Use Regular Expressions in Python](https://blog.appsignal.com/2025/01/15/how-to-use-regular-expressions-in-python.html)
 - [PRegEx: Programmable Regular Expressions](https://github.com/manoss96/pregex)
+- [Regex Pregex Pyparsing Text Pattern Matching Guide](https://codecut.ai/regex-pregex-pyparsing-text-pattern-matching-guide/)
 
 ## Scikit-learn
 
@@ -756,6 +772,8 @@
 - [plain: a web framework for building products with Python](https://github.com/dropseed/plain)
 - [bruno: Opensource IDE for exploring and testing APIs](https://github.com/usebruno/bruno)
 - [py-shiny: Shiny for Python web framework](https://github.com/posit-dev/py-shiny)
+- [FuncToWeb: Type hints → Web UI. Minimal-boilerplate web apps from Python functions](https://github.com/offerrall/FuncToWeb)
+- [NiceGUI Goes 3.0](https://talkpython.fm/episodes/show/525/nicegui-goes-3.0)
 
 ## Web scraping
 

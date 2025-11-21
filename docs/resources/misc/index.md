@@ -9,6 +9,12 @@
 - [Use singular nouns for database table names](https://www.teamten.com/lawrence/programming/use-singular-nouns-for-database-table-names.html)
 - [Python Violates PEP 8](https://inventwithpython.com/blog/sweigarts-law-of-pep-8-complaints.html)
 - [Maintain the unmaintainable: 1M python loc, 400+ models](https://huggingface.co/spaces/transformers-community/Transformers-tenets)
+- [Building CICD Pipeline Runner Python](https://muhammadraza.me/2025/building-cicd-pipeline-runner-python/)
+- [5 Non LLM Software Trends To Be Excited](https://read.engineerscodex.com/p/5-non-llm-software-trends-to-be-excited)
+- [The Ear Does Not Do A Fourier Transform](https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform)
+- [Tinkering A Lost Art](https://seated.ro/blog/tinkering-a-lost-art)
+- [Collaboration Sucks](https://newsletter.posthog.com/p/collaboration-sucks)
+- [Desk Treadmill](https://www.ybrikman.com/blog/2025/10/30/desk-treadmill/)
 
 ## Game development
 
@@ -17,6 +23,7 @@
 ## Hardware
 
 - [Differences between software and hardware projects](https://stackoverflow.blog/2021/07/12/the-difference-between-software-and-hardware-projects/)
+- [Valetudo: Buying Supported Robots](https://valetudo.cloud/pages/general/buying-supported-robots.html)
 
 ## Knowledge Management
 
@@ -56,6 +63,7 @@
 - [Systematizing Byrne's The Elements of Euclid](https://designsystems.international/ideas/byrne-euclid-systematization/)
 - [The Map of Mathematics](https://mathmap.quantamagazine.org/map/)
 - [Folks, we have the best π](https://lcamtuf.substack.com/p/folks-we-have-the-best)
+- [Kettenreihen: visualize functions](https://kettenreihen.wordpress.com/)
 
 ### Fourier transform
 
@@ -120,6 +128,10 @@
 ### Integrals
 
 - [100 years to solve an integral](https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html)
+
+### Hilbert spaces
+
+- [Hilbert Space Treating Functions As Vectors](https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors)
 
 ## Physics
 
