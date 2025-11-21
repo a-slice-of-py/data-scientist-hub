@@ -13,3 +13,4 @@
 - [The Good Docs Project](https://www.thegooddocsproject.dev/)
 - [Why writing small docs is a game changer](https://bufferbuffer.com/why-writing-small-docs-is-a-game-changer/)
 - [How to Write Blog Posts that Developers Read](https://refactoringenglish.com/chapters/write-blog-posts-developers-read/)
+- [AI Wikis Docs Teather As A Service](https://passo.uno/ai-wikis-docs-teather-as-a-service/)

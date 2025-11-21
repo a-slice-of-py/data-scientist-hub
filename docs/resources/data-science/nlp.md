@@ -39,6 +39,7 @@
 - [semhash: fast Semantic Text Deduplication & Filtering](https://github.com/MinishLab/semhash)
 - [pyparsing: Python library for creating PEG parsers](https://github.com/pyparsing/pyparsing)
 - [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
+- [Linear Algebra Untranslatable Words](https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable%22)
 
 ## Topic modeling
 

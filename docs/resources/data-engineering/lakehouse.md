@@ -2,6 +2,7 @@
 
 - [deltabase: a lightweight, comprehensive solution for managing delta tables built on polars and deltalake](https://github.com/uname-n/deltabase)
 - [strava-datastack: a modern Strava data pipeline fueled by dlt, duckdb, dbt, and evidence.dev](https://github.com/datadisciple/strava-datastack)
+- [Python is all you need: an overview of the composable, Python-native data stack](https://proceedings.scipy.org/articles/wjjm7869)
 
 ## Apache Iceberg
 

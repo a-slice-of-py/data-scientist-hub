@@ -27,11 +27,12 @@
 - [UrbanMapper: Enrich Urban Layers Given Urban Datasets](https://github.com/VIDA-NYU/UrbanMapper)
 - [momepy: Urban Morphology Measuring Toolkit](https://github.com/pysal/momepy)
 - [city2graph: transform geospatial relations into graph representations](https://github.com/c2g-dev/city2graph)
+- [Polyline: Python implementation of Google's Encoded Polyline Algorithm Format](https://github.com/frederickjansen/polyline)
 
 ## Grids
 
-- [a5: pentagonal geospatial indexing system DGGS](https://github.com/felixpalmer/a5)
 - [Uber H3: Hexagonal hierarchical geospatial indexing system](https://github.com/uber/h3)
+- [A5: Global, equal-area, millimeter-accurate geospatial index](https://github.com/felixpalmer/a5)
 
 ## OpenStreetMap
 

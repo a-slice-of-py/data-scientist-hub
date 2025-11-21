@@ -27,6 +27,8 @@
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/)
 - [Why Generative AI Coding Tools and Agents Do Not Work For Me](https://blog.miguelgrinberg.com/post/why-generative-ai-coding-tools-and-agents-do-not-work-for-me)
 - [Micromanaged Driven Development: Build all your code with AI and keep full control](https://mmdd.dev/)
+- [Agentic Coding Intro](https://www.tweag.io/blog/2025-10-23-agentic-coding-intro/)
+- [Agentic Coding Handbook](https://tweag.github.io/agentic-coding-handbook/)
 
 ## Distillation
 
@@ -70,10 +72,14 @@
 - [36 Alternatives to LLM Context](https://www.cyberchitta.cc/articles/lc-alternatives.html)
 - [Boring is good](https://jenson.org/boring/)
 - [The security paradox of local LLMs](https://quesma.com/blog/local-llms-security-paradox/)
+- [Transformer Explainer: Interactive Learning of Text-Generative Models](https://github.com/poloclub/transformer-explainer)
+- [Text Tokens As Image Tokens](https://www.seangoedecke.com/text-tokens-as-image-tokens/)
+- [Spec Driven Development](https://ainativedev.io/news/spec-driven-development-10-things-you-need-to-know-about-specs)
 
 ## Foundation models
 
 - [Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting](https://github.com/time-series-foundation-models/lag-llama)
+- [Eurollm.io](https://eurollm.io/)
 
 ## Framework
 
@@ -85,6 +91,7 @@
 - [Open Source Frameworks for Building Generative AI Applications](https://github.com/danilop/oss-for-generative-ai)
 - [LangChain for EDA: Build a CSV Sanity-Check Agent in Python](https://towardsdatascience.com/langchain-for-eda-build-a-csv-sanity-check-agent-in-python/)
 - [Datapizza AI: a framework to build Gen AI agentic solutions](https://github.com/datapizza-labs/datapizza-ai)
+- [Datapizza Buonanotte: Scientific Story Generator demonstrating DataPizza AI Agents](https://github.com//massimilianobianchini/datapizza-buonanotte)
 
 ## Implementation
 
@@ -140,6 +147,11 @@
 - [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
 - [LLMs to Alloy](https://github.com/jacopotagliabue/LLMs-to-Alloy)
 - [Ollama Web search](https://ollama.com/blog/web-search)
+- [Llamafile: Distribute and run LLMs with a single file](https://github.com/mozilla-ai/llamafile)
+- [Agent Lightning: The absolute trainer to light up AI agents](https://github.com/microsoft/agent-lightning)
+- [FastAPI MCP: Expose your FastAPI endpoints as Model Context Protocol tools](https://github.com/tadata-org/fastapi_mcp)
+- [TOON: Token-Oriented Object Notation](https://github.com/toon-format/toon)
+- [Openskills: Skills assessment platform](https://github.com/numman-ali/openskills)
 
 ## MCP
 
@@ -149,6 +161,8 @@
 - [MCP As An Accidentally Universal Plugin](https://worksonmymachine.substack.com/p/mcp-an-accidentally-universal-plugin)
 - [Python MCP Server: Connect LLMs to Your Data](https://realpython.com/python-mcp/)
 - [Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/)
+- [What If You Dont Need MCP](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
+- [No OAuth Required MCP Client AWS IAM](https://dev.to/aws/no-oauth-required-an-mcp-client-for-aws-iam-k1o)
 
 ## Methods
 
@@ -162,6 +176,7 @@
 - [Pushing Prompt Engineering to the Limit](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
 - [Mastering Prompt Engineering](https://towardsdatascience.com/mastering-prompt-engineering-to-unleash-chatgpts-potential-9578a3fe799c)
 - [The Prompt Engineering Playbook For Programmers](https://addyo.substack.com/p/the-prompt-engineering-playbook-for)
+- [Promptz.dev](https://www.promptz.dev/)
 
 ## RAG
 

@@ -42,3 +42,7 @@
 ## nushell
 
 - [nu-jupyter-kernel: a wip jupyter raw kernel for nu](https://github.com/cptpiepmatz/nu-jupyter-kernel)
+
+## Other notebooks
+
+- [Deepnote: Data notebook for the AI era](https://github.com/deepnote/deepnote)

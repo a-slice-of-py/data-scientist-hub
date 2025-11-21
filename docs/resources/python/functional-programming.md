@@ -12,3 +12,10 @@
 - [toolz: Functional programming utilities for Python](https://github.com/pytoolz/toolz)
 - [Trio: Python library for writing asynchronous applications](https://trio.readthedocs.io/en/stable/tutorial.html)
 - [Functional programming in DS projects](https://towardsdatascience.com/functional-programing-in-data-science-projects-c909c11138bb)
+- [Simplify Your Code Functional Core](https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html)
+
+## Lenses
+
+- [Python Lenses Tutorial](https://python-lenses.readthedocs.io/en/latest/tutorial/intro.html)
+- [Python Lenses: A python lens library for manipulating deeply nested immutable structures](https://github.com/ingolemo/python-lenses)
+- [Accessors.jl Lenses](https://juliaobjects.github.io/Accessors.jl/stable/lenses/)

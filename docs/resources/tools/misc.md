@@ -12,3 +12,4 @@
 - [Datova Word Calculator](https://calc.datova.ai/)
 - [Itter: social media for purists](https://www.itter.sh/)
 - [Microsoft edit](https://github.com/microsoft/edit)
+- [Chemical Kinetics and Reaction Engineering notes via Typst](https://github.com/Andrew-S-Rosen/cbe504)

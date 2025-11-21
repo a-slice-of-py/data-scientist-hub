@@ -38,3 +38,7 @@
 ## TypeScript
 
 - [Total Typescript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials/kickstart-your-typescript-setup)
+
+## Wren
+
+- [Wren: a small, fast, class-based concurrent scripting language](https://wren.io/)

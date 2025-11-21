@@ -11,3 +11,4 @@
 - [Convert docx to HTML with `mammoth`](https://github.com/mwilliamson/python-mammoth)
 - [How to build a serverless automation to cross-post blog articles](https://www.readysetcloud.io/blog/allen.helton/how-i-built-a-serverless-automation-to-cross-post-my-blogs/)
 - [Rocketry: a modern statement-based scheduling framework for Python](https://github.com/Miksus/rocketry)
+- [Taskipy: The complementary task runner for python](https://github.com/taskipy/taskipy)

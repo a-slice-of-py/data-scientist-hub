@@ -8,3 +8,4 @@
 - [System Design: ElasticSearch](https://towardsdatascience.com/system-design-cheatsheets-elasticsearch-673b98eebfff)
 - [Architecture based on feedback loops](https://aws.amazon.com/it/blogs/architecture/establishing-feedback-loops-based-on-the-aws-well-architected-framework-review/)
 - [Data Mesh vs Data Fabric: The Ultimate 2025 Comparison for Enterprise Architects](https://medium.com/@sauravkumarrajjoli/data-mesh-vs-data-fabric-key-differences-architecture-future-trends-2025-c69287b1ef07)
+- [Expand And Contract Pattern](https://www.prisma.io/dataguide/types/relational/expand-and-contract-pattern)

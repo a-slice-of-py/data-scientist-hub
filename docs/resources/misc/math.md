@@ -10,6 +10,7 @@
 - [Systematizing Byrne's The Elements of Euclid](https://designsystems.international/ideas/byrne-euclid-systematization/)
 - [The Map of Mathematics](https://mathmap.quantamagazine.org/map/)
 - [Folks, we have the best π](https://lcamtuf.substack.com/p/folks-we-have-the-best)
+- [Kettenreihen: visualize functions](https://kettenreihen.wordpress.com/)
 
 ## Fourier transform
 
@@ -74,3 +75,7 @@
 ## Integrals
 
 - [100 years to solve an integral](https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html)
+
+## Hilbert spaces
+
+- [Hilbert Space Treating Functions As Vectors](https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors)

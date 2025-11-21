@@ -10,3 +10,4 @@
 - [Amphion: An Open-Source Audio, Music, and Speech Generation Toolkit](https://github.com/open-mmlab/Amphion)
 - [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)
 - [Python Audio Transcription: Convert Speech to Text Locally](https://www.pavlinbg.com/posts/python-speech-to-text-guide)
+- [Beets: Media library management system for obsessive music geeks](https://github.com/beetbox/beets)

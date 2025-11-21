@@ -37,3 +37,4 @@
 - [Git Bisect](https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html)
 - [Sourcegit: Opensource Git GUI client](https://github.com/sourcegit-scm/sourcegit)
 - [Lazygit](https://www.bwplotka.dev/2025/lazygit/)
+- [Prek Installation](https://prek.j178.dev/installation/)

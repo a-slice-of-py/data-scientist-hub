@@ -9,6 +9,8 @@
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 - [Deepface: a Lightweight Face Recognition and Facial Attribute Analysis Library for Python](https://github.com/serengil/deepface)
 - [Writing My Own Dithering Algorithm in Racket](https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket)
+- [Deepinv: PyTorch library for solving imaging inverse problems using deep learning](https://github.com/deepinv/deepinv)
+- [Lightly Studio: Curate, Annotate, and Manage Your Data](https://github.com/lightly-ai/lightly-studio)
 
 ## Seam Carving
 
