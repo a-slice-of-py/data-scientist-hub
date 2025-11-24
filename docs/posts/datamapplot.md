@@ -14,6 +14,11 @@ In this post, I detail the design, development and final result of an interactiv
 
 <!-- more -->
 
+!!! tip "Main features"
+    - 🔬 You can zoom in and out with the mouse scroll wheel, inspecting labels at various zoom levels;
+    - 🔎 You can search keywords into the built-in search bar below the chart title;
+    - 🔗 You can click on a data point to open the corresponding link in your browser.
+
 <iframe width="900"
         height="650"
         scrolling="no"
@@ -23,16 +28,9 @@ In this post, I detail the design, development and final result of an interactiv
 
 ## Motivations
 
-I built DSH in late 2020 to give shape and structure(1) to all the interesting data-related links I came across, and I still find it really useful to have a curated collection of online resources that spans my professional and personal interests.(2)
-{ .annotate }
+I built DSH in late 2020 to give shape and structure[^1] to all the interesting data-related links I came across, and I still find it really useful to have a curated collection of online resources that spans my professional and personal interests.[^2]
 
-1. Despite I'm probably still feeding it also to placate a combination of [OCD](https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder) and [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out).
-2. Even if the idea of [delete everything](https://www.joanwestenberg.com/p/i-deleted-my-second-brain) starts to tickle me.
-
-The built-in search functionality of mkdocs-material already provides a good way to enable full-text search[^1] through DSH and has some good [configuration options](https://squidfunk.github.io/mkdocs-material/plugins/search/#search)(1), but in the LLM era, where most information retrieval tasks are performed through natural language and agentic interactions, a search bar without semantic search capabilities feels too limited.
-{ .annotate }
-
-1. And even some [tweaking](https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752) is available!
+The built-in search functionality of mkdocs-material already provides a good way to enable full-text search[^3] through DSH and has some good [configuration options](https://squidfunk.github.io/mkdocs-material/plugins/search/#search)[^4], but in the LLM era, where most information retrieval tasks are performed through natural language and agentic interactions, a search bar without semantic search capabilities feels too limited.
 
 Since I wanted to start simple and add complexity little by little, I decided to do some good old experimentation before unleashing a coding assistant with a still vague request such as _"please improve the search experience of my static website"_ (how? where? why?!).
 
@@ -98,7 +96,7 @@ After testing TF-IDF embeddings, I decided to take the chance to experiment with
 
     Here is a visual comparison between basic embeddings and model-distilled ones, after UMAP projection with Euclidean metric.
     
-    Both embedding models allow some clusters to emerge (e.g. the LLM "island"), but only the latter seems to guarantee a better separation between all the labelled categories.
+    Both embedding models allow some clusters to emerge (e.g. the LLM "island"), but only the latter seems to guarantee a better separation between all the labelled categories, see for example the separation between "Python" and "Data Science" in the two scenarios.
 
     /// html | div[style='float: left; width: 50%;']
     <figure markdown="span">
@@ -117,16 +115,27 @@ After testing TF-IDF embeddings, I decided to take the chance to experiment with
     /// html | div[style='clear: both;']
     ///
 
+??? question "Fun facts!"
+    After a first exploration of the embeddings produced via `potion-base-8M`, I couldn't wrap my head around this question:
+    
+    > why are MCMC points closer to MCP, LLM, and SVM clusters than to probability data points?
+    
+    ![](../assets/finder_acronym.png)
+
+    Then I suddenly realized that the embedding model captures the _semantics_ of input texts. But what kind of semantics does the sequence of letters "MCMC" represent on its own, without a broader and richer context?
+    
+    It's just an acronym!
+    
+    This likely explains why it is located near those clusters which are also close to other acronym-labelled clusters, such as WSL and YAML. Interestingly, the only cluster not labeled with an acronym yet semantically close to MCMC is labeled "Markov Chains." It's probable that in the training data these two frequently appeared together, so the "inference signal" remains strong even with minimal context.
+
 ### Query syntax
 
 I wanted the new search system to support the following features: be capable of excluding terms from the search _and_ restricting the search to given categories.
 
 For the first requirement, I chose a syntax loosely inspired by Google search: using `-` in a search query penalizes search results that match with the term which follows.
 
-!!! example annotate
-    The query `time -series` returns the most representative results (1) related to "time" but which have little or no semantic relationship with the term "series".
-
-1. With respect to cosine similarity between the query and the index embeddings.
+!!! example
+    The query `time -series` returns the most representative results[^5] related to "time" but which have little or no semantic relationship with the term "series".
 
 For the second requirement, I implemented a simple filter logic: using `#` in a search restricts the results to only those belonging to the specified categories.
 
@@ -180,14 +189,10 @@ Having used [BERTopic](https://github.com/MaartenGr/BERTopic) in recent years, I
 
 DataMapPlot is a powerful tool based on [deck.gl](https://github.com/visgl/deck.gl) to create stunning "enhanced scatterplot", both static and interactive, with a specific focus on text embeddings. I went for the interactive version of the plot with the following configuration:
 
-<div class="annotate" markdown>
-- the labels for the different level of resolution are, respectively, _category_, _topic_ and _section_ (see [above](#index-creation))(1);
+- the labels for the different level of resolution are, respectively, _category_, _topic_ and _section_ (see [above](#index-creation))[^6];
 - the hover text is the _link name_, and there is a binding on the `on_click` event to open the corresponding URL;
 - the in-plot search is enabled and performs the search versus the `link_name` field;
 - a selection handler can be triggered with ++shift+left-button++ to perform lasso selection and obtain 10 samples from the selected region, listed in a popup on the right side.
-</div>
-
-1. Labelling each link I add to DSH, despite all the time spent, seems now to have been a rewarding task!
 
 ### Search binding
 
@@ -206,9 +211,14 @@ As a last feature, I added a [`mo.ui.switch`](https://docs.marimo.io/api/inputs/
 I'm pretty happy with the final result, but I already have some additions in mind:
 
 1. experiments for a further [reduction of Minishlab models size](https://minish.ai/blog/2025-10-05-size-blogpost);
-2. embed the marimo app directly into DSH, to allow enhanced search online[^2];
+2. embed the marimo app directly into DSH, to allow enhanced search online[^7];
 3. compare the current implementation with a full BERTopic pipeline;
 4. integrate an LLM to further improve search experience.
 
-[^1]: This implementation is based on [lunr.py](https://github.com/yeraydiazdiaz/lunr.py).
-[^2]: Unfortunately, WASM-based embedding isn't a solution as of now, mainly because a lot of packages I used aren't available in [pyodide list](https://pyodide.org/en/stable/usage/packages-in-pyodide.html).
+[^1]: Despite I'm probably still feeding it also to placate a combination of [OCD](https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder) and [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out).
+[^2]: Even if the idea of [delete everything](https://www.joanwestenberg.com/p/i-deleted-my-second-brain) starts to tickle me.
+[^3]: This implementation is based on [lunr.py](https://github.com/yeraydiazdiaz/lunr.py).
+[^4]: And even some [tweaking](https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752) is available!
+[^5]: With respect to cosine similarity between the query and the index embeddings.
+[^6]: Labelling each link I add to DSH, despite all the time spent, seems now to have been a rewarding task!
+[^7]: Unfortunately, WASM-based embedding isn't a solution as of now, mainly because a lot of packages I used aren't available in [pyodide list](https://pyodide.org/en/stable/usage/packages-in-pyodide.html).
