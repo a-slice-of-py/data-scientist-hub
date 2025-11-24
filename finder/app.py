@@ -36,8 +36,8 @@ def _():
 
 
 @app.cell
-def _(pd):
-    df = pd.read_json("index.json")
+def _(mo, pd):
+    df = pd.read_json(mo.notebook_location() / "public" / "index.json")
     texts = (
         (
             df["category"]
@@ -66,13 +66,13 @@ def _(mo):
 
 
 @app.cell
-def _(StaticModel, learn_lite_text_embeddings, selected_model, texts):
+def _(StaticModel, learn_lite_text_embeddings, mo, selected_model, texts):
     if selected_model.value == "TF-IDF":
         embedder = learn_lite_text_embeddings(texts, dim=300)
         embeddings = embedder.transform(texts)
         handler = "transform"
     else:
-        embedder = StaticModel.from_pretrained("./potion")
+        embedder = StaticModel.from_pretrained(mo.notebook_location() / "public" / "potion")
         embeddings = embedder.encode(texts)
         handler = "encode"
     return embedder, embeddings, handler
@@ -230,7 +230,8 @@ def _(
 
 @app.cell
 def _(dmp):
-    dmp.save("./dsh_datamapplot.html")
+    if False:
+        dmp.save("../docs/assets/dsh_datamapplot.html")
     return
 
 
