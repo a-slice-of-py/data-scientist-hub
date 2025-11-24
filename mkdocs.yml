@@ -39,12 +39,14 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
+    - content.footnote.tooltips
     - navigation.indexes
     - navigation.tabs
     - navigation.top
     - navigation.tracking
     - navigation.sections
     - navigation.expand
+    - navigation.path
     - search.suggest
     - search.share
     - search.highlight
@@ -105,7 +107,7 @@ plugins:
       authors: true
       post_excerpt: required
   - tags:
-      tags_file: tags.md
+      tags_hierarchy: true
   - glightbox
   - git-revision-date-localized:
       enabled: !ENV [ENABLE_MKDOCS_PLUGIN, true]
