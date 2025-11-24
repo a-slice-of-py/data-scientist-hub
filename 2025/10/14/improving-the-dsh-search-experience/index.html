@@ -2192,7 +2192,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              6 min read
+                              7 min read
                             
                           </span>
                         </div>
@@ -2224,6 +2224,14 @@
 <p>In this post, I detail the design, development and final result of an interactive semantic search and visualization system for my personal knowledge center, built upon modern technologies like <a href="https://github.com/marimo-team/marimo">marimo</a>, <a href="https://github.com/MinishLab/model2vec">model2vec</a> and <a href="https://github.com/TutteInstitute/datamapplot">datamapplot</a>.</p>
 <!-- more -->
 
+<div class="admonition tip">
+<p class="admonition-title">Main features</p>
+<ul>
+<li>🔬 You can zoom in and out with the mouse scroll wheel, inspecting labels at various zoom levels;</li>
+<li>🔎 You can search keywords into the built-in search bar below the chart title;</li>
+<li>🔗 You can click on a data point to open the corresponding link in your browser.</li>
+</ul>
+</div>
 <iframe width="900"
         height="650"
         scrolling="no"
@@ -2232,15 +2240,8 @@
 </iframe>
 
 <h2 id="motivations">Motivations<a class="headerlink" href="#motivations" title="Permanent link">&para;</a></h2>
-<p class="annotate">I built DSH in late 2020 to give shape and structure(1) to all the interesting data-related links I came across, and I still find it really useful to have a curated collection of online resources that spans my professional and personal interests.(2)</p>
-<ol>
-<li>Despite I'm probably still feeding it also to placate a combination of <a href="https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder">OCD</a> and <a href="https://en.wikipedia.org/wiki/Fear_of_missing_out">FOMO</a>.</li>
-<li>Even if the idea of <a href="https://www.joanwestenberg.com/p/i-deleted-my-second-brain">delete everything</a> starts to tickle me.</li>
-</ol>
-<p class="annotate">The built-in search functionality of mkdocs-material already provides a good way to enable full-text search<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> through DSH and has some good <a href="https://squidfunk.github.io/mkdocs-material/plugins/search/#search">configuration options</a>(1), but in the LLM era, where most information retrieval tasks are performed through natural language and agentic interactions, a search bar without semantic search capabilities feels too limited.</p>
-<ol>
-<li>And even some <a href="https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752">tweaking</a> is available!</li>
-</ol>
+<p>I built DSH in late 2020 to give shape and structure<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> to all the interesting data-related links I came across, and I still find it really useful to have a curated collection of online resources that spans my professional and personal interests.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>The built-in search functionality of mkdocs-material already provides a good way to enable full-text search<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> through DSH and has some good <a href="https://squidfunk.github.io/mkdocs-material/plugins/search/#search">configuration options</a><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, but in the LLM era, where most information retrieval tasks are performed through natural language and agentic interactions, a search bar without semantic search capabilities feels too limited.</p>
 <p>Since I wanted to start simple and add complexity little by little, I decided to do some good old experimentation before unleashing a coding assistant with a still vague request such as <em>"please improve the search experience of my static website"</em> (how? where? why?!).</p>
 <h2 id="index-creation">Index creation<a class="headerlink" href="#index-creation" title="Permanent link">&para;</a></h2>
 <p>First of all, I had to extract all the links from the source Markdown files and put them in a more convenient format for data analysis.</p>
@@ -2292,7 +2293,7 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 <details class="question">
 <summary>What is the effect on 2D visualization?</summary>
 <p>Here is a visual comparison between basic embeddings and model-distilled ones, after UMAP projection with Euclidean metric.</p>
-<p>Both embedding models allow some clusters to emerge (e.g. the LLM "island"), but only the latter seems to guarantee a better separation between all the labelled categories.</p>
+<p>Both embedding models allow some clusters to emerge (e.g. the LLM "island"), but only the latter seems to guarantee a better separation between all the labelled categories, see for example the separation between "Python" and "Data Science" in the two scenarios.</p>
 <div style="float: left; width: 50%;">
 <p><figure markdown="span">
   <a class="glightbox" href="../../../../assets/finder_tfidf.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../assets/finder_tfidf.png" width="300" /></a>
@@ -2307,16 +2308,24 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 </div>
 <div style="clear: both;"></div>
 </details>
+<details class="question">
+<summary>Fun facts!</summary>
+<p>After a first exploration of the embeddings produced via <code>potion-base-8M</code>, I couldn't wrap my head around this question:</p>
+<blockquote>
+<p>why are MCMC points closer to MCP, LLM, and SVM clusters than to probability data points?</p>
+</blockquote>
+<p><a class="glightbox" href="../../../../assets/finder_acronym.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../assets/finder_acronym.png" /></a></p>
+<p>Then I suddenly realized that the embedding model captures the <em>semantics</em> of input texts. But what kind of semantics does the sequence of letters "MCMC" represent on its own, without a broader and richer context?</p>
+<p>It's just an acronym!</p>
+<p>This likely explains why it is located near those clusters which are also close to other acronym-labelled clusters, such as WSL and YAML. Interestingly, the only cluster not labeled with an acronym yet semantically close to MCMC is labeled "Markov Chains." It's probable that in the training data these two frequently appeared together, so the "inference signal" remains strong even with minimal context.</p>
+</details>
 <h3 id="query-syntax">Query syntax<a class="headerlink" href="#query-syntax" title="Permanent link">&para;</a></h3>
 <p>I wanted the new search system to support the following features: be capable of excluding terms from the search <em>and</em> restricting the search to given categories.</p>
 <p>For the first requirement, I chose a syntax loosely inspired by Google search: using <code>-</code> in a search query penalizes search results that match with the term which follows.</p>
-<div class="admonition example annotate">
+<div class="admonition example">
 <p class="admonition-title">Example</p>
-<p>The query <code>time -series</code> returns the most representative results (1) related to "time" but which have little or no semantic relationship with the term "series".</p>
+<p>The query <code>time -series</code> returns the most representative results<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> related to "time" but which have little or no semantic relationship with the term "series".</p>
 </div>
-<ol>
-<li>With respect to cosine similarity between the query and the index embeddings.</li>
-</ol>
 <p>For the second requirement, I implemented a simple filter logic: using <code>#</code> in a search restricts the results to only those belonging to the specified categories.</p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
@@ -2363,17 +2372,12 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 <p>Having used <a href="https://github.com/MaartenGr/BERTopic">BERTopic</a> in recent years, I chose <a href="https://github.com/lmcinnes/umap">UMAP</a> to project the high-dimensional embeddings into 2D and prepare them for visualization. Currently, the only hyperparameter customization has been the selection of <em>cosine</em> metric instead of euclidean one.</p>
 <h3 id="datamapplot">DataMapPlot<a class="headerlink" href="#datamapplot" title="Permanent link">&para;</a></h3>
 <p>DataMapPlot is a powerful tool based on <a href="https://github.com/visgl/deck.gl">deck.gl</a> to create stunning "enhanced scatterplot", both static and interactive, with a specific focus on text embeddings. I went for the interactive version of the plot with the following configuration:</p>
-<div class="annotate">
 <ul>
-<li>the labels for the different level of resolution are, respectively, <em>category</em>, <em>topic</em> and <em>section</em> (see <a href="#index-creation">above</a>)(1);</li>
+<li>the labels for the different level of resolution are, respectively, <em>category</em>, <em>topic</em> and <em>section</em> (see <a href="#index-creation">above</a>)<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>;</li>
 <li>the hover text is the <em>link name</em>, and there is a binding on the <code>on_click</code> event to open the corresponding URL;</li>
 <li>the in-plot search is enabled and performs the search versus the <code>link_name</code> field;</li>
 <li>a selection handler can be triggered with <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-left-button">Left Button</kbd></span> to perform lasso selection and obtain 10 samples from the selected region, listed in a popup on the right side.</li>
 </ul>
-</div>
-<ol>
-<li>Labelling each link I add to DSH, despite all the time spent, seems now to have been a rewarding task!</li>
-</ol>
 <h3 id="search-binding">Search binding<a class="headerlink" href="#search-binding" title="Permanent link">&para;</a></h3>
 <p>As a last feature, I added a <a href="https://docs.marimo.io/api/inputs/switch/#marimo.ui.switch"><code>mo.ui.switch</code></a> to optionally bind the plot with search results. The logic is simple:</p>
 <ul>
@@ -2389,7 +2393,7 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 <p>I'm pretty happy with the final result, but I already have some additions in mind:</p>
 <ol>
 <li>experiments for a further <a href="https://minish.ai/blog/2025-10-05-size-blogpost">reduction of Minishlab models size</a>;</li>
-<li>embed the marimo app directly into DSH, to allow enhanced search online<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>;</li>
+<li>embed the marimo app directly into DSH, to allow enhanced search online<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>;</li>
 <li>compare the current implementation with a full BERTopic pipeline;</li>
 <li>integrate an LLM to further improve search experience.</li>
 </ol>
@@ -2397,10 +2401,25 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
 <hr />
 <ol>
 <li id="fn:1">
-<p>This implementation is based on <a href="https://github.com/yeraydiazdiaz/lunr.py">lunr.py</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Despite I'm probably still feeding it also to placate a combination of <a href="https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder">OCD</a> and <a href="https://en.wikipedia.org/wiki/Fear_of_missing_out">FOMO</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>Unfortunately, WASM-based embedding isn't a solution as of now, mainly because a lot of packages I used aren't available in <a href="https://pyodide.org/en/stable/usage/packages-in-pyodide.html">pyodide list</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Even if the idea of <a href="https://www.joanwestenberg.com/p/i-deleted-my-second-brain">delete everything</a> starts to tickle me.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>This implementation is based on <a href="https://github.com/yeraydiazdiaz/lunr.py">lunr.py</a>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>And even some <a href="https://github.com/squidfunk/mkdocs-material/discussions/8116#discussioncomment-12632752">tweaking</a> is available!&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>With respect to cosine similarity between the query and the index embeddings.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Labelling each link I add to DSH, despite all the time spent, seems now to have been a rewarding task!&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Unfortunately, WASM-based embedding isn't a solution as of now, mainly because a lot of packages I used aren't available in <a href="https://pyodide.org/en/stable/usage/packages-in-pyodide.html">pyodide list</a>.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -2426,7 +2445,7 @@ Misc Mathematics, Topology: Community network detection with Ricci flow and surg
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-10-16T06:22:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-10-16</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-11-24T11:06:39+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-11-24</span>
   </span>
 
     
