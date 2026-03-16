@@ -1,4 +1,13 @@
 # /// script
+# dependencies = [
+#     "datamapplot==0.6.4",
+#     "marimo==0.16.2",
+#     "pandas==2.3.2",
+#     "umap-learn==0.5.9.post2",
+#     "scikit-learn==1.7.2",
+#     "embetter==0.8.0",
+#     "model2vec==0.6.0",
+# ]
 # [tool.marimo.display]
 # theme = "dark"
 # cell_output = "below"
@@ -14,6 +23,7 @@ app = marimo.App(width="full")
 def _():
     import re
     import os
+
     os.environ["UV_NO_CACHE"] = "true"
     import datamapplot
     import marimo as mo
@@ -23,6 +33,7 @@ def _():
     from model2vec import StaticModel
     from sklearn.metrics.pairwise import cosine_similarity
     from umap import UMAP
+
     return (
         StaticModel,
         UMAP,
@@ -72,7 +83,9 @@ def _(StaticModel, learn_lite_text_embeddings, mo, selected_model, texts):
         embeddings = embedder.transform(texts)
         handler = "transform"
     else:
-        embedder = StaticModel.from_pretrained(mo.notebook_location() / "public" / "potion")
+        embedder = StaticModel.from_pretrained(
+            mo.notebook_location() / "public" / "potion"
+        )
         embeddings = embedder.encode(texts)
         handler = "encode"
     return embedder, embeddings, handler
@@ -159,6 +172,7 @@ def _(mo, pd, terms_to_ignore):
                 ),
             ]
         )
+
     return (display_stat,)
 
 
@@ -191,6 +205,7 @@ def _(datamapplot, mo, pd):
                 n_samples=10
             ),
         )
+
     return (build_datamapplot,)
 
 
