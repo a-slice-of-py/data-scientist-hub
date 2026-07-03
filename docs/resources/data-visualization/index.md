@@ -80,6 +80,8 @@
 - [How to build a scroller](https://vallandingham.me/scroller.html)
 - [How to create an interactive scrolling visualization with D3.js](https://towardsdatascience.com/how-i-created-an-interactive-scrolling-visualisation-with-d3-js-and-how-you-can-too-e116372e2c73)
 - [Storytelling with maps and scrolling](https://towardsdatascience.com/presenting-spatial-data-interactively-by-scrolling-502df345dea6)
+- [Who earns a higher salary than you and the jobs they work](https://flowingdata.com/2025/12/02/who-makes-a-higher-salary-and-the-jobs-they-work/)
+- [Storied Colors: One color a day, told with its provenance and chemistry](https://storiedcolors.com/)
 
 ## Data Mapping
 
@@ -198,6 +200,11 @@
 - [starplot: star charts and maps in Python](https://github.com/steveberardi/starplot)
 - [geoviews: simple, concise geographical visualization in Python](https://github.com/holoviz/geoviews)
 - [Mapterhorn.com](https://mapterhorn.com/)
+- [gazetteer: A fast offline, boundary-aware reverse geocoding library in Python](https://github.com/SOORAJTS2001/gazetteer)
+- [geojson: Python bindings and utilities for GeoJSON](https://github.com/jazzband/geojson)
+- [Overture has fully embraced STAC](https://docs.overturemaps.org/blog/2026/02/11/stac/)
+- [Urban Taxonomy: Hierarchical morphotope classification](https://urbantaxonomy.org/)
+- [mappymatch: Pure-python package for map matching](https://github.com/NatLabRockies/mappymatch)
 
 ## GUI
 
@@ -220,6 +227,7 @@
 
 - [Andrews plot Wikipedia page](https://en.wikipedia.org/wiki/Andrews_plot)
 - [`pandas.plotting.andrews_curves`](https://pandas.pydata.org/docs/reference/api/pandas.plotting.andrews_curves.html)
+- [Understand-Anything: Turn any code into an interactive knowledge graph](https://github.com/Lum1104/Understand-Anything)
 
 ## Interactive visualizations
 
@@ -230,6 +238,7 @@
 - [Interactive Plots Jupyter Draggable Points](https://stackoverflow.com/questions/30207912/interactive-plots-in-jupyter-ipython-notebook-with-draggable-points-that-call)
 - [Interactive Test Notebook](https://nbviewer.org/github/maojrs/ipynotebooks/blob/master/interactive_test.ipynb)
 - [Bqplot: 2-D plotting library for Project Jupyter](https://github.com/bqplot/bqplot)
+- [Wigglystuff: Celltour example](https://koaning.github.io/wigglystuff/examples/celltour/)
 
 ## Javascript libraries
 
@@ -255,6 +264,7 @@
 ## Networks and graphs
 
 - [Ipysigma](https://github.com/medialab/ipysigma)
+- [Cosmograph: Visualization and analysis of large network graphs and ML embeddings](https://github.com/cosmograph-org/)
 
 ## Pie Charts
 
@@ -383,6 +393,9 @@
 - [Visprex: Visualise your CSV files in seconds without sending your data anywhere](https://github.com/visprex/visprex)
 - [Vistorian: Interactive Visualizations for Dynamic and Multivariate Networks](https://vistorian.github.io/vistorian/)
 - [Visualizing 100k Years Of Earth In WebGL](https://technistuff.com/posts/visualizing-100000-years-of-earth-in-webgl/)
+- [Open Visualization Academy](https://openvisualizationacademy.org/)
+- [kuva: A scientific plotting library in Rust](https://github.com/Psy-Fer/kuva)
+- [inkwash: Pen-and-ink with living water, single-file fluid ink drawing app](https://github.com/johnowhitaker/inkwash)
 
 ## Upset plot
 

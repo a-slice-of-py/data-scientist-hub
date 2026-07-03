@@ -49,6 +49,7 @@
 - [Introduction to data-centric A.I.](https://dcai.csail.mit.edu/)
 - [Machine Learning in Production @ Carnegie Mellon University](https://mlip-cmu.github.io/)
 - [Information Visualization by Beat Signer](https://wise.vub.ac.be/course/information-visualisation)
+- [CLAUDE.md for Stanford CS336 assignment](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md)
 
 ## Open Source Heroes
 

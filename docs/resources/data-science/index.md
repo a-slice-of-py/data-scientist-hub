@@ -42,12 +42,14 @@
 - [Graph-based Time Series Clustering Visualisation Tools](https://github.com/boniolp/graphit)
 - [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series](https://helios2.mi.parisdescartes.fr/~themisp/series2graph/)
 - [Theseus: Navigating the Labyrinth of Time Series Anomaly Detection](https://github.com/boniolp/Theseus)
+- [SQL Fraud Patterns](https://analytics.fixelsmith.com/posts/sql-fraud-patterns/)
 
 ## AutoML
 
 - [AutoML python libraries](https://towardsdatascience.com/4-python-automl-libraries-every-data-scientist-should-know-680ff5d6ad08)
 - [TPOT pipelines optimization with genetic algorithms](https://towardsdatascience.com/tpot-pipelines-optimization-with-genetic-algorithms-56ec44ef6ede)
 - [MLBox](https://github.com/AxeldeRomblay/MLBox)
+- [ml-intern: Open-source ML engineer that reads papers, trains and ships models](https://github.com/huggingface/ml-intern)
 
 ## Bayesian methods
 
@@ -148,6 +150,9 @@
 - [Unsupervised Learning Series: exploring DBScan](https://towardsdatascience.com/unsupervised-learning-series-exploring-dbscan-624c820290ce)
 - [Recursive Embedding and Clustering by Spotify](https://engineering.atspotify.com/2023/12/recursive-embedding-and-clustering/)
 - [How to properly cluster with HDBSCAN for 1D dataset](https://stackoverflow.com/questions/68644359/how-to-properly-cluster-with-hdbscan-for-1d-dataset)
+- [K-Means Clustering illustrated artwork (Allison Horst)](https://allisonhorst.com/k-means-clustering)
+- [EVoC: Embedding Vector Oriented Clustering](https://github.com/TutteInstitute/evoc)
+- [GraphHDBSCAN: CoreSG and GraphHDBSCAN implementation](https://github.com/Campello-Lab/GraphHDBSCAN)
 
 ## Code differentiation
 
@@ -159,6 +164,7 @@
 
 - [Louvain algorithm for community detection](https://towardsdatascience.com/louvains-algorithm-for-community-detection-in-python-95ff7f675306)
 - [Decoding the Manhattan Project's Network](https://towardsdatascience.com/decoding-the-manhattan-projects-network-unveiling-science-collaboration-and-human-legacy-418164a2b416)
+- [tda-mapper-python: Python implementation of Mapper algorithm for Topological Data Analysis](https://github.com/lucasimi/tda-mapper-python)
 
 ## Computer Vision
 
@@ -173,6 +179,7 @@
 - [Writing My Own Dithering Algorithm in Racket](https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket)
 - [Deepinv: PyTorch library for solving imaging inverse problems using deep learning](https://github.com/deepinv/deepinv)
 - [Lightly Studio: Curate, Annotate, and Manage Your Data](https://github.com/lightly-ai/lightly-studio)
+- [Floodfill algorithm in Python](https://mathspp.com/blog/floodfill-algorithm-in-python)
 
 ### Seam Carving
 
@@ -180,6 +187,9 @@
 - [Seam Carving explanation](https://karthikkaranth.me/blog/implementing-seam-carving-with-python/)
 - [Seam Carving explanation - II](https://andrewdcampbell.github.io/seam-carving)
 - [A super-fast Python implementation of seam carving algorithm for intelligent image resizing](https://github.com/li-plus/seam-carving)
+- [rembg: Tool to remove images background](https://github.com/danielgatis/rembg)
+- [LitePali: Lightweight ColPali-based document retrieval](https://litepali.com/)
+- [PixelRAG: The end of web parsing, the beginning of scalable pixel-native search](https://github.com/StarTrail-org/PixelRAG)
 
 ## Correlation
 
@@ -231,6 +241,7 @@
 - [Influcast: predizioni epidemiologiche](https://github.com/Predizioni-Epidemiologiche-Italia/Influcast)
 - [Python Data Commons: Unlock deeper insights with the new Python client library for Data Commons](https://developers.googleblog.com/en/pythondatacommons/)
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [Hacker News complete archive (dataset)](https://huggingface.co/datasets/open-index/hacker-news)
 
 ## Deep Learning
 
@@ -247,6 +258,10 @@
 - [Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMAP, and PaCMAP for Data Visualization](https://arxiv.org/abs/2012.04456)
 - [Why you should not rely on t-SNE, UMAP or TriMAP](https://towardsdatascience.com/why-you-should-not-rely-on-t-sne-umap-or-trimap-f8f5dc333e59/)
 - [PaCMAP: Large-scale Dimension Reduction Technique Preserving Both Global and Local Structure](https://github.com/YingfanWang/PaCMAP)
+- [UMAP Zoo: 3D Wavefront files projected into 2D with UMAP and THREE.js](https://duhaime.s3.amazonaws.com/apps/umap-zoo/index.html)
+- [PyMDE: Minimum-distortion embedding with PyTorch](https://github.com/cvxgrp/pymde)
+- [dtour: A tour-de-vis through high-dimensional data](https://github.com/flekschas/dtour)
+- [datatour_pkg: Watch your data in its native dimension](https://github.com/neworldemancer/datatour_pkg)
 
 ## Dynamic pricing
 
@@ -278,6 +293,11 @@
 - [Embedding Atlas: Apple's embedding visualization tool](https://github.com/apple/embedding-atlas)
 - [Representation Engineering](https://vgel.me/posts/representation-engineering/)
 - [Repeng: Python library for generating control vectors with representation engineering](https://github.com/vgel/repeng)
+- [E-MM1: Multimodal embedding model collection](https://huggingface.co/collections/encord-team/e-mm1)
+- [zvec: A lightweight, lightning-fast, in-process vector database](https://github.com/alibaba/zvec)
+- [turbovec: A vector index built on TurboQuant, written in Rust with Python bindings](https://github.com/RyanCodrai/turbovec)
+- [FUEL: Fast Unsupervised Embedding Learning](https://codeberg.org/erich_schubert/fuel)
+- [comparative-embedding-visualization: Jupyter widget for comparing two embeddings](https://github.com/OzetteTech/comparative-embedding-visualization)
 
 ## Energy and Power Systems
 
@@ -447,6 +467,30 @@
 - [Micromanaged Driven Development: Build all your code with AI and keep full control](https://mmdd.dev/)
 - [Agentic Coding Intro](https://www.tweag.io/blog/2025-10-23-agentic-coding-intro/)
 - [Agentic Coding Handbook](https://tweag.github.io/agentic-coding-handbook/)
+- [Vibe coding and agentic engineering are getting closer than I'd like](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
+- [Components of a coding agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+- [Structured-Prompt-Driven Development (Martin Fowler)](https://martinfowler.com/articles/structured-prompt-driven/)
+- [Stop Sloppy Pasta: Don't paste raw LLM output at people](https://stopsloppypasta.ai/)
+- [LLMs as writers (Oxide RFD 0576)](https://rfd.shared.oxide.computer/rfd/0576#_llms_as_writers)
+- [Writing skills that agents can actually execute](https://www.instructionmanuel.com/writing-skills-agents-can-execute)
+- [agent-skills: Production-grade engineering skills for AI coding agents](https://github.com/addyosmani/agent-skills)
+- [semble: Fast and accurate code search for agents](https://github.com/MinishLab/semble)
+- [kirograph: Semantic code knowledge graph for Kiro](https://github.com/davide-desio-eleva/kirograph)
+- [The Repo Is the Harness](https://lukasmasuch.com/blog/the-repo-is-the-harness/)
+- [sideseat: Unified workbench for building and debugging AI Agents](https://github.com/sideseat/sideseat)
+- [We solved trust for AI Agents in 1973](https://www.bauplanlabs.com/post/we-solved-trust-for-ai-agents-in-1973)
+- [syllago: Content management system for AI coding tools](https://github.com/OpenScribbler/syllago)
+- [caveman: Claude Code skill that cuts 65% of tokens by talking like caveman](https://github.com/JuliusBrussee/caveman)
+- [ponytail: Makes your AI agent think like the laziest senior dev in the room](https://github.com/DietrichGebert/ponytail)
+- [strands-agents/shell: Give your agent a shell without giving it the keys to your machine](https://github.com/strands-agents/shell)
+- [superpowers: An agentic skills framework and software development methodology](https://github.com/obra/superpowers)
+- [marimo-pair: Skills for AI coding agents with marimo](https://github.com/marimo-team/marimo-pair/tree/main/skills/marimo-pair)
+- [skills: Skills for Real Engineers (Matt Pocock)](https://github.com/mattpocock/skills)
+- [probabl-ai/skills: Data Science skills for AI agents](https://github.com/probabl-ai/skills)
+- [dictionary-of-ai-coding: AI coding jargon explained in plain English](https://github.com/mattpocock/dictionary-of-ai-coding)
+- [Library Skills](https://library-skills.io/)
+- [Requirements analysis: Catching requirement bugs before they become code (Kiro)](https://kiro.dev/blog/deep-spec-analysis/)
+- [spec-kit: Toolkit to get started with Spec-Driven Development](https://github.com/github/spec-kit)
 
 ### Distillation
 
@@ -493,6 +537,20 @@
 - [Transformer Explainer: Interactive Learning of Text-Generative Models](https://github.com/poloclub/transformer-explainer)
 - [Text Tokens As Image Tokens](https://www.seangoedecke.com/text-tokens-as-image-tokens/)
 - [Spec Driven Development](https://ainativedev.io/news/spec-driven-development-10-things-you-need-to-know-about-specs)
+- [microgpt.py (Karpathy's minimal GPT gist)](https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95)
+- [microgpt: A single file 200-line pure Python GPT](https://karpathy.github.io/2026/02/12/microgpt/)
+- [MicroGPT explained interactively](https://growingswe.com/blog/microgpt)
+- [How LLMs Work](https://ynarwal.github.io/how-llms-work/)
+- [Andrej Karpathy's LLM Wiki: Create your own knowledge base](https://medium.com/@urvvil08/andrej-karpathys-llm-wiki-create-your-own-knowledge-base-8779014accd5)
+- [llm-wiki (Karpathy gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [They're Made Out of Weights](https://maxleiter.com/blog/weights)
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- [Transformer Explainer: LLM Transformer model visually explained](https://poloclub.github.io/transformer-explainer/)
+- [Transformers from scratch (Brandon Rohrer)](https://www.brandonrohrer.org/transformers.html)
+- [Natural Language Autoencoders (Anthropic)](https://www.anthropic.com/research/natural-language-autoencoders)
+- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
+- [Emotion concepts and their function in a large language model (Transformer Circuits)](https://transformer-circuits.pub/2026/emotions/index.html)
+- [Emotion concepts and their function in a LLM (full paper PDF)](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
 
 ### Foundation models
 
@@ -570,6 +628,22 @@
 - [FastAPI MCP: Expose your FastAPI endpoints as Model Context Protocol tools](https://github.com/tadata-org/fastapi_mcp)
 - [TOON: Token-Oriented Object Notation](https://github.com/toon-format/toon)
 - [Openskills: Skills assessment platform](https://github.com/numman-ali/openskills)
+
+### Local inference
+
+- [So you wanna build a local RAG?](https://blog.yakkomajuri.com/blog/local-rag)
+- [How to use Ollama to run Large Language Models locally](https://realpython.com/ollama/)
+- [Running local models is good now](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
+- [LiteRT-LM: High-performance inference framework for LLMs on edge devices](https://github.com/google-ai-edge/LiteRT-LM?tab=readme-ov-file)
+- [kotaemon: Open-source RAG-based tool for chatting with your documents](https://github.com/Cinnamon/kotaemon)
+- [chonkie: Lightweight ingestion library for fast and robust RAG pipelines](https://github.com/chonkie-inc/chonkie)
+- [adaptive-chunking: Automatically select the best chunking method per document for RAG](https://github.com/ekimetrics/adaptive-chunking)
+- [I replaced vector DBs with Google's Memory Agent Pattern for my notes in Obsidian](https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-memory-agent-pattern-for-my-notes-in-obsidian/)
+- [ProtoGensis: Memory Agent Bedrock](https://github.com/ccrngd1/ProtoGensis/tree/main/memory-agent-bedrock)
+- [querychat: Natural language exploration of tabular data powered by SQL and LLMs](https://github.com/posit-dev/querychat/blob/main/pkg-py/README.md)
+- [Voxtral-4B-TTS-2603: Frontier open-weights text-to-speech model](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)
+- [kokoro-tts: CLI text-to-speech tool using the Kokoro model](https://github.com/nazdridoy/kokoro-tts)
+- [EngGPT2-16B-A3B: Sovereign, efficient and open Italian-language LLM](https://huggingface.co/engineering-group/EngGPT2-16B-A3B)
 
 ### MCP
 
@@ -701,6 +775,9 @@
 - [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)
 - [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
 - [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
+- [Demystifying table foundation models](https://blog.probabl.ai/demystifying-tfms)
+- [Scikit-learn Central: Packages and use cases](https://scikit-learn-central.probabl.ai/#catalog)
+- [timber: Ollama for classical ML, AOT compiler for XGBoost, LightGBM, scikit-learn models](https://github.com/kossisoroyce/timber)
 
 ## Marketing Analytics
 
@@ -804,6 +881,10 @@
 - [pyparsing: Python library for creating PEG parsers](https://github.com/pyparsing/pyparsing)
 - [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
 - [Linear Algebra Untranslatable Words](https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable%22)
+- [GLiNER2: Unified schema-based information extraction and text classification](https://github.com/fastino-ai/GLiNER2)
+- [Text classification with Python 3.14's zstd module](https://maxhalford.github.io/blog/text-classification-zstd/)
+- [Fast and easy Levenshtein distance using a Trie](https://stevehanov.ca/blog/fast-and-easy-levenshtein-distance-using-a-trie)
+- [mall: Use Large Language Models to run NLP operations against your data](https://mlverse.github.io/mall/)
 
 ### Topic modeling
 
@@ -820,6 +901,8 @@
 - [Turftopic: robust and fast topic models with sentence-transformers](https://github.com/x-tabdeveloping/turftopic)
 - [topicwizard: powerful topic model visualization in Python](https://github.com/x-tabdeveloping/topicwizard)
 - [Apache Solr: blazing-fast, open source, multi-modal search platform built on the full-text, vector, and geospatial search capabilities of Apache Lucene](https://solr.apache.org/)
+- [Tagging my blog posts with BERTopic and LLMs](https://vickiboykis.com/2026/05/18/tagging-my-blog-posts-with-bertopic-and-llms/)
+- [Topic modeling made just simple enough](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
 
 ## Objects tracking
 
@@ -862,6 +945,8 @@
 - [Artificial Bee Colony](http://www.scholarpedia.org/article/Artificial_bee_colony_algorithm)
 - [Particle Swarm Optimization](http://www.scholarpedia.org/article/Particle_swarm_optimization)
 - [Ant Colony Optimization](http://www.scholarpedia.org/article/Ant_colony_optimization)
+- [MIP formulations and linearizations (FICO Xpress)](https://www.fico.com/fico-xpress-optimization/docs/latest/mipform/dhtml/chap2s1.html)
+- [CPMpy: Constraint Programming and Modeling library in Python](https://github.com/CPMpy/cpmpy)
 
 ## Pattern mining
 
@@ -1023,6 +1108,7 @@
 - [Sampling with SQL](https://blog.moertel.com/posts/2024-08-23-sampling-with-sql.html)
 - [Outerbase Studio: A lightweight Database GUI in your browser](https://github.com/outerbase/studio)
 - [A faster way to copy SQLite databases between computers](https://alexwlchan.net/2025/copying-sqlite-databases/)
+- [SyntaQLite](https://lalitm.com/post/syntaqlite/)
 
 ## Streaming/Online Learning
 
@@ -1142,6 +1228,13 @@
 - [Greykite by Linkedin](https://github.com/linkedin/greykite)
 - [Intro to Greykite](https://towardsdatascience.com/linkedins-response-to-prophet-silverkite-and-greykite-4fd0131f64cb)
 - [Tuning a model in Greykite](https://levelup.gitconnected.com/tuning-a-forecasting-model-part-2-f7b4c5a54335)
+- [Skforecast Studio](https://studio.skforecast.org/)
+- [AutoML Time Series Forecast (FLAML)](https://microsoft.github.io//FLAML/docs/Examples/AutoML-Time%20series%20forecast)
+- [conformal-tights: Conformal prediction of coherent quantiles and intervals for scikit-learn](https://github.com/superlinear-ai/conformal-tights)
+- [pytrendy: Trend detection in Python for time series](https://github.com/RussellSB/pytrendy)
+- [scipy.signal.savgol_filter (SciPy documentation)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.savgol_filter.html)
+- [Time Series Smoothing (Streamlit app)](https://timeseriessmoothing.streamlit.app/)
+- [Six approaches to time series smoothing](https://medium.com/@dmitriy.bolotov/six-approaches-to-time-series-smoothing-cc3ea9d6b64f)
 
 ## Tree-based methods
 
@@ -1172,6 +1265,11 @@
 - [Gradient boosted trees explained](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-with-a-real-life-example-and-some-python-code-77cee4ccf5e)
 - [Maths and viz of Gradient Boosting](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
 - [Intuitive explanation of entropy](https://towardsdatascience.com/what-does-entropy-measure-an-intuitive-explanation-a7f7e5d16421)
+- [Decision Trees (MLU Explain)](https://mlu-explain.github.io/decision-tree/)
+
+## Water distribution networks
+
+- [EPyT-Flow: Python package for hydraulic and water quality scenario data of water distribution networks](https://github.com/WaterFutures/EPyT-Flow)
 
 ## Weather data
 
@@ -1204,4 +1302,7 @@
 - [FastTreeSHAP: speed up SHAP values computation for tree-based models](https://github.com/linkedin/fasttreeshap)
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
 - [PiML (Python Interpretable Machine Learning) toolbox for model development & diagnostics](https://github.com/SelfExplainML/PiML-Toolbox)
+- [imodels: Interpretable ML package for concise, transparent, and accurate predictive modeling](https://github.com/csinva/imodels)
+- [Responsible Machine Learning (MI2.AI)](https://rml.mi2.ai/)
+- [DALEX: moDel Agnostic Language for Exploration and eXplanation](https://github.com/ModelOriented/DALEX)
 

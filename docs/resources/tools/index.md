@@ -17,6 +17,8 @@
 
 - [Carbon for code snapshots](https://carbon.now.sh/)
 - [Codepen Demo](https://codepen.io/meodai/full/zdgXJj/)
+- [polyglot: Rust/Wasm-powered SQL transpiler for 30+ SQL dialects](https://github.com/tobilg/polyglot)
+- [pytm: A Pythonic framework for threat modeling](https://github.com/OWASP/pytm)
 
 ## Cron
 
@@ -79,12 +81,17 @@
 - [Sourcegit: Opensource Git GUI client](https://github.com/sourcegit-scm/sourcegit)
 - [Lazygit](https://www.bwplotka.dev/2025/lazygit/)
 - [Prek Installation](https://prek.j178.dev/installation/)
+- [prek: A fast Git hook manager written in Rust, drop-in alternative to pre-commit](https://github.com/j178/prek)
+- [The Git commands I run before reading any code](https://piechowski.io/post/git-commands-before-reading-code/)
+- [Scoped Commits](https://scopedcommits.com/)
 
 ## Github
 
 - [20 repositories for developers](https://towardsdatascience.com/20-amazing-github-repositories-every-developer-should-follow-d8ce4c728351)
 - [github1s: one second to read GitHub code with VS Code](https://github.com/conwnet/github1s)
 - [gitdiagram: visualize codebase as an interactive diagram](https://github.com/ahmedkhaleel2004/gitdiagram)
+- [grebedoc: Static site hosting for Git forges](https://grebedoc.dev/)
+- [statichost.eu: 100% European static site hosting](https://www.statichost.eu/)
 
 ## Google
 
@@ -107,6 +114,7 @@
 ## IDE
 
 - [Positron, a new Data Science IDE](https://posit.co/blog/positron-product-announcement-aug-2025/)
+- [VS Code accessibility voice](https://code.visualstudio.com/docs/configure/accessibility/voice)
 
 ## impress.js
 
@@ -134,10 +142,15 @@
 - [Formats Markdown tables to enforce consistent column widths](https://gitlab.com/russelldickenson/markdown-table-formatter)
 - [Rewrap Markdown paragraphs to the word wrap column setting](https://gitlab.com/russelldickenson/markdown-rewrap-paragraph)
 - [MyST: Community-driven tools for technical communication](https://mystmd.org/)
+- [Rill: a BI-as-code tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL](https://github.com/rilldata/rill)
 
 ### Other markup languages
 
 - [typst: a new markup-based typesetting system](https://github.com/typst/typst)
+- [mkslides: Turn markdown files into beautiful slides using Reveal.js](https://github.com/MartenBE/mkslides)
+- [quarkdown: Markdown with superpowers](https://github.com/iamgio/quarkdown)
+- [SDocs: Read, style, and share markdown files privately](https://github.com/espressoplease/SDocs)
+- [files.md: Private, quiet space for thinking with .md files](https://github.com/zakirullin/files.md)
 
 ## Misc
 
@@ -154,6 +167,9 @@
 - [Itter: social media for purists](https://www.itter.sh/)
 - [Microsoft edit](https://github.com/microsoft/edit)
 - [Chemical Kinetics and Reaction Engineering notes via Typst](https://github.com/Andrew-S-Rosen/cbe504)
+- [msgvault: Archive a lifetime of email and chat with offline search and analytics](https://github.com/wesm/msgvault)
+- [Hacker News Trends: Search and chart any topic over time](https://hackernewstrends.com/)
+- [spicytakes.org: Multi-blog archive and analysis platform](https://github.com/wesm/spicytakes.org)
 
 ## Performance monitoring
 
@@ -201,6 +217,15 @@
 - [The Guide to Hashing I Wish I Had When I Started](https://banjocode.com/post/cs/hashing/)
 - [The Ingredients of a Productive Monorepo](https://blog.swgillespie.me/posts/monorepo-ingredients/)
 - [Why Local-First Apps Haven’t Become Popular?](https://marcobambini.substack.com/p/why-local-first-apps-havent-become)
+- [TigerStyle: Safety, performance, experience](https://tigerstyle.dev/)
+- [You're not building Netflix: Stop coding like you are](https://dev.to/adamthedeveloper/youre-not-building-netflix-stop-coding-like-you-are-1707?)
+- [A sufficiently detailed spec is code](https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code)
+- [Browse code by meaning](https://haskellforall.com/2026/02/browse-code-by-meaning#user-content-fnref-1)
+- [semantic-navigator: Semantic project navigation](https://github.com/Gabriella439/semantic-navigator)
+- [Laws of Software Engineering](https://lawsofsoftwareengineering.com/)
+- [The Economics of Software Teams](https://www.viktorcessan.com/the-economics-of-software-teams/)
+- [A software library with no code](https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html)
+- [How do large companies manage CI/CD at scale](https://semaphore.io/how-do-large-companies-manage-ci-cd-at-scale)
 
 ## Terminal
 
@@ -218,6 +243,8 @@
 - ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
 - [ghostty: Fast, feature-rich, and cross-platform terminal emulator](https://github.com/ghostty-org/ghostty)
 - [helix: A post-modern modal text editor](https://github.com/helix-editor/helix)
+- [browsr: A pleasant file explorer in your terminal supporting all filesystems](https://github.com/juftin/browsr)
+- [zoxide: A smarter cd command](https://github.com/ajeetdsouza/zoxide)
 
 ## Visual Studio Code
 

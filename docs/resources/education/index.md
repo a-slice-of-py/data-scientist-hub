@@ -141,6 +141,8 @@
 - [Advanced Python Mastery: an exercise-driven course](https://github.com/dabeaz-course/python-mastery)
 - [Python Terminology: an unofficial glossary](https://www.pythonmorsels.com/terms/)
 - [Python Developer Tooling Handbook](https://pydevtools.com/blog/)
+- [Learn Python with Jupyter (PDF book)](https://www.learnpythonwithjupyter.com/assets/book/learn_python_with_jupyter.pdf)
+- [tricky-python: Tricky Python Quiz](https://github.com/adarshdigievo/tricky-python)
 
 ## Quantum Computing
 
@@ -164,6 +166,7 @@
 - [AI for Teachers: an Open Textbook](https://pressbooks.pub/aiforteachers/)
 - [Latex To](https://latex.to/)
 - [SymPy printing](https://docs.sympy.org/latest/tutorials/intro-tutorial/printing.html)
+- [Installing Tectonic: The Tectonic Typesetting System](https://tectonic-typesetting.github.io/en-US/install.html)
 
 ## Technical skills
 
@@ -199,6 +202,7 @@
 - [Why writing small docs is a game changer](https://bufferbuffer.com/why-writing-small-docs-is-a-game-changer/)
 - [How to Write Blog Posts that Developers Read](https://refactoringenglish.com/chapters/write-blog-posts-developers-read/)
 - [AI Wikis Docs Teather As A Service](https://passo.uno/ai-wikis-docs-teather-as-a-service/)
+- [Don't let AI write for you](https://alexhwoods.com/dont-let-ai-write-for-you/)
 
 ## Tools
 
@@ -208,6 +212,7 @@
 - [Google train ML teachable machine](https://teachablemachine.withgoogle.com/train)
 - [Orange Data Mining](https://github.com/biolab/orange3)
 - [Calcolatore dell'interesse Banca d'Italia](https://economiapertutti.bancaditalia.it/strumenti/calcolatori/calcolatore-dell-interesse/?dotcache=refresh)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 
 ## Videos
 

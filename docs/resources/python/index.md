@@ -32,6 +32,10 @@
 - [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)
 - [Python Audio Transcription: Convert Speech to Text Locally](https://www.pavlinbg.com/posts/python-speech-to-text-guide)
 - [Beets: Media library management system for obsessive music geeks](https://github.com/beetbox/beets)
+- [latent-musicvis: Music visualization via UMAP of stable audio latents](https://github.com/lyramakesmusic/latent-musicvis)
+- [pytheory: Music Theory for Humans](https://github.com/kennethreitz/pytheory)
+- [NumPy as Synth Engine](https://kennethreitz.org/essays/2026-03-29-numpy_as_synth_engine)
+- [renardo: Livecoding music with simple Python code](https://github.com/e-lie/renardo)
 
 ## Automate boring stuff
 
@@ -180,6 +184,8 @@
 - [Container data types](https://towardsdatascience.com/6-python-container-data-types-you-should-know-81dad6c4f61d)
 - [Python dictionaries on steroids with `munch`](https://github.com/Infinidat/munch)
 - [Format comparison for large datasets](https://towardsdatascience.com/how-to-handle-large-datasets-in-python-1f077a7e7ecf)
+- [Hidden cost of Python dictionaries and safer alternatives](https://codecut.ai/hidden-cost-python-dictionaries-safer-alternatives/)
+- [Your file system is already a graph database](https://rumproarious.com/2026/04/04/your-file-system-is-already-a-graph-database/)
 
 ## Data validation
 
@@ -188,6 +194,7 @@
 - [Joint usage of `hypothesis` and `pandera` to automatically create validation test examples](https://towardsdatascience.com/hypothesis-and-pandera-generate-synthesis-pandas-dataframe-for-testing-e5673c7bec2e)
 - [msgspec: a fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML](https://github.com/jcrist/msgspec)
 - [dataframely: a declarative, polars-native data frame validation library](https://github.com/Quantco/dataframely)
+- [Pydantic can do what?!](https://www.bitecode.dev/p/pydantic-can-do-what)
 
 ## Datatable
 
@@ -204,6 +211,7 @@
 - [Dependencies management](https://kolodziejj.info/articles/dependencies/)
 - [Python dependency management is a dumpster fire](https://nielscautaerts.xyz/python-dependency-management-is-a-dumpster-fire.html)
 - [PyPack Trends: compare Python package downloads over time](https://pypacktrends.com/)
+- [uv-docker-example: Best practices for using uv in Docker images](https://github.com/astral-sh/uv-docker-example/tree/main)
 
 ## Diagrams
 
@@ -220,6 +228,7 @@
 - [How to write an awesome readme](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
 - [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
 - [`pdoc`: API Documentation for Python projects](https://github.com/mitmproxy/pdoc)
+- [`great-docs`: Documentation sites for Python packages](https://github.com/posit-dev/great-docs)
 
 ### mkdocs
 
@@ -234,6 +243,7 @@
 - [mkapi: MkDocs plugin for automatic API documentation generation from Python docstrings](https://github.com/daizutabi/mkapi/)
 - [mkdocs MCP server](https://github.com/serverless-dna/mkdocs-mcp)
 - [mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs](https://github.com/douinc/mkdocs-mcp-plugin)
+- [bengal: High-performance static site generator for Python 3.14+](https://github.com/lbliii/bengal)
 
 ## DTale
 
@@ -270,6 +280,7 @@
 - [Python Lenses Tutorial](https://python-lenses.readthedocs.io/en/latest/tutorial/intro.html)
 - [Python Lenses: A python lens library for manipulating deeply nested immutable structures](https://github.com/ingolemo/python-lenses)
 - [Accessors.jl Lenses](https://juliaobjects.github.io/Accessors.jl/stable/lenses/)
+- [Build a Finite State Machine in Python](https://belderbos.dev/blog/build-finite-state-machine-python/)
 
 ## Game development
 
@@ -287,6 +298,8 @@
 - [DearPyGui: a modern, fast and powerful GUI framework for Python](https://github.com/hoffstadt/DearPyGui/)
 - [mininterface: a minimal interface to Python application (GUI, TUI, CLI, web)](https://github.com/CZ-NIC/mininterface)
 - [buttonpad: cross-platform GUI toolkit for a configurable grid of buttons](https://github.com/asweigart/buttonpad)
+- [PyWry: Cross-platform app factory and rendering engine for Python](https://github.com/deeleeramone/PyWry)
+- [imgui_bundle: Interactive Python and C++ apps for desktop, mobile, and web](https://github.com/pthom/imgui_bundle)
 
 ## Holidays
 
@@ -337,6 +350,10 @@
 - [Marimo](https://github.com/marimo-team/marimo)
 - [quak: a scalable data profiler](https://github.com/manzt/quak)
 - [marimo-snippets: JS snippet to send codeblock contents as a query string](https://github.com/marimo-team/marimo-snippets)
+- [TinyMo](https://taletskiy.com/blogs/tinymo/)
+- [marimo-jupyter-extension: Integrate marimo reactive notebooks into JupyterLab](https://github.com/marimo-team/marimo-jupyter-extension)
+- [marimo for learners](https://marimo.io/for-learners)
+- [wanderland: Interactive 3D learn-to-code playground for Python notebooks](https://github.com/ktaletsk/wanderland)
 
 ### nushell
 
@@ -449,6 +466,8 @@
 
 - [Narwhals: lightweight and extensible compatibility layer between dataframe libraries!](https://github.com/narwhals-dev/narwhals)
 - [How Narwhals and scikit-lego came together to achieve dataframe-agnosticism](https://labs.quansight.org/blog/scikit-lego-narwhals)
+- [What's new in pandas v3.0.0](https://pandas.pydata.org/docs/dev/whatsnew/v3.0.0.html)
+- [What Category Theory teaches us about DataFrames](https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/)
 
 ## Password Management
 
@@ -471,6 +490,7 @@
 ## Privacy
 
 - [Privacy for class attributes and methods](https://towardsdatascience.com/indication-and-hide-and-seek-privacy-of-attributes-in-python-classes-3f64f9d6da88)
+- [OpenAI Privacy Filter: Bidirectional token-classification model for PII detection](https://huggingface.co/openai/privacy-filter)
 
 ## Process simulation
 
@@ -486,6 +506,7 @@
 - [Pooch: a friend to fetch your data files](https://github.com/fatiando/pooch)
 - [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
 - [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
+- [projspec: A project about projects](https://github.com/fsspec/projspec)
 
 ### uv
 
@@ -496,6 +517,10 @@
 - [Pre Commit Install Uv](https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/)
 - [Python Recipes With UV](https://just.systems/man/en/python-recipes-with-uv.html)
 - [uv cheatsheet](https://mathspp.com/blog/uv-cheatsheet)
+- [How to build a Python library in 2026](https://stephenlf.dev/blog/python-library-in-2026/)
+- [pyOpenSci Python Package Guide](https://www.pyopensci.org/python-packages/)
+- [pypi-security-best-practices: PyPI security best practices for uv and pip](https://github.com/lirantal/pypi-security-best-practices)
+- [pypistats.org: PyPI downloads analytics dashboard](https://github.com/psf/pypistats.org)
 
 ## Regex
 
@@ -636,6 +661,9 @@
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 - [Streamlit components video tutorial](https://youtu.be/TqOGBOHHxrU)
 - [Streamlit tutorial app to build components](https://streamlit-components-tutorial.netlify.app/)
+- [streamlit-pivot-table: Pivot table component for Streamlit](https://github.com/streamlit/streamlit-pivot-table)
+- [Streamlit Extras: Discover, try, install and share Streamlit reusable bits](https://extras.streamlit.app/)
+- [Streamlit widget to host folder as website](https://github.com/streamlit/streamlit/issues/6195#issuecomment-3756251422)
 
 ## Strings
 
@@ -648,6 +676,7 @@
 
 - [PEP 636](https://peps.python.org/pep-0636/)
 - [Customising Pattern Matching Behaviour](https://blog.changs.co.uk/customising-pattern-matching-behaviour.html)
+- [Switch case in Python](https://www.pythonmorsels.com/switch-case-in-python/)
 
 ## Tensorflow
 
@@ -664,6 +693,7 @@
 - [`freezegun`: let your Python tests travel through time](https://github.com/spulec/freezegun)
 - [time-machine: travel through time in your tests](https://github.com/adamchainz/time-machine)
 - [locust: write scalable load tests in plain Python](https://github.com/locustio/locust)
+- [Better Python tests with inline-snapshot](https://pydantic.dev/articles/inline-snapshot)
 
 ### Unit tests
 
@@ -675,11 +705,17 @@
 - [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
 - [Python Mocking in Production](https://towardsdatascience.com/python-mocking-in-production-1924953c8a14)
 - [pytest-testmon: Pytest plugin for test selection based on code changes](https://github.com/tarpas/pytest-testmon)
+- [bigO: Measures empirical computational complexity of functions](https://github.com/plasma-umass/bigO)
+- [Unit testing your code's performance: Big-O scaling](https://pythonspeed.com/articles/big-o-tests/)
+- [Python Big-O: Time and space complexity](https://pythoncomplexity.com/)
+- [profiling-explorer: Table-based exploration tool for Python profiling data](https://github.com/adamchainz/profiling-explorer)
 
 ## Typing
 
 - [Comparing Pyrefly Vs Ty](https://blog.edward-li.com/tech/comparing-pyrefly-vs-ty/)
 - [How Well Do New Python Type Checkers Conform? A Deep Dive into Ty, Pyrefly, and Zuban](https://sinon.github.io/future-python-type-checkers/)
+- [ty: An extremely fast Python type checker and language server, written in Rust](https://github.com/astral-sh/ty)
+- [Are you really expected to run five type-checkers now?](https://pyrefly.org/blog/too-many-type-checkers/)
 
 ## Misc utils
 
@@ -716,6 +752,8 @@
 - [sff: CLI for semantic search on your computer](https://github.com/do-me/sff)
 - [Temporary files and directories in Python](https://heitorpb.github.io/bla/pytmp/)
 - [wetlands: Conda Environment Manager, a library to execute code in isolated environments](https://github.com/arthursw/wetlands)
+- [param: Declarative parameters for robust Python classes and reactive programming](https://github.com/holoviz/param)
+- [calgebra: Set operations for calendar intervals](https://github.com/ashenfad/calgebra)
 
 ## Python versions
 
@@ -774,6 +812,7 @@
 - [py-shiny: Shiny for Python web framework](https://github.com/posit-dev/py-shiny)
 - [FuncToWeb: Type hints → Web UI. Minimal-boilerplate web apps from Python functions](https://github.com/offerrall/FuncToWeb)
 - [NiceGUI Goes 3.0](https://talkpython.fm/episodes/show/525/nicegui-goes-3.0)
+- [htpy: Generate HTML in Python](https://github.com/pelme/htpy)
 
 ## Web scraping
 

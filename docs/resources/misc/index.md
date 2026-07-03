@@ -15,10 +15,21 @@
 - [Tinkering A Lost Art](https://seated.ro/blog/tinkering-a-lost-art)
 - [Collaboration Sucks](https://newsletter.posthog.com/p/collaboration-sucks)
 - [Desk Treadmill](https://www.ybrikman.com/blog/2025/10/30/desk-treadmill/)
+- [Thoughts on slowing the fuck down](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_2)
+- [AI makes you boring](https://www.marginalia.nu/log/a_132_ai_bores/)
+- [Grief and the AI split](https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/)
+- [The Eternal Sloptember](https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html)
+- [ai;dr](https://www.0xsid.com/blog/aidr)
+- [How the spreadsheet reshaped America](https://davidoks.blog/p/how-the-spreadsheet-reshaped-america)
+- [Good sleep, good learning, good life](https://super-memory.com/articles/sleep.htm)
+- [Webmentions with batteries included](https://blog.fabiomanganiello.com/article/webmentions-with-batteries-included)
+- [Thoughts (hmmz.org)](https://thoughts.hmmz.org/2026-05-31.html)
+- [How many products does Microsoft have named Copilot?](https://teybannerman.github.io/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html)
 
 ## Game development
 
 - [Game Boy Development community](https://gbdev.io/)
+- [loreline: Open-source scripting language for interactive fictions](https://github.com/jeremyfa/loreline)
 
 ## Hardware
 
@@ -50,6 +61,7 @@
 - [How to create Architectural Decision Records (ADRs) - and how not to](https://www.ozimmer.ch/practices/2023/04/03/ADRCreation.html)
 - [Enabling Hugo Static Site Search With Lunr.js](https://vickiboykis.com/2025/08/08/enabling-hugo-static-site-search-with-lunr.js/)
 - [I Deleted My Second Brain](https://www.joanwestenberg.com/p/i-deleted-my-second-brain)
+- [atomic: Self-hosted, semantically-connected personal knowledge base](https://github.com/kenforthewin/atomic)
 
 ## Mathematics
 
@@ -132,6 +144,8 @@
 ### Hilbert spaces
 
 - [Hilbert Space Treating Functions As Vectors](https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors)
+- [An interactive guide to the Fourier transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+- [passagemath: General purpose mathematical software, modularized fork of SageMath](https://github.com/passagemath/passagemath?tab=readme-ov-file)
 
 ## Physics
 

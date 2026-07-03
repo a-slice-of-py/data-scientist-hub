@@ -47,6 +47,11 @@
 - [Categories of leadership on technical teams](https://www.benkuhn.net/leadcats/)
 - [Staff Engineer vs Engineering Manager](https://blog.alexewerlof.com/p/staff-engineer-vs-engineering-manager)
 - [When Staff Engineer is an anti-pattern](https://blog.alexewerlof.com/p/when-staff-engineer-is-an-anti-pattern)
+- [What actually makes you senior](https://terriblesoftware.org/2025/11/25/what-actually-makes-you-senior/)
+- [Quanto guadagna un Data Scientist? Datapizza Salaries](https://salaries.datapizza.tech/152)
+- [The Revenge of the Data Scientist](https://hamel.dev/blog/posts/revenge/)
+- [NASA Elements of Engineering Excellence](https://vickiboykis.com/2026/04/05/nasa-elements-of-engineering-excellence/)
+- [Nobody gets promoted for simplicity](https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/)
 
 ## Conferences
 
