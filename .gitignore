@@ -3,3 +3,4 @@ __pycache__
 .obsidian
 *drawio.bkp
 finder/potion/*
+.env

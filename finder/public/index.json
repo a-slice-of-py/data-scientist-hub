@@ -14136,13 +14136,6 @@
     "category": "Python",
     "topic": "Documentation",
     "section": "mkdocs",
-    "link_name": "mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs",
-    "url": "https://github.com/douinc/mkdocs-mcp-plugin"
-  },
-  {
-    "category": "Python",
-    "topic": "Documentation",
-    "section": "mkdocs",
     "link_name": "bengal: High-performance static site generator for Python 3.14+",
     "url": "https://github.com/lbliii/bengal"
   },

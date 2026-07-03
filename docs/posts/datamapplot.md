@@ -8,7 +8,7 @@ categories:
 
 # Improving the DSH search experience
 
-Over the past few months, I've been increasingly thinking about how to improve the _usability_ of all the ~2500 resources I carefully curate here on DSH.
+Over the past few months, I've been increasingly thinking about how to improve the _usability_ of the thousands resources I carefully curate here on DSH.
 
 In this post, I detail the design, development and final result of an interactive semantic search and visualization system for my personal knowledge center, built upon modern technologies like [marimo](https://github.com/marimo-team/marimo), [model2vec](https://github.com/MinishLab/model2vec) and [datamapplot](https://github.com/TutteInstitute/datamapplot).
 
