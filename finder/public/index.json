@@ -30,6 +30,13 @@
   {
     "category": "AWS",
     "topic": "Services",
+    "section": "Bedrock",
+    "link_name": "Building Production-Ready AI Agents with Amazon Bedrock AgentCore",
+    "url": "https://skillbuilder.aws/learn/4G7V8NQB5B/building-productionready-ai-agents-with-amazon-bedrock-agentcore/7DY16CFWTC"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
     "section": "CDK",
     "link_name": "AWS CDK best practices",
     "url": "https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/"
@@ -240,6 +247,13 @@
   {
     "category": "AWS",
     "topic": "Services",
+    "section": "IAM",
+    "link_name": "Learn AWS IAM",
+    "url": "https://www.learnawsiam.com/"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
     "section": "Lambda",
     "link_name": "AWS Lambda power tuning",
     "url": "https://github.com/alexcasalboni/aws-lambda-power-tuning"
@@ -275,9 +289,37 @@
   {
     "category": "AWS",
     "topic": "Services",
+    "section": "Lambda",
+    "link_name": "AWS Lambda introduces MicroVMs: Run isolated sandboxes with full lifecycle control",
+    "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
+    "section": "Local emulators",
+    "link_name": "ministack: Free, open-source local AWS emulator with 55+ services",
+    "url": "https://github.com/ministackorg/ministack"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
+    "section": "Local emulators",
+    "link_name": "floci: Light, fluffy, and always free AWS local emulator",
+    "url": "https://github.com/floci-io/floci"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
     "section": "MCP",
     "link_name": "AWS MCP Servers: specialized MCP servers that bring AWS best practices directly to your development workflow",
     "url": "https://github.com/awslabs/mcp"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
+    "section": "Neptune",
+    "link_name": "nx-neptune: Graph analytics for your data lake, powered by Amazon Neptune Analytics",
+    "url": "https://github.com/awslabs/nx-neptune"
   },
   {
     "category": "AWS",
@@ -369,6 +411,13 @@
     "section": "Shell",
     "link_name": "AWS shell",
     "url": "https://github.com/awslabs/aws-shell"
+  },
+  {
+    "category": "AWS",
+    "topic": "Services",
+    "section": "Skills",
+    "link_name": "sample-well-architected-skills-and-steering: Skills that teach AI agents the AWS Well-Architected Framework",
+    "url": "https://github.com/aws-samples/sample-well-architected-skills-and-steering"
   },
   {
     "category": "AWS",
@@ -866,6 +915,41 @@
     "section": null,
     "link_name": "When Staff Engineer is an anti-pattern",
     "url": "https://blog.alexewerlof.com/p/when-staff-engineer-is-an-anti-pattern"
+  },
+  {
+    "category": "Career",
+    "topic": "Career development",
+    "section": null,
+    "link_name": "What actually makes you senior",
+    "url": "https://terriblesoftware.org/2025/11/25/what-actually-makes-you-senior/"
+  },
+  {
+    "category": "Career",
+    "topic": "Career development",
+    "section": null,
+    "link_name": "Quanto guadagna un Data Scientist? Datapizza Salaries",
+    "url": "https://salaries.datapizza.tech/152"
+  },
+  {
+    "category": "Career",
+    "topic": "Career development",
+    "section": null,
+    "link_name": "The Revenge of the Data Scientist",
+    "url": "https://hamel.dev/blog/posts/revenge/"
+  },
+  {
+    "category": "Career",
+    "topic": "Career development",
+    "section": null,
+    "link_name": "NASA Elements of Engineering Excellence",
+    "url": "https://vickiboykis.com/2026/04/05/nasa-elements-of-engineering-excellence/"
+  },
+  {
+    "category": "Career",
+    "topic": "Career development",
+    "section": null,
+    "link_name": "Nobody gets promoted for simplicity",
+    "url": "https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/"
   },
   {
     "category": "Career",
@@ -1905,6 +1989,20 @@
   },
   {
     "category": "Data Engineering",
+    "topic": "Database",
+    "section": "DuckDB",
+    "link_name": "duck_lineage: DuckDB extension that captures lineage events for executed queries",
+    "url": "https://github.com/ilum-cloud/duck_lineage"
+  },
+  {
+    "category": "Data Engineering",
+    "topic": "Database",
+    "section": "DuckDB",
+    "link_name": "The DuckDB Client-Server Protocol",
+    "url": "https://duckdb.org/2026/05/12/quack-remote-protocol.html"
+  },
+  {
+    "category": "Data Engineering",
     "topic": "ACID",
     "section": null,
     "link_name": "deltabase: a lightweight, comprehensive solution for managing delta tables built on polars and deltalake",
@@ -2213,6 +2311,20 @@
   },
   {
     "category": "Data Engineering",
+    "topic": "Tools",
+    "section": "Search engines",
+    "link_name": "Datakit: Browser-based data analysis platform that processes multi-gigabyte files locally",
+    "url": "https://github.com/datakitpage/datakit"
+  },
+  {
+    "category": "Data Engineering",
+    "topic": "Tools",
+    "section": "Search engines",
+    "link_name": "quak: A scalable data profiler",
+    "url": "https://github.com/manzt/quak"
+  },
+  {
+    "category": "Data Engineering",
     "topic": "Data Types",
     "section": null,
     "link_name": "The Mondrian introduction to functional optics",
@@ -2493,6 +2605,13 @@
   },
   {
     "category": "Data Science",
+    "topic": "Anomaly detection",
+    "section": null,
+    "link_name": "SQL Fraud Patterns",
+    "url": "https://analytics.fixelsmith.com/posts/sql-fraud-patterns/"
+  },
+  {
+    "category": "Data Science",
     "topic": "AutoML",
     "section": null,
     "link_name": "AutoML python libraries",
@@ -2511,6 +2630,13 @@
     "section": null,
     "link_name": "MLBox",
     "url": "https://github.com/AxeldeRomblay/MLBox"
+  },
+  {
+    "category": "Data Science",
+    "topic": "AutoML",
+    "section": null,
+    "link_name": "ml-intern: Open-source ML engineer that reads papers, trains and ships models",
+    "url": "https://github.com/huggingface/ml-intern"
   },
   {
     "category": "Data Science",
@@ -3067,6 +3193,27 @@
   },
   {
     "category": "Data Science",
+    "topic": "Clustering",
+    "section": null,
+    "link_name": "K-Means Clustering illustrated artwork (Allison Horst)",
+    "url": "https://allisonhorst.com/k-means-clustering"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Clustering",
+    "section": null,
+    "link_name": "EVoC: Embedding Vector Oriented Clustering",
+    "url": "https://github.com/TutteInstitute/evoc"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Clustering",
+    "section": null,
+    "link_name": "GraphHDBSCAN: CoreSG and GraphHDBSCAN implementation",
+    "url": "https://github.com/Campello-Lab/GraphHDBSCAN"
+  },
+  {
+    "category": "Data Science",
     "topic": "Code differentiation",
     "section": null,
     "link_name": "Differentiation from scratch",
@@ -3099,6 +3246,13 @@
     "section": null,
     "link_name": "Decoding the Manhattan Project's Network",
     "url": "https://towardsdatascience.com/decoding-the-manhattan-projects-network-unveiling-science-collaboration-and-human-legacy-418164a2b416"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Community detection",
+    "section": null,
+    "link_name": "tda-mapper-python: Python implementation of Mapper algorithm for Topological Data Analysis",
+    "url": "https://github.com/lucasimi/tda-mapper-python"
   },
   {
     "category": "Data Science",
@@ -3180,6 +3334,13 @@
   {
     "category": "Data Science",
     "topic": "Computer Vision",
+    "section": null,
+    "link_name": "Floodfill algorithm in Python",
+    "url": "https://mathspp.com/blog/floodfill-algorithm-in-python"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Computer Vision",
     "section": "Seam Carving",
     "link_name": "Seam Carving for Content-Aware Image Resizing paper",
     "url": "https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf"
@@ -3204,6 +3365,27 @@
     "section": "Seam Carving",
     "link_name": "A super-fast Python implementation of seam carving algorithm for intelligent image resizing",
     "url": "https://github.com/li-plus/seam-carving"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Computer Vision",
+    "section": "Seam Carving",
+    "link_name": "rembg: Tool to remove images background",
+    "url": "https://github.com/danielgatis/rembg"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Computer Vision",
+    "section": "Seam Carving",
+    "link_name": "LitePali: Lightweight ColPali-based document retrieval",
+    "url": "https://litepali.com/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Computer Vision",
+    "section": "Seam Carving",
+    "link_name": "PixelRAG: The end of web parsing, the beginning of scalable pixel-native search",
+    "url": "https://github.com/StarTrail-org/PixelRAG"
   },
   {
     "category": "Data Science",
@@ -3480,6 +3662,13 @@
   },
   {
     "category": "Data Science",
+    "topic": "Dataset",
+    "section": null,
+    "link_name": "Hacker News complete archive (dataset)",
+    "url": "https://huggingface.co/datasets/open-index/hacker-news"
+  },
+  {
+    "category": "Data Science",
     "topic": "Deep Learning",
     "section": null,
     "link_name": "D2L",
@@ -3547,6 +3736,34 @@
     "section": null,
     "link_name": "PaCMAP: Large-scale Dimension Reduction Technique Preserving Both Global and Local Structure",
     "url": "https://github.com/YingfanWang/PaCMAP"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "UMAP Zoo: 3D Wavefront files projected into 2D with UMAP and THREE.js",
+    "url": "https://duhaime.s3.amazonaws.com/apps/umap-zoo/index.html"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "PyMDE: Minimum-distortion embedding with PyTorch",
+    "url": "https://github.com/cvxgrp/pymde"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "dtour: A tour-de-vis through high-dimensional data",
+    "url": "https://github.com/flekschas/dtour"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Dimensionality Reduction",
+    "section": null,
+    "link_name": "datatour_pkg: Watch your data in its native dimension",
+    "url": "https://github.com/neworldemancer/datatour_pkg"
   },
   {
     "category": "Data Science",
@@ -3722,6 +3939,41 @@
     "section": null,
     "link_name": "Repeng: Python library for generating control vectors with representation engineering",
     "url": "https://github.com/vgel/repeng"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "E-MM1: Multimodal embedding model collection",
+    "url": "https://huggingface.co/collections/encord-team/e-mm1"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "zvec: A lightweight, lightning-fast, in-process vector database",
+    "url": "https://github.com/alibaba/zvec"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "turbovec: A vector index built on TurboQuant, written in Rust with Python bindings",
+    "url": "https://github.com/RyanCodrai/turbovec"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "FUEL: Fast Unsupervised Embedding Learning",
+    "url": "https://codeberg.org/erich_schubert/fuel"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Embeddings",
+    "section": null,
+    "link_name": "comparative-embedding-visualization: Jupyter widget for comparing two embeddings",
+    "url": "https://github.com/OzetteTech/comparative-embedding-visualization"
   },
   {
     "category": "Data Science",
@@ -4475,6 +4727,174 @@
   {
     "category": "Data Science",
     "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Vibe coding and agentic engineering are getting closer than I'd like",
+    "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Components of a coding agent",
+    "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Structured-Prompt-Driven Development (Martin Fowler)",
+    "url": "https://martinfowler.com/articles/structured-prompt-driven/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Stop Sloppy Pasta: Don't paste raw LLM output at people",
+    "url": "https://stopsloppypasta.ai/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "LLMs as writers (Oxide RFD 0576)",
+    "url": "https://rfd.shared.oxide.computer/rfd/0576#_llms_as_writers"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Writing skills that agents can actually execute",
+    "url": "https://www.instructionmanuel.com/writing-skills-agents-can-execute"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "agent-skills: Production-grade engineering skills for AI coding agents",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "semble: Fast and accurate code search for agents",
+    "url": "https://github.com/MinishLab/semble"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "kirograph: Semantic code knowledge graph for Kiro",
+    "url": "https://github.com/davide-desio-eleva/kirograph"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "The Repo Is the Harness",
+    "url": "https://lukasmasuch.com/blog/the-repo-is-the-harness/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "sideseat: Unified workbench for building and debugging AI Agents",
+    "url": "https://github.com/sideseat/sideseat"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "We solved trust for AI Agents in 1973",
+    "url": "https://www.bauplanlabs.com/post/we-solved-trust-for-ai-agents-in-1973"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "syllago: Content management system for AI coding tools",
+    "url": "https://github.com/OpenScribbler/syllago"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "caveman: Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "url": "https://github.com/JuliusBrussee/caveman"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "ponytail: Makes your AI agent think like the laziest senior dev in the room",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "strands-agents/shell: Give your agent a shell without giving it the keys to your machine",
+    "url": "https://github.com/strands-agents/shell"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "superpowers: An agentic skills framework and software development methodology",
+    "url": "https://github.com/obra/superpowers"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "marimo-pair: Skills for AI coding agents with marimo",
+    "url": "https://github.com/marimo-team/marimo-pair/tree/main/skills/marimo-pair"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "skills: Skills for Real Engineers (Matt Pocock)",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "probabl-ai/skills: Data Science skills for AI agents",
+    "url": "https://github.com/probabl-ai/skills"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "dictionary-of-ai-coding: AI coding jargon explained in plain English",
+    "url": "https://github.com/mattpocock/dictionary-of-ai-coding"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Library Skills",
+    "url": "https://library-skills.io/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "Requirements analysis: Catching requirement bugs before they become code (Kiro)",
+    "url": "https://kiro.dev/blog/deep-spec-analysis/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Coding assistant",
+    "link_name": "spec-kit: Toolkit to get started with Spec-Driven Development",
+    "url": "https://github.com/github/spec-kit"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
     "section": "Distillation",
     "link_name": "Model2Vec: Distill a Small Fast Model from any Sentence Transformer",
     "url": "https://huggingface.co/blog/Pringled/model2vec"
@@ -4730,6 +5150,104 @@
     "section": "Explanation",
     "link_name": "Spec Driven Development",
     "url": "https://ainativedev.io/news/spec-driven-development-10-things-you-need-to-know-about-specs"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "microgpt.py (Karpathy's minimal GPT gist)",
+    "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "microgpt: A single file 200-line pure Python GPT",
+    "url": "https://karpathy.github.io/2026/02/12/microgpt/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "MicroGPT explained interactively",
+    "url": "https://growingswe.com/blog/microgpt"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "How LLMs Work",
+    "url": "https://ynarwal.github.io/how-llms-work/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Andrej Karpathy's LLM Wiki: Create your own knowledge base",
+    "url": "https://medium.com/@urvvil08/andrej-karpathys-llm-wiki-create-your-own-knowledge-base-8779014accd5"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "llm-wiki (Karpathy gist)",
+    "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "They're Made Out of Weights",
+    "url": "https://maxleiter.com/blog/weights"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "The Illustrated Transformer",
+    "url": "https://jalammar.github.io/illustrated-transformer/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Transformer Explainer: LLM Transformer model visually explained",
+    "url": "https://poloclub.github.io/transformer-explainer/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Transformers from scratch (Brandon Rohrer)",
+    "url": "https://www.brandonrohrer.org/transformers.html"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Natural Language Autoencoders (Anthropic)",
+    "url": "https://www.anthropic.com/research/natural-language-autoencoders"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Emotion concepts and their function in a large language model",
+    "url": "https://www.anthropic.com/research/emotion-concepts-function"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Emotion concepts and their function in a large language model (Transformer Circuits)",
+    "url": "https://transformer-circuits.pub/2026/emotions/index.html"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Explanation",
+    "link_name": "Emotion concepts and their function in a LLM (full paper PDF)",
+    "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf"
   },
   {
     "category": "Data Science",
@@ -5185,6 +5703,97 @@
     "section": "Libraries",
     "link_name": "Openskills: Skills assessment platform",
     "url": "https://github.com/numman-ali/openskills"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "So you wanna build a local RAG?",
+    "url": "https://blog.yakkomajuri.com/blog/local-rag"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "How to use Ollama to run Large Language Models locally",
+    "url": "https://realpython.com/ollama/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "Running local models is good now",
+    "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "LiteRT-LM: High-performance inference framework for LLMs on edge devices",
+    "url": "https://github.com/google-ai-edge/LiteRT-LM?tab=readme-ov-file"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "kotaemon: Open-source RAG-based tool for chatting with your documents",
+    "url": "https://github.com/Cinnamon/kotaemon"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "chonkie: Lightweight ingestion library for fast and robust RAG pipelines",
+    "url": "https://github.com/chonkie-inc/chonkie"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "adaptive-chunking: Automatically select the best chunking method per document for RAG",
+    "url": "https://github.com/ekimetrics/adaptive-chunking"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "I replaced vector DBs with Google's Memory Agent Pattern for my notes in Obsidian",
+    "url": "https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-memory-agent-pattern-for-my-notes-in-obsidian/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "ProtoGensis: Memory Agent Bedrock",
+    "url": "https://github.com/ccrngd1/ProtoGensis/tree/main/memory-agent-bedrock"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "querychat: Natural language exploration of tabular data powered by SQL and LLMs",
+    "url": "https://github.com/posit-dev/querychat/blob/main/pkg-py/README.md"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "Voxtral-4B-TTS-2603: Frontier open-weights text-to-speech model",
+    "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "kokoro-tts: CLI text-to-speech tool using the Kokoro model",
+    "url": "https://github.com/nazdridoy/kokoro-tts"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Large Language Models (LLM)",
+    "section": "Local inference",
+    "link_name": "EngGPT2-16B-A3B: Sovereign, efficient and open Italian-language LLM",
+    "url": "https://huggingface.co/engineering-group/EngGPT2-16B-A3B"
   },
   {
     "category": "Data Science",
@@ -5839,6 +6448,27 @@
   },
   {
     "category": "Data Science",
+    "topic": "Machine Learning",
+    "section": "MLOps",
+    "link_name": "Demystifying table foundation models",
+    "url": "https://blog.probabl.ai/demystifying-tfms"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Machine Learning",
+    "section": "MLOps",
+    "link_name": "Scikit-learn Central: Packages and use cases",
+    "url": "https://scikit-learn-central.probabl.ai/#catalog"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Machine Learning",
+    "section": "MLOps",
+    "link_name": "timber: Ollama for classical ML, AOT compiler for XGBoost, LightGBM, scikit-learn models",
+    "url": "https://github.com/kossisoroyce/timber"
+  },
+  {
+    "category": "Data Science",
     "topic": "Marketing Analytics",
     "section": null,
     "link_name": "Beginner guide to Marketing Analytics",
@@ -6435,6 +7065,34 @@
   {
     "category": "Data Science",
     "topic": "Natural Language Processing (NLP)",
+    "section": null,
+    "link_name": "GLiNER2: Unified schema-based information extraction and text classification",
+    "url": "https://github.com/fastino-ai/GLiNER2"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
+    "section": null,
+    "link_name": "Text classification with Python 3.14's zstd module",
+    "url": "https://maxhalford.github.io/blog/text-classification-zstd/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
+    "section": null,
+    "link_name": "Fast and easy Levenshtein distance using a Trie",
+    "url": "https://stevehanov.ca/blog/fast-and-easy-levenshtein-distance-using-a-trie"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
+    "section": null,
+    "link_name": "mall: Use Large Language Models to run NLP operations against your data",
+    "url": "https://mlverse.github.io/mall/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
     "section": "Topic modeling",
     "link_name": "Concept modeling to link text and images",
     "url": "https://github.com/MaartenGr/concept"
@@ -6522,6 +7180,20 @@
     "section": "Topic modeling",
     "link_name": "Apache Solr: blazing-fast, open source, multi-modal search platform built on the full-text, vector, and geospatial search capabilities of Apache Lucene",
     "url": "https://solr.apache.org/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
+    "section": "Topic modeling",
+    "link_name": "Tagging my blog posts with BERTopic and LLMs",
+    "url": "https://vickiboykis.com/2026/05/18/tagging-my-blog-posts-with-bertopic-and-llms/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Natural Language Processing (NLP)",
+    "section": "Topic modeling",
+    "link_name": "Topic modeling made just simple enough",
+    "url": "https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/"
   },
   {
     "category": "Data Science",
@@ -6732,6 +7404,20 @@
     "section": "Scholarpedia",
     "link_name": "Ant Colony Optimization",
     "url": "http://www.scholarpedia.org/article/Ant_colony_optimization"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Optimization",
+    "section": "Scholarpedia",
+    "link_name": "MIP formulations and linearizations (FICO Xpress)",
+    "url": "https://www.fico.com/fico-xpress-optimization/docs/latest/mipform/dhtml/chap2s1.html"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Optimization",
+    "section": "Scholarpedia",
+    "link_name": "CPMpy: Constraint Programming and Modeling library in Python",
+    "url": "https://github.com/CPMpy/cpmpy"
   },
   {
     "category": "Data Science",
@@ -7526,6 +8212,13 @@
   },
   {
     "category": "Data Science",
+    "topic": "SQL",
+    "section": null,
+    "link_name": "SyntaQLite",
+    "url": "https://lalitm.com/post/syntaqlite/"
+  },
+  {
+    "category": "Data Science",
     "topic": "Streaming/Online Learning",
     "section": null,
     "link_name": "`river`",
@@ -8212,6 +8905,55 @@
   },
   {
     "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "Skforecast Studio",
+    "url": "https://studio.skforecast.org/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "AutoML Time Series Forecast (FLAML)",
+    "url": "https://microsoft.github.io//FLAML/docs/Examples/AutoML-Time%20series%20forecast"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "conformal-tights: Conformal prediction of coherent quantiles and intervals for scikit-learn",
+    "url": "https://github.com/superlinear-ai/conformal-tights"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "pytrendy: Trend detection in Python for time series",
+    "url": "https://github.com/RussellSB/pytrendy"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "scipy.signal.savgol_filter (SciPy documentation)",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.savgol_filter.html"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "Time Series Smoothing (Streamlit app)",
+    "url": "https://timeseriessmoothing.streamlit.app/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Time Series",
+    "section": "Greykite",
+    "link_name": "Six approaches to time series smoothing",
+    "url": "https://medium.com/@dmitriy.bolotov/six-approaches-to-time-series-smoothing-cc3ea9d6b64f"
+  },
+  {
+    "category": "Data Science",
     "topic": "Tree-based methods",
     "section": null,
     "link_name": "Entropy in decision trees",
@@ -8401,6 +9143,20 @@
   },
   {
     "category": "Data Science",
+    "topic": "Tree-based methods",
+    "section": null,
+    "link_name": "Decision Trees (MLU Explain)",
+    "url": "https://mlu-explain.github.io/decision-tree/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "Water distribution networks",
+    "section": null,
+    "link_name": "EPyT-Flow: Python package for hydraulic and water quality scenario data of water distribution networks",
+    "url": "https://github.com/WaterFutures/EPyT-Flow"
+  },
+  {
+    "category": "Data Science",
     "topic": "Weather data",
     "section": null,
     "link_name": "Prediction of severe thunderstorm events with ensemble deep learning and radar data",
@@ -8580,6 +9336,27 @@
     "section": null,
     "link_name": "PiML (Python Interpretable Machine Learning) toolbox for model development & diagnostics",
     "url": "https://github.com/SelfExplainML/PiML-Toolbox"
+  },
+  {
+    "category": "Data Science",
+    "topic": "XAI",
+    "section": null,
+    "link_name": "imodels: Interpretable ML package for concise, transparent, and accurate predictive modeling",
+    "url": "https://github.com/csinva/imodels"
+  },
+  {
+    "category": "Data Science",
+    "topic": "XAI",
+    "section": null,
+    "link_name": "Responsible Machine Learning (MI2.AI)",
+    "url": "https://rml.mi2.ai/"
+  },
+  {
+    "category": "Data Science",
+    "topic": "XAI",
+    "section": null,
+    "link_name": "DALEX: moDel Agnostic Language for Exploration and eXplanation",
+    "url": "https://github.com/ModelOriented/DALEX"
   },
   {
     "category": "Data Visualization",
@@ -8895,6 +9672,20 @@
     "section": "Scrolling Visualisation with `D3.js`",
     "link_name": "Storytelling with maps and scrolling",
     "url": "https://towardsdatascience.com/presenting-spatial-data-interactively-by-scrolling-502df345dea6"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Data Journalism",
+    "section": "Scrolling Visualisation with `D3.js`",
+    "link_name": "Who earns a higher salary than you and the jobs they work",
+    "url": "https://flowingdata.com/2025/12/02/who-makes-a-higher-salary-and-the-jobs-they-work/"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Data Journalism",
+    "section": "Scrolling Visualisation with `D3.js`",
+    "link_name": "Storied Colors: One color a day, told with its provenance and chemistry",
+    "url": "https://storiedcolors.com/"
   },
   {
     "category": "Data Visualization",
@@ -9472,6 +10263,41 @@
   },
   {
     "category": "Data Visualization",
+    "topic": "Geodata",
+    "section": null,
+    "link_name": "gazetteer: A fast offline, boundary-aware reverse geocoding library in Python",
+    "url": "https://github.com/SOORAJTS2001/gazetteer"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Geodata",
+    "section": null,
+    "link_name": "geojson: Python bindings and utilities for GeoJSON",
+    "url": "https://github.com/jazzband/geojson"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Geodata",
+    "section": null,
+    "link_name": "Overture has fully embraced STAC",
+    "url": "https://docs.overturemaps.org/blog/2026/02/11/stac/"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Geodata",
+    "section": null,
+    "link_name": "Urban Taxonomy: Hierarchical morphotope classification",
+    "url": "https://urbantaxonomy.org/"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Geodata",
+    "section": null,
+    "link_name": "mappymatch: Pure-python package for map matching",
+    "url": "https://github.com/NatLabRockies/mappymatch"
+  },
+  {
+    "category": "Data Visualization",
     "topic": "GUI",
     "section": null,
     "link_name": "Jupyter `pivottable_js`",
@@ -9542,6 +10368,13 @@
   },
   {
     "category": "Data Visualization",
+    "topic": "High-dimensional data",
+    "section": "Andrews curves",
+    "link_name": "Understand-Anything: Turn any code into an interactive knowledge graph",
+    "url": "https://github.com/Lum1104/Understand-Anything"
+  },
+  {
+    "category": "Data Visualization",
     "topic": "Interactive visualizations",
     "section": null,
     "link_name": "Quibbler: a toolset for building highly interactive, yet reproducible data analysis",
@@ -9588,6 +10421,13 @@
     "section": null,
     "link_name": "Bqplot: 2-D plotting library for Project Jupyter",
     "url": "https://github.com/bqplot/bqplot"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Interactive visualizations",
+    "section": null,
+    "link_name": "Wigglystuff: Celltour example",
+    "url": "https://koaning.github.io/wigglystuff/examples/celltour/"
   },
   {
     "category": "Data Visualization",
@@ -9665,6 +10505,13 @@
     "section": null,
     "link_name": "Ipysigma",
     "url": "https://github.com/medialab/ipysigma"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Networks and graphs",
+    "section": null,
+    "link_name": "Cosmograph: Visualization and analysis of large network graphs and ML embeddings",
+    "url": "https://github.com/cosmograph-org/"
   },
   {
     "category": "Data Visualization",
@@ -10169,6 +11016,27 @@
     "section": null,
     "link_name": "Visualizing 100k Years Of Earth In WebGL",
     "url": "https://technistuff.com/posts/visualizing-100000-years-of-earth-in-webgl/"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Tools",
+    "section": null,
+    "link_name": "Open Visualization Academy",
+    "url": "https://openvisualizationacademy.org/"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Tools",
+    "section": null,
+    "link_name": "kuva: A scientific plotting library in Rust",
+    "url": "https://github.com/Psy-Fer/kuva"
+  },
+  {
+    "category": "Data Visualization",
+    "topic": "Tools",
+    "section": null,
+    "link_name": "inkwash: Pen-and-ink with living water, single-file fluid ink drawing app",
+    "url": "https://github.com/johnowhitaker/inkwash"
   },
   {
     "category": "Data Visualization",
@@ -11012,6 +11880,20 @@
   },
   {
     "category": "Education",
+    "topic": "Python",
+    "section": null,
+    "link_name": "Learn Python with Jupyter (PDF book)",
+    "url": "https://www.learnpythonwithjupyter.com/assets/book/learn_python_with_jupyter.pdf"
+  },
+  {
+    "category": "Education",
+    "topic": "Python",
+    "section": null,
+    "link_name": "tricky-python: Tricky Python Quiz",
+    "url": "https://github.com/adarshdigievo/tricky-python"
+  },
+  {
+    "category": "Education",
     "topic": "Quantum Computing",
     "section": null,
     "link_name": "Quantum computing per ottimizzazione delle reti mobili",
@@ -11107,6 +11989,13 @@
     "section": null,
     "link_name": "SymPy printing",
     "url": "https://docs.sympy.org/latest/tutorials/intro-tutorial/printing.html"
+  },
+  {
+    "category": "Education",
+    "topic": "Teaching",
+    "section": null,
+    "link_name": "Installing Tectonic: The Tectonic Typesetting System",
+    "url": "https://tectonic-typesetting.github.io/en-US/install.html"
   },
   {
     "category": "Education",
@@ -11313,6 +12202,13 @@
   },
   {
     "category": "Education",
+    "topic": "Technical writing",
+    "section": null,
+    "link_name": "Don't let AI write for you",
+    "url": "https://alexhwoods.com/dont-let-ai-write-for-you/"
+  },
+  {
+    "category": "Education",
     "topic": "Tools",
     "section": null,
     "link_name": "Periodic table of DevOps",
@@ -11352,6 +12248,13 @@
     "section": null,
     "link_name": "Calcolatore dell'interesse Banca d'Italia",
     "url": "https://economiapertutti.bancaditalia.it/strumenti/calcolatori/calcolatore-dell-interesse/?dotcache=refresh"
+  },
+  {
+    "category": "Education",
+    "topic": "Tools",
+    "section": null,
+    "link_name": "The Missing Semester of Your CS Education",
+    "url": "https://missing.csail.mit.edu/"
   },
   {
     "category": "Education",
@@ -11467,10 +12370,87 @@
   },
   {
     "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Thoughts on slowing the fuck down",
+    "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/#toc_2"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "AI makes you boring",
+    "url": "https://www.marginalia.nu/log/a_132_ai_bores/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Grief and the AI split",
+    "url": "https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "The Eternal Sloptember",
+    "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "ai;dr",
+    "url": "https://www.0xsid.com/blog/aidr"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "How the spreadsheet reshaped America",
+    "url": "https://davidoks.blog/p/how-the-spreadsheet-reshaped-america"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Good sleep, good learning, good life",
+    "url": "https://super-memory.com/articles/sleep.htm"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Webmentions with batteries included",
+    "url": "https://blog.fabiomanganiello.com/article/webmentions-with-batteries-included"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "Thoughts (hmmz.org)",
+    "url": "https://thoughts.hmmz.org/2026-05-31.html"
+  },
+  {
+    "category": "Misc",
+    "topic": "Articles",
+    "section": null,
+    "link_name": "How many products does Microsoft have named Copilot?",
+    "url": "https://teybannerman.github.io/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
+  },
+  {
+    "category": "Misc",
     "topic": "Game development",
     "section": null,
     "link_name": "Game Boy Development community",
     "url": "https://gbdev.io/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Game development",
+    "section": null,
+    "link_name": "loreline: Open-source scripting language for interactive fictions",
+    "url": "https://github.com/jeremyfa/loreline"
   },
   {
     "category": "Misc",
@@ -11646,6 +12626,13 @@
     "section": null,
     "link_name": "I Deleted My Second Brain",
     "url": "https://www.joanwestenberg.com/p/i-deleted-my-second-brain"
+  },
+  {
+    "category": "Misc",
+    "topic": "Knowledge Management",
+    "section": null,
+    "link_name": "atomic: Self-hosted, semantically-connected personal knowledge base",
+    "url": "https://github.com/kenforthewin/atomic"
   },
   {
     "category": "Misc",
@@ -11880,6 +12867,20 @@
   },
   {
     "category": "Misc",
+    "topic": "Mathematics",
+    "section": "Hilbert spaces",
+    "link_name": "An interactive guide to the Fourier transform",
+    "url": "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/"
+  },
+  {
+    "category": "Misc",
+    "topic": "Mathematics",
+    "section": "Hilbert spaces",
+    "link_name": "passagemath: General purpose mathematical software, modularized fork of SageMath",
+    "url": "https://github.com/passagemath/passagemath?tab=readme-ov-file"
+  },
+  {
+    "category": "Misc",
     "topic": "Physics",
     "section": null,
     "link_name": "Sound: a visual explanation",
@@ -12080,6 +13081,34 @@
     "section": null,
     "link_name": "Beets: Media library management system for obsessive music geeks",
     "url": "https://github.com/beetbox/beets"
+  },
+  {
+    "category": "Python",
+    "topic": "Audio recognition",
+    "section": null,
+    "link_name": "latent-musicvis: Music visualization via UMAP of stable audio latents",
+    "url": "https://github.com/lyramakesmusic/latent-musicvis"
+  },
+  {
+    "category": "Python",
+    "topic": "Audio recognition",
+    "section": null,
+    "link_name": "pytheory: Music Theory for Humans",
+    "url": "https://github.com/kennethreitz/pytheory"
+  },
+  {
+    "category": "Python",
+    "topic": "Audio recognition",
+    "section": null,
+    "link_name": "NumPy as Synth Engine",
+    "url": "https://kennethreitz.org/essays/2026-03-29-numpy_as_synth_engine"
+  },
+  {
+    "category": "Python",
+    "topic": "Audio recognition",
+    "section": null,
+    "link_name": "renardo: Livecoding music with simple Python code",
+    "url": "https://github.com/e-lie/renardo"
   },
   {
     "category": "Python",
@@ -12867,6 +13896,20 @@
   },
   {
     "category": "Python",
+    "topic": "Data Structures",
+    "section": null,
+    "link_name": "Hidden cost of Python dictionaries and safer alternatives",
+    "url": "https://codecut.ai/hidden-cost-python-dictionaries-safer-alternatives/"
+  },
+  {
+    "category": "Python",
+    "topic": "Data Structures",
+    "section": null,
+    "link_name": "Your file system is already a graph database",
+    "url": "https://rumproarious.com/2026/04/04/your-file-system-is-already-a-graph-database/"
+  },
+  {
+    "category": "Python",
     "topic": "Data validation",
     "section": null,
     "link_name": "`schema` library for data validation",
@@ -12899,6 +13942,13 @@
     "section": null,
     "link_name": "dataframely: a declarative, polars-native data frame validation library",
     "url": "https://github.com/Quantco/dataframely"
+  },
+  {
+    "category": "Python",
+    "topic": "Data validation",
+    "section": null,
+    "link_name": "Pydantic can do what?!",
+    "url": "https://www.bitecode.dev/p/pydantic-can-do-what"
   },
   {
     "category": "Python",
@@ -12951,6 +14001,13 @@
   },
   {
     "category": "Python",
+    "topic": "Dependencies management",
+    "section": null,
+    "link_name": "uv-docker-example: Best practices for using uv in Docker images",
+    "url": "https://github.com/astral-sh/uv-docker-example/tree/main"
+  },
+  {
+    "category": "Python",
     "topic": "Diagrams",
     "section": null,
     "link_name": "`diagrams` as code",
@@ -12997,6 +14054,13 @@
     "section": null,
     "link_name": "`pdoc`: API Documentation for Python projects",
     "url": "https://github.com/mitmproxy/pdoc"
+  },
+  {
+    "category": "Python",
+    "topic": "Documentation",
+    "section": null,
+    "link_name": "`great-docs`: Documentation sites for Python packages",
+    "url": "https://github.com/posit-dev/great-docs"
   },
   {
     "category": "Python",
@@ -13074,6 +14138,13 @@
     "section": "mkdocs",
     "link_name": "mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs",
     "url": "https://github.com/douinc/mkdocs-mcp-plugin"
+  },
+  {
+    "category": "Python",
+    "topic": "Documentation",
+    "section": "mkdocs",
+    "link_name": "bengal: High-performance static site generator for Python 3.14+",
+    "url": "https://github.com/lbliii/bengal"
   },
   {
     "category": "Python",
@@ -13224,6 +14295,13 @@
   },
   {
     "category": "Python",
+    "topic": "Functional programming",
+    "section": "Lenses",
+    "link_name": "Build a Finite State Machine in Python",
+    "url": "https://belderbos.dev/blog/build-finite-state-machine-python/"
+  },
+  {
+    "category": "Python",
     "topic": "Game development",
     "section": null,
     "link_name": "Pygame",
@@ -13298,6 +14376,20 @@
     "section": null,
     "link_name": "buttonpad: cross-platform GUI toolkit for a configurable grid of buttons",
     "url": "https://github.com/asweigart/buttonpad"
+  },
+  {
+    "category": "Python",
+    "topic": "GUI",
+    "section": null,
+    "link_name": "PyWry: Cross-platform app factory and rendering engine for Python",
+    "url": "https://github.com/deeleeramone/PyWry"
+  },
+  {
+    "category": "Python",
+    "topic": "GUI",
+    "section": null,
+    "link_name": "imgui_bundle: Interactive Python and C++ apps for desktop, mobile, and web",
+    "url": "https://github.com/pthom/imgui_bundle"
   },
   {
     "category": "Python",
@@ -13564,6 +14656,34 @@
     "section": "marimo",
     "link_name": "marimo-snippets: JS snippet to send codeblock contents as a query string",
     "url": "https://github.com/marimo-team/marimo-snippets"
+  },
+  {
+    "category": "Python",
+    "topic": "Jupyter",
+    "section": "marimo",
+    "link_name": "TinyMo",
+    "url": "https://taletskiy.com/blogs/tinymo/"
+  },
+  {
+    "category": "Python",
+    "topic": "Jupyter",
+    "section": "marimo",
+    "link_name": "marimo-jupyter-extension: Integrate marimo reactive notebooks into JupyterLab",
+    "url": "https://github.com/marimo-team/marimo-jupyter-extension"
+  },
+  {
+    "category": "Python",
+    "topic": "Jupyter",
+    "section": "marimo",
+    "link_name": "marimo for learners",
+    "url": "https://marimo.io/for-learners"
+  },
+  {
+    "category": "Python",
+    "topic": "Jupyter",
+    "section": "marimo",
+    "link_name": "wanderland: Interactive 3D learn-to-code playground for Python notebooks",
+    "url": "https://github.com/ktaletsk/wanderland"
   },
   {
     "category": "Python",
@@ -14057,6 +15177,20 @@
   },
   {
     "category": "Python",
+    "topic": "Pandas",
+    "section": "Narwhals",
+    "link_name": "What's new in pandas v3.0.0",
+    "url": "https://pandas.pydata.org/docs/dev/whatsnew/v3.0.0.html"
+  },
+  {
+    "category": "Python",
+    "topic": "Pandas",
+    "section": "Narwhals",
+    "link_name": "What Category Theory teaches us about DataFrames",
+    "url": "https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/"
+  },
+  {
+    "category": "Python",
     "topic": "Password Management",
     "section": null,
     "link_name": "Secure password handling",
@@ -14127,6 +15261,13 @@
   },
   {
     "category": "Python",
+    "topic": "Privacy",
+    "section": null,
+    "link_name": "OpenAI Privacy Filter: Bidirectional token-classification model for PII detection",
+    "url": "https://huggingface.co/openai/privacy-filter"
+  },
+  {
+    "category": "Python",
     "topic": "Process simulation",
     "section": null,
     "link_name": "`simpy` for manifacturing simulation",
@@ -14191,6 +15332,13 @@
   {
     "category": "Python",
     "topic": "Project packaging",
+    "section": null,
+    "link_name": "projspec: A project about projects",
+    "url": "https://github.com/fsspec/projspec"
+  },
+  {
+    "category": "Python",
+    "topic": "Project packaging",
     "section": "uv",
     "link_name": "uv: an extremely fast Python package and project manager, written in Rust",
     "url": "https://github.com/astral-sh/uv"
@@ -14236,6 +15384,34 @@
     "section": "uv",
     "link_name": "uv cheatsheet",
     "url": "https://mathspp.com/blog/uv-cheatsheet"
+  },
+  {
+    "category": "Python",
+    "topic": "Project packaging",
+    "section": "uv",
+    "link_name": "How to build a Python library in 2026",
+    "url": "https://stephenlf.dev/blog/python-library-in-2026/"
+  },
+  {
+    "category": "Python",
+    "topic": "Project packaging",
+    "section": "uv",
+    "link_name": "pyOpenSci Python Package Guide",
+    "url": "https://www.pyopensci.org/python-packages/"
+  },
+  {
+    "category": "Python",
+    "topic": "Project packaging",
+    "section": "uv",
+    "link_name": "pypi-security-best-practices: PyPI security best practices for uv and pip",
+    "url": "https://github.com/lirantal/pypi-security-best-practices"
+  },
+  {
+    "category": "Python",
+    "topic": "Project packaging",
+    "section": "uv",
+    "link_name": "pypistats.org: PyPI downloads analytics dashboard",
+    "url": "https://github.com/psf/pypistats.org"
   },
   {
     "category": "Python",
@@ -15009,6 +16185,27 @@
   },
   {
     "category": "Python",
+    "topic": "Streamlit",
+    "section": "Build components",
+    "link_name": "streamlit-pivot-table: Pivot table component for Streamlit",
+    "url": "https://github.com/streamlit/streamlit-pivot-table"
+  },
+  {
+    "category": "Python",
+    "topic": "Streamlit",
+    "section": "Build components",
+    "link_name": "Streamlit Extras: Discover, try, install and share Streamlit reusable bits",
+    "url": "https://extras.streamlit.app/"
+  },
+  {
+    "category": "Python",
+    "topic": "Streamlit",
+    "section": "Build components",
+    "link_name": "Streamlit widget to host folder as website",
+    "url": "https://github.com/streamlit/streamlit/issues/6195#issuecomment-3756251422"
+  },
+  {
+    "category": "Python",
     "topic": "Strings",
     "section": null,
     "link_name": "Fuzzywuzzy",
@@ -15048,6 +16245,13 @@
     "section": null,
     "link_name": "Customising Pattern Matching Behaviour",
     "url": "https://blog.changs.co.uk/customising-pattern-matching-behaviour.html"
+  },
+  {
+    "category": "Python",
+    "topic": "Structural Pattern Matching",
+    "section": null,
+    "link_name": "Switch case in Python",
+    "url": "https://www.pythonmorsels.com/switch-case-in-python/"
   },
   {
     "category": "Python",
@@ -15122,6 +16326,13 @@
   {
     "category": "Python",
     "topic": "Testing",
+    "section": null,
+    "link_name": "Better Python tests with inline-snapshot",
+    "url": "https://pydantic.dev/articles/inline-snapshot"
+  },
+  {
+    "category": "Python",
+    "topic": "Testing",
     "section": "Unit tests",
     "link_name": "Unit testing for DS",
     "url": "https://towardsdatascience.com/unit-testing-for-data-scientists-dc5e0cd397fb"
@@ -15177,6 +16388,34 @@
   },
   {
     "category": "Python",
+    "topic": "Testing",
+    "section": "Unit tests",
+    "link_name": "bigO: Measures empirical computational complexity of functions",
+    "url": "https://github.com/plasma-umass/bigO"
+  },
+  {
+    "category": "Python",
+    "topic": "Testing",
+    "section": "Unit tests",
+    "link_name": "Unit testing your code's performance: Big-O scaling",
+    "url": "https://pythonspeed.com/articles/big-o-tests/"
+  },
+  {
+    "category": "Python",
+    "topic": "Testing",
+    "section": "Unit tests",
+    "link_name": "Python Big-O: Time and space complexity",
+    "url": "https://pythoncomplexity.com/"
+  },
+  {
+    "category": "Python",
+    "topic": "Testing",
+    "section": "Unit tests",
+    "link_name": "profiling-explorer: Table-based exploration tool for Python profiling data",
+    "url": "https://github.com/adamchainz/profiling-explorer"
+  },
+  {
+    "category": "Python",
     "topic": "Typing",
     "section": null,
     "link_name": "Comparing Pyrefly Vs Ty",
@@ -15188,6 +16427,20 @@
     "section": null,
     "link_name": "How Well Do New Python Type Checkers Conform? A Deep Dive into Ty, Pyrefly, and Zuban",
     "url": "https://sinon.github.io/future-python-type-checkers/"
+  },
+  {
+    "category": "Python",
+    "topic": "Typing",
+    "section": null,
+    "link_name": "ty: An extremely fast Python type checker and language server, written in Rust",
+    "url": "https://github.com/astral-sh/ty"
+  },
+  {
+    "category": "Python",
+    "topic": "Typing",
+    "section": null,
+    "link_name": "Are you really expected to run five type-checkers now?",
+    "url": "https://pyrefly.org/blog/too-many-type-checkers/"
   },
   {
     "category": "Python",
@@ -15419,6 +16672,20 @@
     "section": null,
     "link_name": "wetlands: Conda Environment Manager, a library to execute code in isolated environments",
     "url": "https://github.com/arthursw/wetlands"
+  },
+  {
+    "category": "Python",
+    "topic": "Misc utils",
+    "section": null,
+    "link_name": "param: Declarative parameters for robust Python classes and reactive programming",
+    "url": "https://github.com/holoviz/param"
+  },
+  {
+    "category": "Python",
+    "topic": "Misc utils",
+    "section": null,
+    "link_name": "calgebra: Set operations for calendar intervals",
+    "url": "https://github.com/ashenfad/calgebra"
   },
   {
     "category": "Python",
@@ -15744,6 +17011,13 @@
   },
   {
     "category": "Python",
+    "topic": "Web App Framework",
+    "section": null,
+    "link_name": "htpy: Generate HTML in Python",
+    "url": "https://github.com/pelme/htpy"
+  },
+  {
+    "category": "Python",
     "topic": "Web scraping",
     "section": null,
     "link_name": "Comparison between `BeatifulSoup`, `selenium` and `scrapy`",
@@ -15853,6 +17127,20 @@
     "section": null,
     "link_name": "Codepen Demo",
     "url": "https://codepen.io/meodai/full/zdgXJj/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Coding",
+    "section": null,
+    "link_name": "polyglot: Rust/Wasm-powered SQL transpiler for 30+ SQL dialects",
+    "url": "https://github.com/tobilg/polyglot"
+  },
+  {
+    "category": "Tools",
+    "topic": "Coding",
+    "section": null,
+    "link_name": "pytm: A Pythonic framework for threat modeling",
+    "url": "https://github.com/OWASP/pytm"
   },
   {
     "category": "Tools",
@@ -16185,6 +17473,27 @@
   },
   {
     "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "prek: A fast Git hook manager written in Rust, drop-in alternative to pre-commit",
+    "url": "https://github.com/j178/prek"
+  },
+  {
+    "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "The Git commands I run before reading any code",
+    "url": "https://piechowski.io/post/git-commands-before-reading-code/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Git and versioning",
+    "section": null,
+    "link_name": "Scoped Commits",
+    "url": "https://scopedcommits.com/"
+  },
+  {
+    "category": "Tools",
     "topic": "Github",
     "section": null,
     "link_name": "20 repositories for developers",
@@ -16203,6 +17512,20 @@
     "section": null,
     "link_name": "gitdiagram: visualize codebase as an interactive diagram",
     "url": "https://github.com/ahmedkhaleel2004/gitdiagram"
+  },
+  {
+    "category": "Tools",
+    "topic": "Github",
+    "section": null,
+    "link_name": "grebedoc: Static site hosting for Git forges",
+    "url": "https://grebedoc.dev/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Github",
+    "section": null,
+    "link_name": "statichost.eu: 100% European static site hosting",
+    "url": "https://www.statichost.eu/"
   },
   {
     "category": "Tools",
@@ -16252,6 +17575,13 @@
     "section": null,
     "link_name": "Positron, a new Data Science IDE",
     "url": "https://posit.co/blog/positron-product-announcement-aug-2025/"
+  },
+  {
+    "category": "Tools",
+    "topic": "IDE",
+    "section": null,
+    "link_name": "VS Code accessibility voice",
+    "url": "https://code.visualstudio.com/docs/configure/accessibility/voice"
   },
   {
     "category": "Tools",
@@ -16382,9 +17712,44 @@
   {
     "category": "Tools",
     "topic": "Markdown",
+    "section": null,
+    "link_name": "Rill: a BI-as-code tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL",
+    "url": "https://github.com/rilldata/rill"
+  },
+  {
+    "category": "Tools",
+    "topic": "Markdown",
     "section": "Other markup languages",
     "link_name": "typst: a new markup-based typesetting system",
     "url": "https://github.com/typst/typst"
+  },
+  {
+    "category": "Tools",
+    "topic": "Markdown",
+    "section": "Other markup languages",
+    "link_name": "mkslides: Turn markdown files into beautiful slides using Reveal.js",
+    "url": "https://github.com/MartenBE/mkslides"
+  },
+  {
+    "category": "Tools",
+    "topic": "Markdown",
+    "section": "Other markup languages",
+    "link_name": "quarkdown: Markdown with superpowers",
+    "url": "https://github.com/iamgio/quarkdown"
+  },
+  {
+    "category": "Tools",
+    "topic": "Markdown",
+    "section": "Other markup languages",
+    "link_name": "SDocs: Read, style, and share markdown files privately",
+    "url": "https://github.com/espressoplease/SDocs"
+  },
+  {
+    "category": "Tools",
+    "topic": "Markdown",
+    "section": "Other markup languages",
+    "link_name": "files.md: Private, quiet space for thinking with .md files",
+    "url": "https://github.com/zakirullin/files.md"
   },
   {
     "category": "Tools",
@@ -16476,6 +17841,27 @@
     "section": null,
     "link_name": "Chemical Kinetics and Reaction Engineering notes via Typst",
     "url": "https://github.com/Andrew-S-Rosen/cbe504"
+  },
+  {
+    "category": "Tools",
+    "topic": "Misc",
+    "section": null,
+    "link_name": "msgvault: Archive a lifetime of email and chat with offline search and analytics",
+    "url": "https://github.com/wesm/msgvault"
+  },
+  {
+    "category": "Tools",
+    "topic": "Misc",
+    "section": null,
+    "link_name": "Hacker News Trends: Search and chart any topic over time",
+    "url": "https://hackernewstrends.com/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Misc",
+    "section": null,
+    "link_name": "spicytakes.org: Multi-blog archive and analysis platform",
+    "url": "https://github.com/wesm/spicytakes.org"
   },
   {
     "category": "Tools",
@@ -16682,6 +18068,69 @@
   },
   {
     "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "TigerStyle: Safety, performance, experience",
+    "url": "https://tigerstyle.dev/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "You're not building Netflix: Stop coding like you are",
+    "url": "https://dev.to/adamthedeveloper/youre-not-building-netflix-stop-coding-like-you-are-1707?"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "A sufficiently detailed spec is code",
+    "url": "https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "Browse code by meaning",
+    "url": "https://haskellforall.com/2026/02/browse-code-by-meaning#user-content-fnref-1"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "semantic-navigator: Semantic project navigation",
+    "url": "https://github.com/Gabriella439/semantic-navigator"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "Laws of Software Engineering",
+    "url": "https://lawsofsoftwareengineering.com/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "The Economics of Software Teams",
+    "url": "https://www.viktorcessan.com/the-economics-of-software-teams/"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "A software library with no code",
+    "url": "https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html"
+  },
+  {
+    "category": "Tools",
+    "topic": "Software Development",
+    "section": null,
+    "link_name": "How do large companies manage CI/CD at scale",
+    "url": "https://semaphore.io/how-do-large-companies-manage-ci-cd-at-scale"
+  },
+  {
+    "category": "Tools",
     "topic": "Terminal",
     "section": null,
     "link_name": "Upgrade terminal experience",
@@ -16777,6 +18226,20 @@
     "section": null,
     "link_name": "helix: A post-modern modal text editor",
     "url": "https://github.com/helix-editor/helix"
+  },
+  {
+    "category": "Tools",
+    "topic": "Terminal",
+    "section": null,
+    "link_name": "browsr: A pleasant file explorer in your terminal supporting all filesystems",
+    "url": "https://github.com/juftin/browsr"
+  },
+  {
+    "category": "Tools",
+    "topic": "Terminal",
+    "section": null,
+    "link_name": "zoxide: A smarter cd command",
+    "url": "https://github.com/ajeetdsouza/zoxide"
   },
   {
     "category": "Tools",
@@ -17113,6 +18576,13 @@
     "section": null,
     "link_name": "Information Visualization by Beat Signer",
     "url": "https://wise.vub.ac.be/course/information-visualisation"
+  },
+  {
+    "category": "Training",
+    "topic": "Courses",
+    "section": null,
+    "link_name": "CLAUDE.md for Stanford CS336 assignment",
+    "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md"
   },
   {
     "category": "Training",

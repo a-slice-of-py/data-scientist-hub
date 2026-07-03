@@ -1,10 +1,10 @@
 # /// script
 # dependencies = [
-#     "datamapplot==0.6.4",
-#     "marimo==0.16.2",
-#     "pandas==2.3.2",
+#     "datamapplot==0.7.3",
+#     "marimo==0.23.13",
+#     "pandas==2.3.3",
 #     "umap-learn==0.5.9.post2",
-#     "scikit-learn==1.7.2",
+#     "scikit-learn==1.9.0",
 #     "embetter==0.8.0",
 #     "model2vec==0.6.0",
 # ]
@@ -15,7 +15,7 @@
 
 import marimo
 
-__generated_with = "0.16.2"
+__generated_with = "0.23.13"
 app = marimo.App(width="full")
 
 
@@ -245,7 +245,7 @@ def _(
 
 @app.cell
 def _(dmp):
-    if False:
+    if True:
         dmp.save("../docs/assets/dsh_datamapplot.html")
     return
 
