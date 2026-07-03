@@ -38,6 +38,10 @@
 - [Marimo](https://github.com/marimo-team/marimo)
 - [quak: a scalable data profiler](https://github.com/manzt/quak)
 - [marimo-snippets: JS snippet to send codeblock contents as a query string](https://github.com/marimo-team/marimo-snippets)
+- [TinyMo](https://taletskiy.com/blogs/tinymo/)
+- [marimo-jupyter-extension: Integrate marimo reactive notebooks into JupyterLab](https://github.com/marimo-team/marimo-jupyter-extension)
+- [marimo for learners](https://marimo.io/for-learners)
+- [wanderland: Interactive 3D learn-to-code playground for Python notebooks](https://github.com/ktaletsk/wanderland)
 
 ## nushell
 

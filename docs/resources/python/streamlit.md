@@ -80,3 +80,6 @@
 - [Streamlit components tutorials](https://discuss.streamlit.io/t/any-future-plans-for-easier-css-javascript-use/25162/3)
 - [Streamlit components video tutorial](https://youtu.be/TqOGBOHHxrU)
 - [Streamlit tutorial app to build components](https://streamlit-components-tutorial.netlify.app/)
+- [streamlit-pivot-table: Pivot table component for Streamlit](https://github.com/streamlit/streamlit-pivot-table)
+- [Streamlit Extras: Discover, try, install and share Streamlit reusable bits](https://extras.streamlit.app/)
+- [Streamlit widget to host folder as website](https://github.com/streamlit/streamlit/issues/6195#issuecomment-3756251422)

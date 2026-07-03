@@ -38,3 +38,6 @@
 - [Sourcegit: Opensource Git GUI client](https://github.com/sourcegit-scm/sourcegit)
 - [Lazygit](https://www.bwplotka.dev/2025/lazygit/)
 - [Prek Installation](https://prek.j178.dev/installation/)
+- [prek: A fast Git hook manager written in Rust, drop-in alternative to pre-commit](https://github.com/j178/prek)
+- [The Git commands I run before reading any code](https://piechowski.io/post/git-commands-before-reading-code/)
+- [Scoped Commits](https://scopedcommits.com/)

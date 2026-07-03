@@ -6,3 +6,4 @@
 - [Google train ML teachable machine](https://teachablemachine.withgoogle.com/train)
 - [Orange Data Mining](https://github.com/biolab/orange3)
 - [Calcolatore dell'interesse Banca d'Italia](https://economiapertutti.bancaditalia.it/strumenti/calcolatori/calcolatore-dell-interesse/?dotcache=refresh)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)

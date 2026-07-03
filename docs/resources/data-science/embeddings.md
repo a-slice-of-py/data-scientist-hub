@@ -22,3 +22,8 @@
 - [Embedding Atlas: Apple's embedding visualization tool](https://github.com/apple/embedding-atlas)
 - [Representation Engineering](https://vgel.me/posts/representation-engineering/)
 - [Repeng: Python library for generating control vectors with representation engineering](https://github.com/vgel/repeng)
+- [E-MM1: Multimodal embedding model collection](https://huggingface.co/collections/encord-team/e-mm1)
+- [zvec: A lightweight, lightning-fast, in-process vector database](https://github.com/alibaba/zvec)
+- [turbovec: A vector index built on TurboQuant, written in Rust with Python bindings](https://github.com/RyanCodrai/turbovec)
+- [FUEL: Fast Unsupervised Embedding Learning](https://codeberg.org/erich_schubert/fuel)
+- [comparative-embedding-visualization: Jupyter widget for comparing two embeddings](https://github.com/OzetteTech/comparative-embedding-visualization)

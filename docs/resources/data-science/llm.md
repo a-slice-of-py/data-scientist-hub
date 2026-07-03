@@ -29,6 +29,30 @@
 - [Micromanaged Driven Development: Build all your code with AI and keep full control](https://mmdd.dev/)
 - [Agentic Coding Intro](https://www.tweag.io/blog/2025-10-23-agentic-coding-intro/)
 - [Agentic Coding Handbook](https://tweag.github.io/agentic-coding-handbook/)
+- [Vibe coding and agentic engineering are getting closer than I'd like](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
+- [Components of a coding agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+- [Structured-Prompt-Driven Development (Martin Fowler)](https://martinfowler.com/articles/structured-prompt-driven/)
+- [Stop Sloppy Pasta: Don't paste raw LLM output at people](https://stopsloppypasta.ai/)
+- [LLMs as writers (Oxide RFD 0576)](https://rfd.shared.oxide.computer/rfd/0576#_llms_as_writers)
+- [Writing skills that agents can actually execute](https://www.instructionmanuel.com/writing-skills-agents-can-execute)
+- [agent-skills: Production-grade engineering skills for AI coding agents](https://github.com/addyosmani/agent-skills)
+- [semble: Fast and accurate code search for agents](https://github.com/MinishLab/semble)
+- [kirograph: Semantic code knowledge graph for Kiro](https://github.com/davide-desio-eleva/kirograph)
+- [The Repo Is the Harness](https://lukasmasuch.com/blog/the-repo-is-the-harness/)
+- [sideseat: Unified workbench for building and debugging AI Agents](https://github.com/sideseat/sideseat)
+- [We solved trust for AI Agents in 1973](https://www.bauplanlabs.com/post/we-solved-trust-for-ai-agents-in-1973)
+- [syllago: Content management system for AI coding tools](https://github.com/OpenScribbler/syllago)
+- [caveman: Claude Code skill that cuts 65% of tokens by talking like caveman](https://github.com/JuliusBrussee/caveman)
+- [ponytail: Makes your AI agent think like the laziest senior dev in the room](https://github.com/DietrichGebert/ponytail)
+- [strands-agents/shell: Give your agent a shell without giving it the keys to your machine](https://github.com/strands-agents/shell)
+- [superpowers: An agentic skills framework and software development methodology](https://github.com/obra/superpowers)
+- [marimo-pair: Skills for AI coding agents with marimo](https://github.com/marimo-team/marimo-pair/tree/main/skills/marimo-pair)
+- [skills: Skills for Real Engineers (Matt Pocock)](https://github.com/mattpocock/skills)
+- [probabl-ai/skills: Data Science skills for AI agents](https://github.com/probabl-ai/skills)
+- [dictionary-of-ai-coding: AI coding jargon explained in plain English](https://github.com/mattpocock/dictionary-of-ai-coding)
+- [Library Skills](https://library-skills.io/)
+- [Requirements analysis: Catching requirement bugs before they become code (Kiro)](https://kiro.dev/blog/deep-spec-analysis/)
+- [spec-kit: Toolkit to get started with Spec-Driven Development](https://github.com/github/spec-kit)
 
 ## Distillation
 
@@ -75,6 +99,20 @@
 - [Transformer Explainer: Interactive Learning of Text-Generative Models](https://github.com/poloclub/transformer-explainer)
 - [Text Tokens As Image Tokens](https://www.seangoedecke.com/text-tokens-as-image-tokens/)
 - [Spec Driven Development](https://ainativedev.io/news/spec-driven-development-10-things-you-need-to-know-about-specs)
+- [microgpt.py (Karpathy's minimal GPT gist)](https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95)
+- [microgpt: A single file 200-line pure Python GPT](https://karpathy.github.io/2026/02/12/microgpt/)
+- [MicroGPT explained interactively](https://growingswe.com/blog/microgpt)
+- [How LLMs Work](https://ynarwal.github.io/how-llms-work/)
+- [Andrej Karpathy's LLM Wiki: Create your own knowledge base](https://medium.com/@urvvil08/andrej-karpathys-llm-wiki-create-your-own-knowledge-base-8779014accd5)
+- [llm-wiki (Karpathy gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [They're Made Out of Weights](https://maxleiter.com/blog/weights)
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- [Transformer Explainer: LLM Transformer model visually explained](https://poloclub.github.io/transformer-explainer/)
+- [Transformers from scratch (Brandon Rohrer)](https://www.brandonrohrer.org/transformers.html)
+- [Natural Language Autoencoders (Anthropic)](https://www.anthropic.com/research/natural-language-autoencoders)
+- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
+- [Emotion concepts and their function in a large language model (Transformer Circuits)](https://transformer-circuits.pub/2026/emotions/index.html)
+- [Emotion concepts and their function in a LLM (full paper PDF)](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
 
 ## Foundation models
 
@@ -152,6 +190,22 @@
 - [FastAPI MCP: Expose your FastAPI endpoints as Model Context Protocol tools](https://github.com/tadata-org/fastapi_mcp)
 - [TOON: Token-Oriented Object Notation](https://github.com/toon-format/toon)
 - [Openskills: Skills assessment platform](https://github.com/numman-ali/openskills)
+
+## Local inference
+
+- [So you wanna build a local RAG?](https://blog.yakkomajuri.com/blog/local-rag)
+- [How to use Ollama to run Large Language Models locally](https://realpython.com/ollama/)
+- [Running local models is good now](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
+- [LiteRT-LM: High-performance inference framework for LLMs on edge devices](https://github.com/google-ai-edge/LiteRT-LM?tab=readme-ov-file)
+- [kotaemon: Open-source RAG-based tool for chatting with your documents](https://github.com/Cinnamon/kotaemon)
+- [chonkie: Lightweight ingestion library for fast and robust RAG pipelines](https://github.com/chonkie-inc/chonkie)
+- [adaptive-chunking: Automatically select the best chunking method per document for RAG](https://github.com/ekimetrics/adaptive-chunking)
+- [I replaced vector DBs with Google's Memory Agent Pattern for my notes in Obsidian](https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-memory-agent-pattern-for-my-notes-in-obsidian/)
+- [ProtoGensis: Memory Agent Bedrock](https://github.com/ccrngd1/ProtoGensis/tree/main/memory-agent-bedrock)
+- [querychat: Natural language exploration of tabular data powered by SQL and LLMs](https://github.com/posit-dev/querychat/blob/main/pkg-py/README.md)
+- [Voxtral-4B-TTS-2603: Frontier open-weights text-to-speech model](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)
+- [kokoro-tts: CLI text-to-speech tool using the Kokoro model](https://github.com/nazdridoy/kokoro-tts)
+- [EngGPT2-16B-A3B: Sovereign, efficient and open Italian-language LLM](https://huggingface.co/engineering-group/EngGPT2-16B-A3B)
 
 ## MCP
 

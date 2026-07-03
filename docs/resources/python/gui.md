@@ -5,3 +5,5 @@
 - [DearPyGui: a modern, fast and powerful GUI framework for Python](https://github.com/hoffstadt/DearPyGui/)
 - [mininterface: a minimal interface to Python application (GUI, TUI, CLI, web)](https://github.com/CZ-NIC/mininterface)
 - [buttonpad: cross-platform GUI toolkit for a configurable grid of buttons](https://github.com/asweigart/buttonpad)
+- [PyWry: Cross-platform app factory and rendering engine for Python](https://github.com/deeleeramone/PyWry)
+- [imgui_bundle: Interactive Python and C++ apps for desktop, mobile, and web](https://github.com/pthom/imgui_bundle)

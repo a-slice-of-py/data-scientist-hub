@@ -5,3 +5,4 @@
 - [AI for Teachers: an Open Textbook](https://pressbooks.pub/aiforteachers/)
 - [Latex To](https://latex.to/)
 - [SymPy printing](https://docs.sympy.org/latest/tutorials/intro-tutorial/printing.html)
+- [Installing Tectonic: The Tectonic Typesetting System](https://tectonic-typesetting.github.io/en-US/install.html)

@@ -18,3 +18,6 @@
 - [Visprex: Visualise your CSV files in seconds without sending your data anywhere](https://github.com/visprex/visprex)
 - [Vistorian: Interactive Visualizations for Dynamic and Multivariate Networks](https://vistorian.github.io/vistorian/)
 - [Visualizing 100k Years Of Earth In WebGL](https://technistuff.com/posts/visualizing-100000-years-of-earth-in-webgl/)
+- [Open Visualization Academy](https://openvisualizationacademy.org/)
+- [kuva: A scientific plotting library in Rust](https://github.com/Psy-Fer/kuva)
+- [inkwash: Pen-and-ink with living water, single-file fluid ink drawing app](https://github.com/johnowhitaker/inkwash)

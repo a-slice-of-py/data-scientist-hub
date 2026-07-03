@@ -34,3 +34,5 @@
 ## Search engines
 
 - [Approaching Relevance Challenges in Elasticsearch Query Construction](https://towardsdatascience.com/a-site-search-engineers-journal-approaching-relevance-challenges-in-elasticsearch-query-1eca29283da5)
+- [Datakit: Browser-based data analysis platform that processes multi-gigabyte files locally](https://github.com/datakitpage/datakit)
+- [quak: A scalable data profiler](https://github.com/manzt/quak)

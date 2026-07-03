@@ -23,3 +23,4 @@
 - [How to create Architectural Decision Records (ADRs) - and how not to](https://www.ozimmer.ch/practices/2023/04/03/ADRCreation.html)
 - [Enabling Hugo Static Site Search With Lunr.js](https://vickiboykis.com/2025/08/08/enabling-hugo-static-site-search-with-lunr.js/)
 - [I Deleted My Second Brain](https://www.joanwestenberg.com/p/i-deleted-my-second-brain)
+- [atomic: Self-hosted, semantically-connected personal knowledge base](https://github.com/kenforthewin/atomic)

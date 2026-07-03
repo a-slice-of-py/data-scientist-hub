@@ -13,3 +13,6 @@
 - [Itter: social media for purists](https://www.itter.sh/)
 - [Microsoft edit](https://github.com/microsoft/edit)
 - [Chemical Kinetics and Reaction Engineering notes via Typst](https://github.com/Andrew-S-Rosen/cbe504)
+- [msgvault: Archive a lifetime of email and chat with offline search and analytics](https://github.com/wesm/msgvault)
+- [Hacker News Trends: Search and chart any topic over time](https://hackernewstrends.com/)
+- [spicytakes.org: Multi-blog archive and analysis platform](https://github.com/wesm/spicytakes.org)

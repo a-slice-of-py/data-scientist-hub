@@ -28,3 +28,5 @@
 - [Artificial Bee Colony](http://www.scholarpedia.org/article/Artificial_bee_colony_algorithm)
 - [Particle Swarm Optimization](http://www.scholarpedia.org/article/Particle_swarm_optimization)
 - [Ant Colony Optimization](http://www.scholarpedia.org/article/Ant_colony_optimization)
+- [MIP formulations and linearizations (FICO Xpress)](https://www.fico.com/fico-xpress-optimization/docs/latest/mipform/dhtml/chap2s1.html)
+- [CPMpy: Constraint Programming and Modeling library in Python](https://github.com/CPMpy/cpmpy)

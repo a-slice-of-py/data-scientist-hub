@@ -4,6 +4,7 @@
 - [How to write an awesome readme](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
 - [`pycco` for source files inline docs](https://pycco-docs.github.io/pycco/)
 - [`pdoc`: API Documentation for Python projects](https://github.com/mitmproxy/pdoc)
+- [`great-docs`: Documentation sites for Python packages](https://github.com/posit-dev/great-docs)
 
 ## mkdocs
 
@@ -18,3 +19,4 @@
 - [mkapi: MkDocs plugin for automatic API documentation generation from Python docstrings](https://github.com/daizutabi/mkapi/)
 - [mkdocs MCP server](https://github.com/serverless-dna/mkdocs-mcp)
 - [mkdocs-mcp-plugin: Mkdocs + MCP to enhance context retrieval using repo docs](https://github.com/douinc/mkdocs-mcp-plugin)
+- [bengal: High-performance static site generator for Python 3.14+](https://github.com/lbliii/bengal)

@@ -19,3 +19,6 @@
 - [FastTreeSHAP: speed up SHAP values computation for tree-based models](https://github.com/linkedin/fasttreeshap)
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
 - [PiML (Python Interpretable Machine Learning) toolbox for model development & diagnostics](https://github.com/SelfExplainML/PiML-Toolbox)
+- [imodels: Interpretable ML package for concise, transparent, and accurate predictive modeling](https://github.com/csinva/imodels)
+- [Responsible Machine Learning (MI2.AI)](https://rml.mi2.ai/)
+- [DALEX: moDel Agnostic Language for Exploration and eXplanation](https://github.com/ModelOriented/DALEX)

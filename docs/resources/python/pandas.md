@@ -48,3 +48,5 @@
 
 - [Narwhals: lightweight and extensible compatibility layer between dataframe libraries!](https://github.com/narwhals-dev/narwhals)
 - [How Narwhals and scikit-lego came together to achieve dataframe-agnosticism](https://labs.quansight.org/blog/scikit-lego-narwhals)
+- [What's new in pandas v3.0.0](https://pandas.pydata.org/docs/dev/whatsnew/v3.0.0.html)
+- [What Category Theory teaches us about DataFrames](https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/)

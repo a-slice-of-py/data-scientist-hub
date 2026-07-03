@@ -8,3 +8,5 @@
 - [How to build a scroller](https://vallandingham.me/scroller.html)
 - [How to create an interactive scrolling visualization with D3.js](https://towardsdatascience.com/how-i-created-an-interactive-scrolling-visualisation-with-d3-js-and-how-you-can-too-e116372e2c73)
 - [Storytelling with maps and scrolling](https://towardsdatascience.com/presenting-spatial-data-interactively-by-scrolling-502df345dea6)
+- [Who earns a higher salary than you and the jobs they work](https://flowingdata.com/2025/12/02/who-makes-a-higher-salary-and-the-jobs-they-work/)
+- [Storied Colors: One color a day, told with its provenance and chemistry](https://storiedcolors.com/)

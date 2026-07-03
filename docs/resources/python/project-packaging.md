@@ -6,6 +6,7 @@
 - [Pooch: a friend to fetch your data files](https://github.com/fatiando/pooch)
 - [Robust Testing & Packaging with `src` layout](https://hynek.me/articles/testing-packaging/)
 - [Python Packages: modern and efficient workflows for creating Python packages](https://py-pkgs.org/welcome)
+- [projspec: A project about projects](https://github.com/fsspec/projspec)
 
 ## uv
 
@@ -16,3 +17,7 @@
 - [Pre Commit Install Uv](https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/)
 - [Python Recipes With UV](https://just.systems/man/en/python-recipes-with-uv.html)
 - [uv cheatsheet](https://mathspp.com/blog/uv-cheatsheet)
+- [How to build a Python library in 2026](https://stephenlf.dev/blog/python-library-in-2026/)
+- [pyOpenSci Python Package Guide](https://www.pyopensci.org/python-packages/)
+- [pypi-security-best-practices: PyPI security best practices for uv and pip](https://github.com/lirantal/pypi-security-best-practices)
+- [pypistats.org: PyPI downloads analytics dashboard](https://github.com/psf/pypistats.org)

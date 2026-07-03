@@ -15,7 +15,12 @@
 - [Formats Markdown tables to enforce consistent column widths](https://gitlab.com/russelldickenson/markdown-table-formatter)
 - [Rewrap Markdown paragraphs to the word wrap column setting](https://gitlab.com/russelldickenson/markdown-rewrap-paragraph)
 - [MyST: Community-driven tools for technical communication](https://mystmd.org/)
+- [Rill: a BI-as-code tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL](https://github.com/rilldata/rill)
 
 ## Other markup languages
 
 - [typst: a new markup-based typesetting system](https://github.com/typst/typst)
+- [mkslides: Turn markdown files into beautiful slides using Reveal.js](https://github.com/MartenBE/mkslides)
+- [quarkdown: Markdown with superpowers](https://github.com/iamgio/quarkdown)
+- [SDocs: Read, style, and share markdown files privately](https://github.com/espressoplease/SDocs)
+- [files.md: Private, quiet space for thinking with .md files](https://github.com/zakirullin/files.md)

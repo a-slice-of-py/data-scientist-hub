@@ -79,3 +79,5 @@
 ## Hilbert spaces
 
 - [Hilbert Space Treating Functions As Vectors](https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors)
+- [An interactive guide to the Fourier transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+- [passagemath: General purpose mathematical software, modularized fork of SageMath](https://github.com/passagemath/passagemath?tab=readme-ov-file)

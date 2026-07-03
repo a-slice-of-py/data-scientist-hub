@@ -24,3 +24,8 @@
 - [starplot: star charts and maps in Python](https://github.com/steveberardi/starplot)
 - [geoviews: simple, concise geographical visualization in Python](https://github.com/holoviz/geoviews)
 - [Mapterhorn.com](https://mapterhorn.com/)
+- [gazetteer: A fast offline, boundary-aware reverse geocoding library in Python](https://github.com/SOORAJTS2001/gazetteer)
+- [geojson: Python bindings and utilities for GeoJSON](https://github.com/jazzband/geojson)
+- [Overture has fully embraced STAC](https://docs.overturemaps.org/blog/2026/02/11/stac/)
+- [Urban Taxonomy: Hierarchical morphotope classification](https://urbantaxonomy.org/)
+- [mappymatch: Pure-python package for map matching](https://github.com/NatLabRockies/mappymatch)

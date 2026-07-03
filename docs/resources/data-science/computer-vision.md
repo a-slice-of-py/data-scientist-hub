@@ -11,6 +11,7 @@
 - [Writing My Own Dithering Algorithm in Racket](https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket)
 - [Deepinv: PyTorch library for solving imaging inverse problems using deep learning](https://github.com/deepinv/deepinv)
 - [Lightly Studio: Curate, Annotate, and Manage Your Data](https://github.com/lightly-ai/lightly-studio)
+- [Floodfill algorithm in Python](https://mathspp.com/blog/floodfill-algorithm-in-python)
 
 ## Seam Carving
 
@@ -18,3 +19,6 @@
 - [Seam Carving explanation](https://karthikkaranth.me/blog/implementing-seam-carving-with-python/)
 - [Seam Carving explanation - II](https://andrewdcampbell.github.io/seam-carving)
 - [A super-fast Python implementation of seam carving algorithm for intelligent image resizing](https://github.com/li-plus/seam-carving)
+- [rembg: Tool to remove images background](https://github.com/danielgatis/rembg)
+- [LitePali: Lightweight ColPali-based document retrieval](https://litepali.com/)
+- [PixelRAG: The end of web parsing, the beginning of scalable pixel-native search](https://github.com/StarTrail-org/PixelRAG)

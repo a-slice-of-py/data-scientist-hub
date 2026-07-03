@@ -75,3 +75,6 @@
 - [CD for ML](https://towardsdatascience.com/continuous-delivery-for-machine-learning-8770390db18c)
 - [Our MLOps story: Production-Grade Machine Learning for Twelve Brands](https://towardsdatascience.com/our-mlops-story-production-grade-machine-learning-or-twelve-brands-a8727fd56c94)
 - [No, You Don't Need MLOps](https://becominghuman.ai/no-you-dont-need-mlops-5e1ce9fdaa4b)
+- [Demystifying table foundation models](https://blog.probabl.ai/demystifying-tfms)
+- [Scikit-learn Central: Packages and use cases](https://scikit-learn-central.probabl.ai/#catalog)
+- [timber: Ollama for classical ML, AOT compiler for XGBoost, LightGBM, scikit-learn models](https://github.com/kossisoroyce/timber)

@@ -5,3 +5,4 @@
 - [Joint usage of `hypothesis` and `pandera` to automatically create validation test examples](https://towardsdatascience.com/hypothesis-and-pandera-generate-synthesis-pandas-dataframe-for-testing-e5673c7bec2e)
 - [msgspec: a fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML](https://github.com/jcrist/msgspec)
 - [dataframely: a declarative, polars-native data frame validation library](https://github.com/Quantco/dataframely)
+- [Pydantic can do what?!](https://www.bitecode.dev/p/pydantic-can-do-what)

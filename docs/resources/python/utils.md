@@ -33,3 +33,5 @@
 - [sff: CLI for semantic search on your computer](https://github.com/do-me/sff)
 - [Temporary files and directories in Python](https://heitorpb.github.io/bla/pytmp/)
 - [wetlands: Conda Environment Manager, a library to execute code in isolated environments](https://github.com/arthursw/wetlands)
+- [param: Declarative parameters for robust Python classes and reactive programming](https://github.com/holoviz/param)
+- [calgebra: Set operations for calendar intervals](https://github.com/ashenfad/calgebra)

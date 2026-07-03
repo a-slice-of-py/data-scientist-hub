@@ -30,3 +30,4 @@
 - [Graph-based Time Series Clustering Visualisation Tools](https://github.com/boniolp/graphit)
 - [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series](https://helios2.mi.parisdescartes.fr/~themisp/series2graph/)
 - [Theseus: Navigating the Labyrinth of Time Series Anomaly Detection](https://github.com/boniolp/Theseus)
+- [SQL Fraud Patterns](https://analytics.fixelsmith.com/posts/sql-fraud-patterns/)

@@ -19,3 +19,4 @@
 - [Python Lenses Tutorial](https://python-lenses.readthedocs.io/en/latest/tutorial/intro.html)
 - [Python Lenses: A python lens library for manipulating deeply nested immutable structures](https://github.com/ingolemo/python-lenses)
 - [Accessors.jl Lenses](https://juliaobjects.github.io/Accessors.jl/stable/lenses/)
+- [Build a Finite State Machine in Python](https://belderbos.dev/blog/build-finite-state-machine-python/)

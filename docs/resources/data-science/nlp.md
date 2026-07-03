@@ -40,6 +40,10 @@
 - [pyparsing: Python library for creating PEG parsers](https://github.com/pyparsing/pyparsing)
 - [langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization](https://github.com/google/langextract)
 - [Linear Algebra Untranslatable Words](https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable%22)
+- [GLiNER2: Unified schema-based information extraction and text classification](https://github.com/fastino-ai/GLiNER2)
+- [Text classification with Python 3.14's zstd module](https://maxhalford.github.io/blog/text-classification-zstd/)
+- [Fast and easy Levenshtein distance using a Trie](https://stevehanov.ca/blog/fast-and-easy-levenshtein-distance-using-a-trie)
+- [mall: Use Large Language Models to run NLP operations against your data](https://mlverse.github.io/mall/)
 
 ## Topic modeling
 
@@ -56,3 +60,5 @@
 - [Turftopic: robust and fast topic models with sentence-transformers](https://github.com/x-tabdeveloping/turftopic)
 - [topicwizard: powerful topic model visualization in Python](https://github.com/x-tabdeveloping/topicwizard)
 - [Apache Solr: blazing-fast, open source, multi-modal search platform built on the full-text, vector, and geospatial search capabilities of Apache Lucene](https://solr.apache.org/)
+- [Tagging my blog posts with BERTopic and LLMs](https://vickiboykis.com/2026/05/18/tagging-my-blog-posts-with-bertopic-and-llms/)
+- [Topic modeling made just simple enough](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)

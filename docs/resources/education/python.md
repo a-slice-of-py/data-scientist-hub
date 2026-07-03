@@ -13,3 +13,5 @@
 - [Advanced Python Mastery: an exercise-driven course](https://github.com/dabeaz-course/python-mastery)
 - [Python Terminology: an unofficial glossary](https://www.pythonmorsels.com/terms/)
 - [Python Developer Tooling Handbook](https://pydevtools.com/blog/)
+- [Learn Python with Jupyter (PDF book)](https://www.learnpythonwithjupyter.com/assets/book/learn_python_with_jupyter.pdf)
+- [tricky-python: Tricky Python Quiz](https://github.com/adarshdigievo/tricky-python)

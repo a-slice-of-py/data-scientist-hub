@@ -14,3 +14,5 @@
 - ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
 - [ghostty: Fast, feature-rich, and cross-platform terminal emulator](https://github.com/ghostty-org/ghostty)
 - [helix: A post-modern modal text editor](https://github.com/helix-editor/helix)
+- [browsr: A pleasant file explorer in your terminal supporting all filesystems](https://github.com/juftin/browsr)
+- [zoxide: A smarter cd command](https://github.com/ajeetdsouza/zoxide)

@@ -7,6 +7,7 @@
 - [`freezegun`: let your Python tests travel through time](https://github.com/spulec/freezegun)
 - [time-machine: travel through time in your tests](https://github.com/adamchainz/time-machine)
 - [locust: write scalable load tests in plain Python](https://github.com/locustio/locust)
+- [Better Python tests with inline-snapshot](https://pydantic.dev/articles/inline-snapshot)
 
 ## Unit tests
 
@@ -18,3 +19,7 @@
 - [Assertions vs Exceptions](https://stefan.sofa-rockers.org/2018/04/16/assertions-and-exceptions/)
 - [Python Mocking in Production](https://towardsdatascience.com/python-mocking-in-production-1924953c8a14)
 - [pytest-testmon: Pytest plugin for test selection based on code changes](https://github.com/tarpas/pytest-testmon)
+- [bigO: Measures empirical computational complexity of functions](https://github.com/plasma-umass/bigO)
+- [Unit testing your code's performance: Big-O scaling](https://pythonspeed.com/articles/big-o-tests/)
+- [Python Big-O: Time and space complexity](https://pythoncomplexity.com/)
+- [profiling-explorer: Table-based exploration tool for Python profiling data](https://github.com/adamchainz/profiling-explorer)

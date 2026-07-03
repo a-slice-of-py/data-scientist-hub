@@ -7,3 +7,4 @@
 - [Interactive Plots Jupyter Draggable Points](https://stackoverflow.com/questions/30207912/interactive-plots-in-jupyter-ipython-notebook-with-draggable-points-that-call)
 - [Interactive Test Notebook](https://nbviewer.org/github/maojrs/ipynotebooks/blob/master/interactive_test.ipynb)
 - [Bqplot: 2-D plotting library for Project Jupyter](https://github.com/bqplot/bqplot)
+- [Wigglystuff: Celltour example](https://koaning.github.io/wigglystuff/examples/celltour/)

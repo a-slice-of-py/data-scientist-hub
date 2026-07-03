@@ -32,3 +32,5 @@
 - [Mastering DuckDB when you're used to pandas or Polars](https://labs.quansight.org/blog/duckdb-when-used-to-frames)
 - [Instant SQL is here: speedrun ad-hoc queries as you type](https://motherduck.com/blog/introducing-instant-sql/)
 - [Streaming Patterns with DuckDB](https://duckdb.org/2025/10/13/duckdb-streaming-patterns)
+- [duck_lineage: DuckDB extension that captures lineage events for executed queries](https://github.com/ilum-cloud/duck_lineage)
+- [The DuckDB Client-Server Protocol](https://duckdb.org/2026/05/12/quack-remote-protocol.html)

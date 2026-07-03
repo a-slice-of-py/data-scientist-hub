@@ -13,6 +13,10 @@
 - [Athena window functions (prestodb)](https://prestodb.io/docs/0.172/functions/window.html)
 - [Extend geospatial queries in Amazon Athena with UDFs and AWS Lambda](https://aws.amazon.com/blogs/big-data/extend-geospatial-queries-in-amazon-athena-with-udfs-and-aws-lambda/)
 
+## Bedrock
+
+- [Building Production-Ready AI Agents with Amazon Bedrock AgentCore](https://skillbuilder.aws/learn/4G7V8NQB5B/building-productionready-ai-agents-with-amazon-bedrock-agentcore/7DY16CFWTC)
+
 ## CDK
 
 - [AWS CDK best practices](https://aws.amazon.com/it/blogs/devops/best-practices-for-developing-cloud-applications-with-aws-cdk/)
@@ -69,6 +73,7 @@
 - [IAMbic: Cloud IAM as Code](https://github.com/noqdev/iambic)
 - [cedar-py: python bindings for the Cedar Policy project](https://github.com/k9securityio/cedar-py)
 - [AssumeRole vs. AssumeRole vs. PassRole](https://www.awholenother.com/2024/04/07/assumerole-vs-assumerole-vs-passrole.html)
+- [Learn AWS IAM](https://www.learnawsiam.com/)
 
 ## Lambda
 
@@ -77,10 +82,20 @@
 - [Lambda function with container image](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - [Optimizing Lambda functions](https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions)
 - [Comparing design approaches for building serverless microservices](https://aws.amazon.com/it/blogs/compute/comparing-design-approaches-for-building-serverless-microservices/)
+- [AWS Lambda introduces MicroVMs: Run isolated sandboxes with full lifecycle control](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/)
+
+## Local emulators
+
+- [ministack: Free, open-source local AWS emulator with 55+ services](https://github.com/ministackorg/ministack)
+- [floci: Light, fluffy, and always free AWS local emulator](https://github.com/floci-io/floci)
 
 ## MCP
 
 - [AWS MCP Servers: specialized MCP servers that bring AWS best practices directly to your development workflow](https://github.com/awslabs/mcp)
+
+## Neptune
+
+- [nx-neptune: Graph analytics for your data lake, powered by Amazon Neptune Analytics](https://github.com/awslabs/nx-neptune)
 
 ## Q Developer
 
@@ -106,3 +121,7 @@
 ## Shell
 
 - [AWS shell](https://github.com/awslabs/aws-shell)
+
+## Skills
+
+- [sample-well-architected-skills-and-steering: Skills that teach AI agents the AWS Well-Architected Framework](https://github.com/aws-samples/sample-well-architected-skills-and-steering)

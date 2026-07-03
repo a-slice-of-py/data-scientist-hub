@@ -11,3 +11,7 @@
 - [dia: a TTS model capable of generating ultra-realistic dialogue in one pass](https://github.com/nari-labs/dia)
 - [Python Audio Transcription: Convert Speech to Text Locally](https://www.pavlinbg.com/posts/python-speech-to-text-guide)
 - [Beets: Media library management system for obsessive music geeks](https://github.com/beetbox/beets)
+- [latent-musicvis: Music visualization via UMAP of stable audio latents](https://github.com/lyramakesmusic/latent-musicvis)
+- [pytheory: Music Theory for Humans](https://github.com/kennethreitz/pytheory)
+- [NumPy as Synth Engine](https://kennethreitz.org/essays/2026-03-29-numpy_as_synth_engine)
+- [renardo: Livecoding music with simple Python code](https://github.com/e-lie/renardo)
