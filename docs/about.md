@@ -24,6 +24,12 @@ You can find me on [GitHub](https://github.com/a-slice-of-py) or [Linkedin](http
 
 ## Changelog
 
+### v2.5
+
+_Release date: Oct 2, 2026_
+
+Migrated from mkdocs-material to [Zensical](https://zensical.org/)!
+
 ### v2.4
 
 _Release date: Dec 27, 2023_
