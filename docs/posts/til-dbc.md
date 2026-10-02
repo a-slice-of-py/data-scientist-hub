@@ -16,7 +16,7 @@ Inspired from it, I decided to write down a simple snippet to implement _precond
 
 <!-- more -->
 
-The final snippet, available also [here](/data-scientist-hub/resources/snippets/#dbc), is heavily inspired from [this old answer on Stack Overflow](https://stackoverflow.com/a/12151531) and the [source code](https://gitlab.com/leogermond/python-dbc/-/blob/main/dbc.py?ref_type=heads) linked to the previous blog post:
+The final snippet, available also [here](../resources/snippets/index.md#dbc), is heavily inspired from [this old answer on Stack Overflow](https://stackoverflow.com/a/12151531) and the [source code](https://gitlab.com/leogermond/python-dbc/-/blob/main/dbc.py?ref_type=heads) linked to the previous blog post:
 
 ```python
 import functools

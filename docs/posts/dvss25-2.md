@@ -33,7 +33,7 @@ Day 2 _on the fly_ notes of MaLGa's Data Visualization Summer School 2025.
 - willard brinton, "graphic methods for presenting facts"
 
 <figure>
-    <img src="/assets/dvss/minard.gif" alt="Uploaded image" />
+    <img src="../assets/dvss/minard.gif" alt="Uploaded image" />
     <figcaption>https://datavizblog.com/2013/05/26/dataviz-history-charles-minards-flow-map-of-napoleons-russian-campaign-of-1812-part-5/</figcaption>
 </figure>
 

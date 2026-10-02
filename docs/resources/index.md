@@ -4,7 +4,7 @@
         height="650"
         scrolling="no"
         frameborder="0"
-        src="/assets/dsh_datamapplot.html">
+        src="../assets/dsh_datamapplot.html">
 </iframe>
 
 !!! info

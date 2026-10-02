@@ -1,6 +1,6 @@
 # Utils
 
-![](/assets/aws-container.jfif)
+![](../../assets/aws-container.jfif)
 
 ## DevOps
 

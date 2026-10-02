@@ -27,4 +27,4 @@ Pandoc to the rescue! With an awesome one-liner provided among the documented [e
 pandoc --reference-doc reference.docx -o output.docx obsidian_vault/input.md
 ```
 
-Of course, the above one-liner has been already listed as a target into the project [Makefile](/data-scientist-hub/2020/06/11/a-brief-guide-to-gnu-make/).
+Of course, the above one-liner has been already listed as a target into the project [Makefile](make.md).
