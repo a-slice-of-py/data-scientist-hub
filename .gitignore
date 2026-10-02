@@ -5,4 +5,6 @@ __pycache__
 finder/potion/*
 .env
 docs/raw/
+raw/*
 .cache/
+site/*

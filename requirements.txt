@@ -1,7 +1,1 @@
-mkdocs>=1.6,<2
-mkdocs-material[imaging]==9.7.6
-mkdocs-awesome-pages-plugin==2.9.2
-pygments>=2.16
-pymdown-extensions>=10.2
-mkdocs-glightbox==0.4.0
-mkdocs-git-revision-date-localized-plugin==1.2.6
+zensical==0.0.67
