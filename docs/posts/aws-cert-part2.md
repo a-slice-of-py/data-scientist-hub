@@ -380,7 +380,7 @@ After some processing, I obtained the following JSON:
 
 From the data it's easy to extract a raw count of in-scope services for each area/certification, and visualize it with the following heatmap.
 
-![aws-cert-paths](../assets/heatmap.png)
+![aws-cert-paths](/assets/heatmap.png)
 
 Some high-level considerations:
 
@@ -392,7 +392,7 @@ Some high-level considerations:
 
 By comparing the raw count of in-scope services, however, we miss the potential overlapping between certifications. Visually speaking, we can be interested in a [Venn diagram](https://en.wikipedia.org/wiki/Venn_diagram) to catch the magnitude of common services. In the true spirit of TIL, I conversely chose to explore the awesome [UpSet framework](https://upset.app/), in particular through the [UpSetPlot](https://github.com/jnothman/UpSetPlot) implementation.
 
-![aws-cert-paths](../assets/upset.png)
+![aws-cert-paths](/assets/upset.png)
 
 ### Interactive tree
 
@@ -407,7 +407,7 @@ I already had all the data required for the answer, but I decided to take a furt
         height="650"
         scrolling="no"
         frameborder="0"
-        src="../../../../assets/tree-polyline.html">
+        src="/assets/tree-polyline.html">
 </iframe>
 
 Expanding a service area node you can see up to three children nodes:

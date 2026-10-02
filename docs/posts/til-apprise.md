@@ -17,8 +17,8 @@ After some research I came up with a simple solution based on a [pub-sub archite
 
 <!-- more -->
 
-![](../assets/apprise-only-light.svg#only-light)
-![](../assets/apprise-only-dark.svg#only-dark)
+![](/assets/apprise-only-light.svg#only-light)
+![](/assets/apprise-only-dark.svg#only-dark)
 
 As shown in the diagram, the solution consists in:
 

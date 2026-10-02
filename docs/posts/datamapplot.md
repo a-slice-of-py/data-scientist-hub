@@ -23,7 +23,7 @@ In this post, I detail the design, development and final result of an interactiv
         height="650"
         scrolling="no"
         frameborder="0"
-        src="../../../../assets/dsh_datamapplot.html">
+        src="/assets/dsh_datamapplot.html">
 </iframe>
 
 ## Motivations
@@ -100,14 +100,14 @@ After testing TF-IDF embeddings, I decided to take the chance to experiment with
 
     /// html | div[style='float: left; width: 50%;']
     <figure markdown="span">
-      ![](../assets/finder_tfidf.png){ width="300" }
+      ![](/assets/finder_tfidf.png){ width="300" }
       <figcaption>TF-IDF + LSA</figcaption>
     </figure>
     ///
 
     /// html | div[style='float: right;width: 50%;']
     <figure markdown="span">
-      ![](../assets/finder_potion.png){ width="300" }
+      ![](/assets/finder_potion.png){ width="300" }
       <figcaption>potion-base-8M</figcaption>
     </figure>
     ///
@@ -120,7 +120,7 @@ After testing TF-IDF embeddings, I decided to take the chance to experiment with
     
     > why are MCMC points closer to MCP, LLM, and SVM clusters than to probability data points?
     
-    ![](../assets/finder_acronym.png)
+    ![](/assets/finder_acronym.png)
 
     Then I suddenly realized that the embedding model captures the _semantics_ of input texts. But what kind of semantics does the sequence of letters "MCMC" represent on its own, without a broader and richer context?
     
@@ -176,7 +176,7 @@ Given that I was already coding into a marimo notebook, I chose to stay in the s
 === "Rendered layout"
 
     <figure markdown="span">      
-      ![](../assets/finder_search.png)
+      ![](/assets/finder_search.png)
     </figure>
 
 ## Visualization
@@ -204,7 +204,7 @@ As a last feature, I added a [`mo.ui.switch`](https://docs.marimo.io/api/inputs/
 ## Next steps
 
 <figure markdown="span">
-  ![](../assets/finder.png)
+  ![](/assets/finder.png)
   <figcaption>New search system layout</figcaption>
 </figure>
 

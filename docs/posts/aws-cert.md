@@ -21,7 +21,7 @@ Even if such a resource is more than welcome, I find that the big picture is not
 
 After having manually scraped the internet to get AWS Certification icons[^1], I started experimenting with `diagrams` and I finally came up with this result (click to enlarge).
 
-![aws-cert-paths](../assets/aws_certification_paths.png)
+![aws-cert-paths](/assets/aws_certification_paths.png)
 
 ??? note "Source code"
     ```python
@@ -160,7 +160,7 @@ With this skill tree available, some considerations are now straightforward:
 
 Finally, I tried to answer my original question: which certifications I should try pursuing first? To do so, it's useful reinterpreting the skill tree as a proper graph, e.g. by removing redundant edges and merging redundant nodes[^2]. After playing around with `diagrams` options, I highlighted the three paths that look closer to my experience so far (and thus represent the most probable choices I will invest time in): Cloud Data Engineer, Machine Learning Engineer and Application Architect.
 
-![aws-cert-paths-highlight](../assets/aws_certification_paths_highlight.png)
+![aws-cert-paths-highlight](/assets/aws_certification_paths_highlight.png)
 
 !!! success "Certifications to start with"
     Ignoring the [retiring certifications](https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches/), I think the first ones to pursue given my current role and interests should be chosen amongst Cloud Practitioner (to familiarize with exams process), and the "Associate trinity" made of Solutions Architect, Developer and Data Engineer.

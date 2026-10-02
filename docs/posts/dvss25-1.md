@@ -20,7 +20,7 @@ Day 1 _on the fly_ notes of [MaLGa's Data Visualization Summer School 2025](http
 ### Giorgia Lupi
 
 <figure>
-    <img src="../../../../assets/dvss/c2a44b70-d1ed-4d9e-bcaf-4360bd560d1d.jpg" alt="Uploaded image" />
+    <img src="/assets/dvss/c2a44b70-d1ed-4d9e-bcaf-4360bd560d1d.jpg" alt="Uploaded image" />
     <figcaption>https://www.informationisbeautifulawards.com/showcase/204-nobels-no-degrees</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ Day 1 _on the fly_ notes of [MaLGa's Data Visualization Summer School 2025](http
 ### Federica Fragapane
 
 <figure>
-    <img src="../../../../assets/dvss/320802c6-1634-48c5-9c8a-5b50ce54ec58.webp" alt="Uploaded image" />
+    <img src="/assets/dvss/320802c6-1634-48c5-9c8a-5b50ce54ec58.webp" alt="Uploaded image" />
     <figcaption>https://www.behance.net/gallery/70033395/The-Most-Violent-Cities/</figcaption>
 </figure>
 
@@ -41,14 +41,14 @@ Day 1 _on the fly_ notes of [MaLGa's Data Visualization Summer School 2025](http
 ### betterposter
 
 <figure>
-    <img src="../../../../assets/dvss/b751f589-13a5-4bbf-84ee-85a58c275b50.png" alt="Uploaded image" />
+    <img src="/assets/dvss/b751f589-13a5-4bbf-84ee-85a58c275b50.png" alt="Uploaded image" />
     <figcaption>https://mitcommlab.mit.edu/be/2023/09/27/toward-an-evenbetterposter-improving-the-betterposter-template/</figcaption>
 </figure>
 
 ### Our World In Data
 
 <figure>
-    <img src="../../../../assets/dvss/9e2ed84e-30f3-489a-a816-302714dfc450.png" alt="Uploaded image" />
+    <img src="/assets/dvss/9e2ed84e-30f3-489a-a816-302714dfc450.png" alt="Uploaded image" />
     <figcaption>https://ourworldindata.org/brief-history-of-ai</figcaption>
 </figure>
 
@@ -59,14 +59,14 @@ Day 1 _on the fly_ notes of [MaLGa's Data Visualization Summer School 2025](http
 ### John Snow
 
 <figure>
-    <img src="../../../../assets/dvss/31fb8f0a-e452-45fb-a644-9429d854ec82.jpg" alt="Uploaded image" />
+    <img src="/assets/dvss/31fb8f0a-e452-45fb-a644-9429d854ec82.jpg" alt="Uploaded image" />
     <figcaption>https://storymaps.arcgis.com/stories/59a6e61a0a61448699f67e29bd45714c</figcaption>
 </figure>
 
 ### Ed Hawkins
 
 <figure>
-    <img src="../../../../assets/dvss/a3fcdd24-662e-4112-9388-a50ddbedeaf4.png" alt="Uploaded image" />
+    <img src="/assets/dvss/a3fcdd24-662e-4112-9388-a50ddbedeaf4.png" alt="Uploaded image" />
     <figcaption>https://showyourstripes.info/</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ from ["Better Data Visualization"](https://cup.columbia.edu/book/better-data-vis
 - avoid useless visual elements (i.e. which don't convey additional information)
 
 <figure>
-    <img src="../../../../assets/dvss/b1b173fc-4a06-40cd-af73-aaa74aed329d.png" alt="Uploaded image" />
+    <img src="/assets/dvss/b1b173fc-4a06-40cd-af73-aaa74aed329d.png" alt="Uploaded image" />
     <figcaption>https://datavizproject.com/data-type/bar-chart/</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ from ["Better Data Visualization"](https://cup.columbia.edu/book/better-data-vis
 - [The misuse of colour in science communication](https://www.nature.com/articles/s41467-020-19160-7)
 
 <figure>
-    <img src="../../../../assets/dvss/825e60fb-7243-4930-9e9e-855d94d913c8.webp" alt="Uploaded image" />
+    <img src="/assets/dvss/825e60fb-7243-4930-9e9e-855d94d913c8.webp" alt="Uploaded image" />
     <figcaption>ADD_CAPTION_HERE</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ from ["Better Data Visualization"](https://cup.columbia.edu/book/better-data-vis
 - explain how to read the graph
 
 <figure>
-    <img src="../../../../assets/dvss/ce8249a9-0db9-47f7-8c25-7ecb223e8e81.webp" alt="Uploaded image" />
+    <img src="/assets/dvss/ce8249a9-0db9-47f7-8c25-7ecb223e8e81.webp" alt="Uploaded image" />
     <figcaption>https://nightingaledvs.com/connected-scatterplots-make-me-feel-dumb/</figcaption>
 </figure>
 
@@ -148,7 +148,7 @@ from ["Better Data Visualization"](https://cup.columbia.edu/book/better-data-vis
 ### Encoding information
 
 <figure>
-    <img src="../../../../assets/dvss/d19312da-b7cd-4dfa-a064-4be5c865e059.png" alt="Uploaded image" />
+    <img src="/assets/dvss/d19312da-b7cd-4dfa-a064-4be5c865e059.png" alt="Uploaded image" />
     <figcaption>https://www.datavizhandbook.info/</figcaption>
 </figure>
 
